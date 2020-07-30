@@ -1,0 +1,16 @@
+* text=auto eol=lf encoding=UTF-8
+
+# Generic
+*.js eol=lf encoding=UTF-8
+*.json eol=lf encoding=UTF-8
+*.md eol=lf encoding=UTF-8
+*.vue eol=lf encoding=UTF-8
+
+# Images
+*.gif binary
+*.ico binary
+*.jpg binary
+*.png binary
+*.svg eol=lf encoding=UTF-8
+
+.gitkeep export-ignore
