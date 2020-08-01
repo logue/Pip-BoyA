@@ -9,6 +9,11 @@ import './plugins/vuelayers';
 Vue.config.productionTip = false;
 
 new Vue({
+  data() {
+    return {
+      isMilitary: false,
+    };
+  },
   router,
   vuetify,
   i18n,

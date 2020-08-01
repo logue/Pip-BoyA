@@ -18,12 +18,9 @@
         v-if="primaryDrawer.type !== 'permanent'"
         @click.stop="primaryDrawer.model = !primaryDrawer.model"
       />
-      <v-toolbar-title>Vuetify</v-toolbar-title>
-      <v-spacer></v-spacer>
-
-      <v-btn icon @click="toggleThemeMode">
-        <v-icon>mdi-invert-colors</v-icon>
-      </v-btn>
+      <v-toolbar-title>Mappalachia for Web</v-toolbar-title>
+      <v-spacer />
+      <appbar />
     </v-app-bar>
 
     <v-main>
@@ -36,6 +33,7 @@
 
 <script>
 import Drawer from '@/components/Drawer.vue';
+import AppBar from '@/components/AppBar.vue';
 
 /**
  * App
@@ -44,6 +42,7 @@ import Drawer from '@/components/Drawer.vue';
 export default {
   components: {
     d: Drawer,
+    appbar: AppBar,
   },
   data: () => ({
     drawer: null,
@@ -54,12 +53,8 @@ export default {
       floating: false,
       mini: false,
     },
+    locales: ['ja', 'en'],
   }),
   created() {},
-  methods: {
-    toggleThemeMode() {
-      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-    },
-  },
 };
 </script>

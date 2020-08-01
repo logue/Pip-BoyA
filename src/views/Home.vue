@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <hello-world msg="Welcome to Your Vue.js App" />
+  <div class="map-container">
+    <map-viewer />
+    <explain :explains="explains" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import MapViewer from '@/components/MapViewer.vue';
+import Explain from '@/components/Explain.vue';
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
+    MapViewer,
+    Explain,
   },
 };
 </script>
+
+<style scoped>
+.map-container {
+  padding: 0;
+}
+</style>
