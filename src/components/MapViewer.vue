@@ -29,11 +29,13 @@
     <!-- app map -->
     <vl-map
       ref="map"
+      style="height: 600px;"
       :class="`map-viewer_map${isMoving ? ' is_move' : ''}`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
       @movestart="onMoveStart"
       @moveend="onMoveEnd"
+      @precompose="preCompose"
     >
       <vl-view
         ref="view"
@@ -64,8 +66,14 @@
           />
         </vl-layer-tile>
       </vl-layer-group>
-      <vl-layer-tile v-if="category" ref="category">
+
+      <vl-layer-tile
+        v-if="category"
+        ref="categoryLayer"
+        :visible="category !== null"
+      >
         <vl-source-xyz
+          ref="categoryLayerSource"
           :url="`/img/map/${category}/{z}/{x}/{y}.png`"
           :projection="projection"
           :min-zoom="minZoom"
@@ -116,6 +124,7 @@ export default {
   emits: ['move'],
   data() {
     this.$root.$data.isMilitary = false;
+    console.log(this);
     return {
       // View
       zoom: 2,
@@ -137,9 +146,26 @@ export default {
       // other
       isMoving: false,
       opacity: 1,
+      loading: false,
     };
   },
+  watch: {
+    category() {
+      const source = this.$refs.categoryLayer.getSource();
+      source.setUrl(null);
+      if (this.category) {
+        // Reflesh Layer
+        source.tileCache.expireCache({});
+        source.tileCache.clear();
+        source.setUrl(`/img/map/${this.category}/{z}/{x}/{y}.png`);
+      }
+      source.refresh();
+    },
+  },
   methods: {
+    onPreCompose(e) {
+      e.context.imageSmoothingEnabled = false;
+    },
     onMoveStart() {
       this.isMoving = true;
     },

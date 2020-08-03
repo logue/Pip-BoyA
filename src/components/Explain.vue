@@ -1,7 +1,7 @@
 <template>
   <v-card v-if="explains.length !== 0" dark class="explain">
     <v-card-title class="explain_title">
-      {{ 'legend' }}
+      {{ $t('legend') }}
       <v-spacer />
       <v-btn icon @click="toggleShrink">
         <v-icon v-if="!isShrink">mdi-window-minimize</v-icon>
@@ -13,9 +13,9 @@
         <li
           v-for="(item, index) in explains"
           :key="index"
-          :style="`explain_list_color_${colorset[index]}`"
+          :class="`explain_list_item explain_list_item_${colorset[index]}`"
         >
-          {{ item }}
+          {{ $t(item) }}
         </li>
       </ul>
     </v-card-text>
@@ -24,6 +24,24 @@
 
 <script>
 /** 凡例コンポーネント. */
+
+/** @type {Array} デフォルトの凡例の色 */
+const DEFAULT_COLORSET = [
+  'cyan',
+  'magenta',
+  'yellow',
+  'red',
+  'lime',
+  'blue',
+  'lightgray',
+  'orange',
+  'springgreen',
+  'pink',
+  'purple',
+  'darkgreen',
+  'maroon',
+];
+
 export default {
   props: {
     // 凡例
@@ -32,25 +50,11 @@ export default {
       type: Array,
       default: () => [],
     },
-    // デフォルトのカラー
+    // マーカーのカラー配列
     colorset: {
       required: false,
       type: Array,
-      default: () => [
-        'cyan',
-        'magenta',
-        'yellow',
-        'red',
-        'lime',
-        'blue',
-        'lightgray',
-        'orange',
-        'springgreen',
-        'pink',
-        'purple',
-        'darkgreen',
-        'maroon',
-      ],
+      default: () => DEFAULT_COLORSET,
     },
   },
   data() {
@@ -143,6 +147,7 @@ $outline_white: 1px 1px 1px rgba(255, 255, 255, 0.5),
         color: maroon;
       }
 
+      // アウトラインカラーを白にする
       &_green,
       &_red,
       &_blue,

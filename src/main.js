@@ -5,6 +5,7 @@ import i18n from './plugins/i18n';
 
 import vuetify from './plugins/vuetify';
 import './plugins/vuelayers';
+import './plugins/axios';
 
 Vue.config.productionTip = false;
 

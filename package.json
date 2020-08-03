@@ -9,12 +9,14 @@
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
     "vue-i18n": "^8.17.3",
     "vue-router": "^3.2.0",
     "vuelayers": "^0.11.27",
-    "vuetify": "^2.2.11"
+    "vuetify": "^2.3.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -71,7 +73,8 @@
           "printWidth": 80
         }
       ],
-      "vue/max-attributes-per-line": "off"
+      "vue/max-attributes-per-line": "off",
+      "vue/no-deprecated-v-bind-sync": "off"
     }
   },
   "browserslist": [
