@@ -29,13 +29,12 @@
     <!-- app map -->
     <vl-map
       ref="map"
-      style="height: 600px;"
       :class="`map-viewer_map${isMoving ? ' is_move' : ''}`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
       @movestart="onMoveStart"
       @moveend="onMoveEnd"
-      @precompose="preCompose"
+      @precompose="onPreCompose"
     >
       <vl-view
         ref="view"
@@ -67,11 +66,7 @@
         </vl-layer-tile>
       </vl-layer-group>
 
-      <vl-layer-tile
-        v-if="category"
-        ref="categoryLayer"
-        :visible="category !== null"
-      >
+      <vl-layer-tile ref="categoryLayer" :visible="category !== null">
         <vl-source-xyz
           ref="categoryLayerSource"
           :url="`/img/map/${category}/{z}/{x}/{y}.png`"
@@ -123,11 +118,9 @@ export default {
   },
   emits: ['move'],
   data() {
-    this.$root.$data.isMilitary = false;
-    console.log(this);
     return {
       // View
-      zoom: 2,
+      zoom: 1,
       center: [2048, -2048],
       rotation: 0,
       minResolution: 1,
@@ -150,32 +143,49 @@ export default {
     };
   },
   watch: {
+    // カテゴリ変更時に読み込む画像を変更
     category() {
       const source = this.$refs.categoryLayer.getSource();
+      // 一旦urlをアンロード
       source.setUrl(null);
       if (this.category) {
-        // Reflesh Layer
+        // カテゴリが指定されている場合
         source.tileCache.expireCache({});
         source.tileCache.clear();
+        // 新しい画像レイヤを指定
         source.setUrl(`/img/map/${this.category}/{z}/{x}/{y}.png`);
+        this.opacity = 0.5;
+      } else {
+        this.opacity = 1;
       }
+      // リフレッシュ
       source.refresh();
     },
   },
+  mounted() {
+    this.center = [
+      (this.$route.query.x ?? 2048) | 0,
+      (this.$route.query.y ?? -2048) | 0,
+    ];
+    this.zoom = (this.$route.query.z ?? 1) | 0;
+  },
   methods: {
     onPreCompose(e) {
-      e.context.imageSmoothingEnabled = false;
+      e.context.imageSmoothingEnabled = true;
+    },
+    reset() {
+      this.$refs.view.fit(mapExtent);
     },
     onMoveStart() {
       this.isMoving = true;
     },
     onMoveEnd(e) {
       this.isMoving = false;
-      this.$emit('move', {
+      this.$root.$data.location = {
         x: this.center[0] | 0,
         y: this.center[1] | 0,
-        zoom: this.zoom | 0,
-      });
+        z: this.zoom | 0,
+      };
     },
   },
 };
@@ -192,6 +202,8 @@ $crosshairs-width: 0.2rem;
 $crosshairs-length: 1.5rem;
 
 .map-viewer {
+  width: 100%;
+  height: 100%;
   .ol-zoom {
     top: 2rem !important;
   }
@@ -208,7 +220,6 @@ $crosshairs-length: 1.5rem;
   }
 
   &_map {
-    position: absolute;
     > :after,
     > :before {
       position: absolute;

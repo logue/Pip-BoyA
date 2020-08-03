@@ -44,17 +44,19 @@ export default {
     d: Drawer,
     appbar: AppBar,
   },
-  data: () => ({
-    drawer: null,
-    primaryDrawer: {
-      model: null,
-      type: 'default (no property)',
-      clipped: false,
-      floating: false,
-      mini: false,
-    },
-    locales: ['ja', 'en'],
-  }),
-  created() {},
+  data() {
+    document.title = this.$t('title');
+    return {
+      drawer: null,
+      primaryDrawer: {
+        model: null,
+        type: 'default (no property)',
+        clipped: false,
+        floating: false,
+        mini: false,
+      },
+      locales: ['ja', 'en'],
+    };
+  },
 };
 </script>

@@ -24,7 +24,7 @@
         <v-list-item-title>{{ $t('categories.flux') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item link to="/encounter">
+    <v-list-item link to="/encounters">
       <v-list-item-action>
         <v-icon>mdi-alert-decagram</v-icon>
       </v-list-item-action>
@@ -56,7 +56,7 @@
         <v-list-item-title>{{ $t('categories.ole') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item link to="/chemical">
+    <v-list-item link disabled>
       <v-list-item-action>
         <v-icon>mdi-medical-bag</v-icon>
       </v-list-item-action>
@@ -64,12 +64,20 @@
         <v-list-item-title>{{ $t('categories.chems') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item link to="/cooking">
+    <v-list-item link disabled>
       <v-list-item-action>
         <v-icon>mdi-food-fork-drink</v-icon>
       </v-list-item-action>
       <v-list-item-content>
         <v-list-item-title>{{ $t('categories.cooking') }}</v-list-item-title>
+      </v-list-item-content>
+    </v-list-item>
+    <v-list-item link to="/workbench">
+      <v-list-item-action>
+        <v-icon>mdi-hammer-wrench</v-icon>
+      </v-list-item-action>
+      <v-list-item-content>
+        <v-list-item-title>{{ $t('categories.workbench') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
   </v-list>
