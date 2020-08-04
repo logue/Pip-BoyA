@@ -11,8 +11,15 @@
   "legend": "凡例",
   "about": "%sについて",
   "close": "閉じる",
+  "copy": "コピー",
+  "copy-success": "この場所へのURIをクリップボードにコピーしました。",
+  "copy-failure": "コピーできませんでした。",
   "locale": "言語切り替え",
   "all": "全て",
+  "locales": {
+    "en": "英語",
+    "ja": "日本語"
+  },
   "categories": {
     "home": "ホーム",
     "flora": "植物",

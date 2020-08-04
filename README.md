@@ -1,5 +1,10 @@
 # pip-boya
 
+Fallout76 Map site.
+
+This repository does not contains map and marker data.
+
+
 ## Project setup
 ```
 npm install

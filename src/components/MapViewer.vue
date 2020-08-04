@@ -1,5 +1,5 @@
 <template>
-  <v-card class="map-viewer">
+  <div class="map-viewer">
     <v-system-bar lights-out absolute class="map-viewer_system-bar">
       <span class="mr-2">
         <v-icon>mdi-relative-scale</v-icon>
@@ -77,7 +77,28 @@
         />
       </vl-layer-tile>
     </vl-map>
-  </v-card>
+    <v-card v-if="explains.length !== 0" dark class="explain">
+      <v-card-title class="explain_title">
+        {{ $t('legend') }}
+        <v-spacer />
+        <v-btn icon @click="toggleShrink">
+          <v-icon v-if="!isShrink">mdi-window-minimize</v-icon>
+          <v-icon v-else>mdi-window-maximize</v-icon>
+        </v-btn>
+      </v-card-title>
+      <v-card-text v-if="!isShrink" class="extplain_body">
+        <ul class="explain_list">
+          <li
+            v-for="(item, index) in explains"
+            :key="index"
+            :class="`explain_list_item explain_list_item_${colorset[index]}`"
+          >
+            {{ $t(item) }}
+          </li>
+        </ul>
+      </v-card-text>
+    </v-card>
+  </div>
 </template>
 
 <script>
@@ -110,13 +131,25 @@ addProjection(customProj);
 
 export default {
   props: {
+    // カテゴリ
     category: {
       required: false,
       default: null,
       type: String,
     },
+    // 凡例
+    explains: {
+      required: false,
+      type: Array,
+      default: () => [],
+    },
+    // マーカーのカラー配列
+    colorset: {
+      required: false,
+      type: Array,
+      default: () => [],
+    },
   },
-  emits: ['move'],
   data() {
     return {
       // View
@@ -139,7 +172,7 @@ export default {
       // other
       isMoving: false,
       opacity: 1,
-      loading: false,
+      isShrink: false,
     };
   },
   watch: {
@@ -147,11 +180,17 @@ export default {
     category() {
       const source = this.$refs.categoryLayer.getSource();
       // 一旦urlをアンロード
-      source.setUrl(null);
+      try {
+        source.setUrl(null);
+      } catch (e) {
+        // TODO:
+      }
       if (this.category) {
         // カテゴリが指定されている場合
-        source.tileCache.expireCache({});
-        source.tileCache.clear();
+        if (source.tileCache) {
+          source.tileCache.expireCache({});
+          source.tileCache.clear();
+        }
         // 新しい画像レイヤを指定
         source.setUrl(`/img/map/${this.category}/{z}/{x}/{y}.png`);
         this.opacity = 0.5;
@@ -187,6 +226,9 @@ export default {
         z: this.zoom | 0,
       };
     },
+    toggleShrink() {
+      this.isShrink = !this.isShrink;
+    },
   },
 };
 </script>
@@ -201,7 +243,16 @@ $crosshairs-width: 0.2rem;
 // クロスヘアーの長さ
 $crosshairs-length: 1.5rem;
 
+// アウトライン生成
+@function outline($color, $width, $blur) {
+  @return $width $width $blur $color, -$width $width $blur $color,
+    $width -$width $blur $color, -$width -$width $blur $color,
+    $width 0px $blur $color, 0px $width $blur $color, -$width 0px $blur $color,
+    0px -$width $blur $color;
+}
+
 .map-viewer {
+  position: absolute;
   width: 100%;
   height: 100%;
   .ol-zoom {
@@ -250,6 +301,95 @@ $crosshairs-length: 1.5rem;
         opacity: 0.5;
       }
     }
+  }
+}
+
+.explain {
+  position: absolute;
+  background-color: rgba(52, 58, 64, 0.75) !important;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 0.5rem;
+  margin: 0;
+  z-index: 100;
+  text-shadow: outline(rgba(map-get($grey, 'darken-4'), 0.5), 1px, 1px);
+  &_title {
+    padding: 0 0.5rem !important;
+  }
+
+  &_body {
+    padding: 0.5rem;
+  }
+
+  &_list {
+    padding-inline-start: 1rem;
+    list-style-type: '♦ ';
+    columns: 2;
+    &_item {
+      font-size: 0.75rem;
+
+      &_cyan {
+        color: cyan;
+      }
+      &_magenta {
+        color: magenta;
+      }
+      &_yellow {
+        color: yellow;
+      }
+      &_red {
+        color: red;
+      }
+      &_lime {
+        color: lime;
+      }
+      &_blue {
+        color: blue;
+      }
+      &_lightgray {
+        color: lightgray;
+      }
+      &_orange {
+        color: orange;
+      }
+      &_springgreen {
+        color: springgreen;
+      }
+      &_pink {
+        color: pink;
+      }
+      &_purple {
+        color: purple;
+      }
+      &_darkgreen {
+        color: darkgreen;
+      }
+      &_maroon {
+        color: maroon;
+      }
+
+      // アウトラインカラーを白にする
+      &_green,
+      &_red,
+      &_blue,
+      &_darkgreen,
+      &_purple,
+      &_maroon {
+        text-shadow: outline(rgba(map-get($grey, 'lighten-4'), 0.5), 1px, 1px);
+      }
+    }
+  }
+}
+
+.theme--light {
+  .map-viewer {
+    background-color: map-get($grey, 'lighten-4');
+  }
+}
+
+.theme--dark {
+  .map-viewer {
+    background-color: map-get($grey, 'darken-4');
   }
 }
 </style>

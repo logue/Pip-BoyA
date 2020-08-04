@@ -15,6 +15,22 @@
     <v-btn icon @click="toggleThemeMode">
       <v-icon>mdi-invert-colors</v-icon>
     </v-btn>
+    <v-menu offset-y>
+      <template #activator="{on, attrs}">
+        <v-btn icon v-bind="attrs" v-on="on">
+          <v-icon>mdi-translate</v-icon>
+        </v-btn>
+      </template>
+      <v-list>
+        <v-list-item
+          v-for="locale in locales"
+          :key="locale"
+          @click="$i18n.locale = locale"
+        >
+          <v-list-item-title>{{ $t(`locales.${locale}`) }}</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-menu>
   </div>
 </template>
 
@@ -26,6 +42,11 @@ export default {
   components: {
     about: About,
     'get-link': GetLink,
+  },
+  data() {
+    return {
+      locales: Object.keys(this.$i18n.messages),
+    };
   },
   methods: {
     toggleThemeMode() {

@@ -30,6 +30,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "deepmerge": "^4.2.2",
+    "electron": "^9.1.2",
     "eslint": "^7.6.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-vuetify": "^0.6.1",

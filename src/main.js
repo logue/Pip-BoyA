@@ -28,6 +28,7 @@ new Vue({
         y: -2048,
         z: 1,
       },
+      loading: true,
     };
   },
   router,

@@ -22,7 +22,12 @@ const loadLocaleMessages = () => {
 };
 
 export default new VueI18n({
-  locale: process.env.VUE_APP_I18N_LOCALE || 'ja',
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
+  // デフォルトのロケールは、ブラウザの優先言語
+  locale:
+    (window.navigator.languages && window.navigator.languages[0]) ||
+    window.navigator.language ||
+    window.navigator.userLanguage ||
+    window.navigator.browserLanguage,
+  fallbackLocale: 'en',
   messages: loadLocaleMessages(),
 });

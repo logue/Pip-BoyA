@@ -1,17 +1,16 @@
 <template>
   <div class="map-container">
-    <map-viewer :category="category" />
-    <explain :explains="explains" :colorset="colorset" />
-    <v-overlay :value="loading">
-      <v-progress-circular indeterminate size="64"></v-progress-circular>
-    </v-overlay>
+    <map-viewer
+      :category="category"
+      :explains="explains"
+      :colorset="colorset"
+    />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import MapViewer from '@/components/MapViewer.vue';
-import Explain from '@/components/Explain.vue';
 
 const defaultColorset = [
   'cyan',
@@ -32,41 +31,57 @@ export default {
   name: 'Home',
   components: {
     MapViewer,
-    Explain,
   },
   data() {
     return {
+      // 表示カテゴリ
       category: null,
+      // 凡例
       explains: [],
-      colorset: defaultColorset,
-      loading: false,
+      // 凡例のカラーセット
+      colorset: [],
     };
   },
   watch: {
+    // カテゴリの値の変化を監視
     '$route.params.category'() {
-      this.loading = true;
-      const category = this.$route.params.category;
-      if (!category) {
+      this.setCategory();
+    },
+  },
+  mounted() {
+    this.setCategory();
+  },
+  methods: {
+    // カテゴリから凡例とカラーセットを取得
+    async setCategory() {
+      // ローディングを表示
+      this.$root.$data.loading = true;
+      // 現在のカテゴリを取得
+      this.category = this.$route.params.category;
+      if (!this.category) {
+        // カテゴリが空白だった場合は凡例とカラーセットを無効化
         this.explains = [];
-        this.colorset = defaultColorset;
-        this.category = null;
-        this.loading = false;
-        return;
+        this.colorset = [];
+        this.$root.$data.loading = false;
+        return null;
       }
-      this.axios.get(`/data/${category}.json`).then((response) => {
-        this.explains = response.data.explains;
-        this.colorset = response.data.colorset ?? defaultColorset;
-      });
-      this.category = category;
-      this.loading = false;
+      // カテゴリが存在する場合、カテゴリの凡例データの含まれたjsonから凡例の項目とカラーセットを取得
+      const response = await this.axios.get(`/data/${this.category}.json`);
+      // 凡例
+      this.explains = response.data.explains;
+      // カラーセット
+      this.colorset = response.data.colorset ?? defaultColorset;
+
+      // TODO: マーカー
+      // ローディングを隠す
+      this.$root.$data.loading = false;
     },
   },
 };
 </script>
 
-<style scoped>
+<style>
 .map-container {
-  padding: 0;
   width: 100%;
   height: 100%;
 }

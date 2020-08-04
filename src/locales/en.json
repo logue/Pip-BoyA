@@ -11,8 +11,15 @@
   "legend": "Legend",
   "about": "About %s",
   "close": "Close",
+  "copy": "Copy",
+  "copy-success": "The URI to this location was copied to the clipboard.",
+  "copy-failure": "Copy is failure.",
   "locale": "Change Locale",
   "all": "All",
+  "locales": {
+    "en": "English",
+    "ja": "Japanese"
+  },
   "categories": {
     "home": "Home",
     "flora": "Flora",

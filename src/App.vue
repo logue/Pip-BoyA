@@ -28,6 +28,10 @@
         <router-view />
       </v-fade-transition>
     </v-main>
+
+    <v-overlay :value="$root.$data.loading">
+      <v-progress-circular indeterminate size="64"></v-progress-circular>
+    </v-overlay>
   </v-app>
 </template>
 
