@@ -4,7 +4,7 @@ Fallout76 Map site.
 
 NOTICE:
 Images and data are not included in the repository due to its large size.
-—e—Ê‚ª‘å‚«‚¢‚Ì‚Å‰æ‘œ‚âƒf[ƒ^‚ÍƒŠƒ|ƒWƒgƒŠ‚ÉŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñB
+ï¿½eï¿½Ê‚ï¿½ï¿½å‚«ï¿½ï¿½ï¿½Ì‚Å‰æ‘œï¿½ï¿½fï¿½[ï¿½^ï¿½Íƒï¿½ï¿½|ï¿½Wï¿½gï¿½ï¿½ï¿½ÉŠÜ‚Ü‚ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
 ## Project setup
 ```
