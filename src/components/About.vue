@@ -1,18 +1,13 @@
 <template>
-  <v-dialog v-model="dialog" max-width="800" @keydown.esc="close">
+  <v-dialog v-model="dialog" max-width="800" light @keydown.esc="close">
     <v-card>
       <v-card-title>
         About
-        <v-spacer />
-        <v-btn icon @click="close">
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
       </v-card-title>
-
       <v-card-text>
         <section class="my-2">
           <h2>{{ about }}</h2>
-          <nl2br tag="p" :text="description" />
+          <nl2br tag="p" :text="$t('description')" />
         </section>
         <section class="my-2">
           <h2>Author</h2>
@@ -41,17 +36,31 @@
                   </v-btn>
                   <v-btn
                     icon
-                    color="black"
+                    color="indigo"
+                    @click="openLink('https://facebook.com/logue256')"
+                  >
+                    <v-icon>mdi-facebook</v-icon>
+                  </v-btn>
+                  <v-btn
+                    icon
+                    color="gray"
                     @click="openLink('https://github.com/logue')"
                   >
                     <v-icon>mdi-github</v-icon>
                   </v-btn>
                   <v-btn
                     icon
-                    color="indigo"
+                    color="deep-purple"
                     @click="openLink('https://steamcommunity.com/id/logue256/')"
                   >
                     <v-icon>mdi-steam</v-icon>
+                  </v-btn>
+                  <v-btn
+                    icon
+                    color="deep-orange"
+                    @click="openLink('https://www.reddit.com/user/logue256')"
+                  >
+                    <v-icon>mdi-reddit</v-icon>
                   </v-btn>
                 </v-card-actions>
               </div>
@@ -91,11 +100,21 @@
           </p>
         </section>
       </v-card-text>
+      <v-card-actions>
+        <v-spacer />
+        <v-btn text color="secondary" @click="close">
+          <v-icon left>mdi-close</v-icon>
+          {{ $t('close') }}
+        </v-btn>
+      </v-card-actions>
     </v-card>
   </v-dialog>
 </template>
 
 <script>
+/**
+ * About dialog
+ */
 import {sprintf} from 'sprintf-js';
 import Gravatar from 'vue-gravatar';
 import Nl2br from 'vue-nl2br';
@@ -109,7 +128,6 @@ export default {
     return {
       dialog: false,
       about: sprintf(this.$t('about'), this.$t('title')),
-      description: this.$t('description'),
     };
   },
   methods: {

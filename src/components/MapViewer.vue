@@ -1,16 +1,27 @@
 <template>
   <div class="map-viewer">
+    <!-- System Bar -->
     <v-system-bar lights-out absolute class="map-viewer_system-bar">
-      <span class="mr-2">
-        <v-icon>mdi-relative-scale</v-icon>
-        {{ (zoom | 0 )}}
-      </span>
-      <span class="mr-2">
-        <v-icon>mdi-crosshairs-gps</v-icon>
-        {{ [center[0] | 0, center[1] | 0] }}
-      </span>
+      <v-tooltip bottom>
+        <template #activator="{on, attrs}">
+          <span class="mr-2" v-bind="attrs" v-on="on">
+            <v-icon>mdi-relative-scale</v-icon>
+            {{ (zoom | 0 )}}
+          </span>
+        </template>
+        <span>{{ $t('zoom') }}</span>
+      </v-tooltip>
+      <v-tooltip bottom>
+        <template #activator="{on, attrs}">
+          <span class="mr-2" v-bind="attrs" v-on="on">
+            <v-icon>mdi-crosshairs-gps</v-icon>
+            {{ [center[0] | 0, center[1] | 0] }}
+          </span>
+        </template>
+        <span>{{ $t('projection') }}</span>
+      </v-tooltip>
     </v-system-bar>
-
+    <!-- Base map opacity slider -->
     <v-tooltip bottom>
       <template #activator="{on, attrs}">
         <v-slider
@@ -25,8 +36,7 @@
       </template>
       <span>{{ $t('opacity') }}</span>
     </v-tooltip>
-
-    <!-- app map -->
+    <!-- Map Container -->
     <vl-map
       ref="map"
       :class="`map-viewer_map${isMoving ? ' is_move' : ''}`"
@@ -34,7 +44,6 @@
       :load-tiles-while-interacting="true"
       @movestart="onMoveStart"
       @moveend="onMoveEnd"
-      @precompose="onPreCompose"
     >
       <vl-view
         ref="view"
@@ -45,7 +54,8 @@
         :resolutions="resolutions"
       />
 
-      <vl-layer-group :opacity="opacity">
+      <!-- Base map layers -->
+      <vl-layer-group ref="baseLayers" :opacity="opacity">
         <vl-layer-tile :visible="!$root.$data.isMilitary">
           <vl-source-xyz
             :url="'/img/map/base/{z}/{x}/{y}.png'"
@@ -66,7 +76,12 @@
         </vl-layer-tile>
       </vl-layer-group>
 
-      <vl-layer-tile ref="categoryLayer" :visible="category !== null">
+      <!-- Category map layer -->
+      <vl-layer-tile
+        ref="categoryLayer"
+        :visible="category !== null"
+        :opacity="1"
+      >
         <vl-source-xyz
           ref="categoryLayerSource"
           :url="`/img/map/${category}/{z}/{x}/{y}.png`"
@@ -76,8 +91,12 @@
           :tile-pixe-ratio="tilePixelRatio"
         />
       </vl-layer-tile>
+
+      <!-- markers are bellow -->
     </vl-map>
-    <v-card v-if="explains.length !== 0" dark class="explain">
+
+    <!-- Explain box -->
+    <v-card v-if="explains.length !== 0" shaped dark class="explain">
       <v-card-title class="explain_title">
         {{ $t('legend') }}
         <v-spacer />
@@ -86,7 +105,7 @@
           <v-icon v-else>mdi-window-maximize</v-icon>
         </v-btn>
       </v-card-title>
-      <v-card-text v-if="!isShrink" class="extplain_body">
+      <v-card-text v-if="!isShrink" class="explain_body">
         <ul class="explain_list">
           <li
             v-for="(item, index) in explains"
@@ -102,18 +121,21 @@
 </template>
 
 <script>
+/**
+ * Map Viewer and Explains Component
+ */
 import {addProjection, get} from 'ol/proj';
 import Projection from 'ol/proj/Projection';
 import TileGrid from 'ol/tilegrid/TileGrid';
 
 const mapExtent = [0.0, -4096.0, 4096.0, 0.0];
-const mapMinZoom = 1;
+const mapMinZoom = 0;
 const mapMaxZoom = 4;
 const mapMaxResolution = 0.5;
 const tileExtent = [0.0, -4096.0, 4096.0, 0.0];
 
 const mapResolutions = [];
-for (let z = 0; z <= mapMaxZoom; z++) {
+for (let z = mapMinZoom; z <= mapMaxZoom; z++) {
   mapResolutions.push(Math.pow(2, mapMaxZoom - z) * mapMaxResolution);
 }
 const mapTileGrid = new TileGrid({
@@ -165,19 +187,49 @@ export default {
       viewProjection: get('PIXELS'),
       // Map Tile
       projection: customProj.getCode(),
-      attributions: '2076 Vault-tec.',
       tileGrid: mapTileGrid,
       tilePixelRatio: 1.0,
       url: '/img/map/base/{z}/{x}/{y}.png',
-      // other
+      // detect map move
       isMoving: false,
+      // Base map layer opacity
       opacity: 1,
+      // Switch Explain box to maximize and minimize
       isShrink: false,
     };
   },
   watch: {
     // カテゴリ変更時に読み込む画像を変更
     category() {
+      this.updateCategoryLayer();
+    },
+  },
+  mounted() {
+    // Load location from QueryString.
+    this.center = [
+      (this.$route.query.x ?? 2048) | 0,
+      (this.$route.query.y ?? -2048) | 0,
+    ];
+    this.zoom = (this.$route.query.z ?? 1) | 0;
+  },
+  methods: {
+    // マップ移動開始時
+    onMoveStart() {
+      this.isMoving = true;
+    },
+    // マップ移動終了時
+    onMoveEnd(e) {
+      this.isMoving = false;
+      // グローバル変数の座標を更新
+      this.$root.$data.location = {
+        x: this.center[0] | 0,
+        y: this.center[1] | 0,
+        z: this.zoom | 0,
+      };
+    },
+    // カテゴリレイヤーを更新
+    updateCategoryLayer() {
+      // カテゴリ用レイヤーのソース
       const source = this.$refs.categoryLayer.getSource();
       // 一旦urlをアンロード
       try {
@@ -188,6 +240,7 @@ export default {
       if (this.category) {
         // カテゴリが指定されている場合
         if (source.tileCache) {
+          // 表示されている画像データとキャッシュを削除
           source.tileCache.expireCache({});
           source.tileCache.clear();
         }
@@ -200,32 +253,12 @@ export default {
       // リフレッシュ
       source.refresh();
     },
-  },
-  mounted() {
-    this.center = [
-      (this.$route.query.x ?? 2048) | 0,
-      (this.$route.query.y ?? -2048) | 0,
-    ];
-    this.zoom = (this.$route.query.z ?? 1) | 0;
-  },
-  methods: {
-    onPreCompose(e) {
-      e.context.imageSmoothingEnabled = true;
+    // 初期位置に戻る
+    resetLocation() {
+      this.center = [this.$route.query.x, this.$route.query.y];
+      this.zoom = this.$route.query.zoom;
     },
-    reset() {
-      this.$refs.view.fit(mapExtent);
-    },
-    onMoveStart() {
-      this.isMoving = true;
-    },
-    onMoveEnd(e) {
-      this.isMoving = false;
-      this.$root.$data.location = {
-        x: this.center[0] | 0,
-        y: this.center[1] | 0,
-        z: this.zoom | 0,
-      };
-    },
+    // 凡例の表示切り替え
     toggleShrink() {
       this.isShrink = !this.isShrink;
     },
@@ -256,7 +289,16 @@ $crosshairs-length: 1.5rem;
   width: 100%;
   height: 100%;
   .ol-zoom {
-    top: 2rem !important;
+    top: 2rem;
+  }
+  .ol-control {
+    button {
+      background-color: rgba(map-get($blue, 'base'), 0.5);
+    }
+    button:hover,
+    button:focus {
+      background-color: rgba(map-get($blue, 'darken-3'), 0.5);
+    }
   }
 
   &_system-bar {
@@ -305,20 +347,20 @@ $crosshairs-length: 1.5rem;
 }
 
 .explain {
+  color: map-get($grey, 'lighten-4');
+  text-shadow: outline(rgba(map-get($grey, 'darken-4'), 0.5), 1px, 1px);
   position: absolute;
-  background-color: rgba(52, 58, 64, 0.75) !important;
   right: 1rem;
   bottom: 1rem;
   padding: 0.5rem;
   margin: 0;
   z-index: 100;
-  text-shadow: outline(rgba(map-get($grey, 'darken-4'), 0.5), 1px, 1px);
   &_title {
     padding: 0 0.5rem !important;
   }
 
   &_body {
-    padding: 0.5rem;
+    padding: 0;
   }
 
   &_list {
@@ -384,12 +426,24 @@ $crosshairs-length: 1.5rem;
 .theme--light {
   .map-viewer {
     background-color: map-get($grey, 'lighten-4');
+    .ol-control {
+      background-color: rgba(map-get($grey, 'lighten-3'), 0.7);
+    }
+  }
+  .explain {
+    background-color: rgba(map-get($grey, 'lighten-1'), 0.7);
   }
 }
 
 .theme--dark {
   .map-viewer {
     background-color: map-get($grey, 'darken-4');
+    .ol-control {
+      background-color: rgba(map-get($grey, 'darken-3'), 0.7);
+    }
+  }
+  .explain {
+    background-color: rgba(map-get($grey, 'darken-3'), 0.7);
   }
 }
 </style>

@@ -1,9 +1,11 @@
 {
-  "description": "This site is a site where you can see the Appalachian map like Google Maps.\\nThe original Mappalachia project by u/AHeroicLlama on Reddit. \\n* This program does not use Google Maps.",
+  "description": "This site is a site where you can see the Appalachian map like Google Maps.\nThe original Mappalachia project by u/AHeroicLlama on Reddit. \n* This program does not use Google Maps.",
   "getUri": "Get URI for this location.",
   "projection": "Projection",
   "rotation": "Rotation",
   "title": "Mappalachia for Web",
+  "toggleLocation": "Toggle Location icon",
+  "atomic4peace": "Range of impact when hitting a nuclear missile",
   "toggleDarkMode": "Toggle Dark / Light Mode",
   "toggleMap": "Toggle Normal / Military Map",
   "zoom": "Zoom",
@@ -153,6 +155,18 @@
     "pin": {
       "pin": "Bobby Pin",
       "box": "Bobby Pin Box"
+    },
+    "collective": {
+      "bobblehead": "Bobblehead",
+      "magazine": "Magazine",
+      "caps-stash": "Caps Stash",
+      "ammo-box": "Ammo Box",
+      "duffle-bag": "Duffle Bag",
+      "explosives-box": "Explosives Box",
+      "medkit": "Med Kit",
+      "chem-cooler": "Chem Cooler",
+      "tool-chest": "Tool Chest",
+      "safe": "Safe"
     },
     "workbench": {
       "chemistry": "Chemistry",

@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="pip-boya">
     <v-navigation-drawer
       v-model="primaryDrawer.model"
       :clipped="primaryDrawer.clipped"
@@ -64,3 +64,26 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+::-webkit-scrollbar {
+  width: 0.75rem;
+  background-color: rgba(map-get($grey, 'lighten-1'), 1);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 0.25rem rgba(map-get($grey, 'base'), 0.1);
+  background-color: map-get($grey, 'darken-1');
+}
+
+.theme--dark.v-application {
+  background: map-get($grey, 'darken-4') !important;
+  color: map-get($grey, 'lighten-1') !important;
+}
+
+.theme--light.v-application {
+  background: map-get($grey, 'lighten-1') !important;
+  color: map-get($grey, 'darken-4') !important;
+}
+</style>

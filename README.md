@@ -2,8 +2,9 @@
 
 Fallout76 Map site.
 
-This repository does not contains map and marker data.
-
+NOTICE:
+Images and data are not included in the repository due to its large size.
+容量が大きいので画像やデータはリポジトリに含まれていません。
 
 ## Project setup
 ```
