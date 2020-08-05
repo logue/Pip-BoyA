@@ -1,4 +1,4 @@
-# pip-boya
+# pip-boya a.k.a Mappalachia for Web
 
 Fallout76 Map site.
 
