@@ -5,11 +5,11 @@ The file output by [MapTiler](https://www.maptiler.com/) shall be placed.
 
 Map images other than the base and military directories should be transparent PNGs because they will be displayed as overlays on top of these two maps.
 
-The directory name is associated with the json file name in the data directory.
+The directory name is associated with the json file name in the [data directory](../../data).
 
 ここにマップ画像を置く。baseディレクトリには通常のマップ画像のタイル、militaryには軍用のマップ画像のタイルを入れる。
 [MapTiler](https://maptiler.jp/)で出力したファイルを置くものとする。
 
 baseとmilitaryディレクトリ以外のマップ画像は、この２者のマップの上にオーバーレイで重ねて表示するため透過PNGにすること。
 
-ディレクトリ名は、dataディレクトリ内のjsonファイル名と紐付けられる。
+ディレクトリ名は、[dataディレクトリ](../../data)内のjsonファイル名と紐付けられる。
