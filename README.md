@@ -1,16 +1,13 @@
-# pip-boya a.k.a Mappalachia for Web
+# Pip-BoyA (Pip-Boy Application) a.k.a. Mappalachia for Web
 
-Fallout76 Map site.
+Fallout76 Map site. (or Standalone Application)
 
 https://fo76.logue.be/
 
 Thread (English):
 https://www.reddit.com/r/fo76/comments/i3zsw7/mappalachia_for_web/
 
-NOTICE:
-Images and data are not included in the repository due to its large size.
-
-ファイルの容量が肥大化してしまうためマップの画像ファイルとデータファイルは含まれていません。
+TRANSLATOR WANTED!
 
 ## Project setup
 ```
@@ -30,6 +27,21 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Export missing translation report.
+```
+npm run i18n:report
+```
+
+### Compiles and hot-reloads for Electron development
+```
+npm run electron:serve
+```
+
+### Compiles and minifies and export Electron production
+```
+npm run electron:build
 ```
 
 ### Customize configuration

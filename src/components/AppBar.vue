@@ -28,7 +28,7 @@
     </v-tooltip>
     <v-tooltip bottom>
       <template #activator="{on, attrs}">
-        <v-btn icon disabled v-bind="attrs" v-on="on" @click="toggleLocation">
+        <v-btn icon v-bind="attrs" v-on="on" @click="toggleLocation">
           <v-icon v-if="$root.$data.displayLocation">mdi-map-marker</v-icon>
           <v-icon v-else>mdi-map-marker-off</v-icon>
         </v-btn>
@@ -96,7 +96,7 @@ export default {
       this.$root.$data.isMilitary = !this.$root.$data.isMilitary;
     },
     toggleLocation() {
-      // TODO
+      this.$root.$data.displayLocation = !this.$root.$data.displayLocation;
     },
   },
 };

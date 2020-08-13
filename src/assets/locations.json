@@ -1,0 +1,2720 @@
+{
+  "markers": [
+    {
+      "id": "0000303A",
+      "name": "LocMountainsNationalRadioArrayLocation",
+      "type": "SatelliteMarker",
+      "x": 88243.73438,
+      "y": -37538.21875
+    },
+    {
+      "id": "00004152",
+      "name": "LocCranberryAbandonedBogTownWorkshopLocation",
+      "type": "WorkshopMarker",
+      "x": 181757.8281,
+      "y": -92985.35938
+    },
+    {
+      "id": "00004157",
+      "name": "LocMountainsBlackwaterMineLocation",
+      "type": "QuarryMarker",
+      "x": 28168.69141,
+      "y": -46520.17969
+    },
+    {
+      "id": "0000415D",
+      "name": "LocForestBlackMountainOrdnanceWorksLocation",
+      "type": "RadioactiveAreaMarker",
+      "x": -158837.8438,
+      "y": 108308.0391
+    },
+    {
+      "id": "00004162",
+      "name": "LocCranberryAlleghenyAsylumInteriorLocation",
+      "type": "GoodneighborMarker",
+      "x": 107048,
+      "y": -131600
+    },
+    {
+      "id": "00004165",
+      "name": "LocForestAaronholtHomesteadLocation",
+      "type": "FarmMarker",
+      "x": -125064,
+      "y": 177016
+    },
+    {
+      "id": "000041B4",
+      "name": "LocForestPoseidonEnergyLocation",
+      "type": "PowerPlantMarker",
+      "x": -132032.1406,
+      "y": -40971.77344
+    },
+    {
+      "id": "00005067",
+      "name": "LocForestNukaColaQuantumPlantLocation",
+      "type": "NukaColaQuantumPlant",
+      "x": -162144.6875,
+      "y": -53492.50391
+    },
+    {
+      "id": "00005069",
+      "name": "LocCranberryGeneralsSteakhouseLocation",
+      "type": "BrownstoneMarker",
+      "x": 182221.25,
+      "y": -60406.58594
+    },
+    {
+      "id": "0000506C",
+      "name": "LocForestCharlestonFireDeptLocation",
+      "type": "LowRiseMarker",
+      "x": -105302.6328,
+      "y": -68441.1875
+    },
+    {
+      "id": "00006D97",
+      "name": "LocCranberryWatogaLocation",
+      "type": "CityMarker",
+      "x": 145432,
+      "y": -138880
+    },
+    {
+      "id": "00007FDA",
+      "name": "LocMTRLakeReynoldsLocation",
+      "type": "AmusementParkMarker",
+      "x": -65792.94531,
+      "y": -120832.0391
+    },
+    {
+      "id": "0000B14F",
+      "name": "LocMountainsHopewellCaveLocation",
+      "type": "CaveMarker",
+      "x": 114046.8438,
+      "y": 114129.4531
+    },
+    {
+      "id": "0000B1D3",
+      "name": "LocCranberryAppalachianAntiquesLocation",
+      "type": "AppalachianAntiquesMarker",
+      "x": 119940.2188,
+      "y": -128863.3594
+    },
+    {
+      "id": "0000B237",
+      "name": "LocMTRBeckleyLocation",
+      "type": "TownMarker",
+      "x": -188170.6094,
+      "y": -123048.2109
+    },
+    {
+      "id": "0000FBC0",
+      "name": "LocForestVaultTecAgCenterLocation",
+      "type": "AgriculturalCenterMarker",
+      "x": -117195.4766,
+      "y": 19445.03516
+    },
+    {
+      "id": "00015553",
+      "name": "LocForestFlatwoodsLocation",
+      "type": "TownMarker",
+      "x": -105198.8828,
+      "y": 20755.63867
+    },
+    {
+      "id": "00018A9F",
+      "name": "LocMountainsBigBendTunnelLocation",
+      "type": "QuarryMarker",
+      "x": -44088,
+      "y": -120808
+    },
+    {
+      "id": "00018DD9",
+      "name": "LocForestOverlookCabinLocation",
+      "type": "CabinMarker",
+      "x": -49923.89063,
+      "y": -46968.3125
+    },
+    {
+      "id": "00018EC0",
+      "name": "LocMTRCamdenParkLocation",
+      "type": "AmusementParkMarker",
+      "x": -179636.9531,
+      "y": -77693.96875
+    },
+    {
+      "id": "00019230",
+      "name": "LocMountainsPleasantValleySkiResortLocation",
+      "type": "SkiResortMarker",
+      "x": 47368.36719,
+      "y": 15757.56445
+    },
+    {
+      "id": "000193A0",
+      "name": "LocMountainsPleasantValleyCabinsLocation",
+      "type": "RaiderSettlementMarker",
+      "x": 47386.79688,
+      "y": 25947.82617
+    },
+    {
+      "id": "000193A3",
+      "name": "LocMountainsTopOfTheWorldLocation",
+      "type": "TopOfTheWorldMarker",
+      "x": 39088.71094,
+      "y": 14204.22461
+    },
+    {
+      "id": "000193CA",
+      "name": "LocForestRiversideManorLocation",
+      "type": "MansionMarker",
+      "x": -70715.17969,
+      "y": -70220.05469
+    },
+    {
+      "id": "000193D4",
+      "name": "LocCranberryWatogaEstatesLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 139800,
+      "y": -145456
+    },
+    {
+      "id": "0001BAB6",
+      "name": "LocForestLookoutTower03Location",
+      "type": "LookoutTowerMarker",
+      "x": -44382.28125,
+      "y": 17240.00391
+    },
+    {
+      "id": "0001BABA",
+      "name": "LocMountainsLookoutTower04Location",
+      "type": "LookoutTowerMarker",
+      "x": 75960.14063,
+      "y": 17350.43359
+    },
+    {
+      "id": "0001BABE",
+      "name": "LocMountainsLookoutTower05Location",
+      "type": "LookoutTowerMarker",
+      "x": 107266.3516,
+      "y": 145967.8125
+    },
+    {
+      "id": "0001BDB2",
+      "name": "LocCranberryBigBendTunnelEastLocation",
+      "type": "QuarryMarker",
+      "x": 112944,
+      "y": -149488
+    },
+    {
+      "id": "000537D3",
+      "name": "LocSwampDyerChemicalLocation",
+      "type": "IndustrialDomeMarker",
+      "x": 176065.8438,
+      "y": 62784.4375
+    },
+    {
+      "id": "0005581D",
+      "name": "LocMTRAshforge01Location",
+      "type": "BunkerMarker",
+      "x": -108156.1094,
+      "y": -78437.8125
+    },
+    {
+      "id": "00057ABC",
+      "name": "LocMTRAshforge03Location",
+      "type": "BunkerMarker",
+      "x": -121064.6797,
+      "y": -133268.4219
+    },
+    {
+      "id": "00057C69",
+      "name": "LocCranberryCranberryGladeLocation",
+      "type": "PondLakeMarker",
+      "x": 192808,
+      "y": -120632
+    },
+    {
+      "id": "00058490",
+      "name": "LocSwampHavenChurchLocation",
+      "type": "ChurchMarker",
+      "x": 175895.3125,
+      "y": 43250.57813
+    },
+    {
+      "id": "0005AD20",
+      "name": "LocMountainsDevilsBackboneLocation",
+      "type": "LandmarkMarker",
+      "x": 80368,
+      "y": -88648
+    },
+    {
+      "id": "0005AD71",
+      "name": "LocSwampDollySodsWildernessLocation",
+      "type": "ForestedMarker",
+      "x": 155697.3125,
+      "y": 86001.49219
+    },
+    {
+      "id": "0005AED4",
+      "name": "LocForestLewisAndSonsFarmingSupplyLocation",
+      "type": "WoodShackMarker",
+      "x": -174756.5,
+      "y": -42304.64063
+    },
+    {
+      "id": "0005CC0B",
+      "name": "LocToxicPrickettsFortLocation",
+      "type": "CastleMarker",
+      "x": 60919.54688,
+      "y": 193668.4844
+    },
+    {
+      "id": "0005CC39",
+      "name": "LocToxicClarksburgLocation",
+      "type": "TownMarker",
+      "x": -24616.46875,
+      "y": 167985.5
+    },
+    {
+      "id": "0005D32C",
+      "name": "LocForestBillingsHomesteadLocation",
+      "type": "WorkshopMarker",
+      "x": -168635.1406,
+      "y": -11953.00391
+    },
+    {
+      "id": "0005D339",
+      "name": "LocForestHelvetiaLocation",
+      "type": "TownMarker",
+      "x": -36213.29297,
+      "y": 33151.46484
+    },
+    {
+      "id": "0005F072",
+      "name": "LocToxicClarksburgShootingClubLocation",
+      "type": "LowRiseMarker",
+      "x": -17389.13086,
+      "y": 166270.2188
+    },
+    {
+      "id": "0005F080",
+      "name": "LocForestCowSpotsCreameryLocation",
+      "type": "CowSpotsCreameryMarker",
+      "x": -124481.3281,
+      "y": -14415.23633
+    },
+    {
+      "id": "0005F801",
+      "name": "LocCranberryKerwoodMineLocation",
+      "type": "QuarryMarker",
+      "x": 130050.5547,
+      "y": -64741.44531
+    },
+    {
+      "id": "00060CC5",
+      "name": "LocSwampBerkeleySpringsLocation",
+      "type": "TownMarker",
+      "x": 128446.3516,
+      "y": 27640.45703
+    },
+    {
+      "id": "00060CC8",
+      "name": "LocSwampBerkeleySpringsWorkshopLocation",
+      "type": "WorkshopMarker",
+      "x": 122161.5625,
+      "y": 24309.65039
+    },
+    {
+      "id": "000616AC",
+      "name": "LocToxicTheCraterLocation",
+      "type": "CraterMarker",
+      "x": 26680.75586,
+      "y": 198624.5313
+    },
+    {
+      "id": "000616B5",
+      "name": "LocMountainsCultistCaveLocation",
+      "type": "CultistMarker",
+      "x": 88917.5,
+      "y": -138108.2031
+    },
+    {
+      "id": "00061767",
+      "name": "LocCranberryFloodedTrainyardLocation",
+      "type": "TrainTrackMark",
+      "x": 175687.5,
+      "y": -143005.3125
+    },
+    {
+      "id": "000617B9",
+      "name": "LocSwampFreddyFearsHouseOfScaresLocation",
+      "type": "BrownstoneMarker",
+      "x": 161105.8125,
+      "y": 152446.75
+    },
+    {
+      "id": "00063D80",
+      "name": "LocForestGorgeJunkyardLocation",
+      "type": "WorkshopMarker",
+      "x": -55634.53125,
+      "y": 91589.28125
+    },
+    {
+      "id": "0006D2FD",
+      "name": "LocToxicGraftonSteelLocation",
+      "type": "FactoryMarker",
+      "x": 18474.11523,
+      "y": 132207.1719
+    },
+    {
+      "id": "0006DE28",
+      "name": "LocToxicGraftonLocation",
+      "type": "TownMarker",
+      "x": -52128,
+      "y": 149376
+    },
+    {
+      "id": "0006DE3A",
+      "name": "LocMountainsNationalRadioResearchCenterLocation",
+      "type": "SatelliteMarker",
+      "x": 112631.2266,
+      "y": -43120.49609
+    },
+    {
+      "id": "00070365",
+      "name": "LocSwampHarpersFerryLocation",
+      "type": "TownMarker",
+      "x": 161322.5938,
+      "y": 3190.158447
+    },
+    {
+      "id": "0007039F",
+      "name": "LocToxicHemlockHolesLocation",
+      "type": "CountryClubMarker",
+      "x": -67099.83594,
+      "y": 183718.0313
+    },
+    {
+      "id": "00071A81",
+      "name": "LocForestHillfolkHotdogsLocation",
+      "type": "HouseTrailerMarker",
+      "x": -149543.3281,
+      "y": 22921.6543
+    },
+    {
+      "id": "00071AA2",
+      "name": "LocForestTygartWaterTreatmentLocation",
+      "type": "IndustrialDomeMarker",
+      "x": -32915.86328,
+      "y": 6401.098145
+    },
+    {
+      "id": "00071AC5",
+      "name": "LocSwampHuntersShackLocation",
+      "type": "WoodShackMarker",
+      "x": 160461.625,
+      "y": 126137.6484
+    },
+    {
+      "id": "0007201E",
+      "name": "LocMountainsHuntersvilleLocation",
+      "type": "TownMarker",
+      "x": 65688,
+      "y": -90680
+    },
+    {
+      "id": "000725F7",
+      "name": "LocToxicBlackBearLodgeLocation",
+      "type": "BrownstoneMarker",
+      "x": 2645.395508,
+      "y": 182860.5313
+    },
+    {
+      "id": "00072601",
+      "name": "LocMountainsBigFredsBBQShackLocation",
+      "type": "WoodShackMarker",
+      "x": 59671.19531,
+      "y": -18744.42188
+    },
+    {
+      "id": "00072606",
+      "name": "LocForestIsolatedCabinLocation",
+      "type": "CabinMarker",
+      "x": -88356.25781,
+      "y": 67998.90625
+    },
+    {
+      "id": "00072608",
+      "name": "LocCranberryWatogaShoppingPlazaLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 152607.9844,
+      "y": -137312.0313
+    },
+    {
+      "id": "0007260A",
+      "name": "LocCranberryWatogaMunicipalCenterLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 143840,
+      "y": -141320
+    },
+    {
+      "id": "0007260B",
+      "name": "LocCranberryAMSCorporateHQLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 148632,
+      "y": -139096
+    },
+    {
+      "id": "0007260C",
+      "name": "LocCranberryWatogaHighSchoolLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 153175.9688,
+      "y": -146584
+    },
+    {
+      "id": "0007260D",
+      "name": "LocCranberryWatogaEmergencyServicesLocation",
+      "type": "HospitalMarker",
+      "x": 141012.0313,
+      "y": -141039.8281
+    },
+    {
+      "id": "0007260E",
+      "name": "LocCranberryWatogaTransitHubLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 137471.9844,
+      "y": -141535.9844
+    },
+    {
+      "id": "0007260F",
+      "name": "LocMTRSalsGrindersLocation",
+      "type": "BrownstoneMarker",
+      "x": -189102.6406,
+      "y": -120430.9922
+    },
+    {
+      "id": "00072616",
+      "name": "LocCranberryWatogaCivicCenterExteriorLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 138432.4375,
+      "y": -136952.5781
+    },
+    {
+      "id": "00081B53",
+      "name": "LocForestVaultTecULocation",
+      "type": "VaultMarker",
+      "x": -8020.114746,
+      "y": 82071.07031
+    },
+    {
+      "id": "00081FC4",
+      "name": "LocCranberryBootleggersShackLocation",
+      "type": "WoodShackMarker",
+      "x": 165778.8906,
+      "y": -83622.78125
+    },
+    {
+      "id": "00081FC5",
+      "name": "LocMTRGarrahanEstateLocation",
+      "type": "HighTechBuildingMarker",
+      "x": -73536,
+      "y": -152192
+    },
+    {
+      "id": "00081FCD",
+      "name": "LocMTRBurningMineLocation",
+      "type": "QuarryMarker",
+      "x": -84358.00781,
+      "y": -102236.2656
+    },
+    {
+      "id": "00083A7A",
+      "name": "LocMountainsRelayTower01Location",
+      "type": "RadioTowerMarker",
+      "x": 78399.82031,
+      "y": -160560.9688
+    },
+    {
+      "id": "00083EFF",
+      "name": "LocMountainsGarrahanHQLocation",
+      "type": "OfficeMarker",
+      "x": -73687.78906,
+      "y": -160896.0313
+    },
+    {
+      "id": "00083F01",
+      "name": "LocMountainsHornwrightEstateLocation",
+      "type": "HighTechBuildingMarker",
+      "x": -56896,
+      "y": -149056
+    },
+    {
+      "id": "00085AC1",
+      "name": "LocMTRAshforge02Location",
+      "type": "BunkerMarker",
+      "x": -67522.42188,
+      "y": -101460.3125
+    },
+    {
+      "id": "000863F2",
+      "name": "LocForestAVRMedicalCenterLocation",
+      "type": "HospitalMarker",
+      "x": -114894.3984,
+      "y": -55735.30078
+    },
+    {
+      "id": "0008CCC9",
+      "name": "LocForestMorgantownAirportLocation",
+      "type": "AirfieldMarker",
+      "x": -19704.88086,
+      "y": 101313.25
+    },
+    {
+      "id": "0008CD51",
+      "name": "LocForestMorgantownTrainyardLocation",
+      "type": "TrainTrackMark",
+      "x": -30924.97852,
+      "y": 91603.27344
+    },
+    {
+      "id": "0008CD54",
+      "name": "LocForestMamaDolceProcessingLocation",
+      "type": "FactoryMarker",
+      "x": -15851.26953,
+      "y": 84461.77344
+    },
+    {
+      "id": "0008DFF8",
+      "name": "LocToxicEasternRegionalPenLocation",
+      "type": "GoodneighborMarker",
+      "x": -29105.90039,
+      "y": 127398.5391
+    },
+    {
+      "id": "0008EDB2",
+      "name": "LocForestLakesideCabinsLocation",
+      "type": "WorkshopMarker",
+      "x": -61107.10547,
+      "y": -25872.2168
+    },
+    {
+      "id": "0009056A",
+      "name": "LocMTRLewisburgLocation",
+      "type": "TownMarker",
+      "x": -59969.75,
+      "y": -111602.3438
+    },
+    {
+      "id": "00090576",
+      "name": "LocMountainsUncannyCavernsLocation",
+      "type": "CaveMarker",
+      "x": -41527.92188,
+      "y": -89947.40625
+    },
+    {
+      "id": "00090626",
+      "name": "LocForestSunshineMeadowsLocation",
+      "type": "WorkshopMarker",
+      "x": -138578.0469,
+      "y": 28355.74219
+    },
+    {
+      "id": "00090652",
+      "name": "LocForestGreenCountryLodgeLocation",
+      "type": "LowRiseMarker",
+      "x": -101049.0625,
+      "y": 28681.85547
+    },
+    {
+      "id": "00091EF6",
+      "name": "LocMountainsMiddleMountainCabinsLocation",
+      "type": "CabinMarker",
+      "x": 46489.59375,
+      "y": -37820.73438
+    },
+    {
+      "id": "00091F06",
+      "name": "LocForestGregsMineSupplyLocation",
+      "type": "LowRiseMarker",
+      "x": -22062.01563,
+      "y": 48319.32422
+    },
+    {
+      "id": "00092028",
+      "name": "LocMountainsMinersMonumentLocation",
+      "type": "SancHillsMarker",
+      "x": -28867.76172,
+      "y": -82873.38281
+    },
+    {
+      "id": "00092220",
+      "name": "LocMountainsMonongahMineLocation",
+      "type": "QuarryMarker",
+      "x": 58020.375,
+      "y": 111115.4688
+    },
+    {
+      "id": "0009394E",
+      "name": "LocMountainsMonongahPowerPlantLocation",
+      "type": "PowerPlantMarker",
+      "x": 39088,
+      "y": 74024
+    },
+    {
+      "id": "000939CF",
+      "name": "LocMountainsRGProcessingServicesLocation",
+      "type": "IndustrialDomeMarker",
+      "x": 2637.355713,
+      "y": -121061.2734
+    },
+    {
+      "id": "00093ABF",
+      "name": "LocMountainsMonongahLocation",
+      "type": "TownMarker",
+      "x": 56136,
+      "y": 84520
+    },
+    {
+      "id": "00093ADF",
+      "name": "LocMountainsColKelleyMonumentLocation",
+      "type": "SancHillsMarker",
+      "x": 31672.82031,
+      "y": 149671.875
+    },
+    {
+      "id": "00093BC9",
+      "name": "LocMTRMountBlairLocation",
+      "type": "WorkshopMarker",
+      "x": -130864,
+      "y": -101848
+    },
+    {
+      "id": "00093BF2",
+      "name": "LocMTRMountBlairTrainyardLocation",
+      "type": "TrainTrackMark",
+      "x": -132583.4219,
+      "y": -121599.5938
+    },
+    {
+      "id": "0009530B",
+      "name": "LocForestAlpineRiverCabinsLocation",
+      "type": "CabinMarker",
+      "x": -127209.7266,
+      "y": 53800.49219
+    },
+    {
+      "id": "00095313",
+      "name": "LocMountainsMountainsideBBLocation",
+      "type": "WoodShackMarker",
+      "x": 7455.433105,
+      "y": -100349.6797
+    },
+    {
+      "id": "00095334",
+      "name": "LocMountainsNewAppalachianCentralTrainyardLocation",
+      "type": "TrainTrackMark",
+      "x": 13435.03223,
+      "y": -21412.56836
+    },
+    {
+      "id": "000955B4",
+      "name": "LocSwampThunderMountainPowerPlantLocation",
+      "type": "PowerPlantMarker",
+      "x": 192590.0938,
+      "y": 98395.03906
+    },
+    {
+      "id": "000969F1",
+      "name": "LocToxicPhilippiBattlefieldCemeteryLocation",
+      "type": "GraveyardMarker",
+      "x": 38981.65234,
+      "y": 171175.7031
+    },
+    {
+      "id": "00096A01",
+      "name": "LocForestNewRiverGorgeResortLocation",
+      "type": "CabinMarker",
+      "x": -81063.09375,
+      "y": 12837.59473
+    },
+    {
+      "id": "00096A60",
+      "name": "LocMountainsPalaceoftheWindingPathLocation",
+      "type": "PalaceWindingPathMarker",
+      "x": 57571.21094,
+      "y": 164802.0625
+    },
+    {
+      "id": "00096AA6",
+      "name": "LocMountainsObservatoryLocation",
+      "type": "ObservatoryMarker",
+      "x": 79507.64844,
+      "y": 73912.53906
+    },
+    {
+      "id": "00096AAB",
+      "name": "LocForestOrwellOrchardsLocation",
+      "type": "ForestedMarker",
+      "x": -129767,
+      "y": -3179.768555
+    },
+    {
+      "id": "00096AB8",
+      "name": "LocForestBoltonGreensLocation",
+      "type": "CountryClubMarker",
+      "x": 10567.83789,
+      "y": 58039.94922
+    },
+    {
+      "id": "00096AC9",
+      "name": "LocForestPointPleasantLocation",
+      "type": "TownMarker",
+      "x": -176637.7344,
+      "y": 74855.51563
+    },
+    {
+      "id": "00096B6B",
+      "name": "LocForestCampMcClintockLocation",
+      "type": "MilitaryBaseMarker",
+      "x": -69223.63281,
+      "y": -12781.3252
+    },
+    {
+      "id": "00096B94",
+      "name": "LocForestRelayTower02Location",
+      "type": "RadioTowerMarker",
+      "x": -6315.532715,
+      "y": 34602.03516
+    },
+    {
+      "id": "00096FB0",
+      "name": "LocMountainsRelayTower03Location",
+      "type": "RadioTowerMarker",
+      "x": -45863.33984,
+      "y": -84858.42969
+    },
+    {
+      "id": "00097113",
+      "name": "LocMountainsRelayTower04Location",
+      "type": "RadioTowerMarker",
+      "x": 105335.5469,
+      "y": 88145.89844
+    },
+    {
+      "id": "000984A6",
+      "name": "LocMTRRelayTower05Location",
+      "type": "RadioTowerMarker",
+      "x": -132480.1875,
+      "y": -72651.52344
+    },
+    {
+      "id": "000985FC",
+      "name": "LocForestRelayTower06Location",
+      "type": "RadioTowerMarker",
+      "x": -119286.4609,
+      "y": 37573.09766
+    },
+    {
+      "id": "0009A013",
+      "name": "LocForestOhioRiverAdventuresLocation",
+      "type": "RaiderMarker",
+      "x": -187831.0156,
+      "y": -32301.66797
+    },
+    {
+      "id": "0009A021",
+      "name": "LocCranberryRangerDistrictOfficeLocation",
+      "type": "LowRiseMarker",
+      "x": 149722.8906,
+      "y": -90368.4375
+    },
+    {
+      "id": "0009A02B",
+      "name": "LocMountainsLookoutTower01Location",
+      "type": "LookoutTowerMarker",
+      "x": -27597.53125,
+      "y": -55147.5
+    },
+    {
+      "id": "0009A033",
+      "name": "LocMountainsRedRocketMegaStopLocation",
+      "type": "WorkshopMarker",
+      "x": 137392.375,
+      "y": 148799.6563
+    },
+    {
+      "id": "0009A04A",
+      "name": "LocForestGiantTeapotLocation",
+      "type": "TeapotMarker",
+      "x": -131984.4844,
+      "y": -29819.49414
+    },
+    {
+      "id": "0009A054",
+      "name": "LocMountainsPumpkinHouseLocation",
+      "type": "PumpkinMarker",
+      "x": 126173.3984,
+      "y": 133518.5938
+    },
+    {
+      "id": "0009A094",
+      "name": "LocForestLandviewLighthouseLocation",
+      "type": "LighthouseMarker",
+      "x": -75689.17969,
+      "y": 75399.71875
+    },
+    {
+      "id": "0009A0B1",
+      "name": "LocCranberryRobCoResearchCenterLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 200091.5156,
+      "y": -64897.75
+    },
+    {
+      "id": "0009A0CA",
+      "name": "LocForestKanawhaCountyCemeteryLocation",
+      "type": "CultistMarker",
+      "x": -176697.5625,
+      "y": -24064.56055
+    },
+    {
+      "id": "0009A0CE",
+      "name": "LocMountainsSenecaRocksLocation",
+      "type": "LandmarkMarker",
+      "x": 66176,
+      "y": 53120
+    },
+    {
+      "id": "0009A120",
+      "name": "LocForestWhitePowderWinterSportsLocation",
+      "type": "SkiResortMarker",
+      "x": -949.519104,
+      "y": 18367.95898
+    },
+    {
+      "id": "0009A124",
+      "name": "LocMountainsMonongahOverlookLocation",
+      "type": "OverlookMarker",
+      "x": 43461.26563,
+      "y": 104169.6953
+    },
+    {
+      "id": "0009A15B",
+      "name": "LocMountainsSugarGroveLocation",
+      "type": "SatelliteMarker",
+      "x": 118972.75,
+      "y": -15204.35742
+    },
+    {
+      "id": "0009A187",
+      "name": "LocForestSummersvilleLocation",
+      "type": "TownMarker",
+      "x": -44470.98828,
+      "y": -17939.60547
+    },
+    {
+      "id": "0009A214",
+      "name": "LocForestSummersvilleDocksLocation",
+      "type": "PierMarker",
+      "x": -70892.51563,
+      "y": -44187.16797
+    },
+    {
+      "id": "0009A248",
+      "name": "LocForestNewGadLocation",
+      "type": "TownRuinsMarker",
+      "x": -58421.61328,
+      "y": -38561.67188
+    },
+    {
+      "id": "0009A258",
+      "name": "LocForestTorranceHouseLocation",
+      "type": "MansionMarker",
+      "x": -55628.33984,
+      "y": -61977.22656
+    },
+    {
+      "id": "0009A35A",
+      "name": "LocSwampSurvivalTrainingCenterLocation",
+      "type": "OfficeMarker",
+      "x": 160282.2031,
+      "y": -39098.39063
+    },
+    {
+      "id": "0009A3A6",
+      "name": "LocSwampSundayBrothersCabinLocation",
+      "type": "CabinMarker",
+      "x": 138231.6563,
+      "y": 1426.198242
+    },
+    {
+      "id": "0009A3EE",
+      "name": "LocForestSuttonLocation",
+      "type": "WorkshopMarker",
+      "x": -60225.91406,
+      "y": 24458.29688
+    },
+    {
+      "id": "0009A447",
+      "name": "LocMTRTheRustyPickLocation",
+      "type": "PlayerLocMarker",
+      "x": -113348.7578,
+      "y": -74719.90625
+    },
+    {
+      "id": "0009A44A",
+      "name": "LocToxicPioneerScoutCampLocation",
+      "type": "CabinMarker",
+      "x": 3599.883789,
+      "y": 137867.3281
+    },
+    {
+      "id": "0009A452",
+      "name": "LocWhitespringTheWhitespringResortLocation",
+      "type": "WhitespringResort",
+      "x": 6663.169434,
+      "y": -52810.28516
+    },
+    {
+      "id": "0009A454",
+      "name": "LocWhitespringTheWhitespringBunkerLocation",
+      "type": "BunkerMarker",
+      "x": 4696.736328,
+      "y": -64373.61719
+    },
+    {
+      "id": "0009A45A",
+      "name": "LocWhitespringTheWhitespringGolfLocation",
+      "type": "CountryClubMarker",
+      "x": -12672.00195,
+      "y": -51488
+    },
+    {
+      "id": "0009A6C7",
+      "name": "LocSwampTreehouseVillageLocation",
+      "type": "TownRuinsMarker",
+      "x": 162312.7031,
+      "y": 45172.33594
+    },
+    {
+      "id": "000A1B7B",
+      "name": "LocForestTylerCountyFairgroundsLocation",
+      "type": "AmusementParkMarker",
+      "x": -147238.125,
+      "y": 142781.5156
+    },
+    {
+      "id": "000A1B86",
+      "name": "LocForestLookoutTower02Location",
+      "type": "LookoutTowerMarker",
+      "x": -84257.48438,
+      "y": 99866.41406
+    },
+    {
+      "id": "000A7297",
+      "name": "LocForestGilmanLumberLocation",
+      "type": "FactoryMarker",
+      "x": -104499.4609,
+      "y": 69616.34375
+    },
+    {
+      "id": "000AF652",
+      "name": "Vault94ExteriorLocation",
+      "type": "Vault94Marker",
+      "x": 145156.0625,
+      "y": 137186.125
+    },
+    {
+      "id": "000B1051",
+      "name": "76CharGen05Location",
+      "type": "Vault76Marker",
+      "x": -103762.8828,
+      "y": 94019.17969
+    },
+    {
+      "id": "000B1A65",
+      "name": "Vault96ExteriorLocation",
+      "type": "Vault96Marker",
+      "x": 31361.76367,
+      "y": -160240.5469
+    },
+    {
+      "id": "000B1D44",
+      "name": "LocToxicWavyWillardsWaterparkLocation",
+      "type": "AmusementParkMarker",
+      "x": -29820.29297,
+      "y": 193976.2813
+    },
+    {
+      "id": "000B3F2C",
+      "name": "LocMTRWelchLocation",
+      "type": "TownRuinsMarker",
+      "x": -152527.7344,
+      "y": -133755.2656
+    },
+    {
+      "id": "000B71BF",
+      "name": "LocMountainsWendigoCaveLocation",
+      "type": "CaveMarker",
+      "x": 87360,
+      "y": 43120
+    },
+    {
+      "id": "00109B9D",
+      "name": "LocMountainsWestTekResearchLocation",
+      "type": "HighTechBuildingMarker",
+      "x": 88526.14063,
+      "y": -60624.625
+    },
+    {
+      "id": "00109BAB",
+      "name": "LocForestWilsonBrothersAutoRepairLocation",
+      "type": "BrownstoneMarker",
+      "x": -55612.98047,
+      "y": 111421.5547
+    },
+    {
+      "id": "00109D2D",
+      "name": "LocMountainsFederalDisposalFieldLocation",
+      "type": "WorkshopMarker",
+      "x": -509.849487,
+      "y": -154826.1094
+    },
+    {
+      "id": "00109E80",
+      "name": "LocMountainsEmmettDisposalSiteLocation",
+      "type": "RadioactiveAreaMarker",
+      "x": 56146.08594,
+      "y": -51807.93359
+    },
+    {
+      "id": "00109EA4",
+      "name": "LocMountainsConvertedMunitionsFactoryLocation",
+      "type": "WorkshopMarker",
+      "x": 111171.4375,
+      "y": 181849.7813
+    },
+    {
+      "id": "00109ED8",
+      "name": "LocSwampDabneyHomesteadLocation",
+      "type": "WorkshopMarker",
+      "x": 187357.8125,
+      "y": -24214.28906
+    },
+    {
+      "id": "0010A073",
+      "name": "LocMountainsSunnytopSkiLanesLocation",
+      "type": "SkiResortMarker",
+      "x": 85612.69531,
+      "y": 131252.3281
+    },
+    {
+      "id": "0010A076",
+      "name": "LocMountainSonsOfDaneCompoundLocation",
+      "type": "OfficeMarker",
+      "x": 102917.4063,
+      "y": 95313.50781
+    },
+    {
+      "id": "0010A0EB",
+      "name": "LocToxicGraftonDamLocation",
+      "type": "DamMarker",
+      "x": 7850.048828,
+      "y": 118972.1016
+    },
+    {
+      "id": "0010A1CB",
+      "name": "LocSwampCrevasseDamLocation",
+      "type": "DamMarker",
+      "x": 182753.9219,
+      "y": 80130.82031
+    },
+    {
+      "id": "0010C98C",
+      "name": "LocForestMorgantownHighSchoolLocation",
+      "type": "LowRiseMarker",
+      "x": 2135.702881,
+      "y": 94128.96875
+    },
+    {
+      "id": "0010CC9C",
+      "name": "LocForestHornwrightIndustrialHQLocation",
+      "type": "HighTechBuildingMarker",
+      "x": -108174.9063,
+      "y": -46784.39844
+    },
+    {
+      "id": "0010CCA1",
+      "name": "LocForestCharlestonTrainyardLocation",
+      "type": "RailroadMarker",
+      "x": -116533.9453,
+      "y": -47773.85938
+    },
+    {
+      "id": "0010CCAA",
+      "name": "LocForestCharlestonCapitolLocation",
+      "type": "CapitalBuildingMarker",
+      "x": -91983.24219,
+      "y": -57828.23438
+    },
+    {
+      "id": "0010CCAD",
+      "name": "LocForestWadeAirportLocation",
+      "type": "WorkshopMarker",
+      "x": -88012.46094,
+      "y": -37757.92969
+    },
+    {
+      "id": "0010CCE8",
+      "name": "LocForestCharlestonLandfillLocation",
+      "type": "WorkshopMarker",
+      "x": -126835.4922,
+      "y": -61720.67578
+    },
+    {
+      "id": "0010CCEC",
+      "name": "LocForestCharlestonCityNorthLocation",
+      "type": "CityMarker",
+      "x": -103243.1172,
+      "y": -52198.43359
+    },
+    {
+      "id": "0011293B",
+      "name": "LocForestArktosPharmaLocation",
+      "type": "ArktosPharmaMarker",
+      "x": -42352.66406,
+      "y": 51382.61328
+    },
+    {
+      "id": "0012C668",
+      "name": "LocForestSilvaHomesteadLocation",
+      "type": "FarmMarker",
+      "x": -158848,
+      "y": -3712
+    },
+    {
+      "id": "0012C6B8",
+      "name": "LocMountainsInvestigatorsCabinLocation",
+      "type": "CabinMarker",
+      "x": 55723.94531,
+      "y": -68951.39844
+    },
+    {
+      "id": "00131799",
+      "name": "LocForestOverseersCAMPLocation",
+      "type": "EncampmentMarker",
+      "x": -80761.19531,
+      "y": 44228.49609
+    },
+    {
+      "id": "00134042",
+      "name": "LocMTRMotherlode02Location",
+      "type": "FactoryMarker",
+      "x": -161901.6094,
+      "y": -153297.7188
+    },
+    {
+      "id": "0013B732",
+      "name": "LocSwampFreeStatesBunker07Location",
+      "type": "BunkerMarker",
+      "x": 193738.375,
+      "y": 688.480835
+    },
+    {
+      "id": "0013B87D",
+      "name": "LocSwampFreeStatesBunker06Location",
+      "type": "BunkerMarker",
+      "x": 154881.2656,
+      "y": 127372.3438
+    },
+    {
+      "id": "0013E278",
+      "name": "LocForestBurdetteManorLocation",
+      "type": "BloodEaglesMarker",
+      "x": -59783.55078,
+      "y": -56961.01953
+    },
+    {
+      "id": "0013E296",
+      "name": "LocForestSugarmapleLocation",
+      "type": "MonumentMarker",
+      "x": -54753.06641,
+      "y": -51561.46094
+    },
+    {
+      "id": "0013E299",
+      "name": "LocForestHornwrightSummerVillaLocation",
+      "type": "MansionMarker",
+      "x": -47673.82422,
+      "y": -54542.29688
+    },
+    {
+      "id": "0017A042",
+      "name": "LocMountainsSugarGroveMissileSiloExteriorLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 80945.39844,
+      "y": -14505.76074
+    },
+    {
+      "id": "001F30C4",
+      "name": "LocMTRAshforge04Location",
+      "type": "BunkerMarker",
+      "x": -187097.6094,
+      "y": -108616.75
+    },
+    {
+      "id": "0026B608",
+      "name": "LocSwampDollySodsCampgroundLocation",
+      "type": "WorkshopMarker",
+      "x": 155136.5313,
+      "y": 76716.05469
+    },
+    {
+      "id": "0026D3F3",
+      "name": "LocMTRMineFire02Location",
+      "type": "QuarryMarker",
+      "x": -97592,
+      "y": -137752
+    },
+    {
+      "id": "0029A3C2",
+      "name": "LocMTRMineFire06Location",
+      "type": "QuarryMarker",
+      "x": -121610.5859,
+      "y": -111742.9219
+    },
+    {
+      "id": "0029A497",
+      "name": "LocMTRMotherlode03Location",
+      "type": "FactoryMarker",
+      "x": -100634.4375,
+      "y": -149838.6875
+    },
+    {
+      "id": "0029D611",
+      "name": "LocForestNewRiverGorgeBridgeWestLocation",
+      "type": "ElevatedHighwayMarker",
+      "x": -123987.9844,
+      "y": -10693.09863
+    },
+    {
+      "id": "0029D614",
+      "name": "LocForestNewRiverGorgeBridgeEastLocation",
+      "type": "ElevatedHighwayMarker",
+      "x": -91369.13281,
+      "y": 13638.17481
+    },
+    {
+      "id": "002AA22C",
+      "name": "LocSwampValleyGalleriaLocation",
+      "type": "OfficeMarker",
+      "x": 196567.1563,
+      "y": -12605.48047
+    },
+    {
+      "id": "002AA4E8",
+      "name": "LocMTRMineFire03Location",
+      "type": "QuarryMarker",
+      "x": -73909.24219,
+      "y": -126054.3281
+    },
+    {
+      "id": "002AA4EA",
+      "name": "LocMTRMineFire01Location",
+      "type": "FactoryMarker",
+      "x": -142953.4531,
+      "y": -146882.7344
+    },
+    {
+      "id": "002AA520",
+      "name": "LocMTRMotherlode04Location",
+      "type": "FactoryMarker",
+      "x": -163087.4688,
+      "y": -94510.71875
+    },
+    {
+      "id": "002AAE1F",
+      "name": "LocMTRMineFire04Location",
+      "type": "QuarryMarker",
+      "x": -170476.2031,
+      "y": -113432.1328
+    },
+    {
+      "id": "002B9652",
+      "name": "LocForestPoseidonEnergyWorkshopLocation",
+      "type": "WorkshopMarker",
+      "x": -124848,
+      "y": -41712
+    },
+    {
+      "id": "002B9710",
+      "name": "LocForestWVLumberCoLocation",
+      "type": "FactoryMarker",
+      "x": -167683.2188,
+      "y": 191449.6094
+    },
+    {
+      "id": "002C5F13",
+      "name": "LocWhitespringTheWhitespringLocation",
+      "type": "LowRiseMarker",
+      "x": 7426.621582,
+      "y": -58385.05859
+    },
+    {
+      "id": "002C7635",
+      "name": "LocMountainsFoundationLocation",
+      "type": "SettlerMarker",
+      "x": 37448.71484,
+      "y": -102945.9922
+    },
+    {
+      "id": "002C7638",
+      "name": "LocMountainsSpruceKnobCampgroundLocation",
+      "type": "ForestedMarker",
+      "x": 41424,
+      "y": -113384
+    },
+    {
+      "id": "002C8AEB",
+      "name": "LocMountainsSunnytopTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": 74517.60938,
+      "y": 130565.8438
+    },
+    {
+      "id": "002C8CAF",
+      "name": "LocMountainsPleasantValleyTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": 49104.92188,
+      "y": 10024.73828
+    },
+    {
+      "id": "002C8CB4",
+      "name": "LocMountainsTheWhitespringTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": 20095.06641,
+      "y": -46750.17969
+    },
+    {
+      "id": "002C8E7D",
+      "name": "LocMountainsRNGTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": 9983.408203,
+      "y": -132309.0781
+    },
+    {
+      "id": "002C900F",
+      "name": "LocCranberryWatogaTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": 149826.8906,
+      "y": -150058.0313
+    },
+    {
+      "id": "002C9197",
+      "name": "LocMTRLewisburgTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": -62553.95703,
+      "y": -117328.6406
+    },
+    {
+      "id": "002C919E",
+      "name": "LocMTRWelchTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": -148979.7188,
+      "y": -132179.0156
+    },
+    {
+      "id": "002C9329",
+      "name": "LocForestCharlestonTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": -114761.8828,
+      "y": -34818.01953
+    },
+    {
+      "id": "002C94B1",
+      "name": "LocForestSuttonTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": -60197.20313,
+      "y": 12390.41504
+    },
+    {
+      "id": "002C963A",
+      "name": "LocForestMorgantownTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": -28920.41797,
+      "y": 100931.9453
+    },
+    {
+      "id": "002C97C5",
+      "name": "LocToxicGraftonTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": -59419.76563,
+      "y": 142807.2031
+    },
+    {
+      "id": "002CC2CA",
+      "name": "LocSwampSubstationThunderMtTM01Location",
+      "type": "ElectricalSubstationMarker",
+      "x": 145498.3594,
+      "y": 11657.10742
+    },
+    {
+      "id": "002CCAD3",
+      "name": "LocCranberrySubstationThunderMtTM02Location",
+      "type": "ElectricalSubstationMarker",
+      "x": 143836.4375,
+      "y": -120232.3594
+    },
+    {
+      "id": "002CD2E0",
+      "name": "LocMountainsSubstationMonongahMZ01Location",
+      "type": "ElectricalSubstationMarker",
+      "x": 72331.22656,
+      "y": 139118.0469
+    },
+    {
+      "id": "002CDB06",
+      "name": "LocMountainsSubstationMonongahMZ02Location",
+      "type": "ElectricalSubstationMarker",
+      "x": 21025.0918,
+      "y": -54635.03516
+    },
+    {
+      "id": "002CE30C",
+      "name": "LocMountainsSubstationMonongahMZ03Location",
+      "type": "ElectricalSubstationMarker",
+      "x": -44230.55078,
+      "y": -126107.4531
+    },
+    {
+      "id": "002CEB15",
+      "name": "LocForestSubstationPoseidonPX02Location",
+      "type": "ElectricalSubstationMarker",
+      "x": -36059.33203,
+      "y": -513.580688
+    },
+    {
+      "id": "002CF31B",
+      "name": "LocForestSubstationPoseidonPX01Location",
+      "type": "ElectricalSubstationMarker",
+      "x": -143223.8281,
+      "y": 20095.55469
+    },
+    {
+      "id": "002CFB21",
+      "name": "LocMountainsSubstationPoseidonPX03Location",
+      "type": "ElectricalSubstationMarker",
+      "x": 32638.5332,
+      "y": 137795.1719
+    },
+    {
+      "id": "002DB4D0",
+      "name": "LocToxicWoodsEstateLocation",
+      "type": "FarmMarker",
+      "x": -42440.88672,
+      "y": 172901.3125
+    },
+    {
+      "id": "002DE57E",
+      "name": "LocForestTylerCountyTrackLocation",
+      "type": "WorkshopMarker",
+      "x": -157335.25,
+      "y": 138173.7969
+    },
+    {
+      "id": "002DE583",
+      "name": "LocMountainsSunnytopSkiLanesBaseLodgeLocation",
+      "type": "SkiResortMarker",
+      "x": 98128,
+      "y": 144048
+    },
+    {
+      "id": "002DE837",
+      "name": "LocMountainsMonongahMissileSiloExteriorLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 43038.58984,
+      "y": 137056.2969
+    },
+    {
+      "id": "002E5C43",
+      "name": "LocSwampCrashedPlaneLocation",
+      "type": "AirfieldMarker",
+      "x": 147706.5,
+      "y": 58410.50781
+    },
+    {
+      "id": "002E7E32",
+      "name": "LocSwampSamBlackwellBunkerLocation",
+      "type": "CaveMarker",
+      "x": 185034.2188,
+      "y": 26723.82422
+    },
+    {
+      "id": "002F9B7E",
+      "name": "LocToxicToxicDriedLakebedLocation",
+      "type": "PondLakeMarker",
+      "x": -15394.46094,
+      "y": 176773.0313
+    },
+    {
+      "id": "002FE78D",
+      "name": "LocSwampTanagraTownLocation",
+      "type": "TownRuinsMarker",
+      "x": 191891.9844,
+      "y": 14194.55273
+    },
+    {
+      "id": "00300ABA",
+      "name": "LocCranberryGlassedCavernLocation",
+      "type": "QuarryMarker",
+      "x": 200480,
+      "y": -161792
+    },
+    {
+      "id": "00309224",
+      "name": "LocMTRUnfinishedMansionLocation",
+      "type": "HighTechBuildingMarker",
+      "x": -79989.79688,
+      "y": -139432.1719
+    },
+    {
+      "id": "00309243",
+      "name": "LocSwampBigBsRestStopLocation",
+      "type": "FillingStationMarker",
+      "x": 163348.6094,
+      "y": -17717.75
+    },
+    {
+      "id": "0030924C",
+      "name": "LocSwampKMAXTransmissionLocation",
+      "type": "RadioTowerMarker",
+      "x": 190575.0938,
+      "y": -38899.06641
+    },
+    {
+      "id": "00309267",
+      "name": "LocSwampSouthernBelleMotelLocation",
+      "type": "BrownstoneMarker",
+      "x": 172104.2344,
+      "y": 27701.93945
+    },
+    {
+      "id": "0030926B",
+      "name": "LocForestPortsidePubLocation",
+      "type": "LibertaliaMarker",
+      "x": -21322.08203,
+      "y": 88201.59375
+    },
+    {
+      "id": "0030927D",
+      "name": "LocSwampBraxsonsQualityMedicalSuppliesLocation",
+      "type": "FactoryMarker",
+      "x": 202366.8594,
+      "y": 69694.9375
+    },
+    {
+      "id": "00311411",
+      "name": "LocSwampAbbiesBunkerLocation",
+      "type": "BunkerMarker",
+      "x": 185219.8438,
+      "y": 138117.2813
+    },
+    {
+      "id": "00311412",
+      "name": "LocSwampEllaAmesBunkerLocation",
+      "type": "BunkerMarker",
+      "x": 165802.25,
+      "y": 102922.25
+    },
+    {
+      "id": "00311413",
+      "name": "LocSwampRaleighsBunkerLocation",
+      "type": "BunkerMarker",
+      "x": 185466.9375,
+      "y": 59527.38672
+    },
+    {
+      "id": "0032972F",
+      "name": "LocMTRBeckleyWorkshopLocation",
+      "type": "WorkshopMarker",
+      "x": -190632,
+      "y": -127912
+    },
+    {
+      "id": "00329D47",
+      "name": "LocForestMorgantownLocation",
+      "type": "CityMarker",
+      "x": -2080.044922,
+      "y": 88302.80469
+    },
+    {
+      "id": "0032BC27",
+      "name": "LocMountainsMonoRailElevatorLocation",
+      "type": "MonorailMarker",
+      "x": 84839.23438,
+      "y": -128044.3672
+    },
+    {
+      "id": "00356BEB",
+      "name": "LocForestHorizonsRestLocation",
+      "type": "AirfieldMarker",
+      "x": -20788.50195,
+      "y": 31098.375
+    },
+    {
+      "id": "00356BED",
+      "name": "LocMountainsBeckwithFarmLocation",
+      "type": "FarmMarker",
+      "x": 43306.58203,
+      "y": -7498.402832
+    },
+    {
+      "id": "00356BEF",
+      "name": "LocMountainsSouthCutthroatCampLocation",
+      "type": "BloodEaglesMarker",
+      "x": 42828.53125,
+      "y": 6697.978027
+    },
+    {
+      "id": "00356BF1",
+      "name": "LocMountainsNARRegionalLocation",
+      "type": "TrainTrackMark",
+      "x": 22412.5957,
+      "y": -9693.197266
+    },
+    {
+      "id": "00356BF2",
+      "name": "LocMountainsNorthCutthroatCampLocation",
+      "type": "RaiderSettlementMarker",
+      "x": 70571.17188,
+      "y": 24888.58789
+    },
+    {
+      "id": "00356BF4",
+      "name": "LocMountainsToxicLarrysMeatnGoLocation",
+      "type": "WoodShackMarker",
+      "x": 115472.6094,
+      "y": 39449.80078
+    },
+    {
+      "id": "00356BF6",
+      "name": "LocMountainsSenecaGangCampLocation",
+      "type": "BloodEaglesMarker",
+      "x": 85281.35156,
+      "y": 50118.32422
+    },
+    {
+      "id": "00356BF8",
+      "name": "LocMountainsBaileyFamilyCabinLocation",
+      "type": "CabinMarker",
+      "x": 134617.8906,
+      "y": 179468.375
+    },
+    {
+      "id": "00356BFA",
+      "name": "LocMountainsAutumnAcreCabinLocation",
+      "type": "CabinMarker",
+      "x": 100992.4219,
+      "y": 46316.9375
+    },
+    {
+      "id": "00356BFC",
+      "name": "LocMountainsSkullboneVantageLocation",
+      "type": "BloodEaglesMarker",
+      "x": 40147.94922,
+      "y": 35776.44141
+    },
+    {
+      "id": "00356BFE",
+      "name": "LocMountainsIngramMansionLocation",
+      "type": "CultistMarker",
+      "x": 26292.89258,
+      "y": 99599.50781
+    },
+    {
+      "id": "00356C00",
+      "name": "LocSwampMossTownLocation",
+      "type": "TownRuinsMarker",
+      "x": 136903.3438,
+      "y": 71334.4375
+    },
+    {
+      "id": "00356C02",
+      "name": "LocSwampBigMawLocation",
+      "type": "PondLakeMarker",
+      "x": 145502.8281,
+      "y": 38296.15234
+    },
+    {
+      "id": "00356C04",
+      "name": "LocToxicKiddieCornerCabinsLocation",
+      "type": "CabinMarker",
+      "x": -12731.30176,
+      "y": 181509.75
+    },
+    {
+      "id": "00356C06",
+      "name": "LocToxicWillardCorporateHousingLocation",
+      "type": "HouseTrailerMarker",
+      "x": -17688.49023,
+      "y": 190127.7813
+    },
+    {
+      "id": "00356C08",
+      "name": "LocCranberryMacsFarmLocation",
+      "type": "FarmMarker",
+      "x": 171107.375,
+      "y": -71432.88281
+    },
+    {
+      "id": "00356C0A",
+      "name": "LocCranberryDropSiteC2Location",
+      "type": "BunkerMarker",
+      "x": 194822.9531,
+      "y": -105312.9297
+    },
+    {
+      "id": "00356C0C",
+      "name": "LocCranberryDropSiteV9Location",
+      "type": "BunkerMarker",
+      "x": 191371.8281,
+      "y": -157601.0938
+    },
+    {
+      "id": "00356C0E",
+      "name": "LocCranberryQuarryX3Location",
+      "type": "QuarryMarker",
+      "x": 157732.9375,
+      "y": -112080.1641
+    },
+    {
+      "id": "00356C10",
+      "name": "LocCranberryDropSiteG3Location",
+      "type": "BunkerMarker",
+      "x": 140874.2813,
+      "y": -108719.4375
+    },
+    {
+      "id": "00356C12",
+      "name": "LocCranberryNARRepairYardLocation",
+      "type": "RailroadMarker",
+      "x": 129113.6875,
+      "y": -153675.3281
+    },
+    {
+      "id": "00356C14",
+      "name": "LocForestMarigoldPavilionLocation",
+      "type": "CabinMarker",
+      "x": -153869.9219,
+      "y": 79406.5
+    },
+    {
+      "id": "00356C16",
+      "name": "LocForestTwinPineCabinsLocation",
+      "type": "BloodEaglesMarker",
+      "x": -74439.8125,
+      "y": 113931.6328
+    },
+    {
+      "id": "00356C18",
+      "name": "LocForestCampAdamsLocation",
+      "type": "CabinMarker",
+      "x": -153315.4531,
+      "y": -30863.43945
+    },
+    {
+      "id": "00356C1A",
+      "name": "LocForestLadyJanetSoftServeLocation",
+      "type": "CowSpotsCreameryMarker",
+      "x": -103993.8203,
+      "y": 152995.5625
+    },
+    {
+      "id": "00356C1C",
+      "name": "LocToxicCobbletonFarmLocation",
+      "type": "FarmMarker",
+      "x": -91855.38281,
+      "y": 161215.7969
+    },
+    {
+      "id": "00356C1E",
+      "name": "LocForestGrovesFamilyCabinLocation",
+      "type": "CabinMarker",
+      "x": -139934.3594,
+      "y": 174278.8125
+    },
+    {
+      "id": "00356C20",
+      "name": "LocForestTransmissionStation1ATU03Location",
+      "type": "RadioTowerMarker",
+      "x": -154116.0781,
+      "y": 126040.4219
+    },
+    {
+      "id": "00356C22",
+      "name": "LocForestDeathclawIslandLocation",
+      "type": "ForestedMarker",
+      "x": -173625.3438,
+      "y": 131147.5469
+    },
+    {
+      "id": "00356C24",
+      "name": "LocForestDarlingSistersLabLocation",
+      "type": "WoodShackMarker",
+      "x": -149399.1875,
+      "y": 165314.5938
+    },
+    {
+      "id": "00356C26",
+      "name": "LocMTRRedRocketFillingStationLocation",
+      "type": "FillingStationMarker",
+      "x": -112108.8828,
+      "y": -131743.375
+    },
+    {
+      "id": "00356C28",
+      "name": "LocMountainsSludgeHoleLocation",
+      "type": "RaiderSettlementMarker",
+      "x": 77198.28906,
+      "y": 41365.38672
+    },
+    {
+      "id": "00356C2A",
+      "name": "LocForestWidowsPerchLocation",
+      "type": "BloodEaglesMarker",
+      "x": -80141.48438,
+      "y": -84608.41406
+    },
+    {
+      "id": "00356C2C",
+      "name": "LocMountainsTheVantageLocation",
+      "type": "BloodEaglesMarker",
+      "x": 23578.97656,
+      "y": -68315.24219
+    },
+    {
+      "id": "0036E865",
+      "name": "LocForestGauleyMineExitLocation",
+      "type": "CaveMarker",
+      "x": -58605.36328,
+      "y": 62688.30469
+    },
+    {
+      "id": "0037D1D5",
+      "name": "LocToxicHemlockHolesWorkshopLocation",
+      "type": "WorkshopMarker",
+      "x": -59552,
+      "y": 183736
+    },
+    {
+      "id": "0037E6DE",
+      "name": "LocForestWixonHomesteadLocation",
+      "type": "FarmMarker",
+      "x": -97562.70313,
+      "y": 58503.98828
+    },
+    {
+      "id": "00387995",
+      "name": "LocMountainsLookoutTower06Location",
+      "type": "LookoutTowerMarker",
+      "x": 117252.8281,
+      "y": -59848.35938
+    },
+    {
+      "id": "0038B442",
+      "name": "LocForestAnchorFarmLocation",
+      "type": "FarmMarker",
+      "x": -121045.1641,
+      "y": 120973.4844
+    },
+    {
+      "id": "00391027",
+      "name": "LocToxicLookoutTower07Location",
+      "type": "LookoutTowerMarker",
+      "x": -2846.65625,
+      "y": 140278.2969
+    },
+    {
+      "id": "0039163F",
+      "name": "LocForestSummersvilleDamLocation",
+      "type": "FactoryMarker",
+      "x": -79297.66406,
+      "y": -61373.57813
+    },
+    {
+      "id": "0039199A",
+      "name": "LocMountainsRipperAlleyLocation",
+      "type": "BloodEaglesMarker",
+      "x": 74686.27344,
+      "y": -65499.80078
+    },
+    {
+      "id": "003919AC",
+      "name": "LocMountainsSafeNCleanDisposalLocation",
+      "type": "RadioactiveAreaMarker",
+      "x": 13173.79004,
+      "y": -33843.84766
+    },
+    {
+      "id": "003919AF",
+      "name": "LocMountainsYellowSandysStillLocation",
+      "type": "HouseTrailerMarker",
+      "x": 90268.30469,
+      "y": 20259.88086
+    },
+    {
+      "id": "003919B1",
+      "name": "LocMountainsCliffwatchLocation",
+      "type": "BloodEaglesMarker",
+      "x": -2448.613281,
+      "y": -8935.571289
+    },
+    {
+      "id": "003919CF",
+      "name": "LocMountainsJohnsonsAcreLocation",
+      "type": "CultistMarker",
+      "x": 74465.21094,
+      "y": -179824.2813
+    },
+    {
+      "id": "003919D1",
+      "name": "LocMountainsDentAndSonsConstructionLocation",
+      "type": "HouseTrailerMarker",
+      "x": -23510.04102,
+      "y": -168413.3594
+    },
+    {
+      "id": "003919D5",
+      "name": "LocForestBleedingKatesGrinderLocation",
+      "type": "RaiderSettlementMarker",
+      "x": -61229.96875,
+      "y": -73357.21875
+    },
+    {
+      "id": "003919E6",
+      "name": "LocMountainsAmmoDumpLocation",
+      "type": "BloodEaglesMarker",
+      "x": 91943.78906,
+      "y": 99391.35156
+    },
+    {
+      "id": "003919EA",
+      "name": "LocMountainsSolomonsPondLocation",
+      "type": "PondLakeMarker",
+      "x": 38767.4375,
+      "y": -64480.73828
+    },
+    {
+      "id": "003919EE",
+      "name": "LocMTRPleasantHillsCemeteryLocation",
+      "type": "GraveyardMarker",
+      "x": -55554.42969,
+      "y": -102053.3672
+    },
+    {
+      "id": "003919F1",
+      "name": "LocMTRRollinsWorkCampLocation",
+      "type": "BloodEaglesMarker",
+      "x": -98042.07031,
+      "y": -115047.0859
+    },
+    {
+      "id": "003919F6",
+      "name": "LocMTRAMSTestSiteLocation",
+      "type": "QuarryMarker",
+      "x": -125068.5078,
+      "y": -146867.3438
+    },
+    {
+      "id": "003919F9",
+      "name": "LocCranberryForwardStationDeltaLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 202051.0469,
+      "y": -169304.4063
+    },
+    {
+      "id": "003919FC",
+      "name": "LocCranberryLostHomeLocation",
+      "type": "WoodShackMarker",
+      "x": 122772.9063,
+      "y": -164478.4219
+    },
+    {
+      "id": "003919FE",
+      "name": "LocCranberrySurveyCampAlphaLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 165244.9063,
+      "y": -154790.0625
+    },
+    {
+      "id": "00391A02",
+      "name": "LocCranberryOldMoldQuarryLocation",
+      "type": "QuarryMarker",
+      "x": 198970.75,
+      "y": -95572.20313
+    },
+    {
+      "id": "00391A05",
+      "name": "LocCranberrySunriseFieldLocation",
+      "type": "FarmMarker",
+      "x": 153895.1719,
+      "y": -162532.0156
+    },
+    {
+      "id": "00391A08",
+      "name": "LocCranberryForwardStationAlphaLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 116037.8828,
+      "y": -87098.33594
+    },
+    {
+      "id": "00391A0B",
+      "name": "LocCranberryTheThornLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 109347.6172,
+      "y": -103587.0703
+    },
+    {
+      "id": "00391A0E",
+      "name": "LocCranberryFirebaseMajorLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 141989.6094,
+      "y": -60116.10547
+    },
+    {
+      "id": "00391A11",
+      "name": "LocCranberryFirebaseLTLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 166061.9219,
+      "y": -55521.23047
+    },
+    {
+      "id": "00391A14",
+      "name": "LocCranberryFirebaseHancockLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 109835.2188,
+      "y": -172981.9688
+    },
+    {
+      "id": "00391A18",
+      "name": "LocCranberrySuperiorSunsetFarmLocation",
+      "type": "FarmMarker",
+      "x": 122641.0391,
+      "y": -101569.8359
+    },
+    {
+      "id": "00391A1B",
+      "name": "LocToxicKnifeEdgeLocation",
+      "type": "RaiderSettlementMarker",
+      "x": 46263.96875,
+      "y": 199612.1719
+    },
+    {
+      "id": "00391A1D",
+      "name": "LocMountainsSpruceKnobLakeLocation",
+      "type": "PondLakeMarker",
+      "x": 35190.12109,
+      "y": -121221.6563
+    },
+    {
+      "id": "00391A1F",
+      "name": "LocMountainsSpruceKnobChannelsLocation",
+      "type": "PondLakeMarker",
+      "x": 26547.82227,
+      "y": -129198.9609
+    },
+    {
+      "id": "00391A21",
+      "name": "LocMountainsLakeEloiseLocation",
+      "type": "PondLakeMarker",
+      "x": 51552.96875,
+      "y": -156467.875
+    },
+    {
+      "id": "00391A23",
+      "name": "LocMountainsTwinLakesLocation",
+      "type": "PondLakeMarker",
+      "x": 47134.55859,
+      "y": -79246.95313
+    },
+    {
+      "id": "00391A36",
+      "name": "LocForestSlocumsJoeLocation",
+      "type": "BrownstoneMarker",
+      "x": -67277.40625,
+      "y": 55943.93359
+    },
+    {
+      "id": "003942AC",
+      "name": "LocForestClancyManorLocation",
+      "type": "CultistMarker",
+      "x": -92174.45313,
+      "y": 182999.3594
+    },
+    {
+      "id": "003942AF",
+      "name": "LocSwampExcelsiorModelHomeLocation",
+      "type": "BrownstoneMarker",
+      "x": 173540.0156,
+      "y": 107323.75
+    },
+    {
+      "id": "003942B2",
+      "name": "LocMountainsTheFreakShowLocation",
+      "type": "RaiderSettlementMarker",
+      "x": 85048.47656,
+      "y": -102227.75
+    },
+    {
+      "id": "0039F033",
+      "name": "LocMTRBelchingBettyLocation",
+      "type": "QuarryMarker",
+      "x": -118114.6641,
+      "y": -82471.15625
+    },
+    {
+      "id": "003A070F",
+      "name": "LocMountainsFissureSiteBetaLocation",
+      "type": "FissureMarker",
+      "x": 153700.0625,
+      "y": 182385.2813
+    },
+    {
+      "id": "003A07A1",
+      "name": "LocMountainsLookoutTower08Location",
+      "type": "LookoutTowerMarker",
+      "x": 51206.05469,
+      "y": -123502.7734
+    },
+    {
+      "id": "003A07A3",
+      "name": "LocForestLookoutTower09Location",
+      "type": "LookoutTowerMarker",
+      "x": -104834.7266,
+      "y": 47405.67188
+    },
+    {
+      "id": "003A07A5",
+      "name": "LocForestLookoutTower10Location",
+      "type": "LookoutTowerMarker",
+      "x": -150606.9375,
+      "y": -35172.13672
+    },
+    {
+      "id": "003A579D",
+      "name": "LocToxicFissureSiteDeltaLocation",
+      "type": "FissureMarker",
+      "x": 35581.11719,
+      "y": 195062.25
+    },
+    {
+      "id": "003A57D7",
+      "name": "LocCranberryFissureSiteEpsilonLocation",
+      "type": "FissureMarker",
+      "x": 152676.4688,
+      "y": -66537.04688
+    },
+    {
+      "id": "003A581A",
+      "name": "LocMountainsFissureSiteGammaLocation",
+      "type": "FissureMarker",
+      "x": 58897.04297,
+      "y": -150970.0156
+    },
+    {
+      "id": "003A584D",
+      "name": "LocForestFissureSiteKappaLocation",
+      "type": "FissureMarker",
+      "x": -98966.46094,
+      "y": 177503.3281
+    },
+    {
+      "id": "003A587C",
+      "name": "LocForestFissureSiteLambdaLocation",
+      "type": "FissureMarker",
+      "x": -38686.0625,
+      "y": -70771.60938
+    },
+    {
+      "id": "003A58AC",
+      "name": "LocMTRFissureSiteOmegaLocation",
+      "type": "FissureMarker",
+      "x": -120766.625,
+      "y": -162345.9844
+    },
+    {
+      "id": "003A58DE",
+      "name": "LocSwampFissureSiteOmicronLocation",
+      "type": "FissureMarker",
+      "x": 129596.0938,
+      "y": 75406.42188
+    },
+    {
+      "id": "003A590D",
+      "name": "LocMountainsFissureSiteSigmaLocation",
+      "type": "FissureMarker",
+      "x": 112457.7969,
+      "y": 124837.2344
+    },
+    {
+      "id": "003A5940",
+      "name": "LocMountainsFissureSiteTauLocation",
+      "type": "FissureMarker",
+      "x": -9070.779297,
+      "y": -11031.55957
+    },
+    {
+      "id": "003A596E",
+      "name": "LocForestFissureSiteThetaLocation",
+      "type": "FissureMarker",
+      "x": 19005.47461,
+      "y": 34149.70313
+    },
+    {
+      "id": "003A59B3",
+      "name": "LocMountainsUS13CBivouacLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 99475.20313,
+      "y": -59043.07813
+    },
+    {
+      "id": "003A59B8",
+      "name": "LocMTRStrikerRowLocation",
+      "type": "EncampmentMarker",
+      "x": -113544.8516,
+      "y": -167811.4375
+    },
+    {
+      "id": "003A5E73",
+      "name": "LocSwampLookoutTower11Location",
+      "type": "LookoutTowerMarker",
+      "x": 152547.4375,
+      "y": 130641.7578
+    },
+    {
+      "id": "003A5E75",
+      "name": "LocCranberryLookoutTower12Location",
+      "type": "LookoutTowerMarker",
+      "x": 152576.0781,
+      "y": -88084.16406
+    },
+    {
+      "id": "003A5E77",
+      "name": "LocSwampLookoutTower13Location",
+      "type": "LookoutTowerMarker",
+      "x": 152153.4063,
+      "y": 89595.05469
+    },
+    {
+      "id": "003A746C",
+      "name": "LocCranberryFissureSiteAlphaLocation",
+      "type": "FissureMarker",
+      "x": 173252,
+      "y": -159284
+    },
+    {
+      "id": "003A8CCF",
+      "name": "LocCranberryFissureSiteZetaLocation",
+      "type": "FissureMarker",
+      "x": 196808,
+      "y": -165776
+    },
+    {
+      "id": "003AA4FF",
+      "name": "LocMountainsSpruceKnobMissileSiloInteriorLocation",
+      "type": "MilitaryBaseMarker",
+      "x": 1654.45459,
+      "y": -118164.9609
+    },
+    {
+      "id": "003AA574",
+      "name": "LocMTRNicholsonsEndLocation",
+      "type": "HouseTrailerMarker",
+      "x": -181956.9219,
+      "y": -136781.7031
+    },
+    {
+      "id": "003AFE29",
+      "name": "LocMountainsSenecaRocksVisitorCenterLocation",
+      "type": "CabinMarker",
+      "x": 55773.98047,
+      "y": 56634.875
+    },
+    {
+      "id": "003B2EFA",
+      "name": "LocToxicSmithFarmLocation",
+      "type": "FarmMarker",
+      "x": -30844.10742,
+      "y": 152512.375
+    },
+    {
+      "id": "003B2F5B",
+      "name": "LocToxicGraningerFarmLocation",
+      "type": "FarmMarker",
+      "x": 8478.493164,
+      "y": 174230.3906
+    },
+    {
+      "id": "003B2F7E",
+      "name": "LocToxicBeckerFarmLocation",
+      "type": "FarmMarker",
+      "x": -74552.8125,
+      "y": 151041.0938
+    },
+    {
+      "id": "003B771F",
+      "name": "LocSwampHawkesRefugeLocation",
+      "type": "CaveMarker",
+      "x": 119103.9844,
+      "y": 7828.036621
+    },
+    {
+      "id": "003C69FA",
+      "name": "LocMTRBrimQuarryLocation",
+      "type": "QuarryMarker",
+      "x": -161281.9063,
+      "y": -84759.33594
+    },
+    {
+      "id": "003D4B16",
+      "name": "LocSwampThunderMountainPowerPlantWorkshopLocation",
+      "type": "WorkshopMarker",
+      "x": 189452.4531,
+      "y": 94525.78906
+    },
+    {
+      "id": "003D4B48",
+      "name": "LocMountainsMonongahPowerPlantWorkshopLocation",
+      "type": "WorkshopMarker",
+      "x": 44675.30469,
+      "y": 73761.32813
+    },
+    {
+      "id": "003F1844",
+      "name": "LocForestFraternityRowLocation",
+      "type": "BrownstoneMarker",
+      "x": 3190.652832,
+      "y": 89388.92188
+    },
+    {
+      "id": "003F1846",
+      "name": "LocForestTheNukashineLocation",
+      "type": "LowRiseMarker",
+      "x": -6504.201172,
+      "y": 76623.36719
+    },
+    {
+      "id": "003F1D22",
+      "name": "LocMTRPylonAmbushSiteLocation",
+      "type": "CabinMarker",
+      "x": -82630.05469,
+      "y": -92095.23438
+    },
+    {
+      "id": "003F1D25",
+      "name": "LocSwampBurrowsSouthLocation",
+      "type": "SewerMarker",
+      "x": 157951.375,
+      "y": -3956.540771
+    },
+    {
+      "id": "003F1D29",
+      "name": "LocSwampDelanoGrangeLocation",
+      "type": "FarmMarker",
+      "x": 183758.625,
+      "y": 11699.47363
+    },
+    {
+      "id": "003F7C66",
+      "name": "LocSwampBerkeleySpringsTrainStationLocation",
+      "type": "TrainStationMarker",
+      "x": 136789.2031,
+      "y": 15102.96777
+    },
+    {
+      "id": "003F892E",
+      "name": "LocForestSuttonOverseersHomeLocation",
+      "type": "EncampmentMarker",
+      "x": -55264,
+      "y": 25824
+    },
+    {
+      "id": "0040A78C",
+      "name": "LocSwampBurrowsNorthLocation",
+      "type": "SewerMarker",
+      "x": 155171.1406,
+      "y": 1920.078369
+    },
+    {
+      "id": "0040BD19",
+      "name": "LocForestTheWaywardLocationExterior",
+      "type": "TownMarker",
+      "x": -81238.70313,
+      "y": 47700.60547
+    },
+    {
+      "id": "0042B260",
+      "name": "LocForestGauleyMineExitLocation",
+      "type": "CaveMarker",
+      "x": -47690.76172,
+      "y": 71024.4375
+    },
+    {
+      "id": "00438106",
+      "name": "Vault63Location",
+      "type": "Vault63Marker",
+      "x": -96290.42188,
+      "y": -146558.8594
+    },
+    {
+      "id": "00438591",
+      "name": "LocToxicGraftonSteelWorkshopLocation",
+      "type": "WorkshopMarker",
+      "x": 17764.02734,
+      "y": 126611.5547
+    },
+    {
+      "id": "004F55B2",
+      "name": "LocForestHuntersRidgeLocation",
+      "type": "BloodEaglesMarker",
+      "x": -149650.2031,
+      "y": 51464.73438
+    },
+    {
+      "id": "004F5970",
+      "name": "LocSwampCarsonFamilyBunkerLocation",
+      "type": "BunkerMarker",
+      "x": 159043.9375,
+      "y": 69079.55469
+    },
+    {
+      "id": "004F5984",
+      "name": "LocMountainsScenicOverlookLocation",
+      "type": "OverlookMarker",
+      "x": -12690.94727,
+      "y": -145410.6875
+    },
+    {
+      "id": "004F8A6C",
+      "name": "LocCranberrySundewGrove04Location",
+      "type": "ForestedMarker",
+      "x": 123314.3516,
+      "y": -172568.0469
+    },
+    {
+      "id": "004F8A70",
+      "name": "LocCranberrySundewGrove01Location",
+      "type": "ForestedMarker",
+      "x": 184257.0313,
+      "y": -172163.9531
+    },
+    {
+      "id": "004F8A73",
+      "name": "LocCranberrySundewGrove02Location",
+      "type": "ForestedMarker",
+      "x": 172189.625,
+      "y": -119552.0078
+    },
+    {
+      "id": "004F8A74",
+      "name": "LocCranberrySundewGrove03Location",
+      "type": "ForestedMarker",
+      "x": 161083.25,
+      "y": -75948.22656
+    },
+    {
+      "id": "0050199D",
+      "name": "LocForestCharlestonHeraldLocation",
+      "type": "HighTechBuildingMarker",
+      "x": -104367.2969,
+      "y": -46210.04297
+    },
+    {
+      "id": "00501F9F",
+      "name": "LocMountainsSylvieAndSonsLoggingCampLocation",
+      "type": "EncampmentMarker",
+      "x": 114951.5781,
+      "y": 92363.26563
+    },
+    {
+      "id": "00501FB3",
+      "name": "LocForestTheCrosshairLocation",
+      "type": "BloodEaglesMarker",
+      "x": -92839.9375,
+      "y": 205548.25
+    },
+    {
+      "id": "00501FC1",
+      "name": "LocSwampSouthhamptonEstateLocation",
+      "type": "WoodShackMarker",
+      "x": 169980.5469,
+      "y": 125109.2734
+    },
+    {
+      "id": "0050934C",
+      "name": "LocCranberryPylonV13Location",
+      "type": "MonorailMarker",
+      "x": 190422.2344,
+      "y": -94971.23438
+    },
+    {
+      "id": "0050934F",
+      "name": "LocSwampTreetopsLocation",
+      "type": "WoodShackMarker",
+      "x": 162220.2344,
+      "y": -26927.47266
+    },
+    {
+      "id": "00509351",
+      "name": "LocMountainsBastionParkLocation",
+      "type": "OverlookMarker",
+      "x": -22556,
+      "y": -108924
+    },
+    {
+      "id": "00509B7A",
+      "name": "LocMTRMineFire05Location",
+      "type": "QuarryMarker",
+      "x": -126232.2109,
+      "y": -82517.74219
+    },
+    {
+      "id": "00509B8A",
+      "name": "LocMTR08LodeBaring01Location",
+      "type": "QuarryMarker",
+      "x": -138273.1563,
+      "y": -114672.875
+    },
+    {
+      "id": "00509B8D",
+      "name": "LocMTR08LodeBaring02Location",
+      "type": "QuarryMarker",
+      "x": -109776.2344,
+      "y": -90804.35938
+    },
+    {
+      "id": "0051C65A",
+      "name": "LocForestMoonshinersShackLocation",
+      "type": "WoodShackMarker",
+      "x": -109154.6328,
+      "y": 84144.10938
+    },
+    {
+      "id": "0052534F",
+      "name": "LocSwampHighlandMarshLocation",
+      "type": "PondLakeMarker",
+      "x": 172319.0469,
+      "y": 131548.125
+    },
+    {
+      "id": "005253AB",
+      "name": "LocSwampGulperLagoonLocation",
+      "type": "PondLakeMarker",
+      "x": 158149.7813,
+      "y": 111085.3906
+    },
+    {
+      "id": "005253D8",
+      "name": "LocSwampGnarledShallowsLocation",
+      "type": "PondLakeMarker",
+      "x": 198828.7188,
+      "y": 141222.6875
+    },
+    {
+      "id": "005376F8",
+      "name": "LocCranberryElectricTowerCampLocation",
+      "type": "BloodEaglesMarker",
+      "x": 140232.625,
+      "y": -102150.4688
+    },
+    {
+      "id": "00553505",
+      "name": "LocMTRSludgeWorksLocation",
+      "type": "BloodEaglesMarker",
+      "x": -105586.8516,
+      "y": -139906.7031
+    },
+    {
+      "id": "005570F5",
+      "name": "LocForestUCBExteriorLocation",
+      "type": "CaveMarker",
+      "x": -34473.30469,
+      "y": -38130.6875
+    },
+    {
+      "id": "0055F86E",
+      "name": "LocToxicCraterWatchstationLocation",
+      "type": "QuarryMarker",
+      "x": -6712,
+      "y": 199312
+    },
+    {
+      "id": "00586D29",
+      "name": "LocMountainsTheBountyLocation",
+      "type": "BloodEaglesMarker",
+      "x": 66048.625,
+      "y": -145841.1719
+    },
+    {
+      "id": "00586D2B",
+      "name": "LocForestThePigstyLocation",
+      "type": "BloodEaglesMarker",
+      "x": -38219.75,
+      "y": -41403.35156
+    },
+    {
+      "id": "00586D2F",
+      "name": "LocSwampMothHomeLocation",
+      "type": "CultistMarker",
+      "x": 150845.375,
+      "y": -32008.77148
+    },
+    {
+      "id": "00586D32",
+      "name": "LocSwampBlakesOfferingLocation",
+      "type": "CultistMarker",
+      "x": 199894.3906,
+      "y": -36612.32031
+    },
+    {
+      "id": "0058D8BD",
+      "name": "Vault79EntranceLocation_Exterior",
+      "type": "CaveMarker",
+      "x": 143425.125,
+      "y": 200808.2813
+    },
+    {
+      "id": "0058D8BE",
+      "name": "Vault79ExitLocation_Exterior",
+      "type": "Vault79Marker",
+      "x": 145375.1563,
+      "y": 186772.7813
+    },
+    {
+      "id": "0058F015",
+      "name": "LocCranberryWatogaLocation",
+      "type": "SewerMarker",
+      "x": 152462.5469,
+      "y": -141432.1563
+    },
+    {
+      "id": "00590275",
+      "name": "LocSwampSacramentLocation",
+      "type": "CultistMarker",
+      "x": 80252.60156,
+      "y": 176371.8438
+    },
+    {
+      "id": "00597606",
+      "name": "LocMountainsLousMineLocation",
+      "type": "CaveMarker",
+      "x": 21934.58594,
+      "y": 158383.25
+    },
+    {
+      "id": "0059D06D",
+      "name": "LocSwampBerkeleySpringsBloodyFranksLocation",
+      "type": "BloodEaglesMarker",
+      "x": 130069.9219,
+      "y": 33912.72656
+    }
+  ]
+}

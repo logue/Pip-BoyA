@@ -44,6 +44,7 @@
       :load-tiles-while-interacting="true"
       @movestart="onMoveStart"
       @moveend="onMoveEnd"
+      @pointermove="onMapPointerMove"
     >
       <vl-view
         ref="view"
@@ -92,7 +93,34 @@
         />
       </vl-layer-tile>
 
-      <!-- markers are bellow -->
+      <!-- markers -->
+      <vl-layer-vector v-if="$root.$data.displayLocation" ref="featuresLayer">
+        <vl-feature
+          v-for="marker in markers"
+          :key="marker.id"
+          :properties="{
+            id: marker.id,
+            name: $t(`locations.${marker.name}`),
+          }"
+        >
+          <vl-geom-point
+            :coordinates="[
+              marker.x / markerReductionRate + markerOffset[0],
+              marker.y / markerReductionRate + markerOffset[1],
+            ]"
+          />
+          <!-- TODO: Marker Icon -->
+        </vl-feature>
+
+        <!-- Overlay -->
+        <vl-overlay v-if="currentPosition" :position="currentPosition">
+          <div class="v-tooltip__content" style="white-space: nowrap;">
+            {{ currentName }}
+          </div>
+        </vl-overlay>
+      </vl-layer-vector>
+
+      <vl-interaction-select @select="onSelect" />
     </vl-map>
 
     <!-- Explain box -->
@@ -127,7 +155,9 @@
 import {addProjection, get} from 'ol/proj';
 import Projection from 'ol/proj/Projection';
 import TileGrid from 'ol/tilegrid/TileGrid';
+import locations from '@/assets/locations.json';
 
+// Map Configure
 const mapExtent = [0.0, -4096.0, 4096.0, 0.0];
 const mapMinZoom = 0;
 const mapMaxZoom = 4;
@@ -150,6 +180,11 @@ const customProj = new Projection({
   extent: tileExtent,
 });
 addProjection(customProj);
+
+// Offset Configure
+const COORDINATES_CENTER = [2048, -2048];
+// Fallout76 coordinates to pixel coordinates pixel rate.
+const COORDINATES_REDUCTION_RATE = 142;
 
 export default {
   props: {
@@ -176,7 +211,7 @@ export default {
     return {
       // View
       zoom: 1,
-      center: [2048, -2048],
+      center: COORDINATES_CENTER,
       rotation: 0,
       minResolution: 1,
       maxResolution: 4,
@@ -196,6 +231,14 @@ export default {
       opacity: 1,
       // Switch Explain box to maximize and minimize
       isShrink: false,
+      // Marker setting
+      markerOffset: COORDINATES_CENTER,
+      markerReductionRate: COORDINATES_REDUCTION_RATE,
+      markers: locations.markers,
+      // Tooltip
+      currentPosition: undefined,
+      currentName: undefined,
+      mapCursor: 'default',
     };
   },
   watch: {
@@ -226,6 +269,22 @@ export default {
         y: this.center[1] | 0,
         z: this.zoom | 0,
       };
+    },
+    // ポインタ移動時
+    onMapPointerMove({pixel}) {
+      const hitFeature = this.$refs.map.forEachFeatureAtPixel(
+        pixel,
+        (feature) => feature
+      );
+
+      if (hitFeature) {
+        this.mapCursor = 'pointer';
+        this.currentPosition = hitFeature.getGeometry().getCoordinates();
+        this.currentName = hitFeature.get('name');
+      } else {
+        this.mapCursor = 'default';
+        this.currentPosition = this.currentName = undefined;
+      }
     },
     // カテゴリレイヤーを更新
     updateCategoryLayer() {
@@ -261,6 +320,10 @@ export default {
     // 凡例の表示切り替え
     toggleShrink() {
       this.isShrink = !this.isShrink;
+    },
+    onSelect(feature) {
+      const value = feature.values_;
+      console.log(value);
     },
   },
 };
