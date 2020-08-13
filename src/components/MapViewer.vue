@@ -58,7 +58,7 @@
       <vl-layer-group ref="baseLayers" :opacity="opacity">
         <vl-layer-tile :visible="!$root.$data.isMilitary">
           <vl-source-xyz
-            :url="'/img/map/base/{z}/{x}/{y}.png'"
+            :url="'/img/tiles/base/{z}/{x}/{y}.webp'"
             :projection="projection"
             :min-zoom="minZoom"
             :max-zoom="maxZoom"
@@ -67,7 +67,7 @@
         </vl-layer-tile>
         <vl-layer-tile :visible="$root.$data.isMilitary">
           <vl-source-xyz
-            :url="'/img/map/military/{z}/{x}/{y}.png'"
+            :url="'/img/tiles/military/{z}/{x}/{y}.webp'"
             :projection="projection"
             :min-zoom="minZoom"
             :max-zoom="maxZoom"

@@ -1,3 +1,12 @@
+/**
+ * Fallout Pip-boy Application (Pip-BoyA) for Electron
+ *
+ * @author    Logue <logue@hotmail.co.jp>
+ * @version   0.0.1
+ * @copyright 2020 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
+ * @license   MIT
+ */
+
 'use strict';
 
 import {app, protocol, BrowserWindow} from 'electron';

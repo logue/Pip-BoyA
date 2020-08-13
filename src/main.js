@@ -1,8 +1,8 @@
 /**
- * Fallout76 Pip-boya
+ * Fallout76 Pip-boy Application (Pip-BoyA)
  *
  * @author    Logue <logue@hotmail.co.jp>
- * @version   2.0.0
+ * @version   0.2.0
  * @copyright 2020 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
  * @license   MIT
  */
