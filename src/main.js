@@ -1,5 +1,5 @@
 /**
- * Fallout76 Pip-boy Application (Pip-BoyA)
+ * Fallout76 Pip-boy Application (Pip-BoyA／Pip坊や)
  *
  * @author    Logue <logue@hotmail.co.jp>
  * @version   0.2.0

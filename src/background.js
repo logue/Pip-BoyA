@@ -1,5 +1,5 @@
 /**
- * Fallout Pip-boy Application (Pip-BoyA) for Electron
+ * Fallout Pip-boy Application (Pip-BoyA／Pip坊や) for Electron
  *
  * @author    Logue <logue@hotmail.co.jp>
  * @version   0.0.1
