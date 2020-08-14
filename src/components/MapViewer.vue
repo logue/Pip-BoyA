@@ -39,7 +39,9 @@
     <!-- Map Container -->
     <vl-map
       ref="map"
-      :class="`map-viewer_map${isMoving ? ' is_move' : ''}`"
+      :class="`map-viewer_map${isMoving ? ' is_move' : ''}${
+        currentPosition ? ' is_hover' : ''
+      }`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
       @movestart="onMoveStart"
@@ -111,19 +113,22 @@
               :scale="setMarkerScaleByZoom()"
             />
           </vl-style-box>
-          <!-- Overlay -->
-          <vl-overlay
-            v-if="currentPosition"
-            :position="currentPosition"
-            :offset="[10, 10]"
-          >
-            <div class="v-tooltip__content" style="white-space: nowrap;">
-              {{ currentName }}
-            </div>
-          </vl-overlay>
         </vl-feature>
-        <vl-interaction-select @select="onSelect" />
       </vl-layer-vector>
+
+      <vl-interaction-select @select="onSelect" />
+
+      <!-- Tooltip Overlay -->
+      <vl-overlay
+        v-if="showMarkerTooltip"
+        :position="currentPosition"
+        :offset="[10, 10]"
+        class="markerTooltipOverlay"
+      >
+        <span class="v-tooltip__content" style="white-space: nowrap;">
+          {{ currentName }}
+        </span>
+      </vl-overlay>
     </vl-map>
 
     <!-- Explain box -->
@@ -148,6 +153,7 @@
         </ul>
       </v-card-text>
     </v-card>
+    <marker-info v-if="$root.$data.displayLocation" ref="markerInfo" />
   </div>
 </template>
 
@@ -158,7 +164,7 @@
 import {addProjection, get} from 'ol/proj';
 import Projection from 'ol/proj/Projection';
 import TileGrid from 'ol/tilegrid/TileGrid';
-// import {findPointOnSurface} from 'vuelayers/lib/ol-ext';
+import MarkerInfo from '@/components/MarkerInfo.vue';
 import locations from '@/assets/locations.json';
 
 // Map Configure
@@ -188,8 +194,12 @@ addProjection(customProj);
 // Offset Configure
 const COORDINATES_CENTER = [2048, -2048];
 // Fallout76 coordinates to pixel coordinates pixel rate.
-const COORDINATES_REDUCTION_RATE = 141;
+const COORDINATES_REDUCTION_RATE = 141; // WTF?
+
 export default {
+  components: {
+    'marker-info': MarkerInfo,
+  },
   props: {
     // カテゴリ
     category: {
@@ -239,6 +249,7 @@ export default {
       // Tooltip
       currentPosition: undefined,
       currentName: undefined,
+      showMarkerTooltip: false,
       mapCursor: 'default',
     };
   },
@@ -275,6 +286,7 @@ export default {
     onMapPointerMove({pixel}) {
       const map = this.$refs.map;
       const hitFeature = map.forEachFeatureAtPixel(pixel, (feature) => feature);
+      this.showMarkerTooltip = hitFeature !== undefined;
       if (hitFeature) {
         // ツールチップの描画位置を取得
         this.currentPosition = hitFeature.getGeometry().getCoordinates();
@@ -282,7 +294,7 @@ export default {
         this.currentName = this.$t(`locations.${hitFeature.get('name')}`);
       } else {
         // nullを代入してツールチップを隠す
-        this.currentPosition = this.currentName = null;
+        this.currentPosition = this.currentName = undefined;
       }
     },
     // カテゴリレイヤーを更新
@@ -329,6 +341,18 @@ export default {
     },
     // ズームサイズによってマーカーのサイズを変更する
     setMarkerScaleByZoom() {
+      switch (this.zoom | 0) {
+        case 0:
+          return 0.5;
+        case 1:
+          return 0.75;
+        case 2:
+          return 1;
+        case 3:
+          return 1.25;
+        case 4:
+          return 1.5;
+      }
       if (this.zoom === 0) {
         return 0.5;
       } else if (this.zoom === 1) {
@@ -340,6 +364,8 @@ export default {
     onSelect(feature) {
       const value = feature.values_;
       console.log(value);
+      this.$refs.markerInfo.$props.marker = value;
+      this.$refs.markerInfo.open();
     },
   },
 };
@@ -421,6 +447,10 @@ $crosshairs-length: 1.5rem;
       > :before {
         opacity: 0.5;
       }
+    }
+    // マーカーホバー時にカーソルをポインタにする
+    &.is_hover {
+      cursor: pointer;
     }
   }
 }
