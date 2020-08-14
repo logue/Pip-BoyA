@@ -8,6 +8,10 @@
         <section class="my-2">
           <h2>{{ about }}</h2>
           <nl2br tag="p" :text="$t('description')" />
+          <v-btn href="https://github.com/logue/Pip-BoyA" target="_blank">
+            <v-icon left>mdi-github</v-icon>
+            Visit Project site
+          </v-btn>
         </section>
         <section class="my-2">
           <h2>Author</h2>
@@ -23,42 +27,48 @@
                   <v-btn
                     icon
                     color="blue-grey"
-                    @click="openLink('http://logue.dev/')"
+                    href="http://logue.dev/"
+                    target="_blank"
                   >
                     <v-icon>mdi-home</v-icon>
                   </v-btn>
                   <v-btn
                     icon
                     color="blue"
-                    @click="openLink('https://twitter.com/logue256')"
+                    href="https://twitter.com/logue256"
+                    target="_blank"
                   >
                     <v-icon>mdi-twitter</v-icon>
                   </v-btn>
                   <v-btn
                     icon
                     color="indigo"
-                    @click="openLink('https://facebook.com/logue256')"
+                    href="https://facebook.com/logue256"
+                    target="_blank"
                   >
                     <v-icon>mdi-facebook</v-icon>
                   </v-btn>
                   <v-btn
                     icon
                     color="gray"
-                    @click="openLink('https://github.com/logue')"
+                    href="https://github.com/logue"
+                    target="_blank"
                   >
                     <v-icon>mdi-github</v-icon>
                   </v-btn>
                   <v-btn
                     icon
                     color="deep-purple"
-                    @click="openLink('https://steamcommunity.com/id/logue256/')"
+                    href="https://steamcommunity.com/id/logue256/"
+                    target="_blank"
                   >
                     <v-icon>mdi-steam</v-icon>
                   </v-btn>
                   <v-btn
                     icon
                     color="deep-orange"
-                    @click="openLink('https://www.reddit.com/user/logue256')"
+                    href="https://www.reddit.com/user/logue256"
+                    target="_blank"
                   >
                     <v-icon>mdi-reddit</v-icon>
                   </v-btn>
@@ -66,6 +76,35 @@
               </div>
             </div>
           </v-card>
+        </section>
+        <section class="my-2">
+          <h2>Acknowledgement</h2>
+          <ul>
+            <li>
+              <a
+                href="https://www.reddit.com/r/fo76/comments/bmwpx9"
+                target="_blank"
+              >
+                Mappalachia
+              </a>
+              - for some marker.
+            </li>
+            <li>
+              <a
+                href="https://github.com/dan-parker/fo76edit-scripts"
+                target="_blank"
+              >
+                fo76edit-scripts
+              </a>
+              - for export and convert game data.
+            </li>
+            <li>
+              <a href="https://github.com/dan-parker/YASSM" target="_blank">
+                YASSM
+              </a>
+              - for Map icon font.
+            </li>
+          </ul>
         </section>
         <section class="my-2">
           <h2>Legal Notice</h2>
@@ -77,26 +116,6 @@
             other countries. Fallout, Vault Boy and related logos are trademarks
             or registered trademarks of Bethesda Softworks LLC in the U.S.
             and/or other countries. All Rights Reserved.
-          </p>
-          <p>
-            Persistent broadband internet connection required. Acceptance of end
-            user license agreement, Terms of Service, and Privacy Policy, and
-            account registration required to play. Product may be discontinued,
-            and content modified, disabled, suspended or removed, at any time.
-            Product requires installation of application software. See Terms of
-            Service, Privacy Policy and additional details at bethesda.net.
-          </p>
-        </section>
-        <section class="my-2">
-          <h2>Acknowledgement</h2>
-          <p>
-            <a
-              href="https://www.reddit.com/r/fo76/comments/bmwpx9"
-              target="_blank"
-            >
-              Mappalachia: My project which can automatically build maps of
-              every resource in the game world.
-            </a>
           </p>
         </section>
       </v-card-text>
@@ -136,9 +155,6 @@ export default {
     },
     close() {
       this.dialog = false;
-    },
-    openLink(uri) {
-      window.open(uri);
     },
   },
 };

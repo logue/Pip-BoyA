@@ -948,7 +948,7 @@
     {
       "id": "0009A3EE",
       "name": "LocForestSuttonLocation",
-      "type": "WorkshopMarker",
+      "type": "CityMarker",
       "x": -60225.91406,
       "y": 24458.29688
     },

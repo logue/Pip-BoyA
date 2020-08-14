@@ -57,7 +57,7 @@
 
       <!-- Base map layers -->
       <vl-layer-group ref="baseLayers" :opacity="opacity">
-        <vl-layer-tile :visible="!$root.$data.isMilitary">
+        <vl-layer-tile :visible="!$root.$data.isMilitary" :z-index="0">
           <vl-source-xyz
             :url="'/img/tiles/base/{z}/{x}/{y}.webp'"
             :projection="projection"
@@ -66,7 +66,7 @@
             :tile-pixe-ratio="tilePixelRatio"
           />
         </vl-layer-tile>
-        <vl-layer-tile :visible="$root.$data.isMilitary">
+        <vl-layer-tile :visible="$root.$data.isMilitary" :z-index="1">
           <vl-source-xyz
             :url="'/img/tiles/military/{z}/{x}/{y}.webp'"
             :projection="projection"
@@ -82,6 +82,7 @@
         ref="categoryLayer"
         :visible="category !== null"
         :opacity="1"
+        :z-index="2"
       >
         <vl-source-xyz
           ref="categoryLayerSource"
@@ -98,29 +99,31 @@
         <vl-feature
           v-for="marker in markers"
           :key="marker.id"
-          :properties="{
-            id: marker.id,
-            name: $t(`locations.${marker.name}`),
-          }"
+          :properties="marker"
         >
           <vl-geom-point
-            :coordinates="[
-              marker.x / markerReductionRate + markerOffset[0],
-              marker.y / markerReductionRate + markerOffset[1],
-            ]"
+            :coordinates="convertCoordinates(marker.x, marker.y)"
           />
-          <!-- TODO: Marker Icon -->
+          <vl-style-box>
+            <vl-style-icon
+              :src="`/img/marker/${marker.type}.svg`"
+              :img-size="[32, 32]"
+              :scale="setMarkerScaleByZoom()"
+            />
+          </vl-style-box>
+          <!-- Overlay -->
+          <vl-overlay
+            v-if="currentPosition"
+            :position="currentPosition"
+            :offset="[10, 10]"
+          >
+            <div class="v-tooltip__content" style="white-space: nowrap;">
+              {{ currentName }}
+            </div>
+          </vl-overlay>
         </vl-feature>
-
-        <!-- Overlay -->
-        <vl-overlay v-if="currentPosition" :position="currentPosition">
-          <div class="v-tooltip__content" style="white-space: nowrap;">
-            {{ currentName }}
-          </div>
-        </vl-overlay>
+        <vl-interaction-select @select="onSelect" />
       </vl-layer-vector>
-
-      <vl-interaction-select @select="onSelect" />
     </vl-map>
 
     <!-- Explain box -->
@@ -155,6 +158,7 @@
 import {addProjection, get} from 'ol/proj';
 import Projection from 'ol/proj/Projection';
 import TileGrid from 'ol/tilegrid/TileGrid';
+// import {findPointOnSurface} from 'vuelayers/lib/ol-ext';
 import locations from '@/assets/locations.json';
 
 // Map Configure
@@ -184,8 +188,7 @@ addProjection(customProj);
 // Offset Configure
 const COORDINATES_CENTER = [2048, -2048];
 // Fallout76 coordinates to pixel coordinates pixel rate.
-const COORDINATES_REDUCTION_RATE = 142;
-
+const COORDINATES_REDUCTION_RATE = 141;
 export default {
   props: {
     // カテゴリ
@@ -232,8 +235,6 @@ export default {
       // Switch Explain box to maximize and minimize
       isShrink: false,
       // Marker setting
-      markerOffset: COORDINATES_CENTER,
-      markerReductionRate: COORDINATES_REDUCTION_RATE,
       markers: locations.markers,
       // Tooltip
       currentPosition: undefined,
@@ -272,18 +273,16 @@ export default {
     },
     // ポインタ移動時
     onMapPointerMove({pixel}) {
-      const hitFeature = this.$refs.map.forEachFeatureAtPixel(
-        pixel,
-        (feature) => feature
-      );
-
+      const map = this.$refs.map;
+      const hitFeature = map.forEachFeatureAtPixel(pixel, (feature) => feature);
       if (hitFeature) {
-        this.mapCursor = 'pointer';
+        // ツールチップの描画位置を取得
         this.currentPosition = hitFeature.getGeometry().getCoordinates();
-        this.currentName = hitFeature.get('name');
+        // ツールチップの内容を更新
+        this.currentName = this.$t(`locations.${hitFeature.get('name')}`);
       } else {
-        this.mapCursor = 'default';
-        this.currentPosition = this.currentName = undefined;
+        // nullを代入してツールチップを隠す
+        this.currentPosition = this.currentName = null;
       }
     },
     // カテゴリレイヤーを更新
@@ -321,6 +320,23 @@ export default {
     toggleShrink() {
       this.isShrink = !this.isShrink;
     },
+    // 座標系を変換
+    convertCoordinates(x, y) {
+      return [
+        x / COORDINATES_REDUCTION_RATE + COORDINATES_CENTER[0],
+        y / COORDINATES_REDUCTION_RATE + COORDINATES_CENTER[1],
+      ];
+    },
+    // ズームサイズによってマーカーのサイズを変更する
+    setMarkerScaleByZoom() {
+      if (this.zoom === 0) {
+        return 0.5;
+      } else if (this.zoom === 1) {
+        return 0.75;
+      }
+      return 1;
+    },
+    // マーカーをクリックしたときの処理
     onSelect(feature) {
       const value = feature.values_;
       console.log(value);
