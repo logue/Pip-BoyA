@@ -1,0 +1,16 @@
+{
+  "explains": [
+    "maps.flux.cobalt",
+    "maps.flux.fluorescent",
+    "maps.flux.violet",
+    "maps.flux.crimson",
+    "maps.flux.yellowcake"
+  ],
+  "colorset": [
+    "blue",
+    "orange",
+    "purple",
+    "red",
+    "yellow"
+  ]
+}

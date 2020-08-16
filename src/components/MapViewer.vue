@@ -87,16 +87,38 @@
         :z-index="2"
       >
         <vl-source-xyz
+          v-if="!data.markers"
           ref="categoryLayerSource"
-          :url="`/img/map/${category}/{z}/{x}/{y}.png`"
+          :url="`/img/markerTile/${category}/{z}/{x}/{y}.png`"
           :projection="projection"
           :min-zoom="minZoom"
           :max-zoom="maxZoom"
           :tile-pixe-ratio="tilePixelRatio"
         />
+        <vl-feature
+          v-for="marker in data.markers"
+          v-else
+          :key="marker.id"
+          :properties="marker"
+        >
+          <vl-geom-point
+            :coordinates="convertCoordinates(marker.x, marker.y)"
+          />
+          <vl-style-box>
+            <vl-style-circle>
+              <vl-style-stroke :color="getMarkerColor(marker.type).base" />
+              <vl-style-fill
+                :color="`rgba(${hexToRgb(
+                  getMarkerColor(marker.type).lighten5
+                ).join(',')},0.3
+                  )`"
+              />
+            </vl-style-circle>
+          </vl-style-box>
+        </vl-feature>
       </vl-layer-tile>
 
-      <!-- markers -->
+      <!-- Map markers -->
       <vl-layer-vector v-if="$root.$data.displayLocation" ref="featuresLayer">
         <vl-feature
           v-for="marker in markers"
@@ -111,6 +133,7 @@
               :src="`/img/marker/${marker.type}.svg`"
               :img-size="[32, 32]"
               :scale="setMarkerScaleByZoom()"
+              cross-origin="anonymous"
             />
           </vl-style-box>
         </vl-feature>
@@ -132,27 +155,7 @@
     </vl-map>
 
     <!-- Explain box -->
-    <v-card v-if="explains.length !== 0" shaped dark class="explain">
-      <v-card-title class="explain_title">
-        {{ $t('legend') }}
-        <v-spacer />
-        <v-btn icon @click="toggleShrink">
-          <v-icon v-if="!isShrink">mdi-window-minimize</v-icon>
-          <v-icon v-else>mdi-window-maximize</v-icon>
-        </v-btn>
-      </v-card-title>
-      <v-card-text v-if="!isShrink" class="explain_body">
-        <ul class="explain_list">
-          <li
-            v-for="(item, index) in explains"
-            :key="index"
-            :class="`explain_list_item explain_list_item_${colorset[index]}`"
-          >
-            {{ $t(item) }}
-          </li>
-        </ul>
-      </v-card-text>
-    </v-card>
+    <explain v-if="category" :explains="{...data.explains}" />
     <marker-info v-if="$root.$data.displayLocation" ref="markerInfo" />
   </div>
 </template>
@@ -161,11 +164,17 @@
 /**
  * Map Viewer and Explains Component
  */
+import colors from 'vuetify/lib/util/colors';
+
 import {addProjection, get} from 'ol/proj';
 import Projection from 'ol/proj/Projection';
 import TileGrid from 'ol/tilegrid/TileGrid';
+
 import MarkerInfo from '@/components/MarkerInfo.vue';
+import Explain from '@/components/Explain.vue';
+
 import locations from '@/assets/locations.json';
+import colorset from '@/assets/colorset.json';
 
 // Map Configure
 const mapExtent = [0.0, -4096.0, 4096.0, 0.0];
@@ -194,11 +203,12 @@ addProjection(customProj);
 // Offset Configure
 const COORDINATES_CENTER = [2048, -2048];
 // Fallout76 coordinates to pixel coordinates pixel rate.
-const COORDINATES_REDUCTION_RATE = 141; // WTF?
+const COORDINATES_REDUCTION_RATE = 142; // WTF?
 
 export default {
   components: {
     'marker-info': MarkerInfo,
+    explain: Explain,
   },
   props: {
     // カテゴリ
@@ -207,17 +217,11 @@ export default {
       default: null,
       type: String,
     },
-    // 凡例
-    explains: {
+    // カテゴリのデータ
+    data: {
       required: false,
-      type: Array,
-      default: () => [],
-    },
-    // マーカーのカラー配列
-    colorset: {
-      required: false,
-      type: Array,
-      default: () => [],
+      type: Object,
+      default: () => {},
     },
   },
   data() {
@@ -237,13 +241,10 @@ export default {
       projection: customProj.getCode(),
       tileGrid: mapTileGrid,
       tilePixelRatio: 1.0,
-      url: '/img/map/base/{z}/{x}/{y}.png',
       // detect map move
       isMoving: false,
       // Base map layer opacity
       opacity: 1,
-      // Switch Explain box to maximize and minimize
-      isShrink: false,
       // Marker setting
       markers: locations.markers,
       // Tooltip
@@ -291,7 +292,10 @@ export default {
         // ツールチップの描画位置を取得
         this.currentPosition = hitFeature.getGeometry().getCoordinates();
         // ツールチップの内容を更新
-        this.currentName = this.$t(`locations.${hitFeature.get('name')}`);
+        this.currentName =
+          hitFeature.get('name') !== undefined
+            ? this.$t(`locations.${hitFeature.get('name')}`)
+            : hitFeature.get('type');
       } else {
         // nullを代入してツールチップを隠す
         this.currentPosition = this.currentName = undefined;
@@ -299,38 +303,48 @@ export default {
     },
     // カテゴリレイヤーを更新
     updateCategoryLayer() {
-      // カテゴリ用レイヤーのソース
-      const source = this.$refs.categoryLayer.getSource();
-      // 一旦urlをアンロード
-      try {
-        source.setUrl(null);
-      } catch (e) {
-        // TODO:
+      this.opacity = 1;
+      if (!this.category) {
+        this.explains = null;
+        return;
       }
-      if (this.category) {
-        // カテゴリが指定されている場合
+      this.$root.$data.loading = true;
+
+      // 凡例を書き換え
+      this.explains = this.data.explains;
+
+      if (!this.data.markers) {
+        // 画像マーカーモード
+        this.opacity = 0.5;
+
+        const source = this.$refs.categoryLayer.getSource();
+        // 一旦urlをアンロード
+        try {
+          source.setUrl(null);
+        } catch (e) {
+          // TODO:
+        }
+
         if (source.tileCache) {
           // 表示されている画像データとキャッシュを削除
           source.tileCache.expireCache({});
           source.tileCache.clear();
         }
+
         // 新しい画像レイヤを指定
         source.setUrl(`/img/map/${this.category}/{z}/{x}/{y}.png`);
-        this.opacity = 0.5;
+        // リフレッシュ
+        source.refresh();
       } else {
+        // ポイントマーカーモード
         this.opacity = 1;
       }
-      // リフレッシュ
-      source.refresh();
+      this.$root.$data.loading = false;
     },
     // 初期位置に戻る
     resetLocation() {
       this.center = [this.$route.query.x, this.$route.query.y];
       this.zoom = this.$route.query.zoom;
-    },
-    // 凡例の表示切り替え
-    toggleShrink() {
-      this.isShrink = !this.isShrink;
     },
     // 座標系を変換
     convertCoordinates(x, y) {
@@ -363,9 +377,35 @@ export default {
     // マーカーをクリックしたときの処理
     onSelect(feature) {
       const value = feature.values_;
-      console.log(value);
       this.$refs.markerInfo.$props.marker = value;
       this.$refs.markerInfo.open();
+    },
+    // マーカーの色
+    getMarkerColor(type) {
+      // 凡例のインデックスを取得
+      const index = Object.keys(this.data.explains).findIndex(
+        (element) => element === type
+      );
+      // インデックスからVuetifyで定義されている色を取得
+      const color = colorset.markerColor[index];
+      // キャメルケースに変換してカラーをVuetifyから取得
+      // console.log(colors[this.camelCase2KebabCase(color)].base);
+      return colors[this.camelCase2KebabCase(color)];
+    },
+    // Hex指定の色をrgbの配列に変換する（マーカーの塗りつぶし色用）
+    hexToRgb(hex) {
+      return hex
+        .replace(
+          /^#?([a-f\d])([a-f\d])([a-f\d])$/i,
+          (m, r, g, b) => '#' + r + r + g + g + b + b
+        )
+        .substring(1)
+        .match(/.{2}/g)
+        .map((x) => parseInt(x, 16));
+    },
+    // キャメルケースをケバブケースに変える（色指定用）
+    camelCase2KebabCase(s) {
+      return s.replace(/-./g, (x) => x.toUpperCase()[1]);
     },
   },
 };
@@ -380,14 +420,6 @@ $crosshairs-color: map-get($red, 'base');
 $crosshairs-width: 0.2rem;
 // クロスヘアーの長さ
 $crosshairs-length: 1.5rem;
-
-// アウトライン生成
-@function outline($color, $width, $blur) {
-  @return $width $width $blur $color, -$width $width $blur $color,
-    $width -$width $blur $color, -$width -$width $blur $color,
-    $width 0px $blur $color, 0px $width $blur $color, -$width 0px $blur $color,
-    0px -$width $blur $color;
-}
 
 .map-viewer {
   position: absolute;
@@ -455,92 +487,12 @@ $crosshairs-length: 1.5rem;
   }
 }
 
-.explain {
-  color: map-get($grey, 'lighten-4');
-  text-shadow: outline(rgba(map-get($grey, 'darken-4'), 0.5), 1px, 1px);
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-  padding: 0.5rem;
-  margin: 0;
-  z-index: 100;
-  &_title {
-    padding: 0 0.5rem !important;
-  }
-
-  &_body {
-    padding: 0;
-  }
-
-  &_list {
-    padding-inline-start: 1rem;
-    list-style-type: '♦ ';
-    columns: 2;
-    &_item {
-      font-size: 0.75rem;
-
-      &_cyan {
-        color: cyan;
-      }
-      &_magenta {
-        color: magenta;
-      }
-      &_yellow {
-        color: yellow;
-      }
-      &_red {
-        color: red;
-      }
-      &_lime {
-        color: lime;
-      }
-      &_blue {
-        color: blue;
-      }
-      &_lightgray {
-        color: lightgray;
-      }
-      &_orange {
-        color: orange;
-      }
-      &_springgreen {
-        color: springgreen;
-      }
-      &_pink {
-        color: pink;
-      }
-      &_purple {
-        color: purple;
-      }
-      &_darkgreen {
-        color: darkgreen;
-      }
-      &_maroon {
-        color: maroon;
-      }
-
-      // アウトラインカラーを白にする
-      &_green,
-      &_red,
-      &_blue,
-      &_darkgreen,
-      &_purple,
-      &_maroon {
-        text-shadow: outline(rgba(map-get($grey, 'lighten-4'), 0.5), 1px, 1px);
-      }
-    }
-  }
-}
-
 .theme--light {
   .map-viewer {
     background-color: map-get($grey, 'lighten-4');
     .ol-control {
       background-color: rgba(map-get($grey, 'lighten-3'), 0.7);
     }
-  }
-  .explain {
-    background-color: rgba(map-get($grey, 'lighten-1'), 0.7);
   }
 }
 
@@ -550,9 +502,6 @@ $crosshairs-length: 1.5rem;
     .ol-control {
       background-color: rgba(map-get($grey, 'darken-3'), 0.7);
     }
-  }
-  .explain {
-    background-color: rgba(map-get($grey, 'darken-3'), 0.7);
   }
 }
 </style>

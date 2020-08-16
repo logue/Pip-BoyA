@@ -8,7 +8,7 @@ Currently, it is only used to define the legend translation key (corresponding t
 
 現在のところ、凡例の翻訳キー（src/localesの各種言語ファイルのキーと対応）の定義のみに使用していますが、今後マーカーのデーターもここで管理するかもしれません。
 
-## format
+## format (marker tile mode)
 
 ```json
 {
@@ -54,3 +54,9 @@ The color set defines the text color of the legend. Default is the following ord
   'maroon',
 ]
 ```
+
+## format (marker location based mode)
+
+markers配列が存在する場合は、マーカー画像レイヤーを使わず、直接ポイントを描画するモードとなります。explain配列のキー名はmarkerの各行のtypeの値と対応しています。
+
+現在のところ、ここにアイコンを使う予定はありません。

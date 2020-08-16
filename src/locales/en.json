@@ -487,10 +487,12 @@
     },
     "encounters": {
       "assault": "Assault encounters",
-      "assault-whitespring": "Assault Encounters (Whitespring)",
       "scene": "Scene encounters",
       "object": "Object encounters",
-      "travel": "Travel encounters"
+      "travel": "Travel encounters",
+      "camera": "Camera",
+      "camp": "Camp",
+      "mistress": "Order of mistress"
     },
     "resource": {
       "junk": "♺Junk Pile",

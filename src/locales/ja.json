@@ -487,10 +487,12 @@
     },
     "encounters": {
       "assault": "戦闘",
-      "assault-whitespring": "戦闘（ホワイトスプリング）",
       "scene": "シーン",
       "object": "オブジェクト",
-      "travel": "トラベル"
+      "travel": "トラベル",
+      "camera": "カメラ",
+      "camp": "キャンプ",
+      "mistress": "オーダー・オブ・ミストレス"
     },
     "resource": {
       "junk": "ジャンクの山",

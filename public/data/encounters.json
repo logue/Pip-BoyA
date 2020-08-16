@@ -1,0 +1,1812 @@
+{
+  "explains": {
+    "CameraMarker": "maps.encounters.camera",
+    "CampEncounterMarker": "maps.encounters.camp",
+    "MistressMarker": "maps.encounters.mistress",
+    "ObjectEncounterMarker" :"maps.encounters.object",
+    "SceneEncounterMarker":"maps.encounters.scene",
+    "TravelEncounterMarker" :"maps.encounters.travel"
+  },
+  "markers" : [
+    {
+      "id": "0000F397",
+      "type": "SceneEncounterMarker",
+      "x": 2045.007446,
+      "y": -2038.899048
+    },
+    {
+      "id": "00027F8D",
+      "type": "SceneEncounterMarker",
+      "x": 2290.602783,
+      "y": 1550.200317
+    },
+    {
+      "id": "00052500",
+      "type": "TravelEncounterMarker",
+      "x": 2181.2854,
+      "y": 1472.720215
+    },
+    {
+      "id": "0006311C",
+      "type": "ObjectEncounterMarker",
+      "x": 2074.792969,
+      "y": 1526.020752
+    },
+    {
+      "id": "0010BC6E",
+      "type": "SceneEncounterMarker",
+      "x": -99287.57813,
+      "y": 42453.19922
+    },
+    {
+      "id": "0010C9FA",
+      "type": "TravelEncounterMarker",
+      "x": -98760.13281,
+      "y": 2496.703614
+    },
+    {
+      "id": "00180A78",
+      "type": "SceneEncounterMarker",
+      "x": 17.234131,
+      "y": 9.973022
+    },
+    {
+      "id": "00180A90",
+      "type": "ObjectEncounterMarker",
+      "x": 3.8062,
+      "y": 1.9365
+    },
+    {
+      "id": "00180AA7",
+      "type": "TravelEncounterMarker",
+      "x": -18.84375,
+      "y": -51.480103
+    },
+    {
+      "id": "00180ACB",
+      "type": "CampEncounterMarker",
+      "x": 9.682373,
+      "y": 0.418671
+    },
+    {
+      "id": "001F3C80",
+      "type": "SceneEncounterMarker",
+      "x": 66239.08594,
+      "y": 130903.9219
+    },
+    {
+      "id": "001F3CFA",
+      "type": "SceneEncounterMarker",
+      "x": 22562.88477,
+      "y": -119767.0313
+    },
+    {
+      "id": "0020955D",
+      "type": "SceneEncounterMarker",
+      "x": -109989.5859,
+      "y": 174268.75
+    },
+    {
+      "id": "0020A1AE",
+      "type": "SceneEncounterMarker",
+      "x": -139270.9063,
+      "y": 182664.3438
+    },
+    {
+      "id": "0020A343",
+      "type": "SceneEncounterMarker",
+      "x": -152782.9844,
+      "y": 186994.8125
+    },
+    {
+      "id": "0020A584",
+      "type": "ObjectEncounterMarker",
+      "x": -163348.2656,
+      "y": 162205.5
+    },
+    {
+      "id": "0020A5E3",
+      "type": "SceneEncounterMarker",
+      "x": -142487.7344,
+      "y": 156918.8125
+    },
+    {
+      "id": "0027E03D",
+      "type": "TravelEncounterMarker",
+      "x": -130390.7813,
+      "y": 58204.42188
+    },
+    {
+      "id": "0027E067",
+      "type": "ObjectEncounterMarker",
+      "x": -111983.7031,
+      "y": 44104.60547
+    },
+    {
+      "id": "0027E07B",
+      "type": "SceneEncounterMarker",
+      "x": -79077.96094,
+      "y": 25115.23633
+    },
+    {
+      "id": "0027E10B",
+      "type": "ObjectEncounterMarker",
+      "x": -135758.0156,
+      "y": 87748.91406
+    },
+    {
+      "id": "002D6225",
+      "type": "SceneEncounterMarker",
+      "x": -160488.0156,
+      "y": 94612.66406
+    },
+    {
+      "id": "0031D0FD",
+      "type": "SceneEncounterMarker",
+      "x": -67772.08594,
+      "y": 119328.1406
+    },
+    {
+      "id": "0031D19C",
+      "type": "SceneEncounterMarker",
+      "x": -40372.37891,
+      "y": -29978.9668
+    },
+    {
+      "id": "0031D1C4",
+      "type": "SceneEncounterMarker",
+      "x": -48552.93359,
+      "y": -67879.1875
+    },
+    {
+      "id": "0031D263",
+      "type": "SceneEncounterMarker",
+      "x": -8763.233399,
+      "y": 42323.04297
+    },
+    {
+      "id": "0031D288",
+      "type": "SceneEncounterMarker",
+      "x": -48570.11328,
+      "y": 34352.46484
+    },
+    {
+      "id": "0031DD47",
+      "type": "SceneEncounterMarker",
+      "x": -58288.4375,
+      "y": 71437.60938
+    },
+    {
+      "id": "0032294F",
+      "type": "SceneEncounterMarker",
+      "x": 5183.509766,
+      "y": 153227.9375
+    },
+    {
+      "id": "00357EA6",
+      "type": "MistressMarker",
+      "x": -101244.5781,
+      "y": -58798.11328
+    },
+    {
+      "id": "00357EA7",
+      "type": "MistressMarker",
+      "x": -104615.7344,
+      "y": -67591.78125
+    },
+    {
+      "id": "00357EA8",
+      "type": "MistressMarker",
+      "x": 2765.277344,
+      "y": -4070.513672
+    },
+    {
+      "id": "00357F90",
+      "type": "MistressMarker",
+      "x": -136233.0625,
+      "y": -121754.6797
+    },
+    {
+      "id": "00357F92",
+      "type": "MistressMarker",
+      "x": -150519.8594,
+      "y": -135686.6406
+    },
+    {
+      "id": "00357F94",
+      "type": "MistressMarker",
+      "x": -1792.204834,
+      "y": 21520.98438
+    },
+    {
+      "id": "00357F95",
+      "type": "MistressMarker",
+      "x": -183383.2656,
+      "y": -72043.99219
+    },
+    {
+      "id": "00357F96",
+      "type": "MistressMarker",
+      "x": 3774.051513,
+      "y": -119620
+    },
+    {
+      "id": "00357F97",
+      "type": "MistressMarker",
+      "x": 9349.463867,
+      "y": -93856.4375
+    },
+    {
+      "id": "00357F98",
+      "type": "MistressMarker",
+      "x": -1014.577392,
+      "y": -53522.03125
+    },
+    {
+      "id": "00357F99",
+      "type": "MistressMarker",
+      "x": 113136.6406,
+      "y": -43979.83594
+    },
+    {
+      "id": "00357F9A",
+      "type": "MistressMarker",
+      "x": -12387.82324,
+      "y": 74451.94531
+    },
+    {
+      "id": "00357FA5",
+      "type": "MistressMarker",
+      "x": -726.710571,
+      "y": 81301.10156
+    },
+    {
+      "id": "00357FA8",
+      "type": "MistressMarker",
+      "x": -31537.76953,
+      "y": 8660.421875
+    },
+    {
+      "id": "00357FA9",
+      "type": "MistressMarker",
+      "x": -48078.01172,
+      "y": -54740.65625
+    },
+    {
+      "id": "00357FAB",
+      "type": "MistressMarker",
+      "x": -41326.49219,
+      "y": -17158.54102
+    },
+    {
+      "id": "00357FAC",
+      "type": "MistressMarker",
+      "x": -115476.8281,
+      "y": -55498.82813
+    },
+    {
+      "id": "00357FAD",
+      "type": "MistressMarker",
+      "x": -119400.8828,
+      "y": -47539.65234
+    },
+    {
+      "id": "0037FF4D",
+      "type": "SceneEncounterMarker",
+      "x": -142310.5313,
+      "y": -28069.65234
+    },
+    {
+      "id": "0037FF5C",
+      "type": "ObjectEncounterMarker",
+      "x": -178474.6719,
+      "y": -37413.95313
+    },
+    {
+      "id": "0037FF88",
+      "type": "ObjectEncounterMarker",
+      "x": -81056.96875,
+      "y": 59881.57422
+    },
+    {
+      "id": "0037FFA0",
+      "type": "SceneEncounterMarker",
+      "x": 144688,
+      "y": 16016
+    },
+    {
+      "id": "0037FFDA",
+      "type": "ObjectEncounterMarker",
+      "x": -47108.01172,
+      "y": 124681.4766
+    },
+    {
+      "id": "0037FFE0",
+      "type": "TravelEncounterMarker",
+      "x": -106254.2109,
+      "y": -25305.99414
+    },
+    {
+      "id": "00380010",
+      "type": "SceneEncounterMarker",
+      "x": -68968,
+      "y": 8240
+    },
+    {
+      "id": "0038002D",
+      "type": "SceneEncounterMarker",
+      "x": -6265.964355,
+      "y": 116857.2422
+    },
+    {
+      "id": "0038003E",
+      "type": "TravelEncounterMarker",
+      "x": -26652.84766,
+      "y": 74123.64844
+    },
+    {
+      "id": "0038005D",
+      "type": "TravelEncounterMarker",
+      "x": -113657.3359,
+      "y": -39501.72266
+    },
+    {
+      "id": "0038008E",
+      "type": "SceneEncounterMarker",
+      "x": -167976,
+      "y": 121584
+    },
+    {
+      "id": "0038009D",
+      "type": "ObjectEncounterMarker",
+      "x": -26947.75,
+      "y": 159376.125
+    },
+    {
+      "id": "003800AC",
+      "type": "ObjectEncounterMarker",
+      "x": -76453.625,
+      "y": 188518.8125
+    },
+    {
+      "id": "003800BB",
+      "type": "SceneEncounterMarker",
+      "x": -46952,
+      "y": 184736
+    },
+    {
+      "id": "003800C5",
+      "type": "ObjectEncounterMarker",
+      "x": -104184.3047,
+      "y": -15139.89746
+    },
+    {
+      "id": "003800D4",
+      "type": "ObjectEncounterMarker",
+      "x": -103077.4609,
+      "y": 146882
+    },
+    {
+      "id": "003800F1",
+      "type": "ObjectEncounterMarker",
+      "x": -107435.2969,
+      "y": -37871.09766
+    },
+    {
+      "id": "0039300A",
+      "type": "SceneEncounterMarker",
+      "x": 31392.20703,
+      "y": 43246.09766
+    },
+    {
+      "id": "00393018",
+      "type": "SceneEncounterMarker",
+      "x": 107128,
+      "y": 51199.38281
+    },
+    {
+      "id": "00393042",
+      "type": "SceneEncounterMarker",
+      "x": 96039,
+      "y": 9384
+    },
+    {
+      "id": "00393050",
+      "type": "SceneEncounterMarker",
+      "x": -5799.039062,
+      "y": -18268.19336
+    },
+    {
+      "id": "0039305E",
+      "type": "SceneEncounterMarker",
+      "x": 66799.5625,
+      "y": -25780.16211
+    },
+    {
+      "id": "0039307D",
+      "type": "ObjectEncounterMarker",
+      "x": 86872,
+      "y": 195064
+    },
+    {
+      "id": "00393093",
+      "type": "SceneEncounterMarker",
+      "x": 97468.66406,
+      "y": 191920.7031
+    },
+    {
+      "id": "003930AB",
+      "type": "ObjectEncounterMarker",
+      "x": 118080.1953,
+      "y": 193424.2031
+    },
+    {
+      "id": "00393129",
+      "type": "SceneEncounterMarker",
+      "x": 161059.0781,
+      "y": 185829.7813
+    },
+    {
+      "id": "00393177",
+      "type": "ObjectEncounterMarker",
+      "x": 559.361634,
+      "y": 171758.4844
+    },
+    {
+      "id": "0039319C",
+      "type": "TravelEncounterMarker",
+      "x": 68563.9375,
+      "y": 152294.9063
+    },
+    {
+      "id": "003931C3",
+      "type": "ObjectEncounterMarker",
+      "x": 112173.5391,
+      "y": 166283.9063
+    },
+    {
+      "id": "003931DA",
+      "type": "SceneEncounterMarker",
+      "x": 142401.0156,
+      "y": 164688.5
+    },
+    {
+      "id": "003931F9",
+      "type": "ObjectEncounterMarker",
+      "x": -42457.26953,
+      "y": 197661.5313
+    },
+    {
+      "id": "0039320D",
+      "type": "SceneEncounterMarker",
+      "x": -5490.498535,
+      "y": 194704.7656
+    },
+    {
+      "id": "00393222",
+      "type": "TravelEncounterMarker",
+      "x": 49484.24609,
+      "y": 189285.3438
+    },
+    {
+      "id": "00393231",
+      "type": "ObjectEncounterMarker",
+      "x": 66888,
+      "y": 203056
+    },
+    {
+      "id": "00393250",
+      "type": "SceneEncounterMarker",
+      "x": 75167.5625,
+      "y": 198168.7031
+    },
+    {
+      "id": "00393814",
+      "type": "TravelEncounterMarker",
+      "x": 121343.7656,
+      "y": 127302.5625
+    },
+    {
+      "id": "00393823",
+      "type": "ObjectEncounterMarker",
+      "x": 35129.82422,
+      "y": 121664.4063
+    },
+    {
+      "id": "00393833",
+      "type": "ObjectEncounterMarker",
+      "x": 55471.61328,
+      "y": 125565.8047
+    },
+    {
+      "id": "00393850",
+      "type": "TravelEncounterMarker",
+      "x": 102237.8906,
+      "y": 117483.6719
+    },
+    {
+      "id": "0039387A",
+      "type": "SceneEncounterMarker",
+      "x": 75917.3125,
+      "y": 85436.30469
+    },
+    {
+      "id": "00394395",
+      "type": "SceneEncounterMarker",
+      "x": -18687.31641,
+      "y": -95658.19531
+    },
+    {
+      "id": "003943B4",
+      "type": "TravelEncounterMarker",
+      "x": -24881.41797,
+      "y": -105692.5391
+    },
+    {
+      "id": "003943C8",
+      "type": "ObjectEncounterMarker",
+      "x": -34258.07813,
+      "y": -103733.8906
+    },
+    {
+      "id": "003943F6",
+      "type": "SceneEncounterMarker",
+      "x": -59917.61719,
+      "y": -176983.125
+    },
+    {
+      "id": "003948CA",
+      "type": "TravelEncounterMarker",
+      "x": 72163.29688,
+      "y": 47025.625
+    },
+    {
+      "id": "00394919",
+      "type": "ObjectEncounterMarker",
+      "x": 110040,
+      "y": -48688
+    },
+    {
+      "id": "00394BFE",
+      "type": "SceneEncounterMarker",
+      "x": 74723.15625,
+      "y": 179548.2188
+    },
+    {
+      "id": "0039533C",
+      "type": "ObjectEncounterMarker",
+      "x": 150987.9531,
+      "y": 50724.51563
+    },
+    {
+      "id": "0039535D",
+      "type": "TravelEncounterMarker",
+      "x": 164475.7656,
+      "y": 19329.90234
+    },
+    {
+      "id": "0039536C",
+      "type": "ObjectEncounterMarker",
+      "x": 129900.2109,
+      "y": 12346.51953
+    },
+    {
+      "id": "00395388",
+      "type": "SceneEncounterMarker",
+      "x": 132708.5781,
+      "y": -12561.90625
+    },
+    {
+      "id": "00395397",
+      "type": "SceneEncounterMarker",
+      "x": 153672,
+      "y": -22472
+    },
+    {
+      "id": "003953A6",
+      "type": "SceneEncounterMarker",
+      "x": 171120.0938,
+      "y": -31308.83984
+    },
+    {
+      "id": "003953BE",
+      "type": "SceneEncounterMarker",
+      "x": 191120,
+      "y": -54376
+    },
+    {
+      "id": "003953D2",
+      "type": "ObjectEncounterMarker",
+      "x": 188314.0781,
+      "y": -13726.86523
+    },
+    {
+      "id": "003953E6",
+      "type": "TravelEncounterMarker",
+      "x": 175649.2031,
+      "y": 11956.44238
+    },
+    {
+      "id": "00395413",
+      "type": "SceneEncounterMarker",
+      "x": 190902.625,
+      "y": 50224.9375
+    },
+    {
+      "id": "00395427",
+      "type": "SceneEncounterMarker",
+      "x": 198237.0938,
+      "y": 83848.95313
+    },
+    {
+      "id": "0039543E",
+      "type": "SceneEncounterMarker",
+      "x": 191553.8906,
+      "y": 120767.1563
+    },
+    {
+      "id": "00395450",
+      "type": "TravelEncounterMarker",
+      "x": 161726.6719,
+      "y": 144142.5938
+    },
+    {
+      "id": "0039546C",
+      "type": "SceneEncounterMarker",
+      "x": 183289.1406,
+      "y": 157430.0781
+    },
+    {
+      "id": "00395498",
+      "type": "SceneEncounterMarker",
+      "x": 132483,
+      "y": 52114.625
+    },
+    {
+      "id": "003954B6",
+      "type": "SceneEncounterMarker",
+      "x": 177101.0469,
+      "y": 182729.1563
+    },
+    {
+      "id": "003954DD",
+      "type": "SceneEncounterMarker",
+      "x": 153382.5625,
+      "y": 130746.1719
+    },
+    {
+      "id": "00395513",
+      "type": "TravelEncounterMarker",
+      "x": 149442.3281,
+      "y": 110627.2734
+    },
+    {
+      "id": "00396CE1",
+      "type": "ObjectEncounterMarker",
+      "x": 165833.1406,
+      "y": -161691.3125
+    },
+    {
+      "id": "00396CF8",
+      "type": "ObjectEncounterMarker",
+      "x": 166208,
+      "y": -128728
+    },
+    {
+      "id": "00396D0B",
+      "type": "SceneEncounterMarker",
+      "x": 186395.5313,
+      "y": -108604.125
+    },
+    {
+      "id": "00396D1A",
+      "type": "ObjectEncounterMarker",
+      "x": 165742.2813,
+      "y": -100904.4844
+    },
+    {
+      "id": "00396D2A",
+      "type": "ObjectEncounterMarker",
+      "x": 179281.6563,
+      "y": -124754.9922
+    },
+    {
+      "id": "00396D50",
+      "type": "TravelEncounterMarker",
+      "x": 175594.6875,
+      "y": -134606.6563
+    },
+    {
+      "id": "00396D69",
+      "type": "ObjectEncounterMarker",
+      "x": 124326.5859,
+      "y": -173935.7188
+    },
+    {
+      "id": "00396D91",
+      "type": "TravelEncounterMarker",
+      "x": 135375.5938,
+      "y": -174728.625
+    },
+    {
+      "id": "00396DBE",
+      "type": "ObjectEncounterMarker",
+      "x": 131167.8281,
+      "y": -161803.5625
+    },
+    {
+      "id": "00396DEA",
+      "type": "ObjectEncounterMarker",
+      "x": 110951.3047,
+      "y": -124404.9766
+    },
+    {
+      "id": "00396EA8",
+      "type": "ObjectEncounterMarker",
+      "x": 120371.3672,
+      "y": -116480.4922
+    },
+    {
+      "id": "00396EC9",
+      "type": "ObjectEncounterMarker",
+      "x": 157496,
+      "y": -177112
+    },
+    {
+      "id": "00396EE7",
+      "type": "ObjectEncounterMarker",
+      "x": 190136,
+      "y": -78568
+    },
+    {
+      "id": "00396F7C",
+      "type": "SceneEncounterMarker",
+      "x": 178448,
+      "y": -102025.8047
+    },
+    {
+      "id": "003989CB",
+      "type": "ObjectEncounterMarker",
+      "x": -33480,
+      "y": -163984
+    },
+    {
+      "id": "003989DA",
+      "type": "ObjectEncounterMarker",
+      "x": -24960,
+      "y": -158640
+    },
+    {
+      "id": "003989F9",
+      "type": "TravelEncounterMarker",
+      "x": -11451.16992,
+      "y": -146364.0938
+    },
+    {
+      "id": "00398A08",
+      "type": "ObjectEncounterMarker",
+      "x": 81034.44531,
+      "y": -173583.2344
+    },
+    {
+      "id": "00398A17",
+      "type": "SceneEncounterMarker",
+      "x": 23875.66602,
+      "y": -183028.5156
+    },
+    {
+      "id": "00398A26",
+      "type": "ObjectEncounterMarker",
+      "x": 52808,
+      "y": -179616
+    },
+    {
+      "id": "00398A35",
+      "type": "SceneEncounterMarker",
+      "x": 72099.85938,
+      "y": -169553.0313
+    },
+    {
+      "id": "00398A44",
+      "type": "ObjectEncounterMarker",
+      "x": 92560,
+      "y": -172880
+    },
+    {
+      "id": "00398A74",
+      "type": "TravelEncounterMarker",
+      "x": 5327.466309,
+      "y": -85848.66406
+    },
+    {
+      "id": "00398A7F",
+      "type": "TravelEncounterMarker",
+      "x": 78112,
+      "y": -98072
+    },
+    {
+      "id": "00399C3B",
+      "type": "TravelEncounterMarker",
+      "x": 97626.32031,
+      "y": -124339.4531
+    },
+    {
+      "id": "00399C46",
+      "type": "TravelEncounterMarker",
+      "x": 47655.49609,
+      "y": -51628.71484
+    },
+    {
+      "id": "00399C5A",
+      "type": "SceneEncounterMarker",
+      "x": 49107.04297,
+      "y": -59255.78125
+    },
+    {
+      "id": "00399C69",
+      "type": "ObjectEncounterMarker",
+      "x": 35063.50781,
+      "y": -50202.74219
+    },
+    {
+      "id": "00399C86",
+      "type": "SceneEncounterMarker",
+      "x": -31726.21875,
+      "y": -169025.3906
+    },
+    {
+      "id": "00399CA4",
+      "type": "SceneEncounterMarker",
+      "x": -9060.564453,
+      "y": -125247.4297
+    },
+    {
+      "id": "00399CB3",
+      "type": "ObjectEncounterMarker",
+      "x": 13941.06152,
+      "y": -121381.0547
+    },
+    {
+      "id": "00399E13",
+      "type": "TravelEncounterMarker",
+      "x": 142653.5156,
+      "y": -84238.69531
+    },
+    {
+      "id": "00399E31",
+      "type": "SceneEncounterMarker",
+      "x": 132733.25,
+      "y": -75920.25781
+    },
+    {
+      "id": "00399E4C",
+      "type": "SceneEncounterMarker",
+      "x": 152445.7031,
+      "y": -74158.89844
+    },
+    {
+      "id": "00399E76",
+      "type": "ObjectEncounterMarker",
+      "x": 139565.2344,
+      "y": -68262.07031
+    },
+    {
+      "id": "0039B8C4",
+      "type": "SceneEncounterMarker",
+      "x": 135255.2344,
+      "y": -90735.14844
+    },
+    {
+      "id": "0039B8DE",
+      "type": "SceneEncounterMarker",
+      "x": 129132.7734,
+      "y": -107824.7422
+    },
+    {
+      "id": "0039B8F1",
+      "type": "ObjectEncounterMarker",
+      "x": 118192,
+      "y": -96024
+    },
+    {
+      "id": "0039B900",
+      "type": "TravelEncounterMarker",
+      "x": 127354.9453,
+      "y": -93427.60938
+    },
+    {
+      "id": "0039B915",
+      "type": "SceneEncounterMarker",
+      "x": 108840.8125,
+      "y": -96709.98438
+    },
+    {
+      "id": "0039D078",
+      "type": "SceneEncounterMarker",
+      "x": 155813.7344,
+      "y": -58411.09375
+    },
+    {
+      "id": "0039D07E",
+      "type": "TravelEncounterMarker",
+      "x": 149119,
+      "y": -58644.41797
+    },
+    {
+      "id": "0039D0A5",
+      "type": "SceneEncounterMarker",
+      "x": 170675.4063,
+      "y": -63399.72656
+    },
+    {
+      "id": "0039D0CD",
+      "type": "SceneEncounterMarker",
+      "x": 166015,
+      "y": -107718.5859
+    },
+    {
+      "id": "0039D10F",
+      "type": "SceneEncounterMarker",
+      "x": 110607.3359,
+      "y": -166063.4844
+    },
+    {
+      "id": "0039D151",
+      "type": "ObjectEncounterMarker",
+      "x": 179024,
+      "y": -81176
+    },
+    {
+      "id": "0039D213",
+      "type": "ObjectEncounterMarker",
+      "x": 122497.25,
+      "y": -140684.9531
+    },
+    {
+      "id": "003A2708",
+      "type": "SceneEncounterMarker",
+      "x": 169803.4688,
+      "y": -169255.875
+    },
+    {
+      "id": "003A2718",
+      "type": "SceneEncounterMarker",
+      "x": 115679.6953,
+      "y": -103746.0938
+    },
+    {
+      "id": "003A27D1",
+      "type": "TravelEncounterMarker",
+      "x": 149590.2969,
+      "y": -101250.375
+    },
+    {
+      "id": "003A27EA",
+      "type": "SceneEncounterMarker",
+      "x": 148942.125,
+      "y": -116494.5156
+    },
+    {
+      "id": "003A27F7",
+      "type": "ObjectEncounterMarker",
+      "x": 137167.5781,
+      "y": -125102.1016
+    },
+    {
+      "id": "003A68BD",
+      "type": "SceneEncounterMarker",
+      "x": 203845.4531,
+      "y": -121562.1875
+    },
+    {
+      "id": "004783AA",
+      "type": "CameraMarker",
+      "x": 9199.789063,
+      "y": 59819.1875
+    },
+    {
+      "id": "004783AB",
+      "type": "CameraMarker",
+      "x": 30994.75781,
+      "y": 150192.5
+    },
+    {
+      "id": "004783AC",
+      "type": "CameraMarker",
+      "x": 60408.57031,
+      "y": 160281.0938
+    },
+    {
+      "id": "004783AD",
+      "type": "CameraMarker",
+      "x": 39123.69922,
+      "y": 170188.375
+    },
+    {
+      "id": "004783AE",
+      "type": "CameraMarker",
+      "x": 7735.299316,
+      "y": -50544.89844
+    },
+    {
+      "id": "004783AF",
+      "type": "CameraMarker",
+      "x": 132121.6875,
+      "y": -138427.0469
+    },
+    {
+      "id": "004783B0",
+      "type": "CameraMarker",
+      "x": -177537.2656,
+      "y": 73097.64844
+    },
+    {
+      "id": "004783B1",
+      "type": "CameraMarker",
+      "x": -144596.4844,
+      "y": 143496.1094
+    },
+    {
+      "id": "004783B2",
+      "type": "CameraMarker",
+      "x": -188369.8594,
+      "y": -129712.9844
+    },
+    {
+      "id": "004783B3",
+      "type": "CameraMarker",
+      "x": -131446.5156,
+      "y": -30217.61719
+    },
+    {
+      "id": "004783B4",
+      "type": "CameraMarker",
+      "x": -75744.00781,
+      "y": 72215.10156
+    },
+    {
+      "id": "004783B5",
+      "type": "CameraMarker",
+      "x": -36766.5,
+      "y": 188962.0156
+    },
+    {
+      "id": "004783B6",
+      "type": "CameraMarker",
+      "x": -28583.30078,
+      "y": -83872.39063
+    },
+    {
+      "id": "004E3DD9",
+      "type": "SceneEncounterMarker",
+      "x": -121800.7266,
+      "y": -129831.6406
+    },
+    {
+      "id": "004E3DDF",
+      "type": "TravelEncounterMarker",
+      "x": -125873.8281,
+      "y": -139195.0938
+    },
+    {
+      "id": "004E3E53",
+      "type": "SceneEncounterMarker",
+      "x": -86611.64063,
+      "y": -142714.8906
+    },
+    {
+      "id": "004E3E7A",
+      "type": "SceneEncounterMarker",
+      "x": -106091.9375,
+      "y": -84822.13281
+    },
+    {
+      "id": "004E3EA3",
+      "type": "SceneEncounterMarker",
+      "x": -115318.6563,
+      "y": -105259
+    },
+    {
+      "id": "004E3EB9",
+      "type": "SceneEncounterMarker",
+      "x": -90452.42969,
+      "y": -110031.1328
+    },
+    {
+      "id": "004E3EC8",
+      "type": "SceneEncounterMarker",
+      "x": -75201.30469,
+      "y": -108869.2813
+    },
+    {
+      "id": "004E3F21",
+      "type": "SceneEncounterMarker",
+      "x": -171505.6406,
+      "y": -135652.3438
+    },
+    {
+      "id": "004E4B00",
+      "type": "SceneEncounterMarker",
+      "x": -146644.3906,
+      "y": -94850.94531
+    },
+    {
+      "id": "004E5835",
+      "type": "SceneEncounterMarker",
+      "x": 10878.94824,
+      "y": 36138.92188
+    },
+    {
+      "id": "004E58B5",
+      "type": "ObjectEncounterMarker",
+      "x": -67072,
+      "y": 46016
+    },
+    {
+      "id": "004F7C9A",
+      "type": "TravelEncounterMarker",
+      "x": 184685.7813,
+      "y": -71597.54688
+    },
+    {
+      "id": "004F7CA4",
+      "type": "TravelEncounterMarker",
+      "x": 161540.5156,
+      "y": -132240
+    },
+    {
+      "id": "004F7CC1",
+      "type": "SceneEncounterMarker",
+      "x": 192459.625,
+      "y": -127655.4766
+    },
+    {
+      "id": "004F8D94",
+      "type": "ObjectEncounterMarker",
+      "x": 150044.7656,
+      "y": 17497.00195
+    },
+    {
+      "id": "004F8DA2",
+      "type": "ObjectEncounterMarker",
+      "x": 165201.7813,
+      "y": 140208.1406
+    },
+    {
+      "id": "004F8DB0",
+      "type": "ObjectEncounterMarker",
+      "x": 173290.9375,
+      "y": 38755.86719
+    },
+    {
+      "id": "004F8DBE",
+      "type": "ObjectEncounterMarker",
+      "x": 183028.8594,
+      "y": 20453.54297
+    },
+    {
+      "id": "004F8DDB",
+      "type": "ObjectEncounterMarker",
+      "x": 188733.2031,
+      "y": -30794.28516
+    },
+    {
+      "id": "004F8E59",
+      "type": "ObjectEncounterMarker",
+      "x": 151026.625,
+      "y": 117345.6953
+    },
+    {
+      "id": "004F9DA4",
+      "type": "ObjectEncounterMarker",
+      "x": 193437.9219,
+      "y": 77232.8125
+    },
+    {
+      "id": "0050DD83",
+      "type": "TravelEncounterMarker",
+      "x": 190159.2969,
+      "y": 133549.625
+    },
+    {
+      "id": "0050DD9A",
+      "type": "TravelEncounterMarker",
+      "x": 172997.6719,
+      "y": -13178.875
+    },
+    {
+      "id": "0050DDA4",
+      "type": "TravelEncounterMarker",
+      "x": 129728,
+      "y": 2712
+    },
+    {
+      "id": "0050DDBA",
+      "type": "TravelEncounterMarker",
+      "x": 181110.1406,
+      "y": -32457.94727
+    },
+    {
+      "id": "0050DDC6",
+      "type": "TravelEncounterMarker",
+      "x": 137577.8281,
+      "y": 90433.15625
+    },
+    {
+      "id": "0050DDD5",
+      "type": "TravelEncounterMarker",
+      "x": 188312.1719,
+      "y": -48383.69531
+    },
+    {
+      "id": "0050DDF6",
+      "type": "ObjectEncounterMarker",
+      "x": 180634.2656,
+      "y": 74141.125
+    },
+    {
+      "id": "0050E606",
+      "type": "ObjectEncounterMarker",
+      "x": 171943.7344,
+      "y": 77447.29688
+    },
+    {
+      "id": "0050EB5B",
+      "type": "TravelEncounterMarker",
+      "x": -81389.13281,
+      "y": -147696.3281
+    },
+    {
+      "id": "0050EB65",
+      "type": "TravelEncounterMarker",
+      "x": -102468.7031,
+      "y": -123841.9609
+    },
+    {
+      "id": "0050EB6F",
+      "type": "TravelEncounterMarker",
+      "x": -153985.0313,
+      "y": -120131.9375
+    },
+    {
+      "id": "0050EBB3",
+      "type": "ObjectEncounterMarker",
+      "x": -79135.67969,
+      "y": -115714.1719
+    },
+    {
+      "id": "0050EBC1",
+      "type": "ObjectEncounterMarker",
+      "x": -93685.42969,
+      "y": -134197.4375
+    },
+    {
+      "id": "0050EBCF",
+      "type": "ObjectEncounterMarker",
+      "x": -110114.8906,
+      "y": -80695.95313
+    },
+    {
+      "id": "0050EBD9",
+      "type": "TravelEncounterMarker",
+      "x": -66884.60938,
+      "y": 138284
+    },
+    {
+      "id": "0050EBE7",
+      "type": "ObjectEncounterMarker",
+      "x": -158045.1406,
+      "y": 48136.43359
+    },
+    {
+      "id": "0050EBF5",
+      "type": "ObjectEncounterMarker",
+      "x": -29764.35547,
+      "y": -75409.35938
+    },
+    {
+      "id": "0050EBFF",
+      "type": "TravelEncounterMarker",
+      "x": -42983.28906,
+      "y": 108592.625
+    },
+    {
+      "id": "0050EC09",
+      "type": "TravelEncounterMarker",
+      "x": -51497.92578,
+      "y": 79746.64844
+    },
+    {
+      "id": "0050EC13",
+      "type": "TravelEncounterMarker",
+      "x": -6932.273925,
+      "y": 12455.61817
+    },
+    {
+      "id": "0050EC1D",
+      "type": "TravelEncounterMarker",
+      "x": -90324.26563,
+      "y": -72550.71875
+    },
+    {
+      "id": "0050EC27",
+      "type": "TravelEncounterMarker",
+      "x": -109711.5234,
+      "y": 152570.375
+    },
+    {
+      "id": "0050EC35",
+      "type": "ObjectEncounterMarker",
+      "x": -138780.7031,
+      "y": -32648.61328
+    },
+    {
+      "id": "0050EC43",
+      "type": "ObjectEncounterMarker",
+      "x": -144645.5469,
+      "y": 153021.2031
+    },
+    {
+      "id": "0050EC4D",
+      "type": "TravelEncounterMarker",
+      "x": -15706.79004,
+      "y": 61936.73828
+    },
+    {
+      "id": "0050EC5B",
+      "type": "ObjectEncounterMarker",
+      "x": -30821.74414,
+      "y": 1440.106201
+    },
+    {
+      "id": "0050ECA9",
+      "type": "ObjectEncounterMarker",
+      "x": -65835.52344,
+      "y": -49903.94141
+    },
+    {
+      "id": "0050FA60",
+      "type": "TravelEncounterMarker",
+      "x": 53625.45313,
+      "y": -164729.7031
+    },
+    {
+      "id": "0050FAD7",
+      "type": "TravelEncounterMarker",
+      "x": -17018.49805,
+      "y": -86605.28125
+    },
+    {
+      "id": "0050FAE1",
+      "type": "TravelEncounterMarker",
+      "x": 44561.11328,
+      "y": 58055.67188
+    },
+    {
+      "id": "0050FAEB",
+      "type": "TravelEncounterMarker",
+      "x": 49271.30469,
+      "y": 99910.89063
+    },
+    {
+      "id": "0050FAF9",
+      "type": "ObjectEncounterMarker",
+      "x": 72159.78125,
+      "y": 14126.36426
+    },
+    {
+      "id": "0050FB0C",
+      "type": "SceneEncounterMarker",
+      "x": 43700.57031,
+      "y": 160331.125
+    },
+    {
+      "id": "0050FB1A",
+      "type": "SceneEncounterMarker",
+      "x": 90832.07813,
+      "y": 157191.8281
+    },
+    {
+      "id": "0050FB28",
+      "type": "SceneEncounterMarker",
+      "x": 13678.77734,
+      "y": -71080.96875
+    },
+    {
+      "id": "0050FB50",
+      "type": "SceneEncounterMarker",
+      "x": 27898.04688,
+      "y": -97355.1875
+    },
+    {
+      "id": "0050FB5E",
+      "type": "SceneEncounterMarker",
+      "x": 108156.8984,
+      "y": -16837.0918
+    },
+    {
+      "id": "0050FB6D",
+      "type": "SceneEncounterMarker",
+      "x": 98577.58594,
+      "y": -142061.7031
+    },
+    {
+      "id": "0050FB7C",
+      "type": "SceneEncounterMarker",
+      "x": 55901.93359,
+      "y": -122426.5156
+    },
+    {
+      "id": "0050FB82",
+      "type": "TravelEncounterMarker",
+      "x": 46636.45313,
+      "y": 230.525268
+    },
+    {
+      "id": "0050FB91",
+      "type": "ObjectEncounterMarker",
+      "x": 117514.7578,
+      "y": 85432.53906
+    },
+    {
+      "id": "0050FBA0",
+      "type": "ObjectEncounterMarker",
+      "x": 115779.6563,
+      "y": -2819.974609
+    },
+    {
+      "id": "0050FBAB",
+      "type": "TravelEncounterMarker",
+      "x": 82485.71094,
+      "y": -25238.60938
+    },
+    {
+      "id": "0054C0BD",
+      "type": "MistressMarker",
+      "x": 2765.599121,
+      "y": -4087.303467
+    },
+    {
+      "id": "005622D6",
+      "type": "CampEncounterMarker",
+      "x": -164100,
+      "y": -71130.40625
+    },
+    {
+      "id": "005622E9",
+      "type": "CampEncounterMarker",
+      "x": 6860.993653,
+      "y": 44291.01563
+    },
+    {
+      "id": "00568F7B",
+      "type": "ObjectEncounterMarker",
+      "x": -10231.26172,
+      "y": 6975.327636
+    },
+    {
+      "id": "0056F3FF",
+      "type": "TravelEncounterMarker",
+      "x": -11738.85645,
+      "y": -2024.046021
+    },
+    {
+      "id": "00571CE9",
+      "type": "TravelEncounterMarker",
+      "x": -126721.7969,
+      "y": 106786.7344
+    },
+    {
+      "id": "00586A4E",
+      "type": "CampEncounterMarker",
+      "x": 21403.47266,
+      "y": 71344.90625
+    },
+    {
+      "id": "005880DB",
+      "type": "CampEncounterMarker",
+      "x": -26817.72461,
+      "y": -9679.566407
+    },
+    {
+      "id": "00588103",
+      "type": "CampEncounterMarker",
+      "x": -112838.2656,
+      "y": 199085.3125
+    },
+    {
+      "id": "00589189",
+      "type": "CampEncounterMarker",
+      "x": -78444.17188,
+      "y": 147433.3281
+    },
+    {
+      "id": "005891C3",
+      "type": "CampEncounterMarker",
+      "x": 122390.7188,
+      "y": -164476.8906
+    },
+    {
+      "id": "005891F6",
+      "type": "CampEncounterMarker",
+      "x": -37877.83203,
+      "y": 180318.2813
+    },
+    {
+      "id": "0058B6EE",
+      "type": "CampEncounterMarker",
+      "x": 143950.875,
+      "y": -26485.99805
+    },
+    {
+      "id": "0058B712",
+      "type": "CampEncounterMarker",
+      "x": 102993.5547,
+      "y": -81027.6875
+    },
+    {
+      "id": "0058BD13",
+      "type": "CampEncounterMarker",
+      "x": 90636.78125,
+      "y": 20348.51758
+    },
+    {
+      "id": "0058C859",
+      "type": "CampEncounterMarker",
+      "x": 84580.15625,
+      "y": 189589.5313
+    },
+    {
+      "id": "0058C879",
+      "type": "CampEncounterMarker",
+      "x": 15869.30371,
+      "y": 808.927551
+    },
+    {
+      "id": "0058CCA8",
+      "type": "CampEncounterMarker",
+      "x": -47285.44141,
+      "y": -114467.5938
+    },
+    {
+      "id": "0058CE40",
+      "type": "CampEncounterMarker",
+      "x": -90856.65625,
+      "y": 196577.8594
+    },
+    {
+      "id": "0058D397",
+      "type": "CampEncounterMarker",
+      "x": -138928.3438,
+      "y": -131365
+    },
+    {
+      "id": "0058D68D",
+      "type": "CampEncounterMarker",
+      "x": -125533.1406,
+      "y": 65623.14844
+    },
+    {
+      "id": "0058D8DD",
+      "type": "CampEncounterMarker",
+      "x": 161737.7031,
+      "y": -167562.0781
+    },
+    {
+      "id": "0058DE0B",
+      "type": "CampEncounterMarker",
+      "x": 196149.5938,
+      "y": 14344.72461
+    },
+    {
+      "id": "0058DEC8",
+      "type": "CampEncounterMarker",
+      "x": 170773.2656,
+      "y": -36295.95313
+    },
+    {
+      "id": "0058E6DB",
+      "type": "CampEncounterMarker",
+      "x": 165638.4063,
+      "y": -177896.9063
+    },
+    {
+      "id": "005927FF",
+      "type": "CampEncounterMarker",
+      "x": -173187.2969,
+      "y": 170933.9531
+    },
+    {
+      "id": "005980B3",
+      "type": "CampEncounterMarker",
+      "x": -74893.13281,
+      "y": 56568.61328
+    },
+    {
+      "id": "005980C7",
+      "type": "CampEncounterMarker",
+      "x": -130682.1016,
+      "y": 120919.4844
+    },
+    {
+      "id": "005980DB",
+      "type": "CampEncounterMarker",
+      "x": -61911.30859,
+      "y": 99322.28906
+    },
+    {
+      "id": "005980EF",
+      "type": "CampEncounterMarker",
+      "x": -168368.125,
+      "y": 86952.57031
+    },
+    {
+      "id": "00598177",
+      "type": "CampEncounterMarker",
+      "x": -91650.59375,
+      "y": 43875.29297
+    },
+    {
+      "id": "00599613",
+      "type": "CampEncounterMarker",
+      "x": -3006.735839,
+      "y": -24521.47852
+    },
+    {
+      "id": "00599643",
+      "type": "CampEncounterMarker",
+      "x": 33458.26172,
+      "y": -47453.76172
+    },
+    {
+      "id": "00599677",
+      "type": "CampEncounterMarker",
+      "x": 66917.75781,
+      "y": -56175.50391
+    },
+    {
+      "id": "005996A8",
+      "type": "CampEncounterMarker",
+      "x": 186369.0469,
+      "y": 166109.1719
+    },
+    {
+      "id": "005996DA",
+      "type": "CampEncounterMarker",
+      "x": 182638.0469,
+      "y": 3092.369385
+    },
+    {
+      "id": "00599977",
+      "type": "CampEncounterMarker",
+      "x": -113982.9844,
+      "y": 2617.788574
+    },
+    {
+      "id": "005999A6",
+      "type": "CampEncounterMarker",
+      "x": -161075.7813,
+      "y": 4044.229004
+    },
+    {
+      "id": "005999CE",
+      "type": "CampEncounterMarker",
+      "x": -136448.6719,
+      "y": -55881.63672
+    },
+    {
+      "id": "005999E2",
+      "type": "CampEncounterMarker",
+      "x": -187785.7188,
+      "y": -71937.71875
+    },
+    {
+      "id": "00599BFC",
+      "type": "CampEncounterMarker",
+      "x": 176549.3594,
+      "y": -111835.0234
+    },
+    {
+      "id": "00599C54",
+      "type": "CampEncounterMarker",
+      "x": 32182.43359,
+      "y": 92558.61719
+    },
+    {
+      "id": "00599C7B",
+      "type": "CampEncounterMarker",
+      "x": 59219.37891,
+      "y": 103004.0469
+    },
+    {
+      "id": "00599CD1",
+      "type": "CampEncounterMarker",
+      "x": 77221.53906,
+      "y": 64596.67578
+    },
+    {
+      "id": "0059A306",
+      "type": "CampEncounterMarker",
+      "x": -121446.6797,
+      "y": -67073.13281
+    },
+    {
+      "id": "0059A32E",
+      "type": "CampEncounterMarker",
+      "x": -106589.9688,
+      "y": -171277.0781
+    },
+    {
+      "id": "0059A342",
+      "type": "CampEncounterMarker",
+      "x": -43393.64453,
+      "y": -45222.21094
+    },
+    {
+      "id": "0059A3FB",
+      "type": "CampEncounterMarker",
+      "x": 51546.46484,
+      "y": 135743.7031
+    },
+    {
+      "id": "0059A7E7",
+      "type": "CampEncounterMarker",
+      "x": 117966.8203,
+      "y": -91497.83594
+    },
+    {
+      "id": "0059A8DA",
+      "type": "CampEncounterMarker",
+      "x": 128935.1016,
+      "y": 158271.7031
+    },
+    {
+      "id": "0059A92C",
+      "type": "CampEncounterMarker",
+      "x": 27058.66211,
+      "y": -92027.91406
+    },
+    {
+      "id": "0059A971",
+      "type": "CampEncounterMarker",
+      "x": 96137.38281,
+      "y": 67739.67188
+    },
+    {
+      "id": "0059A99C",
+      "type": "CampEncounterMarker",
+      "x": 74676.23438,
+      "y": -27417.37891
+    },
+    {
+      "id": "0059A9B0",
+      "type": "CampEncounterMarker",
+      "x": -4837.814453,
+      "y": 152398.8594
+    },
+    {
+      "id": "0059AA4E",
+      "type": "CampEncounterMarker",
+      "x": -18014.625,
+      "y": 140189.5313
+    },
+    {
+      "id": "0059C639",
+      "type": "ObjectEncounterMarker",
+      "x": 151243.7969,
+      "y": -6145.674316
+    },
+    {
+      "id": "0059D8B3",
+      "type": "SceneEncounterMarker",
+      "x": 10856.63672,
+      "y": 195442.5
+    },
+    {
+      "id": "005A3802",
+      "type": "ObjectEncounterMarker",
+      "x": 198815.8906,
+      "y": -22628.25781
+    }
+  ]
+}
