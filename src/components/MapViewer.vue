@@ -382,7 +382,7 @@ export default {
       if (!value) {
         return;
       }
-      this.$refs.markerInfo.$props.marker = value;
+      this.$refs.markerInfo.marker = value;
       this.$refs.markerInfo.open();
     },
     // マーカーの色

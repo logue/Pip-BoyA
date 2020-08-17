@@ -54,25 +54,18 @@
 
 <script>
 export default {
-  props: {
-    marker: {
-      type: Object,
-      default: () => {
-        return {
-          id: null,
-          type: null,
-          name: null,
-          realX: 0,
-          realY: 0,
-          x: 0,
-          y: 0,
-        };
-      },
-    },
-  },
   data() {
     return {
       dialog: false,
+      marker: {
+        id: 0,
+        type: null,
+        name: null,
+        realX: 0,
+        realY: 0,
+        x: 0,
+        y: 0,
+      },
     };
   },
   methods: {
