@@ -86,6 +86,7 @@
         :opacity="1"
         :z-index="2"
       >
+        <!-- tile based marker mode -->
         <vl-source-xyz
           v-if="!data.markers"
           ref="categoryLayerSource"
@@ -95,15 +96,14 @@
           :max-zoom="maxZoom"
           :tile-pixe-ratio="tilePixelRatio"
         />
+        <!-- location based marker mode -->
         <vl-feature
-          v-for="marker in data.markers"
+          v-for="marker in categoryMarkers"
           v-else
           :key="marker.id"
           :properties="marker"
         >
-          <vl-geom-point
-            :coordinates="convertCoordinates(marker.x, marker.y)"
-          />
+          <vl-geom-point :coordinates="[marker.x, marker.y]" />
           <vl-style-box>
             <vl-style-circle>
               <vl-style-stroke :color="getMarkerColor(marker.type).base" />
@@ -119,15 +119,17 @@
       </vl-layer-tile>
 
       <!-- Map markers -->
-      <vl-layer-vector v-if="$root.$data.displayLocation" ref="featuresLayer">
+      <vl-layer-vector
+        v-if="$root.$data.displayLocation"
+        ref="featuresLayer"
+        :z-index="3"
+      >
         <vl-feature
           v-for="marker in markers"
           :key="marker.id"
           :properties="marker"
         >
-          <vl-geom-point
-            :coordinates="convertCoordinates(marker.x, marker.y)"
-          />
+          <vl-geom-point :coordinates="[marker.x, marker.y]" />
           <vl-style-box>
             <vl-style-icon
               :src="`/img/marker/${marker.type}.svg`"
@@ -173,7 +175,10 @@ import TileGrid from 'ol/tilegrid/TileGrid';
 import MarkerInfo from '@/components/MarkerInfo.vue';
 import Explain from '@/components/Explain.vue';
 
-import locations from '@/assets/locations.json';
+import {
+  COORDINATES_CENTER,
+  convertCoordinates,
+} from '@/assets/convertCoordinates.js';
 import colorset from '@/assets/colorset.json';
 
 // Map Configure
@@ -199,11 +204,6 @@ const customProj = new Projection({
   extent: tileExtent,
 });
 addProjection(customProj);
-
-// Offset Configure
-const COORDINATES_CENTER = [2048, -2048];
-// Fallout76 coordinates to pixel coordinates pixel rate.
-const COORDINATES_REDUCTION_RATE = 142; // WTF?
 
 export default {
   components: {
@@ -246,7 +246,8 @@ export default {
       // Base map layer opacity
       opacity: 1,
       // Marker setting
-      markers: locations.markers,
+      markers: [],
+      categoryMarkers: [],
       // Tooltip
       currentPosition: undefined,
       currentName: undefined,
@@ -260,13 +261,19 @@ export default {
       this.updateCategoryLayer();
     },
   },
-  mounted() {
+  async mounted() {
+    this.$root.$data.loading = true;
     // Load location from QueryString.
     this.center = [
-      (this.$route.query.x ?? 2048) | 0,
-      (this.$route.query.y ?? -2048) | 0,
+      (this.$route.query.x ?? COORDINATES_CENTER[0]) | 0,
+      (this.$route.query.y ?? COORDINATES_CENTER[1]) | 0,
     ];
     this.zoom = (this.$route.query.z ?? 1) | 0;
+
+    const locations = await this.axios.get('/data/locations.json');
+
+    this.markers = convertCoordinates(locations.data.markers);
+    this.$root.$data.loading = false;
   },
   methods: {
     // マップ移動開始時
@@ -302,18 +309,23 @@ export default {
       }
     },
     // カテゴリレイヤーを更新
-    updateCategoryLayer() {
+    async updateCategoryLayer() {
       this.opacity = 1;
+
       if (!this.category) {
         this.explains = null;
         return;
       }
       this.$root.$data.loading = true;
 
+      // カテゴリが存在する場合、カテゴリの凡例データの含まれたjsonから凡例の項目とカラーセットを取得
+      const response = await this.axios.get(`/data/${this.category}.json`);
+
       // 凡例を書き換え
-      this.explains = this.data.explains;
+      this.explains = response.data.explains;
 
       if (!this.data.markers) {
+        this.categoryMarkers = [];
         // 画像マーカーモード
         this.opacity = 0.5;
 
@@ -338,6 +350,8 @@ export default {
       } else {
         // ポイントマーカーモード
         this.opacity = 1;
+        // カテゴリマーカー
+        this.categoryMarkers = convertCoordinates(response.data.markers);
       }
       this.$root.$data.loading = false;
     },
@@ -345,13 +359,6 @@ export default {
     resetLocation() {
       this.center = [this.$route.query.x, this.$route.query.y];
       this.zoom = this.$route.query.zoom;
-    },
-    // 座標系を変換
-    convertCoordinates(x, y) {
-      return [
-        x / COORDINATES_REDUCTION_RATE + COORDINATES_CENTER[0],
-        y / COORDINATES_REDUCTION_RATE + COORDINATES_CENTER[1],
-      ];
     },
     // ズームサイズによってマーカーのサイズを変更する
     setMarkerScaleByZoom() {
@@ -367,16 +374,14 @@ export default {
         case 4:
           return 1.5;
       }
-      if (this.zoom === 0) {
-        return 0.5;
-      } else if (this.zoom === 1) {
-        return 0.75;
-      }
       return 1;
     },
     // マーカーをクリックしたときの処理
     onSelect(feature) {
       const value = feature.values_;
+      if (!value) {
+        return;
+      }
       this.$refs.markerInfo.$props.marker = value;
       this.$refs.markerInfo.open();
     },

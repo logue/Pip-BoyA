@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" max-width="640" light>
+  <v-dialog v-if="marker" v-model="dialog" max-width="640" light>
     <v-card>
       <div class="d-flex">
         <v-avatar size="128" tile :title="marker.type">
@@ -13,7 +13,7 @@
           <v-card-text>
             ID: {{ marker.id }}
             <br />
-            Real Location:[{{ marker.x }}, {{ marker.y }}]
+            Real Location:[{{ marker.realX }}, {{ marker.realY }}]
           </v-card-text>
         </div>
       </div>
@@ -62,6 +62,8 @@ export default {
           id: null,
           type: null,
           name: null,
+          realX: 0,
+          realY: 0,
           x: 0,
           y: 0,
         };
