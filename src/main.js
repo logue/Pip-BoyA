@@ -20,10 +20,12 @@ import './plugins/clipboard';
 
 Vue.config.productionTip = false;
 
-Vue.use(VueAnalytics, {
-  id: 'UA-11445748-24',
-  router,
-});
+if (process.env.GOOGLE_ANALYTICS_CODE) {
+  Vue.use(VueAnalytics, {
+    id: process.env.GOOGLE_ANALYTICS_CODE,
+    router,
+  });
+}
 
 new Vue({
   data() {

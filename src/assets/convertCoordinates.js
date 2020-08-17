@@ -20,9 +20,9 @@ export function convertCoordinates(markers) {
         // Marker Type
         type: cur.type,
         // Marker pixel X location
-        x: cur.x / COORDINATES_REDUCTION_RATE + COORDINATES_CENTER[0],
+        x: (cur.x / COORDINATES_REDUCTION_RATE + COORDINATES_CENTER[0]) | 0,
         // Marker pixel Y location
-        y: cur.y / COORDINATES_REDUCTION_RATE + COORDINATES_CENTER[1],
+        y: (cur.y / COORDINATES_REDUCTION_RATE + COORDINATES_CENTER[1]) | 0,
         // Fallout76 Native X location
         realX: cur.x,
         // Fallout76 Native Y location

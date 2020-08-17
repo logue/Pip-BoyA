@@ -88,7 +88,7 @@
       >
         <!-- tile based marker mode -->
         <vl-source-xyz
-          v-if="!data.markers"
+          v-if="!categoryMarkers"
           ref="categoryLayerSource"
           :url="`/img/markerTile/${category}/{z}/{x}/{y}.png`"
           :projection="projection"
@@ -217,12 +217,6 @@ export default {
       default: null,
       type: String,
     },
-    // カテゴリのデータ
-    data: {
-      required: false,
-      type: Object,
-      default: () => {},
-    },
   },
   data() {
     return {
@@ -270,9 +264,15 @@ export default {
     ];
     this.zoom = (this.$route.query.z ?? 1) | 0;
 
-    const locations = await this.axios.get('/data/locations.json');
+    console.log('Load location data.');
+    const locations = await this.axios
+      .get('/data/locations.json')
+      .catch((err) => {
+        console.error(err);
+      });
 
     this.markers = convertCoordinates(locations.data.markers);
+
     this.$root.$data.loading = false;
   },
   methods: {
@@ -319,7 +319,11 @@ export default {
       this.$root.$data.loading = true;
 
       // カテゴリが存在する場合、カテゴリの凡例データの含まれたjsonから凡例の項目とカラーセットを取得
-      const response = await this.axios.get(`/data/${this.category}.json`);
+      const response = await this.axios
+        .get(`/data/${this.category}.json`)
+        .catch((err) => {
+          console.error(err.message);
+        });
 
       // 凡例を書き換え
       this.explains = response.data.explains;

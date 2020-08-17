@@ -28,6 +28,6 @@ export default new VueI18n({
     window.navigator.language ||
     window.navigator.userLanguage ||
     window.navigator.browserLanguage,
-  fallbackLocale: 'en',
+  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
   messages: loadLocaleMessages(),
 });
