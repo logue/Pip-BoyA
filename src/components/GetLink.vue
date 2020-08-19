@@ -58,7 +58,7 @@ export default {
       const url = this.$router.resolve({
         query: {x: loc.x, y: loc.y, z: loc.z},
       });
-      this.uri = location.origin + url.href;
+      this.uri = 'https://fo76.logue.be' + url.href.replace('#', '');
     },
     close() {
       this.dialog = false;

@@ -27,7 +27,7 @@
     "vue-nl2br": "^0.1.2",
     "vue-router": "^3.4.3",
     "vuelayers": "^0.11.27",
-    "vuetify": "^2.3.8"
+    "vuetify": "^2.3.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -37,7 +37,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "deepmerge": "^4.2.2",
-    "electron": "^9.2.0",
+    "electron": "^9.2.1",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^7.7.0",
     "eslint-config-google": "^0.14.0",

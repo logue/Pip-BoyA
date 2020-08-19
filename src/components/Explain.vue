@@ -1,5 +1,5 @@
 <template>
-  <v-card v-if="explains.length !== 0" shaped dark class="explain">
+  <v-card shaped dark class="explain">
     <v-card-title class="explain_title">
       {{ $t('legend') }}
       <v-spacer />
@@ -53,14 +53,11 @@ export default {
       default: () => {},
       type: Object,
     },
-    colors: {
-      default: () => [],
-      type: Array,
-    },
   },
-  emits: ['marker-changed'],
+  emits: ['checked'],
   data() {
     return {
+      colors: [],
       isShrinked: false,
       checked: [],
       markerMode: false,
@@ -91,7 +88,7 @@ export default {
       this.isShrinked = !this.isShrinked;
     },
     toggleMarker() {
-      this.$emit('marker-changed');
+      this.$emit('checked', this.checked);
     },
   },
 };
