@@ -1892,7 +1892,7 @@
     },
     {
       "id": "0036E865",
-      "name": "LocForestGauleyMineExitLocation",
+      "name": "LocForestGauleyMineLocation",
       "type": "CaveMarker",
       "x": -58605.36328,
       "y": 62688.30469
@@ -2690,7 +2690,7 @@
     },
     {
       "id": "0058F015",
-      "name": "LocCranberryWatogaLocation",
+      "name": "LocCranberryWatogaBasementLocation",
       "type": "SewerMarker",
       "x": 152462.5469,
       "y": -141432.1563
