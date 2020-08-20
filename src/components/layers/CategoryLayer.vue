@@ -68,7 +68,8 @@ export default {
     updateCategoryLayer(data) {
       this.$root.$data.loading = true;
       this.data = data;
-      if (!data.markers) {
+      const tileMarkerMode = !data.markers;
+      if (tileMarkerMode) {
         // 画像マーカーモード
 
         // マーカーをクリア
@@ -94,12 +95,10 @@ export default {
           source.refresh();
         }
       } else {
-        // ポイントマーカーモード
-        this.opacity = 1;
         // カテゴリマーカー
         this.markers = convertCoordinates(data.markers, config.center);
       }
-      this.$emit('changed', this.set);
+      this.$emit('changed', tileMarkerMode);
       this.$root.$data.loading = false;
     },
     /**

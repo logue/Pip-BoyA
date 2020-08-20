@@ -23,11 +23,11 @@
       />
 
       <!-- Base map layers -->
-      <base-layer />
+      <base-layer ref="baseLayer" />
 
       <!-- Category map layer -->
       <category-layer
-        ref="category"
+        ref="categoryLayer"
         :category="$route.params.category"
         @changed="onCategoryChanged"
       />
@@ -51,6 +51,21 @@
         </span>
       </vl-overlay>
     </vl-map>
+    <!-- opacity slider -->
+    <v-tooltip bottom>
+      <template #activator="{on, attrs}">
+        <v-slider
+          v-model="$refs.baseLayer.opacity"
+          step="0.1"
+          min="0.1"
+          max="1"
+          class="map-viewer_opacity-slider"
+          v-bind="attrs"
+          v-on="on"
+        />
+      </template>
+      <span>{{ $t('opacity') }}</span>
+    </v-tooltip>
     <marker-info ref="markerInfo" />
     <explain ref="explainPopup" />
   </div>
@@ -63,6 +78,9 @@
 import FullScreen from 'ol/control/FullScreen';
 import OverviewMap from 'ol/control/OverviewMap';
 import ZoomSlider from 'ol/control/ZoomSlider';
+import MousePosition from 'ol/control/MousePosition';
+
+import {createStringXY} from 'ol/coordinate';
 
 import config from '@/assets/map.config.js';
 
@@ -99,7 +117,10 @@ export default {
   },
   watch: {
     zoom() {
-      this.$refs.locationLayer.setScale(this.zoom);
+      if (this.$root.$data.displayLocation) {
+        // ズームの値によってロケーションアイコンのサイズを変える
+        this.$refs.locationLayer.setScale(this.zoom);
+      }
     },
     async $route(to) {
       if (to.name === 'Category') {
@@ -115,14 +136,16 @@ export default {
             );
           });
 
-        console.log(response.data);
-
-        this.$refs.category.category = this.category;
-        this.$refs.category.updateCategoryLayer(response.data);
+        // console.log(response.data);
+        // カテゴリレイヤーを更新
+        this.$refs.categoryLayer.category = this.category;
+        this.$refs.categoryLayer.updateCategoryLayer(response.data);
+        // 凡例レイヤーを更新
         this.$refs.explainPopup.updateExplain({...response.data.explains});
       } else {
-        this.$refs.category.category = null;
-        this.$refs.explainPopup.explains = {};
+        this.$refs.categoryLayer.category = null;
+        this.$refs.explainPopup.updateExplain(null);
+        this.$refs.baseLayer.opacity = 1;
       }
     },
   },
@@ -134,7 +157,10 @@ export default {
     ];
     this.zoom = (this.$route.query.z ?? 1) | 0;
 
-    this.$refs.locationLayer.setScale(this.zoom);
+    if (this.$root.$data.displayLocation) {
+      // ズームの値によってロケーションアイコンのサイズを変える
+      this.$refs.locationLayer.setScale(this.zoom);
+    }
 
     this.$root.$data.loading = false;
   },
@@ -149,6 +175,9 @@ export default {
           collapsible: true,
         }),
         new ZoomSlider(),
+        new MousePosition({
+          coordinateFormat: createStringXY(0),
+        }),
       ]);
 
       // console.log(this.config.extent, this.$refs.map.$map.getSize());
@@ -200,8 +229,9 @@ export default {
       // this.$refs.markerInfo.marker = value;
       this.$refs.markerInfo.open(value);
     },
-    onCategoryChanged(explains) {
-      this.explains = explains;
+    onCategoryChanged(tileMarkerMode) {
+      // 画像マーカーモードのときはベースマップの透過度を半分にする
+      this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
     },
   },
 };
@@ -216,6 +246,12 @@ $crosshairs-color: map-get($red, 'base');
 $crosshairs-width: 0.2rem;
 // クロスヘアーの長さ
 $crosshairs-length: 1.5rem;
+
+.ol-mouse-position {
+  color: map-get($amber, 'base');
+  left: 3rem !important;
+}
+
 .map-container {
   position: absolute;
   width: 100%;
@@ -223,18 +259,14 @@ $crosshairs-length: 1.5rem;
   top: 0;
   bottom: 0;
   .map-viewer {
-    .ol-mouse-position {
-      color: map-get($red, 'base');
-    }
+    width: inherit;
+    height: inherit;
 
-    &_system-bar {
-      z-index: 1;
-    }
     &_opacity-slider {
       width: 8rem;
       z-index: 1;
-      top: 2rem;
-      right: 1rem;
+      top: 0.5rem;
+      right: 3.5rem;
       position: absolute;
     }
 

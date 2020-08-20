@@ -19,21 +19,6 @@
         :tile-pixe-ratio="config.tilePixelRatio"
       />
     </vl-layer-tile>
-    <!-- opacity slider -->
-    <v-tooltip bottom>
-      <template #activator="{on, attrs}">
-        <v-slider
-          v-model="opacity"
-          step="0.1"
-          min="0.1"
-          max="1"
-          class="map-viewer_opacity-slider"
-          v-bind="attrs"
-          v-on="on"
-        />
-      </template>
-      <span>{{ $t('opacity') }}</span>
-    </v-tooltip>
   </vl-layer-group>
 </template>
 

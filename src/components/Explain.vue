@@ -1,5 +1,5 @@
 <template>
-  <v-card v-if="explains" shaped dark class="explain">
+  <v-card v-if="explains !== null" shaped dark class="explain">
     <v-card-title class="explain_title">
       {{ $t('legend') }}
       <v-spacer />
@@ -9,7 +9,7 @@
       </v-btn>
     </v-card-title>
     <v-card-text v-if="!isShrinked" class="explain_body">
-      <ul v-if="markerMode" class="explain_list">
+      <ul v-if="!markerMode" class="explain_list">
         <li
           v-for="(item, index) in explains"
           :key="index"
@@ -53,26 +53,29 @@
 import colorset from '@/assets/colorset.json';
 
 export default {
-  emits: ['checked'],
+  emits: ['marker-changed'],
   data() {
     return {
-      explains: {},
+      // 凡例
+      explains: null,
       // 色設定
       colors: [],
       // 最大化／最小化
       isShrinked: false,
       // チェック済みの項目の配列
       checked: [],
-      // タイル版かマーカー版かの判定
+      // falseは画像マーカーモード
       markerMode: false,
     };
   },
   methods: {
     updateExplain(explains) {
+      this.explains = explains;
+      // 凡例のキーが数値だった場合、画像タイルマーカーモードとする
       const keys = Object.keys(explains);
-      this.markerMode = !isNaN(Number(keys[0]));
+      this.markerMode = isNaN(Number(keys[0]));
 
-      console.log('marker mode:', this.markerMode);
+      // console.log('marker mode:', this.markerMode);
       if (this.colors.length === 0) {
         // デフォルトのカラー定義
         this.colorset = colorset;
@@ -80,14 +83,19 @@ export default {
         // カラー定義を上書きする場合（タイルモードのみ）
         this.colorset.tileExplainColor = this.colors;
       }
-      this.explains = explains;
+      if (this.markerMode) {
+        // マーカーはすべて選択状態にする
+        this.checked = keys;
+      }
     },
+    // 最小化／最大化
     toggleShrink() {
       this.isShrinked = !this.isShrinked;
     },
+    // マーカー表示／非表示
     toggleMarker() {
       console.log(this.checked);
-      this.$emit('checked', this.checked);
+      this.$emit('marker-changed', this.checked);
     },
   },
 };
