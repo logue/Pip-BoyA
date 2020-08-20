@@ -28,11 +28,11 @@
             v-if="marker.name"
             text
             color="green"
-            target="_blank"
             :href="
               'https://fallout.fandom.com/wiki/' +
               $t(`locations.${marker.name}`, 'en').replace(/\(.+?\)/, '')
             "
+            @click.prevent="openNewWin"
           >
             <v-icon left>mdi-message-cog</v-icon>
             NukaPedia
@@ -41,11 +41,11 @@
             v-if="marker.name"
             text
             color="blue-grey"
-            target="_blank"
             :href="
               'https://game-dictionary.net/fo76/word/' +
               $t(`locations.${marker.name}`, 'ja').replace(/\（.+?\）/, '')
             "
+            @click.prevent="openNewWin"
           >
             <v-icon left>mdi-cog-box</v-icon>
             Fallout76大辞典
@@ -80,6 +80,11 @@
 </template>
 
 <script>
+import {getUri} from '@/assets/utility.js';
+
+/**
+ * Marker detail window comportent.
+ */
 export default {
   data() {
     return {
@@ -101,11 +106,10 @@ export default {
   methods: {
     open(marker) {
       this.marker = marker;
-      const url = this.$router.resolve({
-        query: {x: this.marker.x, y: this.marker.y, z: 4},
-      });
-      // this.uri = location.origin + url.href;
-      this.uri = 'https://fo76.logue.be' + url.href.replace('#', '');
+      this.uri = getUri(
+        {x: this.marker.x, y: this.marker.y, z: 4},
+        this.$router
+      );
       this.dialog = true;
     },
     close() {
@@ -120,6 +124,20 @@ export default {
       this.dialog = false;
       this.snackbarText = this.$t('copy-failure');
       this.snackbar = true;
+    },
+    openNewWin(e) {
+      // TODO: ディレクティブで指定できるように
+
+      // 現在のリンクを取得
+      const href = e.currentTarget.href;
+      if (process.env.IS_ELECTRON) {
+        // Electronの場合ブラウザを起動して開く
+        this.$electron.shell.openExternal(href);
+      } else {
+        // ブラウザの場合、通常の新しい画面
+        window.open(href);
+      }
+      return false;
     },
   },
 };

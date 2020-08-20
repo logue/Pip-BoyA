@@ -33,5 +33,8 @@ module.exports = {
       localeDir: 'locales',
       enableInSFC: false,
     },
+    electronBuilder: {
+      nodeIntegration: true,
+    },
   },
 };

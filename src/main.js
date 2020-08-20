@@ -17,6 +17,7 @@ import vuetify from './plugins/vuetify';
 import './plugins/vuelayers';
 import './plugins/axios';
 import './plugins/clipboard';
+import './plugins/electron';
 
 Vue.config.productionTip = false;
 

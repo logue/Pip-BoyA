@@ -39,6 +39,7 @@
 </template>
 
 <script>
+import {getUri} from '@/assets/utility.js';
 /**
  * Get location uri dialog.
  */
@@ -52,22 +53,23 @@ export default {
     };
   },
   methods: {
+    // ウィンドウを開いたとき
     open() {
       this.dialog = true;
-      const loc = this.$root.$data.location;
-      const url = this.$router.resolve({
-        query: {x: loc.x, y: loc.y, z: loc.z},
-      });
-      this.uri = 'https://fo76.logue.be' + url.href.replace('#', '');
+      // URLを更新
+      this.uri = getUri(this.$root.$data.location, this.$router);
     },
+    // ウィンドウを閉じる
     close() {
       this.dialog = false;
     },
+    // クリップボードにコピー
     onCopy(e) {
       this.dialog = false;
       this.snackbarText = this.$t('copy-success');
       this.snackbar = true;
     },
+    // クリップボードにコピーできなかったとき
     onError(e) {
       this.dialog = false;
       this.snackbarText = this.$t('copy-failure');

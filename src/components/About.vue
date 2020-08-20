@@ -8,7 +8,10 @@
         <section class="my-2">
           <h2>{{ about }}</h2>
           <nl2br tag="p" :text="$t('description')" />
-          <v-btn href="https://github.com/logue/Pip-BoyA" target="_blank">
+          <v-btn
+            href="https://github.com/logue/Pip-BoyA"
+            @click.prevent="openNewWin"
+          >
             <v-icon left>mdi-github</v-icon>
             Visit Project site
           </v-btn>
@@ -28,7 +31,7 @@
                     icon
                     color="blue-grey"
                     href="http://logue.dev/"
-                    target="_blank"
+                    @click.prevent="openNewWin"
                   >
                     <v-icon>mdi-home</v-icon>
                   </v-btn>
@@ -36,7 +39,7 @@
                     icon
                     color="blue"
                     href="https://twitter.com/logue256"
-                    target="_blank"
+                    @click.prevent="openNewWin"
                   >
                     <v-icon>mdi-twitter</v-icon>
                   </v-btn>
@@ -44,7 +47,7 @@
                     icon
                     color="indigo"
                     href="https://facebook.com/logue256"
-                    target="_blank"
+                    @click.prevent="openNewWin"
                   >
                     <v-icon>mdi-facebook</v-icon>
                   </v-btn>
@@ -52,7 +55,7 @@
                     icon
                     color="gray"
                     href="https://github.com/logue"
-                    target="_blank"
+                    @click.prevent="openNewWin"
                   >
                     <v-icon>mdi-github</v-icon>
                   </v-btn>
@@ -60,7 +63,7 @@
                     icon
                     color="deep-purple"
                     href="https://steamcommunity.com/id/logue256/"
-                    target="_blank"
+                    @click.prevent="openNewWin"
                   >
                     <v-icon>mdi-steam</v-icon>
                   </v-btn>
@@ -68,7 +71,7 @@
                     icon
                     color="deep-orange"
                     href="https://www.reddit.com/user/logue256"
-                    target="_blank"
+                    @click.prevent="openNewWin"
                   >
                     <v-icon>mdi-reddit</v-icon>
                   </v-btn>
@@ -83,7 +86,7 @@
             <li>
               <a
                 href="https://www.reddit.com/r/fo76/comments/bmwpx9"
-                target="_blank"
+                @click.prevent="openNewWin"
               >
                 Mappalachia
               </a>
@@ -92,17 +95,11 @@
             <li>
               <a
                 href="https://github.com/dan-parker/fo76edit-scripts"
-                target="_blank"
+                @click.prevent="openNewWin"
               >
                 fo76edit-scripts
               </a>
               - for export and convert game data.
-            </li>
-            <li>
-              <a href="https://github.com/dan-parker/YASSM" target="_blank">
-                YASSM
-              </a>
-              - for Map icon font.
             </li>
           </ul>
         </section>
@@ -155,6 +152,15 @@ export default {
     },
     close() {
       this.dialog = false;
+    },
+    openNewWin(e) {
+      const href = e.currentTarget.href;
+      if (process.env.IS_ELECTRON) {
+        this.$electron.shell.openExternal(href);
+      } else {
+        window.open(href);
+      }
+      return false;
     },
   },
 };

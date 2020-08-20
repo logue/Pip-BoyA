@@ -27,6 +27,7 @@
 
       <!-- Category map layer -->
       <category-layer
+        ref="category"
         :category="$route.params.category"
         @changed="onCategoryChanged"
       />
@@ -100,9 +101,22 @@ export default {
       // console.log(this.$refs.locationLayer);
       // this.$refs.locationLayer.toggleVisible(this.$root.$data.displayLocation);
     },
-    $route(to) {
+    async $route(to) {
       if (to.name === 'Category') {
         this.category = to.params.category;
+        console.log(this.category);
+        // カテゴリが存在する場合、カテゴリの凡例データの含まれたjsonから凡例の項目とカラーセットを取得
+        const response = await this.axios
+          .get(`/data/${this.category}.json`)
+          .catch((err) => {
+            console.error(err.message);
+            throw new Error(
+              `${this.category}.json does not readable or not found.`
+            );
+          });
+
+        this.$refs.category.category = this.category;
+        this.$refs.category.updateCategoryLayer(response.data);
       } else {
         this.category = null;
       }
@@ -199,14 +213,12 @@ $crosshairs-width: 0.2rem;
 // クロスヘアーの長さ
 $crosshairs-length: 1.5rem;
 .map-container {
-  height: 99%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
   .map-viewer {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-
     .ol-mouse-position {
       color: map-get($red, 'base');
     }
