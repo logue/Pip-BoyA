@@ -1,7 +1,7 @@
 {
   "name": "pip-boya",
   "description": "Fallout76 Pip-boy Application",
-  "version": "0.2.0",
+  "version": "0.2.0-alpha",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -17,6 +17,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
+    "fontsource-noto-sans-jp": "^3.0.3",
     "sprintf-js": "^1.1.2",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",

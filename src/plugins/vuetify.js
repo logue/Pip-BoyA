@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
 
+import 'fontsource-noto-sans-jp';
 import '@mdi/font/scss/materialdesignicons.scss';
 Vue.use(Vuetify);
 

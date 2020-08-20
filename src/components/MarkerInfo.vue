@@ -12,13 +12,16 @@
               {{ $t(`locations.${marker.name}`, 'en') }}
             </v-card-subtitle>
             <v-card-text>
-              <dl>
-                <dt>ID</dt>
-                <dd>{{ marker.id }}</dd>
-                <dt>Name</dt>
-                <dd>{{ marker.name }}</dd>
-                <dt>Coordination</dt>
-                <dd>[{{ marker.realX }}, {{ marker.realY }}]</dd>
+              <dl class="row px-3">
+                <dt class="col-3 py-0">ID</dt>
+                <dd class="col-9 py-0 grey--text">{{ marker.id }}</dd>
+                <dt class="col-3 py-0">Name</dt>
+                <dd class="col-9 py-0 grey--text">{{ marker.name }}</dd>
+                <dt class="col-3 py-0">Coordination</dt>
+                <dd class="col-9 py-0 grey--text">
+                  [{{ marker.realX }}, {{ marker.realY }}]
+                  <small>({{ marker.x }}, {{ marker.y }})</small>
+                </dd>
               </dl>
             </v-card-text>
           </div>

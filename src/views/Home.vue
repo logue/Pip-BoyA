@@ -225,8 +225,6 @@ export default {
     },
     // マーカーをクリックしたときの処理
     onSelect(value) {
-      console.log(value);
-      // this.$refs.markerInfo.marker = value;
       this.$refs.markerInfo.open(value);
     },
     onCategoryChanged(tileMarkerMode) {
