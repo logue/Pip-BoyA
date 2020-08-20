@@ -38,12 +38,17 @@
 </template>
 
 <script>
+/**
+ * Base tile layer.
+ */
 import config from '@/assets/map.config.js';
 
 export default {
   data() {
     return {
+      // 透過度
       opacity: 1,
+      // マップ設定
       config: config,
     };
   },

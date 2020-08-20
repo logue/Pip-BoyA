@@ -1,6 +1,6 @@
 <template>
   <!-- Map markers -->
-  <vl-layer-vector :z-index="3" :visible="visible">
+  <vl-layer-vector :z-index="3">
     <vl-feature v-for="marker in markers" :key="marker.id" :properties="marker">
       <vl-geom-point :coordinates="[marker.x, marker.y]" />
       <vl-style-box>

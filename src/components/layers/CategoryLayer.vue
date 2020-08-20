@@ -47,85 +47,81 @@ export default {
   emits: ['changed'],
   data() {
     return {
+      // Current Category
       category: null,
+      // Loaded markers
       markers: [],
-      explains: [],
+      // Explain definition
+      explains: {},
+      // Map Configure
       config: config,
+      // Color Configure
       set: colorset,
     };
   },
-  watch: {
-    $route(to, from) {
-      this.$root.$data.loading = true;
-      this.category = to.params.category;
-      this.updateCategoryLayer();
-      this.$root.$data.loading = false;
-    },
-  },
   methods: {
-    async updateCategoryLayer() {
-      this.opacity = 1;
-
-      if (!this.category) {
-        this.explains = null;
-        return;
-      }
-      console.log(this.category);
-
-      // カテゴリが存在する場合、カテゴリの凡例データの含まれたjsonから凡例の項目とカラーセットを取得
-      const response = await this.axios
-        .get(`/data/${this.category}.json`)
-        .catch((err) => {
-          console.error(err.message);
-          throw new Error(
-            `${this.category}.json does not readable or not found.`
-          );
-        });
-
-      console.debug(response.data);
-
-      // 凡例を書き換え
-      this.explains = response.data.explains;
-
-      if (!response.data.markers) {
-        const source = this.$refs.categoryLayer.getSource();
-
-        this.markers = [];
+    /**
+     * Redraw category layer.
+     *
+     * @param {Object} data category.json
+     */
+    updateCategoryLayer(data) {
+      this.$root.$data.loading = true;
+      this.data = data;
+      if (!data.markers) {
         // 画像マーカーモード
-        this.opacity = 0.5;
-        // const source = this.$refs.categoryLayerSource;
 
-        try {
+        // マーカーをクリア
+        this.markers = [];
+
+        // const source = this.$refs.categoryLayer.getSource();
+        const source = this.$refs.categoryLayerSource;
+
+        if (source) {
           // 新しい画像レイヤを指定
-          source.setUrl(`/img/markerTile/${this.category}/{z}/{x}/{y}.png`);
-          // 表示されている画像データとキャッシュを削除
-          source.tileCache.expireCache({});
-          source.tileCache.clear();
+          try {
+            source.setUrl(`/img/markerTile/${this.category}/{z}/{x}/{y}.png`);
+          } catch (e) {
+            // ???
+          }
+
+          if (source.tileCache) {
+            // 表示されている画像データとキャッシュを削除
+            source.tileCache.expireCache({});
+            source.tileCache.clear();
+          }
           // リフレッシュ
           source.refresh();
-        } catch (e) {
-          // TODO:
         }
       } else {
         // ポイントマーカーモード
         this.opacity = 1;
         // カテゴリマーカー
-        this.markers = convertCoordinates(response.data.markers, config.center);
+        this.markers = convertCoordinates(data.markers, config.center);
       }
-      this.$emit('changed', this.explains, this.set);
-      // this.$root.$data.loading = false;
+      this.$emit('changed', this.set);
+      this.$root.$data.loading = false;
     },
-    // 凡例の定義からVuetifyのカラーセットを取得
-    // TODO: Vuetifyで定義されていない色や、shadesを指定するとバグる
+    /**
+     * Get marker color from explains definiton.
+     *
+     * @param {String} type Marker type
+     * @return {Object} Vuetify color array
+     */
     getMarkerColor(type) {
       // 凡例の項目順を取得
-      const index = Object.keys(this.explains).findIndex(
+      const index = Object.keys(this.data.explains).findIndex(
         (element) => element === type
       );
       // 色名をケバフケースに変換
       const colorName = toKebabCase(this.set.markerColor[index]);
       return colors[colorName];
     },
+    /**
+     * Hex color to rgb color array
+     * @param {String} s hex
+     * @return {Array}
+     */
     hexToRgb(s) {
       return hexToRgb(s);
     },

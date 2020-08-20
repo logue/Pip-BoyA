@@ -955,7 +955,7 @@
     {
       "id": "0009A447",
       "name": "LocMTRTheRustyPickLocation",
-      "type": "PlayerLocMarker",
+      "type": "LegendaryPurveyorMarker",
       "x": -113348.7578,
       "y": -74719.90625
     },

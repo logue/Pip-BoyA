@@ -1,5 +1,5 @@
 <template>
-  <v-card shaped dark class="explain">
+  <v-card v-if="explains" shaped dark class="explain">
     <v-card-title class="explain_title">
       {{ $t('legend') }}
       <v-spacer />
@@ -9,7 +9,7 @@
       </v-btn>
     </v-card-title>
     <v-card-text v-if="!isShrinked" class="explain_body">
-      <ul v-if="!isNaN(Number(Object.keys(explains)[0]))" class="explain_list">
+      <ul v-if="markerMode" class="explain_list">
         <li
           v-for="(item, index) in explains"
           :key="index"
@@ -18,22 +18,24 @@
           ◆ {{ $t(item) }}
         </li>
       </ul>
-      <ul v-else class="explain_list">
+      <ul v-else class="explain_list explain_check_list">
         <li
           v-for="(value, item, index) in explains"
           :key="index"
-          class="explain_list_item"
+          class="explain_list_item explain_list_checkbox"
         >
           <v-checkbox
             v-model="checked"
             :color="colorset.markerColor[index]"
             :value="item"
             hide-details
-            checked
+            checked="true"
             @change="toggleMarker"
           >
             <template #label>
-              <span :class="`${colorset.markerColor[index]}--text`">
+              <span
+                :class="`explain_list_item_label ${colorset.markerColor[index]}--text`"
+              >
                 {{ $t(value) }}
               </span>
             </template>
@@ -45,49 +47,46 @@
 </template>
 
 <script>
+/**
+ * Explain component
+ */
 import colorset from '@/assets/colorset.json';
 
 export default {
-  props: {
-    explains: {
-      default: () => {},
-      type: Object,
-    },
-  },
   emits: ['checked'],
   data() {
     return {
+      explains: {},
+      // 色設定
       colors: [],
+      // 最大化／最小化
       isShrinked: false,
+      // チェック済みの項目の配列
       checked: [],
+      // タイル版かマーカー版かの判定
       markerMode: false,
     };
   },
-  mounted() {
-    const keys = Object.keys(this.explains);
-    this.markerMode = !isNaN(Number(keys[0]));
-    if (this.colors.length === 0) {
-      // デフォルトのカラー定義
-      this.colorset = colorset;
-    } else {
-      // カラー定義を上書きする場合（タイルモードのみ）
-      this.colorset.tileExplainColor = this.colors;
-    }
-    // デフォルトですべて選択状態
-    if (this.markerMode) {
-      for (const key in keys) {
-        if (Object.prototype.hasOwnProperty.call(keys, key)) {
-          this.checked.push(key);
-        }
-      }
-      console.log(this.checked);
-    }
-  },
   methods: {
+    updateExplain(explains) {
+      const keys = Object.keys(explains);
+      this.markerMode = !isNaN(Number(keys[0]));
+
+      console.log('marker mode:', this.markerMode);
+      if (this.colors.length === 0) {
+        // デフォルトのカラー定義
+        this.colorset = colorset;
+      } else {
+        // カラー定義を上書きする場合（タイルモードのみ）
+        this.colorset.tileExplainColor = this.colors;
+      }
+      this.explains = explains;
+    },
     toggleShrink() {
       this.isShrinked = !this.isShrinked;
     },
     toggleMarker() {
+      console.log(this.checked);
       this.$emit('checked', this.checked);
     },
   },
@@ -128,6 +127,9 @@ export default {
     columns: 2;
     &_item {
       font-size: 0.75rem;
+      &_label {
+        text-shadow: outline(rgb(0, 0, 0), 0px, 1px);
+      }
 
       .v-input--selection-controls {
         margin: 0;

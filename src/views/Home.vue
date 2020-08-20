@@ -33,7 +33,11 @@
       />
 
       <!-- Map markers -->
-      <location-layer ref="locationLayer" @marker-select="onSelect" />
+      <location-layer
+        v-if="$root.$data.displayLocation"
+        ref="locationLayer"
+        @marker-select="onSelect"
+      />
 
       <!-- Tooltip Overlay -->
       <vl-overlay
@@ -48,7 +52,7 @@
       </vl-overlay>
     </vl-map>
     <marker-info ref="markerInfo" />
-    <explain v-if="explains" :explains="explains" />
+    <explain ref="explainPopup" />
   </div>
 </template>
 
@@ -97,10 +101,6 @@ export default {
     zoom() {
       this.$refs.locationLayer.setScale(this.zoom);
     },
-    '$root.$data.displayLocation'() {
-      // console.log(this.$refs.locationLayer);
-      // this.$refs.locationLayer.toggleVisible(this.$root.$data.displayLocation);
-    },
     async $route(to) {
       if (to.name === 'Category') {
         this.category = to.params.category;
@@ -115,10 +115,14 @@ export default {
             );
           });
 
+        console.log(response.data);
+
         this.$refs.category.category = this.category;
         this.$refs.category.updateCategoryLayer(response.data);
+        this.$refs.explainPopup.updateExplain({...response.data.explains});
       } else {
-        this.category = null;
+        this.$refs.category.category = null;
+        this.$refs.explainPopup.explains = {};
       }
     },
   },

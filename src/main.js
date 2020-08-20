@@ -40,8 +40,8 @@ new Vue({
         y: -2048,
         z: 1,
       },
-      // display location (Unmouted!)
-      displayLocation: false,
+      // display location
+      displayLocation: true,
       // loading overlay
       loading: true,
     };
