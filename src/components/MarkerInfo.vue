@@ -7,22 +7,40 @@
             <v-img :src="`/img/marker/${marker.type}.svg`" width="128" />
           </v-avatar>
           <div>
-            <v-card-title>{{ $t(`locations.${marker.name}`) }}</v-card-title>
-            <v-card-subtitle v-if="$i18n.locale !== 'en'">
+            <v-card-title v-if="marker.name">
+              {{ $t(`locations.${marker.name}`) }}
+              &nbsp;
+              <span v-if="marker.annotation" class="grey--text">
+                ( {{ marker.annotation }})
+              </span>
+            </v-card-title>
+            <v-card-subtitle v-if="marker.name && $i18n.locale !== 'en'">
               {{ $t(`locations.${marker.name}`, 'en') }}
             </v-card-subtitle>
             <v-card-text>
-              <dl class="row px-3">
-                <dt class="col-3 py-0">ID</dt>
-                <dd class="col-9 py-0 grey--text">{{ marker.id }}</dd>
-                <dt class="col-3 py-0">Name</dt>
-                <dd class="col-9 py-0 grey--text">{{ marker.name }}</dd>
-                <dt class="col-3 py-0">Coordination</dt>
-                <dd class="col-9 py-0 grey--text">
-                  [{{ marker.realX }}, {{ marker.realY }}]
-                  <small>({{ marker.x }}, {{ marker.y }})</small>
-                </dd>
-              </dl>
+              <v-simple-table>
+                <tbody>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <td>{{ marker.id }}</td>
+                  </tr>
+                  <tr v-if="marker.name">
+                    <th scope="col">Name</th>
+                    <td>{{ marker.name }}</td>
+                  </tr>
+                  <tr v-if="marker.type">
+                    <th scope="col">Type</th>
+                    <td>{{ marker.type }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="col">Coordination</th>
+                    <td>
+                      {{ marker.realX }}, {{ marker.realY }}
+                      <small>({{ marker.x }}, {{ marker.y }})</small>
+                    </td>
+                  </tr>
+                </tbody>
+              </v-simple-table>
             </v-card-text>
           </div>
         </div>
@@ -33,7 +51,7 @@
             color="green"
             :href="
               'https://fallout.fandom.com/wiki/' +
-              $t(`locations.${marker.name}`, 'en').replace(/\(.+?\)/, '')
+              $t(`locations.${marker.name}`, 'en')
             "
             @click.prevent="openNewWin"
           >
@@ -46,7 +64,7 @@
             color="blue-grey"
             :href="
               'https://game-dictionary.net/fo76/word/' +
-              $t(`locations.${marker.name}`, 'ja').replace(/\（.+?\）/, '')
+              $t(`locations.${marker.name}`, 'ja')
             "
             @click.prevent="openNewWin"
           >

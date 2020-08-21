@@ -4,12 +4,18 @@ const COORDINATES_OFFSET = [0, -0];
 /**
  * Convert Fallout76 native coordinates to map size based pixel coordinates.
  *
- * @param {Array} markers The first number.
+ * @param {Array} markers marker location Data
  * @param {Array} center Map center location.
+ * @param {Number} rate  FO76 coordinates to pixel coordinates reduction pixel rate.
+ * @param {Array} offset Map offset
  * @return {Array} Converted marker location.
  */
-export function convertCoordinates(markers, center) {
-  console.debug('entries: ', markers.length);
+export function convertCoordinates(
+  markers,
+  center,
+  rate = COORDINATES_REDUCTION_RATE,
+  offset = COORDINATES_OFFSET
+) {
   const converted = Object.values(
     markers.reduce((acc, cur) => {
       acc[cur.id] = {
@@ -20,22 +26,17 @@ export function convertCoordinates(markers, center) {
         // Marker Type
         type: cur.type,
         // Marker pixel X location
-        x:
-          (cur.x / COORDINATES_REDUCTION_RATE +
-            center[0] +
-            COORDINATES_OFFSET[0]) |
-          0,
+        x: ((cur.x | 0) / rate + center[0] + offset[0]) | 0,
         // Marker pixel Y location
-        y:
-          (cur.y / COORDINATES_REDUCTION_RATE +
-            center[1] +
-            COORDINATES_OFFSET[1]) |
-          0,
+        y: ((cur.y | 0) / rate + center[1] + offset[1]) | 0,
         // Fallout76 Native X location
         realX: cur.x,
         // Fallout76 Native Y location
         realY: cur.y,
       };
+      if (cur.annotation) {
+        acc[cur.id].annotation = cur.annotation;
+      }
       return acc;
     }, {})
   );

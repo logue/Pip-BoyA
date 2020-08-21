@@ -48,12 +48,12 @@
         <v-list-item-title>{{ $t('categories.recipe') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item link to="/ole">
+    <v-list-item link to="/ore">
       <v-list-item-action>
         <v-icon>mdi-cogs</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>{{ $t('categories.ole') }}</v-list-item-title>
+        <v-list-item-title>{{ $t('categories.ore') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
     <v-list-item link disabled>
@@ -78,6 +78,23 @@
       </v-list-item-action>
       <v-list-item-content>
         <v-list-item-title>{{ $t('categories.workbench') }}</v-list-item-title>
+      </v-list-item-content>
+    </v-list-item>
+    <v-list-item link to="/treasure">
+      <v-list-item-action>
+        <v-icon>mdi-treasure-chest</v-icon>
+      </v-list-item-action>
+      <v-list-item-content>
+        <v-list-item-title>{{ $t('categories.treasure') }}</v-list-item-title>
+      </v-list-item-content>
+    </v-list-item>
+    <v-divider />
+    <v-list-item link to="/nuclear-winter">
+      <v-list-item-action>
+        <v-icon>mdi-nuke</v-icon>
+      </v-list-item-action>
+      <v-list-item-content>
+        <v-list-item-title>Nuclear Winter</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
   </v-list>

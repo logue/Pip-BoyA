@@ -22,7 +22,7 @@
     "en": "英語",
     "ja": "日本語"
   },
-  "locations":   {
+  "locations": {
     "LocMountainsNationalRadioArrayLocation": "国立隔離無線アレイ",
     "LocCranberryAbandonedBogTownWorkshopLocation": "放棄されたボグタウン",
     "LocMountainsBlackwaterMineLocation": "ブラックウォーター鉱山",
@@ -333,27 +333,27 @@
     "LocSwampExcelsiorModelHomeLocation": "エクセルシオールのモデルホーム",
     "LocMountainsTheFreakShowLocation": "フリークショー",
     "LocMTRBelchingBettyLocation": "ベルチングベティー",
-    "LocMountainsFissureSiteBetaLocation": "地割れ地点（β）",
+    "LocMountainsFissureSiteBetaLocation": "地割れ地点",
     "LocMountainsLookoutTower08Location": "サウス・マウンテン監視地点",
     "LocForestLookoutTower09Location": "フラットウッズ監視地点",
     "LocForestLookoutTower10Location": "キャンプ・アダムス監視地点",
-    "LocToxicFissureSiteDeltaLocation": "地割れ地点（δ）",
-    "LocCranberryFissureSiteEpsilonLocation": "地割れ地点（ε）",
-    "LocMountainsFissureSiteGammaLocation": "地割れ地点（γ）",
-    "LocForestFissureSiteKappaLocation": "地割れ地点（κ）",
-    "LocForestFissureSiteLambdaLocation": "地割れ地点（λ）",
-    "LocMTRFissureSiteOmegaLocation": "地割れ地点（ω）",
-    "LocSwampFissureSiteOmicronLocation": "地割れ地点（ο）",
-    "LocMountainsFissureSiteSigmaLocation": "地割れ地点（σ）",
-    "LocMountainsFissureSiteTauLocation": "地割れ地点（τ）",
-    "LocForestFissureSiteThetaLocation": "地割れ地点（θ）",
+    "LocToxicFissureSiteDeltaLocation": "地割れ地点",
+    "LocCranberryFissureSiteEpsilonLocation": "地割れ地点",
+    "LocMountainsFissureSiteGammaLocation": "地割れ地点",
+    "LocForestFissureSiteKappaLocation": "地割れ地点",
+    "LocForestFissureSiteLambdaLocation": "地割れ地点",
+    "LocMTRFissureSiteOmegaLocation": "地割れ地点",
+    "LocSwampFissureSiteOmicronLocation": "地割れ地点",
+    "LocMountainsFissureSiteSigmaLocation": "地割れ地点",
+    "LocMountainsFissureSiteTauLocation": "地割れ地点",
+    "LocForestFissureSiteThetaLocation": "地割れ地点",
     "LocMountainsUS13CBivouacLocation": "US-13Cビバーク",
     "LocMTRStrikerRowLocation": "ストライキ集会所",
     "LocSwampLookoutTower11Location": "イースト・リッジ監視地点",
     "LocCranberryLookoutTower12Location": "レンジャーの監視地点",
     "LocSwampLookoutTower13Location": "ドリー・ソッズ監視地点",
-    "LocCranberryFissureSiteAlphaLocation": "地割れ地点（α）",
-    "LocCranberryFissureSiteZetaLocation": "地割れ地点プライム（ζ）",
+    "LocCranberryFissureSiteAlphaLocation": "地割れ地点",
+    "LocCranberryFissureSiteZetaLocation": "地割れ地点プライム",
     "LocMountainsSpruceKnobMissileSiloInteriorLocation": "ミサイルサイロ・チャーリー",
     "LocMTRNicholsonsEndLocation": "ニコルソンの最果て",
     "LocMountainsSenecaRocksVisitorCenterLocation": "セネカロックの案内所",
@@ -425,7 +425,7 @@
     "encounter": "ランダムイベント",
     "resource": "資源",
     "recipe": "レシピ＆設計図",
-    "ole": "鉱石",
+    "ore": "鉱石",
     "chems": "化学",
     "cooking": "料理",
     "misc": "その他",
@@ -437,7 +437,8 @@
     "junk-fiber": "ネジ＆強化繊維",
     "junk-wood": "木材",
     "junk-instrument": "楽器",
-    "workbench": "ワークベンチ"
+    "workbench": "ワークベンチ",
+    "treasure": "宝の地図"
   },
   "maps": {
     "flora": {
@@ -520,7 +521,7 @@
       "wepons": "武器",
       "workshop": "ワークショップ"
     },
-    "ole": {
+    "ore": {
       "copper": "銅",
       "iron": "鉄",
       "lead": "鉛",
@@ -556,6 +557,21 @@
       "wepons": "武器作業台",
       "brewing": "醸造",
       "tinker": "細工師の作業台"
+    },
+    "treasure": {
+      "ash": "積灰の山",
+      "bog": "クランベリー湿原",
+      "forest": "森林地帯",
+      "savage": "荒れた境域",
+      "mire": "沼地地帯",
+      "toxic": "毒の峡谷"
+    },
+    "nw": {
+      "briefcase": "核ブリーフケース",
+      "loot": "戦利品",
+      "pa": "パワーアーマー",
+      "safe": "金庫",
+      "terminal": "ターミナル"
     }
   }
 }

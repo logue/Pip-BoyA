@@ -1,7 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
+
 import goTo from 'vuetify/es5/services/goto';
+
+import Home from '@/views/Home.vue';
+import NuclearWinter from '@/views/NuclearWinter.vue';
 
 Vue.use(VueRouter);
 
@@ -10,6 +13,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+  },
+  {
+    path: '/nuclear-winter',
+    name: 'NuclearWinter',
+    component: NuclearWinter,
   },
   {
     path: '/:category',

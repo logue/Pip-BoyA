@@ -23,12 +23,12 @@
       />
 
       <!-- Base map layers -->
-      <base-layer ref="baseLayer" />
+      <base-layer ref="baseLayer" :opacity="1" />
 
       <!-- Category map layer -->
       <category-layer
         ref="categoryLayer"
-        :category="$route.params.category"
+        category="nw-flatwoods"
         @changed="onCategoryChanged"
       />
 
@@ -105,6 +105,7 @@ export default {
       zoom: 1,
       center: config.center,
       rotation: 0,
+      opacity: 1,
       // detect map move
       isMoving: false,
       // Tooltip
@@ -142,10 +143,12 @@ export default {
         this.$refs.categoryLayer.updateCategoryLayer(response.data);
         // 凡例レイヤーを更新
         this.$refs.explainPopup.updateExplain({...response.data.explains});
+        this.explains = {...response.data.explains};
       } else {
         this.$refs.categoryLayer.category = null;
         this.$refs.explainPopup.updateExplain(null);
         this.$refs.baseLayer.opacity = 1;
+        this.explains = {};
       }
     },
   },
@@ -205,6 +208,7 @@ export default {
       const map = this.$refs.map;
       const hitFeature = map.forEachFeatureAtPixel(pixel, (feature) => feature);
       this.showMarkerTooltip = hitFeature !== undefined;
+
       if (hitFeature) {
         // ツールチップの描画位置を取得
         this.currentPosition = hitFeature.getGeometry().getCoordinates();
@@ -212,7 +216,10 @@ export default {
         this.currentName =
           hitFeature.get('name') !== undefined
             ? this.$t(`locations.${hitFeature.get('name')}`)
-            : hitFeature.get('type');
+            : this.$t(this.explains[hitFeature.get('type')]) +
+              (hitFeature.get('annotation') !== undefined
+                ? ` (${hitFeature.get('annotation')})`
+                : '');
       } else {
         // nullを代入してツールチップを隠す
         this.currentPosition = this.currentName = undefined;

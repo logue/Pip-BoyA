@@ -1,5 +1,5 @@
 <template>
-  <v-card v-if="explains !== null" shaped dark class="explain">
+  <v-card v-if="explains" shaped dark class="explain">
     <v-card-title class="explain_title">
       {{ $t('legend') }}
       <v-spacer />

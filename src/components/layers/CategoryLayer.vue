@@ -16,9 +16,14 @@
       v-else
       :key="marker.id"
       :properties="marker"
+      :label="marker.annotation || ''"
     >
       <vl-geom-point :coordinates="[marker.x, marker.y]" />
       <vl-style-box>
+        <!-- vl-style-text v-if="marker.annotation" :text="marker.annotation">
+          <vl-style-stroke :width="3" color="rgba(250,0,0,0.8)" />
+          <vl-style-fill :color="getMarkerColor(marker.type).base" />
+        </vl-style-text -->
         <vl-style-circle>
           <vl-style-stroke :color="getMarkerColor(marker.type).base" />
           <vl-style-fill
@@ -67,6 +72,7 @@ export default {
      */
     updateCategoryLayer(data) {
       this.$root.$data.loading = true;
+      console.debug(this.category, data);
       this.data = data;
       const tileMarkerMode = !data.markers;
       if (tileMarkerMode) {
@@ -96,7 +102,9 @@ export default {
         }
       } else {
         // カテゴリマーカー
-        this.markers = convertCoordinates(data.markers, config.center);
+        this.markers = data.reductionRate
+          ? convertCoordinates(data.markers, config.center, data.reductionRate)
+          : convertCoordinates(data.markers, config.center);
       }
       this.$emit('changed', tileMarkerMode);
       this.$root.$data.loading = false;
@@ -109,9 +117,13 @@ export default {
      */
     getMarkerColor(type) {
       // 凡例の項目順を取得
-      const index = Object.keys(this.data.explains).findIndex(
-        (element) => element === type
-      );
+      let index = 0;
+      if (this.data.explains) {
+        index = Object.keys(this.data.explains).findIndex(
+          (element) => element === type
+        );
+      }
+
       // 色名をケバフケースに変換
       const colorName = toKebabCase(this.set.markerColor[index]);
       return colors[colorName];

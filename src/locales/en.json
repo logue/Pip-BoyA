@@ -333,20 +333,20 @@
     "LocSwampExcelsiorModelHomeLocation": "Excelsior Model Home",
     "LocMountainsTheFreakShowLocation": "The Freak Show",
     "LocMTRBelchingBettyLocation": "Belching Betty",
-    "LocMountainsFissureSiteBetaLocation": "Fissure Site (β)",
+    "LocMountainsFissureSiteBetaLocation": "Fissure Site",
     "LocMountainsLookoutTower08Location": "South Mountain Lookout",
     "LocForestLookoutTower09Location": "Flatwoods Lookout",
     "LocForestLookoutTower10Location": "Camp Adams Lookout",
-    "LocToxicFissureSiteDeltaLocation": "Fissure Site (δ)",
-    "LocCranberryFissureSiteEpsilonLocation": "Fissure Site (ε)",
-    "LocMountainsFissureSiteGammaLocation": "Fissure Site (γ)",
-    "LocForestFissureSiteKappaLocation": "Fissure Site (κ)",
-    "LocForestFissureSiteLambdaLocation": "Fissure Site (λ)",
-    "LocMTRFissureSiteOmegaLocation": "Fissure Site (ω)",
-    "LocSwampFissureSiteOmicronLocation": "Fissure Site (ο)",
-    "LocMountainsFissureSiteSigmaLocation": "Fissure Site (σ)",
-    "LocMountainsFissureSiteTauLocation": "Fissure Site (τ)",
-    "LocForestFissureSiteThetaLocation": "Fissure Site (θ)",
+    "LocToxicFissureSiteDeltaLocation": "Fissure Site",
+    "LocCranberryFissureSiteEpsilonLocation": "Fissure Site",
+    "LocMountainsFissureSiteGammaLocation": "Fissure Site",
+    "LocForestFissureSiteKappaLocation": "Fissure Site",
+    "LocForestFissureSiteLambdaLocation": "Fissure Site",
+    "LocMTRFissureSiteOmegaLocation": "Fissure Site",
+    "LocSwampFissureSiteOmicronLocation": "Fissure Site",
+    "LocMountainsFissureSiteSigmaLocation": "Fissure Site",
+    "LocMountainsFissureSiteTauLocation": "Fissure Site",
+    "LocForestFissureSiteThetaLocation": "Fissure Site",
     "LocMountainsUS13CBivouacLocation": "US-13C Bivouac",
     "LocMTRStrikerRowLocation": "Striker Row",
     "LocSwampLookoutTower11Location": "East Ridge Lookout",
@@ -422,10 +422,10 @@
     "flora-water": "Water Flora",
     "flora-flowering": "Flowering Plants",
     "flux": "Flux",
-    "encounter": "Random Encounter",
+    "encounter": "Random Encounters",
     "resource": "Resource Nodes",
-    "recipe": "Recipe & Plans",
-    "ole": "Ole",
+    "recipe": "Recipes & Plans",
+    "ore": "Ore",
     "chems": "Chemical",
     "cooking": "Cooking",
     "misc": "Misc.",
@@ -437,7 +437,8 @@
     "junk-fiber": "Screws & Ballistic Fiber",
     "junk-wood": "Wood (logs)",
     "junk-instrument": "Instruments",
-    "workbench": "Workbenchs"
+    "workbench": "Workbenchs",
+    "treasure": "Treasure Map"
   },
   "maps": {
     "flora": {
@@ -520,7 +521,7 @@
       "wepons": "Wepons",
       "workshop": "Workshop"
     },
-    "ole": {
+    "ore": {
       "copper": "Copper",
       "iron": "Iron",
       "lead": "Lead",
@@ -568,6 +569,21 @@
       "wepons": "Wepons",
       "brewing": "Brewing",
       "tinkers": "Tinker"
+    },
+    "treasure": {
+      "ash": "Ash Heap",
+      "bog": "Cranberry Bog",
+      "forest": "Forest",
+      "savage": "Savage Divide",
+      "mire": "The Mire",
+      "toxic": "Toxic Valley"
+    },
+    "nw": {
+      "briefcase": "Briefcase",
+      "loot": "Loots",
+      "pa": "Power Armor",
+      "safe": "Safe Zone",
+      "terminal": "Terminal"
     }
   }
 }
