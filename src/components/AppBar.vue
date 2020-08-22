@@ -20,14 +20,6 @@
     </v-tooltip>
     <v-tooltip bottom>
       <template #activator="{on, attrs}">
-        <v-btn icon disabled v-bind="attrs" v-on="on" @click="toggleLocation">
-          <v-icon>mdi-nuke</v-icon>
-        </v-btn>
-      </template>
-      <span>{{ $t('atomic4peace') }}</span>
-    </v-tooltip>
-    <v-tooltip bottom>
-      <template #activator="{on, attrs}">
         <v-btn icon v-bind="attrs" v-on="on" @click="toggleLocation">
           <v-icon v-if="$root.$data.displayLocation">mdi-map-marker</v-icon>
           <v-icon v-else>mdi-map-marker-off</v-icon>
@@ -62,7 +54,7 @@
         <v-list-item
           v-for="locale in locales"
           :key="locale"
-          @click="$i18n.locale = locale"
+          @click="changeLocale(locale)"
         >
           <v-list-item-title>{{ $t(`locales.${locale}`) }}</v-list-item-title>
         </v-list-item>
@@ -91,12 +83,19 @@ export default {
   methods: {
     toggleThemeMode() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+      this.$cookies.set('theme', this.$vuetify.theme.dark);
     },
     toggleMapMode() {
       this.$root.$data.isMilitary = !this.$root.$data.isMilitary;
+      this.$cookies.set('military-map', this.$root.$data.isMilitary);
     },
     toggleLocation() {
       this.$root.$data.displayLocation = !this.$root.$data.displayLocation;
+      this.$cookies.set('display-location', this.$root.$data.displayLocation);
+    },
+    changeLocale(locale) {
+      this.$i18n.locale = locale;
+      this.$cookies.set('locale', locale);
     },
   },
 };

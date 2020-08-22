@@ -50,6 +50,10 @@ export default {
   },
   data() {
     document.title = this.$t('title');
+    if (process.env.IS_ELECTRON) {
+      document.title.replace('Web', 'Electron');
+    }
+    this.$i18n.locale = this.$cookies.get('locale') || 'en';
     return {
       drawer: null,
       primaryDrawer: {

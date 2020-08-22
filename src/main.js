@@ -18,6 +18,7 @@ import './plugins/vuelayers';
 import './plugins/axios';
 import './plugins/clipboard';
 import './plugins/electron';
+import './plugins/cookie';
 
 Vue.config.productionTip = false;
 
@@ -33,7 +34,7 @@ new Vue({
     // Global variables
     return {
       // map mode
-      isMilitary: false,
+      isMilitary: this.$cookies.get('military-map') || false,
       // map location
       location: {
         x: 2048,
@@ -41,7 +42,7 @@ new Vue({
         z: 1,
       },
       // display location
-      displayLocation: true,
+      displayLocation: this.$cookies.get('display-location') || true,
       // loading overlay
       loading: true,
     };

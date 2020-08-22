@@ -5,6 +5,7 @@
 *.json eol=lf encoding=UTF-8
 *.md eol=lf encoding=UTF-8
 *.vue eol=lf encoding=UTF-8
+*.pas eol=crlf encoding=UTF-8
 
 # Images
 *.gif binary

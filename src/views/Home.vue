@@ -123,11 +123,21 @@ export default {
         this.$refs.locationLayer.setScale(this.zoom);
       }
     },
-    async $route(to) {
-      await this.changeCategory(to);
+    $route(to) {
+      this.$root.$data.loading = true;
+      // カテゴリレイヤーを初期化
+      this.$refs.categoryLayer.category = null;
+      this.$refs.explainPopup.updateExplain({});
+      this.$refs.baseLayer.opacity = 1;
+      this.explains = {};
+
+      this.category = to.params.category || null;
+      this.changeCategory();
+
+      this.$root.$data.loading = false;
     },
   },
-  async mounted() {
+  mounted() {
     // Load location from QueryString.
     this.center = [
       (this.$route.query.x ?? config.center[0]) | 0,
@@ -139,37 +149,35 @@ export default {
       // ズームの値によってロケーションアイコンのサイズを変える
       this.$refs.locationLayer.setScale(this.zoom);
     }
-    await this.changeCategory(this.$route.params);
+    if (this.$route.params.category) {
+      this.category = this.$route.params.category;
+      this.changeCategory();
+    }
     this.$root.$data.loading = false;
   },
   methods: {
-    async changeCategory(to) {
-      if (to.name === 'Category') {
-        this.category = to.params.category;
-        console.log(this.category);
-        // カテゴリが存在する場合、カテゴリの凡例データの含まれたjsonから凡例の項目とカラーセットを取得
-        const response = await this.axios
-          .get(`/data/${this.category}.json`)
-          .catch((err) => {
-            console.error(err.message);
-            throw new Error(
-              `${this.category}.json does not readable or not found.`
-            );
-          });
-
-        // console.log(response.data);
-        // カテゴリレイヤーを更新
-        this.$refs.categoryLayer.category = this.category;
-        this.$refs.categoryLayer.updateCategoryLayer(response.data);
-        // 凡例レイヤーを更新
-        this.$refs.explainPopup.updateExplain({...response.data.explains});
-        this.explains = {...response.data.explains};
-      } else {
-        this.$refs.categoryLayer.category = null;
-        this.$refs.explainPopup.updateExplain(null);
-        this.$refs.baseLayer.opacity = 1;
-        this.explains = {};
+    async changeCategory() {
+      // カテゴリが存在しない場合はここで終了
+      if (!this.category) {
+        return;
       }
+      // カテゴリが存在する場合、カテゴリの凡例データの含まれたjsonから凡例の項目とカラーセットを取得
+      const response = await this.axios
+        .get(`/data/${this.category}.json`)
+        .catch((err) => {
+          console.error(err.message);
+          throw new Error(
+            `${this.category}.json does not readable or not found.`
+          );
+        });
+
+      // console.log(response.data);
+      // カテゴリレイヤーを更新
+      this.$refs.categoryLayer.category = this.category;
+      this.$refs.categoryLayer.updateCategoryLayer(response.data);
+      // 凡例レイヤーを更新
+      this.$refs.explainPopup.updateExplain({...response.data.explains});
+      this.explains = {...response.data.explains};
     },
     // マップが読み込まれたとき
     onMapMounted() {
