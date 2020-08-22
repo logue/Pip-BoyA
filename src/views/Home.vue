@@ -124,6 +124,26 @@ export default {
       }
     },
     async $route(to) {
+      await this.changeCategory(to);
+    },
+  },
+  async mounted() {
+    // Load location from QueryString.
+    this.center = [
+      (this.$route.query.x ?? config.center[0]) | 0,
+      (this.$route.query.y ?? config.center[1]) | 0,
+    ];
+    this.zoom = (this.$route.query.z ?? 1) | 0;
+
+    if (this.$root.$data.displayLocation) {
+      // ズームの値によってロケーションアイコンのサイズを変える
+      this.$refs.locationLayer.setScale(this.zoom);
+    }
+    await this.changeCategory(this.$route.params);
+    this.$root.$data.loading = false;
+  },
+  methods: {
+    async changeCategory(to) {
       if (to.name === 'Category') {
         this.category = to.params.category;
         console.log(this.category);
@@ -151,23 +171,6 @@ export default {
         this.explains = {};
       }
     },
-  },
-  async mounted() {
-    // Load location from QueryString.
-    this.center = [
-      (this.$route.query.x ?? config.center[0]) | 0,
-      (this.$route.query.y ?? config.center[1]) | 0,
-    ];
-    this.zoom = (this.$route.query.z ?? 1) | 0;
-
-    if (this.$root.$data.displayLocation) {
-      // ズームの値によってロケーションアイコンのサイズを変える
-      this.$refs.locationLayer.setScale(this.zoom);
-    }
-
-    this.$root.$data.loading = false;
-  },
-  methods: {
     // マップが読み込まれたとき
     onMapMounted() {
       // now ol.Map instance is ready and we can work with it directly

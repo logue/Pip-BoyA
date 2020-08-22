@@ -15,6 +15,10 @@ const routes = [
     component: Home,
   },
   {
+    path: '/resource',
+    redirect: '/headpoint',
+  },
+  {
     path: '/nuclear-winter',
     name: 'NuclearWinter',
     component: NuclearWinter,

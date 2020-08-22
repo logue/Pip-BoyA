@@ -423,7 +423,7 @@
     "flora-flowering": "花",
     "flux": "溶剤",
     "encounter": "ランダムイベント",
-    "resource": "資源",
+    "headpoint": "資源",
     "recipe": "レシピ＆設計図",
     "ore": "鉱石",
     "chems": "化学",
@@ -495,20 +495,24 @@
       "camp": "キャンプ",
       "mistress": "オーダー・オブ・ミストレス"
     },
-    "resource": {
+    "headpoint": {
+      "acid": "廃酸",
+      "aluminum": "アルミニウム",
+      "coal": "石炭",
+      "concrete": "コンクリート",
+      "copper": "銅",
+      "crystal": "水晶",
+      "gold": "金",
+      "iron": "鉄",
       "junk": "ジャンクの山",
       "lead": "鉛",
-      "acid": "酸",
-      "copper": "銅",
-      "iron": "鉄",
-      "aluminum": "アルミニウム",
-      "oil": "石油",
+      "oil": "廃油",
+      "phosphate": "肥料",
+      "silver": "銀",
+      "stone": "石",
       "titanium": "チタン",
       "uranium": "ウラン",
-      "feltilizer": "肥料",
-      "crystal": "水晶",
-      "coal": "石炭",
-      "concrete": "コンクリート"
+      "wood": "木材"
     },
     "recipe": {
       "mods-pa": "パワーアーマーのMOD",

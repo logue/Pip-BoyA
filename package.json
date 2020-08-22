@@ -1,7 +1,7 @@
 {
   "name": "pip-boya",
   "description": "Fallout76 Pip-boy Application",
-  "version": "0.2.0-alpha",
+  "version": "0.2.1-alpha",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -13,13 +13,36 @@
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logue/PipBoyA.js.git"
+  },
+  "keywords": [
+    "fo76 ",
+    "fallout-76",
+    "mappalachia",
+    "vue",
+    "vuetify",
+    "vuelayers",
+    "electron"
+  ],
+  "author": {
+    "name": "Logue",
+    "email": "logue@hotmail.co.jp",
+    "url": "https://logue.dev/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logue/PipBoyA.js/issues"
+  },
+  "homepage": "https://github.com/logue/PipBoyA.js#readme",
   "main": "background.js",
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "fontsource-noto-sans-jp": "^3.0.3",
     "sprintf-js": "^1.1.2",
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vue-analytics": "^5.22.1",
     "vue-axios": "^2.1.5",
     "vue-clipboard2": "^0.3.1",
@@ -58,7 +81,7 @@
     "vue-cli-plugin-electron-builder": "~2.0.0-rc.4",
     "vue-cli-plugin-i18n": "^1.0.1",
     "vue-cli-plugin-vuetify": "^2.0.7",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.12",
     "vuetify-loader": "^1.3.0"
   },
   "eslintConfig": {

@@ -1,6 +1,12 @@
 <template>
   <div>
-    <v-dialog v-if="marker" v-model="dialog" max-width="640" light>
+    <v-dialog
+      v-if="marker"
+      v-model="dialog"
+      max-width="640"
+      light
+      @keydown.esc="close"
+    >
       <v-card>
         <div class="d-flex">
           <v-avatar size="128" tile :title="marker.type">

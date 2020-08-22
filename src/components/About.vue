@@ -6,7 +6,7 @@
       </v-card-title>
       <v-card-text>
         <section class="my-2">
-          <h2>{{ about }}</h2>
+          <h2>{{ sprintf(this.$t('about'), this.$t('title')) }}</h2>
           <nl2br tag="p" :text="$t('description')" />
           <v-btn
             href="https://github.com/logue/Pip-BoyA"
@@ -143,10 +143,12 @@ export default {
   data() {
     return {
       dialog: false,
-      about: sprintf(this.$t('about'), this.$t('title')),
     };
   },
   methods: {
+    sprintf(...arr) {
+      return sprintf(...arr);
+    },
     open() {
       this.dialog = true;
     },

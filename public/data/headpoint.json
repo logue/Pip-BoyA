@@ -1,0 +1,3527 @@
+{
+  "explains": {
+    "AcidMarker": "maps.headpoint.acid",
+    "AluminumDepositMarker": "maps.headpoint.aluminum",
+    "CoalDepositMarker": "maps.headpoint.coal",
+    "ConcreteMarker": "maps.headpoint.concrete",
+    "CopperDepositMarker": "maps.headpoint.copper",
+    "CrystalOutcroppingMarker": "maps.headpoint.crystal",
+    "GoldDepositMarker": "maps.headpoint.gold",
+    "IronDepositMarker": "maps.headpoint.iron",
+    "JunkPileMarker": "maps.headpoint.junk",
+    "LeadDepositMarker": "maps.headpoint.lead",
+    "OilSeepMarker": "maps.headpoint.oil",
+    "PhosphateDepositMarker": "maps.headpoint.phosphate",
+    "SilverDepositMarker": "maps.headpoint.silver",
+    "StoneSkirtMarker": "maps.headpoint.stone",
+    "TitaniumMarker": "maps.headpoint.titanium",
+    "UraniumDepositMarker": "maps.headpoint.uranium",
+    "WoodDepositMarker":  "maps.headpoint.wood"
+  },
+  "markers": [
+    {
+      "id": 5220,
+      "type": "WoodDepositMarker",
+      "x": 144588.0313,
+      "y": -96997.50781,
+      "annotation": 2
+    },
+    {
+      "id": 370255,
+      "type": "GoldDepositMarker",
+      "x": -11684.98242,
+      "y": 19814.78125
+    },
+    {
+      "id": 433608,
+      "type": "WoodDepositMarker",
+      "x": 155028.5469,
+      "y": 73919.4375,
+      "annotation": 2
+    },
+    {
+      "id": 433609,
+      "type": "WoodDepositMarker",
+      "x": 151838.8438,
+      "y": 74105.125,
+      "annotation": 2
+    },
+    {
+      "id": 433613,
+      "type": "LeadDepositMarker",
+      "x": 158300.9063,
+      "y": 76914.92969
+    },
+    {
+      "id": 442997,
+      "type": "LeadDepositMarker",
+      "x": 15264,
+      "y": 126208
+    },
+    {
+      "id": "00518359",
+      "type": "IronDepositMarker",
+      "x": -182177.8438,
+      "y": -36506.125
+    },
+    {
+      "id": 518385,
+      "type": "CopperDepositMarker",
+      "x": -96971,
+      "y": -10011.96973
+    },
+    {
+      "id": 518431,
+      "type": "WoodDepositMarker",
+      "x": -52553.63281,
+      "y": 87757.24219,
+      "annotation": 2
+    },
+    {
+      "id": 518444,
+      "type": "JunkPileMarker",
+      "x": -52190.07031,
+      "y": 89525.79688
+    },
+    {
+      "id": 518445,
+      "type": "CrystalOutcroppingMarker",
+      "x": -59652.14063,
+      "y": -26110.32422
+    },
+    {
+      "id": 518461,
+      "type": "LeadDepositMarker",
+      "x": -62179.83203,
+      "y": -25916.93945
+    },
+    {
+      "id": 518471,
+      "type": "SilverDepositMarker",
+      "x": -62422.38281,
+      "y": -28401.21484
+    },
+    {
+      "id": 518474,
+      "type": "WoodDepositMarker",
+      "x": -59216.48047,
+      "y": -23479.26563,
+      "annotation": 2
+    },
+    {
+      "id": 518495,
+      "type": "PhosphateDepositMarker",
+      "x": -172597.25,
+      "y": -12259.05078
+    },
+    {
+      "id": 518496,
+      "type": "CrystalOutcroppingMarker",
+      "x": -165311.8125,
+      "y": -11098.54395
+    },
+    {
+      "id": 518967,
+      "type": "UraniumDepositMarker",
+      "x": -123128.3047,
+      "y": -42694.89063
+    },
+    {
+      "id": 518978,
+      "type": "AluminumDepositMarker",
+      "x": -126394.3672,
+      "y": -45375.24609
+    },
+    {
+      "id": 518989,
+      "type": "LeadDepositMarker",
+      "x": -127902.3984,
+      "y": -43915.73438
+    },
+    {
+      "id": 519301,
+      "type": "WoodDepositMarker",
+      "x": -89840.38281,
+      "y": 50437.02734,
+      "annotation": 2
+    },
+    {
+      "id": "00519314",
+      "type": "IronDepositMarker",
+      "x": -78478.79688,
+      "y": 65309.50781
+    },
+    {
+      "id": 519324,
+      "type": "CopperDepositMarker",
+      "x": -72472.78125,
+      "y": 85548.73438
+    },
+    {
+      "id": 519340,
+      "type": "JunkPileMarker",
+      "x": -38730.28125,
+      "y": 80640.94531
+    },
+    {
+      "id": 519359,
+      "type": "CopperDepositMarker",
+      "x": -39872.25,
+      "y": 91490.00781
+    },
+    {
+      "id": 519368,
+      "type": "ConcreteMarker",
+      "x": -35328.64844,
+      "y": 110357.7891
+    },
+    {
+      "id": 519369,
+      "type": "StoneSkirtMarker",
+      "x": -35328.64844,
+      "y": 110357.7891
+    },
+    {
+      "id": "00519387",
+      "type": "IronDepositMarker",
+      "x": -46227.26953,
+      "y": 132232.2656
+    },
+    {
+      "id": "00519398",
+      "type": "IronDepositMarker",
+      "x": -1722.174073,
+      "y": 120740.4609
+    },
+    {
+      "id": 522000,
+      "type": "ConcreteMarker",
+      "x": 169148.625,
+      "y": -136863.8438
+    },
+    {
+      "id": 521656,
+      "type": "WoodDepositMarker",
+      "x": 138234.2969,
+      "y": -169139.9219,
+      "annotation": 2
+    },
+    {
+      "id": 521657,
+      "type": "OilSeepMarker",
+      "x": 129189.4063,
+      "y": -174109.6563
+    },
+    {
+      "id": 521663,
+      "type": "WoodDepositMarker",
+      "x": 154073.3125,
+      "y": -172645.7031,
+      "annotation": 2
+    },
+    {
+      "id": 521676,
+      "type": "AluminumDepositMarker",
+      "x": 176621.8438,
+      "y": -169356.5156
+    },
+    {
+      "id": 521687,
+      "type": "AluminumDepositMarker",
+      "x": 179717.0156,
+      "y": -178712.9688
+    },
+    {
+      "id": 521703,
+      "type": "WoodDepositMarker",
+      "x": 187025.125,
+      "y": -103665.9766,
+      "annotation": 2
+    },
+    {
+      "id": 521704,
+      "type": "WoodDepositMarker",
+      "x": 169794.9531,
+      "y": -80832.89844,
+      "annotation": 2
+    },
+    {
+      "id": 521722,
+      "type": "WoodDepositMarker",
+      "x": 160952.875,
+      "y": -63532.42578,
+      "annotation": 2
+    },
+    {
+      "id": 521743,
+      "type": "CoalDepositMarker",
+      "x": 139873.7656,
+      "y": -72026.49219
+    },
+    {
+      "id": 521774,
+      "type": "TitaniumMarker",
+      "x": 130377.8594,
+      "y": -99050.53125
+    },
+    {
+      "id": 522404,
+      "type": "CoalDepositMarker",
+      "x": -52285.125,
+      "y": -152323.8906
+    },
+    {
+      "id": 522408,
+      "type": "WoodDepositMarker",
+      "x": -54531.53125,
+      "y": -161192.375,
+      "annotation": 2
+    },
+    {
+      "id": 522425,
+      "type": "AluminumDepositMarker",
+      "x": -42593.5625,
+      "y": -169411.4688
+    },
+    {
+      "id": 522463,
+      "type": "PhosphateDepositMarker",
+      "x": -42744.28906,
+      "y": -155406.6875
+    },
+    {
+      "id": "00522474",
+      "type": "IronDepositMarker",
+      "x": -30393.00586,
+      "y": -165793.0156
+    },
+    {
+      "id": 522509,
+      "type": "LeadDepositMarker",
+      "x": 50612.14453,
+      "y": -142466.7813
+    },
+    {
+      "id": "00522544",
+      "type": "IronDepositMarker",
+      "x": 97822,
+      "y": 134317.4375
+    },
+    {
+      "id": 522565,
+      "type": "LeadDepositMarker",
+      "x": 81560.63281,
+      "y": 140884.8594
+    },
+    {
+      "id": 522600,
+      "type": "LeadDepositMarker",
+      "x": 59961.53516,
+      "y": 100019.5313
+    },
+    {
+      "id": 522632,
+      "type": "OilSeepMarker",
+      "x": 70249.79688,
+      "y": 123177.2891
+    },
+    {
+      "id": 523000,
+      "type": "LeadDepositMarker",
+      "x": 114033.9219,
+      "y": 44753.25781
+    },
+    {
+      "id": 524018,
+      "type": "AluminumDepositMarker",
+      "x": 130668.3281,
+      "y": 119431.2266
+    },
+    {
+      "id": 524043,
+      "type": "CopperDepositMarker",
+      "x": 125800.8594,
+      "y": 95139.70313
+    },
+    {
+      "id": 525008,
+      "type": "OilSeepMarker",
+      "x": 17303.88672,
+      "y": 127833.9141
+    },
+    {
+      "id": 525017,
+      "type": "UraniumDepositMarker",
+      "x": -1473.053467,
+      "y": -157800.1719
+    },
+    {
+      "id": 527872,
+      "type": "LeadDepositMarker",
+      "x": 108471.7813,
+      "y": 179460.7344
+    },
+    {
+      "id": 527882,
+      "type": "SilverDepositMarker",
+      "x": 112303.2969,
+      "y": 179776.5625
+    },
+    {
+      "id": 527892,
+      "type": "AluminumDepositMarker",
+      "x": 109260.9766,
+      "y": 178450.2031
+    },
+    {
+      "id": 527895,
+      "type": "OilSeepMarker",
+      "x": 113110.5938,
+      "y": 181803.9531
+    },
+    {
+      "id": 528093,
+      "type": "CopperDepositMarker",
+      "x": 34691.57031,
+      "y": -88591.85938
+    },
+    {
+      "id": 529400,
+      "type": "WoodDepositMarker",
+      "x": -165975.0781,
+      "y": -3269.550782,
+      "annotation": 2
+    },
+    {
+      "id": 529403,
+      "type": "OilSeepMarker",
+      "x": -137376.6719,
+      "y": -1130.443603
+    },
+    {
+      "id": 529406,
+      "type": "WoodDepositMarker",
+      "x": -172798.5469,
+      "y": -17549.98242,
+      "annotation": 2
+    },
+    {
+      "id": 529409,
+      "type": "AcidMarker",
+      "x": -49514.60547,
+      "y": 59753.61328
+    },
+    {
+      "id": 529418,
+      "type": "ConcreteMarker",
+      "x": -43494.34766,
+      "y": -7208.499512
+    },
+    {
+      "id": 529430,
+      "type": "StoneSkirtMarker",
+      "x": -43494.34766,
+      "y": -7208.499512
+    },
+    {
+      "id": 529431,
+      "type": "AcidMarker",
+      "x": 100795.0078,
+      "y": 15667.6416
+    },
+    {
+      "id": 529483,
+      "type": "AluminumDepositMarker",
+      "x": 62441.01172,
+      "y": 30318.37305
+    },
+    {
+      "id": 529487,
+      "type": "ConcreteMarker",
+      "x": 56271.66797,
+      "y": 3446.754883
+    },
+    {
+      "id": 529488,
+      "type": "StoneSkirtMarker",
+      "x": 56271.66797,
+      "y": 3446.754883
+    },
+    {
+      "id": 529636,
+      "type": "JunkPileMarker",
+      "x": -125765.5469,
+      "y": -62891.37891
+    },
+    {
+      "id": 529647,
+      "type": "CopperDepositMarker",
+      "x": -125444.1563,
+      "y": -59614.52344
+    },
+    {
+      "id": "00529670",
+      "type": "IronDepositMarker",
+      "x": -127789.4297,
+      "y": -60970.24609
+    },
+    {
+      "id": 529673,
+      "type": "WoodDepositMarker",
+      "x": 187495.6094,
+      "y": -25041.01563,
+      "annotation": 2
+    },
+    {
+      "id": 529711,
+      "type": "JunkPileMarker",
+      "x": 138567.0156,
+      "y": 153505.75
+    },
+    {
+      "id": 5220000,
+      "type": "StoneSkirtMarker",
+      "x": 169148.625,
+      "y": -136863.8438
+    },
+    {
+      "id": 30000000,
+      "type": "SilverDepositMarker",
+      "x": -160010.7969,
+      "y": 138848.9063
+    },
+    {
+      "id": 52200000,
+      "type": "AcidMarker",
+      "x": 52219.12109,
+      "y": -143091.6094
+    },
+    {
+      "id": "005183E5",
+      "type": "IronDepositMarker",
+      "x": -67629.53125,
+      "y": 13731.39355
+    },
+    {
+      "id": 521000000,
+      "type": "UraniumDepositMarker",
+      "x": 160691.3125,
+      "y": -171831.9844
+    },
+    {
+      "id": 523000000,
+      "type": "OilSeepMarker",
+      "x": 148697.1875,
+      "y": 145184.4219
+    },
+    {
+      "id": 5190000000,
+      "type": "WoodDepositMarker",
+      "x": -166130.7656,
+      "y": 135542.1094,
+      "annotation": 2
+    },
+    {
+      "id": 52200000000,
+      "type": "JunkPileMarker",
+      "x": -64597.37109,
+      "y": -159050.4688
+    },
+    {
+      "id": 519000000000,
+      "type": "CoalDepositMarker",
+      "x": -137703.9844,
+      "y": -82861.07031
+    },
+    {
+      "id": 521000000000,
+      "type": "WoodDepositMarker",
+      "x": 147458.8594,
+      "y": -172566,
+      "annotation": 2
+    },
+    {
+      "id": "005225E9",
+      "type": "IronDepositMarker",
+      "x": 113375.7344,
+      "y": 80497.42969
+    },
+    {
+      "id": 300000000000000000,
+      "type": "SilverDepositMarker",
+      "x": -153823.875,
+      "y": 136968.3594
+    },
+    {
+      "id": 52100000000000000000,
+      "type": "AluminumDepositMarker",
+      "x": 124930.1484,
+      "y": 197259.9375
+    },
+    {
+      "id": 3e28,
+      "type": "SilverDepositMarker",
+      "x": -154535.7031,
+      "y": 139428.8281
+    },
+    {
+      "id": 5.12e28,
+      "type": "CopperDepositMarker",
+      "x": -53810.23828,
+      "y": 50353.46094
+    },
+    {
+      "id": "00521E27",
+      "type": "IronDepositMarker",
+      "x": 103440.3594,
+      "y": 198765.6094
+    },
+    {
+      "id": 3e38,
+      "type": "AluminumDepositMarker",
+      "x": -156909.2969,
+      "y": 137488.2188
+    },
+    {
+      "id": 5.21e39,
+      "type": "LeadDepositMarker",
+      "x": 88137.5625,
+      "y": 194440.5781
+    },
+    {
+      "id": 5.21e42,
+      "type": "CopperDepositMarker",
+      "x": 85571.85938,
+      "y": 180339.6094
+    },
+    {
+      "id": 5.19e48,
+      "type": "CopperDepositMarker",
+      "x": -119668.3594,
+      "y": -100864.6328
+    },
+    {
+      "id": 3e52,
+      "type": "OilSeepMarker",
+      "x": -83362.79688,
+      "y": -37724.51172
+    },
+    {
+      "id": 3e53,
+      "type": "OilSeepMarker",
+      "x": -88925.6875,
+      "y": -42049.00391
+    },
+    {
+      "id": 5.21e59,
+      "type": "SilverDepositMarker",
+      "x": 74152.20313,
+      "y": 169552.9375
+    },
+    {
+      "id": 3e62,
+      "type": "SilverDepositMarker",
+      "x": -89382.85938,
+      "y": -27985.92773
+    },
+    {
+      "id": "00512E71",
+      "type": "IronDepositMarker",
+      "x": -25802.375,
+      "y": 54511.34766
+    },
+    {
+      "id": 3e76,
+      "type": "OilSeepMarker",
+      "x": -91240.02344,
+      "y": -24282.0332
+    },
+    {
+      "id": "00512E82",
+      "type": "IronDepositMarker",
+      "x": -22104.38086,
+      "y": 63671.13281
+    },
+    {
+      "id": 5.19e93,
+      "type": "AluminumDepositMarker",
+      "x": -121651.6172,
+      "y": -116079.875
+    },
+    {
+      "id": "0018DC9C",
+      "type": "AcidMarker",
+      "x": 1279.250122,
+      "y": 4622.321777
+    },
+    {
+      "id": "0018F4D0",
+      "type": "OilSeepMarker",
+      "x": 2389.887451,
+      "y": 4767.286621
+    },
+    {
+      "id": "0018F55F",
+      "type": "ConcreteMarker",
+      "x": 1902.098877,
+      "y": 5033.130859
+    },
+    {
+      "id": "0018F577",
+      "type": "WoodDepositMarker",
+      "x": 2755.996094,
+      "y": 4282.578613,
+      "annotation": 1
+    },
+    {
+      "id": "002B9685",
+      "type": "CoalDepositMarker",
+      "x": -123647.6016,
+      "y": -90939.625
+    },
+    {
+      "id": "002B969B",
+      "type": "CoalDepositMarker",
+      "x": -138649.75,
+      "y": -127949.8281
+    },
+    {
+      "id": "002BA1D6",
+      "type": "WoodDepositMarker",
+      "x": 3703.789063,
+      "y": 4464.533203,
+      "annotation": 2
+    },
+    {
+      "id": "002BA1D7",
+      "type": "CoalDepositMarker",
+      "x": 7373.012695,
+      "y": 1964.227295
+    },
+    {
+      "id": "00322D40",
+      "type": "AcidMarker",
+      "x": 1378.842164,
+      "y": 3497.047363
+    },
+    {
+      "id": "00322D42",
+      "type": "OilSeepMarker",
+      "x": 2133.484864,
+      "y": 3517.961182
+    },
+    {
+      "id": "00322D44",
+      "type": "JunkPileMarker",
+      "x": 2836.814942,
+      "y": 4330.521484
+    },
+    {
+      "id": "00322D48",
+      "type": "WoodDepositMarker",
+      "x": 1627.848633,
+      "y": 4041.010987,
+      "annotation": 1
+    },
+    {
+      "id": "0032E51F",
+      "type": "ConcreteMarker",
+      "x": 3159.104004,
+      "y": 5032.029785
+    },
+    {
+      "id": "0033671E",
+      "type": "ConcreteMarker",
+      "x": -180.235321,
+      "y": -302.80014
+    },
+    {
+      "id": "0035ADB4",
+      "type": "CopperDepositMarker",
+      "x": -12174.43945,
+      "y": 19815.93359
+    },
+    {
+      "id": "0035ADBC",
+      "type": "LeadDepositMarker",
+      "x": -12194.9209,
+      "y": 19622.36719
+    },
+    {
+      "id": "0035ADBF",
+      "type": "SilverDepositMarker",
+      "x": -12012.48926,
+      "y": 19600.44336
+    },
+    {
+      "id": "0035ADC2",
+      "type": "UraniumDepositMarker",
+      "x": -11929.34668,
+      "y": 19729.89648
+    },
+    {
+      "id": "003783AB",
+      "type": "CopperDepositMarker",
+      "x": 40991.71484,
+      "y": -59631.99219
+    },
+    {
+      "id": "0039F05E",
+      "type": "WoodDepositMarker",
+      "x": -107296.4453,
+      "y": 69911.16406,
+      "annotation": 2
+    },
+    {
+      "id": "0039F05F",
+      "type": "WoodDepositMarker",
+      "x": -110035.5938,
+      "y": 68593.14844,
+      "annotation": 2
+    },
+    {
+      "id": "003AC369",
+      "type": "UraniumDepositMarker",
+      "x": -2208.768066,
+      "y": 96.666443
+    },
+    {
+      "id": "003AC36A",
+      "type": "GoldDepositMarker",
+      "x": -2341.033691,
+      "y": 89.327706
+    },
+    {
+      "id": "003AC36B",
+      "type": "CoalDepositMarker",
+      "x": -2482.154297,
+      "y": 101.918015
+    },
+    {
+      "id": "003AC36C",
+      "type": "TitaniumMarker",
+      "x": -2594.876709,
+      "y": 87.764801
+    },
+    {
+      "id": "003AC36F",
+      "type": "AluminumDepositMarker",
+      "x": -2344.510254,
+      "y": 228.824493
+    },
+    {
+      "id": "003AC370",
+      "type": "IronDepositMarker",
+      "x": -2487.416016,
+      "y": 214.715484
+    },
+    {
+      "id": "003AC371",
+      "type": "SilverDepositMarker",
+      "x": -2603.381591,
+      "y": 209.159866
+    },
+    {
+      "id": "003AC372",
+      "type": "LeadDepositMarker",
+      "x": -2274.48584,
+      "y": 363.970856
+    },
+    {
+      "id": "003AC373",
+      "type": "CopperDepositMarker",
+      "x": -2425.08252,
+      "y": 346.774444
+    },
+    {
+      "id": "003C56DF",
+      "type": "ConcreteMarker",
+      "x": 1375.460694,
+      "y": 14948.60938
+    },
+    {
+      "id": "003C56E2",
+      "type": "JunkPileMarker",
+      "x": -1374.573853,
+      "y": 11478.95215
+    },
+    {
+      "id": "003C7A76",
+      "type": "AluminumDepositMarker",
+      "x": 4374.098633,
+      "y": 3702.863037
+    },
+    {
+      "id": "003C7A82",
+      "type": "TitaniumMarker",
+      "x": 5159.422363,
+      "y": 3668.508545
+    },
+    {
+      "id": "003C7A98",
+      "type": "CoalDepositMarker",
+      "x": 5992.587891,
+      "y": 3708.450684
+    },
+    {
+      "id": "003C7AA2",
+      "type": "CopperDepositMarker",
+      "x": 4401.323242,
+      "y": 2633.658691
+    },
+    {
+      "id": "003C7ABA",
+      "type": "IronDepositMarker",
+      "x": 5199.053223,
+      "y": 2633.978515
+    },
+    {
+      "id": "003C7ACB",
+      "type": "LeadDepositMarker",
+      "x": 6005.879395,
+      "y": 2649.766845
+    },
+    {
+      "id": "003C7ADC",
+      "type": "SilverDepositMarker",
+      "x": 6835.816895,
+      "y": 3722.104737
+    },
+    {
+      "id": "003C7AED",
+      "type": "UraniumDepositMarker",
+      "x": 6865.304688,
+      "y": 2634.187011
+    },
+    {
+      "id": "003CFF85",
+      "type": "WoodDepositMarker",
+      "x": -169290.125,
+      "y": 182235.0156,
+      "annotation": 2
+    },
+    {
+      "id": "003D1D90",
+      "type": "LeadDepositMarker",
+      "x": 36387.84766,
+      "y": 188996.625
+    },
+    {
+      "id": "003D4331",
+      "type": "WoodDepositMarker",
+      "x": -5471.734375,
+      "y": -5825.228027,
+      "annotation": 1
+    },
+    {
+      "id": "003D4332",
+      "type": "WoodDepositMarker",
+      "x": -4486.116211,
+      "y": -5828.770019,
+      "annotation": 2
+    },
+    {
+      "id": "003DC9B8",
+      "type": "ConcreteMarker",
+      "x": 7609.753906,
+      "y": 2615.56958
+    },
+    {
+      "id": "003DFFF5",
+      "type": "IronDepositMarker",
+      "x": -158647.8906,
+      "y": 139118.2344
+    },
+    {
+      "id": "003DFFF8",
+      "type": "JunkPileMarker",
+      "x": -159700.75,
+      "y": 135983.8125
+    },
+    {
+      "id": "003E003B",
+      "type": "PhosphateDepositMarker",
+      "x": -158688.8906,
+      "y": 142602.4375
+    },
+    {
+      "id": "003E003C",
+      "type": "JunkPileMarker",
+      "x": -139068.1875,
+      "y": 25875.82617
+    },
+    {
+      "id": "003E003D",
+      "type": "PhosphateDepositMarker",
+      "x": -140565.3906,
+      "y": 30144.41016
+    },
+    {
+      "id": "003E003E",
+      "type": "PhosphateDepositMarker",
+      "x": -137825.0781,
+      "y": 31297.88867
+    },
+    {
+      "id": "003E003F",
+      "type": "PhosphateDepositMarker",
+      "x": -136099.5313,
+      "y": 25253.85938
+    },
+    {
+      "id": "003E004F",
+      "type": "AluminumDepositMarker",
+      "x": -140672.2344,
+      "y": 31544.60547
+    },
+    {
+      "id": "003E9554",
+      "type": "CopperDepositMarker",
+      "x": -93488.97656,
+      "y": -36269.21094
+    },
+    {
+      "id": "0043360A",
+      "type": "WoodDepositMarker",
+      "x": 156251.9375,
+      "y": 78195.28906,
+      "annotation": 2
+    },
+    {
+      "id": "0043362C",
+      "type": "GoldDepositMarker",
+      "x": 150917.6719,
+      "y": 76793.52344
+    },
+    {
+      "id": "004377BD",
+      "type": "StoneSkirtMarker",
+      "x": -56381.71875,
+      "y": 41535.35547
+    },
+    {
+      "id": "004377BE",
+      "type": "StoneSkirtMarker",
+      "x": -74594.32813,
+      "y": 3963.906494
+    },
+    {
+      "id": "004429A0",
+      "type": "LeadDepositMarker",
+      "x": 110985.8984,
+      "y": -122176.1719
+    },
+    {
+      "id": "00451FB7",
+      "type": "PhosphateDepositMarker",
+      "x": 8110.393555,
+      "y": 2556.651856
+    },
+    {
+      "id": "00490A5D",
+      "type": "AcidMarker",
+      "x": 153214.8594,
+      "y": -75002.64844
+    },
+    {
+      "id": "00490A5E",
+      "type": "AcidMarker",
+      "x": -3308,
+      "y": -116
+    },
+    {
+      "id": "00490A5F",
+      "type": "AluminumDepositMarker",
+      "x": -152355.5,
+      "y": -159360.8125
+    },
+    {
+      "id": "00490A65",
+      "type": "ConcreteMarker",
+      "x": -74594.32813,
+      "y": 3963.906494
+    },
+    {
+      "id": "00490A66",
+      "type": "ConcreteMarker",
+      "x": -56381.71875,
+      "y": 41535.35547
+    },
+    {
+      "id": "00499F78",
+      "type": "ConcreteMarker",
+      "x": -86467.48438,
+      "y": 42314.82813
+    },
+    {
+      "id": "00499F79",
+      "type": "StoneSkirtMarker",
+      "x": -86467.48438,
+      "y": 42314.82813
+    },
+    {
+      "id": "004EE071",
+      "type": "CrystalOutcroppingMarker",
+      "x": 7346.121582,
+      "y": 4854.532227
+    },
+    {
+      "id": "004FB201",
+      "type": "ConcreteMarker",
+      "x": -20949.31836,
+      "y": -120243.4297
+    },
+    {
+      "id": "004FB202",
+      "type": "StoneSkirtMarker",
+      "x": -20949.31836,
+      "y": -120243.4297
+    },
+    {
+      "id": "004FC5C0",
+      "type": "StoneSkirtMarker",
+      "x": -137219.1094,
+      "y": 29318.31445
+    },
+    {
+      "id": "00512DE6",
+      "type": "IronDepositMarker",
+      "x": -66427.24219,
+      "y": 60240.21875
+    },
+    {
+      "id": "00512DF1",
+      "type": "CopperDepositMarker",
+      "x": -66723.59375,
+      "y": 41186.39453
+    },
+    {
+      "id": "00512E3E",
+      "type": "IronDepositMarker",
+      "x": -46361.60938,
+      "y": 43624.04297
+    },
+    {
+      "id": "00512EA4",
+      "type": "IronDepositMarker",
+      "x": -130442.5391,
+      "y": -17739.11523
+    },
+    {
+      "id": "00512ED0",
+      "type": "CopperDepositMarker",
+      "x": -140565.2656,
+      "y": -34618.85156
+    },
+    {
+      "id": "00512EE8",
+      "type": "IronDepositMarker",
+      "x": -146769.7969,
+      "y": -15256.50098
+    },
+    {
+      "id": "00512EF2",
+      "type": "CopperDepositMarker",
+      "x": -172970.5,
+      "y": -32796.52734
+    },
+    {
+      "id": "00512F0A",
+      "type": "IronDepositMarker",
+      "x": -170017.3594,
+      "y": -44919.23438
+    },
+    {
+      "id": "00512F1B",
+      "type": "IronDepositMarker",
+      "x": -142558.3281,
+      "y": -53755.37109
+    },
+    {
+      "id": "00512F25",
+      "type": "CopperDepositMarker",
+      "x": -120770.7031,
+      "y": -22092.55859
+    },
+    {
+      "id": "00512F36",
+      "type": "CopperDepositMarker",
+      "x": -148191.5781,
+      "y": 16415.28516
+    },
+    {
+      "id": "00512F4E",
+      "type": "IronDepositMarker",
+      "x": -150332.5781,
+      "y": 8288.318359
+    },
+    {
+      "id": "00512F7B",
+      "type": "CopperDepositMarker",
+      "x": -157425.2813,
+      "y": -25198.62695
+    },
+    {
+      "id": "0051836A",
+      "type": "PhosphateDepositMarker",
+      "x": -142388.4844,
+      "y": -27013.99609
+    },
+    {
+      "id": "0051837B",
+      "type": "CoalDepositMarker",
+      "x": -136426.3125,
+      "y": -58786.74609
+    },
+    {
+      "id": "005183CD",
+      "type": "CopperDepositMarker",
+      "x": -53761.94141,
+      "y": 10939.46289
+    },
+    {
+      "id": "0051843C",
+      "type": "TitaniumMarker",
+      "x": -58005.10156,
+      "y": 90434.11719
+    },
+    {
+      "id": "0051847C",
+      "type": "CopperDepositMarker",
+      "x": -166184.3438,
+      "y": -9115.014648
+    },
+    {
+      "id": "005184A5",
+      "type": "GoldDepositMarker",
+      "x": -169484.0781,
+      "y": -11997.24512
+    },
+    {
+      "id": "0051898E",
+      "type": "ConcreteMarker",
+      "x": -125694.4609,
+      "y": -40416.09766
+    },
+    {
+      "id": "0051898F",
+      "type": "StoneSkirtMarker",
+      "x": -125695.4844,
+      "y": -40415.3125
+    },
+    {
+      "id": "00518A37",
+      "type": "IronDepositMarker",
+      "x": -61955.85938,
+      "y": -3879.802246
+    },
+    {
+      "id": "00518C42",
+      "type": "ConcreteMarker",
+      "x": -50254.00781,
+      "y": 81684.74219
+    },
+    {
+      "id": "00518C43",
+      "type": "StoneSkirtMarker",
+      "x": -50254.00781,
+      "y": 81684.74219
+    },
+    {
+      "id": "00518C57",
+      "type": "IronDepositMarker",
+      "x": -53972.27344,
+      "y": 77217.05469
+    },
+    {
+      "id": "00518C72",
+      "type": "CopperDepositMarker",
+      "x": -63295.08203,
+      "y": 75164.98438
+    },
+    {
+      "id": "00518C90",
+      "type": "IronDepositMarker",
+      "x": -94990.9375,
+      "y": 36208.16406
+    },
+    {
+      "id": "00518CA1",
+      "type": "IronDepositMarker",
+      "x": -115773.0781,
+      "y": 5637.226074
+    },
+    {
+      "id": "00518CAB",
+      "type": "CopperDepositMarker",
+      "x": -104385.0625,
+      "y": 2548.262207
+    },
+    {
+      "id": "00518CBC",
+      "type": "CopperDepositMarker",
+      "x": -97208.64844,
+      "y": 563.906495
+    },
+    {
+      "id": "00518CC8",
+      "type": "ConcreteMarker",
+      "x": -85039.60156,
+      "y": -2250.594482
+    },
+    {
+      "id": "00518CDC",
+      "type": "IronDepositMarker",
+      "x": -74926.25,
+      "y": -2834.127197
+    },
+    {
+      "id": "00518CE0",
+      "type": "ConcreteMarker",
+      "x": -72379.0625,
+      "y": 48698.21094
+    },
+    {
+      "id": "00518CE1",
+      "type": "StoneSkirtMarker",
+      "x": -72379.0625,
+      "y": 48698.21094
+    },
+    {
+      "id": "00518CFD",
+      "type": "CopperDepositMarker",
+      "x": -38714.73047,
+      "y": 4992.086914
+    },
+    {
+      "id": "00518D0A",
+      "type": "ConcreteMarker",
+      "x": -137219.1094,
+      "y": 29318.31445
+    },
+    {
+      "id": "00518D0D",
+      "type": "ConcreteMarker",
+      "x": -55878.97656,
+      "y": 90287.14844
+    },
+    {
+      "id": "00518D0E",
+      "type": "StoneSkirtMarker",
+      "x": -55878.97656,
+      "y": 90287.14844
+    },
+    {
+      "id": "00518F2B",
+      "type": "IronDepositMarker",
+      "x": -25506.56055,
+      "y": -13695.98828
+    },
+    {
+      "id": "00518F35",
+      "type": "CopperDepositMarker",
+      "x": -27456.36914,
+      "y": -2637.836425
+    },
+    {
+      "id": "00518F4D",
+      "type": "IronDepositMarker",
+      "x": -24545.09766,
+      "y": 12431.35059
+    },
+    {
+      "id": "00518F51",
+      "type": "ConcreteMarker",
+      "x": -21608.86133,
+      "y": 5704.276856
+    },
+    {
+      "id": "00518F52",
+      "type": "StoneSkirtMarker",
+      "x": -21608.86133,
+      "y": 5704.276856
+    },
+    {
+      "id": "00518F61",
+      "type": "IronDepositMarker",
+      "x": -26841.70117,
+      "y": 25713.12305
+    },
+    {
+      "id": "005192B4",
+      "type": "JunkPileMarker",
+      "x": -165783.8281,
+      "y": 65241.05859
+    },
+    {
+      "id": "005192B7",
+      "type": "WoodDepositMarker",
+      "x": -160448.1406,
+      "y": 50155.58203,
+      "annotation": 2
+    },
+    {
+      "id": "005192D2",
+      "type": "CopperDepositMarker",
+      "x": -116346.0703,
+      "y": 34176.41406
+    },
+    {
+      "id": "005192EE",
+      "type": "ConcreteMarker",
+      "x": -111464.3047,
+      "y": 43415.53125
+    },
+    {
+      "id": "005192F0",
+      "type": "StoneSkirtMarker",
+      "x": -111464.3047,
+      "y": 43415.53125
+    },
+    {
+      "id": "0051931B",
+      "type": "ConcreteMarker",
+      "x": -59685.27344,
+      "y": 82762.26563
+    },
+    {
+      "id": "0051931C",
+      "type": "StoneSkirtMarker",
+      "x": -59685.27344,
+      "y": 82762.26563
+    },
+    {
+      "id": "0051933D",
+      "type": "GoldDepositMarker",
+      "x": -63756.25781,
+      "y": 108470.5
+    },
+    {
+      "id": "0051934F",
+      "type": "IronDepositMarker",
+      "x": -72839.58594,
+      "y": 97733.08594
+    },
+    {
+      "id": "0051936C",
+      "type": "WoodDepositMarker",
+      "x": -55947.21094,
+      "y": 126103.5547,
+      "annotation": 2
+    },
+    {
+      "id": "0051939B",
+      "type": "WoodDepositMarker",
+      "x": -71974.80469,
+      "y": 121333.1094,
+      "annotation": 2
+    },
+    {
+      "id": "005193A3",
+      "type": "CopperDepositMarker",
+      "x": -72358.10156,
+      "y": 99753.3125
+    },
+    {
+      "id": "005193BB",
+      "type": "IronDepositMarker",
+      "x": -93260.09375,
+      "y": 111346.3516
+    },
+    {
+      "id": "00519C78",
+      "type": "ConcreteMarker",
+      "x": -67383.03906,
+      "y": -35862.26563
+    },
+    {
+      "id": "00519C79",
+      "type": "StoneSkirtMarker",
+      "x": -67383.03906,
+      "y": -35862.26563
+    },
+    {
+      "id": "00519C89",
+      "type": "IronDepositMarker",
+      "x": -51803.49609,
+      "y": -30902.75586
+    },
+    {
+      "id": "00519C8D",
+      "type": "ConcreteMarker",
+      "x": -57050.15625,
+      "y": -46269.16016
+    },
+    {
+      "id": "00519C8E",
+      "type": "StoneSkirtMarker",
+      "x": -57050.15625,
+      "y": -46269.16016
+    },
+    {
+      "id": "00519C95",
+      "type": "CopperDepositMarker",
+      "x": -44001.77734,
+      "y": -27416.33984
+    },
+    {
+      "id": "00519CAD",
+      "type": "IronDepositMarker",
+      "x": -57144.28906,
+      "y": -11434.30078
+    },
+    {
+      "id": "00519CC8",
+      "type": "CopperDepositMarker",
+      "x": -32365.36914,
+      "y": -23934.52734
+    },
+    {
+      "id": "00519CE0",
+      "type": "IronDepositMarker",
+      "x": -52192.78906,
+      "y": -72604.05469
+    },
+    {
+      "id": "00519CE4",
+      "type": "ConcreteMarker",
+      "x": -74885.23438,
+      "y": -75277.83594
+    },
+    {
+      "id": "00519CE5",
+      "type": "StoneSkirtMarker",
+      "x": -74885.23438,
+      "y": -75277.83594
+    },
+    {
+      "id": "00519CF3",
+      "type": "IronDepositMarker",
+      "x": -89437.10156,
+      "y": -73666.65625
+    },
+    {
+      "id": "00519CFD",
+      "type": "CopperDepositMarker",
+      "x": -66400.71875,
+      "y": -60600.77734
+    },
+    {
+      "id": "00519D08",
+      "type": "ConcreteMarker",
+      "x": -74947.07031,
+      "y": -56760.67969
+    },
+    {
+      "id": "00519D09",
+      "type": "StoneSkirtMarker",
+      "x": -74947.07031,
+      "y": -56760.67969
+    },
+    {
+      "id": "00519D18",
+      "type": "IronDepositMarker",
+      "x": -110113.625,
+      "y": -64250.57031
+    },
+    {
+      "id": "00519D29",
+      "type": "IronDepositMarker",
+      "x": -96381.14844,
+      "y": -39373.04688
+    },
+    {
+      "id": "00519D3A",
+      "type": "IronDepositMarker",
+      "x": -48141.375,
+      "y": -43098.59766
+    },
+    {
+      "id": "00519D44",
+      "type": "CopperDepositMarker",
+      "x": -3861.590332,
+      "y": 30241.93359
+    },
+    {
+      "id": "00519D5C",
+      "type": "IronDepositMarker",
+      "x": -14682.22656,
+      "y": 34252.50391
+    },
+    {
+      "id": "00519D9C",
+      "type": "CopperDepositMarker",
+      "x": 13384.70703,
+      "y": 41516.88281
+    },
+    {
+      "id": "00519DB4",
+      "type": "IronDepositMarker",
+      "x": 17948.69336,
+      "y": 51938.23828
+    },
+    {
+      "id": "00519DCF",
+      "type": "CopperDepositMarker",
+      "x": -6975.647461,
+      "y": 63022.33984
+    },
+    {
+      "id": "00519DE7",
+      "type": "AluminumDepositMarker",
+      "x": -125879.4688,
+      "y": -73530.28125
+    },
+    {
+      "id": "00519DF3",
+      "type": "TitaniumMarker",
+      "x": -140576.9531,
+      "y": -73160
+    },
+    {
+      "id": "00519E1A",
+      "type": "SilverDepositMarker",
+      "x": -132770.0625,
+      "y": -84110.19531
+    },
+    {
+      "id": "00519E3C",
+      "type": "IronDepositMarker",
+      "x": -116690.1953,
+      "y": -95706.53906
+    },
+    {
+      "id": "00519E5E",
+      "type": "CoalDepositMarker",
+      "x": -116808.7813,
+      "y": -111451.0625
+    },
+    {
+      "id": "00519E6F",
+      "type": "LeadDepositMarker",
+      "x": -101327.75,
+      "y": -109568.0781
+    },
+    {
+      "id": "00519E7B",
+      "type": "TitaniumMarker",
+      "x": -108327.2578,
+      "y": -116181.0938
+    },
+    {
+      "id": "00519EA2",
+      "type": "IronDepositMarker",
+      "x": -111532.4297,
+      "y": -126022.375
+    },
+    {
+      "id": "00519EB3",
+      "type": "SilverDepositMarker",
+      "x": -125592.8828,
+      "y": -132510.7656
+    },
+    {
+      "id": "00519EF7",
+      "type": "IronDepositMarker",
+      "x": -144044.125,
+      "y": -107627.4453
+    },
+    {
+      "id": "00519F25",
+      "type": "TitaniumMarker",
+      "x": -169855.6719,
+      "y": -129753.6172
+    },
+    {
+      "id": "00519F34",
+      "type": "CopperDepositMarker",
+      "x": -169331.7344,
+      "y": -146245.5
+    },
+    {
+      "id": "00519F5D",
+      "type": "IronDepositMarker",
+      "x": -152731.875,
+      "y": -146134.8281
+    },
+    {
+      "id": "00519F7F",
+      "type": "CoalDepositMarker",
+      "x": -137600.2656,
+      "y": -163604.4844
+    },
+    {
+      "id": "00519F89",
+      "type": "CopperDepositMarker",
+      "x": -133993.9688,
+      "y": -148759.625
+    },
+    {
+      "id": "00519F9C",
+      "type": "TitaniumMarker",
+      "x": -126053.6875,
+      "y": -154674.1719
+    },
+    {
+      "id": "00519FB2",
+      "type": "AluminumDepositMarker",
+      "x": -95505.41406,
+      "y": -156506.125
+    },
+    {
+      "id": "00519FC3",
+      "type": "IronDepositMarker",
+      "x": -89062.16406,
+      "y": -150635.1406
+    },
+    {
+      "id": "00519FD4",
+      "type": "UraniumDepositMarker",
+      "x": -89409.64063,
+      "y": -146304.9219
+    },
+    {
+      "id": "00519FE5",
+      "type": "IronDepositMarker",
+      "x": -86391.99219,
+      "y": -134215.4688
+    },
+    {
+      "id": "00519FEF",
+      "type": "CopperDepositMarker",
+      "x": -66991.30469,
+      "y": -128180.7422
+    },
+    {
+      "id": "0051A007",
+      "type": "IronDepositMarker",
+      "x": -66768.15625,
+      "y": -113109.4141
+    },
+    {
+      "id": "0051A018",
+      "type": "LeadDepositMarker",
+      "x": -75755.21875,
+      "y": -103677.4688
+    },
+    {
+      "id": "0051A024",
+      "type": "TitaniumMarker",
+      "x": -73043.19531,
+      "y": -99391.85938
+    },
+    {
+      "id": "0051A03A",
+      "type": "UraniumDepositMarker",
+      "x": -87839.94531,
+      "y": -115486.75
+    },
+    {
+      "id": "0051A04B",
+      "type": "CoalDepositMarker",
+      "x": -99246.89063,
+      "y": -121448.7578
+    },
+    {
+      "id": "0051A07E",
+      "type": "IronDepositMarker",
+      "x": -110852.9531,
+      "y": -99870.8125
+    },
+    {
+      "id": "0051A08F",
+      "type": "AluminumDepositMarker",
+      "x": -103376.1563,
+      "y": -83785.45313
+    },
+    {
+      "id": "0051A09A",
+      "type": "CopperDepositMarker",
+      "x": -119734.2031,
+      "y": -67078.08594
+    },
+    {
+      "id": "0051A0B2",
+      "type": "LeadDepositMarker",
+      "x": -65671.89844,
+      "y": -136150.5
+    },
+    {
+      "id": "0051A0BC",
+      "type": "GoldDepositMarker",
+      "x": -52496.46875,
+      "y": -125148.7734
+    },
+    {
+      "id": "0051A0D4",
+      "type": "SilverDepositMarker",
+      "x": -47678.10156,
+      "y": -108208.1406
+    },
+    {
+      "id": "0051A0E5",
+      "type": "UraniumDepositMarker",
+      "x": -119320.5234,
+      "y": -169311.25
+    },
+    {
+      "id": "0051A0F6",
+      "type": "IronDepositMarker",
+      "x": -136113.9688,
+      "y": 38172.85156
+    },
+    {
+      "id": "0051A0FA",
+      "type": "JunkPileMarker",
+      "x": -149141.6875,
+      "y": 37786.19141
+    },
+    {
+      "id": "0051A0FB",
+      "type": "WoodDepositMarker",
+      "x": -166552.8125,
+      "y": 85360.46875,
+      "annotation": 2
+    },
+    {
+      "id": "0051A0FC",
+      "type": "JunkPileMarker",
+      "x": -162196.0313,
+      "y": 99224.86719
+    },
+    {
+      "id": "0051A102",
+      "type": "ConcreteMarker",
+      "x": -117456.3203,
+      "y": 61165.39844
+    },
+    {
+      "id": "0051A114",
+      "type": "IronDepositMarker",
+      "x": -122343.5234,
+      "y": 77041.89844
+    },
+    {
+      "id": "0051A11A",
+      "type": "WoodDepositMarker",
+      "x": -124614.5078,
+      "y": 60095.44531,
+      "annotation": 2
+    },
+    {
+      "id": "0051A11E",
+      "type": "JunkPileMarker",
+      "x": -135568.9375,
+      "y": 59840.87891
+    },
+    {
+      "id": "0051A12D",
+      "type": "IronDepositMarker",
+      "x": -145811.0938,
+      "y": 62520.65625
+    },
+    {
+      "id": "0051A130",
+      "type": "WoodDepositMarker",
+      "x": -140264.1563,
+      "y": 71812.5625,
+      "annotation": 2
+    },
+    {
+      "id": "0051A131",
+      "type": "PhosphateDepositMarker",
+      "x": -138828.4688,
+      "y": 88470.35156
+    },
+    {
+      "id": "0051A132",
+      "type": "JunkPileMarker",
+      "x": -134134.4531,
+      "y": 95692.74219
+    },
+    {
+      "id": "0051A133",
+      "type": "WoodDepositMarker",
+      "x": -134591.1875,
+      "y": 98113.21094,
+      "annotation": 2
+    },
+    {
+      "id": "0051A135",
+      "type": "JunkPileMarker",
+      "x": -167389.4375,
+      "y": 116444.3047
+    },
+    {
+      "id": "0051A138",
+      "type": "WoodDepositMarker",
+      "x": -127718.875,
+      "y": 121713.1563,
+      "annotation": 2
+    },
+    {
+      "id": "0051A141",
+      "type": "ConcreteMarker",
+      "x": -92812.60938,
+      "y": 132889.0469
+    },
+    {
+      "id": "0051A142",
+      "type": "StoneSkirtMarker",
+      "x": -92812.60938,
+      "y": 132889.0469
+    },
+    {
+      "id": "0051A144",
+      "type": "PhosphateDepositMarker",
+      "x": -118294.3516,
+      "y": 124856.3125
+    },
+    {
+      "id": "0051A14F",
+      "type": "CopperDepositMarker",
+      "x": -74895.875,
+      "y": 197780.4219
+    },
+    {
+      "id": "0051A15A",
+      "type": "AcidMarker",
+      "x": -72232.09375,
+      "y": 177255.3906
+    },
+    {
+      "id": "0051A17B",
+      "type": "OilSeepMarker",
+      "x": -42889.04688,
+      "y": 198380.6719
+    },
+    {
+      "id": "0051A17D",
+      "type": "AcidMarker",
+      "x": -27298.38672,
+      "y": 180165.5469
+    },
+    {
+      "id": "0051A182",
+      "type": "JunkPileMarker",
+      "x": -9983.086914,
+      "y": 186423.0156
+    },
+    {
+      "id": "0051A19F",
+      "type": "PhosphateDepositMarker",
+      "x": 3157.634521,
+      "y": 172837.5625
+    },
+    {
+      "id": "0051A1E0",
+      "type": "JunkPileMarker",
+      "x": 14059.10254,
+      "y": 169908.875
+    },
+    {
+      "id": "0051A1E4",
+      "type": "JunkPileMarker",
+      "x": -2582.96289,
+      "y": 190900.3594
+    },
+    {
+      "id": "0051A1FA",
+      "type": "TitaniumMarker",
+      "x": -76121.52344,
+      "y": 162537.8125
+    },
+    {
+      "id": "0051A20E",
+      "type": "PhosphateDepositMarker",
+      "x": -69348.4375,
+      "y": 143981.375
+    },
+    {
+      "id": "0051A215",
+      "type": "ConcreteMarker",
+      "x": -78177.50781,
+      "y": 145223.9844
+    },
+    {
+      "id": "0051A216",
+      "type": "StoneSkirtMarker",
+      "x": -78177.50781,
+      "y": 145223.9844
+    },
+    {
+      "id": "0051A22C",
+      "type": "AcidMarker",
+      "x": -37578.02344,
+      "y": 149876.0156
+    },
+    {
+      "id": "0051A238",
+      "type": "OilSeepMarker",
+      "x": -35140.49609,
+      "y": 145605.2813
+    },
+    {
+      "id": "0051A23B",
+      "type": "PhosphateDepositMarker",
+      "x": -35939.29297,
+      "y": 150052.8906
+    },
+    {
+      "id": "0051A24D",
+      "type": "SilverDepositMarker",
+      "x": -11123.38574,
+      "y": 146012.4375
+    },
+    {
+      "id": "0051A251",
+      "type": "WoodDepositMarker",
+      "x": -7753.847656,
+      "y": 142193.3594,
+      "annotation": 2
+    },
+    {
+      "id": "0051A260",
+      "type": "CoalDepositMarker",
+      "x": 21063.68164,
+      "y": 152273.6563
+    },
+    {
+      "id": "0051A274",
+      "type": "JunkPileMarker",
+      "x": 15523.46973,
+      "y": 181126.4844
+    },
+    {
+      "id": "0051A297",
+      "type": "WoodDepositMarker",
+      "x": -64603.03125,
+      "y": 152579.8906,
+      "annotation": 2
+    },
+    {
+      "id": "0051A298",
+      "type": "WoodDepositMarker",
+      "x": 15997.00879,
+      "y": 145731.9219,
+      "annotation": 2
+    },
+    {
+      "id": "0051A2C4",
+      "type": "LeadDepositMarker",
+      "x": 18158.83789,
+      "y": 181554.4063
+    },
+    {
+      "id": "0051A2D5",
+      "type": "LeadDepositMarker",
+      "x": 19400.57422,
+      "y": 190540.5469
+    },
+    {
+      "id": "0051A2E6",
+      "type": "SilverDepositMarker",
+      "x": -2611.76831,
+      "y": 175948.2813
+    },
+    {
+      "id": "0051A2F7",
+      "type": "IronDepositMarker",
+      "x": -53626.26563,
+      "y": 169997.7188
+    },
+    {
+      "id": "0051A319",
+      "type": "IronDepositMarker",
+      "x": -46193.69922,
+      "y": 162017.6875
+    },
+    {
+      "id": "0051B5E1",
+      "type": "CopperDepositMarker",
+      "x": 197647.4531,
+      "y": 203992.7656
+    },
+    {
+      "id": "0051B5EB",
+      "type": "OilSeepMarker",
+      "x": 193910.7344,
+      "y": 177588.3906
+    },
+    {
+      "id": "0051B5F0",
+      "type": "JunkPileMarker",
+      "x": 183717,
+      "y": 158704.7031
+    },
+    {
+      "id": "0051B5F6",
+      "type": "WoodDepositMarker",
+      "x": 198217.1563,
+      "y": 147766.25,
+      "annotation": 2
+    },
+    {
+      "id": "0051B5FA",
+      "type": "ConcreteMarker",
+      "x": 191761.8125,
+      "y": 132469.2344
+    },
+    {
+      "id": "0051B5FB",
+      "type": "StoneSkirtMarker",
+      "x": 191761.8125,
+      "y": 132469.2344
+    },
+    {
+      "id": "0051B5FD",
+      "type": "WoodDepositMarker",
+      "x": 169513.3125,
+      "y": 121611.0391,
+      "annotation": 2
+    },
+    {
+      "id": "0051C2D6",
+      "type": "JunkPileMarker",
+      "x": -133762.9844,
+      "y": 131152.1094
+    },
+    {
+      "id": "0051C2DE",
+      "type": "CopperDepositMarker",
+      "x": -115073.2891,
+      "y": 113340.1172
+    },
+    {
+      "id": "0051C2EF",
+      "type": "CopperDepositMarker",
+      "x": -153636.2813,
+      "y": 171939.0469
+    },
+    {
+      "id": "0051C307",
+      "type": "IronDepositMarker",
+      "x": -142596.7813,
+      "y": 204305.7656
+    },
+    {
+      "id": "0051C318",
+      "type": "IronDepositMarker",
+      "x": -120510.375,
+      "y": 159557.5313
+    },
+    {
+      "id": "0051C329",
+      "type": "IronDepositMarker",
+      "x": -164980.9375,
+      "y": 179253.4375
+    },
+    {
+      "id": "0051C333",
+      "type": "CopperDepositMarker",
+      "x": -104425.2891,
+      "y": 140166.2344
+    },
+    {
+      "id": "0051C34B",
+      "type": "IronDepositMarker",
+      "x": -139859.9219,
+      "y": 153028.4844
+    },
+    {
+      "id": "0051C351",
+      "type": "CrystalOutcroppingMarker",
+      "x": -121605.2969,
+      "y": 142183.5938
+    },
+    {
+      "id": "0051C362",
+      "type": "ConcreteMarker",
+      "x": -109508.4688,
+      "y": 174130.4219
+    },
+    {
+      "id": "0051C363",
+      "type": "StoneSkirtMarker",
+      "x": -109508.4688,
+      "y": 174130.4219
+    },
+    {
+      "id": "0051C364",
+      "type": "JunkPileMarker",
+      "x": -116359.2813,
+      "y": 172621.0313
+    },
+    {
+      "id": "0051C365",
+      "type": "PhosphateDepositMarker",
+      "x": -162168.7344,
+      "y": 198261.9219
+    },
+    {
+      "id": "0051C368",
+      "type": "ConcreteMarker",
+      "x": -145471.0938,
+      "y": 184834.0469
+    },
+    {
+      "id": "0051C369",
+      "type": "StoneSkirtMarker",
+      "x": -145471.0938,
+      "y": 184834.0469
+    },
+    {
+      "id": "0051C36A",
+      "type": "OilSeepMarker",
+      "x": -128733.4141,
+      "y": 206821.2188
+    },
+    {
+      "id": "0051C36E",
+      "type": "ConcreteMarker",
+      "x": -163908.9844,
+      "y": 161608.2188
+    },
+    {
+      "id": "0051C36F",
+      "type": "StoneSkirtMarker",
+      "x": -163908.9844,
+      "y": 161608.2188
+    },
+    {
+      "id": "0051C371",
+      "type": "AcidMarker",
+      "x": -113338.4297,
+      "y": 205066.4063
+    },
+    {
+      "id": "0051C372",
+      "type": "WoodDepositMarker",
+      "x": -106833.2109,
+      "y": 183170.5156,
+      "annotation": 2
+    },
+    {
+      "id": "0051C373",
+      "type": "WoodDepositMarker",
+      "x": -97438.51563,
+      "y": 186628.0781,
+      "annotation": 2
+    },
+    {
+      "id": "0051C375",
+      "type": "WoodDepositMarker",
+      "x": -139738.2969,
+      "y": 170375.6875,
+      "annotation": 2
+    },
+    {
+      "id": "0051C376",
+      "type": "WoodDepositMarker",
+      "x": -154438.6719,
+      "y": 153728.7188,
+      "annotation": 2
+    },
+    {
+      "id": "0051DD66",
+      "type": "ConcreteMarker",
+      "x": 4424.631836,
+      "y": 4499.40918
+    },
+    {
+      "id": "0051DD67",
+      "type": "StoneSkirtMarker",
+      "x": 4424.631836,
+      "y": 4499.40918
+    },
+    {
+      "id": "0051DDDD",
+      "type": "UraniumDepositMarker",
+      "x": -2230.559814,
+      "y": -156282.9219
+    },
+    {
+      "id": "0051FE16",
+      "type": "GoldDepositMarker",
+      "x": 179027.2969,
+      "y": -70845.82031
+    },
+    {
+      "id": "0051FE33",
+      "type": "LeadDepositMarker",
+      "x": 193590.4688,
+      "y": -77314.41406
+    },
+    {
+      "id": "0051FE43",
+      "type": "IronDepositMarker",
+      "x": 178561.0781,
+      "y": -101397.1094
+    },
+    {
+      "id": "0051FE54",
+      "type": "SilverDepositMarker",
+      "x": 163161.7031,
+      "y": -92986.71875
+    },
+    {
+      "id": "0051FE6B",
+      "type": "AluminumDepositMarker",
+      "x": 145513.1563,
+      "y": -67060.70313
+    },
+    {
+      "id": "0051FE76",
+      "type": "CopperDepositMarker",
+      "x": 155256.6563,
+      "y": -60036.82031
+    },
+    {
+      "id": "0051FE8D",
+      "type": "AluminumDepositMarker",
+      "x": 135245.3594,
+      "y": -74557.95313
+    },
+    {
+      "id": "0051FE98",
+      "type": "TitaniumMarker",
+      "x": 136015.4063,
+      "y": -90733.94531
+    },
+    {
+      "id": "0051FEB0",
+      "type": "SilverDepositMarker",
+      "x": 135872.4688,
+      "y": -102435.0703
+    },
+    {
+      "id": "00520EA5",
+      "type": "TitaniumMarker",
+      "x": 163248.2656,
+      "y": 104331.2188
+    },
+    {
+      "id": "00520EB6",
+      "type": "CopperDepositMarker",
+      "x": 151160.6719,
+      "y": 101250.1953
+    },
+    {
+      "id": "00520EC3",
+      "type": "ConcreteMarker",
+      "x": 169287.4375,
+      "y": 90818.65625
+    },
+    {
+      "id": "00520EC4",
+      "type": "StoneSkirtMarker",
+      "x": 169287.4375,
+      "y": 90818.65625
+    },
+    {
+      "id": "00520EC5",
+      "type": "OilSeepMarker",
+      "x": 200421.1406,
+      "y": 117084.1563
+    },
+    {
+      "id": "00520EC6",
+      "type": "OilSeepMarker",
+      "x": 201062.1563,
+      "y": 78239.21875
+    },
+    {
+      "id": "00520EC7",
+      "type": "WoodDepositMarker",
+      "x": 196577.8906,
+      "y": 64890.23828,
+      "annotation": 2
+    },
+    {
+      "id": "00520ED8",
+      "type": "CoalDepositMarker",
+      "x": 194274.0625,
+      "y": 42952.51563
+    },
+    {
+      "id": "00520EEA",
+      "type": "AluminumDepositMarker",
+      "x": 160631.9844,
+      "y": 51315.09766
+    },
+    {
+      "id": "00520EFD",
+      "type": "LeadDepositMarker",
+      "x": 156736.0938,
+      "y": 61112.20703
+    },
+    {
+      "id": "00520F0F",
+      "type": "SilverDepositMarker",
+      "x": 137779.8906,
+      "y": 54905.92188
+    },
+    {
+      "id": "00520F12",
+      "type": "WoodDepositMarker",
+      "x": 140880.375,
+      "y": 71093.97656,
+      "annotation": 2
+    },
+    {
+      "id": "00520F21",
+      "type": "LeadDepositMarker",
+      "x": 142322.4844,
+      "y": 80350.71094
+    },
+    {
+      "id": "00520F35",
+      "type": "SilverDepositMarker",
+      "x": 156936,
+      "y": 55809.82031
+    },
+    {
+      "id": "00520F46",
+      "type": "AluminumDepositMarker",
+      "x": 172117.5313,
+      "y": 71193.96094
+    },
+    {
+      "id": "00520F4B",
+      "type": "JunkPileMarker",
+      "x": 177458.0156,
+      "y": 28934.50195
+    },
+    {
+      "id": "00520F4E",
+      "type": "WoodDepositMarker",
+      "x": 169224.0469,
+      "y": 24217.41406,
+      "annotation": 2
+    },
+    {
+      "id": "00520F59",
+      "type": "TitaniumMarker",
+      "x": 179010.3906,
+      "y": 8641.887695
+    },
+    {
+      "id": "00520F65",
+      "type": "OilSeepMarker",
+      "x": 195531.625,
+      "y": 17765.68555
+    },
+    {
+      "id": "00520F6B",
+      "type": "JunkPileMarker",
+      "x": 151526.8281,
+      "y": 24198.51758
+    },
+    {
+      "id": "00520F86",
+      "type": "LeadDepositMarker",
+      "x": 154989.8438,
+      "y": 38264.61328
+    },
+    {
+      "id": "00520F8B",
+      "type": "JunkPileMarker",
+      "x": 134839.2344,
+      "y": 47236.25391
+    },
+    {
+      "id": "00520FA0",
+      "type": "CopperDepositMarker",
+      "x": 132200.0313,
+      "y": 7106.054687
+    },
+    {
+      "id": "00520FB2",
+      "type": "ConcreteMarker",
+      "x": 156641.6719,
+      "y": -16923.35938
+    },
+    {
+      "id": "00520FB3",
+      "type": "StoneSkirtMarker",
+      "x": 156641.6719,
+      "y": -16923.35938
+    },
+    {
+      "id": "00520FB5",
+      "type": "WoodDepositMarker",
+      "x": 173811.5313,
+      "y": -23651.83398,
+      "annotation": 2
+    },
+    {
+      "id": "00520FBA",
+      "type": "PhosphateDepositMarker",
+      "x": 194352.1875,
+      "y": -26148.15234
+    },
+    {
+      "id": "00520FC0",
+      "type": "PhosphateDepositMarker",
+      "x": 191710.4375,
+      "y": -53896.22656
+    },
+    {
+      "id": "00520FD4",
+      "type": "AluminumDepositMarker",
+      "x": 199374.8594,
+      "y": 170472.7188
+    },
+    {
+      "id": "0052168B",
+      "type": "JunkPileMarker",
+      "x": 190402.0469,
+      "y": -175462.4063
+    },
+    {
+      "id": "0052169B",
+      "type": "WoodDepositMarker",
+      "x": 191576,
+      "y": -169120,
+      "annotation": 2
+    },
+    {
+      "id": "0052169E",
+      "type": "OilSeepMarker",
+      "x": 200978.4844,
+      "y": -156225.1875
+    },
+    {
+      "id": "005216BD",
+      "type": "WoodDepositMarker",
+      "x": 195034.5,
+      "y": -142264,
+      "annotation": 2
+    },
+    {
+      "id": "005216D4",
+      "type": "ConcreteMarker",
+      "x": 193372.0938,
+      "y": -127504.4531
+    },
+    {
+      "id": "005216D5",
+      "type": "StoneSkirtMarker",
+      "x": 193372.0938,
+      "y": -127504.4531
+    },
+    {
+      "id": "005216F7",
+      "type": "JunkPileMarker",
+      "x": 176346.3438,
+      "y": -105756.1484
+    },
+    {
+      "id": "0052171C",
+      "type": "OilSeepMarker",
+      "x": 175027.5781,
+      "y": -54589.26953
+    },
+    {
+      "id": "0052172A",
+      "type": "CopperDepositMarker",
+      "x": 157136.9844,
+      "y": -72906.45313
+    },
+    {
+      "id": "0052179D",
+      "type": "LeadDepositMarker",
+      "x": 112095.8672,
+      "y": -130138.5469
+    },
+    {
+      "id": "005217BA",
+      "type": "PhosphateDepositMarker",
+      "x": 122657.5234,
+      "y": -158008.8594
+    },
+    {
+      "id": "005217C5",
+      "type": "JunkPileMarker",
+      "x": 142912.5469,
+      "y": -118254.6328
+    },
+    {
+      "id": "005217C6",
+      "type": "PhosphateDepositMarker",
+      "x": 135873.2969,
+      "y": -112376.8906
+    },
+    {
+      "id": "00521D8D",
+      "type": "WoodDepositMarker",
+      "x": 114107.5938,
+      "y": -107636.1094,
+      "annotation": 2
+    },
+    {
+      "id": "00521D9B",
+      "type": "AluminumDepositMarker",
+      "x": 125194.6953,
+      "y": -127563.3125
+    },
+    {
+      "id": "00521DA1",
+      "type": "ConcreteMarker",
+      "x": 141212.3594,
+      "y": -125573.8828
+    },
+    {
+      "id": "00521DA2",
+      "type": "StoneSkirtMarker",
+      "x": 141212.3594,
+      "y": -125573.8828
+    },
+    {
+      "id": "00521DB6",
+      "type": "IronDepositMarker",
+      "x": 156429.8906,
+      "y": -127737.2891
+    },
+    {
+      "id": "00521DBF",
+      "type": "CopperDepositMarker",
+      "x": 158563.5,
+      "y": -129291.8281
+    },
+    {
+      "id": "00521DD6",
+      "type": "AluminumDepositMarker",
+      "x": 174101.1875,
+      "y": -132667.6719
+    },
+    {
+      "id": "00521DE6",
+      "type": "UraniumDepositMarker",
+      "x": 190871.4531,
+      "y": -136426.9531
+    },
+    {
+      "id": "00521DF6",
+      "type": "LeadDepositMarker",
+      "x": 186901.0156,
+      "y": -148177.5
+    },
+    {
+      "id": "00521E5B",
+      "type": "ConcreteMarker",
+      "x": 68041.53125,
+      "y": 151035.7188
+    },
+    {
+      "id": "00521E5C",
+      "type": "StoneSkirtMarker",
+      "x": 68041.53125,
+      "y": 151035.7188
+    },
+    {
+      "id": "00521E6C",
+      "type": "CoalDepositMarker",
+      "x": 53764.83984,
+      "y": 149935.9375
+    },
+    {
+      "id": "00521E7D",
+      "type": "IronDepositMarker",
+      "x": 51980.83203,
+      "y": 118179.6875
+    },
+    {
+      "id": "00521E8D",
+      "type": "CoalDepositMarker",
+      "x": 71102.72656,
+      "y": 100860.8594
+    },
+    {
+      "id": "005223C8",
+      "type": "IronDepositMarker",
+      "x": -102721.9453,
+      "y": -166372.0469
+    },
+    {
+      "id": "005223DA",
+      "type": "IronDepositMarker",
+      "x": -91229.24219,
+      "y": -167955.6563
+    },
+    {
+      "id": "0052248D",
+      "type": "LeadDepositMarker",
+      "x": 6591.79248,
+      "y": -173130.6563
+    },
+    {
+      "id": "0052249E",
+      "type": "SilverDepositMarker",
+      "x": 9581.806641,
+      "y": -165342.8594
+    },
+    {
+      "id": "005224AB",
+      "type": "CopperDepositMarker",
+      "x": 30274.63281,
+      "y": -168843.5313
+    },
+    {
+      "id": "005224B5",
+      "type": "OilSeepMarker",
+      "x": 43627.69922,
+      "y": -160415.875
+    },
+    {
+      "id": "0052250D",
+      "type": "AcidMarker",
+      "x": 104611.3516,
+      "y": 110947.6172
+    },
+    {
+      "id": "0052251D",
+      "type": "SilverDepositMarker",
+      "x": 88740.5625,
+      "y": 115185.8672
+    },
+    {
+      "id": "0052259B",
+      "type": "CopperDepositMarker",
+      "x": 86653.07031,
+      "y": 161973.1563
+    },
+    {
+      "id": "005225A6",
+      "type": "ConcreteMarker",
+      "x": 92104.41406,
+      "y": 83790.53906
+    },
+    {
+      "id": "005225A7",
+      "type": "StoneSkirtMarker",
+      "x": 92104.41406,
+      "y": 83790.53906
+    },
+    {
+      "id": "005225B3",
+      "type": "OilSeepMarker",
+      "x": 92419.125,
+      "y": 93736.15625
+    },
+    {
+      "id": "005225B6",
+      "type": "AcidMarker",
+      "x": 97691.39063,
+      "y": 72865.11719
+    },
+    {
+      "id": "005225CE",
+      "type": "CoalDepositMarker",
+      "x": 105035.2422,
+      "y": 59738.51172
+    },
+    {
+      "id": "005225F2",
+      "type": "ConcreteMarker",
+      "x": 40789.48047,
+      "y": 94320.85938
+    },
+    {
+      "id": "005225F3",
+      "type": "StoneSkirtMarker",
+      "x": 40789.48047,
+      "y": 94320.85938
+    },
+    {
+      "id": "0052262C",
+      "type": "IronDepositMarker",
+      "x": 71252.09375,
+      "y": 116973.9531
+    },
+    {
+      "id": "0052265D",
+      "type": "AluminumDepositMarker",
+      "x": 60358.71094,
+      "y": 142485.6094
+    },
+    {
+      "id": "005228AF",
+      "type": "AcidMarker",
+      "x": 116203.4063,
+      "y": 67579.83594
+    },
+    {
+      "id": "005228FC",
+      "type": "IronDepositMarker",
+      "x": 145492.9844,
+      "y": 160554.4375
+    },
+    {
+      "id": "0052290A",
+      "type": "OilSeepMarker",
+      "x": 153492.3125,
+      "y": 158001.8906
+    },
+    {
+      "id": "00523EFC",
+      "type": "CopperDepositMarker",
+      "x": 88451.77344,
+      "y": -164860.3125
+    },
+    {
+      "id": "00523F07",
+      "type": "JunkPileMarker",
+      "x": 68749.94531,
+      "y": -128574.0313
+    },
+    {
+      "id": "00523F0A",
+      "type": "ConcreteMarker",
+      "x": 63433.85938,
+      "y": -115364.5
+    },
+    {
+      "id": "00523F0D",
+      "type": "WoodDepositMarker",
+      "x": 50334.42188,
+      "y": -111385.8359,
+      "annotation": 2
+    },
+    {
+      "id": "00523F1C",
+      "type": "WoodDepositMarker",
+      "x": 92844.41406,
+      "y": -142418.5781,
+      "annotation": 2
+    },
+    {
+      "id": "00523F1F",
+      "type": "JunkPileMarker",
+      "x": 56473.80078,
+      "y": -125915.1641
+    },
+    {
+      "id": "00523F20",
+      "type": "JunkPileMarker",
+      "x": 98016.49219,
+      "y": -121261.9922
+    },
+    {
+      "id": "00523F2F",
+      "type": "IronDepositMarker",
+      "x": 78598.49219,
+      "y": -120671.1484
+    },
+    {
+      "id": "00523F3F",
+      "type": "GoldDepositMarker",
+      "x": 138097.4375,
+      "y": 161108.2656
+    },
+    {
+      "id": "00523F4E",
+      "type": "OilSeepMarker",
+      "x": 139668.0938,
+      "y": 175893.6563
+    },
+    {
+      "id": "00523F5D",
+      "type": "CopperDepositMarker",
+      "x": 126259.2109,
+      "y": 185948.75
+    },
+    {
+      "id": "00523F72",
+      "type": "ConcreteMarker",
+      "x": 139354.1875,
+      "y": 184543.0469
+    },
+    {
+      "id": "00523F73",
+      "type": "StoneSkirtMarker",
+      "x": 139354.1875,
+      "y": 184543.0469
+    },
+    {
+      "id": "00523F81",
+      "type": "IronDepositMarker",
+      "x": 133768.1094,
+      "y": 195949.5
+    },
+    {
+      "id": "00523F9A",
+      "type": "AluminumDepositMarker",
+      "x": 150128.8594,
+      "y": 193835.9063
+    },
+    {
+      "id": "00523FBF",
+      "type": "LeadDepositMarker",
+      "x": 163314.5625,
+      "y": 186751.2656
+    },
+    {
+      "id": "00523FD9",
+      "type": "GoldDepositMarker",
+      "x": 167366.2813,
+      "y": 198728.1094
+    },
+    {
+      "id": "00523FE9",
+      "type": "IronDepositMarker",
+      "x": 181874.2969,
+      "y": 194379.7656
+    },
+    {
+      "id": "00523FFF",
+      "type": "OilSeepMarker",
+      "x": 127861.9766,
+      "y": 125264.8594
+    },
+    {
+      "id": "0052403A",
+      "type": "IronDepositMarker",
+      "x": 125403.7734,
+      "y": 112006.7969
+    },
+    {
+      "id": "00524F7A",
+      "type": "GoldDepositMarker",
+      "x": -59285.80078,
+      "y": 183653.8125
+    },
+    {
+      "id": "00524F7B",
+      "type": "AcidMarker",
+      "x": -59986.8125,
+      "y": 184880.625
+    },
+    {
+      "id": "00524F7C",
+      "type": "AcidMarker",
+      "x": -60081.11719,
+      "y": 182890.75
+    },
+    {
+      "id": "00524F7D",
+      "type": "CrystalOutcroppingMarker",
+      "x": -58008.15625,
+      "y": 185070.5625
+    },
+    {
+      "id": "00524F8C",
+      "type": "AcidMarker",
+      "x": -60848.39453,
+      "y": 184819.7813
+    },
+    {
+      "id": "00524F9B",
+      "type": "GoldDepositMarker",
+      "x": -191283.4844,
+      "y": -126230.2969
+    },
+    {
+      "id": "00524F9C",
+      "type": "CrystalOutcroppingMarker",
+      "x": -189121.2188,
+      "y": -127550.6406
+    },
+    {
+      "id": "00524FB5",
+      "type": "OilSeepMarker",
+      "x": -191832,
+      "y": -128640
+    },
+    {
+      "id": "00524FB6",
+      "type": "OilSeepMarker",
+      "x": -191624,
+      "y": -124248
+    },
+    {
+      "id": "00524FB7",
+      "type": "OilSeepMarker",
+      "x": -192806.4219,
+      "y": -125095.4688
+    },
+    {
+      "id": "00524FFE",
+      "type": "CopperDepositMarker",
+      "x": 19969.13477,
+      "y": 125764.9141
+    },
+    {
+      "id": "00525A51",
+      "type": "UraniumDepositMarker",
+      "x": -1592,
+      "y": -156824
+    },
+    {
+      "id": "00525A76",
+      "type": "AcidMarker",
+      "x": 1961.554932,
+      "y": -155267.5156
+    },
+    {
+      "id": "00525A77",
+      "type": "OilSeepMarker",
+      "x": -1157.873657,
+      "y": -153851.6875
+    },
+    {
+      "id": "00526F15",
+      "type": "WoodDepositMarker",
+      "x": 47894.25391,
+      "y": 73369.53906,
+      "annotation": 2
+    },
+    {
+      "id": "00526F23",
+      "type": "UraniumDepositMarker",
+      "x": 45680.53516,
+      "y": 70301.15625
+    },
+    {
+      "id": "00526F39",
+      "type": "AcidMarker",
+      "x": 46142.16406,
+      "y": 77370.00781
+    },
+    {
+      "id": "00526F47",
+      "type": "SilverDepositMarker",
+      "x": 44214.21094,
+      "y": 76857.47656
+    },
+    {
+      "id": "00526F4A",
+      "type": "WoodDepositMarker",
+      "x": 190237.875,
+      "y": 94592.28125,
+      "annotation": 2
+    },
+    {
+      "id": "00526F58",
+      "type": "UraniumDepositMarker",
+      "x": 187919.375,
+      "y": 93279.96094
+    },
+    {
+      "id": "0052784C",
+      "type": "IronDepositMarker",
+      "x": 189225.6719,
+      "y": 90587.78906
+    },
+    {
+      "id": "0052784F",
+      "type": "CrystalOutcroppingMarker",
+      "x": 192045.7813,
+      "y": 94545.22656
+    },
+    {
+      "id": "0052785F",
+      "type": "JunkPileMarker",
+      "x": 108917.5,
+      "y": 182989.8438
+    },
+    {
+      "id": "005280B6",
+      "type": "AluminumDepositMarker",
+      "x": 19509.93555,
+      "y": -80513.51563
+    },
+    {
+      "id": "005280DB",
+      "type": "IronDepositMarker",
+      "x": 37405.85547,
+      "y": -76044.35938
+    },
+    {
+      "id": "005280EC",
+      "type": "CoalDepositMarker",
+      "x": 48588.08594,
+      "y": -68999.73438
+    },
+    {
+      "id": "005280FD",
+      "type": "LeadDepositMarker",
+      "x": 63937.84375,
+      "y": -77050.60938
+    },
+    {
+      "id": "00528B87",
+      "type": "GoldDepositMarker",
+      "x": 22143.30664,
+      "y": 93559.83594
+    },
+    {
+      "id": "00528B9B",
+      "type": "OilSeepMarker",
+      "x": 31826.83594,
+      "y": 113851.2031
+    },
+    {
+      "id": "00528BAA",
+      "type": "LeadDepositMarker",
+      "x": 22283.24024,
+      "y": 21125.15039
+    },
+    {
+      "id": "00528BD2",
+      "type": "IronDepositMarker",
+      "x": 26994.50977,
+      "y": 27380.95703
+    },
+    {
+      "id": "00528BE2",
+      "type": "SilverDepositMarker",
+      "x": 27241.60156,
+      "y": 43501.92188
+    },
+    {
+      "id": "00528BF2",
+      "type": "IronDepositMarker",
+      "x": 72486.0625,
+      "y": 92647.70313
+    },
+    {
+      "id": "00528C00",
+      "type": "ConcreteMarker",
+      "x": 58469.6875,
+      "y": 67402.51563
+    },
+    {
+      "id": "00528C01",
+      "type": "StoneSkirtMarker",
+      "x": 58469.6875,
+      "y": 67402.51563
+    },
+    {
+      "id": "00528C02",
+      "type": "AcidMarker",
+      "x": 35392.12109,
+      "y": 54584.40625
+    },
+    {
+      "id": "00528C17",
+      "type": "CoalDepositMarker",
+      "x": 27540.30273,
+      "y": 75559.05469
+    },
+    {
+      "id": "005293EA",
+      "type": "LeadDepositMarker",
+      "x": 89760.64844,
+      "y": 33944.11719
+    },
+    {
+      "id": "005293FB",
+      "type": "ConcreteMarker",
+      "x": -144219.1406,
+      "y": -22863.5957
+    },
+    {
+      "id": "005293FD",
+      "type": "StoneSkirtMarker",
+      "x": -144219.1406,
+      "y": -22863.5957
+    },
+    {
+      "id": "0052944B",
+      "type": "IronDepositMarker",
+      "x": 91160.69531,
+      "y": 2694.304443
+    },
+    {
+      "id": "005294A4",
+      "type": "CopperDepositMarker",
+      "x": 56521.14063,
+      "y": 19611.0332
+    },
+    {
+      "id": "005294BC",
+      "type": "UraniumDepositMarker",
+      "x": 11518.2002,
+      "y": 13654.78516
+    },
+    {
+      "id": "0052963A",
+      "type": "JunkPileMarker",
+      "x": -126710.6094,
+      "y": -58805.95703
+    },
+    {
+      "id": "0052963E",
+      "type": "JunkPileMarker",
+      "x": -129768.8125,
+      "y": -62126.44141
+    },
+    {
+      "id": "0052965F",
+      "type": "AluminumDepositMarker",
+      "x": -127397.5313,
+      "y": -62198.93359
+    },
+    {
+      "id": "0052967B",
+      "type": "CopperDepositMarker",
+      "x": 186670,
+      "y": -24263.96484
+    },
+    {
+      "id": "0052968F",
+      "type": "CopperDepositMarker",
+      "x": 187661.4531,
+      "y": -23977.16992
+    },
+    {
+      "id": "0052969D",
+      "type": "CopperDepositMarker",
+      "x": 189202.5938,
+      "y": -25221.19922
+    },
+    {
+      "id": "005296AA",
+      "type": "PhosphateDepositMarker",
+      "x": 188246.4219,
+      "y": -25807.79492
+    },
+    {
+      "id": "005296B0",
+      "type": "ConcreteMarker",
+      "x": 187481.9688,
+      "y": -26435.92773
+    },
+    {
+      "id": "005296B1",
+      "type": "StoneSkirtMarker",
+      "x": 187481.9688,
+      "y": -26435.92773
+    },
+    {
+      "id": "005296B4",
+      "type": "JunkPileMarker",
+      "x": 185922.3438,
+      "y": -23211.9668
+    },
+    {
+      "id": "005296C8",
+      "type": "AluminumDepositMarker",
+      "x": 135288.4219,
+      "y": 146993.0313
+    },
+    {
+      "id": "005296D9",
+      "type": "AluminumDepositMarker",
+      "x": 142202.625,
+      "y": 150542.3281
+    },
+    {
+      "id": "005296EA",
+      "type": "AluminumDepositMarker",
+      "x": 135482.1875,
+      "y": 152498.0625
+    },
+    {
+      "id": "005296FB",
+      "type": "IronDepositMarker",
+      "x": 140215.2344,
+      "y": 150767.5938
+    },
+    {
+      "id": "0052970C",
+      "type": "UraniumDepositMarker",
+      "x": 137712.9531,
+      "y": 148958.1563
+    },
+    {
+      "id": "00529EA9",
+      "type": "JunkPileMarker",
+      "x": -46587.625,
+      "y": -144198.3906
+    },
+    {
+      "id": "00529EB8",
+      "type": "IronDepositMarker",
+      "x": -27168.17188,
+      "y": -152058.9375
+    },
+    {
+      "id": "00529EC9",
+      "type": "IronDepositMarker",
+      "x": -15233.80567,
+      "y": -148228
+    },
+    {
+      "id": "00529ECC",
+      "type": "WoodDepositMarker",
+      "x": -34460.38672,
+      "y": -133688.1719,
+      "annotation": 2
+    },
+    {
+      "id": "00529ECF",
+      "type": "ConcreteMarker",
+      "x": -27704.42383,
+      "y": -131831.2188
+    },
+    {
+      "id": "00529ED0",
+      "type": "StoneSkirtMarker",
+      "x": -27704.42383,
+      "y": -131831.2188
+    },
+    {
+      "id": "00529ED2",
+      "type": "WoodDepositMarker",
+      "x": -23828.63867,
+      "y": -125595.9922,
+      "annotation": 2
+    },
+    {
+      "id": "00529EEB",
+      "type": "IronDepositMarker",
+      "x": -32274.3418,
+      "y": -112368.0391
+    },
+    {
+      "id": "00529EF2",
+      "type": "WoodDepositMarker",
+      "x": -27817.82617,
+      "y": -79336.42188,
+      "annotation": 2
+    },
+    {
+      "id": "00529EF4",
+      "type": "JunkPileMarker",
+      "x": -21748.07813,
+      "y": -83471.60938
+    },
+    {
+      "id": "00529F04",
+      "type": "AluminumDepositMarker",
+      "x": -34164.10547,
+      "y": -87933.75781
+    },
+    {
+      "id": "00529FA3",
+      "type": "AluminumDepositMarker",
+      "x": -2910.230713,
+      "y": -92704.58594
+    },
+    {
+      "id": "00529FB5",
+      "type": "CoalDepositMarker",
+      "x": 14080.2998,
+      "y": -85135.32813
+    },
+    {
+      "id": "00529FC6",
+      "type": "LeadDepositMarker",
+      "x": 5283.949707,
+      "y": -10641.36231
+    },
+    {
+      "id": "00529FD7",
+      "type": "SilverDepositMarker",
+      "x": -1266.538208,
+      "y": -22809.98242
+    },
+    {
+      "id": "00529FE8",
+      "type": "LeadDepositMarker",
+      "x": -8011.677735,
+      "y": -28415.84375
+    },
+    {
+      "id": "00529FF2",
+      "type": "CopperDepositMarker",
+      "x": -25079.44922,
+      "y": -42858.40234
+    },
+    {
+      "id": "00529FFC",
+      "type": "WoodDepositMarker",
+      "x": 31123.49023,
+      "y": -6285.148437,
+      "annotation": 2
+    },
+    {
+      "id": "00529FFD",
+      "type": "WoodDepositMarker",
+      "x": 56289.75781,
+      "y": -21990.19531,
+      "annotation": 2
+    },
+    {
+      "id": "00529FFE",
+      "type": "OilSeepMarker",
+      "x": 70055.20313,
+      "y": -27957.51367
+    },
+    {
+      "id": "0052A002",
+      "type": "PhosphateDepositMarker",
+      "x": 47147.69922,
+      "y": -10198.73047
+    },
+    {
+      "id": "0052A003",
+      "type": "WoodDepositMarker",
+      "x": 47865.04688,
+      "y": -678.365051,
+      "annotation": 2
+    },
+    {
+      "id": "0052A004",
+      "type": "JunkPileMarker",
+      "x": 49986.85547,
+      "y": 4753.378418
+    },
+    {
+      "id": "0052A016",
+      "type": "IronDepositMarker",
+      "x": 60885.96875,
+      "y": -13259.87598
+    },
+    {
+      "id": "0052A019",
+      "type": "AcidMarker",
+      "x": 62904.33984,
+      "y": -369.27533
+    },
+    {
+      "id": "0052A02F",
+      "type": "CopperDepositMarker",
+      "x": 43254.91797,
+      "y": -18189.875
+    },
+    {
+      "id": "0052A475",
+      "type": "JunkPileMarker",
+      "x": 112325.8516,
+      "y": -49849.62891
+    },
+    {
+      "id": "0052A47D",
+      "type": "CopperDepositMarker",
+      "x": 114129.9297,
+      "y": -55091.17578
+    },
+    {
+      "id": "0052A495",
+      "type": "IronDepositMarker",
+      "x": 103402.4688,
+      "y": -64168.67969
+    },
+    {
+      "id": "0052A499",
+      "type": "PhosphateDepositMarker",
+      "x": 108817.7188,
+      "y": -37804.69531
+    },
+    {
+      "id": "0052A49A",
+      "type": "ConcreteMarker",
+      "x": 120476.5859,
+      "y": -37696.20703
+    },
+    {
+      "id": "0052A49B",
+      "type": "StoneSkirtMarker",
+      "x": 120476.5859,
+      "y": -37696.20703
+    },
+    {
+      "id": "0052A49D",
+      "type": "PhosphateDepositMarker",
+      "x": 138073.9844,
+      "y": -36066.875
+    },
+    {
+      "id": "0052ABB5",
+      "type": "LeadDepositMarker",
+      "x": 121168.3516,
+      "y": 24120.41406
+    },
+    {
+      "id": "0052ABC6",
+      "type": "AluminumDepositMarker",
+      "x": 122296.9531,
+      "y": 22088.66406
+    },
+    {
+      "id": "0052ABCA",
+      "type": "ConcreteMarker",
+      "x": 184422.2344,
+      "y": -94130.51563
+    },
+    {
+      "id": "0052ABCB",
+      "type": "StoneSkirtMarker",
+      "x": 184422.2344,
+      "y": -94130.51563
+    },
+    {
+      "id": "0052ABE1",
+      "type": "SilverDepositMarker",
+      "x": 187700.5469,
+      "y": -92991.35156
+    },
+    {
+      "id": "0052ABE4",
+      "type": "OilSeepMarker",
+      "x": 187317.8125,
+      "y": -95102.59375
+    },
+    {
+      "id": "0052ABE5",
+      "type": "AcidMarker",
+      "x": 187809.4219,
+      "y": -94573.03125
+    },
+    {
+      "id": "0052B737",
+      "type": "StoneSkirtMarker",
+      "x": 186443.25,
+      "y": -92824.67188
+    },
+    {
+      "id": "0052B738",
+      "type": "ConcreteMarker",
+      "x": 186443.25,
+      "y": -92824.67188
+    },
+    {
+      "id": "0052B73B",
+      "type": "StoneSkirtMarker",
+      "x": 184009.875,
+      "y": -95107.48438
+    },
+    {
+      "id": "0052B73C",
+      "type": "ConcreteMarker",
+      "x": 184009.875,
+      "y": -95107.48438
+    },
+    {
+      "id": "0052B761",
+      "type": "GoldDepositMarker",
+      "x": 186293.4844,
+      "y": -94378.74219
+    },
+    {
+      "id": "0052B762",
+      "type": "CrystalOutcroppingMarker",
+      "x": 122132.25,
+      "y": 26443.25195
+    },
+    {
+      "id": "0052B79C",
+      "type": "GoldDepositMarker",
+      "x": 121324.6172,
+      "y": 19614.23047
+    }
+  ]
+}

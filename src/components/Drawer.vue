@@ -32,12 +32,12 @@
         <v-list-item-title>{{ $t('categories.encounter') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item link to="/resource">
+    <v-list-item link to="/headpoint">
       <v-list-item-action>
         <v-icon>mdi-semantic-web</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>{{ $t('categories.resource') }}</v-list-item-title>
+        <v-list-item-title>{{ $t('categories.headpoint') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
     <v-list-item link to="/recipe">

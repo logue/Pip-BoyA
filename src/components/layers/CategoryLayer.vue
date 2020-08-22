@@ -119,10 +119,16 @@ export default {
       // 凡例の項目順を取得
       let index = 0;
       if (this.data.explains) {
+        if (this.data.explains.length > this.set.markerColor.length) {
+          throw new Error(
+            `Too many Explains. less than ${this.set.markerColor.length}`
+          );
+        }
         index = Object.keys(this.data.explains).findIndex(
           (element) => element === type
         );
       }
+      // console.log(type, index, this.set.markerColor[index]);
 
       // 色名をケバフケースに変換
       const colorName = toKebabCase(this.set.markerColor[index]);

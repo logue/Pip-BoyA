@@ -423,7 +423,7 @@
     "flora-flowering": "Flowering Plants",
     "flux": "Flux",
     "encounter": "Random Encounters",
-    "resource": "Resource Nodes",
+    "headpoint": "Resource Nodes",
     "recipe": "Recipes & Plans",
     "ore": "Ore",
     "chems": "Chemical",
@@ -495,20 +495,24 @@
       "camp": "Camp",
       "mistress": "Order of Mysteries"
     },
-    "resource": {
+    "headpoint": {
+      "acid": "Acid",
+      "aluminum": "Aluminum",
+      "coal": "Coal",
+      "concrete": "Concrete",
+      "copper": "Copper",
+      "crystal": "Crystal",
+      "gold": "Gold",
+      "iron": "Iron",
       "junk": "Junk Pile",
       "lead": "Lead",
-      "acid": "Acid",
-      "copper": "Copper",
-      "iron": "Iron",
-      "aluminum": "Aluminum",
       "oil": "Oil",
+      "phosphate": "Phosphate",
+      "silver": "Silver",
+      "stone": "Stone",
       "titanium": "Titanium",
       "uranium": "Uranium",
-      "feltilizer": "Feltilizer",
-      "crystal": "Crystal",
-      "coal": "Coal",
-      "concrete": "Concrete"
+      "wood": "Wood"
     },
     "recipe": {
       "mods-pa": "Power Armor Mods",

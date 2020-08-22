@@ -58,5 +58,6 @@ The color set defines the text color of the legend. Default is the following ord
 ## format (marker location based mode)
 
 markers配列が存在する場合は、マーカー画像レイヤーを使わず、直接ポイントを描画するモードとなります。explain配列のキー名はmarkerの各行のtypeの値と対応しています。
+マーカーの座標はFallout76の座標をそのまま使用しているため、他のマップサイトの座標データをそのまま使うことができます。内部的には4096x4096に収まるように座標は縮小されます。
 
 現在のところ、ここにアイコンを使う予定はありません。
