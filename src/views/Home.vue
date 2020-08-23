@@ -103,7 +103,7 @@ export default {
       center: config.center,
       rotation: 0,
       opacity: 1,
-      renderer: 'canvas', // renderer: 'opengl'
+      renderer: 'canvas', // 'webgl'
       // detect map move
       isMoving: false,
       // Tooltip

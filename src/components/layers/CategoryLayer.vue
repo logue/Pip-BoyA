@@ -1,6 +1,11 @@
 <template>
-  <vl-layer-group v-if="category" :opacity="1" :z-index="2">
-    <vl-layer-tile v-if="markers.length === 0">
+  <vl-layer-group
+    v-if="category"
+    :opacity="1"
+    :z-index="2"
+    class="category-layer"
+  >
+    <vl-layer-tile v-if="tileMarkerMode">
       <!-- tile based marker mode -->
       <vl-source-xyz
         ref="categoryLayerSource"
@@ -13,8 +18,10 @@
     </vl-layer-tile>
     <vl-layer-vector
       v-for="(items, index) in markers"
+      v-else
       :key="index"
       :ref="index"
+      :title="index"
       :visible="true"
     >
       <!-- location based marker mode -->
@@ -34,22 +41,22 @@
             <vl-style-stroke
               :width="2"
               :color="`rgba(${hexToRgb(
-                getMarkerColor(marker.type).lighten5
+                markerColor[marker.type].lighten5
               )},0.5)`"
             />
-            <vl-style-fill :color="getMarkerColor(marker.type).darken4" />
+            <vl-style-fill :color="markerColor[marker.type].darken4" />
           </vl-style-text>
           <vl-style-circle>
             <vl-style-stroke
               :color="
-                getMarkerColor(marker.type).accent3 ||
-                getMarkerColor(marker.type).darken3
+                markerColor[marker.type].accent3 ||
+                markerColor[marker.type].darken3
               "
             />
             <vl-style-fill
               :color="`rgba(${hexToRgb(
-                getMarkerColor(marker.type).accent1 ||
-                  getMarkerColor(marker.type).lighten5
+                markerColor[marker.type].accent1 ||
+                  markerColor[marker.type].lighten5
               )},0.3)`"
             />
           </vl-style-circle>
@@ -78,12 +85,16 @@ export default {
       category: null,
       // Loaded markers
       markers: {},
+      // Marker color
+      markerColor: {},
       // Explain definition
       explains: {},
       // Map Configure
       config: config,
       // Color Configure
       set: colorset,
+
+      tileMarkerMode: true,
     };
   },
   methods: {
@@ -96,12 +107,14 @@ export default {
       this.$root.$data.loading = true;
       console.debug(this.category, data);
       this.data = data;
-      const tileMarkerMode = !data.markers;
-      if (tileMarkerMode) {
-        // 画像マーカーモード
+      this.tileMarkerMode = !data.markers;
 
-        // マーカーをクリア
-        this.markers = {};
+      // マーカーをクリア
+      this.markers = {};
+      this.markerColor = {};
+
+      if (this.tileMarkerMode) {
+        // 画像マーカーモード
 
         // const source = this.$refs.categoryLayer.getSource();
         const source = this.$refs.categoryLayerSource;
@@ -124,24 +137,32 @@ export default {
         }
       } else {
         // カテゴリマーカー
-        const markers = data.reductionRate
-          ? convertCoordinates(data.markers, config.center, data.reductionRate)
-          : convertCoordinates(data.markers, config.center);
 
         // 定義されているマーカーの種類
-        const types = Array.from(new Set(markers.map((item) => item.type)));
+        const types = Array.from(
+          new Set(data.markers.map((item) => item.type))
+        ).sort();
         if (types.length > this.set.markerColor.length) {
           throw new Error(
             `Too many marker types. less than ${this.set.markerColor.length}`
           );
         }
 
-        for (const type of types) {
-          this.markers[type] = markers.filter((item) => item.type === type);
+        // カテゴリ別にマーカーを整理
+        for (let i = 0; i < types.length; i++) {
+          const type = types[i];
+          // 座標系をピクセル指定に変換する
+          this.markers[type] = convertCoordinates(
+            data.markers.filter((item) => item.type === type),
+            config.center,
+            data.reductionRate || undefined
+          );
+          // マーカーの色定義
+          this.markerColor[type] = colors[toKebabCase(this.set.markerColor[i])];
         }
-        // console.log(this.markers);
+        console.debug(this.markers, this.markerColor);
       }
-      this.$emit('changed', tileMarkerMode);
+      this.$emit('changed', this.tileMarkerMode);
       this.$root.$data.loading = false;
     },
     // 凡例で選択された配列のレイヤーのみ表示する
@@ -155,48 +176,6 @@ export default {
           // this.$refs[layer][0].visible = markers.includes(layer);
         }
       }
-    },
-    /**
-     * Get marker color from explains definiton.
-     *
-     * @param {String} type Marker type
-     * @return {Object} Vuetify color array
-     */
-    getMarkerColor(type) {
-      // 凡例の項目順を取得
-      let index = 0;
-      if (this.data.explains) {
-        if (this.data.explains.length > this.set.markerColor.length) {
-          throw new Error(
-            `Too many Explains. less than ${this.set.markerColor.length}`
-          );
-        }
-        index = Object.keys(this.data.explains).findIndex(
-          (element) => element === type
-        );
-      }
-      // console.log(type, index, this.set.markerColor[index]);
-
-      // 色名をケバフケースに変換
-      // console.log(c);
-      let colorName = null;
-      try {
-        colorName = toKebabCase(this.set.markerColor[index]);
-      } catch (e) {
-        console.error(
-          'type:',
-          type,
-          'colorset:',
-          this.set,
-          ' index:',
-          index,
-          'result:',
-          this.set.markerColor[index]
-        );
-        throw new Error('could not get marker color.');
-      }
-
-      return colors[colorName];
     },
     /**
      * Hex color to rgb color array
