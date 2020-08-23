@@ -8,6 +8,7 @@
       }`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
+      :renderer="renderer"
       @mounted="onMapMounted"
       @pointermove="onMapPointerMove"
       @movestart="onMoveStart"
@@ -26,11 +27,7 @@
       <base-layer ref="baseLayer" :opacity="1" />
 
       <!-- Category map layer -->
-      <category-layer
-        ref="categoryLayer"
-        category="nw-flatwoods"
-        @changed="onCategoryChanged"
-      />
+      <category-layer ref="categoryLayer" @changed="onCategoryChanged" />
 
       <!-- Map markers -->
       <location-layer
@@ -67,7 +64,7 @@
       <span>{{ $t('opacity') }}</span>
     </v-tooltip>
     <marker-info ref="markerInfo" />
-    <explain ref="explainPopup" />
+    <explain ref="explainPopup" @select-change="onMarkerSelectChanged" />
   </div>
 </template>
 
@@ -106,6 +103,7 @@ export default {
       center: config.center,
       rotation: 0,
       opacity: 1,
+      renderer: 'canvas', // renderer: 'opengl'
       // detect map move
       isMoving: false,
       // Tooltip
@@ -183,15 +181,15 @@ export default {
     onMapMounted() {
       // now ol.Map instance is ready and we can work with it directly
       this.$refs.map.$map.getControls().extend([
+        new MousePosition({
+          coordinateFormat: createStringXY(0),
+        }),
         new FullScreen(),
         new OverviewMap({
           collapsed: true,
           collapsible: true,
         }),
         new ZoomSlider(),
-        new MousePosition({
-          coordinateFormat: createStringXY(0),
-        }),
       ]);
 
       // console.log(this.config.extent, this.$refs.map.$map.getSize());
@@ -248,6 +246,9 @@ export default {
     onCategoryChanged(tileMarkerMode) {
       // 画像マーカーモードのときはベースマップの透過度を半分にする
       this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
+    },
+    onMarkerSelectChanged(selected) {
+      this.$refs.categoryLayer.setMarkerVisibility(selected);
     },
   },
 };

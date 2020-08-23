@@ -11,10 +11,15 @@
         :tile-pixe-ratio="config.tilePixelRatio"
       />
     </vl-layer-tile>
-    <vl-layer-vector v-else>
+    <vl-layer-vector
+      v-for="(items, index) in markers"
+      :key="index"
+      :ref="index"
+      :visible="true"
+    >
       <!-- location based marker mode -->
       <vl-feature
-        v-for="marker in markers"
+        v-for="marker in items"
         :key="marker.id"
         :properties="marker"
         :label="marker.annotation || ''"
@@ -66,7 +71,7 @@ export default {
       // Current Category
       category: null,
       // Loaded markers
-      markers: [],
+      markers: {},
       // Explain definition
       explains: {},
       // Map Configure
@@ -90,7 +95,7 @@ export default {
         // 画像マーカーモード
 
         // マーカーをクリア
-        this.markers = [];
+        this.markers = {};
 
         // const source = this.$refs.categoryLayer.getSource();
         const source = this.$refs.categoryLayerSource;
@@ -113,12 +118,37 @@ export default {
         }
       } else {
         // カテゴリマーカー
-        this.markers = data.reductionRate
+        const markers = data.reductionRate
           ? convertCoordinates(data.markers, config.center, data.reductionRate)
           : convertCoordinates(data.markers, config.center);
+
+        // 定義されているマーカーの種類
+        const types = Array.from(new Set(markers.map((item) => item.type)));
+        if (types.length > this.set.markerColor.length) {
+          throw new Error(
+            `Too many marker types. less than ${this.set.markerColor.length}`
+          );
+        }
+
+        for (const type of types) {
+          this.markers[type] = markers.filter((item) => item.type === type);
+        }
+        // console.log(this.markers);
       }
       this.$emit('changed', tileMarkerMode);
       this.$root.$data.loading = false;
+    },
+    // 凡例で選択された配列のレイヤーのみ表示する
+    setMarkerVisibility(markers) {
+      for (const layer in this.$refs) {
+        if (
+          {}.hasOwnProperty.call(this.$refs, layer) &&
+          layer.match(/Marker$/)
+        ) {
+          // TODO: エラーになる
+          // this.$refs[layer][0].visible = markers.includes(layer);
+        }
+      }
     },
     /**
      * Get marker color from explains definiton.

@@ -1,6 +1,6 @@
 // Fallout76 coordinates to pixel coordinates pixel rate.
-const COORDINATES_REDUCTION_RATE = 141; // WTF?
-const COORDINATES_OFFSET = [0, -0];
+const COORDINATES_REDUCTION_RATE = 142; // WTF?
+const COORDINATES_OFFSET = [10, -13];
 /**
  * Convert Fallout76 native coordinates to map size based pixel coordinates.
  *

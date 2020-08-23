@@ -53,7 +53,7 @@
 import colorset from '@/assets/colorset.json';
 
 export default {
-  emits: ['marker-changed'],
+  emits: ['select-change'],
   data() {
     return {
       // 凡例
@@ -94,8 +94,8 @@ export default {
     },
     // マーカー表示／非表示
     toggleMarker() {
-      console.log(this.checked);
-      this.$emit('marker-changed', this.checked);
+      // console.log(this.checked);
+      this.$emit('select-change', this.checked);
     },
   },
 };
