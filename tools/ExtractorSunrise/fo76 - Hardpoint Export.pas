@@ -2,22 +2,23 @@
   Extractor Sunrise (part of Pip-BoyA)
   By Logue
   Based on YASSM
-  
+
   Exports Hard Point data to JSON
 }
 
 Unit userscript;
 
-Var 
+Var
   sl: TStringList;
 
 Procedure GetEncounters;
 
-Var 
+Var
   wrlds, wrld, wrldgrup, block, subblock, cell, e: IInterface;
   i,x,counter,blockidx,subblockidx,cellidx: integer;
   row: string;
 Begin
+
 
 
 //Let's try to filter to the specific worldspace so we don't have to search through more stuff...
@@ -65,7 +66,7 @@ End;
 
 Function Process(e: IInterface): integer;
 
-Var 
+Var
   edid,row: string;
   id: integer;
 Begin
@@ -373,7 +374,7 @@ End;
 
 Function Finalize: integer;
 
-Var 
+Var
   fname, Last: string;
   rowcount: integer;
 Begin

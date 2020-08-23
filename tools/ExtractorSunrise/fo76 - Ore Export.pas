@@ -21,6 +21,7 @@ Begin
 
 
 
+
 //Let's try to filter to the specific worldspace so we don't have to search through more stuff...
   If wbGameMode = gmFNV Then
     wrld := RecordByFormID(FileByIndex(0), $000DA726, False)
@@ -226,6 +227,7 @@ Begin
       If (pos('LPI_VeinUltracite_LowYield_SMALLFISSURESONLY',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
+
 
                '","name":"Ultracite","annotation":"LowYield_SMALLFISSURESONLY",'
           ;
