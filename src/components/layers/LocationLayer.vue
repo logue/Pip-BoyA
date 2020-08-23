@@ -10,6 +10,16 @@
           :scale="scale"
           cross-origin="anonymous"
         />
+        <vl-style-text
+          v-if="marker.annotation"
+          font="'Noto Sans JP'"
+          :offset-x="2"
+          :offset-y="2"
+          :text="marker.annotation.toString()"
+        >
+          <vl-style-stroke :width="2" color="#ECEFF1" />
+          <vl-style-fill color="#263238" />
+        </vl-style-text>
       </vl-style-box>
     </vl-feature>
     <vl-interaction-select hover @select="onSelect" />

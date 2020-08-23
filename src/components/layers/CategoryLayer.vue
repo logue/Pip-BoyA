@@ -1,40 +1,51 @@
 <template>
-  <vl-layer-tile v-if="category" ref="categoryLayer" :opacity="1" :z-index="2">
-    <!-- tile based marker mode -->
-    <vl-source-xyz
-      v-if="markers.length === 0"
-      ref="categoryLayerSource"
-      :url="`/img/markerTile/${category}/{z}/{x}/{y}.png`"
-      :projection="config.projection"
-      :min-zoom="config.minZoom"
-      :max-zoom="config.maxZoom"
-      :tile-pixe-ratio="config.tilePixelRatio"
-    />
-    <!-- location based marker mode -->
-    <vl-feature
-      v-for="marker in markers"
-      v-else
-      :key="marker.id"
-      :properties="marker"
-      :label="marker.annotation || ''"
-    >
-      <vl-geom-point :coordinates="[marker.x, marker.y]" />
-      <vl-style-box>
-        <!-- vl-style-text v-if="marker.annotation" :text="marker.annotation">
-          <vl-style-stroke :width="3" color="rgba(250,0,0,0.8)" />
-          <vl-style-fill :color="getMarkerColor(marker.type).base" />
-        </vl-style-text -->
-        <vl-style-circle>
-          <vl-style-stroke :color="getMarkerColor(marker.type).base" />
-          <vl-style-fill
-            :color="`rgba(${hexToRgb(
-              getMarkerColor(marker.type).lighten4
-            )},0.5)`"
-          />
-        </vl-style-circle>
-      </vl-style-box>
-    </vl-feature>
-  </vl-layer-tile>
+  <vl-layer-group v-if="category" :opacity="1" :z-index="2">
+    <vl-layer-tile v-if="markers.length === 0">
+      <!-- tile based marker mode -->
+      <vl-source-xyz
+        ref="categoryLayerSource"
+        :url="`/img/markerTile/${category}/{z}/{x}/{y}.png`"
+        :projection="config.projection"
+        :min-zoom="config.minZoom"
+        :max-zoom="config.maxZoom"
+        :tile-pixe-ratio="config.tilePixelRatio"
+      />
+    </vl-layer-tile>
+    <vl-layer-vector v-else>
+      <!-- location based marker mode -->
+      <vl-feature
+        v-for="marker in markers"
+        :key="marker.id"
+        :properties="marker"
+        :label="marker.annotation || ''"
+      >
+        <vl-geom-point :coordinates="[marker.x, marker.y]" />
+        <vl-style-box>
+          <vl-style-text
+            v-if="marker.annotation && marker.annotation.toString().length <= 2"
+            font="'Noto Sans JP'"
+            :text="marker.annotation.toString()"
+          >
+            <vl-style-stroke
+              :width="2"
+              :color="`rgba(${hexToRgb(
+                getMarkerColor(marker.type).lighten5
+              )},0.5)`"
+            />
+            <vl-style-fill :color="getMarkerColor(marker.type).base" />
+          </vl-style-text>
+          <vl-style-circle>
+            <vl-style-stroke :color="getMarkerColor(marker.type).accent3" />
+            <vl-style-fill
+              :color="`rgba(${hexToRgb(
+                getMarkerColor(marker.type).accent1
+              )},0.3)`"
+            />
+          </vl-style-circle>
+        </vl-style-box>
+      </vl-feature>
+    </vl-layer-vector>
+  </vl-layer-group>
 </template>
 
 <script>

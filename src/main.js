@@ -10,24 +10,17 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import i18n from './plugins/i18n';
-import VueAnalytics from 'vue-analytics';
 
+import i18n from './plugins/i18n';
 import vuetify from './plugins/vuetify';
 import './plugins/vuelayers';
 import './plugins/axios';
 import './plugins/clipboard';
 import './plugins/electron';
 import './plugins/cookie';
+import './plugins/analytics';
 
 Vue.config.productionTip = false;
-
-if (process.env.GOOGLE_ANALYTICS_CODE) {
-  Vue.use(VueAnalytics, {
-    id: process.env.GOOGLE_ANALYTICS_CODE,
-    router,
-  });
-}
 
 new Vue({
   data() {
