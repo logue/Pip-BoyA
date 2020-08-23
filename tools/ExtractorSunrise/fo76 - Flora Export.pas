@@ -20,6 +20,7 @@ Var
 
 Begin
 
+
 //Let's try to filter to the specific worldspace so we don't have to search through more stuff...
   If wbGameMode = gmFNV Then
     wrld := RecordByFormID(FileByIndex(0), $000DA726, False)
@@ -75,7 +76,7 @@ Begin
       If (pos('LPI_FloraAshRose01',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Ash Rose","annotation": 1,';
+                 '","name":"Ash Rose","label": 1,';
           Row := Row +  '"type":"AshRoseMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -90,7 +91,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Ash Rose","annotation": 2,';
+                 '","name":"Ash Rose","label": 2,';
           Row := Row +  '"type":"AshRoseMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -119,7 +120,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Blackberry","annotation":1,';
+                 '","name":"Blackberry","label":1,';
           Row := Row +  '"type":"BlackberryMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -134,7 +135,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Blackberry","annotation":2,';
+                 '","name":"Blackberry","label":2,';
           Row := Row +  '"type":"BlackberryMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -149,7 +150,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Bleach Dogwood Bark","annotation":1,';
+                 '","name":"Bleach Dogwood Bark","label":1,';
           Row := Row +  '"type":"BleachDogwoodBarkMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -164,7 +165,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Bleach Dogwood Bark","annotation":2,';
+                 '","name":"Bleach Dogwood Bark","label":2,';
           Row := Row +  '"type":"BleachDogwoodBarkMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -179,7 +180,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Bleach Dogwood Bark","annotation":3,';
+                 '","name":"Bleach Dogwood Bark","label":3,';
           Row := Row +  '"type":"BleachDogwoodBarkMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -208,7 +209,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Blood Leaf","annotation":1,';
+                 '","name":"Blood Leaf","label":1,';
           Row := Row +  '"type":"BloodLeafMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -223,7 +224,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Blood Leaf","annotation":2,';
+                 '","name":"Blood Leaf","label":2,';
           Row := Row +  '"type":"BloodLeafMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -238,7 +239,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Cranberry","annotation":1,'
+                 '","name":"Cranberry","label":1,'
           ;
           Row := Row +  '"type":"CranberryMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
@@ -254,7 +255,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Cranberry","annotation":2,'
+                 '","name":"Cranberry","label":2,'
           ;
           Row := Row +  '"type":"CranberryMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
@@ -285,7 +286,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Diseased Cranberry","annotation":1,';
+                 '","name":"Diseased Cranberry","label":1,';
           Row := Row +  '"type":"CranberryDiseasedMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -300,7 +301,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Diseased Cranberry","annotation":2,';
+                 '","name":"Diseased Cranberry","label":2,';
           Row := Row +  '"type":"CranberryDiseasedMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -315,7 +316,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Diseased Cranberry","annotation":3,';
+                 '","name":"Diseased Cranberry","label":3,';
           Row := Row +  '"type":"CranberryDiseasedMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -330,7 +331,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Fern",';
-          Row := Row +  '"type":"FernMarker","annotation":1,';
+          Row := Row +  '"type":"FernMarker","label":1,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -344,7 +345,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","annotation":"1-1",';
+                 '","name":"Fern (Charred)","label":"1-1",';
           Row := Row +  '"type":"FernCharredMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -359,7 +360,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","annotation":"1-2",';
+                 '","name":"Fern (Charred)","label":"1-2",';
           Row := Row +  '"type":"FernCharredMarker"';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -374,7 +375,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","annotation":"1-3",';
+                 '","name":"Fern (Charred)","label":"1-3",';
           Row := Row +  '"type":"FernCharredMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -389,7 +390,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","annotation":"1-4",';
+                 '","name":"Fern (Charred)","label":"1-4",';
           Row := Row +  '"type":"FernCharredMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -404,7 +405,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Fern",';
-          Row := Row +  '"type":"FernMarker","annotation":2,';
+          Row := Row +  '"type":"FernMarker","label":2,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -418,7 +419,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","annotation":"2-1",';
+                 '","name":"Fern (Charred)","label":"2-1",';
           Row := Row +  '"type":"FernCharredMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -433,7 +434,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","annotation":"2-2",';
+                 '","name":"Fern (Charred)","label":"2-2",';
           Row := Row +  '"type":"FernCharredMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -448,7 +449,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","annotation":"2-3",';
+                 '","name":"Fern (Charred)","label":"2-3",';
           Row := Row +  '"type":"FernCharredMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -463,7 +464,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","annotation":"2-4",';
+                 '","name":"Fern (Charred)","label":"2-4",';
           Row := Row +  '"type":"FernCharredMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -478,7 +479,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fever Blossom","annotation":1,';
+                 '","name":"Fever Blossom","label":1,';
           Row := Row +  '"type":"FeverMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -493,7 +494,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fever Blossom","annotation":2,';
+                 '","name":"Fever Blossom","label":2,';
           Row := Row +  '"type":"FeverMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -522,7 +523,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Firecracker","annotation":1,';
+                 '","name":"Firecracker","label":1,';
           Row := Row +  '"type":"FirecrackerMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -537,7 +538,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Firecracker","annotation":2,';
+                 '","name":"Firecracker","label":2,';
           Row := Row +  '"type":"FirecrackerMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -552,7 +553,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fungus Brain","annotation":1,';
+                 '","name":"Fungus Brain","label":1,';
           Row := Row +  '"type":"FungusBrainMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -567,7 +568,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fungus Brain","annotation":2,';
+                 '","name":"Fungus Brain","label":2,';
           Row := Row +  '"type":"FungusBrainMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -582,7 +583,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fungus Brain","annotation":3,';
+                 '","name":"Fungus Brain","label":3,';
           Row := Row +  '"type":"FungusBrainMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -597,7 +598,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fungus Glowing","annotation":1,';
+                 '","name":"Fungus Glowing","label":1,';
           Row := Row +  '"type":"FungusGlowingMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -612,7 +613,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fungus Glowing","annotation":2,';
+                 '","name":"Fungus Glowing","label":2,';
           Row := Row +  '"type":"FungusGlowingMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -627,7 +628,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fungus Glowing","annotation":3,';
+                 '","name":"Fungus Glowing","label":3,';
           Row := Row +  '"type":"FungusGlowingMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -642,7 +643,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fungus Glowing","annotation":4,';
+                 '","name":"Fungus Glowing","label":4,';
           Row := Row +  '"type":"FungusGlowingMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -657,7 +658,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fungus Glowing","annotation":5,';
+                 '","name":"Fungus Glowing","label":5,';
           Row := Row +  '"type":"FungusGlowingMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -730,7 +731,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Mothman Eggs","annotation":1,';
+                 '","name":"Mothman Eggs","label":1,';
           Row := Row +  '"type":"MothmanEggsMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -745,7 +746,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Mothman Eggs","annotation":2,';
+                 '","name":"Mothman Eggs","label":2,';
           Row := Row +  '"type":"MothmanEggsMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -760,7 +761,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Mothman Eggs","annotation":3,';
+                 '","name":"Mothman Eggs","label":3,';
           Row := Row +  '"type":"MothmanEggsMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -819,7 +820,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Sap","annotation":1,';
+                 '","name":"Sap","label":1,';
           Row := Row +  '"type":"SapMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -834,7 +835,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Sap","annotation":2,';
+                 '","name":"Sap","label":2,';
           Row := Row +  '"type":"SapMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -849,7 +850,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Silt Bean","annotation":1,'
+                 '","name":"Silt Bean","label":1,'
           ;
           Row := Row +  '"type":"SiltBeanMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
@@ -865,7 +866,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Silt Bean","annotation":2,'
+                 '","name":"Silt Bean","label":2,'
           ;
           Row := Row +  '"type":"SiltBeanMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
@@ -881,7 +882,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Snap Tail","annotation":1,'
+                 '","name":"Snap Tail","label":1,'
           ;
           Row := Row +  '"type":"SnapTailMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
@@ -897,7 +898,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Snap Tail","annotation":2,'
+                 '","name":"Snap Tail","label":2,'
           ;
           Row := Row +  '"type":"SnapTailMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
@@ -913,7 +914,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Soot Flower","annotation":1,';
+                 '","name":"Soot Flower","label":1,';
           Row := Row +  '"type":"SootFlowerMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -928,7 +929,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Soot Flower","annotation":2,';
+                 '","name":"Soot Flower","label":2,';
           Row := Row +  '"type":"SootFlowerMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -957,7 +958,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Tato Plant","annotation":1,';
+                 '","name":"Tato Plant","label":1,';
           Row := Row +  '"type":"TatoPlantMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -972,7 +973,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Tato Plant","annotation":2,';
+                 '","name":"Tato Plant","label":2,';
           Row := Row +  '"type":"TatoPlantMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -987,7 +988,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Toxic Soot Flower","annotation":1,';
+                 '","name":"Toxic Soot Flower","label":1,';
           Row := Row +  '"type":"ToxicSootFlowerPlantMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -1002,7 +1003,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Toxic Soot Flower","annotation":2,';
+                 '","name":"Toxic Soot Flower","label":2,';
           Row := Row +  '"type":"ToxicSootFlowerPlantMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -1107,7 +1108,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Wild Tarberry Float","annotation":1,';
+                 '","name":"Wild Tarberry Float","label":1,';
           Row := Row +  '"type":"WildTarberryMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -1122,7 +1123,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Wild Tarberry Float","annotation":2,';
+                 '","name":"Wild Tarberry Float","label":2,';
           Row := Row +  '"type":"WildTarberryMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+

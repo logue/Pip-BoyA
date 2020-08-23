@@ -24,7 +24,7 @@
       "type": "WoodDepositMarker",
       "x": 144588.0313,
       "y": -96997.50781,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 370255,
@@ -37,14 +37,14 @@
       "type": "WoodDepositMarker",
       "x": 155028.5469,
       "y": 73919.4375,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 433609,
       "type": "WoodDepositMarker",
       "x": 151838.8438,
       "y": 74105.125,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 433613,
@@ -75,7 +75,7 @@
       "type": "WoodDepositMarker",
       "x": -52553.63281,
       "y": 87757.24219,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 518444,
@@ -106,7 +106,7 @@
       "type": "WoodDepositMarker",
       "x": -59216.48047,
       "y": -23479.26563,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 518495,
@@ -143,7 +143,7 @@
       "type": "WoodDepositMarker",
       "x": -89840.38281,
       "y": 50437.02734,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00519314",
@@ -204,7 +204,7 @@
       "type": "WoodDepositMarker",
       "x": 138234.2969,
       "y": -169139.9219,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 521657,
@@ -217,7 +217,7 @@
       "type": "WoodDepositMarker",
       "x": 154073.3125,
       "y": -172645.7031,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 521676,
@@ -236,21 +236,21 @@
       "type": "WoodDepositMarker",
       "x": 187025.125,
       "y": -103665.9766,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 521704,
       "type": "WoodDepositMarker",
       "x": 169794.9531,
       "y": -80832.89844,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 521722,
       "type": "WoodDepositMarker",
       "x": 160952.875,
       "y": -63532.42578,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 521743,
@@ -275,7 +275,7 @@
       "type": "WoodDepositMarker",
       "x": -54531.53125,
       "y": -161192.375,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 522425,
@@ -390,7 +390,7 @@
       "type": "WoodDepositMarker",
       "x": -165975.0781,
       "y": -3269.550782,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 529403,
@@ -403,7 +403,7 @@
       "type": "WoodDepositMarker",
       "x": -172798.5469,
       "y": -17549.98242,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 529409,
@@ -470,7 +470,7 @@
       "type": "WoodDepositMarker",
       "x": 187495.6094,
       "y": -25041.01563,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 529711,
@@ -519,7 +519,7 @@
       "type": "WoodDepositMarker",
       "x": -166130.7656,
       "y": 135542.1094,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": 52200000000,
@@ -538,7 +538,7 @@
       "type": "WoodDepositMarker",
       "x": 147458.8594,
       "y": -172566,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "005225E9",
@@ -671,7 +671,7 @@
       "type": "WoodDepositMarker",
       "x": 2755.996094,
       "y": 4282.578613,
-      "annotation": 1
+      "label": 1
     },
     {
       "id": "002B9685",
@@ -690,7 +690,7 @@
       "type": "WoodDepositMarker",
       "x": 3703.789063,
       "y": 4464.533203,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "002BA1D7",
@@ -721,7 +721,7 @@
       "type": "WoodDepositMarker",
       "x": 1627.848633,
       "y": 4041.010987,
-      "annotation": 1
+      "label": 1
     },
     {
       "id": "0032E51F",
@@ -770,14 +770,14 @@
       "type": "WoodDepositMarker",
       "x": -107296.4453,
       "y": 69911.16406,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0039F05F",
       "type": "WoodDepositMarker",
       "x": -110035.5938,
       "y": 68593.14844,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "003AC369",
@@ -898,7 +898,7 @@
       "type": "WoodDepositMarker",
       "x": -169290.125,
       "y": 182235.0156,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "003D1D90",
@@ -911,14 +911,14 @@
       "type": "WoodDepositMarker",
       "x": -5471.734375,
       "y": -5825.228027,
-      "annotation": 1
+      "label": 1
     },
     {
       "id": "003D4332",
       "type": "WoodDepositMarker",
       "x": -4486.116211,
       "y": -5828.770019,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "003DC9B8",
@@ -985,7 +985,7 @@
       "type": "WoodDepositMarker",
       "x": 156251.9375,
       "y": 78195.28906,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0043362C",
@@ -1358,7 +1358,7 @@
       "type": "WoodDepositMarker",
       "x": -160448.1406,
       "y": 50155.58203,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "005192D2",
@@ -1407,14 +1407,14 @@
       "type": "WoodDepositMarker",
       "x": -55947.21094,
       "y": 126103.5547,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051939B",
       "type": "WoodDepositMarker",
       "x": -71974.80469,
       "y": 121333.1094,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "005193A3",
@@ -1781,7 +1781,7 @@
       "type": "WoodDepositMarker",
       "x": -166552.8125,
       "y": 85360.46875,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051A0FC",
@@ -1806,7 +1806,7 @@
       "type": "WoodDepositMarker",
       "x": -124614.5078,
       "y": 60095.44531,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051A11E",
@@ -1825,7 +1825,7 @@
       "type": "WoodDepositMarker",
       "x": -140264.1563,
       "y": 71812.5625,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051A131",
@@ -1844,7 +1844,7 @@
       "type": "WoodDepositMarker",
       "x": -134591.1875,
       "y": 98113.21094,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051A135",
@@ -1857,7 +1857,7 @@
       "type": "WoodDepositMarker",
       "x": -127718.875,
       "y": 121713.1563,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051A141",
@@ -1978,7 +1978,7 @@
       "type": "WoodDepositMarker",
       "x": -7753.847656,
       "y": 142193.3594,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051A260",
@@ -1997,14 +1997,14 @@
       "type": "WoodDepositMarker",
       "x": -64603.03125,
       "y": 152579.8906,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051A298",
       "type": "WoodDepositMarker",
       "x": 15997.00879,
       "y": 145731.9219,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051A2C4",
@@ -2059,7 +2059,7 @@
       "type": "WoodDepositMarker",
       "x": 198217.1563,
       "y": 147766.25,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051B5FA",
@@ -2078,7 +2078,7 @@
       "type": "WoodDepositMarker",
       "x": 169513.3125,
       "y": 121611.0391,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051C2D6",
@@ -2199,28 +2199,28 @@
       "type": "WoodDepositMarker",
       "x": -106833.2109,
       "y": 183170.5156,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051C373",
       "type": "WoodDepositMarker",
       "x": -97438.51563,
       "y": 186628.0781,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051C375",
       "type": "WoodDepositMarker",
       "x": -139738.2969,
       "y": 170375.6875,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051C376",
       "type": "WoodDepositMarker",
       "x": -154438.6719,
       "y": 153728.7188,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0051DD66",
@@ -2335,7 +2335,7 @@
       "type": "WoodDepositMarker",
       "x": 196577.8906,
       "y": 64890.23828,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00520ED8",
@@ -2366,7 +2366,7 @@
       "type": "WoodDepositMarker",
       "x": 140880.375,
       "y": 71093.97656,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00520F21",
@@ -2397,7 +2397,7 @@
       "type": "WoodDepositMarker",
       "x": 169224.0469,
       "y": 24217.41406,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00520F59",
@@ -2452,7 +2452,7 @@
       "type": "WoodDepositMarker",
       "x": 173811.5313,
       "y": -23651.83398,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00520FBA",
@@ -2483,7 +2483,7 @@
       "type": "WoodDepositMarker",
       "x": 191576,
       "y": -169120,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0052169E",
@@ -2496,7 +2496,7 @@
       "type": "WoodDepositMarker",
       "x": 195034.5,
       "y": -142264,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "005216D4",
@@ -2557,7 +2557,7 @@
       "type": "WoodDepositMarker",
       "x": 114107.5938,
       "y": -107636.1094,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00521D9B",
@@ -2786,14 +2786,14 @@
       "type": "WoodDepositMarker",
       "x": 50334.42188,
       "y": -111385.8359,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00523F1C",
       "type": "WoodDepositMarker",
       "x": 92844.41406,
       "y": -142418.5781,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00523F1F",
@@ -2974,7 +2974,7 @@
       "type": "WoodDepositMarker",
       "x": 47894.25391,
       "y": 73369.53906,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00526F23",
@@ -2999,7 +2999,7 @@
       "type": "WoodDepositMarker",
       "x": 190237.875,
       "y": 94592.28125,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00526F58",
@@ -3258,7 +3258,7 @@
       "type": "WoodDepositMarker",
       "x": -34460.38672,
       "y": -133688.1719,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00529ECF",
@@ -3277,7 +3277,7 @@
       "type": "WoodDepositMarker",
       "x": -23828.63867,
       "y": -125595.9922,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00529EEB",
@@ -3290,7 +3290,7 @@
       "type": "WoodDepositMarker",
       "x": -27817.82617,
       "y": -79336.42188,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00529EF4",
@@ -3345,14 +3345,14 @@
       "type": "WoodDepositMarker",
       "x": 31123.49023,
       "y": -6285.148437,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00529FFD",
       "type": "WoodDepositMarker",
       "x": 56289.75781,
       "y": -21990.19531,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "00529FFE",
@@ -3371,7 +3371,7 @@
       "type": "WoodDepositMarker",
       "x": 47865.04688,
       "y": -678.365051,
-      "annotation": 2
+      "label": 2
     },
     {
       "id": "0052A004",

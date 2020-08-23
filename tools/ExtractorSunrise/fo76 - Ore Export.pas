@@ -19,9 +19,6 @@ Var
   row: string;
 Begin
 
-
-
-
 //Let's try to filter to the specific worldspace so we don't have to search through more stuff...
   If wbGameMode = gmFNV Then
     wrld := RecordByFormID(FileByIndex(0), $000DA726, False)
@@ -52,7 +49,6 @@ Begin
         End;
     End;
 End;
-
 
 // Called before processing
 // You can remove it if script doesn't require initialization code
@@ -188,7 +184,7 @@ Begin
       If (pos('LPI_VeinTitaniumMTR',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"TitaniumMTR","annotation":"MTR",';
+                 '","name":"TitaniumMTR","label":"MTR",';
           Row := Row +  '"type":"TitaniumMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -201,7 +197,7 @@ Begin
       If (pos('LPI_VeinUltracite_FISSURESONLY',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Ultracite","annotation":"FISSURESONLY",';
+                 '","name":"Ultracite","label":"FISSURESONLY",';
           Row := Row +  '"type":"UltraciteMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -214,7 +210,7 @@ Begin
       If (pos('LPI_VeinUltracite_LowYield_FISSURESONLY',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Ultracite","annotation":"LowYield_FISSURESONLY",';
+                 '","name":"Ultracite","label":"LowYield_FISSURESONLY",';
           Row := Row +  '"type":"UltraciteMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -227,9 +223,7 @@ Begin
       If (pos('LPI_VeinUltracite_LowYield_SMALLFISSURESONLY',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-
-
-               '","name":"Ultracite","annotation":"LowYield_SMALLFISSURESONLY",'
+                 '","name":"Ultracite","label":"LowYield_SMALLFISSURESONLY",'
           ;
           Row := Row +  '"type":"UltraciteMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(

@@ -24,7 +24,7 @@
       "type": "TitaniumMarker",
       "x": -155269.625,
       "y": -135251.0313,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0005FA92",
@@ -37,7 +37,7 @@
       "type": "TitaniumMarker",
       "x": -148261.6094,
       "y": -133780.2188,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00081550",
@@ -2438,14 +2438,14 @@
       "type": "UltraciteMarker",
       "x": 173801.8594,
       "y": -158684.7031,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "0012472E",
       "type": "UltraciteMarker",
       "x": 172591.0313,
       "y": -160394.2813,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00125444",
@@ -2464,14 +2464,14 @@
       "type": "TitaniumMarker",
       "x": -147152.3594,
       "y": -131847.1406,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0012AFB1",
       "type": "UltraciteMarker",
       "x": 173324.125,
       "y": -161346.5938,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "0013BDA9",
@@ -2706,7 +2706,7 @@
       "type": "TitaniumMarker",
       "x": -97994.78125,
       "y": -147846.7969,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "002B9D4D",
@@ -2719,7 +2719,7 @@
       "type": "TitaniumMarker",
       "x": -97955.03906,
       "y": -147926.8906,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "002F5A72",
@@ -3092,21 +3092,21 @@
       "type": "UltraciteMarker",
       "x": 172553.75,
       "y": -158673.0781,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00309CBD",
       "type": "UltraciteMarker",
       "x": 172924.375,
       "y": -157150.0313,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00309CBE",
       "type": "UltraciteMarker",
       "x": 173785.9531,
       "y": -157319.2031,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "0030E620",
@@ -4169,7 +4169,7 @@
       "type": "TitaniumMarker",
       "x": -149254.6406,
       "y": -156908.5469,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00370924",
@@ -4230,7 +4230,7 @@
       "type": "TitaniumMarker",
       "x": -131076.8906,
       "y": -153868.4844,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003715A2",
@@ -4327,7 +4327,7 @@
       "type": "TitaniumMarker",
       "x": -124471.0781,
       "y": -143633.375,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0037160D",
@@ -4340,7 +4340,7 @@
       "type": "TitaniumMarker",
       "x": -124583.6328,
       "y": -143346.6094,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00371618",
@@ -5817,7 +5817,7 @@
       "type": "TitaniumMarker",
       "x": -134530.9844,
       "y": -142205.5938,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0037FA76",
@@ -5830,7 +5830,7 @@
       "type": "TitaniumMarker",
       "x": -134440.5938,
       "y": -142162.5313,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0037FA77",
@@ -5843,7 +5843,7 @@
       "type": "TitaniumMarker",
       "x": -134413.9531,
       "y": -142105.1406,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0037FA78",
@@ -5856,7 +5856,7 @@
       "type": "TitaniumMarker",
       "x": -134509.625,
       "y": -142196.9531,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0037FA79",
@@ -5869,7 +5869,7 @@
       "type": "TitaniumMarker",
       "x": -134464.1875,
       "y": -142138.125,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003807ED",
@@ -7100,588 +7100,588 @@
       "type": "UltraciteMarker",
       "x": 174404.0469,
       "y": -159899.3906,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D6E",
       "type": "UltraciteMarker",
       "x": 171758.3438,
       "y": -159623.125,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D6F",
       "type": "UltraciteMarker",
       "x": 172808.6719,
       "y": -157400.4219,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D70",
       "type": "UltraciteMarker",
       "x": 172346.0781,
       "y": -157264.7813,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D71",
       "type": "UltraciteMarker",
       "x": 174215.6406,
       "y": -155833.2813,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D72",
       "type": "UltraciteMarker",
       "x": 174636.0938,
       "y": -157528.1406,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D73",
       "type": "UltraciteMarker",
       "x": 174594.875,
       "y": -157448.5313,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D74",
       "type": "UltraciteMarker",
       "x": 173699.6563,
       "y": -158699.9219,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D75",
       "type": "UltraciteMarker",
       "x": 172362.3125,
       "y": -159030.7031,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D76",
       "type": "UltraciteMarker",
       "x": 173176.4063,
       "y": -162785.1875,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D77",
       "type": "UltraciteMarker",
       "x": 172559.8125,
       "y": -160218.8125,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D78",
       "type": "UltraciteMarker",
       "x": 174778.4688,
       "y": -158931.6406,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D9E",
       "type": "UltraciteMarker",
       "x": 156427.5313,
       "y": 183610.6406,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386D9F",
       "type": "UltraciteMarker",
       "x": 155410.6094,
       "y": 182494.0625,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DA0",
       "type": "UltraciteMarker",
       "x": 154072.2188,
       "y": 180584.3906,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DA1",
       "type": "UltraciteMarker",
       "x": 154910.7656,
       "y": 181005.4063,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DA2",
       "type": "UltraciteMarker",
       "x": 152344.8594,
       "y": 181262.75,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DA3",
       "type": "UltraciteMarker",
       "x": 152408.25,
       "y": 182605.2344,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DA4",
       "type": "UltraciteMarker",
       "x": 153128.6563,
       "y": 183791.1719,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DA5",
       "type": "UltraciteMarker",
       "x": 153458.0625,
       "y": 183411.2188,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DA6",
       "type": "UltraciteMarker",
       "x": 157106.1563,
       "y": 181135.25,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DDB",
       "type": "UltraciteMarker",
       "x": 154002.8438,
       "y": -67525.66406,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DDC",
       "type": "UltraciteMarker",
       "x": 154707.1719,
       "y": -66715.59375,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DDD",
       "type": "UltraciteMarker",
       "x": 154971.9531,
       "y": -65583.5,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DDE",
       "type": "UltraciteMarker",
       "x": 151000.2188,
       "y": -64829.51563,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DDF",
       "type": "UltraciteMarker",
       "x": 151150.5156,
       "y": -65315.01953,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DE0",
       "type": "UltraciteMarker",
       "x": 150426.6094,
       "y": -67137.63281,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386DE1",
       "type": "UltraciteMarker",
       "x": 153059.6563,
       "y": -67922.33594,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E11",
       "type": "UltraciteMarker",
       "x": 59975.14063,
       "y": -149216.25,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E12",
       "type": "UltraciteMarker",
       "x": 57829.66016,
       "y": -149628.5,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E13",
       "type": "UltraciteMarker",
       "x": 56787.94141,
       "y": -148395.9688,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E14",
       "type": "UltraciteMarker",
       "x": 56029.88672,
       "y": -149189.0781,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E15",
       "type": "UltraciteMarker",
       "x": 57082.00781,
       "y": -150727.0625,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E16",
       "type": "UltraciteMarker",
       "x": 56575.67578,
       "y": -151450.2656,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E17",
       "type": "UltraciteMarker",
       "x": 58200.73438,
       "y": -151631,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E18",
       "type": "UltraciteMarker",
       "x": 61396.99609,
       "y": -153494.4219,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E46",
       "type": "UltraciteMarker",
       "x": -121256.5,
       "y": -164402.9219,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E47",
       "type": "UltraciteMarker",
       "x": -122462.5078,
       "y": -162249.7031,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E48",
       "type": "UltraciteMarker",
       "x": -121455.6563,
       "y": -162115.1719,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E49",
       "type": "UltraciteMarker",
       "x": -121951.4141,
       "y": -160942.8906,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E4A",
       "type": "UltraciteMarker",
       "x": -122437.5156,
       "y": -161161.25,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E4B",
       "type": "UltraciteMarker",
       "x": -119277.2422,
       "y": -160218.2969,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E4C",
       "type": "UltraciteMarker",
       "x": -119860.6953,
       "y": -164301.9688,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E6E",
       "type": "UltraciteMarker",
       "x": 111040.8203,
       "y": 123261.8281,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E6F",
       "type": "UltraciteMarker",
       "x": 111305.9766,
       "y": 124258.0156,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E70",
       "type": "UltraciteMarker",
       "x": 114117.5703,
       "y": 126000.8438,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E71",
       "type": "UltraciteMarker",
       "x": 114528.9766,
       "y": 125200.7422,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E72",
       "type": "UltraciteMarker",
       "x": 115397.6484,
       "y": 123584.1016,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E73",
       "type": "UltraciteMarker",
       "x": 115391.0078,
       "y": 123224.3828,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E74",
       "type": "UltraciteMarker",
       "x": 113015.5313,
       "y": 121800.3281,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386E75",
       "type": "UltraciteMarker",
       "x": 112703.2188,
       "y": 123308.7891,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386EB3",
       "type": "UltraciteMarker",
       "x": 195762.9688,
       "y": -166244.3125,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00386EB4",
       "type": "UltraciteMarker",
       "x": 194906.625,
       "y": -166184.5781,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00386EB5",
       "type": "UltraciteMarker",
       "x": 195119.9219,
       "y": -164756.2344,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00386EB6",
       "type": "UltraciteMarker",
       "x": 195960.9219,
       "y": -164837.5625,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00386EB7",
       "type": "UltraciteMarker",
       "x": 196002.7656,
       "y": -164311.0156,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00386EB8",
       "type": "UltraciteMarker",
       "x": 197616.8281,
       "y": -165486.5,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00386EB9",
       "type": "UltraciteMarker",
       "x": 198034.2188,
       "y": -165215.4531,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00386EBA",
       "type": "UltraciteMarker",
       "x": 198995.4844,
       "y": -166593.8281,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "00386EBB",
       "type": "UltraciteMarker",
       "x": 197907.3125,
       "y": -163985.5781,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386EBC",
       "type": "UltraciteMarker",
       "x": 198849.2031,
       "y": -164706.2188,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386EBD",
       "type": "UltraciteMarker",
       "x": 198786.4063,
       "y": -168365.2656,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386EBE",
       "type": "UltraciteMarker",
       "x": 197653.1406,
       "y": -169079.0469,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386EBF",
       "type": "UltraciteMarker",
       "x": 195967.875,
       "y": -168368.5156,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386EC0",
       "type": "UltraciteMarker",
       "x": 196303.7188,
       "y": -168728.4531,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386EC1",
       "type": "UltraciteMarker",
       "x": 194323.3438,
       "y": -167618.875,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386EC2",
       "type": "UltraciteMarker",
       "x": 193824.5156,
       "y": -166265.3125,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F0E",
       "type": "UltraciteMarker",
       "x": -38625.03516,
       "y": -69127.75,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F0F",
       "type": "UltraciteMarker",
       "x": -37717.10547,
       "y": -68326.25781,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F10",
       "type": "UltraciteMarker",
       "x": -37103.44141,
       "y": -69388.63281,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F11",
       "type": "UltraciteMarker",
       "x": -37519.61328,
       "y": -70723.64063,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F12",
       "type": "UltraciteMarker",
       "x": -40105.60547,
       "y": -73292.1875,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F13",
       "type": "UltraciteMarker",
       "x": -39384.15234,
       "y": -72621.07813,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F14",
       "type": "UltraciteMarker",
       "x": -40206.67969,
       "y": -71082.55469,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F15",
       "type": "UltraciteMarker",
       "x": -39317.34375,
       "y": -70938.83594,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F16",
       "type": "UltraciteMarker",
       "x": -38997.41406,
       "y": -69760.625,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F3C",
       "type": "UltraciteMarker",
       "x": 128257.7188,
       "y": 72611.05469,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F3D",
       "type": "UltraciteMarker",
       "x": 129804.3047,
       "y": 72505.42188,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F3E",
       "type": "UltraciteMarker",
       "x": 131560.3438,
       "y": 75048.46875,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F3F",
       "type": "UltraciteMarker",
       "x": 130418.4219,
       "y": 75737.44531,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F40",
       "type": "UltraciteMarker",
       "x": 131471.5938,
       "y": 76800.73438,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F41",
       "type": "UltraciteMarker",
       "x": 130012.875,
       "y": 78035.40625,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F42",
       "type": "UltraciteMarker",
       "x": 132247.4375,
       "y": 78697.78906,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00386F43",
       "type": "UltraciteMarker",
       "x": 130684.6953,
       "y": 78854.3125,
-      "annotation": "LowYield_FISSURESONLY"
+      "label": "LowYield_FISSURESONLY"
     },
     {
       "id": "00389C77",
@@ -7844,7 +7844,7 @@
       "type": "TitaniumMarker",
       "x": -152811.3594,
       "y": -174086.875,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0038CC4E",
@@ -7857,7 +7857,7 @@
       "type": "TitaniumMarker",
       "x": -158625.875,
       "y": -168749.9375,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0038CC4F",
@@ -7870,7 +7870,7 @@
       "type": "TitaniumMarker",
       "x": -158226.7656,
       "y": -169083.9844,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0038CC98",
@@ -8051,7 +8051,7 @@
       "type": "TitaniumMarker",
       "x": -153433.4844,
       "y": -170797.3906,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0038FBBB",
@@ -8064,7 +8064,7 @@
       "type": "TitaniumMarker",
       "x": -153607.7656,
       "y": -170746.2031,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0038FBCB",
@@ -8209,7 +8209,7 @@
       "type": "TitaniumMarker",
       "x": -144369.8281,
       "y": -169090.5469,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "0039191D",
@@ -8690,7 +8690,7 @@
       "type": "TitaniumMarker",
       "x": -136722.5781,
       "y": -162661.3906,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003936E0",
@@ -8811,7 +8811,7 @@
       "type": "TitaniumMarker",
       "x": -129790.25,
       "y": -164971.75,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003977A1",
@@ -8896,7 +8896,7 @@
       "type": "TitaniumMarker",
       "x": -131708.2969,
       "y": -168199.875,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003978CB",
@@ -9143,7 +9143,7 @@
       "type": "TitaniumMarker",
       "x": -119554.5547,
       "y": -167674.7031,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00398B2D",
@@ -9198,84 +9198,84 @@
       "type": "UltraciteMarker",
       "x": 154533.1094,
       "y": 182451.7813,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A071B",
       "type": "UltraciteMarker",
       "x": 154131.6875,
       "y": 182060.5469,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A071C",
       "type": "UltraciteMarker",
       "x": 153000.6406,
       "y": 182127.6406,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A071D",
       "type": "UltraciteMarker",
       "x": 153314.2813,
       "y": 182548.5313,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A071E",
       "type": "UltraciteMarker",
       "x": 153353.4531,
       "y": 182958.0938,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A071F",
       "type": "UltraciteMarker",
       "x": 152774.9375,
       "y": 182623.4844,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A0720",
       "type": "UltraciteMarker",
       "x": 152215.0625,
       "y": 181800.3125,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A0721",
       "type": "UltraciteMarker",
       "x": 153862.8906,
       "y": 183044.1875,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A0722",
       "type": "UltraciteMarker",
       "x": 155573.6875,
       "y": 182112.1094,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A0723",
       "type": "UltraciteMarker",
       "x": 154901.3125,
       "y": 181474.5156,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A0724",
       "type": "UltraciteMarker",
       "x": 154775.9688,
       "y": 181535.3906,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A0725",
       "type": "UltraciteMarker",
       "x": 152157.1719,
       "y": 183442.2969,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A1AA8",
@@ -9288,889 +9288,889 @@
       "type": "UltraciteMarker",
       "x": -433.921692,
       "y": 908.634339,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C1",
       "type": "UltraciteMarker",
       "x": 4.281006,
       "y": 707.694763,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C2",
       "type": "UltraciteMarker",
       "x": 357.100555,
       "y": -62.261326,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C3",
       "type": "UltraciteMarker",
       "x": 5.216309,
       "y": -244.292938,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C4",
       "type": "UltraciteMarker",
       "x": -366.352783,
       "y": -420.963226,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C5",
       "type": "UltraciteMarker",
       "x": 159.973648,
       "y": -774.53009,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C6",
       "type": "UltraciteMarker",
       "x": 15.930664,
       "y": -732.163757,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C7",
       "type": "UltraciteMarker",
       "x": -105.558838,
       "y": 59.747429,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C8",
       "type": "UltraciteMarker",
       "x": 112.015869,
       "y": 1669.020752,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57C9",
       "type": "UltraciteMarker",
       "x": 124.133789,
       "y": 1530.204346,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57CA",
       "type": "UltraciteMarker",
       "x": -110.699143,
       "y": -1612.74646,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57CC",
       "type": "UltraciteMarker",
       "x": 36157.22656,
       "y": 195231.5313,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57CD",
       "type": "UltraciteMarker",
       "x": 35292.625,
       "y": 194833.125,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57CE",
       "type": "UltraciteMarker",
       "x": 34976.91797,
       "y": 195096.9688,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57CF",
       "type": "UltraciteMarker",
       "x": 34824.66016,
       "y": 194447.0781,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57D0",
       "type": "UltraciteMarker",
       "x": 34853.78906,
       "y": 194619.6563,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57D1",
       "type": "UltraciteMarker",
       "x": 35522.60547,
       "y": 195060.75,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57D2",
       "type": "UltraciteMarker",
       "x": 37182.91797,
       "y": 195856.3594,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57D3",
       "type": "UltraciteMarker",
       "x": 37075.71484,
       "y": 195535.0938,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57D4",
       "type": "UltraciteMarker",
       "x": 36815.05078,
       "y": 195345.7969,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57F4",
       "type": "UltraciteMarker",
       "x": 153747.25,
       "y": -66819.08594,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57F5",
       "type": "UltraciteMarker",
       "x": 153143.375,
       "y": -66623.46094,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57F6",
       "type": "UltraciteMarker",
       "x": 152961.8906,
       "y": -66826,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57F7",
       "type": "UltraciteMarker",
       "x": 152051.4063,
       "y": -66160.41406,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57F8",
       "type": "UltraciteMarker",
       "x": 151998.3281,
       "y": -67188.71875,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57F9",
       "type": "UltraciteMarker",
       "x": 151110.8281,
       "y": -65863.89063,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57FA",
       "type": "UltraciteMarker",
       "x": 151373.8906,
       "y": -66740.24219,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57FB",
       "type": "UltraciteMarker",
       "x": 151844.625,
       "y": -65590.73438,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57FC",
       "type": "UltraciteMarker",
       "x": 150343.9219,
       "y": -66589.25,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A57FD",
       "type": "UltraciteMarker",
       "x": 154472.6406,
       "y": -66407.51563,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A580D",
       "type": "UltraciteMarker",
       "x": 60374.97266,
       "y": -151861.2813,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A580E",
       "type": "UltraciteMarker",
       "x": 57006.73047,
       "y": -150461.6563,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A580F",
       "type": "UltraciteMarker",
       "x": 57585.54297,
       "y": -150118.0938,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5810",
       "type": "UltraciteMarker",
       "x": 58576.26563,
       "y": -152096.9688,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5811",
       "type": "UltraciteMarker",
       "x": 60039.96484,
       "y": -150458.4844,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5812",
       "type": "UltraciteMarker",
       "x": 59763.26563,
       "y": -151227.4844,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5813",
       "type": "UltraciteMarker",
       "x": 59203.37109,
       "y": -151525.0469,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5814",
       "type": "UltraciteMarker",
       "x": 59222.67188,
       "y": -151114.0781,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5815",
       "type": "UltraciteMarker",
       "x": 59155.37891,
       "y": -150245.9219,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5816",
       "type": "UltraciteMarker",
       "x": 58382.62891,
       "y": -150666.2031,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5817",
       "type": "UltraciteMarker",
       "x": 57998.85938,
       "y": -150957.9688,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5840",
       "type": "UltraciteMarker",
       "x": -98483.5625,
       "y": 179221.0156,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5841",
       "type": "UltraciteMarker",
       "x": -99463.49219,
       "y": 176225.5,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5842",
       "type": "UltraciteMarker",
       "x": -98990.86719,
       "y": 176329.6563,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5843",
       "type": "UltraciteMarker",
       "x": -98888.67969,
       "y": 177598.3125,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5844",
       "type": "UltraciteMarker",
       "x": -98817.19531,
       "y": 178396.2813,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5845",
       "type": "UltraciteMarker",
       "x": -98946.9375,
       "y": 178471.8906,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5846",
       "type": "UltraciteMarker",
       "x": -98520.44531,
       "y": 178002.6875,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5847",
       "type": "UltraciteMarker",
       "x": -98923.49219,
       "y": 177920.0313,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5848",
       "type": "UltraciteMarker",
       "x": -99308.71094,
       "y": 177827.4375,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5849",
       "type": "UltraciteMarker",
       "x": -99150.33594,
       "y": 176995.4688,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A584A",
       "type": "UltraciteMarker",
       "x": -98772.92969,
       "y": 176695.5156,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5870",
       "type": "UltraciteMarker",
       "x": -37346.35156,
       "y": -70129.59375,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5871",
       "type": "UltraciteMarker",
       "x": -37681.31641,
       "y": -69647.77344,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5872",
       "type": "UltraciteMarker",
       "x": -38793.42188,
       "y": -70831.14063,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5873",
       "type": "UltraciteMarker",
       "x": -39154.66406,
       "y": -71546.25781,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5874",
       "type": "UltraciteMarker",
       "x": -39062.04688,
       "y": -71664.42969,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5875",
       "type": "UltraciteMarker",
       "x": -39284.98438,
       "y": -71070.85938,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5876",
       "type": "UltraciteMarker",
       "x": -37883.25391,
       "y": -71040.50781,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5877",
       "type": "UltraciteMarker",
       "x": -38487.75781,
       "y": -71199.26563,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5878",
       "type": "UltraciteMarker",
       "x": -39500.27734,
       "y": -70154.53906,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5879",
       "type": "UltraciteMarker",
       "x": -38567.46484,
       "y": -69949.46875,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A589F",
       "type": "UltraciteMarker",
       "x": -122211.4141,
       "y": -163112,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A0",
       "type": "UltraciteMarker",
       "x": -119424.9844,
       "y": -161639.2188,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A1",
       "type": "UltraciteMarker",
       "x": -119313.875,
       "y": -161555.125,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A2",
       "type": "UltraciteMarker",
       "x": -121342.9375,
       "y": -161341.375,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A3",
       "type": "UltraciteMarker",
       "x": -121398.3594,
       "y": -162750.875,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A4",
       "type": "UltraciteMarker",
       "x": -121205.3203,
       "y": -163324.9688,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A5",
       "type": "UltraciteMarker",
       "x": -120053.4688,
       "y": -162973.4219,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A6",
       "type": "UltraciteMarker",
       "x": -120990.9219,
       "y": -162482.3281,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A7",
       "type": "UltraciteMarker",
       "x": -120649.6172,
       "y": -162683.4844,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A8",
       "type": "UltraciteMarker",
       "x": -120185.2578,
       "y": -161975.2031,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58A9",
       "type": "UltraciteMarker",
       "x": -120248.1563,
       "y": -161497.2344,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D1",
       "type": "UltraciteMarker",
       "x": 130137.6563,
       "y": 77169.625,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D2",
       "type": "UltraciteMarker",
       "x": 128735.4922,
       "y": 74242.59375,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D3",
       "type": "UltraciteMarker",
       "x": 129042.75,
       "y": 74067.88281,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D4",
       "type": "UltraciteMarker",
       "x": 129684.0547,
       "y": 75559.8125,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D5",
       "type": "UltraciteMarker",
       "x": 129779.4453,
       "y": 76355.29688,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D6",
       "type": "UltraciteMarker",
       "x": 129652.0391,
       "y": 76434.73438,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D7",
       "type": "UltraciteMarker",
       "x": 130064.2422,
       "y": 75952.94531,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D8",
       "type": "UltraciteMarker",
       "x": 128854.625,
       "y": 75733.47656,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58D9",
       "type": "UltraciteMarker",
       "x": 129271.0781,
       "y": 75801.46094,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58DA",
       "type": "UltraciteMarker",
       "x": 130007.7813,
       "y": 74224.39063,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A58DB",
       "type": "UltraciteMarker",
       "x": 129772.6641,
       "y": 74653.95313,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5900",
       "type": "UltraciteMarker",
       "x": 113670.8047,
       "y": 123528.7188,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5901",
       "type": "UltraciteMarker",
       "x": 111956.8359,
       "y": 126571.0391,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5902",
       "type": "UltraciteMarker",
       "x": 111521.1016,
       "y": 126018.3828,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5903",
       "type": "UltraciteMarker",
       "x": 112498.2109,
       "y": 124721.3125,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5904",
       "type": "UltraciteMarker",
       "x": 113141.5234,
       "y": 124243.7813,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5905",
       "type": "UltraciteMarker",
       "x": 113273.7188,
       "y": 124314.9688,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5906",
       "type": "UltraciteMarker",
       "x": 112650.8906,
       "y": 124196.1641,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5907",
       "type": "UltraciteMarker",
       "x": 112369.125,
       "y": 123900.5391,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5908",
       "type": "UltraciteMarker",
       "x": 112965.7813,
       "y": 125744.6563,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5909",
       "type": "UltraciteMarker",
       "x": 111409.5156,
       "y": 124667.0391,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A590A",
       "type": "UltraciteMarker",
       "x": 111667.7578,
       "y": 125093.8594,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5933",
       "type": "UltraciteMarker",
       "x": -10123.90625,
       "y": -12307.29883,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5935",
       "type": "UltraciteMarker",
       "x": -7863.196289,
       "y": -9917.993164,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5936",
       "type": "UltraciteMarker",
       "x": -9055.350586,
       "y": -11020.65625,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5937",
       "type": "UltraciteMarker",
       "x": -9465.725586,
       "y": -11708.75098,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5938",
       "type": "UltraciteMarker",
       "x": -9381.599609,
       "y": -11833.11426,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5939",
       "type": "UltraciteMarker",
       "x": -9562.47461,
       "y": -11225.40234,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A593A",
       "type": "UltraciteMarker",
       "x": -9163.444336,
       "y": -11325.66016,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A593B",
       "type": "UltraciteMarker",
       "x": -8776.185547,
       "y": -11409.25195,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A593C",
       "type": "UltraciteMarker",
       "x": -8558.198242,
       "y": -10590.8418,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A593D",
       "type": "UltraciteMarker",
       "x": -8768.259766,
       "y": -10156.93652,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5961",
       "type": "UltraciteMarker",
       "x": 17951.95508,
       "y": 32828.00391,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5962",
       "type": "UltraciteMarker",
       "x": 20017.23828,
       "y": 35208.73438,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5963",
       "type": "UltraciteMarker",
       "x": 20090.42188,
       "y": 35327.31641,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5964",
       "type": "UltraciteMarker",
       "x": 18954.86914,
       "y": 34166.44531,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5965",
       "type": "UltraciteMarker",
       "x": 18579.39453,
       "y": 33458.70313,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5966",
       "type": "UltraciteMarker",
       "x": 18669.63672,
       "y": 33338.69531,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5967",
       "type": "UltraciteMarker",
       "x": 18458.60938,
       "y": 33936.60938,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5968",
       "type": "UltraciteMarker",
       "x": 18862.1543,
       "y": 33856.42188,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A5969",
       "type": "UltraciteMarker",
       "x": 19253.10352,
       "y": 33792.28906,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A596A",
       "type": "UltraciteMarker",
       "x": 19429.91797,
       "y": 34620.57031,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A596B",
       "type": "UltraciteMarker",
       "x": 19198.42969,
       "y": 35043.43359,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7451",
       "type": "UltraciteMarker",
       "x": 173309.6094,
       "y": -157501.7969,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7452",
       "type": "UltraciteMarker",
       "x": 173074.7656,
       "y": -160644.75,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7453",
       "type": "UltraciteMarker",
       "x": 173086.8906,
       "y": -160783.5625,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7454",
       "type": "UltraciteMarker",
       "x": 173304.4531,
       "y": -159174.2969,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7455",
       "type": "UltraciteMarker",
       "x": 173182.9688,
       "y": -158382.3594,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7456",
       "type": "UltraciteMarker",
       "x": 173038.9219,
       "y": -158340.0156,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7457",
       "type": "UltraciteMarker",
       "x": 173565.2656,
       "y": -158693.5781,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7458",
       "type": "UltraciteMarker",
       "x": 173193.6875,
       "y": -158870.2188,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A7459",
       "type": "UltraciteMarker",
       "x": 171887.7188,
       "y": -159253.2188,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A745A",
       "type": "UltraciteMarker",
       "x": 173194.625,
       "y": -159822.25,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A745B",
       "type": "UltraciteMarker",
       "x": 173632.8281,
       "y": -160023.1875,
-      "annotation": "FISSURESONLY"
+      "label": "FISSURESONLY"
     },
     {
       "id": "003A80E5",
@@ -10225,7 +10225,7 @@
       "type": "TitaniumMarker",
       "x": -131302.4219,
       "y": -135444.6094,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003ACB95",
@@ -11096,7 +11096,7 @@
       "type": "TitaniumMarker",
       "x": -157990.75,
       "y": -134377.7188,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003C23EB",
@@ -11133,7 +11133,7 @@
       "type": "TitaniumMarker",
       "x": -148881.5313,
       "y": -134946.0313,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003C2449",
@@ -11164,7 +11164,7 @@
       "type": "TitaniumMarker",
       "x": -146949.375,
       "y": -129832.3672,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003C2452",
@@ -11177,7 +11177,7 @@
       "type": "TitaniumMarker",
       "x": -147001.6563,
       "y": -129769.0859,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003C2453",
@@ -11190,7 +11190,7 @@
       "type": "TitaniumMarker",
       "x": -147140.75,
       "y": -129796.3516,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003C2454",
@@ -11203,7 +11203,7 @@
       "type": "TitaniumMarker",
       "x": -147091.0938,
       "y": -129770.6641,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003C2455",
@@ -11216,7 +11216,7 @@
       "type": "TitaniumMarker",
       "x": -147059.3438,
       "y": -129814.7422,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003C2463",
@@ -11241,7 +11241,7 @@
       "type": "TitaniumMarker",
       "x": -149861.3594,
       "y": -124823.5938,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003C2466",
@@ -14470,7 +14470,7 @@
       "type": "TitaniumMarker",
       "x": -174670.0938,
       "y": -134782.7813,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003D81E2",
@@ -14771,7 +14771,7 @@
       "type": "TitaniumMarker",
       "x": -2672.25,
       "y": 6963.234375,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003E08F6",
@@ -14910,7 +14910,7 @@
       "type": "TitaniumMarker",
       "x": -1362.5,
       "y": 9004.4375,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "003E0EF2",
@@ -15601,7 +15601,7 @@
       "type": "TitaniumMarker",
       "x": -131213.7656,
       "y": -68669.07031,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004375A7",
@@ -15614,7 +15614,7 @@
       "type": "TitaniumMarker",
       "x": -131316.75,
       "y": -68649.77344,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004375A8",
@@ -15627,7 +15627,7 @@
       "type": "TitaniumMarker",
       "x": -131328.7656,
       "y": -68705.36719,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00437F87",
@@ -15658,336 +15658,336 @@
       "type": "UltraciteMarker",
       "x": 165922.4531,
       "y": -106723.8672,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004380AC",
       "type": "UltraciteMarker",
       "x": 164439.6406,
       "y": -104534.1563,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004380AD",
       "type": "UltraciteMarker",
       "x": 165754.4219,
       "y": -104817.0547,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004380AE",
       "type": "UltraciteMarker",
       "x": 166529.2188,
       "y": -104406.3906,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004380AF",
       "type": "UltraciteMarker",
       "x": 166579.2344,
       "y": -104537.75,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004380B0",
       "type": "UltraciteMarker",
       "x": 166589.9688,
       "y": -105814.8516,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004380B1",
       "type": "UltraciteMarker",
       "x": 164508.5313,
       "y": -106382.9922,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004380B2",
       "type": "UltraciteMarker",
       "x": 165371.0313,
       "y": -106207.3359,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391A3",
       "type": "UltraciteMarker",
       "x": 134623.2656,
       "y": -156836.1719,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391A5",
       "type": "UltraciteMarker",
       "x": 134253.2969,
       "y": -156618.6563,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391A7",
       "type": "UltraciteMarker",
       "x": 133062.9063,
       "y": -155423.5313,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391A9",
       "type": "UltraciteMarker",
       "x": 132316.7188,
       "y": -155909.7188,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391AA",
       "type": "UltraciteMarker",
       "x": 197243.3906,
       "y": -148358.0625,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391AB",
       "type": "UltraciteMarker",
       "x": 197556,
       "y": -148595.5,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391AD",
       "type": "UltraciteMarker",
       "x": 197137.0625,
       "y": -150117.2031,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391AE",
       "type": "UltraciteMarker",
       "x": 133549.5156,
       "y": -157875.5313,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391AF",
       "type": "UltraciteMarker",
       "x": 197670.4375,
       "y": -149502.2344,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391B0",
       "type": "UltraciteMarker",
       "x": 134145.7188,
       "y": -155818.7031,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391B1",
       "type": "UltraciteMarker",
       "x": 199224.9375,
       "y": -150295.2656,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391B3",
       "type": "UltraciteMarker",
       "x": 199696.75,
       "y": -149400.2969,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391B4",
       "type": "UltraciteMarker",
       "x": 198938.5313,
       "y": -149156.0781,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391BC",
       "type": "UltraciteMarker",
       "x": 172485.4844,
       "y": -174946.1563,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391BE",
       "type": "UltraciteMarker",
       "x": 171294.75,
       "y": -173879.0469,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391BF",
       "type": "UltraciteMarker",
       "x": 168152.8125,
       "y": -60960.56641,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391C0",
       "type": "UltraciteMarker",
       "x": 171044.5156,
       "y": -173696.6563,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391C1",
       "type": "UltraciteMarker",
       "x": 170448.125,
       "y": -61874.41016,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391C2",
       "type": "UltraciteMarker",
       "x": 169903.6406,
       "y": -61502.06641,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391C3",
       "type": "UltraciteMarker",
       "x": 168814.1563,
       "y": -62354.52734,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391C4",
       "type": "UltraciteMarker",
       "x": 169008.8594,
       "y": -61975.16797,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391C5",
       "type": "UltraciteMarker",
       "x": 168591.25,
       "y": -61250.03125,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391C6",
       "type": "UltraciteMarker",
       "x": 170186.4219,
       "y": -173179.4375,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391C8",
       "type": "UltraciteMarker",
       "x": 170166.8125,
       "y": -174481.4375,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391CA",
       "type": "UltraciteMarker",
       "x": 171776.0156,
       "y": -172434.2344,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391D5",
       "type": "UltraciteMarker",
       "x": 133908.0469,
       "y": -179453.1094,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391D6",
       "type": "UltraciteMarker",
       "x": 132412.1406,
       "y": -180159.625,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391D7",
       "type": "UltraciteMarker",
       "x": 131900.7969,
       "y": -179631.0781,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391D8",
       "type": "UltraciteMarker",
       "x": 132113.1094,
       "y": -179454.9219,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391D9",
       "type": "UltraciteMarker",
       "x": 132089.8906,
       "y": -178848.0938,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391DA",
       "type": "UltraciteMarker",
       "x": 132732.8125,
       "y": -179241.0781,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391DB",
       "type": "UltraciteMarker",
       "x": 133355.6094,
       "y": -179480.0781,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391E0",
       "type": "UltraciteMarker",
       "x": 151004.125,
       "y": -179061.2656,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391E1",
       "type": "UltraciteMarker",
       "x": 151202.8438,
       "y": -181213.0469,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391E2",
       "type": "UltraciteMarker",
       "x": 151819.2188,
       "y": -180622.8594,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391E3",
       "type": "UltraciteMarker",
       "x": 153346.5469,
       "y": -180323.8281,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391E4",
       "type": "UltraciteMarker",
       "x": 152756.5625,
       "y": -179555.7188,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391E5",
       "type": "UltraciteMarker",
       "x": 153391.4844,
       "y": -178090.1875,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391E6",
       "type": "UltraciteMarker",
       "x": 152236.9219,
       "y": -178287.3594,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004391E7",
       "type": "UltraciteMarker",
       "x": 152359.4688,
       "y": -178871.3438,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043965F",
@@ -16018,224 +16018,224 @@
       "type": "UltraciteMarker",
       "x": 130782.1094,
       "y": -91655.30469,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439923",
       "type": "UltraciteMarker",
       "x": 128249,
       "y": -91139.53906,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439924",
       "type": "UltraciteMarker",
       "x": 128466.9922,
       "y": -91313.82031,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439925",
       "type": "UltraciteMarker",
       "x": 128667.6719,
       "y": -92343.78906,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439926",
       "type": "UltraciteMarker",
       "x": 129526.7344,
       "y": -92784.46875,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439927",
       "type": "UltraciteMarker",
       "x": 129906.2031,
       "y": -91161.32813,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043993E",
       "type": "UltraciteMarker",
       "x": 193273.5781,
       "y": -85910.17188,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043993F",
       "type": "UltraciteMarker",
       "x": 194131.75,
       "y": -84203.9375,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439940",
       "type": "UltraciteMarker",
       "x": 194304.4531,
       "y": -84797.08594,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439941",
       "type": "UltraciteMarker",
       "x": 195194.6563,
       "y": -84968.00781,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439942",
       "type": "UltraciteMarker",
       "x": 194588.7656,
       "y": -85434.85938,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439943",
       "type": "UltraciteMarker",
       "x": 194546.5625,
       "y": -85325.39844,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043994F",
       "type": "UltraciteMarker",
       "x": 183288.4844,
       "y": -125678.125,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439950",
       "type": "UltraciteMarker",
       "x": 181449.0625,
       "y": -124502.2344,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439951",
       "type": "UltraciteMarker",
       "x": 181459.125,
       "y": -124639,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439952",
       "type": "UltraciteMarker",
       "x": 181113.25,
       "y": -125750.3281,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439953",
       "type": "UltraciteMarker",
       "x": 181999.9844,
       "y": -126291.3203,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439954",
       "type": "UltraciteMarker",
       "x": 181736.1406,
       "y": -126803.2813,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043995B",
       "type": "UltraciteMarker",
       "x": 179076.0313,
       "y": -72234.70313,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043995C",
       "type": "UltraciteMarker",
       "x": 178948.1094,
       "y": -72649.07031,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043995D",
       "type": "UltraciteMarker",
       "x": 179659.8438,
       "y": -73819.65625,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043995E",
       "type": "UltraciteMarker",
       "x": 178379.625,
       "y": -75223.875,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "0043995F",
       "type": "UltraciteMarker",
       "x": 177959.8438,
       "y": -74610.67188,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439960",
       "type": "UltraciteMarker",
       "x": 177029.1563,
       "y": -73458.13281,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439961",
       "type": "UltraciteMarker",
       "x": 177437.0469,
       "y": -74269.28906,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439970",
       "type": "UltraciteMarker",
       "x": 157191.625,
       "y": -81512.35156,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439971",
       "type": "UltraciteMarker",
       "x": 156938.25,
       "y": -81876.58594,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439972",
       "type": "UltraciteMarker",
       "x": 159088.9219,
       "y": -84238.78125,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439973",
       "type": "UltraciteMarker",
       "x": 156988.375,
       "y": -82525.07813,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439974",
       "type": "UltraciteMarker",
       "x": 157383.5156,
       "y": -82700.41406,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439975",
       "type": "UltraciteMarker",
       "x": 158129.7344,
       "y": -81851.875,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00439976",
       "type": "UltraciteMarker",
       "x": 159322.9219,
       "y": -83036.54688,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "00450D13",
@@ -16248,7 +16248,7 @@
       "type": "UltraciteMarker",
       "x": 133355.9688,
       "y": -158425.5938,
-      "annotation": "LowYield_SMALLFISSURESONLY"
+      "label": "LowYield_SMALLFISSURESONLY"
     },
     {
       "id": "004719D5",
@@ -16567,7 +16567,7 @@
       "type": "TitaniumMarker",
       "x": -158211.8438,
       "y": -161560.0938,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004E4A24",
@@ -16580,7 +16580,7 @@
       "type": "TitaniumMarker",
       "x": -158192.2813,
       "y": -161524.3281,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004E4A25",
@@ -16593,7 +16593,7 @@
       "type": "TitaniumMarker",
       "x": -158109.8594,
       "y": -161573.5,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004E4A26",
@@ -16606,7 +16606,7 @@
       "type": "TitaniumMarker",
       "x": -157785.2344,
       "y": -162172.2031,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004EA8D0",
@@ -16823,7 +16823,7 @@
       "type": "TitaniumMarker",
       "x": -132699.4531,
       "y": -134802.0156,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004EBC9B",
@@ -16836,7 +16836,7 @@
       "type": "TitaniumMarker",
       "x": -132770.8438,
       "y": -134646.7344,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004EBC9C",
@@ -16849,7 +16849,7 @@
       "type": "TitaniumMarker",
       "x": -133079.1094,
       "y": -134918.3281,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004EBCB3",
@@ -17000,7 +17000,7 @@
       "type": "TitaniumMarker",
       "x": -129535.1797,
       "y": -132589.5313,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004EBD15",
@@ -17013,7 +17013,7 @@
       "type": "TitaniumMarker",
       "x": -129604.4375,
       "y": -132617.625,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004EBD16",
@@ -17026,7 +17026,7 @@
       "type": "TitaniumMarker",
       "x": -129454.3281,
       "y": -132962.5938,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004EBD17",
@@ -17243,7 +17243,7 @@
       "type": "TitaniumMarker",
       "x": -150095.4688,
       "y": -134647.5469,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F6B",
@@ -17256,7 +17256,7 @@
       "type": "TitaniumMarker",
       "x": -149013.0469,
       "y": -133247.7344,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F6C",
@@ -17269,7 +17269,7 @@
       "type": "TitaniumMarker",
       "x": -149033.3125,
       "y": -133286.8125,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F6D",
@@ -17282,7 +17282,7 @@
       "type": "TitaniumMarker",
       "x": -151739.9219,
       "y": -132175.1406,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F6E",
@@ -17295,7 +17295,7 @@
       "type": "TitaniumMarker",
       "x": -150989.0469,
       "y": -131042.7344,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F6F",
@@ -17308,7 +17308,7 @@
       "type": "TitaniumMarker",
       "x": -151025.4688,
       "y": -131008.7813,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F70",
@@ -17321,7 +17321,7 @@
       "type": "TitaniumMarker",
       "x": -151246.5469,
       "y": -131167.0781,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F71",
@@ -17334,7 +17334,7 @@
       "type": "TitaniumMarker",
       "x": -151303.4688,
       "y": -130762.4844,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F75",
@@ -17347,7 +17347,7 @@
       "type": "TitaniumMarker",
       "x": -153460.625,
       "y": -131044.2813,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F76",
@@ -17360,7 +17360,7 @@
       "type": "TitaniumMarker",
       "x": -153576.1719,
       "y": -131050.7578,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F7E",
@@ -17397,7 +17397,7 @@
       "type": "TitaniumMarker",
       "x": -156681,
       "y": -132336.5156,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5F9B",
@@ -17524,7 +17524,7 @@
       "type": "TitaniumMarker",
       "x": -154292.3125,
       "y": -131608.5156,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5FBB",
@@ -17537,7 +17537,7 @@
       "type": "TitaniumMarker",
       "x": -154122.9844,
       "y": -131711.4688,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5FBC",
@@ -17550,7 +17550,7 @@
       "type": "TitaniumMarker",
       "x": -155593.1406,
       "y": -133550.5,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5FBD",
@@ -17569,7 +17569,7 @@
       "type": "TitaniumMarker",
       "x": -154068.6563,
       "y": -133061.9688,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5FC0",
@@ -17672,7 +17672,7 @@
       "type": "TitaniumMarker",
       "x": -158166.0938,
       "y": -130208.7734,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "004F5FE9",
@@ -27465,7 +27465,7 @@
       "type": "TitaniumMarker",
       "x": -131218.7656,
       "y": -135184.0156,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E0E",
@@ -27478,7 +27478,7 @@
       "type": "TitaniumMarker",
       "x": -131218.2969,
       "y": -135214.4219,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E0F",
@@ -27491,7 +27491,7 @@
       "type": "TitaniumMarker",
       "x": -131226.6094,
       "y": -135224.7656,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E10",
@@ -27504,7 +27504,7 @@
       "type": "TitaniumMarker",
       "x": -131227.5156,
       "y": -135319.875,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E11",
@@ -27517,7 +27517,7 @@
       "type": "TitaniumMarker",
       "x": -131218.0156,
       "y": -135352.0156,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E12",
@@ -27542,7 +27542,7 @@
       "type": "TitaniumMarker",
       "x": -131169.8125,
       "y": -134971.6094,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E15",
@@ -27555,7 +27555,7 @@
       "type": "TitaniumMarker",
       "x": -131308.625,
       "y": -135113.4844,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E16",
@@ -27568,7 +27568,7 @@
       "type": "TitaniumMarker",
       "x": -131427.8438,
       "y": -135590.1406,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E17",
@@ -27581,7 +27581,7 @@
       "type": "TitaniumMarker",
       "x": -115232.8359,
       "y": -155901.0938,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E18",
@@ -27600,7 +27600,7 @@
       "type": "TitaniumMarker",
       "x": -115019.5547,
       "y": -155666.5,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E1A",
@@ -27691,7 +27691,7 @@
       "type": "TitaniumMarker",
       "x": -157382.4688,
       "y": -100330.25,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E28",
@@ -27704,7 +27704,7 @@
       "type": "TitaniumMarker",
       "x": -157558.1563,
       "y": -100217.5625,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E29",
@@ -27717,7 +27717,7 @@
       "type": "TitaniumMarker",
       "x": -157453.4375,
       "y": -100493.7031,
-      "annotation": "MTR"
+      "label": "MTR"
     },
     {
       "id": "00518E2A",

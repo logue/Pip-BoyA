@@ -34,8 +34,8 @@ export function convertCoordinates(
         // Fallout76 Native Y location
         realY: cur.y,
       };
-      if (cur.annotation) {
-        acc[cur.id].annotation = cur.annotation;
+      if (cur.label) {
+        acc[cur.id].label = cur.label;
       }
       return acc;
     }, {})

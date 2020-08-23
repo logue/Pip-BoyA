@@ -19,8 +19,6 @@ Var
   row: string;
 Begin
 
-
-
 //Let's try to filter to the specific worldspace so we don't have to search through more stuff...
   If wbGameMode = gmFNV Then
     wrld := RecordByFormID(FileByIndex(0), $000DA726, False)
@@ -77,7 +75,7 @@ Begin
       If (pos('HardPointJunkPile01',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Junk Pile",';
-          Row := Row +  '"type":"JunkPileMarker","annotation":1,';
+          Row := Row +  '"type":"JunkPileMarker","label":1,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -89,7 +87,7 @@ Begin
       If (pos('HardPointJunkPile02',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Junk Pile",';
-          Row := Row +  '"type":"JunkPileMarker","annotation":2,';
+          Row := Row +  '"type":"JunkPileMarker","label":2,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -127,7 +125,7 @@ Begin
       If (pos('HardPointWoodPile01',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Wood Deposit","annotation":1,';
+                 '","name":"Wood Deposit","label":1,';
           Row := Row +  '"type":"CopperMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -140,7 +138,7 @@ Begin
       If (pos('HardPointWoodPile02',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Wood Deposit","annotation":2,';
+                 '","name":"Wood Deposit","label":2,';
           Row := Row +  '"type":"CopperMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -153,7 +151,7 @@ Begin
       If (pos('HardPointConcrete01',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Gravel Pit",';
-          Row := Row +  '"type":"ConcreteMarker","annotation":1,';
+          Row := Row +  '"type":"ConcreteMarker","label":1,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -165,7 +163,7 @@ Begin
       If (pos('HardPointConcrete02',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Gravel Pit",';
-          Row := Row +  '"type":"ConcreteMarker","annotation":2,';
+          Row := Row +  '"type":"ConcreteMarker","label":2,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -190,7 +188,7 @@ Begin
       If (pos('HardPointFertilizerPile01',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Phosphate Deposit,"annotation":1,';
+                 '","name":"Phosphate Deposit,"label":1,';
           Row := Row +  '"type":"PhosphateMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -203,7 +201,7 @@ Begin
       If (pos('HardPointFertilizerPile02',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Phosphate Deposit","annotation":2,';
+                 '","name":"Phosphate Deposit","label":2,';
           Row := Row +  '"type":"PhosphateMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -282,7 +280,7 @@ Begin
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Stone Skirt",'
           ;
-          Row := Row +  '"type":"StoneSkirtMarker","annotation":1,';
+          Row := Row +  '"type":"StoneSkirtMarker","label":1,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -295,7 +293,7 @@ Begin
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Stone Skirt",'
           ;
-          Row := Row +  '"type":"StoneSkirtMarker","annotation":2,';
+          Row := Row +  '"type":"StoneSkirtMarker","label":2,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -307,7 +305,7 @@ Begin
       If (pos('HardPointAcid01',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Acid",';
-          Row := Row +  '"type":"AcidMarker","annotation":1,';
+          Row := Row +  '"type":"AcidMarker","label":1,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -319,7 +317,7 @@ Begin
       If (pos('HardPointAcid02',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Acid",';
-          Row := Row +  '"type":"AcidMarker","annotation":2,';
+          Row := Row +  '"type":"AcidMarker","label":2,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -331,7 +329,7 @@ Begin
       If (pos('HardPointOil01',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Oil Seep",';
-          Row := Row +  '"type":"OilMarker","annotation":1,';
+          Row := Row +  '"type":"OilMarker","label":1,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -343,7 +341,7 @@ Begin
       If (pos('HardPointOil02',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Oil Seep",';
-          Row := Row +  '"type":"OilMarker","annotation":2,';
+          Row := Row +  '"type":"OilMarker","label":2,';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';

@@ -25,18 +25,13 @@
       :visible="true"
     >
       <!-- location based marker mode -->
-      <vl-feature
-        v-for="marker in items"
-        :key="marker.id"
-        :properties="marker"
-        :label="marker.annotation || ''"
-      >
+      <vl-feature v-for="marker in items" :key="marker.id" :properties="marker">
         <vl-geom-point :coordinates="[marker.x, marker.y]" />
         <vl-style-box>
           <vl-style-text
-            v-if="marker.annotation && marker.annotation.toString().length <= 2"
+            v-if="marker.label && marker.label.toString().length <= 2"
             font="'Noto Sans JP'"
-            :text="marker.annotation.toString()"
+            :text="marker.label.toString()"
           >
             <vl-style-stroke
               :width="2"
