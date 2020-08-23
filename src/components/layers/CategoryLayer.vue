@@ -37,13 +37,19 @@
                 getMarkerColor(marker.type).lighten5
               )},0.5)`"
             />
-            <vl-style-fill :color="getMarkerColor(marker.type).base" />
+            <vl-style-fill :color="getMarkerColor(marker.type).darken4" />
           </vl-style-text>
           <vl-style-circle>
-            <vl-style-stroke :color="getMarkerColor(marker.type).accent3" />
+            <vl-style-stroke
+              :color="
+                getMarkerColor(marker.type).accent3 ||
+                getMarkerColor(marker.type).darken3
+              "
+            />
             <vl-style-fill
               :color="`rgba(${hexToRgb(
-                getMarkerColor(marker.type).accent1
+                getMarkerColor(marker.type).accent1 ||
+                  getMarkerColor(marker.type).lighten5
               )},0.3)`"
             />
           </vl-style-circle>
@@ -172,11 +178,14 @@ export default {
       // console.log(type, index, this.set.markerColor[index]);
 
       // 色名をケバフケースに変換
+      // console.log(c);
       let colorName = null;
       try {
         colorName = toKebabCase(this.set.markerColor[index]);
       } catch (e) {
         console.error(
+          'type:',
+          type,
           'colorset:',
           this.set,
           ' index:',
@@ -195,7 +204,11 @@ export default {
      * @return {Array}
      */
     hexToRgb(s) {
-      return hexToRgb(s);
+      try {
+        return hexToRgb(s);
+      } catch (e) {
+        console.error(s, e);
+      }
     },
   },
 };

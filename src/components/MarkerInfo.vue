@@ -9,10 +9,16 @@
     >
       <v-card>
         <div class="d-flex">
-          <v-avatar size="128" tile :title="marker.type">
-            <v-img :src="`/img/marker/${marker.type}.svg`" width="128" />
+          <v-avatar
+            v-if="marker.name && marker.name.match(/^Loc/)"
+            size="128"
+            tile
+            class="m-3"
+            :title="marker.type"
+          >
+            <v-img :src="`/img/marker/${marker.type}.svg`" />
           </v-avatar>
-          <div>
+          <div class="flex-fill">
             <v-card-title v-if="marker.name">
               {{ $t(`locations.${marker.name}`) }}
               &nbsp;
