@@ -131,7 +131,21 @@ export default {
       // console.log(type, index, this.set.markerColor[index]);
 
       // 色名をケバフケースに変換
-      const colorName = toKebabCase(this.set.markerColor[index]);
+      let colorName = null;
+      try {
+        colorName = toKebabCase(this.set.markerColor[index]);
+      } catch (e) {
+        console.error(
+          'colorset:',
+          this.set,
+          ' index:',
+          index,
+          'result:',
+          this.set.markerColor[index]
+        );
+        throw new Error('could not get marker color.');
+      }
+
       return colors[colorName];
     },
     /**

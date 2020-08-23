@@ -34,7 +34,7 @@ new Vue({
     // Global variables
     return {
       // map mode
-      isMilitary: this.$cookies.get('military-map') || false,
+      isMilitary: Boolean(this.$cookies.get('military-map')),
       // map location
       location: {
         x: 2048,
@@ -42,7 +42,7 @@ new Vue({
         z: 1,
       },
       // display location
-      displayLocation: this.$cookies.get('display-location') || true,
+      displayLocation: Boolean(this.$cookies.get('display-location')),
       // loading overlay
       loading: true,
     };

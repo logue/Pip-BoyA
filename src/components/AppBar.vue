@@ -20,7 +20,12 @@
     </v-tooltip>
     <v-tooltip bottom>
       <template #activator="{on, attrs}">
-        <v-btn icon v-bind="attrs" v-on="on" @click="toggleLocation">
+        <v-btn
+          icon
+          v-bind="attrs"
+          v-on="on"
+          @click="toggleLocation($root.$data.displayLocation)"
+        >
           <v-icon v-if="$root.$data.displayLocation">mdi-map-marker</v-icon>
           <v-icon v-else>mdi-map-marker-off</v-icon>
         </v-btn>
@@ -29,7 +34,12 @@
     </v-tooltip>
     <v-tooltip bottom>
       <template #activator="{on, attrs}">
-        <v-btn icon v-bind="attrs" v-on="on" @click="toggleMapMode">
+        <v-btn
+          icon
+          v-bind="attrs"
+          v-on="on"
+          @click="toggleMapMode($root.$data.isMilitary)"
+        >
           <v-icon v-if="!$root.$data.isMilitary">mdi-map</v-icon>
           <v-icon v-else>mdi-map-outline</v-icon>
         </v-btn>
@@ -38,7 +48,12 @@
     </v-tooltip>
     <v-tooltip bottom>
       <template #activator="{on, attrs}">
-        <v-btn icon v-bind="attrs" v-on="on" @click="toggleThemeMode">
+        <v-btn
+          icon
+          v-bind="attrs"
+          v-on="on"
+          @click="toggleThemeMode($vuetify.theme.dark)"
+        >
           <v-icon>mdi-invert-colors</v-icon>
         </v-btn>
       </template>
@@ -81,17 +96,17 @@ export default {
     };
   },
   methods: {
-    toggleThemeMode() {
-      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-      this.$cookies.set('theme', this.$vuetify.theme.dark);
+    toggleThemeMode(value) {
+      this.$cookies.set('theme', !value);
+      this.$vuetify.theme.dark = !value;
     },
-    toggleMapMode() {
-      this.$root.$data.isMilitary = !this.$root.$data.isMilitary;
-      this.$cookies.set('military-map', this.$root.$data.isMilitary);
+    toggleMapMode(value) {
+      this.$cookies.set('military-map', !value);
+      this.$root.$data.isMilitary = !value;
     },
-    toggleLocation() {
-      this.$root.$data.displayLocation = !this.$root.$data.displayLocation;
-      this.$cookies.set('display-location', this.$root.$data.displayLocation);
+    toggleLocation(value) {
+      this.$cookies.set('display-location', !value);
+      this.$root.$data.displayLocation = !value;
     },
     changeLocale(locale) {
       this.$i18n.locale = locale;
