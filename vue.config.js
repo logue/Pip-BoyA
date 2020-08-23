@@ -35,6 +35,15 @@ module.exports = {
     },
     electronBuilder: {
       nodeIntegration: true,
+      builderOptions: {
+        mac: {
+          icon: 'build/icon.png',
+          target: 'zip',
+        },
+        win: {
+          icon: 'build/icon.png',
+        },
+      },
     },
   },
 };
