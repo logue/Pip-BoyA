@@ -8,7 +8,7 @@
       }`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
-      :renderer="renderer"
+      :renderer="webgl ? 'webgl' : 'canvas'"
       @mounted="onMapMounted"
       @pointermove="onMapPointerMove"
       @movestart="onMoveStart"
@@ -103,7 +103,7 @@ export default {
       center: config.center,
       rotation: 0,
       opacity: 1,
-      renderer: 'canvas', // 'webgl'
+      webgl: true,
       // detect map move
       isMoving: false,
       // Tooltip
@@ -225,10 +225,7 @@ export default {
         this.currentName =
           hitFeature.get('name') !== undefined
             ? this.$t(`locations.${hitFeature.get('name')}`)
-            : this.$t(this.explains[hitFeature.get('type')]) +
-              (hitFeature.get('annotation') !== undefined
-                ? ` (${hitFeature.get('annotation')})`
-                : '');
+            : this.$t(this.explains[hitFeature.get('type')]);
       } else {
         // nullを代入してツールチップを隠す
         this.currentPosition = this.currentName = undefined;
