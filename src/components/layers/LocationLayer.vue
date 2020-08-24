@@ -11,11 +11,11 @@
           cross-origin="anonymous"
         />
         <vl-style-text
-          v-if="marker.annotation"
+          v-if="marker.label"
           font="'Noto Sans JP'"
           :offset-x="2"
           :offset-y="2"
-          :text="marker.annotation.toString()"
+          :text="marker.label.toString()"
         >
           <vl-style-stroke :width="2" color="#ECEFF1" />
           <vl-style-fill color="#263238" />

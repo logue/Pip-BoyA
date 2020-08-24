@@ -188,7 +188,7 @@ Begin
       If (pos('HardPointFertilizerPile01',edid)>0) Then
         Begin
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Phosphate Deposit,"label":1,';
+                 '","name":"Phosphate Deposit","label":1,';
           Row := Row +  '"type":"PhosphateMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+

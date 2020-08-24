@@ -29,7 +29,9 @@
         <v-icon>mdi-alert-decagram</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>{{ $t('categories.encounter') }}</v-list-item-title>
+        <v-list-item-title>
+          {{ $t('categories.encounter') }}
+        </v-list-item-title>
       </v-list-item-content>
     </v-list-item>
     <v-list-item link to="/headpoint">
@@ -37,7 +39,9 @@
         <v-icon>mdi-semantic-web</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>{{ $t('categories.headpoint') }}</v-list-item-title>
+        <v-list-item-title>
+          {{ $t('categories.headpoint') }}
+        </v-list-item-title>
       </v-list-item-content>
     </v-list-item>
     <v-list-item link to="/recipe">
@@ -77,7 +81,9 @@
         <v-icon>mdi-hammer-wrench</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>{{ $t('categories.workbench') }}</v-list-item-title>
+        <v-list-item-title>
+          {{ $t('categories.workbench') }}
+        </v-list-item-title>
       </v-list-item-content>
     </v-list-item>
     <v-list-item link to="/treasure">
@@ -86,6 +92,14 @@
       </v-list-item-action>
       <v-list-item-content>
         <v-list-item-title>{{ $t('categories.treasure') }}</v-list-item-title>
+      </v-list-item-content>
+    </v-list-item>
+    <v-list-item link to="/caps-pin">
+      <v-list-item-action>
+        <v-icon>mdi-alpha-c-circle-outline</v-icon>
+      </v-list-item-action>
+      <v-list-item-content>
+        <v-list-item-title>{{ $t('categories.caps-pin') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
     <v-divider />
@@ -99,3 +113,9 @@
     </v-list-item>
   </v-list>
 </template>
+
+<script>
+export default {
+  //
+};
+</script>

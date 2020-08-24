@@ -432,7 +432,7 @@
     "misc-misc": "その他",
     "misc-alcohol": "アルコール",
     "misc-nukaCola": "ヌカ・コーラ",
-    "misc-pin": "ヘアピン",
+    "caps-pin": "キャップ＆ヘアピン",
     "junk": "ジャンク",
     "junk-fiber": "ネジ＆強化繊維",
     "junk-wood": "木材",
@@ -453,7 +453,7 @@
       "toxic-soot-flower": "有毒な煤の花",
       "mutfruit": "マットフルーツ",
       "silt-bean": "シルトビーン",
-      "starlight-creeper": "スターライト・クリーパー<br /><small>（スターライトベリー）</small>",
+      "starlight-creeper": "スターライトベリー",
       "firecap": "ファイアキャップ",
       "carrot-flower": "ニンジンの花",
       "glowing-resin": "発光する樹脂",
@@ -549,9 +549,12 @@
       "rad-x": "Rad X",
       "rad-away": "Radアウェイ"
     },
-    "pin": {
+    "caps-pin": {
       "pin": "ヘアピン",
-      "box": "ヘアピンの箱"
+      "pin-box": "ヘアピンの箱",
+      "caps": "キャップ",
+      "caps-box": "キャップの箱",
+      "caps-box-blasting": "ボトルキャップ地雷"
     },
     "workbench": {
       "chemistry": "ケミストリーステーション",

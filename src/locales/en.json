@@ -432,7 +432,7 @@
     "misc-misc": "Misc",
     "misc-alcohol": "Alcohol",
     "misc-nukaCola": "Nuka Cola",
-    "misc-pin": "Bobby Pin",
+    "caps-pin": "Caps & Bobby Pin",
     "junk": "Junk",
     "junk-fiber": "Screws & Ballistic Fiber",
     "junk-wood": "Wood (logs)",
@@ -549,9 +549,12 @@
       "rad-x": "Rad X",
       "rad-away": "Rad Away"
     },
-    "pin": {
+    "caps-pin": {
       "pin": "Bobby Pin",
-      "box": "Bobby Pin Box"
+      "pin-box": "Bobby Pin Box",
+      "caps": "Caps",
+      "caps-box": "Caps Stash",
+      "caps-box-blasting": "Blasting Caps Stash"
     },
     "collective": {
       "bobblehead": "Bobblehead",

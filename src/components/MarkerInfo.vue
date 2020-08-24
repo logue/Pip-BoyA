@@ -22,8 +22,8 @@
             <v-card-title v-if="marker.name">
               {{ $t(`locations.${marker.name}`) }}
               &nbsp;
-              <span v-if="marker.annotation" class="grey--text">
-                ( {{ marker.annotation }})
+              <span v-if="marker.label" class="grey--text">
+                ({{ marker.label }})
               </span>
             </v-card-title>
             <v-card-subtitle v-if="marker.name && $i18n.locale !== 'en'">

@@ -19,6 +19,7 @@ import './plugins/clipboard';
 import './plugins/electron';
 import './plugins/cookie';
 import './plugins/analytics';
+// import './plugins/worker';
 
 Vue.config.productionTip = false;
 
