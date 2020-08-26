@@ -1,6 +1,6 @@
 // Fallout76 coordinates to pixel coordinates pixel rate.
 const COORDINATES_REDUCTION_RATE = 142; // WTF?
-const COORDINATES_OFFSET = [10, -13];
+const COORDINATES_OFFSET = [5, -5];
 /**
  * Convert Fallout76 native coordinates to map size based pixel coordinates.
  *
@@ -44,6 +44,47 @@ export function convertCoordinates(
   return converted;
 }
 
+/**
+ * Marker data to GeoJson
+ * @param {Array} markers marker location Data
+ * @param {Array} center Map center location.
+ * @param {Number} rate  FO76 coordinates to pixel coordinates reduction pixel rate.
+ * @param {Array} offset Map offset
+ * @return {Array} GeoJson Array
+ */
+export function convertGeoJson(
+  markers,
+  center,
+  rate = COORDINATES_REDUCTION_RATE,
+  offset = COORDINATES_OFFSET
+) {
+  const converted = Object.values(
+    markers.reduce((acc, cur) => {
+      const x = cur.x / rate + center[0] + offset[0];
+      const y = cur.y / rate + center[1] + offset[1];
+
+      acc[cur.id] = {
+        type: 'Feature',
+        id: cur.id,
+        geometry: {
+          type: 'Point',
+          coordinates: [x, y],
+        },
+        properties: {
+          name: cur.name || null,
+          type: cur.type,
+          label: cur.label || null,
+          x: x | 0,
+          y: y | 0,
+          realX: cur.x,
+          realY: cur.y,
+        },
+      };
+      return acc;
+    }, {})
+  );
+  return converted;
+}
 /**
  * Convert hex color code to rgb array.
  *

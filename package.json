@@ -31,6 +31,9 @@
     "email": "logue@hotmail.co.jp",
     "url": "https://logue.dev/"
   },
+  "build": {
+    "appId": "dev.logue.pipBoyA"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/logue/PipBoyA.js/issues"
@@ -38,7 +41,7 @@
   "homepage": "https://github.com/logue/PipBoyA.js#readme",
   "main": "background.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.20.0",
     "core-js": "^3.6.5",
     "fontsource-noto-sans-jp": "^3.0.3",
     "sprintf-js": "^1.1.2",
@@ -54,19 +57,19 @@
     "vue-router": "^3.4.3",
     "vue-worker": "^1.2.1",
     "vuelayers": "^0.11.27",
-    "vuetify": "^2.3.9",
+    "vuetify": "^2.3.10",
     "worker-loader": "^3.0.2"
   },
   "devDependencies": {
     "@mdi/font": "^5.5.55",
-    "@vue/cli-plugin-babel": "~4.4.0",
-    "@vue/cli-plugin-eslint": "~4.4.0",
-    "@vue/cli-plugin-router": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
+    "@vue/cli-plugin-babel": "~4.5.4",
+    "@vue/cli-plugin-eslint": "~4.5.4",
+    "@vue/cli-plugin-router": "~4.5.4",
+    "@vue/cli-service": "~4.5.4",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "deepmerge": "^4.2.2",
-    "electron": "^9.2.1",
+    "electron": "^10.0.0",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^7.7.0",
     "eslint-config-google": "^0.14.0",
@@ -76,11 +79,11 @@
     "eslint-plugin-vue": "^7.0.0-beta.2",
     "eslint-plugin-vuetify": "^1.0.0-beta.7",
     "fibers": "^5.0.0",
-    "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5",
+    "lint-staged": "^10.2.13",
+    "prettier": "^2.1.1",
     "sass": "^1.26.10",
-    "sass-loader": "^9.0.3",
-    "terser-webpack-plugin": "^3.1.0",
+    "sass-loader": "^10.0.1",
+    "terser-webpack-plugin": "^4.1.0",
     "vue-cli-plugin-electron-builder": "~2.0.0-rc.4",
     "vue-cli-plugin-i18n": "^1.0.1",
     "vue-cli-plugin-vuetify": "^2.0.7",

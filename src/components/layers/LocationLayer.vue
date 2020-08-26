@@ -1,93 +1,93 @@
 <template>
-  <!-- Map markers -->
-  <vl-layer-vector :z-index="3">
-    <vl-feature v-for="marker in markers" :key="marker.id" :properties="marker">
-      <vl-geom-point :coordinates="[marker.x, marker.y]" />
-      <vl-style-box>
-        <vl-style-icon
-          :src="`/img/marker/${marker.type}.svg`"
-          :img-size="[32, 32]"
-          :scale="scale"
-          cross-origin="anonymous"
-        />
-        <vl-style-text
-          v-if="marker.label"
-          font="'Noto Sans JP'"
-          :offset-x="2"
-          :offset-y="2"
-          :text="marker.label.toString()"
-        >
-          <vl-style-stroke :width="2" color="#ECEFF1" />
-          <vl-style-fill color="#263238" />
-        </vl-style-text>
-      </vl-style-box>
-    </vl-feature>
-    <vl-interaction-select hover @select="onSelect" />
+  <!-- Location Marker markers -->
+  <vl-layer-vector ref="locationLayer" :z-index="3" :visible="visible">
+    <vl-source-vector :features.sync="features" />
   </vl-layer-vector>
 </template>
 
 <script>
 import config from '@/assets/map.config.js';
-import {convertCoordinates} from '@/assets/utility.js';
+import {convertGeoJson} from '@/assets/utility.js';
+import {Style, Icon, Text, Fill, Stroke} from 'ol/style';
 
 /**
  * Location Marker (Icon marker)
  */
 export default {
-  emits: ['marker-select'],
   data() {
     return {
-      markers: {},
-      zoom: 1,
-      scale: 1,
-      visible: false,
+      // Marker Icon Object cache
+      iconCache: {},
+      // Markers
+      features: [],
+      visible: this.$root.$data.displayLocation,
     };
   },
-  async mounted() {
+  watch: {
+    '$root.$data.displayLocation'() {
+      this.visible = this.$root.$data.displayLocation;
+      if (this.visible) {
+        this.redraw();
+      }
+    },
+  },
+  mounted() {
     this.$root.$data.loading = true;
-    const locations = await this.axios
-      .get('/data/locations.json')
-      .catch((err) => {
-        console.error(err);
-      });
 
-    this.markers = convertCoordinates(locations.data.markers, config.center);
-    this.$root.$data.loading = false;
+    this.loadFeatures().then((features) => {
+      this.features = features.map(Object.freeze);
+      this.redraw();
+      this.$root.$data.loading = false;
+    });
   },
   methods: {
-    // マーカーをクリックしたときの処理
-    onSelect(feature) {
-      const value = feature.values_;
-      if (!value) {
-        return;
-      }
-      this.$emit('marker-select', value);
+    // マーカーを追加
+    async loadFeatures() {
+      const locations = await this.axios
+        .get('/data/locations.json')
+        .catch((err) => {
+          console.error(err);
+        });
+      return convertGeoJson(locations.data.markers, config.center);
     },
-    // アイコンの大きさ調整
-    setScale(zoom) {
-      switch (zoom | 0) {
-        case 0:
-          this.scale = 0.5;
-          break;
-        case 1:
-          this.scale = 0.75;
-          break;
-        case 2:
-          this.scale = 1;
-          break;
-        case 3:
-          this.scale = 1.25;
-          break;
-        case 4:
-          this.scale = 1.5;
-          break;
-        default:
-          this.scale = 1;
-          break;
-      }
+    redraw() {
+      // アイコンを指定
+      this.$refs.locationLayer.setStyle((feature, resolution) => {
+        const style = {};
+        // マーカーのタイプをアイコンにする
+        const type = feature.get('type');
+        // ちらつきを防ぐため、Iconオブジェクトはキャッシュする。
+        if (this.iconCache[type]) {
+          style.image = this.iconCache[type];
+        } else {
+          style.image = this.iconCache[type] = new Icon({
+            src: `/img/marker/${type}.svg`,
+            crossOrigin: 'anonymous',
+          });
+        }
+
+        if (feature.get('label')) {
+          // 注釈を入れる（現在のところ、地割れ地点のギリシア文字のみ）
+          style.text = new Text({
+            text: feature.get('label'),
+            font: 'Noto Sans JP',
+            offsetX: 2,
+            offsetY: 2,
+            fill: new Fill({
+              color: '#263238',
+            }),
+            stroke: new Stroke({
+              color: '#ECEFF1',
+              width: 1,
+            }),
+          });
+        }
+
+        return new Style(style);
+      });
     },
-    toggleVisible(visibility) {
-      this.visible = visibility;
+    setScale() {
+      // TODO
     },
   },
 };

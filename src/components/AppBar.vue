@@ -97,16 +97,16 @@ export default {
   },
   methods: {
     toggleThemeMode(value) {
-      this.$cookies.set('theme', !value);
       this.$vuetify.theme.dark = !value;
+      this.$cookies.set('theme', this.$vuetify.theme.dark);
     },
     toggleMapMode(value) {
-      this.$cookies.set('military-map', !value);
       this.$root.$data.isMilitary = !value;
+      this.$cookies.set('military-map', this.$root.$data.isMilitary);
     },
     toggleLocation(value) {
-      this.$cookies.set('display-location', !value);
       this.$root.$data.displayLocation = !value;
+      this.$cookies.set('display-location', this.$root.$data.displayLocation);
     },
     changeLocale(locale) {
       this.$i18n.locale = locale;

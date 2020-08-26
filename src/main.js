@@ -19,7 +19,7 @@ import './plugins/clipboard';
 import './plugins/electron';
 import './plugins/cookie';
 import './plugins/analytics';
-// import './plugins/worker';
+import './plugins/worker';
 
 Vue.config.productionTip = false;
 
@@ -28,7 +28,7 @@ new Vue({
     // Global variables
     return {
       // map mode
-      isMilitary: Boolean(this.$cookies.get('military-map')),
+      isMilitary: Boolean(this.$cookies.get('military-map')) || false,
       // map location
       location: {
         x: 2048,
@@ -36,7 +36,7 @@ new Vue({
         z: 1,
       },
       // display location
-      displayLocation: Boolean(this.$cookies.get('display-location')),
+      displayLocation: Boolean(this.$cookies.get('display-location')) || true,
       // loading overlay
       loading: true,
     };

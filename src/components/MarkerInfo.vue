@@ -137,8 +137,11 @@ export default {
     };
   },
   methods: {
-    open(marker) {
-      this.marker = marker;
+    open(feature) {
+      if (!feature) {
+        return;
+      }
+      this.marker = feature.values_;
       this.uri = getUri(
         {x: this.marker.x, y: this.marker.y, z: 4},
         this.$router

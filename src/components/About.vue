@@ -1,9 +1,7 @@
 <template>
   <v-dialog v-model="dialog" max-width="800" light @keydown.esc="close">
     <v-card>
-      <v-card-title>
-        About
-      </v-card-title>
+      <v-card-title>About</v-card-title>
       <v-card-text>
         <section class="my-2">
           <h2>{{ sprintf(this.$t('about'), this.$t('title')) }}</h2>

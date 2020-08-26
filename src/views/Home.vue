@@ -30,23 +30,28 @@
       <category-layer ref="categoryLayer" @changed="onCategoryChanged" />
 
       <!-- Map markers -->
-      <location-layer
-        v-if="$root.$data.displayLocation"
-        ref="locationLayer"
-        @marker-select="onSelect"
-      />
+      <location-layer ref="locationLayer" />
 
       <!-- Tooltip Overlay -->
       <vl-overlay
         v-if="showMarkerTooltip"
+        ref="tooltipOverlay"
+        :auto-pan="true"
         :position="currentPosition"
         :offset="[10, 10]"
-        class="markerTooltipOverlay"
       >
-        <span class="v-tooltip__content" style="white-space: nowrap;">
+        <span class="v-tooltip__content map-viewer_map_tooltip">
           {{ currentName }}
         </span>
       </vl-overlay>
+
+      <!-- detect Select event -->
+      <vl-interaction-select
+        ref="selectInteraction"
+        hover
+        :style="null"
+        @select="onSelect"
+      />
     </vl-map>
     <!-- opacity slider -->
     <v-tooltip bottom>
@@ -103,7 +108,8 @@ export default {
       center: config.center,
       rotation: 0,
       opacity: 1,
-      webgl: true,
+      webgl: false,
+      hitFeature: null,
       // detect map move
       isMoving: false,
       // Tooltip
@@ -213,22 +219,33 @@ export default {
       };
     },
     // ポインタ移動時
-    onMapPointerMove({pixel}) {
+    onMapPointerMove(arr) {
       const map = this.$refs.map;
-      const hitFeature = map.forEachFeatureAtPixel(pixel, (feature) => feature);
-      this.showMarkerTooltip = hitFeature !== undefined;
+      this.hitFeature = map.forEachFeatureAtPixel(
+        arr.pixel,
+        (feature) => feature
+      );
 
-      if (hitFeature) {
+      if (this.hitFeature) {
         // ツールチップの描画位置を取得
-        this.currentPosition = hitFeature.getGeometry().getCoordinates();
+        this.currentPosition = this.hitFeature.getGeometry().getCoordinates();
         // ツールチップの内容を更新
-        this.currentName =
-          hitFeature.get('name') !== undefined
-            ? this.$t(`locations.${hitFeature.get('name')}`)
-            : this.$t(this.explains[hitFeature.get('type')]);
+        if (this.hitFeature.values_) {
+          this.currentName =
+            this.hitFeature.values_.name !== undefined
+              ? this.$t(`locations.${this.hitFeature.values_.name}`)
+              : this.$t(this.explains[this.hitFeature.values_type]);
+        } else {
+          this.currentName =
+            this.hitFeature.get('name') !== undefined
+              ? this.$t(`locations.${this.hitFeature.get('name')}`)
+              : this.$t(this.explains[this.hitFeature.get('type')]);
+        }
+        this.showMarkerTooltip = true;
       } else {
         // nullを代入してツールチップを隠す
         this.currentPosition = this.currentName = undefined;
+        this.showMarkerTooltip = false;
       }
     },
     // 初期位置に戻る
@@ -237,8 +254,11 @@ export default {
       this.zoom = this.$route.query.zoom;
     },
     // マーカーをクリックしたときの処理
-    onSelect(value) {
-      this.$refs.markerInfo.open(value);
+    onSelect(e) {
+      this.$refs.markerInfo.open(e);
+      // 選択を解除
+      const features = this.$refs.selectInteraction.getFeatures();
+      console.log(features);
     },
     onCategoryChanged(tileMarkerMode) {
       // 画像マーカーモードのときはベースマップの透過度を半分にする
@@ -307,6 +327,10 @@ $crosshairs-length: 1.5rem;
         left: calc(50% - #{$crosshairs-width / 2});
         width: $crosshairs-width;
         height: $crosshairs-length;
+      }
+      &_tooltip {
+        transition: $primary-transition;
+        white-space: nowrap !important;
       }
       // ドラッグ中はクロスヘアーを薄くする
       &.is_move {
