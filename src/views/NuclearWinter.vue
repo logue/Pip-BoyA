@@ -47,7 +47,7 @@
         :offset="[10, 10]"
         class="markerTooltipOverlay"
       >
-        <span class="v-tooltip__content" style="white-space: nowrap;">
+        <span class="v-tooltip__content" style="white-space: nowrap">
           {{ currentName }}
         </span>
       </vl-overlay>

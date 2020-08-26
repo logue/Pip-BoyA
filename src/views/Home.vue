@@ -127,19 +127,6 @@ export default {
         this.$refs.locationLayer.setScale(this.zoom);
       }
     },
-    $route(to) {
-      this.$root.$data.loading = true;
-      // カテゴリレイヤーを初期化
-      this.$refs.categoryLayer.category = null;
-      this.$refs.explainPopup.updateExplain({});
-      this.$refs.baseLayer.opacity = 1;
-      this.explains = {};
-
-      this.category = to.params.category || null;
-      this.changeCategory();
-
-      this.$root.$data.loading = false;
-    },
   },
   mounted() {
     // Load location from QueryString.
@@ -153,36 +140,8 @@ export default {
       // ズームの値によってロケーションアイコンのサイズを変える
       this.$refs.locationLayer.setScale(this.zoom);
     }
-    if (this.$route.params.category) {
-      this.category = this.$route.params.category;
-      this.changeCategory();
-    }
-    this.$root.$data.loading = false;
   },
   methods: {
-    async changeCategory() {
-      // カテゴリが存在しない場合はここで終了
-      if (!this.category) {
-        return;
-      }
-      // カテゴリが存在する場合、カテゴリの凡例データの含まれたjsonから凡例の項目とカラーセットを取得
-      const response = await this.axios
-        .get(`/data/${this.category}.json`)
-        .catch((err) => {
-          console.error(err.message);
-          throw new Error(
-            `${this.category}.json does not readable or not found.`
-          );
-        });
-
-      // console.log(response.data);
-      // カテゴリレイヤーを更新
-      this.$refs.categoryLayer.category = this.category;
-      this.$refs.categoryLayer.updateCategoryLayer(response.data);
-      // 凡例レイヤーを更新
-      this.$refs.explainPopup.updateExplain({...response.data.explains});
-      this.explains = {...response.data.explains};
-    },
     // マップが読み込まれたとき
     onMapMounted() {
       // now ol.Map instance is ready and we can work with it directly
@@ -229,17 +188,18 @@ export default {
       if (this.hitFeature) {
         // ツールチップの描画位置を取得
         this.currentPosition = this.hitFeature.getGeometry().getCoordinates();
+        // console.log(this.hitFeature);
         // ツールチップの内容を更新
         if (this.hitFeature.values_) {
           this.currentName =
             this.hitFeature.values_.name !== undefined
               ? this.$t(`locations.${this.hitFeature.values_.name}`)
-              : this.$t(this.explains[this.hitFeature.values_type]);
+              : this.hitFeature.values_.type;
         } else {
           this.currentName =
             this.hitFeature.get('name') !== undefined
               ? this.$t(`locations.${this.hitFeature.get('name')}`)
-              : this.$t(this.explains[this.hitFeature.get('type')]);
+              : this.hitFeature.get('type');
         }
         this.showMarkerTooltip = true;
       } else {

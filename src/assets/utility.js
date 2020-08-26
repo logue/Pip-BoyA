@@ -1,3 +1,7 @@
+import colorset from '@/assets/colorset.json';
+import colors from 'vuetify/lib/util/colors';
+import {Style, Circle, Text, Fill, Stroke} from 'ol/style';
+
 // Fallout76 coordinates to pixel coordinates pixel rate.
 const COORDINATES_REDUCTION_RATE = 142; // WTF?
 const COORDINATES_OFFSET = [5, -5];
@@ -71,9 +75,10 @@ export function convertGeoJson(
           coordinates: [x, y],
         },
         properties: {
-          name: cur.name || null,
+          id: cur.id,
+          name: cur.name || undefined,
           type: cur.type,
-          label: cur.label || null,
+          label: cur.label || undefined,
           x: x | 0,
           y: y | 0,
           realX: cur.x,
@@ -84,6 +89,45 @@ export function convertGeoJson(
     }, {})
   );
   return converted;
+}
+
+/**
+ * Generate Marker Style
+ * @return {Array}
+ */
+export function createMarkerStyle() {
+  const styles = [];
+  for (const color of colorset.markerColor) {
+    const colorSet = colors[toKebabCase(color)];
+    styles[color] = new Style({
+      fill: new Fill({
+        color: `rgba(${hexToRgb(colorSet.accent1 || colorSet.lighten5)},0.3)`,
+      }),
+      stroke: new Stroke({
+        color: colorSet.accent3 || colorSet.darken3,
+      }),
+      image: new Circle({
+        radius: 5,
+        stroke: new Stroke({
+          color: colorSet.accent3 || colorSet.darken3,
+        }),
+        fill: new Fill({
+          color: `rgba(${hexToRgb(colorSet.accent1 || colorSet.lighten5)},0.3)`,
+        }),
+      }),
+      text: new Text({
+        font: '"Noto Sans JP"',
+        fill: new Fill({
+          color: colorSet.darken4,
+        }),
+        stroke: new Stroke({
+          color: `rgba(${hexToRgb(colorSet.lighten5)},0.5)`,
+          width: 2,
+        }),
+      }),
+    });
+  }
+  return styles;
 }
 /**
  * Convert hex color code to rgb array.
@@ -110,6 +154,15 @@ export function hexToRgb(hex) {
  */
 export function toKebabCase(s) {
   return s.replace(/-./g, (x) => x.toUpperCase()[1]);
+}
+
+/**
+ * values of
+ * @param {Object} obj Hashed Array
+ * @return {mixed}
+ */
+export function valuesOf(obj) {
+  return Object.keys(obj).map((key) => obj[key]);
 }
 
 /**
