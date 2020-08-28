@@ -37,6 +37,7 @@
           :key="subItem.title"
           :to="subItem.to"
           :disabled="!subItem.to"
+          link
         >
           <v-list-item-content>
             <v-list-item-title>{{ $t(subItem.title) }}</v-list-item-title>
@@ -45,7 +46,7 @@
       </v-list-group>
     </div>
     <v-divider />
-    <v-list-item link to="/nuclear-winter">
+    <v-list-item link to="/nuclear-winter" disabled>
       <v-list-item-action>
         <v-icon>mdi-nuke</v-icon>
       </v-list-item-action>

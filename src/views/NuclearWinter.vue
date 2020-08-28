@@ -114,7 +114,6 @@ export default {
   },
   mounted() {
     this.$refs.categoryLayer.category = 'nw-flatwoods';
-    this.$refs.categoryLayer.init();
     // Load location from QueryString.
     this.center = [
       (this.$route.query.x ?? config.center[0]) | 0,

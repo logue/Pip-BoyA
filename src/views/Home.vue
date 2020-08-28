@@ -75,7 +75,11 @@
       <span>{{ $t('opacity') }}</span>
     </v-tooltip>
     <marker-info ref="markerInfo" />
-    <explain ref="explainPopup" @select-change="onMarkerSelectChanged" />
+    <explain
+      v-if="$route.name === 'Category'"
+      ref="explainPopup"
+      @select-change="onMarkerSelectChanged"
+    />
   </div>
 </template>
 
@@ -236,7 +240,7 @@ export default {
     onCategoryLayerReady(explains) {
       this.$root.$data.loading = false;
       // 画像マーカーモードのときはベースマップの透過度を半分にする
-      // this.$refs.explainPopup.explains = explains;
+      this.$refs.explainPopup.update(explains);
       // this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
     },
     onMarkerSelectChanged(selected) {

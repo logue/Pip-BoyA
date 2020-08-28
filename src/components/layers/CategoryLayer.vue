@@ -72,6 +72,7 @@ export default {
       if (!locations.data) {
         return;
       }
+
       if (locations.data.markers) {
         // 定義されているマーカーの種類
         const types = Array.from(

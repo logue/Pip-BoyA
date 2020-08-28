@@ -1,5 +1,5 @@
 <template>
-  <v-card v-if="explains" shaped dark class="explain">
+  <v-card shaped dark class="explain">
     <v-card-title class="explain_title">
       {{ $t('legend') }}
       <v-spacer />
@@ -9,24 +9,24 @@
       </v-btn>
     </v-card-title>
     <v-card-text v-if="!isShrinked" class="explain_body">
-      <ul v-if="!markerMode" class="explain_list">
+      <ul v-if="explains[0].match(/^map/)" class="explain_list">
         <li
           v-for="(item, index) in explains"
           :key="index"
-          :class="`explain_list_item explain_list_item_${colorset.tileExplainColor[index]}`"
+          :class="`explain_list_item explain_list_item_${set.tileExplainColor[index]}`"
         >
           ◆ {{ $t(item) }}
         </li>
       </ul>
       <ul v-else class="explain_list explain_check_list">
         <li
-          v-for="(value, item, index) in explains"
+          v-for="(item, index) in explains"
           :key="index"
           class="explain_list_item explain_list_checkbox"
         >
           <v-checkbox
             v-model="checked"
-            :color="colorset.markerColor[index]"
+            :color="set.markerColor[index]"
             :value="item"
             hide-details
             checked="true"
@@ -34,9 +34,9 @@
           >
             <template #label>
               <span
-                :class="`explain_list_item_label ${colorset.markerColor[index]}--text`"
+                :class="`explain_list_item_label ${set.markerColor[index]}--text`"
               >
-                {{ $t(value) }}
+                {{ $t(`markers.${item}`) }}
               </span>
             </template>
           </v-checkbox>
@@ -47,6 +47,7 @@
 </template>
 
 <script>
+import colorset from '@/assets/colorset.json';
 /**
  * Explain component
  */
@@ -54,6 +55,8 @@ export default {
   emits: ['select-change'],
   data() {
     return {
+      // カラーセット
+      set: colorset,
       // 凡例
       explains: null,
       // 色設定
@@ -67,18 +70,10 @@ export default {
     };
   },
   methods: {
-    updateExplain(explains) {
+    update(explains) {
       this.explains = explains;
-      // 凡例のキーが数値だった場合、画像タイルマーカーモードとする
-      const keys = Object.keys(explains);
-      this.markerMode = isNaN(Number(keys[0]));
-
-      console.log(explains);
-
-      if (this.markerMode) {
-        // マーカーはすべて選択状態にする
-        this.checked = keys;
-      }
+      // マーカーはすべて選択状態にする
+      this.checked = explains;
     },
     // 最小化／最大化
     toggleShrink() {
