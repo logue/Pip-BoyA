@@ -1,6 +1,6 @@
 <template>
   <!-- Location Marker markers -->
-  <vl-layer-vector ref="locationLayer" :z-index="3" :visible="visible">
+  <vl-layer-vector ref="locationLayer" :z-index="2" :visible="visible">
     <vl-source-vector :features.sync="features" />
   </vl-layer-vector>
 </template>

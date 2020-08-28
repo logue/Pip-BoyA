@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/logue/PipBoyA.js.git"
+    "url": "git+https://github.com/logue/Pip-BoyA.git"
   },
   "keywords": [
     "fo76 ",
@@ -36,14 +36,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/logue/PipBoyA.js/issues"
+    "url": "https://github.com/logue/Pip-BoyA/issues"
   },
-  "homepage": "https://github.com/logue/PipBoyA.js#readme",
+  "homepage": "https://www.nexusmods.com/fallout76/mods/697",
   "main": "background.js",
   "dependencies": {
     "axios": "^0.20.0",
     "core-js": "^3.6.5",
-    "fontsource-noto-sans-jp": "^3.0.3",
     "sprintf-js": "^1.1.2",
     "vue": "^2.6.12",
     "vue-analytics": "^5.22.1",
@@ -69,7 +68,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "deepmerge": "^4.2.2",
-    "electron": "^10.0.0",
+    "electron": "^10.0.1",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^7.7.0",
     "eslint-config-google": "^0.14.0",
@@ -79,6 +78,7 @@
     "eslint-plugin-vue": "^7.0.0-beta.2",
     "eslint-plugin-vuetify": "^1.0.0-beta.7",
     "fibers": "^5.0.0",
+    "fontsource-noto-sans-jp": "^3.0.9",
     "lint-staged": "^10.2.13",
     "prettier": "^2.1.1",
     "sass": "^1.26.10",

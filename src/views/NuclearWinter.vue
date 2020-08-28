@@ -16,8 +16,8 @@
       <vl-view
         ref="view"
         :zoom.sync="zoom"
-        :center.sync="center"
-        :rotation.sync="rotation"
+        :center="center"
+        :rotation="rotation"
         :projection="config.projection"
         :resolutions="config.resolutions"
       />
@@ -112,28 +112,15 @@ export default {
       category: null,
     };
   },
-  async mounted() {
+  mounted() {
+    this.$refs.categoryLayer.category = 'nw-flatwoods';
+    this.$refs.categoryLayer.init();
     // Load location from QueryString.
     this.center = [
       (this.$route.query.x ?? config.center[0]) | 0,
       (this.$route.query.y ?? config.center[1]) | 0,
     ];
     this.zoom = (this.$route.query.z ?? 1) | 0;
-
-    const response = await this.axios
-      .get(`/data/nw-flatwoods.json`)
-      .catch((err) => {
-        console.error(err.message);
-        throw new Error(`nw-flatwoods.json does not readable or not found.`);
-      });
-
-    // console.log(response.data);
-    // カテゴリレイヤーを更新
-    this.$refs.categoryLayer.category = 'nw-flatwoods';
-    this.$refs.categoryLayer.updateCategoryLayer(response.data);
-    // 凡例レイヤーを更新
-    this.$refs.explainPopup.updateExplain({...response.data.explains});
-    this.$root.$data.loading = false;
   },
   methods: {
     // マップが読み込まれたとき

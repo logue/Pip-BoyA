@@ -27,7 +27,11 @@
       <base-layer ref="baseLayer" :opacity="1" />
 
       <!-- Category map layer -->
-      <category-layer ref="categoryLayer" @changed="onCategoryChanged" />
+      <category-layer
+        v-if="$route.name === 'Category'"
+        ref="categoryLayer"
+        :category="$route.params.category"
+      />
 
       <!-- Map markers -->
       <location-layer ref="locationLayer" />
@@ -195,11 +199,17 @@ export default {
             this.hitFeature.values_.name !== undefined
               ? this.$t(`locations.${this.hitFeature.values_.name}`)
               : this.hitFeature.values_.type;
+          if (this.hitFeature.values_.label !== undefined) {
+            this.currentName += ` (${this.hitFeature.values_.label})`;
+          }
         } else {
           this.currentName =
             this.hitFeature.get('name') !== undefined
               ? this.$t(`locations.${this.hitFeature.get('name')}`)
               : this.hitFeature.get('type');
+          if (this.hitFeature.get('label') !== undefined) {
+            this.currentName += ` (${this.hitFeature.get('label')})`;
+          }
         }
         this.showMarkerTooltip = true;
       } else {

@@ -1,15 +1,9 @@
 <template>
-  <vl-layer-group
-    v-if="category"
-    :opacity="1"
-    :z-index="2"
-    class="category-layer"
-  >
-    <vl-layer-tile v-if="features.length === 0">
+  <vl-layer-group :opacity="1" :z-index="3" class="category-layer">
+    <vl-layer-tile ref="categoryTileLayer">
       <!-- tile based marker mode -->
       <vl-source-xyz
-        ref="categoryLayerSource"
-        :url="`/img/markerTile/${category}/{z}/{x}/{y}.png`"
+        :url="'/img/markerTile/' + $route.params.category + '/{z}/{x}/{y}.png'"
         :projection="config.projection"
         :min-zoom="config.minZoom"
         :max-zoom="config.maxZoom"
@@ -35,17 +29,13 @@ const styles = createMarkerStyle();
  * (Tile based marker and coordinate based marker.)
  */
 export default {
-  emits: ['changed'],
+  emits: ['init', 'ready'],
   data() {
     return {
-      // Current Category
-      category: null,
       // Markers
       features: [],
       // types
       types: [],
-      // Explain definition
-      explains: {},
       // Map Configure
       config: config,
       // Color Configure
@@ -55,33 +45,35 @@ export default {
     };
   },
   watch: {
-    $route(to) {
+    async $route(to) {
+      this.$root.$data.loading = true;
+      this.features = await this.loadFeatures(to.params.category);
       this.category = to.params.category;
-      this.onLoad();
+      this.redraw();
+      this.$root.$data.loading = false;
     },
   },
-  mounted() {
-    this.onLoad();
+  async mounted() {
+    this.$root.$data.loading = true;
+    this.features = await this.loadFeatures(this.$route.params.category);
+    this.category = this.$route.params.category;
+    this.$root.$data.loading = false;
+  },
+  updated() {
+    this.redraw();
   },
   methods: {
-    onLoad() {
-      this.$root.$data.loading = true;
-
-      this.loadFeatures().then((features) => {
-        if (features.length !== 0) {
-          this.features = features.map(Object.freeze);
-        }
-        this.redraw();
-        this.$root.$data.loading = false;
-      });
-    },
     // マーカーを追加
-    async loadFeatures() {
+    async loadFeatures(category) {
+      this.features = [];
       const locations = await this.axios
-        .get(`/data/${this.$route.params.category}.json`)
+        .get(`/data/${category}.json`)
         .catch((err) => {
           console.error(err);
         });
+      if (!locations.data) {
+        return;
+      }
       if (locations.data.markers) {
         // 定義されているマーカーの種類
         const types = Array.from(
@@ -96,25 +88,18 @@ export default {
         this.types = types;
       } else {
         this.types = locations.data.explains;
+
         return [];
       }
       return convertGeoJson(locations.data.markers, config.center);
     },
     async redraw() {
-      // const source = this.$refs.categoryLayer.getSource();
-      const source = this.$refs.categoryLayerSource;
+      if (this.features.length === 0) {
+        const source = await this.$refs.categoryTileLayer.getSource();
+        // const source = await this.$refs.categoryLayerSource;
 
-      if (source) {
         // 新しい画像レイヤを指定
-        try {
-          source.setUrl(
-            `/img/markerTile/${this.$route.params.category}/{z
-            }/{x}/{y}.png`
-          );
-        } catch (e) {
-          // ???
-        }
-
+        source.setUrl('/img/markerTile/' + this.category + '/{z}/{x}/{y}.png');
         if (source.tileCache) {
           // 表示されている画像データとキャッシュを削除
           source.tileCache.expireCache({});
@@ -128,6 +113,7 @@ export default {
           this.setStyle(features)
         );
       }
+      this.$emit('ready', this.types);
     },
     setStyle(feature) {
       // マーカーのタイプを色のインデックスにする
@@ -142,15 +128,7 @@ export default {
     },
     // 凡例で選択された配列のレイヤーのみ表示する
     setMarkerVisibility(markers) {
-      for (const layer in this.$refs) {
-        if (
-          {}.hasOwnProperty.call(this.$refs, layer) &&
-          layer.match(/Marker$/)
-        ) {
-          // TODO: エラーになる
-          // this.$refs[layer][0].visible = markers.includes(layer);
-        }
-      }
+      // TODO: エラーになる
     },
   },
 };

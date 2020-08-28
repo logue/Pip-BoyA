@@ -340,132 +340,12 @@ Begin
                  '},';
           sl.Add(row);
         End;
-      If (pos('LPI_FloraFern01_Charred01',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","label":"1-1",';
-          Row := Row +  '"type":"FernCharredMarker",';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
-      If (pos('LPI_FloraFern01_Charred02',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","label":"1-2",';
-          Row := Row +  '"type":"FernCharredMarker"';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
-      If (pos('LPI_FloraFern01_Charred03',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","label":"1-3",';
-          Row := Row +  '"type":"FernCharredMarker",';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
-      If (pos('LPI_FloraFern01_Charred04',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","label":"1-4",';
-          Row := Row +  '"type":"FernCharredMarker",';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
       If (pos('LPI_FloraFern02',edid)>0) Then
         Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+'","name":"Fern",';
           Row := Row +  '"type":"FernMarker","label":2,';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
-      If (pos('LPI_FloraFern02_Charred01',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","label":"2-1",';
-          Row := Row +  '"type":"FernCharredMarker",';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
-      If (pos('LPI_FloraFern02_Charred02',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","label":"2-2",';
-          Row := Row +  '"type":"FernCharredMarker",';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
-      If (pos('LPI_FloraFern02_Charred03',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","label":"2-3",';
-          Row := Row +  '"type":"FernCharredMarker",';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
-      If (pos('LPI_FloraFern02_Charred04',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Fern (Charred)","label":"2-4",';
-          Row := Row +  '"type":"FernCharredMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -688,7 +568,7 @@ Begin
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
                  '","name":"GS Wild Melon Vine",';
-          Row := Row +  '"type":"MelonVineMarker",';
+          Row := Row +  '"type":"WildMelonVineMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
                  ',';
@@ -983,36 +863,6 @@ Begin
                  '},';
           sl.Add(row);
         End;
-      If (pos('LPI_FloraToxicSootFlower01',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Toxic Soot Flower","label":1,';
-          Row := Row +  '"type":"ToxicSootFlowerPlantMarker",';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
-      If (pos('LPI_FloraToxicSootFlower02',edid)>0) Then
-        Begin
-          If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
-          //Skip Internal Cells
-          Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Toxic Soot Flower","label":2,';
-          Row := Row +  '"type":"ToxicSootFlowerPlantMarker",';
-          Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
-                 ',';
-          Row := Row +  '"y":'+GetEditValue(ElementByName(ElementByName(
-                 ElementByName(e,'DATA - Position/Rotation'),'Position'),'Y'))+
-                 '},';
-          sl.Add(row);
-        End;
       If (pos('LPI_FloraWildCarrotFlower',edid)>0) Then
         Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
@@ -1138,7 +988,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Wild Tato Plant1",';
+                 '","name":"Wild Tato Plant","label":1,';
           Row := Row +  '"type":"WildTatoPlantMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+
@@ -1153,7 +1003,7 @@ Begin
           If (pos('\[00] SeventySix.esm\[70] Cell\',PathName(e))>0) Then exit;
           //Skip Internal Cells
           Row := '{"id":"'+IntToHex(FixedFormID(e), 8)+
-                 '","name":"Wild Tato Plant2",';
+                 '","name":"Wild Tato Plant","label":2",';
           Row := Row +  '"type":"WildTatoPlantMarker",';
           Row := Row +  '"x":'+GetEditValue(ElementByName(ElementByName(
                  ElementByName(e,'DATA - Position/Rotation'),'Position'),'X'))+

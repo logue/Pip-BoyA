@@ -1,10 +1,14 @@
 # Extractor Sunrise
 
 Program for extracting missing in [YASSM](https://github.com/dan-parker/fo76edit-scripts).
-Be careful because the operation is very heavy
+Be careful because the operation is very heavy.
+
+[Original story](https://fallout.fandom.com/wiki/RobCo_sales_%26_service_center_terminal_entries)
 
 [YASSM](https://github.com/dan-parker/fo76edit-scripts)で不足している抽出プログラム。
 とても動作が重いので注意。
+
+[元ネタ](https://game-dictionary.net/fo4/word/%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%BB%E3%82%B5%E3%83%B3%E3%83%A9%E3%82%A4%E3%82%BA)
 
 ## Usage
 
