@@ -31,6 +31,8 @@
         v-if="$route.name === 'Category'"
         ref="categoryLayer"
         :category="$route.params.category"
+        @init="onCategoryLayerInit"
+        @ready="onCategoryLayerReady"
       />
 
       <!-- Map markers -->
@@ -120,8 +122,6 @@ export default {
       currentPosition: undefined,
       currentName: undefined,
       showMarkerTooltip: false,
-      mapCursor: 'default',
-      category: null,
     };
   },
   watch: {
@@ -192,13 +192,13 @@ export default {
       if (this.hitFeature) {
         // ツールチップの描画位置を取得
         this.currentPosition = this.hitFeature.getGeometry().getCoordinates();
-        // console.log(this.hitFeature);
+
         // ツールチップの内容を更新
         if (this.hitFeature.values_) {
           this.currentName =
             this.hitFeature.values_.name !== undefined
               ? this.$t(`locations.${this.hitFeature.values_.name}`)
-              : this.hitFeature.values_.type;
+              : this.$t(`markers.${this.hitFeature.values_.type}`);
           if (this.hitFeature.values_.label !== undefined) {
             this.currentName += ` (${this.hitFeature.values_.label})`;
           }
@@ -206,7 +206,7 @@ export default {
           this.currentName =
             this.hitFeature.get('name') !== undefined
               ? this.$t(`locations.${this.hitFeature.get('name')}`)
-              : this.hitFeature.get('type');
+              : this.$t(`markers.${this.hitFeature.get('type')}`);
           if (this.hitFeature.get('label') !== undefined) {
             this.currentName += ` (${this.hitFeature.get('label')})`;
           }
@@ -230,9 +230,14 @@ export default {
       const features = this.$refs.selectInteraction.getFeatures();
       console.log(features);
     },
-    onCategoryChanged(tileMarkerMode) {
+    onCategoryLayerInit() {
+      this.$root.$data.loading = true;
+    },
+    onCategoryLayerReady(explains) {
+      this.$root.$data.loading = false;
       // 画像マーカーモードのときはベースマップの透過度を半分にする
-      this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
+      // this.$refs.explainPopup.explains = explains;
+      // this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
     },
     onMarkerSelectChanged(selected) {
       this.$refs.categoryLayer.setMarkerVisibility(selected);

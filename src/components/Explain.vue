@@ -50,8 +50,6 @@
 /**
  * Explain component
  */
-import colorset from '@/assets/colorset.json';
-
 export default {
   emits: ['select-change'],
   data() {
@@ -75,14 +73,8 @@ export default {
       const keys = Object.keys(explains);
       this.markerMode = isNaN(Number(keys[0]));
 
-      // console.log('marker mode:', this.markerMode);
-      if (this.colors.length === 0) {
-        // デフォルトのカラー定義
-        this.colorset = colorset;
-      } else {
-        // カラー定義を上書きする場合（タイルモードのみ）
-        this.colorset.tileExplainColor = this.colors;
-      }
+      console.log(explains);
+
       if (this.markerMode) {
         // マーカーはすべて選択状態にする
         this.checked = keys;

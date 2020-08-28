@@ -2,7 +2,7 @@
   "explains": {
     "AluminumMarker": "maps.ore.aluminum",
     "CoalMarker": "maps.ore.coal",
-    "CooperMarker": "maps.ore.copper",
+    "CopperMarker": "maps.ore.copper",
     "CrystalMarker": "maps.ore.crystal",
     "GoldMarker": "maps.ore.gold",
     "IronMarker": "maps.ore.iron",
@@ -52,7 +52,7 @@
     },
     {
       "id": "005104E0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 95874,
       "y": 50313.75
     },
@@ -76,7 +76,7 @@
     },
     {
       "id": "005199E0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 62063.66406,
       "y": -143872.0938
     },
@@ -107,7 +107,7 @@
     },
     {
       "id": "005104E1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 95961.21875,
       "y": 50248.73047
     },
@@ -131,13 +131,13 @@
     },
     {
       "id": "005199E1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -68996.28125,
       "y": -160728.0469
     },
     {
       "id": "00081550",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -123219.2813,
       "y": 206216.3281
     },
@@ -383,19 +383,19 @@
     },
     {
       "id": "00120067",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 2055.556641,
       "y": 5475.104004
     },
     {
       "id": "00120068",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1989.762939,
       "y": 5509.926269
     },
     {
       "id": "00120069",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 2020.553345,
       "y": 5484.12207
     },
@@ -510,7 +510,7 @@
     },
     {
       "id": "00310837",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -103850.2578,
       "y": 166552.3125
     },
@@ -528,7 +528,7 @@
     },
     {
       "id": "00330032",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 7862.788086,
       "y": -179517.0156
     },
@@ -576,13 +576,13 @@
     },
     {
       "id": "00368466",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -166335.9844,
       "y": -139529.5
     },
     {
       "id": "00368467",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -174709.6094,
       "y": -145178.8906
     },
@@ -606,25 +606,25 @@
     },
     {
       "id": "00370893",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -155356.1875,
       "y": -151706.7344
     },
     {
       "id": "00370894",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -154733.0156,
       "y": -151819.5625
     },
     {
       "id": "00370896",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -155723.5313,
       "y": -151759
     },
     {
       "id": "00370897",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -155334.3594,
       "y": -152366.7031
     },
@@ -836,13 +836,13 @@
     },
     {
       "id": "00380808",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -124994.9297,
       "y": -139807.7813
     },
     {
       "id": "00380809",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -124760.6016,
       "y": -139703.7031
     },
@@ -866,13 +866,13 @@
     },
     {
       "id": "00380813",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 40043.34375,
       "y": 27842.83984
     },
     {
       "id": "00380814",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 40000.19531,
       "y": 27862.67969
     },
@@ -902,37 +902,37 @@
     },
     {
       "id": "00380820",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -106717.4844,
       "y": -163898.5313
     },
     {
       "id": "00380821",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -106739.2109,
       "y": -163975.9844
     },
     {
       "id": "00380822",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -106818.6953,
       "y": -164101.0781
     },
     {
       "id": "00380823",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -106966.1328,
       "y": -164241.625
     },
     {
       "id": "00380824",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -106733.6328,
       "y": -163788.6094
     },
     {
       "id": "00380825",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -106735.0781,
       "y": -163669.4375
     },
@@ -998,31 +998,31 @@
     },
     {
       "id": "00380840",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92495.96094,
       "y": -141213.4531
     },
     {
       "id": "00380841",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92480,
       "y": -141159.1719
     },
     {
       "id": "00380842",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92919.17969,
       "y": -141291.1406
     },
     {
       "id": "00380843",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92921.45313,
       "y": -141262
     },
     {
       "id": "00380845",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -93982.40625,
       "y": -141231.1875
     },
@@ -1124,31 +1124,31 @@
     },
     {
       "id": "00380864",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 28461.44922,
       "y": 29354.01563
     },
     {
       "id": "00380865",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 28423.24805,
       "y": 29224.41211
     },
     {
       "id": "00380866",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 28458.78906,
       "y": 29275.0625
     },
     {
       "id": "00380867",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 33534.58984,
       "y": 29845.0293
     },
     {
       "id": "00380868",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 33951.96875,
       "y": 29867.08203
     },
@@ -1274,7 +1274,7 @@
     },
     {
       "id": "00380899",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -119246.0547,
       "y": -86237.92188
     },
@@ -1322,37 +1322,37 @@
     },
     {
       "id": "00380960",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -121167.9688,
       "y": -142947.0781
     },
     {
       "id": "00380961",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -121193.5859,
       "y": -142881.2656
     },
     {
       "id": "00380962",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -121133.6953,
       "y": -142841.0156
     },
     {
       "id": "00380963",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -121059.8672,
       "y": -142887.6719
     },
     {
       "id": "00380964",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -121053.4219,
       "y": -142832.4531
     },
     {
       "id": "00380965",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -121082.7813,
       "y": -142785.3281
     },
@@ -1460,7 +1460,7 @@
     },
     {
       "id": "00380985",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 10432.05664,
       "y": 13662.56348
     },
@@ -1586,13 +1586,13 @@
     },
     {
       "id": "00391980",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -140196.4063,
       "y": -161778.4844
     },
     {
       "id": "00391981",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -140207.1094,
       "y": -161837.0156
     },
@@ -1718,13 +1718,13 @@
     },
     {
       "id": "00392389",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 2030.777588,
       "y": 2253.059814
     },
     {
       "id": "00392786",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139565.6094,
       "y": -167045.9375
     },
@@ -1778,7 +1778,7 @@
     },
     {
       "id": "00393668",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -137058.9844,
       "y": -174993.9219
     },
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "00397974",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -127967.2422,
       "y": -171651.375
     },
@@ -1838,7 +1838,7 @@
     },
     {
       "id": "00397976",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -127799.8203,
       "y": -170597.9375
     },
@@ -2062,7 +2062,7 @@
     },
     {
       "id": "00486469",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -43907.8125,
       "y": 60164.04297
     },
@@ -2368,37 +2368,37 @@
     },
     {
       "id": "00509937",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14245.92578,
       "y": 127036.0078
     },
     {
       "id": "00509938",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14276.61523,
       "y": 126900.6094
     },
     {
       "id": "00509939",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14044.2627,
       "y": 126843.8438
     },
     {
       "id": "00509940",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -72376.40625,
       "y": 86440.28906
     },
     {
       "id": "00509941",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -72483.42969,
       "y": 86348.95313
     },
     {
       "id": "00509942",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -72538.52344,
       "y": 86225.04688
     },
@@ -2422,19 +2422,19 @@
     },
     {
       "id": "00509946",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -12856.25391,
       "y": 52975.56641
     },
     {
       "id": "00509947",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -12794.19629,
       "y": 53109.89844
     },
     {
       "id": "00509948",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -12548.12207,
       "y": 53179.5
     },
@@ -2482,19 +2482,19 @@
     },
     {
       "id": "00509957",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -47999.26563,
       "y": 59058.32031
     },
     {
       "id": "00509958",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -48016.83594,
       "y": 59173.43359
     },
     {
       "id": "00509959",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -47923.28906,
       "y": 59049.75781
     },
@@ -2518,19 +2518,19 @@
     },
     {
       "id": "00509966",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -63552.01563,
       "y": -2367.416504
     },
     {
       "id": "00509967",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -63309.84375,
       "y": -2460.393067
     },
     {
       "id": "00509968",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -63766.18359,
       "y": -2650.111816
     },
@@ -2542,7 +2542,7 @@
     },
     {
       "id": "00509970",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -12226.60938,
       "y": -912.083985
     },
@@ -3184,7 +3184,7 @@
     },
     {
       "id": "005104E2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 95928.71875,
       "y": 50463.71875
     },
@@ -3988,157 +3988,157 @@
     },
     {
       "id": "00519715",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 22314.53906,
       "y": -138804.4063
     },
     {
       "id": "00519716",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 22209.92188,
       "y": -138949.7969
     },
     {
       "id": "00519717",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 22379.24023,
       "y": -138856.8594
     },
     {
       "id": "00519718",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 29690.2793,
       "y": -149688.5313
     },
     {
       "id": "00519719",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 29841.51953,
       "y": -149650.2031
     },
     {
       "id": "00519720",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 47497.41406,
       "y": -154322.8125
     },
     {
       "id": "00519721",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 50927.23828,
       "y": -137282.9063
     },
     {
       "id": "00519722",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 51004.66797,
       "y": -137181.125
     },
     {
       "id": "00519723",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 51183.875,
       "y": -137082.0313
     },
     {
       "id": "00519724",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 49074.65625,
       "y": -174544.1094
     },
     {
       "id": "00519725",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 48943.88281,
       "y": -174743.375
     },
     {
       "id": "00519726",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 65014.80469,
       "y": -166078.875
     },
     {
       "id": "00519727",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 65137.92969,
       "y": -166277.2813
     },
     {
       "id": "00519728",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 64948.69922,
       "y": -166086.25
     },
     {
       "id": "00519729",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 67021.42188,
       "y": -145339.6563
     },
     {
       "id": "00519730",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 77278.27344,
       "y": -158834.1719
     },
     {
       "id": "00519731",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 77397.67969,
       "y": -158586.125
     },
     {
       "id": "00519732",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 83466.71875,
       "y": -177856.4531
     },
     {
       "id": "00519733",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 83766.82031,
       "y": -177866.0469
     },
     {
       "id": "00519734",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 83637.92188,
       "y": -178086.3125
     },
     {
       "id": "00519735",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 95206.27344,
       "y": -165905.0469
     },
     {
       "id": "00519736",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 95494.44531,
       "y": -165914.4531
     },
     {
       "id": "00519737",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 95347.08594,
       "y": -165836.5625
     },
     {
       "id": "00519738",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98607.23438,
       "y": -152282.9531
     },
     {
       "id": "00519739",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98581.45313,
       "y": -152185.2031
     },
     {
       "id": "00519740",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 108273,
       "y": -178481.0625
     },
@@ -4492,7 +4492,7 @@
     },
     {
       "id": "00519800",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 30452.79102,
       "y": 10976.62793
     },
@@ -4504,331 +4504,331 @@
     },
     {
       "id": "00519801",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 30663.32031,
       "y": 11000.15234
     },
     {
       "id": "00519802",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6406.35791,
       "y": 19721.9375
     },
     {
       "id": "00519803",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6357.738281,
       "y": 19510.29883
     },
     {
       "id": "00519804",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6473.033692,
       "y": 19629.49805
     },
     {
       "id": "00519805",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 15334.26953,
       "y": -2400.771973
     },
     {
       "id": "00519806",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 15213.86328,
       "y": -2361.005859
     },
     {
       "id": "00519807",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 15168.61914,
       "y": -2584.17041
     },
     {
       "id": "00519808",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 37149.6875,
       "y": -13788.11523
     },
     {
       "id": "00519809",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 37156.30469,
       "y": -13487.54395
     },
     {
       "id": "00519810",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 101350.0938,
       "y": -21556.81055
     },
     {
       "id": "00519811",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 20352.06836,
       "y": -25805.64649
     },
     {
       "id": "00519812",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 20422.22852,
       "y": -25360.77539
     },
     {
       "id": "00519813",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 20224.82031,
       "y": -25488.86524
     },
     {
       "id": "00519814",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 40103.90625,
       "y": -27622.86328
     },
     {
       "id": "00519815",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 40231.07422,
       "y": -27590.01953
     },
     {
       "id": "00519816",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 83827.125,
       "y": -35090.03906
     },
     {
       "id": "00519817",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 83957.71094,
       "y": -35109.20703
     },
     {
       "id": "00519818",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 83878.3125,
       "y": -35271.14844
     },
     {
       "id": "00519819",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 49298.10547,
       "y": -41892.44922
     },
     {
       "id": "00519820",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 73195.39063,
       "y": -63277.54688
     },
     {
       "id": "00519821",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 73211.33594,
       "y": -63442.05859
     },
     {
       "id": "00519822",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 76722.64844,
       "y": -47260.23438
     },
     {
       "id": "00519823",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 76612.52344,
       "y": -47507.09375
     },
     {
       "id": "00519824",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 23425.87109,
       "y": -47339.02344
     },
     {
       "id": "00519825",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 23394.22852,
       "y": -47489.16016
     },
     {
       "id": "00519826",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 23548.28125,
       "y": -47346.33594
     },
     {
       "id": "00519827",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 542.109925,
       "y": -67196.8125
     },
     {
       "id": "00519828",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 766.921326,
       "y": -67204.89844
     },
     {
       "id": "00519829",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 457.457764,
       "y": -66891.67188
     },
     {
       "id": "00519830",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 54184.17188,
       "y": -73338.10156
     },
     {
       "id": "00519831",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 54165.22266,
       "y": -73429.05469
     },
     {
       "id": "00519832",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 54398.78516,
       "y": -73318.36719
     },
     {
       "id": "00519833",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 22811.21289,
       "y": -79431.27344
     },
     {
       "id": "00519834",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 22922.37891,
       "y": -79303.83594
     },
     {
       "id": "00519835",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 22720.35742,
       "y": -79504.00781
     },
     {
       "id": "00519836",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 36473.59375,
       "y": -76111.24219
     },
     {
       "id": "00519837",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 36484.28906,
       "y": -75881.98438
     },
     {
       "id": "00519838",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 36748.10938,
       "y": -75639.83594
     },
     {
       "id": "00519839",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6422.200196,
       "y": -92182.22656
     },
     {
       "id": "00519840",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 47239.99609,
       "y": -92051.35938
     },
     {
       "id": "00519841",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 47180.44141,
       "y": -92243.98438
     },
     {
       "id": "00519842",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 73164.04688,
       "y": -93677.00781
     },
     {
       "id": "00519843",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 72996.09375,
       "y": -93932.19531
     },
     {
       "id": "00519844",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 73246.94531,
       "y": -93812.73438
     },
     {
       "id": "00519845",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 99744.02344,
       "y": -103136.8125
     },
     {
       "id": "00519846",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 99955,
       "y": -103105.75
     },
     {
       "id": "00519847",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111224.8984,
       "y": -85052.39844
     },
     {
       "id": "00519848",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111403.6094,
       "y": -85133.82813
     },
     {
       "id": "00519849",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111321.4063,
       "y": -85263.16406
     },
     {
       "id": "00519850",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98709.17969,
       "y": -124234.0313
     },
     {
       "id": "00519851",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98904.16406,
       "y": -124356.5781
     },
     {
       "id": "00519852",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98618.84375,
       "y": -124108.5
     },
     {
       "id": "00519853",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6590.408691,
       "y": -124993.5313
     },
     {
       "id": "00519854",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6496.885254,
       "y": -124819.7813
     },
     {
       "id": "00519855",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6737.808594,
       "y": -124536.5859
     },
@@ -5104,7 +5104,7 @@
     },
     {
       "id": "005199E2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -69131.79688,
       "y": -160497.75
     },
@@ -5741,7 +5741,7 @@
     },
     {
       "id": "005104E3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 75511.10156,
       "y": 35084.32031
     },
@@ -5790,7 +5790,7 @@
     },
     {
       "id": "005104E4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 75580.39844,
       "y": 35092.98828
     },
@@ -5814,7 +5814,7 @@
     },
     {
       "id": "005199E4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -47504.60547,
       "y": -136439.4375
     },
@@ -5839,7 +5839,7 @@
     },
     {
       "id": "005104E5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 75468.67188,
       "y": 35184.40625
     },
@@ -5863,7 +5863,7 @@
     },
     {
       "id": "005199E5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -47600.52344,
       "y": -136489.7969
     },
@@ -5882,7 +5882,7 @@
     },
     {
       "id": "005104E6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 50795.77344,
       "y": 22687.69141
     },
@@ -5906,7 +5906,7 @@
     },
     {
       "id": "005199E6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -47550.25,
       "y": -136360.1094
     },
@@ -5925,7 +5925,7 @@
     },
     {
       "id": "005104E7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 50872.30859,
       "y": 22482.6875
     },
@@ -5949,25 +5949,25 @@
     },
     {
       "id": "005199E7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -62969.15625,
       "y": -177811.8906
     },
     {
       "id": "002745E8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 42596.04688,
       "y": 36975.75
     },
     {
       "id": "005092E8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -80050.92969,
       "y": 50544.24219
     },
     {
       "id": "005104E8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 93761.39063,
       "y": 19134.40039
     },
@@ -5991,25 +5991,25 @@
     },
     {
       "id": "005199E8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -63010.74219,
       "y": -177715.7188
     },
     {
       "id": "002745E9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 42476.86719,
       "y": 36906.42188
     },
     {
       "id": "005092E9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -80291.25,
       "y": 50462.26172
     },
     {
       "id": "005104E9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 93952.94531,
       "y": 19306.14063
     },
@@ -6040,7 +6040,7 @@
     },
     {
       "id": "005199E9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -62941.56641,
       "y": -177969.5156
     },
@@ -6411,13 +6411,13 @@
     },
     {
       "id": "0008D8E8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3317.081299,
       "y": 10341.93945
     },
     {
       "id": "0008D8E9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3277.178467,
       "y": 10356.21191
     },
@@ -6441,19 +6441,19 @@
     },
     {
       "id": "0008D9D5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3435.854248,
       "y": 10346.25488
     },
     {
       "id": "0008D9D6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3398.858154,
       "y": 10360.4082
     },
     {
       "id": "0008D9D7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3397.000732,
       "y": 10343.50293
     },
@@ -6795,19 +6795,19 @@
     },
     {
       "id": "0008F29E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5712.032227,
       "y": 12292.58789
     },
     {
       "id": "0008F29F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5753.061523,
       "y": 12312.35352
     },
     {
       "id": "0008F2A0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5796.466308,
       "y": 12336.21973
     },
@@ -6819,13 +6819,13 @@
     },
     {
       "id": "0008F356",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5653.669434,
       "y": 12256.92383
     },
     {
       "id": "0008F357",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5698.381836,
       "y": 12273.76367
     },
@@ -7137,85 +7137,85 @@
     },
     {
       "id": "0009A64C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 7202.439453,
       "y": 9203.378906
     },
     {
       "id": "0009A64D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 7223.430664,
       "y": 9238.017578
     },
     {
       "id": "0009A64E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 7180.400391,
       "y": 9176.819336
     },
     {
       "id": "0009A64F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 7151.434082,
       "y": 9154.349609
     },
     {
       "id": "0009A94D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4926.991211,
       "y": 9311.838867
     },
     {
       "id": "0009A94F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4845.893555,
       "y": 9280.416993
     },
     {
       "id": "0009A950",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 7229.703125,
       "y": 9244.921875
     },
     {
       "id": "0009B9AB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4934.517579,
       "y": 9313.03125
     },
     {
       "id": "0009B9AC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5006.666015,
       "y": 9339.749023
     },
     {
       "id": "0009B9AD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4881.390625,
       "y": 9293.856446
     },
     {
       "id": "0009B9BC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 8724.719727,
       "y": 11084.68848
     },
     {
       "id": "0009B9BD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 8729.045898,
       "y": 11039.19824
     },
     {
       "id": "0009B9BE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 8721.47168,
       "y": 10989.3418
     },
     {
       "id": "0009B9BF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 8715.765625,
       "y": 11096.44629
     },
@@ -7233,7 +7233,7 @@
     },
     {
       "id": "0009BA30",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 8730.265625,
       "y": 11033.9082
     },
@@ -8037,67 +8037,67 @@
     },
     {
       "id": "0011C507",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4353.002441,
       "y": 1984.981689
     },
     {
       "id": "0011C508",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4395.294434,
       "y": 1970.933105
     },
     {
       "id": "0011C509",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4300.364746,
       "y": 2028.726441
     },
     {
       "id": "0011C50A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4291.214355,
       "y": 2027.806152
     },
     {
       "id": "0011C51A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3284.653809,
       "y": 5961.400879
     },
     {
       "id": "0011C51B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3289.104737,
       "y": 5975.665039
     },
     {
       "id": "0011C51D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 4324.137695,
       "y": 2004.02771
     },
     {
       "id": "0011D209",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3229.489258,
       "y": 5814.308105
     },
     {
       "id": "0011D20B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3249.45752,
       "y": 5899.69043
     },
     {
       "id": "0011D20C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3234.724121,
       "y": 5854.560058
     },
     {
       "id": "0012006A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1970.44458,
       "y": 5504.600098
     },
@@ -8109,7 +8109,7 @@
     },
     {
       "id": "0012042C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 2072.898194,
       "y": 5410.381836
     },
@@ -8439,7 +8439,7 @@
     },
     {
       "id": "00123DBF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1576.539062,
       "y": 7811.120605
     },
@@ -8490,13 +8490,13 @@
     },
     {
       "id": "001F0EBB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 15123.9082,
       "y": 29413.68555
     },
     {
       "id": "001F0EC4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 14980.53516,
       "y": 29596.68359
     },
@@ -8550,19 +8550,19 @@
     },
     {
       "id": "00270EA2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41275.71094,
       "y": 42947.21094
     },
     {
       "id": "00270F33",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41043.88672,
       "y": 42904.25781
     },
     {
       "id": "002745B0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41168.26172,
       "y": 42886.27734
     },
@@ -8646,7 +8646,7 @@
     },
     {
       "id": "0028DF98",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 15043.31055,
       "y": 29489.73047
     },
@@ -8924,13 +8924,13 @@
     },
     {
       "id": "002FC321",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 62319.84766,
       "y": 42296.75781
     },
     {
       "id": "002FC322",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 62428.42188,
       "y": 42351.125
     },
@@ -8942,25 +8942,25 @@
     },
     {
       "id": "0030072D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -126088.8359,
       "y": 144746.0781
     },
     {
       "id": "00302C75",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 55777.91797,
       "y": -58579.51953
     },
     {
       "id": "00302C76",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 55597.46094,
       "y": -58404.76953
     },
     {
       "id": "0030383F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -37835.37109,
       "y": -59761.27344
     },
@@ -9008,13 +9008,13 @@
     },
     {
       "id": "003040FE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 78385.11719,
       "y": 14557.13086
     },
     {
       "id": "003040FF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 78566.52344,
       "y": 14610.53418
     },
@@ -9065,13 +9065,13 @@
     },
     {
       "id": "0030E622",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -119178.3906,
       "y": -86280.02344
     },
     {
       "id": "0030E623",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -120673.1875,
       "y": -86734.38281
     },
@@ -9299,7 +9299,7 @@
     },
     {
       "id": "0032C6BD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -33169.50391,
       "y": -161232.125
     },
@@ -9347,7 +9347,7 @@
     },
     {
       "id": "0032D5FE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -233.133163,
       "y": -18620.41211
     },
@@ -9359,7 +9359,7 @@
     },
     {
       "id": "0032E541",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -11563.30274,
       "y": 19491.14649
     },
@@ -9389,7 +9389,7 @@
     },
     {
       "id": "0033132F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -6312.124023,
       "y": 13004.6084
     },
@@ -9407,7 +9407,7 @@
     },
     {
       "id": "0033EF4B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -101066.4141,
       "y": -105042.7344
     },
@@ -9425,7 +9425,7 @@
     },
     {
       "id": "003437B7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -26524.39648,
       "y": -6987.556152
     },
@@ -9443,7 +9443,7 @@
     },
     {
       "id": "0034D199",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -100396.125,
       "y": -148374.9688
     },
@@ -9455,13 +9455,13 @@
     },
     {
       "id": "0035884E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -46192.36719,
       "y": -129884.0625
     },
     {
       "id": "00358F71",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -59868.88672,
       "y": -158123.4219
     },
@@ -9509,19 +9509,19 @@
     },
     {
       "id": "00359F9E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -104863.7891,
       "y": -145911.8906
     },
     {
       "id": "00359F9F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -104107.1953,
       "y": -145873.6563
     },
     {
       "id": "00359FA0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -103629.0547,
       "y": -146750.2969
     },
@@ -9725,19 +9725,19 @@
     },
     {
       "id": "0035A0F3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -108036.7266,
       "y": -143757.2031
     },
     {
       "id": "0035A0F5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -109354.3125,
       "y": -142954.9063
     },
     {
       "id": "0035A120",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -102149.7578,
       "y": -149396.5
     },
@@ -9869,13 +9869,13 @@
     },
     {
       "id": "00365CB2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 129540.9844,
       "y": -50184.29297
     },
     {
       "id": "00365CB3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 129695.3594,
       "y": -50123.87891
     },
@@ -9953,7 +9953,7 @@
     },
     {
       "id": "003708B7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -156075.5313,
       "y": -152823.6719
     },
@@ -10007,19 +10007,19 @@
     },
     {
       "id": "003715C8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -120854.5078,
       "y": -155315.4219
     },
     {
       "id": "003715C9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -120836.4453,
       "y": -155384.6719
     },
     {
       "id": "003715CA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -121114.4297,
       "y": -155496.1094
     },
@@ -10201,43 +10201,43 @@
     },
     {
       "id": "003782BA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41432.28125,
       "y": -59375.125
     },
     {
       "id": "003782BB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41552.96875,
       "y": -59251.92578
     },
     {
       "id": "003782BC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41371.86328,
       "y": -59100.95313
     },
     {
       "id": "003782BD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41300.02344,
       "y": -59075.71484
     },
     {
       "id": "003782BE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41458.05469,
       "y": -59217.1875
     },
     {
       "id": "003782BF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41410.45703,
       "y": -59441.73047
     },
     {
       "id": "003782C0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 41399.89063,
       "y": -58999.05859
     },
@@ -10297,13 +10297,13 @@
     },
     {
       "id": "003797C9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 90657.78125,
       "y": -76955.4375
     },
     {
       "id": "003797CA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 90641.85938,
       "y": -76911.42188
     },
@@ -10375,7 +10375,7 @@
     },
     {
       "id": "0037C6A3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -130106.125,
       "y": -87149.63281
     },
@@ -11197,73 +11197,73 @@
     },
     {
       "id": "0037FA44",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148469.4219,
       "y": -148591.4063
     },
     {
       "id": "0037FA45",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148407.6094,
       "y": -148660.9531
     },
     {
       "id": "0037FA46",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148322.0156,
       "y": -148594.3125
     },
     {
       "id": "0037FA47",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148457.2188,
       "y": -148414.2813
     },
     {
       "id": "0037FA48",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148484.8906,
       "y": -148431.3594
     },
     {
       "id": "0037FA49",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148383.1563,
       "y": -148625.9688
     },
     {
       "id": "0037FA4E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141586.4688,
       "y": -137351.1094
     },
     {
       "id": "0037FA4F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141654.0156,
       "y": -137353.0469
     },
     {
       "id": "0037FA50",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141543.8281,
       "y": -137168.4688
     },
     {
       "id": "0037FA51",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141497.5938,
       "y": -137144.5781
     },
     {
       "id": "0037FA52",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141598.0313,
       "y": -137019.8906
     },
     {
       "id": "0037FA53",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141805.2656,
       "y": -137092.4531
     },
@@ -11383,37 +11383,37 @@
     },
     {
       "id": "0037FA6E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139573.5313,
       "y": -155253.9844
     },
     {
       "id": "0037FA6F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139655.5938,
       "y": -154961.9063
     },
     {
       "id": "0037FA70",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139698.3281,
       "y": -155016.6875
     },
     {
       "id": "0037FA71",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139595.7969,
       "y": -155250.3125
     },
     {
       "id": "0037FA72",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139535.5469,
       "y": -155151.4531
     },
     {
       "id": "0037FA73",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139704.0938,
       "y": -155343.5469
     },
@@ -11496,19 +11496,19 @@
     },
     {
       "id": "003807EF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -117759.6719,
       "y": -105156.375
     },
     {
       "id": "003807F0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -117820.0078,
       "y": -105122.7031
     },
     {
       "id": "003807F1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -117808.4922,
       "y": -105052.6484
     },
@@ -11544,13 +11544,13 @@
     },
     {
       "id": "003807F8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 71613.9375,
       "y": 31083.81836
     },
     {
       "id": "003807F9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 71588.625,
       "y": 31033.51367
     },
@@ -11586,7 +11586,7 @@
     },
     {
       "id": "0038080A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -124783.8906,
       "y": -139693.7969
     },
@@ -11616,31 +11616,31 @@
     },
     {
       "id": "0038081A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115454.8984,
       "y": -151936.4531
     },
     {
       "id": "0038081B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115434.7031,
       "y": -151873.1719
     },
     {
       "id": "0038081C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115417.6875,
       "y": -151938
     },
     {
       "id": "0038081D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115372.4688,
       "y": -151885.9688
     },
     {
       "id": "0038081E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115317.7656,
       "y": -151923.8125
     },
@@ -11688,19 +11688,19 @@
     },
     {
       "id": "0038083D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92207.74219,
       "y": -140826.5781
     },
     {
       "id": "0038083E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92218.36719,
       "y": -140906.0938
     },
     {
       "id": "0038083F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92464.24219,
       "y": -141200.8594
     },
@@ -11850,37 +11850,37 @@
     },
     {
       "id": "0038089A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -119148.2969,
       "y": -86184.26563
     },
     {
       "id": "0038095A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115936.8906,
       "y": -148361.0625
     },
     {
       "id": "0038095B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -116034.5938,
       "y": -148309.6719
     },
     {
       "id": "0038095C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115961.25,
       "y": -148302.1563
     },
     {
       "id": "0038095D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -116140.6641,
       "y": -148026.5156
     },
     {
       "id": "0038095E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -116200.2422,
       "y": -148057.6719
     },
@@ -12564,7 +12564,7 @@
     },
     {
       "id": "0038CBC6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -146576.3438,
       "y": -173092.0938
     },
@@ -12687,25 +12687,25 @@
     },
     {
       "id": "0038D63B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 2038.352539,
       "y": 2445.817627
     },
     {
       "id": "0038D63C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 2072.487793,
       "y": 2405.814697
     },
     {
       "id": "0038D63D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 2053.694824,
       "y": 2563.992188
     },
     {
       "id": "0038D63E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 2024.408936,
       "y": 2237.438232
     },
@@ -12753,7 +12753,7 @@
     },
     {
       "id": "0038FB08",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -133522.8125,
       "y": -179901.3125
     },
@@ -12821,13 +12821,13 @@
     },
     {
       "id": "0038FBCB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148023.1406,
       "y": -162231.3906
     },
     {
       "id": "0038FBCD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -147950.3438,
       "y": -162228.5156
     },
@@ -13026,25 +13026,25 @@
     },
     {
       "id": "003923AF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1532.626099,
       "y": 7745.877929
     },
     {
       "id": "003923B0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1605.883545,
       "y": 7912.166504
     },
     {
       "id": "003923B1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1609.496216,
       "y": 7899.82373
     },
     {
       "id": "003923B2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1600.572998,
       "y": 7877.805664
     },
@@ -13098,19 +13098,19 @@
     },
     {
       "id": "0039277C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -140775.5,
       "y": -167087.7813
     },
     {
       "id": "0039277D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -143003.1875,
       "y": -165103.5938
     },
     {
       "id": "0039277E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -143091.5781,
       "y": -165139.5469
     },
@@ -13268,7 +13268,7 @@
     },
     {
       "id": "003977A1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -127943.0859,
       "y": -167117.1719
     },
@@ -13292,7 +13292,7 @@
     },
     {
       "id": "0039785B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -131335.0313,
       "y": -173919.6406
     },
@@ -13473,13 +13473,13 @@
     },
     {
       "id": "00397B31",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -123479.2422,
       "y": -169131.6563
     },
     {
       "id": "00397B32",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -123517.5547,
       "y": -169473.9063
     },
@@ -13503,31 +13503,31 @@
     },
     {
       "id": "00398B23",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -126629.1094,
       "y": -166187.9531
     },
     {
       "id": "00398B24",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -126582.7188,
       "y": -165996.3594
     },
     {
       "id": "00398B25",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -126395.5859,
       "y": -165929.2969
     },
     {
       "id": "00398B26",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -123447.1719,
       "y": -166757.5156
     },
     {
       "id": "00398B27",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -120496.9063,
       "y": -167283.6406
     },
@@ -15408,13 +15408,13 @@
     },
     {
       "id": "003C233B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -157246.4688,
       "y": -121691.7656
     },
     {
       "id": "003C233C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -157228.0313,
       "y": -121767.2969
     },
@@ -15450,7 +15450,7 @@
     },
     {
       "id": "003C2342",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -156452.7813,
       "y": -124993.8906
     },
@@ -15541,7 +15541,7 @@
     },
     {
       "id": "003C241B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -149284.9531,
       "y": -134351.3125
     },
@@ -15643,7 +15643,7 @@
     },
     {
       "id": "003C2463",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -150875.2813,
       "y": -124693.2266
     },
@@ -15722,7 +15722,7 @@
     },
     {
       "id": "003C75D2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 62883.44141,
       "y": 107861.7891
     },
@@ -15758,7 +15758,7 @@
     },
     {
       "id": "003C75D9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 58079.97266,
       "y": 118044.3125
     },
@@ -15770,7 +15770,7 @@
     },
     {
       "id": "003C75DB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 58625.86719,
       "y": 118002.5
     },
@@ -15800,7 +15800,7 @@
     },
     {
       "id": "003C762D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 65366.09375,
       "y": 116348.9531
     },
@@ -15914,7 +15914,7 @@
     },
     {
       "id": "003C7655",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 34632,
       "y": 110984
     },
@@ -15926,7 +15926,7 @@
     },
     {
       "id": "003C7657",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 113055.8516,
       "y": -71293.17969
     },
@@ -15938,13 +15938,13 @@
     },
     {
       "id": "003C7659",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 32424.01367,
       "y": 112979.3359
     },
     {
       "id": "003C765B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 26395.30078,
       "y": 112799.3125
     },
@@ -15956,19 +15956,19 @@
     },
     {
       "id": "003C765D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 112346.2656,
       "y": -71589.73438
     },
     {
       "id": "003C765E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 22554.76953,
       "y": 113631.7031
     },
     {
       "id": "003C765F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 112460.8594,
       "y": -71307.9375
     },
@@ -15986,7 +15986,7 @@
     },
     {
       "id": "003C7662",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 114357.0234,
       "y": -67394.34375
     },
@@ -16028,7 +16028,7 @@
     },
     {
       "id": "003C766D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111384.5781,
       "y": 63879.95703
     },
@@ -16040,13 +16040,13 @@
     },
     {
       "id": "003C766F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 110857.2969,
       "y": 64256.39453
     },
     {
       "id": "003C7670",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 112625.9297,
       "y": 60767.85547
     },
@@ -16076,13 +16076,13 @@
     },
     {
       "id": "003C7675",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 112045.6484,
       "y": 51708.625
     },
     {
       "id": "003C767D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111734.625,
       "y": 51437.29297
     },
@@ -16106,13 +16106,13 @@
     },
     {
       "id": "003C7692",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 138832.375,
       "y": -70905.66406
     },
     {
       "id": "003C7693",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 138970.7188,
       "y": -71006.67969
     },
@@ -16130,7 +16130,7 @@
     },
     {
       "id": "003C7696",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 117493.1406,
       "y": 64703.58594
     },
@@ -16184,7 +16184,7 @@
     },
     {
       "id": "003C76A5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 155018.2188,
       "y": -63382.875
     },
@@ -16220,13 +16220,13 @@
     },
     {
       "id": "003C76AB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 119475.6328,
       "y": 67695.28125
     },
     {
       "id": "003C76AC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 119184.0234,
       "y": 64760.03125
     },
@@ -16238,7 +16238,7 @@
     },
     {
       "id": "003C76AE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 119240.1328,
       "y": 64789.63672
     },
@@ -16322,7 +16322,7 @@
     },
     {
       "id": "003C76D2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 147408.7031,
       "y": -42487.75391
     },
@@ -16400,7 +16400,7 @@
     },
     {
       "id": "003C76FD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 103592.9141,
       "y": 47122.94922
     },
@@ -16430,7 +16430,7 @@
     },
     {
       "id": "003C770E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 118951.5313,
       "y": 55985.48047
     },
@@ -16448,7 +16448,7 @@
     },
     {
       "id": "003C7714",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 115688.8672,
       "y": 49106.58203
     },
@@ -16466,7 +16466,7 @@
     },
     {
       "id": "003C7717",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 115761.8047,
       "y": 49194.68359
     },
@@ -16496,7 +16496,7 @@
     },
     {
       "id": "003C771C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 112303.4375,
       "y": 46405.46875
     },
@@ -16508,7 +16508,7 @@
     },
     {
       "id": "003C771E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 114223.375,
       "y": 47052.34375
     },
@@ -16520,13 +16520,13 @@
     },
     {
       "id": "003C7720",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 120731.1016,
       "y": 46590.23047
     },
     {
       "id": "003C7721",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 120823.9609,
       "y": 46482.95703
     },
@@ -16550,7 +16550,7 @@
     },
     {
       "id": "003C7725",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 120892.0313,
       "y": 51247.75
     },
@@ -16616,13 +16616,13 @@
     },
     {
       "id": "003C7730",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 161477.4219,
       "y": -35809.22656
     },
     {
       "id": "003C7733",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 161553.7344,
       "y": -35839.98047
     },
@@ -16658,7 +16658,7 @@
     },
     {
       "id": "003C773A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 114656.2891,
       "y": 41806.26953
     },
@@ -16676,7 +16676,7 @@
     },
     {
       "id": "003C773D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 115240.2109,
       "y": 41579
     },
@@ -16694,7 +16694,7 @@
     },
     {
       "id": "003C7740",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111380.5781,
       "y": 40043.58594
     },
@@ -16742,13 +16742,13 @@
     },
     {
       "id": "003C7752",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 116568.5078,
       "y": 30319.16211
     },
     {
       "id": "003C7753",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 116680.5703,
       "y": 30765.70508
     },
@@ -16772,49 +16772,49 @@
     },
     {
       "id": "003C7763",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 187532.0156,
       "y": -54728.85156
     },
     {
       "id": "003C7765",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 187589.75,
       "y": -54748.00781
     },
     {
       "id": "003C7766",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 119687.8203,
       "y": 37116.09766
     },
     {
       "id": "003C7767",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 186326.1094,
       "y": -54804.94922
     },
     {
       "id": "003C7768",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 119705.1875,
       "y": 37030.51563
     },
     {
       "id": "003C7769",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 119834.1094,
       "y": 37068.07813
     },
     {
       "id": "003C7775",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 136449.8594,
       "y": 60854.21484
     },
     {
       "id": "003C7776",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 136772.4531,
       "y": 61136.26953
     },
@@ -16826,7 +16826,7 @@
     },
     {
       "id": "003C777A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 141786.5625,
       "y": 51030.19922
     },
@@ -16850,7 +16850,7 @@
     },
     {
       "id": "003C7782",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 154480.0625,
       "y": 54387.73828
     },
@@ -16898,7 +16898,7 @@
     },
     {
       "id": "003C7791",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 148131.2969,
       "y": 34411.01953
     },
@@ -16934,7 +16934,7 @@
     },
     {
       "id": "003C77A0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 135477.3125,
       "y": 27789.56445
     },
@@ -16946,7 +16946,7 @@
     },
     {
       "id": "003C77A4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 136231.4688,
       "y": 31483.90039
     },
@@ -16964,7 +16964,7 @@
     },
     {
       "id": "003C77A9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 157925.8594,
       "y": 59438.11719
     },
@@ -16982,13 +16982,13 @@
     },
     {
       "id": "003C77AC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 168489.5781,
       "y": 60831.24219
     },
     {
       "id": "003C77AD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 168334.4688,
       "y": 60220.59375
     },
@@ -17006,7 +17006,7 @@
     },
     {
       "id": "003C77B1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 172462.25,
       "y": 68123.39844
     },
@@ -17024,13 +17024,13 @@
     },
     {
       "id": "003C77BA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 171650.0625,
       "y": 75612.07031
     },
     {
       "id": "003C77BB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 172041.4688,
       "y": 75325.40625
     },
@@ -17120,13 +17120,13 @@
     },
     {
       "id": "003C77CC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 174289.9063,
       "y": 47247.77344
     },
     {
       "id": "003C77CD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 174358.0781,
       "y": 47327.69531
     },
@@ -17174,13 +17174,13 @@
     },
     {
       "id": "003C77D8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 166002.2031,
       "y": 19144.66016
     },
     {
       "id": "003C77D9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 165627.7188,
       "y": 19070.41602
     },
@@ -17198,7 +17198,7 @@
     },
     {
       "id": "003C77E7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 165191.0313,
       "y": 15470.11523
     },
@@ -17288,13 +17288,13 @@
     },
     {
       "id": "003C781A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 197292.2656,
       "y": -25140.89453
     },
     {
       "id": "003C781B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 197473.2344,
       "y": -25250.25781
     },
@@ -17378,13 +17378,13 @@
     },
     {
       "id": "003C7829",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 138583.4531,
       "y": 17216.55274
     },
     {
       "id": "003C782A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 138806.0313,
       "y": 17254.57031
     },
@@ -17450,7 +17450,7 @@
     },
     {
       "id": "003C7838",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 187937.1719,
       "y": -19868.02539
     },
@@ -17534,7 +17534,7 @@
     },
     {
       "id": "003C784D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 129130.6875,
       "y": -955.062989
     },
@@ -17564,7 +17564,7 @@
     },
     {
       "id": "003C7852",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 124901.4219,
       "y": -7146.135254
     },
@@ -17624,7 +17624,7 @@
     },
     {
       "id": "003C785C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 186192.2656,
       "y": 1642.261353
     },
@@ -17636,7 +17636,7 @@
     },
     {
       "id": "003C785E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 186358.6406,
       "y": 1543.553345
     },
@@ -17654,13 +17654,13 @@
     },
     {
       "id": "003C7862",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 118754.1484,
       "y": 7550.884766
     },
     {
       "id": "003C7863",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 118953.4453,
       "y": 8483.166016
     },
@@ -17750,13 +17750,13 @@
     },
     {
       "id": "003C7877",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 110852.9531,
       "y": 18842.14063
     },
     {
       "id": "003C7878",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 110656.8281,
       "y": 17794.30469
     },
@@ -17768,7 +17768,7 @@
     },
     {
       "id": "003C787B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111381.625,
       "y": 2155.977784
     },
@@ -17798,43 +17798,43 @@
     },
     {
       "id": "003C7882",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 139676.0938,
       "y": -1347.799439
     },
     {
       "id": "003C7883",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 140363.7344,
       "y": -757.132812
     },
     {
       "id": "003C7885",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 141121.2813,
       "y": 1325.886963
     },
     {
       "id": "003C7887",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 141083.1094,
       "y": 1211.657227
     },
     {
       "id": "003C7888",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 128113.9922,
       "y": -24841.92969
     },
     {
       "id": "003C788A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 126979.4453,
       "y": -26413.10938
     },
     {
       "id": "003C788B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 127100.2344,
       "y": -26266.66016
     },
@@ -17864,13 +17864,13 @@
     },
     {
       "id": "003C7892",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 112425.5938,
       "y": -13365.6709
     },
     {
       "id": "003C7893",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 113748.9375,
       "y": -13447.3916
     },
@@ -17918,25 +17918,25 @@
     },
     {
       "id": "003C789E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111629.6719,
       "y": -31710.66992
     },
     {
       "id": "003C789F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111882.8672,
       "y": -32280.69336
     },
     {
       "id": "003C78A0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 114093.2578,
       "y": -33613.51953
     },
     {
       "id": "003C78A2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111226.2344,
       "y": -36750.03125
     },
@@ -17966,7 +17966,7 @@
     },
     {
       "id": "003C78A9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 111346.3125,
       "y": -44636.44141
     },
@@ -17990,13 +17990,13 @@
     },
     {
       "id": "003C78AE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 119666.0313,
       "y": -23523.86524
     },
     {
       "id": "003C78AF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 119887.1094,
       "y": -23448.69727
     },
@@ -18044,19 +18044,19 @@
     },
     {
       "id": "003C78BB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 124098.3047,
       "y": -9095.271484
     },
     {
       "id": "003C78BC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 124636.0078,
       "y": -8976.483398
     },
     {
       "id": "003C78BE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 126036.0703,
       "y": -17395.46875
     },
@@ -18080,7 +18080,7 @@
     },
     {
       "id": "003C78C3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 130021.6328,
       "y": -30207.18359
     },
@@ -18116,7 +18116,7 @@
     },
     {
       "id": "003C78CB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 139508.8906,
       "y": -33848.68359
     },
@@ -18134,13 +18134,13 @@
     },
     {
       "id": "003C78D0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 143497.2188,
       "y": -32111.35742
     },
     {
       "id": "003C78D1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 143672.6094,
       "y": -32427.38867
     },
@@ -18164,19 +18164,19 @@
     },
     {
       "id": "003C78E2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 143556.1406,
       "y": -39375.30469
     },
     {
       "id": "003C78E4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 139446.4688,
       "y": -42073.60547
     },
     {
       "id": "003C78E6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 140065.1875,
       "y": -43073.71094
     },
@@ -18188,25 +18188,25 @@
     },
     {
       "id": "003C78EA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 146070.2813,
       "y": -34905.11328
     },
     {
       "id": "003C78EB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 146225.9219,
       "y": -35094.19141
     },
     {
       "id": "003C78ED",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 142114.5625,
       "y": -25942.49024
     },
     {
       "id": "003C78EF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 142393.8438,
       "y": -26347.68164
     },
@@ -18320,7 +18320,7 @@
     },
     {
       "id": "003C7981",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 200763.4219,
       "y": -59773.74219
     },
@@ -18332,7 +18332,7 @@
     },
     {
       "id": "003C7983",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 200288.625,
       "y": -59942.30078
     },
@@ -18482,13 +18482,13 @@
     },
     {
       "id": "003C79CB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 197770.5,
       "y": 36700.24609
     },
     {
       "id": "003C79CC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 197709,
       "y": 36636.99219
     },
@@ -18584,19 +18584,19 @@
     },
     {
       "id": "003C79DC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 193056.0469,
       "y": 19921.67188
     },
     {
       "id": "003C79DD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 193071.6406,
       "y": 19961.875
     },
     {
       "id": "003C79DE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 193099.5938,
       "y": 19819.14258
     },
@@ -18638,31 +18638,31 @@
     },
     {
       "id": "003C79E7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 200595.8594,
       "y": 68246.125
     },
     {
       "id": "003C79E8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 200668.9063,
       "y": 68251.36719
     },
     {
       "id": "003C79E9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 200464.2656,
       "y": 68405.29688
     },
     {
       "id": "003C79EA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 200346.1719,
       "y": 71568.79688
     },
     {
       "id": "003C79EB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 200424.4063,
       "y": 71635.57031
     },
@@ -18764,37 +18764,37 @@
     },
     {
       "id": "003C79FE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 182784.3438,
       "y": 72603.98438
     },
     {
       "id": "003C79FF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 182697.6719,
       "y": 72513.42969
     },
     {
       "id": "003C7A00",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 182622.3438,
       "y": 73199.69531
     },
     {
       "id": "003C7A01",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 194826.6406,
       "y": 70487.71094
     },
     {
       "id": "003C7A02",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 194823.6094,
       "y": 70658.0625
     },
     {
       "id": "003C7A03",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 194901.8906,
       "y": 70590.65625
     },
@@ -18806,13 +18806,13 @@
     },
     {
       "id": "003C7B86",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 184661.6563,
       "y": 1632.616333
     },
     {
       "id": "003C7B87",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 183939.6406,
       "y": 1517.46582
     },
@@ -18915,7 +18915,7 @@
     },
     {
       "id": "003D837F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 928,
       "y": 192
     },
@@ -18999,19 +18999,19 @@
     },
     {
       "id": "003D838D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1056,
       "y": 192
     },
     {
       "id": "003D838E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1184,
       "y": 192
     },
     {
       "id": "003D838F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 1312,
       "y": 192
     },
@@ -19373,37 +19373,37 @@
     },
     {
       "id": "003EC810",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -125656.2109,
       "y": -30348.85547
     },
     {
       "id": "003EC811",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -125687.8125,
       "y": -30243.33203
     },
     {
       "id": "003EC812",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -125515.875,
       "y": -30440.5
     },
     {
       "id": "003EC84B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -117101.8047,
       "y": -22391.86914
     },
     {
       "id": "003EC84C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -117331.0469,
       "y": -21942.29297
     },
     {
       "id": "003EC84D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -116929.8516,
       "y": -22509.8418
     },
@@ -19433,13 +19433,13 @@
     },
     {
       "id": "003EC89F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -40011.89453,
       "y": -117430.9453
     },
     {
       "id": "003EC8A2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -40003.19922,
       "y": -117290.6328
     },
@@ -19985,13 +19985,13 @@
     },
     {
       "id": "004341CD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5749.396972,
       "y": -23286.60352
     },
     {
       "id": "004341CE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5864.305176,
       "y": -23150.38281
     },
@@ -20408,7 +20408,7 @@
     },
     {
       "id": "004719D5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -13905.59375,
       "y": 191654.9688
     },
@@ -21045,13 +21045,13 @@
     },
     {
       "id": "004EBCFF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -128542.2188,
       "y": -137577.0938
     },
     {
       "id": "004EBD00",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -128533.9688,
       "y": -137624.9844
     },
@@ -21087,25 +21087,25 @@
     },
     {
       "id": "004EBD0A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -123854.8281,
       "y": -138107.3125
     },
     {
       "id": "004EBD0B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -123928.8516,
       "y": -138156.5
     },
     {
       "id": "004EBD0C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -124168.4063,
       "y": -138269.7031
     },
     {
       "id": "004EBD0D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -124064.5781,
       "y": -138481.4219
     },
@@ -21216,13 +21216,13 @@
     },
     {
       "id": "004EBD21",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -132890.75,
       "y": -128576.9688
     },
     {
       "id": "004EBD22",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -134173.5938,
       "y": -127998.1172
     },
@@ -21605,13 +21605,13 @@
     },
     {
       "id": "004F5FA4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -155145.6563,
       "y": -133250.0156
     },
     {
       "id": "004F5FA5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -155079.2344,
       "y": -133220.0938
     },
@@ -21783,7 +21783,7 @@
     },
     {
       "id": "004F5FDF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -154159.2969,
       "y": -134954.9531
     },
@@ -21844,7 +21844,7 @@
     },
     {
       "id": "004F6855",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -144277.5156,
       "y": 195297.0781
     },
@@ -21856,7 +21856,7 @@
     },
     {
       "id": "004F6857",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -145691.875,
       "y": 195946.5625
     },
@@ -21880,7 +21880,7 @@
     },
     {
       "id": "004F685B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148806.1875,
       "y": 168181.1094
     },
@@ -21904,7 +21904,7 @@
     },
     {
       "id": "004F685F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -152095.6719,
       "y": 175514.8125
     },
@@ -21946,7 +21946,7 @@
     },
     {
       "id": "004F6866",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -116770.8594,
       "y": 178578.5938
     },
@@ -21964,7 +21964,7 @@
     },
     {
       "id": "004F6869",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -122301.5234,
       "y": 195836.6094
     },
@@ -22006,25 +22006,25 @@
     },
     {
       "id": "004F6870",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -104870.1094,
       "y": 182330.6719
     },
     {
       "id": "004F6871",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -96907.52344,
       "y": 185761.1094
     },
     {
       "id": "004F6872",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -96869.57813,
       "y": 185855.8594
     },
     {
       "id": "004F6873",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -97087.57031,
       "y": 185742.3594
     },
@@ -22096,25 +22096,25 @@
     },
     {
       "id": "004F687F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -126666.0469,
       "y": 194848.9688
     },
     {
       "id": "004F6880",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -125644.1875,
       "y": 196127.5781
     },
     {
       "id": "004F6881",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -125674.6406,
       "y": 196468.7031
     },
     {
       "id": "004F6882",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -153236.7656,
       "y": 153306.5469
     },
@@ -22168,31 +22168,31 @@
     },
     {
       "id": "004F688B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -147779.1875,
       "y": 134675.2188
     },
     {
       "id": "004F688C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -147857.5625,
       "y": 134638.2969
     },
     {
       "id": "004F688D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -167542.0938,
       "y": 135116.3594
     },
     {
       "id": "004F688E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -167574.0938,
       "y": 135209.3281
     },
     {
       "id": "004F688F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -167560.7969,
       "y": 135015
     },
@@ -22240,13 +22240,13 @@
     },
     {
       "id": "004F6897",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -125965.2969,
       "y": 142610.5
     },
     {
       "id": "004F6898",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -126135.5781,
       "y": 142770.9688
     },
@@ -22360,19 +22360,19 @@
     },
     {
       "id": "004F68AC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -88458.00781,
       "y": 112435.7891
     },
     {
       "id": "004F68AD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -88394.72656,
       "y": 112275.6406
     },
     {
       "id": "004F68AE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -88541.96094,
       "y": 111154.3203
     },
@@ -22432,13 +22432,13 @@
     },
     {
       "id": "004F68B8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -116045.6484,
       "y": 119714.2344
     },
     {
       "id": "004F68B9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115620.2344,
       "y": 119882.625
     },
@@ -22492,13 +22492,13 @@
     },
     {
       "id": "004F68C2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139317.4531,
       "y": 120784.4609
     },
     {
       "id": "004F68C3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -139327.3594,
       "y": 120983.0234
     },
@@ -22516,7 +22516,7 @@
     },
     {
       "id": "004F68C6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -130901.0391,
       "y": 98819.24219
     },
@@ -22582,7 +22582,7 @@
     },
     {
       "id": "004F68D1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -124353.8594,
       "y": 91043.80469
     },
@@ -22690,43 +22690,43 @@
     },
     {
       "id": "004F68E4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -89339.0625,
       "y": 153426.2031
     },
     {
       "id": "004F68E5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -89465.875,
       "y": 153546.5
     },
     {
       "id": "004F68E6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -88273.41406,
       "y": 153482.375
     },
     {
       "id": "004F68E7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -88188.77344,
       "y": 153324.5938
     },
     {
       "id": "004F68E8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -167728.6875,
       "y": 78946.10156
     },
     {
       "id": "004F68E9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -167876.8125,
       "y": 78849.14844
     },
     {
       "id": "004F68EA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -167442.7813,
       "y": 79460.75
     },
@@ -22936,7 +22936,7 @@
     },
     {
       "id": "004F690D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -81284.11719,
       "y": 72338.07031
     },
@@ -22978,49 +22978,49 @@
     },
     {
       "id": "004F6914",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -96987.89063,
       "y": 69090.84375
     },
     {
       "id": "004F6915",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -97151.63281,
       "y": 68876.5625
     },
     {
       "id": "004F6916",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -97017.4375,
       "y": 69544.84375
     },
     {
       "id": "004F6917",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -97193.96875,
       "y": 69720.0625
     },
     {
       "id": "004F6918",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -96593.19531,
       "y": 164591.5
     },
     {
       "id": "004F6919",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -96390.57031,
       "y": 165806.75
     },
     {
       "id": "004F691A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -96516.46875,
       "y": 165548.875
     },
     {
       "id": "004F691B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -96523.625,
       "y": 165065.7188
     },
@@ -23422,127 +23422,127 @@
     },
     {
       "id": "004F7A1C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -63402.55078,
       "y": -16844.30859
     },
     {
       "id": "004F7A1D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -63495.02734,
       "y": -17041.84375
     },
     {
       "id": "004F7A1E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -63403.49219,
       "y": -16955.45508
     },
     {
       "id": "004F7A1F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3393.588867,
       "y": -25352.25195
     },
     {
       "id": "004F7A20",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 3383.711425,
       "y": -24284.86133
     },
     {
       "id": "004F7A21",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 5869.848144,
       "y": -23268.8418
     },
     {
       "id": "004F7A22",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -4389.293945,
       "y": -102210.9375
     },
     {
       "id": "004F7A23",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -4427.643067,
       "y": -102373.9219
     },
     {
       "id": "004F7A24",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -4505.924317,
       "y": -102335.7656
     },
     {
       "id": "004F7A25",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -66826.69531,
       "y": -107784.875
     },
     {
       "id": "004F7A26",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -66873.33594,
       "y": -107620
     },
     {
       "id": "004F7A27",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -66969.61719,
       "y": -107868.2891
     },
     {
       "id": "004F7A28",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -32808.9375,
       "y": -65091.19531
     },
     {
       "id": "004F7A29",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -32948.14063,
       "y": -65363.92578
     },
     {
       "id": "004F7A2A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -32906.75,
       "y": -65531.01172
     },
     {
       "id": "004F7A2B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -59165.24609,
       "y": -122519.7656
     },
     {
       "id": "004F7A2C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -59254.62891,
       "y": -122577.4219
     },
     {
       "id": "004F7A2D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -59227.25,
       "y": -122707.3828
     },
     {
       "id": "004F7A2E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -3709.845703,
       "y": -123945.6172
     },
     {
       "id": "004F7A2F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -3652.013672,
       "y": -124120.2031
     },
     {
       "id": "004F7A30",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -3929.071289,
       "y": -124524.2422
     },
@@ -23944,37 +23944,37 @@
     },
     {
       "id": "004F7A74",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -38612.66406,
       "y": -42099.36328
     },
     {
       "id": "004F7A75",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -38975.50781,
       "y": -42497.28125
     },
     {
       "id": "004F7A76",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -38737.0625,
       "y": -42335.86328
     },
     {
       "id": "004F7A77",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -50131.22656,
       "y": -80950.625
     },
     {
       "id": "004F7A78",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -50303.54688,
       "y": -81396.32813
     },
     {
       "id": "004F7A79",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -50156.53125,
       "y": -81231.25
     },
@@ -24562,19 +24562,19 @@
     },
     {
       "id": "0050929D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -145531.7344,
       "y": 18590.25
     },
     {
       "id": "0050929E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -145705.4219,
       "y": 18384.19727
     },
     {
       "id": "0050929F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -145973.5469,
       "y": 18517.01563
     },
@@ -24598,37 +24598,37 @@
     },
     {
       "id": "005092A3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -146490.25,
       "y": -43345.71875
     },
     {
       "id": "005092A4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -146522.7031,
       "y": -43281.9375
     },
     {
       "id": "005092A5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -146387.6719,
       "y": -43285.60547
     },
     {
       "id": "005092A6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -171220.1406,
       "y": -34633.91406
     },
     {
       "id": "005092A7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -171109.4531,
       "y": -34564.03516
     },
     {
       "id": "005092A8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -171221.7656,
       "y": -34934.09375
     },
@@ -24688,13 +24688,13 @@
     },
     {
       "id": "005092B2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115757.1641,
       "y": 32292.11914
     },
     {
       "id": "005092B3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -115506.4766,
       "y": 32324.53125
     },
@@ -24730,19 +24730,19 @@
     },
     {
       "id": "005092B9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -81886.41406,
       "y": -8973.166015
     },
     {
       "id": "005092BA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -81851.5,
       "y": -8877.326172
     },
     {
       "id": "005092BB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -82008.60938,
       "y": -8979.730468
     },
@@ -24766,19 +24766,19 @@
     },
     {
       "id": "005092BF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -134568,
       "y": -17492.66602
     },
     {
       "id": "005092C0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -134415.1406,
       "y": -17666.35547
     },
     {
       "id": "005092C1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -134315.6406,
       "y": -17439.60156
     },
@@ -24796,19 +24796,19 @@
     },
     {
       "id": "005092C4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -102212.5547,
       "y": -39793.23438
     },
     {
       "id": "005092C5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -102121.5078,
       "y": -39645.16406
     },
     {
       "id": "005092C6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -102300.6016,
       "y": -39658.44531
     },
@@ -24850,19 +24850,19 @@
     },
     {
       "id": "005092CD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -144292.7344,
       "y": -69956.58594
     },
     {
       "id": "005092CE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -144226.4063,
       "y": -69708.28906
     },
     {
       "id": "005092CF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -144353.5938,
       "y": -69800.63281
     },
@@ -24958,43 +24958,43 @@
     },
     {
       "id": "005092EA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -80389.07813,
       "y": 50367.22656
     },
     {
       "id": "005092EB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148679.4531,
       "y": 54479.36328
     },
     {
       "id": "005092EE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148677.4375,
       "y": 54275.34375
     },
     {
       "id": "005092EF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -148616.7031,
       "y": 54493.80859
     },
     {
       "id": "0050992C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -62482.83203,
       "y": 121803.2891
     },
     {
       "id": "0050992D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -62294.55859,
       "y": 121821.75
     },
     {
       "id": "0050992E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -62351.23438,
       "y": 121700.0156
     },
@@ -25006,19 +25006,19 @@
     },
     {
       "id": "0050993A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -36351.0625,
       "y": 87134.76563
     },
     {
       "id": "0050993B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -36397.27734,
       "y": 87088.6875
     },
     {
       "id": "0050993C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -36162.87891,
       "y": 87213.42188
     },
@@ -25126,13 +25126,13 @@
     },
     {
       "id": "0050996E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -12752.02539,
       "y": -841.206543
     },
     {
       "id": "0050996F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -12653.89063,
       "y": -483.630951
     },
@@ -25756,283 +25756,283 @@
     },
     {
       "id": "0050FF95",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -58381.56641,
       "y": 187714.3594
     },
     {
       "id": "0050FF96",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -58014.12891,
       "y": 187723.125
     },
     {
       "id": "0050FF97",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -58092.44141,
       "y": 187794.6094
     },
     {
       "id": "0050FF98",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 51578.07422,
       "y": 154677.9531
     },
     {
       "id": "0050FF99",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 51409.66797,
       "y": 154890.8906
     },
     {
       "id": "0050FF9A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 51367.64844,
       "y": 154613.0625
     },
     {
       "id": "0050FF9B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -15187.89746,
       "y": 191550.2656
     },
     {
       "id": "0050FF9C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14855.02344,
       "y": 192085.1406
     },
     {
       "id": "0050FF9D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14920.13867,
       "y": 191868.5625
     },
     {
       "id": "0050FF9E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27358.89648,
       "y": 149220.1563
     },
     {
       "id": "0050FF9F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27353.10352,
       "y": 149307.2188
     },
     {
       "id": "0050FFA0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27374.00195,
       "y": 149632.8438
     },
     {
       "id": "0050FFA1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 25867.63867,
       "y": 166092.3125
     },
     {
       "id": "0050FFA2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 25886.62109,
       "y": 166178.125
     },
     {
       "id": "0050FFA3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 25802.77149,
       "y": 166197.1406
     },
     {
       "id": "0050FFA4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 33554.39453,
       "y": 192621.4844
     },
     {
       "id": "0050FFA5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 33638.15625,
       "y": 192759.7344
     },
     {
       "id": "0050FFA6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 33904.28125,
       "y": 192592.8594
     },
     {
       "id": "0050FFA7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 59272.33984,
       "y": 178259.625
     },
     {
       "id": "0050FFA8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 59305.57813,
       "y": 178358.8906
     },
     {
       "id": "0050FFA9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 59213.08203,
       "y": 178072.6719
     },
     {
       "id": "0050FFAA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 76546.64844,
       "y": 195828.8438
     },
     {
       "id": "0050FFAB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 76316.41406,
       "y": 195871.9375
     },
     {
       "id": "0050FFAC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 76301.14063,
       "y": 195838.5313
     },
     {
       "id": "0050FFAD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 81018.22656,
       "y": 178843.3594
     },
     {
       "id": "0050FFAE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 80926.42969,
       "y": 179070.1719
     },
     {
       "id": "0050FFAF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 81033.75781,
       "y": 178756.6406
     },
     {
       "id": "0050FFB0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 66249.78906,
       "y": 159841.6719
     },
     {
       "id": "0050FFB1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 66326.0625,
       "y": 159920.125
     },
     {
       "id": "0050FFB2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 72461.60156,
       "y": 135662.4219
     },
     {
       "id": "0050FFB3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 72421.32031,
       "y": 135774.5469
     },
     {
       "id": "0050FFB4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 72584.03125,
       "y": 135608.1875
     },
     {
       "id": "0050FFB5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 84513.50781,
       "y": 152697.0625
     },
     {
       "id": "0050FFB6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 84316.82813,
       "y": 152879.375
     },
     {
       "id": "0050FFB7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 84633.34375,
       "y": 152982.8594
     },
     {
       "id": "0050FFB8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 96302.66406,
       "y": 166154
     },
     {
       "id": "0050FFB9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 96132.84375,
       "y": 165974
     },
     {
       "id": "0050FFBA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 96200.42188,
       "y": 166188.1875
     },
     {
       "id": "0050FFBB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98265.01563,
       "y": 192349.0781
     },
     {
       "id": "0050FFBC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98367.52344,
       "y": 192186.3281
     },
     {
       "id": "0050FFBD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98597.36719,
       "y": 192546.6406
     },
     {
       "id": "0050FFBE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 110015.2109,
       "y": 185235.875
     },
     {
       "id": "0050FFBF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 110078.3672,
       "y": 185364.2188
     },
     {
       "id": "0050FFC0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 110201.3125,
       "y": 185285.1563
     },
     {
       "id": "0050FFC1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 106953.7344,
       "y": 138993.3281
     },
     {
       "id": "0050FFC2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 106774.1016,
       "y": 138829.2969
     },
     {
       "id": "0050FFC3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 106823.9297,
       "y": 138961.6875
     },
@@ -27364,145 +27364,145 @@
     },
     {
       "id": "005104C8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 44075.82422,
       "y": 121752.125
     },
     {
       "id": "005104C9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 44172.76953,
       "y": 122140.3828
     },
     {
       "id": "005104CA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 44084.55469,
       "y": 122275.3203
     },
     {
       "id": "005104CB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 64692.49219,
       "y": 102922.0547
     },
     {
       "id": "005104CC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 64590.02344,
       "y": 103109.6484
     },
     {
       "id": "005104CD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 64633.375,
       "y": 103095.0781
     },
     {
       "id": "005104CF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 90817.46094,
       "y": 114046.4219
     },
     {
       "id": "005104D0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 91209.61719,
       "y": 114388.0391
     },
     {
       "id": "005104D1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 100363.2266,
       "y": 90740.92969
     },
     {
       "id": "005104D2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 100412.5938,
       "y": 90883.5625
     },
     {
       "id": "005104D3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 100287.4453,
       "y": 90930.60938
     },
     {
       "id": "005104D4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 80480.42969,
       "y": 79597.83594
     },
     {
       "id": "005104D5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 80399.34375,
       "y": 79698.90625
     },
     {
       "id": "005104D6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 80764.48438,
       "y": 79562.04688
     },
     {
       "id": "005104D7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 37705.55078,
       "y": 83094.51563
     },
     {
       "id": "005104D8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 37639.21094,
       "y": 82939.15625
     },
     {
       "id": "005104D9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 37426.33203,
       "y": 82916.57031
     },
     {
       "id": "005104DA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 64422.55859,
       "y": 58256.57813
     },
     {
       "id": "005104DB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 64426.67188,
       "y": 58558.38281
     },
     {
       "id": "005104DC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 64124.34766,
       "y": 58106.10547
     },
     {
       "id": "005104DD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 38569.60938,
       "y": 48190.15625
     },
     {
       "id": "005104DE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 38322.64063,
       "y": 48341.8125
     },
     {
       "id": "005104DF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 38219.19922,
       "y": 48335.63672
     },
     {
       "id": "005104EA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 94070.92969,
       "y": 19133.875
     },
@@ -28198,19 +28198,19 @@
     },
     {
       "id": "00518D0F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -128539.375,
       "y": -92327.32813
     },
     {
       "id": "00518D10",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -128706.5781,
       "y": -92252.02344
     },
     {
       "id": "00518D11",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -128921.4922,
       "y": -92236.21094
     },
@@ -29140,169 +29140,169 @@
     },
     {
       "id": "00518DB7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -131880.8125,
       "y": -158840.7813
     },
     {
       "id": "00518DB8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -132092.875,
       "y": -159039.5
     },
     {
       "id": "00518DB9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -131960.0938,
       "y": -159132.5625
     },
     {
       "id": "00518DBA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92296.66406,
       "y": -161001.4688
     },
     {
       "id": "00518DBB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -91943.65625,
       "y": -160563.5469
     },
     {
       "id": "00518DBC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -92052.25,
       "y": -160987.9375
     },
     {
       "id": "00518DBD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -91930.07813,
       "y": -160974.8438
     },
     {
       "id": "00518DBE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -84654.53906,
       "y": -122095.3516
     },
     {
       "id": "00518DBF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -84933.24219,
       "y": -122762.375
     },
     {
       "id": "00518DC0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -84940.39063,
       "y": -123164.1406
     },
     {
       "id": "00518DC1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -89212.48438,
       "y": -88570.29688
     },
     {
       "id": "00518DC2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -88981.22656,
       "y": -88609.17188
     },
     {
       "id": "00518DC3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -89659.64063,
       "y": -88378.35156
     },
     {
       "id": "00518DC4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -145454.0938,
       "y": -125155.6016
     },
     {
       "id": "00518DC6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -145819.1563,
       "y": -125074.0078
     },
     {
       "id": "00518DC7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -145599.9375,
       "y": -124855.2344
     },
     {
       "id": "00518DC8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -113236.9688,
       "y": -129039.3672
     },
     {
       "id": "00518DC9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -112739.3594,
       "y": -128781.9609
     },
     {
       "id": "00518DCA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -112537.75,
       "y": -128934.8594
     },
     {
       "id": "00518DCB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141590.8906,
       "y": -101041.2578
     },
     {
       "id": "00518DCC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141515.0781,
       "y": -100745.9844
     },
     {
       "id": "00518DCD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -141807.9688,
       "y": -100929.3594
     },
     {
       "id": "00518DCE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -180556.0781,
       "y": -109406.6719
     },
     {
       "id": "00518DCF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -181042.8594,
       "y": -109615.7266
     },
     {
       "id": "00518DD0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -180895.8438,
       "y": -109421.7891
     },
     {
       "id": "00518DD1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -152700.4844,
       "y": -81280.28906
     },
     {
       "id": "00518DD2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -153162.9375,
       "y": -81648.44531
     },
     {
       "id": "00518DD4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -153276.0938,
       "y": -81617.95313
     },
@@ -29635,127 +29635,127 @@
     },
     {
       "id": "005194A9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 554.123902,
       "y": -66944.07813
     },
     {
       "id": "005194AA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 793.374756,
       "y": -67217.21094
     },
     {
       "id": "005194AB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 524.423706,
       "y": -66889.22656
     },
     {
       "id": "0051971A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 29793.65234,
       "y": -149788.7031
     },
     {
       "id": "0051971B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 32650.65625,
       "y": -166571.9219
     },
     {
       "id": "0051971C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 32743.80859,
       "y": -166675.125
     },
     {
       "id": "0051971D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 32354.17383,
       "y": -166842.5156
     },
     {
       "id": "0051971E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 47274.54688,
       "y": -154410.1875
     },
     {
       "id": "0051971F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 47380.23047,
       "y": -154439.2969
     },
     {
       "id": "0051972A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 67074.21094,
       "y": -145262.5469
     },
     {
       "id": "0051972B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 67205.03906,
       "y": -145386.1563
     },
     {
       "id": "0051972C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 84344.28125,
       "y": -137582.625
     },
     {
       "id": "0051972D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 84355.25,
       "y": -137506.4219
     },
     {
       "id": "0051972E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 84140.82813,
       "y": -137458.7969
     },
     {
       "id": "0051972F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 77253.90625,
       "y": -158726.8281
     },
     {
       "id": "0051973A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 98524.21094,
       "y": -152182.25
     },
     {
       "id": "0051973B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 105019.2266,
       "y": -140587.5781
     },
     {
       "id": "0051973C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 104933.0547,
       "y": -140504.2344
     },
     {
       "id": "0051973D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 104861.9297,
       "y": -140682.0781
     },
     {
       "id": "0051973E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 108175.0469,
       "y": -178402.375
     },
     {
       "id": "0051973F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 108050.3203,
       "y": -178423.4844
     },
@@ -30427,229 +30427,229 @@
     },
     {
       "id": "005197F6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 104626.6875,
       "y": -6282.590332
     },
     {
       "id": "005197F7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 104722.5234,
       "y": -6309.029297
     },
     {
       "id": "005197F8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 104792.8516,
       "y": -6426.941406
     },
     {
       "id": "005197F9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 88311.8125,
       "y": -2053.79541
     },
     {
       "id": "005197FA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 88395.45313,
       "y": -2052.639649
     },
     {
       "id": "005197FB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 88303.28125,
       "y": -2373.600586
     },
     {
       "id": "005197FC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 58649.34766,
       "y": -1880.377929
     },
     {
       "id": "005197FD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 58786.57813,
       "y": -2030.809693
     },
     {
       "id": "005197FE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 58618.89063,
       "y": -2161.694336
     },
     {
       "id": "005197FF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 30556.29492,
       "y": 10799.54102
     },
     {
       "id": "0051980A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 36920.71484,
       "y": -13418.29883
     },
     {
       "id": "0051980B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 67317.04688,
       "y": -21544.6543
     },
     {
       "id": "0051980C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 67501.32031,
       "y": -21441.46484
     },
     {
       "id": "0051980D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 67761.20313,
       "y": -21406.18945
     },
     {
       "id": "0051980E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 101338.8125,
       "y": -21747.4707
     },
     {
       "id": "0051980F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 101173.4531,
       "y": -21664.79883
     },
     {
       "id": "0051981A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 49423.59766,
       "y": -41825.05469
     },
     {
       "id": "0051981B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 49401.74609,
       "y": -41617.94922
     },
     {
       "id": "0051981C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 102911.6641,
       "y": -55448.94922
     },
     {
       "id": "0051981D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 103050.6953,
       "y": -55626.85938
     },
     {
       "id": "0051981E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 103218.2578,
       "y": -55796.67188
     },
     {
       "id": "0051981F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 73275.1875,
       "y": -63319.99219
     },
     {
       "id": "0051982A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 40269.75781,
       "y": -61259.05469
     },
     {
       "id": "0051982D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 88832.19531,
       "y": -84808.55469
     },
     {
       "id": "0051982E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 88850.07031,
       "y": -84775.86719
     },
     {
       "id": "0051982F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 88907.09375,
       "y": -84936.95313
     },
     {
       "id": "0051983A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6532.195801,
       "y": -92178.82813
     },
     {
       "id": "0051983B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 6331.006836,
       "y": -91960.85156
     },
     {
       "id": "0051983C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 22942.71094,
       "y": -107958.3125
     },
     {
       "id": "0051983D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 23049.83399,
       "y": -107670.0703
     },
     {
       "id": "0051983E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 23177.10352,
       "y": -107419.375
     },
     {
       "id": "0051983F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 47403.02734,
       "y": -92161.85938
     },
     {
       "id": "0051984A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 75948.73438,
       "y": -112756.5
     },
     {
       "id": "0051984B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 75746.07813,
       "y": -112929.2578
     },
     {
       "id": "0051984C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 75794.45313,
       "y": -112773.2734
     },
     {
       "id": "0051984D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 46913.42578,
       "y": -116832.2891
     },
     {
       "id": "0051984E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 46888.68359,
       "y": -117000.0156
     },
     {
       "id": "0051984F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 47045.32422,
       "y": -116988.5938
     },
@@ -32065,247 +32065,247 @@
     },
     {
       "id": "005199DE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 61725.52734,
       "y": -143914.2813
     },
     {
       "id": "005199DF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 62246.39063,
       "y": -143968.875
     },
     {
       "id": "005199EA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -50329.79297,
       "y": -167217.4219
     },
     {
       "id": "005199EB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -50437.07813,
       "y": -167120.6563
     },
     {
       "id": "005199EC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -50355.09375,
       "y": -166991.0625
     },
     {
       "id": "005199ED",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -44396.83984,
       "y": -153299.1719
     },
     {
       "id": "005199EE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -44353.51953,
       "y": -153218.375
     },
     {
       "id": "005199EF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -44276.38281,
       "y": -153148.0781
     },
     {
       "id": "005199F0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27904.97461,
       "y": -141550.6406
     },
     {
       "id": "005199F1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27739.85938,
       "y": -141309.0313
     },
     {
       "id": "005199F2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27820.52344,
       "y": -141386.0781
     },
     {
       "id": "005199F3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27442.78906,
       "y": -159380
     },
     {
       "id": "005199F4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27335.36523,
       "y": -159337.2031
     },
     {
       "id": "005199F5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -27175.87695,
       "y": -159370.4219
     },
     {
       "id": "005199F6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -40052.68359,
       "y": -175014.5625
     },
     {
       "id": "005199F7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -39976.125,
       "y": -175040.9844
     },
     {
       "id": "005199F8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -39984.37891,
       "y": -174783.3438
     },
     {
       "id": "005199F9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14389.05371,
       "y": -176921.7031
     },
     {
       "id": "005199FA",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14780.15625,
       "y": -177109.0625
     },
     {
       "id": "005199FB",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14712.76367,
       "y": -177017.3906
     },
     {
       "id": "005199FC",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -16105.53125,
       "y": -149572.2031
     },
     {
       "id": "005199FD",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -16182.12988,
       "y": -149713.5781
     },
     {
       "id": "005199FE",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -16031.63281,
       "y": -149479.2813
     },
     {
       "id": "005199FF",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14746.0918,
       "y": -173841.5156
     },
     {
       "id": "00519A00",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14896.39844,
       "y": -173665.4688
     },
     {
       "id": "00519A01",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -14701.20703,
       "y": -173510.6875
     },
     {
       "id": "00519A02",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -4998.486328,
       "y": -160706.6875
     },
     {
       "id": "00519A03",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -5201.120117,
       "y": -160707.7031
     },
     {
       "id": "00519A04",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -4954.933593,
       "y": -160543
     },
     {
       "id": "00519A05",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 9467.871094,
       "y": -173852
     },
     {
       "id": "00519A06",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 9645.407227,
       "y": -173904.2656
     },
     {
       "id": "00519A07",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 9531.18457,
       "y": -173907.9219
     },
     {
       "id": "00519A08",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 10887.63281,
       "y": -150135.3281
     },
     {
       "id": "00519A09",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 10815.02734,
       "y": -150291.6875
     },
     {
       "id": "00519A0A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 10898.4834,
       "y": -150230.6563
     },
     {
       "id": "00519A0B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 17174.85938,
       "y": -169722.2188
     },
     {
       "id": "00519A0C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 17165.68945,
       "y": -169828.25
     },
     {
       "id": "00519A0D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 17202.85352,
       "y": -169772.4063
     },
     {
       "id": "00519A0E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 28228.03516,
       "y": -145587.0938
     },
     {
       "id": "00519A0F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 28097.25391,
       "y": -145596.0156
     },
     {
       "id": "00519A10",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 28145.55859,
       "y": -145686.9063
     },
@@ -34429,19 +34429,19 @@
     },
     {
       "id": "0051BBE7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 198809.9375,
       "y": -349.631287
     },
     {
       "id": "0051BBE8",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 199044.8125,
       "y": -409.23938
     },
     {
       "id": "0051BBE9",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 198530.4063,
       "y": -275.457367
     },
@@ -34483,37 +34483,37 @@
     },
     {
       "id": "0051BBF0",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 196863.5156,
       "y": -24269.47266
     },
     {
       "id": "0051BBF1",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 196742.4219,
       "y": -24372.2832
     },
     {
       "id": "0051BBF2",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 196746.8906,
       "y": -24101.61328
     },
     {
       "id": "0051BBF3",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 184984.7656,
       "y": -45120.39844
     },
     {
       "id": "0051BBF4",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 185362.8125,
       "y": -45182.90234
     },
     {
       "id": "0051BBF5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 185415.4688,
       "y": -45301.67969
     },
@@ -35269,163 +35269,163 @@
     },
     {
       "id": "0051BC7A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 137251.1094,
       "y": -91291.77344
     },
     {
       "id": "0051BC7B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 137563.7344,
       "y": -91558.15625
     },
     {
       "id": "0051BC7C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 137081.375,
       "y": -91307.375
     },
     {
       "id": "0051BC7D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 129262.3906,
       "y": -128154.9688
     },
     {
       "id": "0051BC7E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 128944.2969,
       "y": -128356.25
     },
     {
       "id": "0051BC7F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 128944.75,
       "y": -128099.5156
     },
     {
       "id": "0051BC80",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 189176.7344,
       "y": -86219.39844
     },
     {
       "id": "0051BC81",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 189009.8281,
       "y": -86118.79688
     },
     {
       "id": "0051BC82",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 189042.9219,
       "y": -85977.17969
     },
     {
       "id": "0051BC83",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 157797.625,
       "y": -88519.89063
     },
     {
       "id": "0051BC84",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 157492.25,
       "y": -88020.58594
     },
     {
       "id": "0051BC85",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 157646.7188,
       "y": -88533.36719
     },
     {
       "id": "0051BC86",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 149409.9375,
       "y": -154739.1875
     },
     {
       "id": "0051BC87",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 149193.5781,
       "y": -155115.0156
     },
     {
       "id": "0051BC88",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 149368.9219,
       "y": -154752.5313
     },
     {
       "id": "0051BC89",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 168964.2813,
       "y": -130828.8203
     },
     {
       "id": "0051BC8A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 169225.8906,
       "y": -130652.5781
     },
     {
       "id": "0051BC8B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 169329.0313,
       "y": -130761.1094
     },
     {
       "id": "0051BC8C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 128096.3125,
       "y": -169365.0938
     },
     {
       "id": "0051BC8D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 127796.2266,
       "y": -169294.0313
     },
     {
       "id": "0051BC8E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 128064.3906,
       "y": -169488.8125
     },
     {
       "id": "0051BC8F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 179899.2188,
       "y": -152951.5781
     },
     {
       "id": "0051BC90",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 179732.8281,
       "y": -153031.4063
     },
     {
       "id": "0051BC91",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 179732.9531,
       "y": -152905.7813
     },
     {
       "id": "0051BC92",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 121698.3359,
       "y": -140576.75
     },
     {
       "id": "0051BC93",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 121480.1172,
       "y": -140576.0625
     },
     {
       "id": "0051BC94",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 121404.1563,
       "y": -140380.9063
     },
@@ -35971,19 +35971,19 @@
     },
     {
       "id": "0051BCF5",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 124958.5234,
       "y": -15007.79102
     },
     {
       "id": "0051BCF6",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 124903.5859,
       "y": -15334.69824
     },
     {
       "id": "0051BCF7",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 124818.4141,
       "y": -14955.45801
     },
@@ -36151,91 +36151,91 @@
     },
     {
       "id": "0051BD13",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 183802.1094,
       "y": 55943.60547
     },
     {
       "id": "0051BD14",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 183968.7813,
       "y": 55749.54297
     },
     {
       "id": "0051BD15",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 184027.1563,
       "y": 55923.67969
     },
     {
       "id": "0051BD16",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 137654.7969,
       "y": 52205.73828
     },
     {
       "id": "0051BD17",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 137869.0313,
       "y": 52313.16797
     },
     {
       "id": "0051BD18",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 137490.7813,
       "y": 52254.50391
     },
     {
       "id": "0051BD19",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 184893.4063,
       "y": 27682.72461
     },
     {
       "id": "0051BD1A",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 185213.7656,
       "y": 27061.01953
     },
     {
       "id": "0051BD1B",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 184562.4844,
       "y": 27168.94922
     },
     {
       "id": "0051BD1C",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 195980.2031,
       "y": -19260.0332
     },
     {
       "id": "0051BD1D",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 195408.6406,
       "y": -19248.99609
     },
     {
       "id": "0051BD1E",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 195734.0781,
       "y": -19303.91797
     },
     {
       "id": "0051BD1F",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 129978.6016,
       "y": 15411.51367
     },
     {
       "id": "0051BD20",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 130175.1328,
       "y": 15740.86133
     },
     {
       "id": "0051BD21",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 129846.1563,
       "y": 14932.03223
     },
@@ -36427,19 +36427,19 @@
     },
     {
       "id": "0051BD41",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 137934.7344,
       "y": -30165.50391
     },
     {
       "id": "0051BD42",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 138359.2813,
       "y": -30211.70899
     },
     {
       "id": "0051BD43",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": 138137.8125,
       "y": -30225.08984
     },
@@ -36715,7 +36715,7 @@
     },
     {
       "id": "00596D94",
-      "type": "CooperMarker",
+      "type": "CopperMarker",
       "x": -88340.89063,
       "y": 112094.9375
     },

@@ -30,7 +30,7 @@
     </v-main>
 
     <v-overlay :value="$root.$data.loading">
-      <v-progress-circular indeterminate size="64"></v-progress-circular>
+      <v-progress-circular indeterminate size="64" />
     </v-overlay>
   </v-app>
 </template>
@@ -63,7 +63,6 @@ export default {
         floating: false,
         mini: false,
       },
-      locales: ['ja', 'en'],
     };
   },
 };

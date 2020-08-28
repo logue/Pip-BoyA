@@ -12,7 +12,7 @@
     </vl-layer-tile>
     <!-- location based marker mode -->
     <vl-layer-vector ref="markerLayer">
-      <vl-source-vector :features.sync="features"></vl-source-vector>
+      <vl-source-vector :features.sync="features" />
     </vl-layer-vector>
   </vl-layer-group>
 </template>
@@ -29,7 +29,7 @@ const styles = createMarkerStyle();
  * (Tile based marker and coordinate based marker.)
  */
 export default {
-  emits: ['init', 'ready'],
+  emits: ['init', 'loaded', 'redrawed', 'ready'],
   data() {
     return {
       // Markers
@@ -46,18 +46,16 @@ export default {
   },
   watch: {
     async $route(to) {
-      this.$root.$data.loading = true;
+      this.$emit('init');
       this.features = await this.loadFeatures(to.params.category);
       this.category = to.params.category;
       this.redraw();
-      this.$root.$data.loading = false;
     },
   },
   async mounted() {
-    this.$root.$data.loading = true;
+    this.$emit('init');
     this.features = await this.loadFeatures(this.$route.params.category);
     this.category = this.$route.params.category;
-    this.$root.$data.loading = false;
   },
   updated() {
     this.redraw();
@@ -91,22 +89,28 @@ export default {
 
         return [];
       }
+      this.$emit('loaded');
       return convertGeoJson(locations.data.markers, config.center);
     },
     async redraw() {
+      this.$emit('redrawed');
       if (this.features.length === 0) {
-        const source = await this.$refs.categoryTileLayer.getSource();
-        // const source = await this.$refs.categoryLayerSource;
+        // const source = await this.$refs.categoryTileLayer.getSource();
+        const source = this.$refs.categoryLayerSource;
 
-        // 新しい画像レイヤを指定
-        source.setUrl('/img/markerTile/' + this.category + '/{z}/{x}/{y}.png');
-        if (source.tileCache) {
-          // 表示されている画像データとキャッシュを削除
-          source.tileCache.expireCache({});
-          source.tileCache.clear();
+        if (source) {
+          // 新しい画像レイヤを指定
+          source.setUrl(
+            '/img/markerTile/' + this.category + '/{z}/{x}/{y}.png'
+          );
+          if (source.tileCache) {
+            // 表示されている画像データとキャッシュを削除
+            source.tileCache.expireCache({});
+            source.tileCache.clear();
+          }
+          // リフレッシュ
+          source.refresh();
         }
-        // リフレッシュ
-        source.refresh();
       } else {
         // console.log(this.$refs.markerLayer);
         await this.$refs.markerLayer.setStyle((features) =>
@@ -117,10 +121,18 @@ export default {
     },
     setStyle(feature) {
       // マーカーのタイプを色のインデックスにする
-      const index = this.types.indexOf(feature.get('type'));
+      let index = this.types.indexOf(feature.get('type'));
+
+      if (this.types.length < this.set.markerColor.length / 2) {
+        // マーカーの種類が少ない場合は1パレット分スキップする
+        index++;
+      }
       const style = valuesOf(styles)[index];
-      if (feature.get('label')) {
-        style.getText().setText(feature.get('label').toString());
+      const label = feature.values_.label
+        ? feature.values_.label.toString()
+        : '';
+      if (label && label.length <= 2) {
+        style.getText().setText(label);
       } else {
         style.getText().setText('');
       }
