@@ -74,6 +74,14 @@ export default {
               title: 'categories.flora-fungus',
               to: '/flora-fungus',
             },
+            {
+              title: 'categories.flora-rare',
+              to: '/flora-rare',
+            },
+            {
+              title: 'categories.flora-water',
+              to: '/flora-water',
+            },
           ],
         },
         {

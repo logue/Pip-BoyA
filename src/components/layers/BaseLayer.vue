@@ -1,18 +1,18 @@
 <template>
   <!-- Base map layers -->
   <vl-layer-group ref="baseLayers" :opacity="opacity" :z-index="0">
-    <vl-layer-tile :visible="!$root.$data.isMilitary">
+    <vl-layer-tile :visible="$root.$data.isMilitary === true">
       <vl-source-xyz
-        :url="'/img/tiles/base/{z}/{x}/{y}.webp'"
+        :url="'/img/tiles/military/{z}/{x}/{y}.webp'"
         :projection="config.projection"
         :min-zoom="config.minZoom"
         :max-zoom="config.maxZoom"
         :tile-pixe-ratio="config.tilePixelRatio"
       />
     </vl-layer-tile>
-    <vl-layer-tile :visible="$root.$data.isMilitary">
+    <vl-layer-tile :visible="!$root.$data.isMilitary">
       <vl-source-xyz
-        :url="'/img/tiles/military/{z}/{x}/{y}.webp'"
+        :url="'/img/tiles/base/{z}/{x}/{y}.webp'"
         :projection="config.projection"
         :min-zoom="config.minZoom"
         :max-zoom="config.maxZoom"

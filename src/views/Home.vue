@@ -169,6 +169,7 @@ export default {
       this.$refs.map.$map
         .getView()
         .fit(this.config.extent, this.$refs.map.$map.getSize());
+
       this.$root.$data.loading = false;
     },
     // マップ移動開始時

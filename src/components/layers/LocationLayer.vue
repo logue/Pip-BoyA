@@ -20,7 +20,7 @@ export default {
       iconCache: {},
       // Markers
       features: [],
-      visible: this.$root.$data.displayLocation,
+      visible: Boolean(this.$cookies.get('display-location')),
     };
   },
   watch: {
@@ -32,12 +32,9 @@ export default {
     },
   },
   mounted() {
-    this.$root.$data.loading = true;
-
     this.loadFeatures().then((features) => {
       this.features = features.map(Object.freeze);
       this.redraw();
-      this.$root.$data.loading = false;
     });
   },
   methods: {

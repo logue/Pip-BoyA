@@ -36,7 +36,7 @@ new Vue({
         z: 1,
       },
       // display location
-      displayLocation: Boolean(this.$cookies.get('display-location')) || true,
+      displayLocation: Boolean(this.$cookies.get('display-location')) || false,
       // loading overlay
       loading: true,
     };
