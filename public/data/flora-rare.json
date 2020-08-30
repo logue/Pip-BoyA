@@ -1,0 +1,7313 @@
+{
+  "markers": [
+    {
+      "id": "002930E0",
+      "type": "WildMelonVineMarker",
+      "x": 1601.437622,
+      "y": 15039.53809
+    },
+    {
+      "id": "005455E0",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 6056.700196,
+      "y": -5552.167969
+    },
+    {
+      "id": "00031328",
+      "type": "PumpkinMarker",
+      "x": 108881.7969,
+      "y": 131127.9063
+    },
+    {
+      "id": "00032076",
+      "type": "PumpkinMarker",
+      "x": 108992.1641,
+      "y": 131294.4063
+    },
+    {
+      "id": "00032079",
+      "type": "PumpkinMarker",
+      "x": 109031.2188,
+      "y": 131312.7188
+    },
+    {
+      "id": "00032447",
+      "type": "PumpkinVeinMarker",
+      "x": 108953.6719,
+      "y": 131320.0156
+    },
+    {
+      "id": "00032449",
+      "type": "PumpkinMarker",
+      "x": 108882.5703,
+      "y": 131292.0313
+    },
+    {
+      "id": "003642E1",
+      "type": "WildGourdVineMarker",
+      "x": 139793.125,
+      "y": -56092.95313
+    },
+    {
+      "id": "00037670",
+      "type": "PumpkinVeinMarker",
+      "x": 110530.0625,
+      "y": 129168.8516
+    },
+    {
+      "id": "000384E2",
+      "type": "PumpkinMarker",
+      "x": 110493.3594,
+      "y": 129163.3906
+    },
+    {
+      "id": "00038516",
+      "type": "PumpkinMarker",
+      "x": 110408.1406,
+      "y": 129144.1016
+    },
+    {
+      "id": "00038555",
+      "type": "PumpkinMarker",
+      "x": 110408.625,
+      "y": 129114.7891
+    },
+    {
+      "id": "00038602",
+      "type": "PumpkinMarker",
+      "x": 110384.25,
+      "y": 129025.8672
+    },
+    {
+      "id": "00040346",
+      "type": "WildMelonVineMarker",
+      "x": 177562.0469,
+      "y": -58699.58594
+    },
+    {
+      "id": "00040348",
+      "type": "WildMelonVineMarker",
+      "x": 177839.3906,
+      "y": -58704.69922
+    },
+    {
+      "id": "00040349",
+      "type": "WildMelonVineMarker",
+      "x": -119982.3359,
+      "y": 171152.0938
+    },
+    {
+      "id": "00051290",
+      "type": "WildGourdVineMarker",
+      "x": 185269,
+      "y": 146443.125
+    },
+    {
+      "id": "00051291",
+      "type": "WildGourdVineMarker",
+      "x": 195775.5313,
+      "y": 140349.4063
+    },
+    {
+      "id": "00051464",
+      "type": "WildGourdVineMarker",
+      "x": 187794.375,
+      "y": 145908.25
+    },
+    {
+      "id": "00051465",
+      "type": "WildGourdVineMarker",
+      "x": 181074.9375,
+      "y": 144932.1094
+    },
+    {
+      "id": "00051466",
+      "type": "WildGourdVineMarker",
+      "x": -54565.87109,
+      "y": -54468.37109
+    },
+    {
+      "id": "00051467",
+      "type": "WildGourdVineMarker",
+      "x": 140675.2031,
+      "y": 71801.6875
+    },
+    {
+      "id": "00051468",
+      "type": "WildGourdVineMarker",
+      "x": -91547.75,
+      "y": 161966.8438
+    },
+    {
+      "id": "00051630",
+      "type": "WildGourdVineMarker",
+      "x": 189047.2969,
+      "y": 152157.8906
+    },
+    {
+      "id": "00054730",
+      "type": "WildGourdVineMarker",
+      "x": 91945.16406,
+      "y": 100341.6484
+    },
+    {
+      "id": "00054731",
+      "type": "WildGourdVineMarker",
+      "x": 195733.0938,
+      "y": 131957.2188
+    },
+    {
+      "id": "00054732",
+      "type": "WildGourdVineMarker",
+      "x": 154893.5156,
+      "y": 72645.78906
+    },
+    {
+      "id": "00054735",
+      "type": "WildGourdVineMarker",
+      "x": 140889.5469,
+      "y": -13506.66602
+    },
+    {
+      "id": "00054736",
+      "type": "WildGourdVineMarker",
+      "x": 91910.47656,
+      "y": 100239.0078
+    },
+    {
+      "id": "00054737",
+      "type": "WildGourdVineMarker",
+      "x": 169233.2969,
+      "y": 181912.7344
+    },
+    {
+      "id": "00054738",
+      "type": "WildGourdVineMarker",
+      "x": 185065.5781,
+      "y": 144835.875
+    },
+    {
+      "id": "00054739",
+      "type": "WildGourdVineMarker",
+      "x": 156394.1094,
+      "y": -50715.71484
+    },
+    {
+      "id": "00054752",
+      "type": "WildGourdVineMarker",
+      "x": -54423.40234,
+      "y": -54061.48438
+    },
+    {
+      "id": "00054753",
+      "type": "WildGourdVineMarker",
+      "x": 195456.6094,
+      "y": 145540.9063
+    },
+    {
+      "id": "00054754",
+      "type": "WildGourdVineMarker",
+      "x": 167195.9688,
+      "y": -31540.45508
+    },
+    {
+      "id": "00054755",
+      "type": "WildGourdVineMarker",
+      "x": 140595.0313,
+      "y": 71798.11719
+    },
+    {
+      "id": "00054756",
+      "type": "WildGourdVineMarker",
+      "x": 138766.3438,
+      "y": 381.078308
+    },
+    {
+      "id": "00054760",
+      "type": "WildGourdVineMarker",
+      "x": 195109.375,
+      "y": 143850.2188
+    },
+    {
+      "id": "00057203",
+      "type": "WildGourdVineMarker",
+      "x": 13949.49902,
+      "y": -6083.271485
+    },
+    {
+      "id": "00057206",
+      "type": "WildMelonVineMarker",
+      "x": 13869.57227,
+      "y": -5936.436523
+    },
+    {
+      "id": "00066117",
+      "type": "WildGourdVineMarker",
+      "x": 195743.8125,
+      "y": -172649.1563
+    },
+    {
+      "id": "00152306",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -108235.7031,
+      "y": 13502.87109
+    },
+    {
+      "id": "00152307",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -108041.2891,
+      "y": 13284.89941
+    },
+    {
+      "id": "00256156",
+      "type": "GinsengMarker",
+      "x": 27769.51367,
+      "y": 100340.4375
+    },
+    {
+      "id": "00256766",
+      "type": "GinsengMarker",
+      "x": 25804.70899,
+      "y": 98078.32813
+    },
+    {
+      "id": "00278818",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -145393.4531,
+      "y": -61207.78516
+    },
+    {
+      "id": "00293111",
+      "type": "WildMelonVineMarker",
+      "x": 2204.050293,
+      "y": 15323.9375
+    },
+    {
+      "id": "00293112",
+      "type": "WildMelonVineMarker",
+      "x": 2435.737305,
+      "y": 15036.85449
+    },
+    {
+      "id": "00293113",
+      "type": "WildMelonVineMarker",
+      "x": 2248.012207,
+      "y": 14979.19238
+    },
+    {
+      "id": "00293114",
+      "type": "WildMelonVineMarker",
+      "x": 1409.155883,
+      "y": 15220.61621
+    },
+    {
+      "id": "00293160",
+      "type": "WildMelonVineMarker",
+      "x": 2412.739258,
+      "y": 15045.98242
+    },
+    {
+      "id": "00293177",
+      "type": "WildMelonVineMarker",
+      "x": 1416.867553,
+      "y": 15471.43164
+    },
+    {
+      "id": "00293349",
+      "type": "WildMelonVineMarker",
+      "x": 1580.114746,
+      "y": 15084.06641
+    },
+    {
+      "id": "00331771",
+      "type": "WildGourdVineMarker",
+      "x": 155509.0313,
+      "y": 107096.8672
+    },
+    {
+      "id": "00331772",
+      "type": "WildGourdVineMarker",
+      "x": 155407.1094,
+      "y": 107112.4219
+    },
+    {
+      "id": "00331773",
+      "type": "WildGourdVineMarker",
+      "x": 155434.5,
+      "y": 107034.875
+    },
+    {
+      "id": "00332040",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -57934.82813,
+      "y": -111115.4219
+    },
+    {
+      "id": "00332044",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -60638.05469,
+      "y": -110065.0391
+    },
+    {
+      "id": "00332045",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -60746.88672,
+      "y": -111357.1953
+    },
+    {
+      "id": "00332047",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -62259.28125,
+      "y": -111685.1797
+    },
+    {
+      "id": "00332048",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -61911.32031,
+      "y": -110010.8203
+    },
+    {
+      "id": "00359530",
+      "type": "PumpkinMarker",
+      "x": -37773.97656,
+      "y": -155259.125
+    },
+    {
+      "id": "00359531",
+      "type": "PumpkinMarker",
+      "x": -38249.86328,
+      "y": -155973.6094
+    },
+    {
+      "id": "00359532",
+      "type": "PumpkinMarker",
+      "x": -38255.60156,
+      "y": -155828.2031
+    },
+    {
+      "id": "00359544",
+      "type": "PumpkinMarker",
+      "x": -37496.30078,
+      "y": -155430.7188
+    },
+    {
+      "id": "00363180",
+      "type": "WildGourdVineMarker",
+      "x": 131927.5156,
+      "y": -177734.7344
+    },
+    {
+      "id": "00363187",
+      "type": "WildMelonVineMarker",
+      "x": 141616.6406,
+      "y": -171893.125
+    },
+    {
+      "id": "003642E2",
+      "type": "WildGourdVineMarker",
+      "x": 139865.75,
+      "y": -55980.16016
+    },
+    {
+      "id": "00370952",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -146032.5,
+      "y": -158512.8125
+    },
+    {
+      "id": "00370986",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -145855.9844,
+      "y": -152648.1563
+    },
+    {
+      "id": "00371514",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -136361.8438,
+      "y": -149710.0781
+    },
+    {
+      "id": "00371587",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -130438.5156,
+      "y": -153553.1875
+    },
+    {
+      "id": "00371650",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -152380.4531,
+      "y": -142222.9531
+    },
+    {
+      "id": "00391946",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -145754.75,
+      "y": -163290.5313
+    },
+    {
+      "id": "00391947",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -145805.6406,
+      "y": -163589.7188
+    },
+    {
+      "id": "00391948",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -145626.4844,
+      "y": -163810.4375
+    },
+    {
+      "id": "00393263",
+      "type": "WildGourdVineMarker",
+      "x": 129193.5078,
+      "y": 59077.68359
+    },
+    {
+      "id": "00393265",
+      "type": "WildGourdVineMarker",
+      "x": 129293.875,
+      "y": 59031.31641
+    },
+    {
+      "id": "00393331",
+      "type": "WildGourdVineMarker",
+      "x": 138109.8906,
+      "y": 59355.07422
+    },
+    {
+      "id": "00393332",
+      "type": "WildGourdVineMarker",
+      "x": 138048.8438,
+      "y": 59394.14063
+    },
+    {
+      "id": "00395529",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -156909.4844,
+      "y": -162453.2656
+    },
+    {
+      "id": "00403580",
+      "type": "KaleidoporeMarker",
+      "x": -937.360657,
+      "y": -4024.938721
+    },
+    {
+      "id": "00403582",
+      "type": "KaleidoporeMarker",
+      "x": -379.575104,
+      "y": -3737.290772
+    },
+    {
+      "id": "00403587",
+      "type": "KaleidoporeMarker",
+      "x": 927.5542,
+      "y": -5333.177735
+    },
+    {
+      "id": "00403589",
+      "type": "KaleidoporeMarker",
+      "x": -25.068388,
+      "y": -5797.023925
+    },
+    {
+      "id": "00416341",
+      "type": "PumpkinVeinMarker",
+      "x": -12379.45996,
+      "y": -1608.027344
+    },
+    {
+      "id": "00416342",
+      "type": "PumpkinMarker",
+      "x": -12455.56152,
+      "y": -1559.966064
+    },
+    {
+      "id": "00426256",
+      "type": "MelonVineMarker",
+      "x": -7113.490723,
+      "y": -4980.631836
+    },
+    {
+      "id": "00426257",
+      "type": "MelonVineMarker",
+      "x": -6977.703125,
+      "y": -4900.444336
+    },
+    {
+      "id": "00426258",
+      "type": "MelonVineMarker",
+      "x": -6886.086914,
+      "y": -4789.600586
+    },
+    {
+      "id": "00426389",
+      "type": "MelonVineMarker",
+      "x": -6285.496094,
+      "y": -6191.338867
+    },
+    {
+      "id": "00437592",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -132688.1563,
+      "y": -70801.20313
+    },
+    {
+      "id": "00502905",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 177521.5938,
+      "y": -59068.37109
+    },
+    {
+      "id": "00502906",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 178697,
+      "y": -59018.58203
+    },
+    {
+      "id": "00502907",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 92186.95313,
+      "y": 32969.80078
+    },
+    {
+      "id": "00502908",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -163014.875,
+      "y": 137662.2344
+    },
+    {
+      "id": "00502909",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -122148.0469,
+      "y": 173442.2188
+    },
+    {
+      "id": "00507526",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -121330.5234,
+      "y": 174214.8125
+    },
+    {
+      "id": "00507527",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 177830.6563,
+      "y": -58889.15625
+    },
+    {
+      "id": "00507528",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 178108.1563,
+      "y": -59056.63281
+    },
+    {
+      "id": "00507529",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 11247.45801,
+      "y": 72252.05469
+    },
+    {
+      "id": "00527603",
+      "type": "WildGourdVineMarker",
+      "x": 5.424316,
+      "y": -3.886719
+    },
+    {
+      "id": "00545500",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 9290.297852,
+      "y": -11699.85156
+    },
+    {
+      "id": "00545501",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 9796.577148,
+      "y": -12056.7041
+    },
+    {
+      "id": "00545502",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 10405.07422,
+      "y": -10465.60449
+    },
+    {
+      "id": "00545503",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 10439.95899,
+      "y": -9237.283203
+    },
+    {
+      "id": "00545504",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 10529.8291,
+      "y": -9303.71875
+    },
+    {
+      "id": "00549082",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -4656.945312,
+      "y": 6073.11084
+    },
+    {
+      "id": "00549083",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -4539.210938,
+      "y": 6124.287598
+    },
+    {
+      "id": "00549084",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -4339.28125,
+      "y": 6244.705078
+    },
+    {
+      "id": "00549085",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -4238.976562,
+      "y": 6290.327637
+    },
+    {
+      "id": "00549086",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -4441.898438,
+      "y": 6180.373046
+    },
+    {
+      "id": "00549087",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -4109.601563,
+      "y": 6325.63623
+    },
+    {
+      "id": "00549088",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -4002.117188,
+      "y": 6383.667969
+    },
+    {
+      "id": "00549089",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -3899.65625,
+      "y": 6429.746094
+    },
+    {
+      "id": "002931E5",
+      "type": "WildMelonVineMarker",
+      "x": -98835.3125,
+      "y": 101946.1406
+    },
+    {
+      "id": "000320E7",
+      "type": "PumpkinVeinMarker",
+      "x": 109088.2344,
+      "y": 131315.6094
+    },
+    {
+      "id": "002931E7",
+      "type": "WildMelonVineMarker",
+      "x": -98802.42188,
+      "y": 101629.3906
+    },
+    {
+      "id": "003715E7",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -121987.9531,
+      "y": -146423.2031
+    },
+    {
+      "id": "002932E8",
+      "type": "WildMelonVineMarker",
+      "x": 2079.069092,
+      "y": 14290.77441
+    },
+    {
+      "id": "002932E9",
+      "type": "WildMelonVineMarker",
+      "x": 2268.515136,
+      "y": 14219.96191
+    },
+    {
+      "id": "00130E56",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 121616.2266,
+      "y": 35634.50781
+    },
+    {
+      "id": "00130E70",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": 121540.0938,
+      "y": 35767.13672
+    },
+    {
+      "id": "00156E82",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 9066.854492,
+      "y": 2417.486084
+    },
+    {
+      "id": "00156E88",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 8997.308593,
+      "y": 2418.036621
+    },
+    {
+      "id": "00549E92",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 35249.36328,
+      "y": -104471.7813
+    },
+    {
+      "id": "00549E93",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 35184.01563,
+      "y": -104656.0938
+    },
+    {
+      "id": "00549E94",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 35078.93359,
+      "y": -104693.8672
+    },
+    {
+      "id": "00549E95",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 34980.19922,
+      "y": -104732.4688
+    },
+    {
+      "id": "00549E96",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 34875.10547,
+      "y": -104765.6016
+    },
+    {
+      "id": "00050E98",
+      "type": "WildGourdVineMarker",
+      "x": 179302.6094,
+      "y": 129803.4297
+    },
+    {
+      "id": "00050E99",
+      "type": "WildGourdVineMarker",
+      "x": 172860.9531,
+      "y": 140732.7813
+    },
+    {
+      "id": "0036E247",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -148048.0625,
+      "y": -93147.02344
+    },
+    {
+      "id": "0036E249",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -148122.0313,
+      "y": -93376.4375
+    },
+    {
+      "id": "00001C6F",
+      "type": "PumpkinMarker",
+      "x": -354.229248,
+      "y": -312.387604
+    },
+    {
+      "id": "0000B3EB",
+      "type": "WildGourdVineMarker",
+      "x": 9035.074219,
+      "y": 4025.507813
+    },
+    {
+      "id": "0000B3EC",
+      "type": "WildGourdVineMarker",
+      "x": 9254.09375,
+      "y": 4441.539063
+    },
+    {
+      "id": "0000B3ED",
+      "type": "WildGourdVineMarker",
+      "x": 9132.789063,
+      "y": 4681.796875
+    },
+    {
+      "id": "0000B3EE",
+      "type": "WildGourdVineMarker",
+      "x": 9076.390625,
+      "y": 4394.015625
+    },
+    {
+      "id": "0001A7D1",
+      "type": "PumpkinMarker",
+      "x": -122282.2813,
+      "y": 179867.9531
+    },
+    {
+      "id": "0003156D",
+      "type": "PumpkinVeinMarker",
+      "x": 108971.0703,
+      "y": 131104.9688
+    },
+    {
+      "id": "00031AC0",
+      "type": "PumpkinVeinMarker",
+      "x": 108956.9453,
+      "y": 131076.9063
+    },
+    {
+      "id": "00031ACC",
+      "type": "PumpkinVeinMarker",
+      "x": 109075.3594,
+      "y": 131419.4375
+    },
+    {
+      "id": "00031AF4",
+      "type": "PumpkinVeinMarker",
+      "x": 108952.0625,
+      "y": 131274.6563
+    },
+    {
+      "id": "00031F9F",
+      "type": "PumpkinMarker",
+      "x": 108915.5469,
+      "y": 131232.2656
+    },
+    {
+      "id": "00031FA3",
+      "type": "PumpkinVeinMarker",
+      "x": 108933.5469,
+      "y": 131182.6094
+    },
+    {
+      "id": "00031FB3",
+      "type": "PumpkinMarker",
+      "x": 108868.9531,
+      "y": 131178.5625
+    },
+    {
+      "id": "0003202A",
+      "type": "PumpkinVeinMarker",
+      "x": 109044.0703,
+      "y": 131171.7656
+    },
+    {
+      "id": "0003208C",
+      "type": "PumpkinMarker",
+      "x": 108968.5703,
+      "y": 131375.2813
+    },
+    {
+      "id": "000322F2",
+      "type": "PumpkinVeinMarker",
+      "x": 109036.4531,
+      "y": 131389.4063
+    },
+    {
+      "id": "0003245B",
+      "type": "PumpkinMarker",
+      "x": 108905.4141,
+      "y": 131321.6719
+    },
+    {
+      "id": "000324B0",
+      "type": "PumpkinVeinMarker",
+      "x": 108904.7969,
+      "y": 131377.625
+    },
+    {
+      "id": "000324F5",
+      "type": "PumpkinMarker",
+      "x": 109899.7266,
+      "y": 130019.5859
+    },
+    {
+      "id": "000324F8",
+      "type": "PumpkinMarker",
+      "x": 109891.6563,
+      "y": 130061.7109
+    },
+    {
+      "id": "000374DF",
+      "type": "PumpkinVeinMarker",
+      "x": 110281.5859,
+      "y": 129192.875
+    },
+    {
+      "id": "00037F09",
+      "type": "PumpkinMarker",
+      "x": 110211.5938,
+      "y": 129138.7422
+    },
+    {
+      "id": "00037F1D",
+      "type": "PumpkinVeinMarker",
+      "x": 110384.9844,
+      "y": 129208.7969
+    },
+    {
+      "id": "00037F42",
+      "type": "PumpkinMarker",
+      "x": 110531.8906,
+      "y": 129018.8047
+    },
+    {
+      "id": "00037F7E",
+      "type": "PumpkinMarker",
+      "x": 110592.0313,
+      "y": 129034.3203
+    },
+    {
+      "id": "00037FA3",
+      "type": "PumpkinVeinMarker",
+      "x": 110618.1563,
+      "y": 129091.5313
+    },
+    {
+      "id": "00037FD5",
+      "type": "PumpkinMarker",
+      "x": 110473.3359,
+      "y": 129038.6172
+    },
+    {
+      "id": "00037FEE",
+      "type": "PumpkinMarker",
+      "x": 110510.5,
+      "y": 129123.2266
+    },
+    {
+      "id": "00037FF9",
+      "type": "PumpkinVeinMarker",
+      "x": 110598.9844,
+      "y": 129097.8594
+    },
+    {
+      "id": "000384C4",
+      "type": "PumpkinVeinMarker",
+      "x": 110522.4375,
+      "y": 129058.0547
+    },
+    {
+      "id": "0003853C",
+      "type": "PumpkinVeinMarker",
+      "x": 110346.5,
+      "y": 129131.5781
+    },
+    {
+      "id": "00038A5A",
+      "type": "PumpkinVeinMarker",
+      "x": 110352.6719,
+      "y": 129112.3594
+    },
+    {
+      "id": "00038B35",
+      "type": "PumpkinVeinMarker",
+      "x": 110352.4141,
+      "y": 129030.4063
+    },
+    {
+      "id": "00038CB4",
+      "type": "PumpkinVeinMarker",
+      "x": 110429.9063,
+      "y": 129073.8828
+    },
+    {
+      "id": "0003D2FC",
+      "type": "PumpkinVeinMarker",
+      "x": 111003.4141,
+      "y": 131595.6563
+    },
+    {
+      "id": "0003D304",
+      "type": "PumpkinMarker",
+      "x": 111083.9141,
+      "y": 131599.9063
+    },
+    {
+      "id": "0003D309",
+      "type": "PumpkinVeinMarker",
+      "x": 111055.7813,
+      "y": 131680.6563
+    },
+    {
+      "id": "0003D30D",
+      "type": "PumpkinMarker",
+      "x": 110969.3047,
+      "y": 131794.0156
+    },
+    {
+      "id": "0003D32F",
+      "type": "PumpkinMarker",
+      "x": 111313.5156,
+      "y": 131870.3281
+    },
+    {
+      "id": "0003D33F",
+      "type": "PumpkinMarker",
+      "x": 111281.0391,
+      "y": 131880.5313
+    },
+    {
+      "id": "0003D35A",
+      "type": "PumpkinMarker",
+      "x": 111163.5938,
+      "y": 131473.5313
+    },
+    {
+      "id": "0003D390",
+      "type": "PumpkinMarker",
+      "x": 111137.2969,
+      "y": 131546.3281
+    },
+    {
+      "id": "0003D392",
+      "type": "PumpkinVeinMarker",
+      "x": 111194.5078,
+      "y": 131520.2031
+    },
+    {
+      "id": "0003D3AC",
+      "type": "PumpkinVeinMarker",
+      "x": 111117.9531,
+      "y": 131480.4063
+    },
+    {
+      "id": "0003D3AE",
+      "type": "PumpkinMarker",
+      "x": 111154.1563,
+      "y": 131570.3438
+    },
+    {
+      "id": "0003D3C1",
+      "type": "PumpkinMarker",
+      "x": 111226.2031,
+      "y": 131627.8594
+    },
+    {
+      "id": "0003D3C5",
+      "type": "PumpkinVeinMarker",
+      "x": 111200.8359,
+      "y": 131539.375
+    },
+    {
+      "id": "0003D3DA",
+      "type": "PumpkinVeinMarker",
+      "x": 111271.8281,
+      "y": 131608.2969
+    },
+    {
+      "id": "0003D3DF",
+      "type": "PumpkinVeinMarker",
+      "x": 111161.0313,
+      "y": 131615.9219
+    },
+    {
+      "id": "0003D3EF",
+      "type": "PumpkinMarker",
+      "x": 111266.3672,
+      "y": 131645
+    },
+    {
+      "id": "0003F73A",
+      "type": "PumpkinMarker",
+      "x": 111290.4922,
+      "y": 131794.2969
+    },
+    {
+      "id": "0003F73E",
+      "type": "PumpkinMarker",
+      "x": 111247.0781,
+      "y": 131730.2188
+    },
+    {
+      "id": "0003F74C",
+      "type": "PumpkinVeinMarker",
+      "x": 111234.5547,
+      "y": 131791.8594
+    },
+    {
+      "id": "0003F750",
+      "type": "PumpkinVeinMarker",
+      "x": 111311.7734,
+      "y": 131753.375
+    },
+    {
+      "id": "0003F755",
+      "type": "PumpkinMarker",
+      "x": 111217.7656,
+      "y": 131729.7344
+    },
+    {
+      "id": "0003F762",
+      "type": "PumpkinMarker",
+      "x": 111128.8359,
+      "y": 131754.1094
+    },
+    {
+      "id": "0003F7A5",
+      "type": "PumpkinVeinMarker",
+      "x": 111215.3359,
+      "y": 131785.6875
+    },
+    {
+      "id": "0003F8DE",
+      "type": "PumpkinVeinMarker",
+      "x": 111104.9141,
+      "y": 131813.1719
+    },
+    {
+      "id": "0003F933",
+      "type": "PumpkinVeinMarker",
+      "x": 111176.8594,
+      "y": 131708.4531
+    },
+    {
+      "id": "0003F93F",
+      "type": "PumpkinMarker",
+      "x": 111087.1172,
+      "y": 131830.4531
+    },
+    {
+      "id": "00041C2A",
+      "type": "WildMelonVineMarker",
+      "x": -98749.41406,
+      "y": 101898.3594
+    },
+    {
+      "id": "00041C2B",
+      "type": "WildMelonVineMarker",
+      "x": 178053.0313,
+      "y": -58681.19141
+    },
+    {
+      "id": "00041C2C",
+      "type": "WildMelonVineMarker",
+      "x": 178687.9219,
+      "y": -58708.11328
+    },
+    {
+      "id": "00041C2D",
+      "type": "WildMelonVineMarker",
+      "x": -119685.3594,
+      "y": 170378.25
+    },
+    {
+      "id": "00041C2E",
+      "type": "WildMelonVineMarker",
+      "x": 178276.8906,
+      "y": -58684.42969
+    },
+    {
+      "id": "00043C5B",
+      "type": "WildMelonVineMarker",
+      "x": 178484.5156,
+      "y": -58709.42188
+    },
+    {
+      "id": "00043C5C",
+      "type": "WildMelonVineMarker",
+      "x": -145281.6719,
+      "y": -61067.97656
+    },
+    {
+      "id": "00043C5D",
+      "type": "WildMelonVineMarker",
+      "x": -31554.01172,
+      "y": 88920.99219
+    },
+    {
+      "id": "00043C5E",
+      "type": "WildMelonVineMarker",
+      "x": -97794.94531,
+      "y": 62136.30469
+    },
+    {
+      "id": "00043C5F",
+      "type": "WildMelonVineMarker",
+      "x": -97773.85938,
+      "y": 61982.76563
+    },
+    {
+      "id": "00043DC0",
+      "type": "WildMelonVineMarker",
+      "x": -119240,
+      "y": 173439.8281
+    },
+    {
+      "id": "00043DC1",
+      "type": "WildMelonVineMarker",
+      "x": -98811.07031,
+      "y": 101541.1406
+    },
+    {
+      "id": "00043DC2",
+      "type": "WildMelonVineMarker",
+      "x": -119670.2891,
+      "y": 172568.5313
+    },
+    {
+      "id": "00050D50",
+      "type": "WildGourdVineMarker",
+      "x": -54232.30469,
+      "y": -54216.74609
+    },
+    {
+      "id": "00050D51",
+      "type": "WildGourdVineMarker",
+      "x": -54614.25,
+      "y": -54085.07813
+    },
+    {
+      "id": "00050D52",
+      "type": "WildGourdVineMarker",
+      "x": -91458.08594,
+      "y": 162159.5469
+    },
+    {
+      "id": "00050D53",
+      "type": "WildGourdVineMarker",
+      "x": 91786.09375,
+      "y": 100365.25
+    },
+    {
+      "id": "00050D54",
+      "type": "WildGourdVineMarker",
+      "x": 167253,
+      "y": -31648.0332
+    },
+    {
+      "id": "00050D59",
+      "type": "WildGourdVineMarker",
+      "x": 141656.2031,
+      "y": -40679.32813
+    },
+    {
+      "id": "00050D5A",
+      "type": "WildGourdVineMarker",
+      "x": 194192.4375,
+      "y": 142071.8281
+    },
+    {
+      "id": "00050D5B",
+      "type": "WildGourdVineMarker",
+      "x": -145402.5,
+      "y": 194305.1875
+    },
+    {
+      "id": "00050D5C",
+      "type": "WildGourdVineMarker",
+      "x": 170952.4688,
+      "y": 140536.5313
+    },
+    {
+      "id": "00050D5D",
+      "type": "WildGourdVineMarker",
+      "x": -145365.4688,
+      "y": 193762.5
+    },
+    {
+      "id": "00050D9A",
+      "type": "PumpkinMarker",
+      "x": -329.477356,
+      "y": -262.499756
+    },
+    {
+      "id": "00050D9B",
+      "type": "PumpkinVeinMarker",
+      "x": -317.517029,
+      "y": -209.679595
+    },
+    {
+      "id": "00050E0B",
+      "type": "WildGourdVineMarker",
+      "x": 191802.4063,
+      "y": 170344.8594
+    },
+    {
+      "id": "00050E0C",
+      "type": "WildGourdVineMarker",
+      "x": 177677.0313,
+      "y": 135933.7656
+    },
+    {
+      "id": "00050E0D",
+      "type": "WildGourdVineMarker",
+      "x": 138652.6563,
+      "y": 560.65149
+    },
+    {
+      "id": "00050E0E",
+      "type": "WildGourdVineMarker",
+      "x": 138544.9219,
+      "y": 700.566101
+    },
+    {
+      "id": "00050E0F",
+      "type": "WildGourdVineMarker",
+      "x": 175452.5938,
+      "y": 150133.7344
+    },
+    {
+      "id": "00050E9A",
+      "type": "WildGourdVineMarker",
+      "x": 189755.2656,
+      "y": 147136.2344
+    },
+    {
+      "id": "00050E9B",
+      "type": "WildGourdVineMarker",
+      "x": 169031.125,
+      "y": 181895.8125
+    },
+    {
+      "id": "00050E9C",
+      "type": "WildGourdVineMarker",
+      "x": 140597.8281,
+      "y": -13818.61231
+    },
+    {
+      "id": "00050EE2",
+      "type": "WildGourdVineMarker",
+      "x": -55208.58203,
+      "y": -53935.80469
+    },
+    {
+      "id": "00050EE3",
+      "type": "WildGourdVineMarker",
+      "x": 140549.1719,
+      "y": 75311.44531
+    },
+    {
+      "id": "00050EE4",
+      "type": "WildGourdVineMarker",
+      "x": 194358.4063,
+      "y": 127508.4297
+    },
+    {
+      "id": "00050EE5",
+      "type": "WildGourdVineMarker",
+      "x": 140565.375,
+      "y": -13282.72852
+    },
+    {
+      "id": "00050EE6",
+      "type": "WildGourdVineMarker",
+      "x": 172300.6406,
+      "y": 131738.5156
+    },
+    {
+      "id": "00050EFC",
+      "type": "WildGourdVineMarker",
+      "x": 183015.4844,
+      "y": 146462.8594
+    },
+    {
+      "id": "00050EFD",
+      "type": "WildGourdVineMarker",
+      "x": 169060.6875,
+      "y": 140808.5625
+    },
+    {
+      "id": "00050EFE",
+      "type": "WildGourdVineMarker",
+      "x": 177525.5313,
+      "y": 135712.4219
+    },
+    {
+      "id": "00050EFF",
+      "type": "WildGourdVineMarker",
+      "x": -54692.80078,
+      "y": -54124.03516
+    },
+    {
+      "id": "00050F00",
+      "type": "WildGourdVineMarker",
+      "x": 195846.9063,
+      "y": 136400.6563
+    },
+    {
+      "id": "0005128D",
+      "type": "WildGourdVineMarker",
+      "x": 140452,
+      "y": 75260.63281
+    },
+    {
+      "id": "0005128E",
+      "type": "WildGourdVineMarker",
+      "x": 177506.5781,
+      "y": 135899.4531
+    },
+    {
+      "id": "0005128F",
+      "type": "WildGourdVineMarker",
+      "x": 171068.0938,
+      "y": 142697.7188
+    },
+    {
+      "id": "0005149E",
+      "type": "WildGourdVineMarker",
+      "x": 141580.7188,
+      "y": -40732.17969
+    },
+    {
+      "id": "0005149F",
+      "type": "WildGourdVineMarker",
+      "x": 193350.8125,
+      "y": 146165.8281
+    },
+    {
+      "id": "000514A0",
+      "type": "WildGourdVineMarker",
+      "x": 191302.375,
+      "y": 153152.625
+    },
+    {
+      "id": "000514A1",
+      "type": "WildGourdVineMarker",
+      "x": 187411.1563,
+      "y": 165341.0938
+    },
+    {
+      "id": "000515BB",
+      "type": "WildGourdVineMarker",
+      "x": 193399.6094,
+      "y": 129879.7266
+    },
+    {
+      "id": "000515BC",
+      "type": "WildGourdVineMarker",
+      "x": -144134.5781,
+      "y": 194059.2031
+    },
+    {
+      "id": "000515BD",
+      "type": "WildGourdVineMarker",
+      "x": -145130.4688,
+      "y": -61293.75781
+    },
+    {
+      "id": "000515BE",
+      "type": "WildGourdVineMarker",
+      "x": 186763.2188,
+      "y": 150345.0469
+    },
+    {
+      "id": "000515BF",
+      "type": "WildGourdVineMarker",
+      "x": 91840.78125,
+      "y": 100309.1406
+    },
+    {
+      "id": "000515D3",
+      "type": "WildGourdVineMarker",
+      "x": 144446.1875,
+      "y": -26306.35938
+    },
+    {
+      "id": "000515D4",
+      "type": "WildGourdVineMarker",
+      "x": 144404.2656,
+      "y": -26262.93359
+    },
+    {
+      "id": "000515D5",
+      "type": "WildGourdVineMarker",
+      "x": 176884.6719,
+      "y": 180802.0156
+    },
+    {
+      "id": "000515D6",
+      "type": "WildGourdVineMarker",
+      "x": -91336.48438,
+      "y": 162391.4531
+    },
+    {
+      "id": "000515D7",
+      "type": "WildGourdVineMarker",
+      "x": 138614.25,
+      "y": 658.183044
+    },
+    {
+      "id": "000515DB",
+      "type": "WildGourdVineMarker",
+      "x": 154982.2969,
+      "y": 72620.97656
+    },
+    {
+      "id": "000515DC",
+      "type": "WildGourdVineMarker",
+      "x": -31401.73633,
+      "y": 89217.55469
+    },
+    {
+      "id": "000515DD",
+      "type": "WildGourdVineMarker",
+      "x": 189670.9531,
+      "y": 179372.5156
+    },
+    {
+      "id": "000515DE",
+      "type": "WildGourdVineMarker",
+      "x": 138523.2031,
+      "y": 788.267212
+    },
+    {
+      "id": "0005162C",
+      "type": "WildGourdVineMarker",
+      "x": 191082.6875,
+      "y": 179456.6094
+    },
+    {
+      "id": "0005162D",
+      "type": "WildGourdVineMarker",
+      "x": 181089.2656,
+      "y": 149972.2188
+    },
+    {
+      "id": "0005162E",
+      "type": "WildGourdVineMarker",
+      "x": 137096.4688,
+      "y": 80437.79688
+    },
+    {
+      "id": "0005162F",
+      "type": "WildGourdVineMarker",
+      "x": -91398.54688,
+      "y": 162325.7969
+    },
+    {
+      "id": "000525AE",
+      "type": "PumpkinMarker",
+      "x": 1680.057617,
+      "y": -4318.110351
+    },
+    {
+      "id": "000525B1",
+      "type": "PumpkinMarker",
+      "x": 1370.941651,
+      "y": -4314.76123
+    },
+    {
+      "id": "000525B4",
+      "type": "PumpkinMarker",
+      "x": 1389.161987,
+      "y": -4290.385742
+    },
+    {
+      "id": "000525B7",
+      "type": "PumpkinMarker",
+      "x": 173.658097,
+      "y": 38.17041
+    },
+    {
+      "id": "000525F7",
+      "type": "WildGourdVineMarker",
+      "x": 189593.7969,
+      "y": 129499.2422
+    },
+    {
+      "id": "000525F8",
+      "type": "WildGourdVineMarker",
+      "x": -144211.2969,
+      "y": 193989.6094
+    },
+    {
+      "id": "000525F9",
+      "type": "WildGourdVineMarker",
+      "x": 176885.2969,
+      "y": 180987.1719
+    },
+    {
+      "id": "000525FA",
+      "type": "WildGourdVineMarker",
+      "x": 167145.4844,
+      "y": -31635.21289
+    },
+    {
+      "id": "000525FB",
+      "type": "WildGourdVineMarker",
+      "x": -54654.65625,
+      "y": -54090.70703
+    },
+    {
+      "id": "0005270B",
+      "type": "PumpkinMarker",
+      "x": 2536.89502,
+      "y": -1618.634522
+    },
+    {
+      "id": "00052C8F",
+      "type": "WildGourdVineMarker",
+      "x": 184658.3281,
+      "y": 130448.3203
+    },
+    {
+      "id": "00052C90",
+      "type": "WildGourdVineMarker",
+      "x": -55207.15234,
+      "y": -54029.53906
+    },
+    {
+      "id": "00052C91",
+      "type": "WildGourdVineMarker",
+      "x": -54084.49609,
+      "y": -53935.06641
+    },
+    {
+      "id": "00052C92",
+      "type": "WildGourdVineMarker",
+      "x": 177701.5938,
+      "y": 138064.125
+    },
+    {
+      "id": "00052C93",
+      "type": "WildGourdVineMarker",
+      "x": 195423.4688,
+      "y": 128062.3125
+    },
+    {
+      "id": "00052FF9",
+      "type": "WildGourdVineMarker",
+      "x": 186917.2656,
+      "y": 144105
+    },
+    {
+      "id": "00052FFA",
+      "type": "WildGourdVineMarker",
+      "x": -54174.98047,
+      "y": -54128.85938
+    },
+    {
+      "id": "00052FFB",
+      "type": "WildGourdVineMarker",
+      "x": 190689.125,
+      "y": 175200.3906
+    },
+    {
+      "id": "00052FFC",
+      "type": "WildGourdVineMarker",
+      "x": -144540.8594,
+      "y": 194300.4219
+    },
+    {
+      "id": "00052FFD",
+      "type": "WildGourdVineMarker",
+      "x": 191835.8594,
+      "y": 145590.9063
+    },
+    {
+      "id": "000542EB",
+      "type": "WildGourdVineMarker",
+      "x": 187031.1094,
+      "y": 154192.5781
+    },
+    {
+      "id": "000542EC",
+      "type": "WildGourdVineMarker",
+      "x": -54518.94531,
+      "y": -53996.42578
+    },
+    {
+      "id": "000542ED",
+      "type": "WildGourdVineMarker",
+      "x": 174344.2969,
+      "y": 147690.5625
+    },
+    {
+      "id": "000542EE",
+      "type": "WildGourdVineMarker",
+      "x": -144590.2188,
+      "y": 193563.6875
+    },
+    {
+      "id": "000542EF",
+      "type": "WildGourdVineMarker",
+      "x": -54465,
+      "y": -54338.82031
+    },
+    {
+      "id": "000545F1",
+      "type": "WildGourdVineMarker",
+      "x": 189872.0625,
+      "y": 148974
+    },
+    {
+      "id": "000545F2",
+      "type": "WildGourdVineMarker",
+      "x": -91499.64063,
+      "y": 162068.875
+    },
+    {
+      "id": "000545F3",
+      "type": "WildGourdVineMarker",
+      "x": 187403.4688,
+      "y": 152860.125
+    },
+    {
+      "id": "000545F4",
+      "type": "WildGourdVineMarker",
+      "x": 170727.7969,
+      "y": 144192.9688
+    },
+    {
+      "id": "000545F5",
+      "type": "WildGourdVineMarker",
+      "x": 170528.9531,
+      "y": 129414.1641
+    },
+    {
+      "id": "0005472E",
+      "type": "WildGourdVineMarker",
+      "x": -54059.16406,
+      "y": -54365.25391
+    },
+    {
+      "id": "0005472F",
+      "type": "WildGourdVineMarker",
+      "x": -91396.74219,
+      "y": 162244.5313
+    },
+    {
+      "id": "0005475C",
+      "type": "WildGourdVineMarker",
+      "x": 138706.4688,
+      "y": 476.679688
+    },
+    {
+      "id": "0005475D",
+      "type": "WildGourdVineMarker",
+      "x": 137017.8438,
+      "y": 80427.875
+    },
+    {
+      "id": "0005475E",
+      "type": "WildGourdVineMarker",
+      "x": 181612.25,
+      "y": -168584.8906
+    },
+    {
+      "id": "0005475F",
+      "type": "WildGourdVineMarker",
+      "x": -54302.34375,
+      "y": -54110.44531
+    },
+    {
+      "id": "00054C37",
+      "type": "WildGourdVineMarker",
+      "x": 179089.2969,
+      "y": 154673.5781
+    },
+    {
+      "id": "00054C38",
+      "type": "WildGourdVineMarker",
+      "x": 181569.5469,
+      "y": -168643
+    },
+    {
+      "id": "00054C39",
+      "type": "WildGourdVineMarker",
+      "x": 196241.25,
+      "y": 134222.4844
+    },
+    {
+      "id": "00054C3A",
+      "type": "WildGourdVineMarker",
+      "x": 156442.0781,
+      "y": -50672.03906
+    },
+    {
+      "id": "000571B8",
+      "type": "WildMelonVineMarker",
+      "x": 14116.67188,
+      "y": -6113.536622
+    },
+    {
+      "id": "0005721B",
+      "type": "WildGourdVineMarker",
+      "x": 14039.12988,
+      "y": -5925.827148
+    },
+    {
+      "id": "00063A9F",
+      "type": "WildGourdVineMarker",
+      "x": 173853.3438,
+      "y": -173581.7656
+    },
+    {
+      "id": "00063AA1",
+      "type": "WildGourdVineMarker",
+      "x": 173853.5313,
+      "y": -173756.0781
+    },
+    {
+      "id": "00063AA7",
+      "type": "WildGourdVineMarker",
+      "x": 173916.8281,
+      "y": -173614.7344
+    },
+    {
+      "id": "00130E6F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 121503.3984,
+      "y": 35671.88281
+    },
+    {
+      "id": "00130EF5",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 121253.5234,
+      "y": 34959.625
+    },
+    {
+      "id": "00130EF6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 121422.0469,
+      "y": 35018.88672
+    },
+    {
+      "id": "00130F52",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 121322.0469,
+      "y": 35039.55469
+    },
+    {
+      "id": "001336A0",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 134110.3281,
+      "y": 27008.22656
+    },
+    {
+      "id": "001336A1",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 134071.5313,
+      "y": 27067.00977
+    },
+    {
+      "id": "00133ADB",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 134162.4219,
+      "y": 27094.53711
+    },
+    {
+      "id": "0013BDC8",
+      "type": "WildGourdVineMarker",
+      "x": -190.627167,
+      "y": 1110.605102
+    },
+    {
+      "id": "0013BDC9",
+      "type": "WildMelonVineMarker",
+      "x": -217.63446,
+      "y": 921.639405
+    },
+    {
+      "id": "001522F0",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -108097.6484,
+      "y": 13349.87207
+    },
+    {
+      "id": "001522F1",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -108047.375,
+      "y": 13415.7334
+    },
+    {
+      "id": "0015276B",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -108176.4141,
+      "y": 13574.45801
+    },
+    {
+      "id": "0015276C",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -108229.7734,
+      "y": 13648.2002
+    },
+    {
+      "id": "00156DAA",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 9070.47168,
+      "y": 2578.021728
+    },
+    {
+      "id": "00156E7E",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 9009.082031,
+      "y": 2570.16626
+    },
+    {
+      "id": "00156E7F",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 8965.402343,
+      "y": 2560.757325
+    },
+    {
+      "id": "00156E8B",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 8962.861328,
+      "y": 2416.526611
+    },
+    {
+      "id": "0015C778",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 431.847778,
+      "y": -2146.144532
+    },
+    {
+      "id": "0015C779",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 487.248657,
+      "y": -1807.515014
+    },
+    {
+      "id": "0015C77A",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 28.035477,
+      "y": -1260.728028
+    },
+    {
+      "id": "0015C77B",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -533.897644,
+      "y": -1358.802979
+    },
+    {
+      "id": "0015C77C",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -519.944092,
+      "y": -1934.176025
+    },
+    {
+      "id": "0015C77D",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -127.250168,
+      "y": -2411.332031
+    },
+    {
+      "id": "0017C77C",
+      "type": "WildGourdVineMarker",
+      "x": 173031.2031,
+      "y": -169784.9375
+    },
+    {
+      "id": "0017C7A0",
+      "type": "WildGourdVineMarker",
+      "x": 173150.2344,
+      "y": -169732.7969
+    },
+    {
+      "id": "001805B5",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -823.655457,
+      "y": -127934.4531
+    },
+    {
+      "id": "001805D0",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -740.336182,
+      "y": -127851.9219
+    },
+    {
+      "id": "0019DB20",
+      "type": "PumpkinVeinMarker",
+      "x": 122346.0234,
+      "y": 36270.73438
+    },
+    {
+      "id": "001C6AD8",
+      "type": "MelonVineMarker",
+      "x": -119570.9453,
+      "y": 172747.5781
+    },
+    {
+      "id": "001C6B21",
+      "type": "MelonVineMarker",
+      "x": -120486.0859,
+      "y": 171153.3594
+    },
+    {
+      "id": "001C6B23",
+      "type": "MelonVineMarker",
+      "x": -121039.5938,
+      "y": 170170.7188
+    },
+    {
+      "id": "001D5D8E",
+      "type": "MelonVineMarker",
+      "x": -120254.375,
+      "y": 170257.625
+    },
+    {
+      "id": "001F4D3A",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -4323.325195,
+      "y": -6944.405761
+    },
+    {
+      "id": "0021F942",
+      "type": "GinsengMarker",
+      "x": 17166.84766,
+      "y": 57078.91797
+    },
+    {
+      "id": "0021F943",
+      "type": "GinsengMarker",
+      "x": 12389.14258,
+      "y": 62138.57422
+    },
+    {
+      "id": "0021F958",
+      "type": "GinsengMarker",
+      "x": 24868.15234,
+      "y": 54862.20313
+    },
+    {
+      "id": "0021F959",
+      "type": "GinsengMarker",
+      "x": 22051.36523,
+      "y": 53295.78906
+    },
+    {
+      "id": "0021F95A",
+      "type": "GinsengMarker",
+      "x": 19116.73047,
+      "y": 58774.70313
+    },
+    {
+      "id": "0021FA01",
+      "type": "GinsengMarker",
+      "x": 22744.4668,
+      "y": 56730.00781
+    },
+    {
+      "id": "00269A25",
+      "type": "PumpkinVeinMarker",
+      "x": 109770.2422,
+      "y": 127531.4766
+    },
+    {
+      "id": "00269A26",
+      "type": "PumpkinVeinMarker",
+      "x": 109581.9922,
+      "y": 127513.8281
+    },
+    {
+      "id": "00269A27",
+      "type": "PumpkinVeinMarker",
+      "x": 109612.9609,
+      "y": 127507.5078
+    },
+    {
+      "id": "00269A64",
+      "type": "PumpkinVeinMarker",
+      "x": 109677.7109,
+      "y": 127547.3047
+    },
+    {
+      "id": "00269AD7",
+      "type": "PumpkinMarker",
+      "x": 109689.6484,
+      "y": 127482.1328
+    },
+    {
+      "id": "00269AD8",
+      "type": "PumpkinMarker",
+      "x": 109761.8125,
+      "y": 127479.8672
+    },
+    {
+      "id": "00269AD9",
+      "type": "PumpkinVeinMarker",
+      "x": 109670.0859,
+      "y": 127436.5078
+    },
+    {
+      "id": "0026A5C3",
+      "type": "PumpkinVeinMarker",
+      "x": 109877.1406,
+      "y": 127473.2969
+    },
+    {
+      "id": "0026A5C4",
+      "type": "PumpkinVeinMarker",
+      "x": 109853.6484,
+      "y": 127473.7813
+    },
+    {
+      "id": "0026A5C5",
+      "type": "PumpkinMarker",
+      "x": 109792.0078,
+      "y": 127461.2578
+    },
+    {
+      "id": "0026AA00",
+      "type": "PumpkinMarker",
+      "x": 109816.3516,
+      "y": 127513.6797
+    },
+    {
+      "id": "0026AA01",
+      "type": "PumpkinMarker",
+      "x": 109791.5234,
+      "y": 127490.5703
+    },
+    {
+      "id": "00270D5C",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -114943.6875,
+      "y": -75741.0625
+    },
+    {
+      "id": "00270D5D",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -114916.8203,
+      "y": -75730.71094
+    },
+    {
+      "id": "0027AC35",
+      "type": "MelonVineMarker",
+      "x": -118713.6875,
+      "y": 172063.9375
+    },
+    {
+      "id": "0027AC37",
+      "type": "MelonVineMarker",
+      "x": -118646.3672,
+      "y": 171229.3438
+    },
+    {
+      "id": "0028CC09",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 63723.25781,
+      "y": -88788.69531
+    },
+    {
+      "id": "0028E447",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 7476.969238,
+      "y": 3251.766358
+    },
+    {
+      "id": "0028E448",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 7468.608887,
+      "y": 3385.032226
+    },
+    {
+      "id": "0028E449",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 7485.069336,
+      "y": 3654.63501
+    },
+    {
+      "id": "0028E44A",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 7466.132324,
+      "y": 3603.895996
+    },
+    {
+      "id": "0028E44B",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 7383.88623,
+      "y": 3530.372314
+    },
+    {
+      "id": "0028E44C",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 7468.050781,
+      "y": 3467.972656
+    },
+    {
+      "id": "0028E44D",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 7371.498046,
+      "y": 3291.142823
+    },
+    {
+      "id": "0028F162",
+      "type": "WildGourdVineMarker",
+      "x": -190.627167,
+      "y": 1110.605102
+    },
+    {
+      "id": "0028F163",
+      "type": "WildMelonVineMarker",
+      "x": -217.63446,
+      "y": 921.639405
+    },
+    {
+      "id": "002930DC",
+      "type": "WildMelonVineMarker",
+      "x": 1896.93811,
+      "y": 15153.57813
+    },
+    {
+      "id": "002931CA",
+      "type": "WildMelonVineMarker",
+      "x": 1054.525634,
+      "y": 15494.08496
+    },
+    {
+      "id": "0029328B",
+      "type": "WildMelonVineMarker",
+      "x": 3302.864014,
+      "y": 14306.86133
+    },
+    {
+      "id": "002932EA",
+      "type": "WildMelonVineMarker",
+      "x": 2526.054932,
+      "y": 13882.44336
+    },
+    {
+      "id": "002932EB",
+      "type": "WildMelonVineMarker",
+      "x": 1466.075683,
+      "y": 14404.52246
+    },
+    {
+      "id": "002932EC",
+      "type": "WildMelonVineMarker",
+      "x": 1392.553588,
+      "y": 14188.47754
+    },
+    {
+      "id": "0029334A",
+      "type": "WildMelonVineMarker",
+      "x": 1494.447143,
+      "y": 14825.95508
+    },
+    {
+      "id": "0029AFAA",
+      "type": "WildMelonVineMarker",
+      "x": -8277.490234,
+      "y": 55.298645
+    },
+    {
+      "id": "0029AFAB",
+      "type": "WildMelonVineMarker",
+      "x": -8754.584961,
+      "y": 483.647339
+    },
+    {
+      "id": "0029B366",
+      "type": "WildGourdVineMarker",
+      "x": 3920.552002,
+      "y": 16815.58203
+    },
+    {
+      "id": "0029B367",
+      "type": "WildGourdVineMarker",
+      "x": 3564.630127,
+      "y": 16031.11035
+    },
+    {
+      "id": "0029B368",
+      "type": "WildGourdVineMarker",
+      "x": 3599.931885,
+      "y": 16676.08008
+    },
+    {
+      "id": "0029B374",
+      "type": "WildMelonVineMarker",
+      "x": 1290.587281,
+      "y": 14908.5
+    },
+    {
+      "id": "0029B375",
+      "type": "WildMelonVineMarker",
+      "x": 1545.988037,
+      "y": 14779.72852
+    },
+    {
+      "id": "0029B376",
+      "type": "WildMelonVineMarker",
+      "x": 1325.579956,
+      "y": 14326.47852
+    },
+    {
+      "id": "0029B377",
+      "type": "WildMelonVineMarker",
+      "x": 1920.170166,
+      "y": 13403.86621
+    },
+    {
+      "id": "0029BE50",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -164743.7188,
+      "y": -8586.504882
+    },
+    {
+      "id": "0029BE51",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -164838.7656,
+      "y": -8644.664062
+    },
+    {
+      "id": "0029CF04",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -172735.25,
+      "y": 71179.92188
+    },
+    {
+      "id": "002AB1CE",
+      "type": "WildGourdVineMarker",
+      "x": 151206.6563,
+      "y": 96394.03906
+    },
+    {
+      "id": "002AB1CF",
+      "type": "WildGourdVineMarker",
+      "x": 151104.5,
+      "y": 96409.65625
+    },
+    {
+      "id": "002AB1D0",
+      "type": "WildGourdVineMarker",
+      "x": 151140.6563,
+      "y": 96338.22656
+    },
+    {
+      "id": "002AFDEC",
+      "type": "WildGourdVineMarker",
+      "x": 186826.8906,
+      "y": -153663.8594
+    },
+    {
+      "id": "002D7B61",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": 13056.74512,
+      "y": -8242.470703
+    },
+    {
+      "id": "002D7B62",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 13572.61816,
+      "y": -8149.159179
+    },
+    {
+      "id": "002D7B70",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": 13868.80078,
+      "y": -8023.310059
+    },
+    {
+      "id": "002D7B71",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 13778.3877,
+      "y": -8167.033203
+    },
+    {
+      "id": "002E48C4",
+      "type": "PumpkinMarker",
+      "x": -151703.0469,
+      "y": 143751.6406
+    },
+    {
+      "id": "002E48C8",
+      "type": "PumpkinMarker",
+      "x": -151549.5625,
+      "y": 143759.6875
+    },
+    {
+      "id": "002E48E3",
+      "type": "PumpkinMarker",
+      "x": -151374.1719,
+      "y": 142762.4531
+    },
+    {
+      "id": "002E48E5",
+      "type": "PumpkinMarker",
+      "x": -151184.1719,
+      "y": 142730.5625
+    },
+    {
+      "id": "002EDA6C",
+      "type": "WildGourdVineMarker",
+      "x": 159139.4688,
+      "y": 101701.0469
+    },
+    {
+      "id": "002EDA6D",
+      "type": "WildGourdVineMarker",
+      "x": 159113.7813,
+      "y": 101778.7422
+    },
+    {
+      "id": "002EDA6F",
+      "type": "WildGourdVineMarker",
+      "x": 159220.5,
+      "y": 101761.3047
+    },
+    {
+      "id": "002F1CB2",
+      "type": "PumpkinMarker",
+      "x": 15623.55078,
+      "y": 23748.15234
+    },
+    {
+      "id": "002F1DD0",
+      "type": "PumpkinMarker",
+      "x": 15945.02344,
+      "y": 23455.24414
+    },
+    {
+      "id": "002F1FE4",
+      "type": "WildGourdVineMarker",
+      "x": 185488.7813,
+      "y": -164462.2969
+    },
+    {
+      "id": "002F1FE6",
+      "type": "WildGourdVineMarker",
+      "x": 185444.2344,
+      "y": -164524.5781
+    },
+    {
+      "id": "002F1FF1",
+      "type": "WildGourdVineMarker",
+      "x": 177614.5313,
+      "y": -163562.2031
+    },
+    {
+      "id": "002F7250",
+      "type": "WildGourdVineMarker",
+      "x": 190847.7188,
+      "y": -169039.3438
+    },
+    {
+      "id": "002F7251",
+      "type": "WildGourdVineMarker",
+      "x": 188720.5313,
+      "y": -171452.7656
+    },
+    {
+      "id": "002FA712",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -93799.67969,
+      "y": -128220.2578
+    },
+    {
+      "id": "002FA713",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -93143.60938,
+      "y": -128547.0078
+    },
+    {
+      "id": "002FA714",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -93033.83594,
+      "y": -128166.8828
+    },
+    {
+      "id": "002FC524",
+      "type": "WildGourdVineMarker",
+      "x": 203384.9688,
+      "y": -159858.875
+    },
+    {
+      "id": "002FC525",
+      "type": "WildGourdVineMarker",
+      "x": 203386.9688,
+      "y": -160023.9688
+    },
+    {
+      "id": "00305A0F",
+      "type": "WildGourdVineMarker",
+      "x": 191106.375,
+      "y": -151813.9063
+    },
+    {
+      "id": "00305A10",
+      "type": "WildGourdVineMarker",
+      "x": 191147.25,
+      "y": -151818.4688
+    },
+    {
+      "id": "00305DE7",
+      "type": "WildGourdVineMarker",
+      "x": 14283.92188,
+      "y": -6134.952637
+    },
+    {
+      "id": "00309D43",
+      "type": "WildGourdVineMarker",
+      "x": 203902.0625,
+      "y": -149753.375
+    },
+    {
+      "id": "00309D44",
+      "type": "WildGourdVineMarker",
+      "x": 203938.5938,
+      "y": -149730.7188
+    },
+    {
+      "id": "0030A685",
+      "type": "PumpkinMarker",
+      "x": -123634.3125,
+      "y": 178103.8906
+    },
+    {
+      "id": "0030A9B8",
+      "type": "WildMelonVineMarker",
+      "x": 14146.95313,
+      "y": -5964.34668
+    },
+    {
+      "id": "0030B466",
+      "type": "WildGourdVineMarker",
+      "x": 189651.2656,
+      "y": -143844.375
+    },
+    {
+      "id": "0030C471",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 14629.60742,
+      "y": -6939.338867
+    },
+    {
+      "id": "0030C472",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 14625.8125,
+      "y": -7021.472168
+    },
+    {
+      "id": "0030E2E8",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -117814.5859,
+      "y": -82444.24219
+    },
+    {
+      "id": "0030E697",
+      "type": "PumpkinMarker",
+      "x": 160845.4375,
+      "y": 151228.0156
+    },
+    {
+      "id": "0030F451",
+      "type": "WildGourdVineMarker",
+      "x": 144949.375,
+      "y": -79937.65625
+    },
+    {
+      "id": "0030F453",
+      "type": "WildGourdVineMarker",
+      "x": 144911.7656,
+      "y": -79976.78906
+    },
+    {
+      "id": "0030F454",
+      "type": "WildGourdVineMarker",
+      "x": 145024.5156,
+      "y": -79988.46875
+    },
+    {
+      "id": "0030F455",
+      "type": "WildGourdVineMarker",
+      "x": 153274.4219,
+      "y": -91342.07031
+    },
+    {
+      "id": "0030F45A",
+      "type": "WildGourdVineMarker",
+      "x": 153344.4219,
+      "y": -91355.10156
+    },
+    {
+      "id": "0030F45C",
+      "type": "WildGourdVineMarker",
+      "x": 153364.4375,
+      "y": -91269.79688
+    },
+    {
+      "id": "0030F487",
+      "type": "WildGourdVineMarker",
+      "x": 132124.1563,
+      "y": -92008.07813
+    },
+    {
+      "id": "0030F48F",
+      "type": "WildGourdVineMarker",
+      "x": 132062.8125,
+      "y": -92114.95313
+    },
+    {
+      "id": "0030F496",
+      "type": "WildGourdVineMarker",
+      "x": 132165.6719,
+      "y": -92155.09375
+    },
+    {
+      "id": "0030F4E9",
+      "type": "WildGourdVineMarker",
+      "x": 128145.6328,
+      "y": -89976.0625
+    },
+    {
+      "id": "0030F4EA",
+      "type": "WildGourdVineMarker",
+      "x": 128240.1719,
+      "y": -89977.54688
+    },
+    {
+      "id": "0031000B",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 31217.93359,
+      "y": 120790.9844
+    },
+    {
+      "id": "0031000C",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 30956.49414,
+      "y": 120570.5469
+    },
+    {
+      "id": "00315E6C",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -106520.5625,
+      "y": -134396.0313
+    },
+    {
+      "id": "00315E6D",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -106469.6406,
+      "y": -134067.2969
+    },
+    {
+      "id": "00315E6E",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -106409.125,
+      "y": -134659.6563
+    },
+    {
+      "id": "00315E6F",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -105706.6328,
+      "y": -132812
+    },
+    {
+      "id": "0031D4AA",
+      "type": "WildGourdVineMarker",
+      "x": 187719.9063,
+      "y": -141520.0313
+    },
+    {
+      "id": "00329F6D",
+      "type": "WildGourdVineMarker",
+      "x": 158259.2813,
+      "y": -102091.375
+    },
+    {
+      "id": "00329F6E",
+      "type": "WildGourdVineMarker",
+      "x": 158202.2813,
+      "y": -102083.6328
+    },
+    {
+      "id": "00329FD7",
+      "type": "WildGourdVineMarker",
+      "x": 155822.9219,
+      "y": -117702.6016
+    },
+    {
+      "id": "00329FE3",
+      "type": "WildGourdVineMarker",
+      "x": 162457.625,
+      "y": -103861.3828
+    },
+    {
+      "id": "00329FE4",
+      "type": "WildGourdVineMarker",
+      "x": 162367.6719,
+      "y": -103922.4922
+    },
+    {
+      "id": "00329FE5",
+      "type": "WildGourdVineMarker",
+      "x": 149139.2344,
+      "y": -101619.0781
+    },
+    {
+      "id": "00329FE6",
+      "type": "WildGourdVineMarker",
+      "x": 149109.0625,
+      "y": -101495.1406
+    },
+    {
+      "id": "0032E61E",
+      "type": "WildGourdVineMarker",
+      "x": 170212.625,
+      "y": -103302.3047
+    },
+    {
+      "id": "0032E813",
+      "type": "WildGourdVineMarker",
+      "x": 184908.8594,
+      "y": -115615.1172
+    },
+    {
+      "id": "0032E814",
+      "type": "WildGourdVineMarker",
+      "x": 184958.1563,
+      "y": -115677.1875
+    },
+    {
+      "id": "00331DE3",
+      "type": "WildGourdVineMarker",
+      "x": 193481.5156,
+      "y": -108063.2344
+    },
+    {
+      "id": "0033203C",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -57749.77344,
+      "y": -111238.5391
+    },
+    {
+      "id": "0033203D",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -57776.05859,
+      "y": -111299.6328
+    },
+    {
+      "id": "0033203E",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -57953.39844,
+      "y": -111192.6016
+    },
+    {
+      "id": "0033203F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -57942.99609,
+      "y": -111161.7109
+    },
+    {
+      "id": "00339D3A",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -113414.9922,
+      "y": -167464.5625
+    },
+    {
+      "id": "00339D3B",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -110803.3438,
+      "y": -170351.1563
+    },
+    {
+      "id": "00339D3C",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -110636.2891,
+      "y": -169378
+    },
+    {
+      "id": "00339D3D",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -115968.4063,
+      "y": -162972.2969
+    },
+    {
+      "id": "00339D3E",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -110709.3359,
+      "y": -167767.2188
+    },
+    {
+      "id": "00339D3F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -114279.7031,
+      "y": -167789.6094
+    },
+    {
+      "id": "00339D40",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -110875.875,
+      "y": -170462.7813
+    },
+    {
+      "id": "00339D41",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -113357.2656,
+      "y": -168247.5625
+    },
+    {
+      "id": "00339D42",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -112352.0313,
+      "y": -163527.4219
+    },
+    {
+      "id": "00339D43",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -116103.4922,
+      "y": -163243.8438
+    },
+    {
+      "id": "00339D44",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -115922.0703,
+      "y": -162775.625
+    },
+    {
+      "id": "00339D45",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -116594.1172,
+      "y": -162299.2188
+    },
+    {
+      "id": "0033A835",
+      "type": "WildGourdVineMarker",
+      "x": 197627.1875,
+      "y": -101524.7578
+    },
+    {
+      "id": "0033B0E2",
+      "type": "PumpkinVeinMarker",
+      "x": -22740.39063,
+      "y": 108173.1797
+    },
+    {
+      "id": "0033B0E3",
+      "type": "PumpkinVeinMarker",
+      "x": -22639.53516,
+      "y": 108069.5391
+    },
+    {
+      "id": "0033B0E4",
+      "type": "PumpkinVeinMarker",
+      "x": -22513.98242,
+      "y": 107970.6172
+    },
+    {
+      "id": "0033B0E5",
+      "type": "PumpkinVeinMarker",
+      "x": -22608.5625,
+      "y": 108326.8906
+    },
+    {
+      "id": "0033B0E6",
+      "type": "PumpkinVeinMarker",
+      "x": -22483.35156,
+      "y": 108227.5469
+    },
+    {
+      "id": "0033B0E7",
+      "type": "PumpkinVeinMarker",
+      "x": -22382.83984,
+      "y": 108123.5391
+    },
+    {
+      "id": "0033B0F0",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -22698.79883,
+      "y": 107228.9766
+    },
+    {
+      "id": "0033B0F1",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -22803.45703,
+      "y": 107313.7969
+    },
+    {
+      "id": "0033B0F2",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -22917.38477,
+      "y": 107416.7188
+    },
+    {
+      "id": "0033B0F3",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -23062.4668,
+      "y": 107540.2734
+    },
+    {
+      "id": "0033B0F4",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -23180.88672,
+      "y": 107652.3672
+    },
+    {
+      "id": "0033B0F6",
+      "type": "PumpkinVeinMarker",
+      "x": -22255.71289,
+      "y": 107993.4609
+    },
+    {
+      "id": "0033B0FF",
+      "type": "WildMelonVineMarker",
+      "x": -23494.91406,
+      "y": 106544.4297
+    },
+    {
+      "id": "0033E3AE",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -108974.8828,
+      "y": -106329.2578
+    },
+    {
+      "id": "0033E3B1",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -109646.5703,
+      "y": -105930.8359
+    },
+    {
+      "id": "0033E3B4",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -101566.7656,
+      "y": -104533.8203
+    },
+    {
+      "id": "0033E3BB",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -101475.3203,
+      "y": -105114.375
+    },
+    {
+      "id": "0033EC53",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -115293.25,
+      "y": -112435.7031
+    },
+    {
+      "id": "0033EC54",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -114746.3203,
+      "y": -112601.2813
+    },
+    {
+      "id": "0033EC55",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -114553.1797,
+      "y": -112341.1719
+    },
+    {
+      "id": "00343A2F",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -163032,
+      "y": -1237.866455
+    },
+    {
+      "id": "00343A30",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -163123.3906,
+      "y": -1301.62146
+    },
+    {
+      "id": "0034D4D7",
+      "type": "WildGourdVineMarker",
+      "x": 153860.25,
+      "y": -59815.65625
+    },
+    {
+      "id": "0034D4D8",
+      "type": "WildGourdVineMarker",
+      "x": 153934.6094,
+      "y": -59811.06641
+    },
+    {
+      "id": "0034D4FE",
+      "type": "WildGourdVineMarker",
+      "x": 165605.375,
+      "y": -69095.75
+    },
+    {
+      "id": "0034D4FF",
+      "type": "WildGourdVineMarker",
+      "x": 165591.9844,
+      "y": -69042.92188
+    },
+    {
+      "id": "00351EF8",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -104514.7969,
+      "y": -139576.8906
+    },
+    {
+      "id": "00351F99",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -103327.8906,
+      "y": -138495.3125
+    },
+    {
+      "id": "00352F1F",
+      "type": "WildGourdVineMarker",
+      "x": 170742.8125,
+      "y": -6502.327149
+    },
+    {
+      "id": "00352F20",
+      "type": "WildGourdVineMarker",
+      "x": 180102.3906,
+      "y": -14327.54395
+    },
+    {
+      "id": "00352F21",
+      "type": "WildGourdVineMarker",
+      "x": 187502.1563,
+      "y": -403.555664
+    },
+    {
+      "id": "00352F22",
+      "type": "WildGourdVineMarker",
+      "x": 193986.8281,
+      "y": -8023.077149
+    },
+    {
+      "id": "00352F23",
+      "type": "WildGourdVineMarker",
+      "x": 194294.2813,
+      "y": -4510.920899
+    },
+    {
+      "id": "00352F24",
+      "type": "WildGourdVineMarker",
+      "x": 201909.8594,
+      "y": -14206.31445
+    },
+    {
+      "id": "00352F25",
+      "type": "WildGourdVineMarker",
+      "x": 202200.1563,
+      "y": -15811.69629
+    },
+    {
+      "id": "00356AAF",
+      "type": "WildGourdVineMarker",
+      "x": 130747.4375,
+      "y": -7738.917968
+    },
+    {
+      "id": "00356AB0",
+      "type": "WildGourdVineMarker",
+      "x": 130703.0625,
+      "y": -7518.103516
+    },
+    {
+      "id": "0035932F",
+      "type": "PumpkinMarker",
+      "x": -43045.60938,
+      "y": -157312.9844
+    },
+    {
+      "id": "0035939E",
+      "type": "PumpkinMarker",
+      "x": -41732.54688,
+      "y": -160132.4219
+    },
+    {
+      "id": "003593D9",
+      "type": "PumpkinMarker",
+      "x": -42082.88281,
+      "y": -159436.0625
+    },
+    {
+      "id": "003593DA",
+      "type": "PumpkinMarker",
+      "x": -42119.49609,
+      "y": -159436.125
+    },
+    {
+      "id": "0035952F",
+      "type": "PumpkinMarker",
+      "x": -37922.19531,
+      "y": -155357.2188
+    },
+    {
+      "id": "00359F30",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -105199.9688,
+      "y": -140510.8281
+    },
+    {
+      "id": "00359F31",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -105333.8828,
+      "y": -140625.25
+    },
+    {
+      "id": "00359F55",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -101304.7031,
+      "y": -150522.2813
+    },
+    {
+      "id": "00359F61",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -99414.20313,
+      "y": -148874.2031
+    },
+    {
+      "id": "00359FEB",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -95924.04688,
+      "y": -144741.0625
+    },
+    {
+      "id": "00359FEC",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -95750.21875,
+      "y": -145410.7188
+    },
+    {
+      "id": "0035A05D",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -116551.9219,
+      "y": -156584.25
+    },
+    {
+      "id": "0035A05F",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -115161.2891,
+      "y": -155942.0313
+    },
+    {
+      "id": "0035A066",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -116545.7891,
+      "y": -158208.7813
+    },
+    {
+      "id": "0035A067",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -116979.0234,
+      "y": -158205.9219
+    },
+    {
+      "id": "0035A1EA",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -91333.50781,
+      "y": -140364.25
+    },
+    {
+      "id": "0035A505",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 124329.3672,
+      "y": 24799.91406
+    },
+    {
+      "id": "0035AC31",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -119667.6172,
+      "y": -160207.0625
+    },
+    {
+      "id": "0035AC34",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -120046.5625,
+      "y": -162604.9375
+    },
+    {
+      "id": "0035CEA0",
+      "type": "WildGourdVineMarker",
+      "x": 132776.9531,
+      "y": -13806.29688
+    },
+    {
+      "id": "0035CEA1",
+      "type": "WildGourdVineMarker",
+      "x": 133215.2188,
+      "y": -14338.06055
+    },
+    {
+      "id": "0035CF99",
+      "type": "WildGourdVineMarker",
+      "x": 150528.5313,
+      "y": -10160.72266
+    },
+    {
+      "id": "0035CF9A",
+      "type": "WildGourdVineMarker",
+      "x": 150160.375,
+      "y": -10535.03711
+    },
+    {
+      "id": "0035D05B",
+      "type": "WildGourdVineMarker",
+      "x": 165431.7031,
+      "y": -3051.386963
+    },
+    {
+      "id": "0035D05C",
+      "type": "WildGourdVineMarker",
+      "x": 166184.3281,
+      "y": -2484.76001
+    },
+    {
+      "id": "0035D05D",
+      "type": "WildGourdVineMarker",
+      "x": 165981.1563,
+      "y": -3640.091553
+    },
+    {
+      "id": "0035D11E",
+      "type": "WildMelonVineMarker",
+      "x": -73290.61719,
+      "y": 151189.9219
+    },
+    {
+      "id": "0035D120",
+      "type": "WildMelonVineMarker",
+      "x": -73268.63281,
+      "y": 151544.4375
+    },
+    {
+      "id": "0035D9E8",
+      "type": "WildGourdVineMarker",
+      "x": 167588.5313,
+      "y": -12575.5293
+    },
+    {
+      "id": "0035D9E9",
+      "type": "WildGourdVineMarker",
+      "x": 167390.6563,
+      "y": -13068.95117
+    },
+    {
+      "id": "0035D9EA",
+      "type": "WildGourdVineMarker",
+      "x": 166099.4219,
+      "y": -12635.44824
+    },
+    {
+      "id": "003600BE",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -118577.6875,
+      "y": -141701.4063
+    },
+    {
+      "id": "003600BF",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -117131.6953,
+      "y": -138744.9375
+    },
+    {
+      "id": "0036200A",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 50787.72266,
+      "y": -33381.10938
+    },
+    {
+      "id": "00362F71",
+      "type": "PumpkinMarker",
+      "x": -54190.99219,
+      "y": -162499.2188
+    },
+    {
+      "id": "0036317F",
+      "type": "WildGourdVineMarker",
+      "x": 130233.5469,
+      "y": -179892.9375
+    },
+    {
+      "id": "003643C1",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -129980.1719,
+      "y": -146610.3125
+    },
+    {
+      "id": "00364A9D",
+      "type": "WildGourdVineMarker",
+      "x": 110018.1016,
+      "y": -88950.32031
+    },
+    {
+      "id": "00364A9E",
+      "type": "WildGourdVineMarker",
+      "x": 109560.4219,
+      "y": -89368.76563
+    },
+    {
+      "id": "0036502C",
+      "type": "WildGourdVineMarker",
+      "x": 176063.125,
+      "y": -129570.2344
+    },
+    {
+      "id": "0036502D",
+      "type": "WildGourdVineMarker",
+      "x": 172642.7031,
+      "y": -129397.0156
+    },
+    {
+      "id": "0036994D",
+      "type": "WildGourdVineMarker",
+      "x": 176331.0313,
+      "y": -125821.4766
+    },
+    {
+      "id": "00369FE9",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -160523,
+      "y": -151900.0156
+    },
+    {
+      "id": "00369FEA",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -160746.6563,
+      "y": -150961.5625
+    },
+    {
+      "id": "0036AE45",
+      "type": "WildGourdVineMarker",
+      "x": 182941.9531,
+      "y": -132259.2031
+    },
+    {
+      "id": "0036BC04",
+      "type": "WildGourdVineMarker",
+      "x": 112212.8281,
+      "y": -89379.07813
+    },
+    {
+      "id": "0036BC05",
+      "type": "WildGourdVineMarker",
+      "x": 112244.1094,
+      "y": -89610.07813
+    },
+    {
+      "id": "0036BC06",
+      "type": "WildGourdVineMarker",
+      "x": 112775.75,
+      "y": -89580.05469
+    },
+    {
+      "id": "0036BD57",
+      "type": "WildGourdVineMarker",
+      "x": 118613.7109,
+      "y": -94438.59375
+    },
+    {
+      "id": "0036BD58",
+      "type": "WildGourdVineMarker",
+      "x": 118372.7344,
+      "y": -94839.78125
+    },
+    {
+      "id": "0036BD59",
+      "type": "WildGourdVineMarker",
+      "x": 118153.1641,
+      "y": -94373.39063
+    },
+    {
+      "id": "0036C7B3",
+      "type": "WildGourdVineMarker",
+      "x": 186979.4531,
+      "y": -129876.9141
+    },
+    {
+      "id": "0036E24A",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -148029.9531,
+      "y": -93119.28906
+    },
+    {
+      "id": "0036E24C",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -149033.25,
+      "y": -94035.41406
+    },
+    {
+      "id": "0036E510",
+      "type": "WildGourdVineMarker",
+      "x": 119720,
+      "y": -82413.33594
+    },
+    {
+      "id": "0036E511",
+      "type": "WildGourdVineMarker",
+      "x": 119767.3828,
+      "y": -82050.17969
+    },
+    {
+      "id": "0036E512",
+      "type": "WildGourdVineMarker",
+      "x": 119310.3438,
+      "y": -82976.64844
+    },
+    {
+      "id": "003703BD",
+      "type": "WildGourdVineMarker",
+      "x": 124928.5313,
+      "y": -90607.25
+    },
+    {
+      "id": "003703BE",
+      "type": "WildGourdVineMarker",
+      "x": 125322.1875,
+      "y": -91177.85938
+    },
+    {
+      "id": "003703BF",
+      "type": "WildGourdVineMarker",
+      "x": 125032.3125,
+      "y": -91014.45313
+    },
+    {
+      "id": "003709B0",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -153090.25,
+      "y": -148185.4844
+    },
+    {
+      "id": "003709B1",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -155085.2344,
+      "y": -148311.3281
+    },
+    {
+      "id": "0037152D",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -140043.0625,
+      "y": -152570.8594
+    },
+    {
+      "id": "0037152F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -139162.7969,
+      "y": -152124.8438
+    },
+    {
+      "id": "003715BA",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -126019.5156,
+      "y": -148708.4219
+    },
+    {
+      "id": "003715BB",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -123978.8125,
+      "y": -148447.7813
+    },
+    {
+      "id": "003715BC",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -123680.4609,
+      "y": -147917.75
+    },
+    {
+      "id": "003715BE",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -123364.7031,
+      "y": -148182.1094
+    },
+    {
+      "id": "0037169A",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -140301.5156,
+      "y": -146031.5938
+    },
+    {
+      "id": "0037169B",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -140321.6563,
+      "y": -146604.5313
+    },
+    {
+      "id": "0037169C",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -140325.2656,
+      "y": -146107.2031
+    },
+    {
+      "id": "0037169D",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -141355.7344,
+      "y": -145605.3438
+    },
+    {
+      "id": "0037169E",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -142081.8125,
+      "y": -145628.3438
+    },
+    {
+      "id": "0037169F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -142472.4063,
+      "y": -145005.7031
+    },
+    {
+      "id": "00378A11",
+      "type": "WildGourdVineMarker",
+      "x": 198235.0781,
+      "y": -138500.3438
+    },
+    {
+      "id": "0037B190",
+      "type": "WildGourdVineMarker",
+      "x": 118827.2578,
+      "y": -162070.5156
+    },
+    {
+      "id": "0037B191",
+      "type": "WildGourdVineMarker",
+      "x": 121282.9766,
+      "y": -157091.9375
+    },
+    {
+      "id": "0037B192",
+      "type": "WildGourdVineMarker",
+      "x": 124503.4375,
+      "y": -154944.9375
+    },
+    {
+      "id": "0037B193",
+      "type": "WildGourdVineMarker",
+      "x": 118058.1797,
+      "y": -154101.9375
+    },
+    {
+      "id": "0037B194",
+      "type": "WildGourdVineMarker",
+      "x": 116008.7266,
+      "y": -156029.0938
+    },
+    {
+      "id": "0037B195",
+      "type": "WildGourdVineMarker",
+      "x": 115339.4844,
+      "y": -152159.9688
+    },
+    {
+      "id": "0037B199",
+      "type": "WildGourdVineMarker",
+      "x": 128092.0156,
+      "y": -173624.7813
+    },
+    {
+      "id": "0037B19A",
+      "type": "WildGourdVineMarker",
+      "x": 127756.3984,
+      "y": -168626.5
+    },
+    {
+      "id": "0037B19C",
+      "type": "WildGourdVineMarker",
+      "x": 127299.8906,
+      "y": -159250.7969
+    },
+    {
+      "id": "0037B19D",
+      "type": "WildGourdVineMarker",
+      "x": 127426.25,
+      "y": -154835.8438
+    },
+    {
+      "id": "0037B19E",
+      "type": "WildGourdVineMarker",
+      "x": 122002.0625,
+      "y": -162605.0313
+    },
+    {
+      "id": "0037B1A2",
+      "type": "WildGourdVineMarker",
+      "x": 107936.4531,
+      "y": -159325.6406
+    },
+    {
+      "id": "0037B1A3",
+      "type": "WildGourdVineMarker",
+      "x": 113121.3516,
+      "y": -159716.9063
+    },
+    {
+      "id": "0037C2BD",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -124725.0469,
+      "y": -79542.46875
+    },
+    {
+      "id": "0037C2BE",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -124996.2344,
+      "y": -79638.17188
+    },
+    {
+      "id": "0037C2C7",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -122138.7422,
+      "y": -77730.5
+    },
+    {
+      "id": "0037C69F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -125549.0938,
+      "y": -90111.23438
+    },
+    {
+      "id": "0037C6A0",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -126087.3125,
+      "y": -89679.59375
+    },
+    {
+      "id": "0037D38E",
+      "type": "PumpkinMarker",
+      "x": 145236.5313,
+      "y": -34889.76563
+    },
+    {
+      "id": "0037E674",
+      "type": "PumpkinMarker",
+      "x": -97132.07031,
+      "y": 58832.35156
+    },
+    {
+      "id": "0037E675",
+      "type": "PumpkinMarker",
+      "x": -97189.13281,
+      "y": 58845.02344
+    },
+    {
+      "id": "0037E679",
+      "type": "PumpkinMarker",
+      "x": -97256.57813,
+      "y": 58875.03516
+    },
+    {
+      "id": "0037E67A",
+      "type": "PumpkinMarker",
+      "x": -97290.90625,
+      "y": 58879.07422
+    },
+    {
+      "id": "0037E67B",
+      "type": "PumpkinMarker",
+      "x": -97276.64844,
+      "y": 58947.88281
+    },
+    {
+      "id": "003819EE",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -122287.2422,
+      "y": -113437.1016
+    },
+    {
+      "id": "003819EF",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -122226.5859,
+      "y": -112645.0391
+    },
+    {
+      "id": "003819F0",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -120805.3438,
+      "y": -113139.875
+    },
+    {
+      "id": "003873D5",
+      "type": "WildMelonVineMarker",
+      "x": 117244.9453,
+      "y": -59560.56641
+    },
+    {
+      "id": "00389D2E",
+      "type": "PumpkinMarker",
+      "x": 107112.8047,
+      "y": 145920.8438
+    },
+    {
+      "id": "00389D2F",
+      "type": "PumpkinMarker",
+      "x": 107093.6953,
+      "y": 145948.4531
+    },
+    {
+      "id": "00389D32",
+      "type": "PumpkinMarker",
+      "x": 107050.9297,
+      "y": 145956.625
+    },
+    {
+      "id": "00389D5E",
+      "type": "PumpkinMarker",
+      "x": 106244.1953,
+      "y": 144636.75
+    },
+    {
+      "id": "0038AD08",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -129071.0234,
+      "y": -124092.4844
+    },
+    {
+      "id": "0038CC5A",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -157283.2344,
+      "y": -168834.9375
+    },
+    {
+      "id": "0038CCA1",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -155910.6719,
+      "y": -166588.7031
+    },
+    {
+      "id": "0038CCA2",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -156887.2031,
+      "y": -166738.3438
+    },
+    {
+      "id": "0038CCF3",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -157321.6406,
+      "y": -162224.7188
+    },
+    {
+      "id": "0038CCF4",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -157398.9219,
+      "y": -162483.3125
+    },
+    {
+      "id": "0038CD02",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -156998.2031,
+      "y": -161449.7031
+    },
+    {
+      "id": "0038CD03",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -157077.6094,
+      "y": -162031.2344
+    },
+    {
+      "id": "0038FB43",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -154766.6094,
+      "y": -160257.2031
+    },
+    {
+      "id": "0038FB4D",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -154307.8438,
+      "y": -160334.4844
+    },
+    {
+      "id": "0038FB4E",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -154629.6719,
+      "y": -160800.0156
+    },
+    {
+      "id": "0038FBB6",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -153769.2813,
+      "y": -170598.9063
+    },
+    {
+      "id": "0038FBBC",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -153726.8438,
+      "y": -170879.2031
+    },
+    {
+      "id": "003918BE",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -150838.9688,
+      "y": -170227.6875
+    },
+    {
+      "id": "003918BF",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -149818.8906,
+      "y": -169445.7813
+    },
+    {
+      "id": "0039333C",
+      "type": "WildGourdVineMarker",
+      "x": 142251.1719,
+      "y": 57175.63281
+    },
+    {
+      "id": "0039333E",
+      "type": "WildGourdVineMarker",
+      "x": 142355.0469,
+      "y": 57152.84766
+    },
+    {
+      "id": "0039333F",
+      "type": "WildGourdVineMarker",
+      "x": 142329.3125,
+      "y": 56992.96875
+    },
+    {
+      "id": "0039365A",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -142079.5781,
+      "y": -169657.6094
+    },
+    {
+      "id": "0039365B",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -141189.3438,
+      "y": -169427.1875
+    },
+    {
+      "id": "003937CA",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -131281.7188,
+      "y": -165123.6406
+    },
+    {
+      "id": "003937CB",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -131302.2813,
+      "y": -165811.6406
+    },
+    {
+      "id": "003937CC",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -131557.5938,
+      "y": -166076.1563
+    },
+    {
+      "id": "0039552A",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -157159.2344,
+      "y": -162446.375
+    },
+    {
+      "id": "0039779A",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -130268.6641,
+      "y": -165793.6406
+    },
+    {
+      "id": "0039779B",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -130278.3984,
+      "y": -165359.0469
+    },
+    {
+      "id": "0039795A",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -128433.9453,
+      "y": -171118.8906
+    },
+    {
+      "id": "00397AD5",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -123944.8047,
+      "y": -172545.125
+    },
+    {
+      "id": "00397AD6",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -124079.6641,
+      "y": -172982.9375
+    },
+    {
+      "id": "0039AC7E",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -42854.42578,
+      "y": -157154.375
+    },
+    {
+      "id": "0039AC82",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -43193.63672,
+      "y": -156936.8594
+    },
+    {
+      "id": "0039AC86",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -95973.14063,
+      "y": 82457.64844
+    },
+    {
+      "id": "0039AC8A",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -112939.4688,
+      "y": 167749.7031
+    },
+    {
+      "id": "0039AC8E",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -10818.89356,
+      "y": -168243.3906
+    },
+    {
+      "id": "0039AC92",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -10820.25391,
+      "y": -168936.9219
+    },
+    {
+      "id": "0039AC96",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -10993.30859,
+      "y": -169926.4375
+    },
+    {
+      "id": "0039AC9A",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -11473.78027,
+      "y": -169092.6875
+    },
+    {
+      "id": "0039AC9E",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -11441.3584,
+      "y": -169315.0156
+    },
+    {
+      "id": "0039ACA2",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -11653.81055,
+      "y": -168698.0625
+    },
+    {
+      "id": "0039ACA6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -11644.48926,
+      "y": -168454.5
+    },
+    {
+      "id": "0039ACAA",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -11229.67188,
+      "y": -168243.3906
+    },
+    {
+      "id": "0039ACAE",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -11229.67188,
+      "y": -168754.25
+    },
+    {
+      "id": "0039ACB2",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -110041.7969,
+      "y": 83897.39063
+    },
+    {
+      "id": "0039ACB6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -174643.8438,
+      "y": -14648.25195
+    },
+    {
+      "id": "0039ACBA",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -133424.8281,
+      "y": 95131.22656
+    },
+    {
+      "id": "0039ACBE",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 11259.75781,
+      "y": 72557.40625
+    },
+    {
+      "id": "0039ACC2",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 11208.88965,
+      "y": 71763.21875
+    },
+    {
+      "id": "0039ACC6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 7753.674804,
+      "y": 70009.375
+    },
+    {
+      "id": "0039ACCA",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -156774.6563,
+      "y": 154219.7969
+    },
+    {
+      "id": "0039ACCE",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -156707.75,
+      "y": 154031.0625
+    },
+    {
+      "id": "0039ACD2",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -121519.4453,
+      "y": 173144.5313
+    },
+    {
+      "id": "0039ACD6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -120595.9844,
+      "y": 172981.7031
+    },
+    {
+      "id": "0039ACDA",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -120542.8203,
+      "y": 173901.3125
+    },
+    {
+      "id": "0039ACDE",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -120618.4375,
+      "y": 173735.8594
+    },
+    {
+      "id": "0039ACE2",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -122442.0938,
+      "y": 173770.375
+    },
+    {
+      "id": "0039ACE6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -121768.8672,
+      "y": 174294.1875
+    },
+    {
+      "id": "0039ACEA",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -135282.6875,
+      "y": 97920.66406
+    },
+    {
+      "id": "0039ACEE",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -80697.65625,
+      "y": 148658.0469
+    },
+    {
+      "id": "0039ACF2",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 59526.54688,
+      "y": 174575.6094
+    },
+    {
+      "id": "0039ACF6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 59474.10156,
+      "y": 174295.3594
+    },
+    {
+      "id": "0039ACFA",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 59448.69531,
+      "y": 174029.6094
+    },
+    {
+      "id": "0039ACFE",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 59401.11328,
+      "y": 173749.1719
+    },
+    {
+      "id": "0039AD02",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 59373.55078,
+      "y": 173514.4531
+    },
+    {
+      "id": "0039AD06",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -125678.0234,
+      "y": 172184.1719
+    },
+    {
+      "id": "0039AD0E",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 178694.75,
+      "y": -58861.10156
+    },
+    {
+      "id": "0039AD12",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 178564.7031,
+      "y": -58885.5625
+    },
+    {
+      "id": "0039AD16",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 178402.3125,
+      "y": -59006.89063
+    },
+    {
+      "id": "0039AD1A",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 178281.0469,
+      "y": -58873.08594
+    },
+    {
+      "id": "0039AD1E",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 178122.5313,
+      "y": -58886.45703
+    },
+    {
+      "id": "0039AD22",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 177827.7656,
+      "y": -59061.86328
+    },
+    {
+      "id": "0039AD26",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 177690.5,
+      "y": -58913.19531
+    },
+    {
+      "id": "0039AD2A",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 177674.7188,
+      "y": -59068.78516
+    },
+    {
+      "id": "0039AD2E",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 86207.82813,
+      "y": -49450.16406
+    },
+    {
+      "id": "0039AD32",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 86262.33594,
+      "y": -49447.30859
+    },
+    {
+      "id": "0039AD36",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 76854.75,
+      "y": 64985.75391
+    },
+    {
+      "id": "0039AD3A",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 76902.75781,
+      "y": 64920.65234
+    },
+    {
+      "id": "0039AD3E",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 76801.6875,
+      "y": 64951.97266
+    },
+    {
+      "id": "0039AD42",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 107477.4375,
+      "y": -13955.94531
+    },
+    {
+      "id": "0039AD46",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -163360.6563,
+      "y": 137824.1875
+    },
+    {
+      "id": "0039AD4A",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -163201.4063,
+      "y": 137663.75
+    },
+    {
+      "id": "0039AD4E",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -163004.2656,
+      "y": 137804.3438
+    },
+    {
+      "id": "0039AD52",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 92178.72656,
+      "y": 33047.125
+    },
+    {
+      "id": "0039AD56",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 92332.57031,
+      "y": 33080.74219
+    },
+    {
+      "id": "0039AD5A",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 92270.14063,
+      "y": 32992.16016
+    },
+    {
+      "id": "0039E624",
+      "type": "WildGourdVineMarker",
+      "x": 126658.0859,
+      "y": -113204.0313
+    },
+    {
+      "id": "0039E625",
+      "type": "WildGourdVineMarker",
+      "x": 122744.9063,
+      "y": -112370.7344
+    },
+    {
+      "id": "0039E626",
+      "type": "WildGourdVineMarker",
+      "x": 122125.6641,
+      "y": -119300.8516
+    },
+    {
+      "id": "0039E627",
+      "type": "WildGourdVineMarker",
+      "x": 121578.6094,
+      "y": -123266.3359
+    },
+    {
+      "id": "0039E628",
+      "type": "WildGourdVineMarker",
+      "x": 130011.6563,
+      "y": -120256.6797
+    },
+    {
+      "id": "0039E629",
+      "type": "WildGourdVineMarker",
+      "x": 127361,
+      "y": -99889.5
+    },
+    {
+      "id": "0039E62A",
+      "type": "WildGourdVineMarker",
+      "x": 122325.9688,
+      "y": -108063.6406
+    },
+    {
+      "id": "0039E62B",
+      "type": "WildGourdVineMarker",
+      "x": 114479.2266,
+      "y": -98552.61719
+    },
+    {
+      "id": "0039E62C",
+      "type": "WildGourdVineMarker",
+      "x": 112052.6406,
+      "y": -99888.13281
+    },
+    {
+      "id": "0039E62D",
+      "type": "WildGourdVineMarker",
+      "x": 110266.5078,
+      "y": -104880.0625
+    },
+    {
+      "id": "0039E62E",
+      "type": "WildGourdVineMarker",
+      "x": 108264.6328,
+      "y": -100494.6094
+    },
+    {
+      "id": "0039E62F",
+      "type": "WildGourdVineMarker",
+      "x": 108157.8984,
+      "y": -112830.1719
+    },
+    {
+      "id": "0039E630",
+      "type": "WildGourdVineMarker",
+      "x": 108320.6719,
+      "y": -117711.8125
+    },
+    {
+      "id": "0039E631",
+      "type": "WildGourdVineMarker",
+      "x": 107470.0938,
+      "y": -119152.0391
+    },
+    {
+      "id": "0039E632",
+      "type": "WildGourdVineMarker",
+      "x": 108804.6563,
+      "y": -121770.6016
+    },
+    {
+      "id": "0039E633",
+      "type": "WildGourdVineMarker",
+      "x": 113112.1875,
+      "y": -124614.9375
+    },
+    {
+      "id": "0039E634",
+      "type": "WildGourdVineMarker",
+      "x": 115577.9219,
+      "y": -126478.0703
+    },
+    {
+      "id": "0039E636",
+      "type": "WildGourdVineMarker",
+      "x": 109639.375,
+      "y": -115789.8672
+    },
+    {
+      "id": "0039E637",
+      "type": "WildGourdVineMarker",
+      "x": 108974.5078,
+      "y": -108204.3672
+    },
+    {
+      "id": "0039E638",
+      "type": "WildGourdVineMarker",
+      "x": 118393.2266,
+      "y": -117876.2031
+    },
+    {
+      "id": "0039E639",
+      "type": "WildGourdVineMarker",
+      "x": 118805.3047,
+      "y": -123622.9531
+    },
+    {
+      "id": "0039E63A",
+      "type": "WildGourdVineMarker",
+      "x": 117314.1641,
+      "y": -98389.23438
+    },
+    {
+      "id": "0039E63B",
+      "type": "WildGourdVineMarker",
+      "x": 114017.9375,
+      "y": -102114.6563
+    },
+    {
+      "id": "0039E63C",
+      "type": "WildGourdVineMarker",
+      "x": 109369.4531,
+      "y": -117504.4688
+    },
+    {
+      "id": "0039E866",
+      "type": "WildGourdVineMarker",
+      "x": 129337.9297,
+      "y": 46735.81641
+    },
+    {
+      "id": "0039E867",
+      "type": "WildGourdVineMarker",
+      "x": 129426.8594,
+      "y": 46750.35156
+    },
+    {
+      "id": "0039E868",
+      "type": "WildGourdVineMarker",
+      "x": 129371.3828,
+      "y": 46829.12891
+    },
+    {
+      "id": "003A6D5B",
+      "type": "WildGourdVineMarker",
+      "x": 165745.4531,
+      "y": -158544.1094
+    },
+    {
+      "id": "003A7587",
+      "type": "WildGourdVineMarker",
+      "x": 152622.75,
+      "y": -149467.9688
+    },
+    {
+      "id": "003AC66C",
+      "type": "WildGourdVineMarker",
+      "x": 136227.0781,
+      "y": -153676.1875
+    },
+    {
+      "id": "003AC66E",
+      "type": "WildGourdVineMarker",
+      "x": 136296.9375,
+      "y": -153698.8281
+    },
+    {
+      "id": "003AC66F",
+      "type": "WildGourdVineMarker",
+      "x": 136311.7188,
+      "y": -153585.0781
+    },
+    {
+      "id": "003ACAFF",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -134677.2344,
+      "y": -133619.4219
+    },
+    {
+      "id": "003ACB00",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -133503.4531,
+      "y": -135339.4219
+    },
+    {
+      "id": "003ACB12",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -135069.4219,
+      "y": -134474.5313
+    },
+    {
+      "id": "003AD56F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -133660.3125,
+      "y": -134763.7344
+    },
+    {
+      "id": "003AE04E",
+      "type": "WildGourdVineMarker",
+      "x": 130635.0859,
+      "y": -151019.6719
+    },
+    {
+      "id": "003AE053",
+      "type": "WildGourdVineMarker",
+      "x": 130250.1875,
+      "y": -151131.5781
+    },
+    {
+      "id": "003B131F",
+      "type": "WildGourdVineMarker",
+      "x": 124551.8984,
+      "y": -164011.0938
+    },
+    {
+      "id": "003B1340",
+      "type": "WildGourdVineMarker",
+      "x": 121242.4844,
+      "y": -178520.3594
+    },
+    {
+      "id": "003B1341",
+      "type": "WildGourdVineMarker",
+      "x": 120562.6875,
+      "y": -178648.3125
+    },
+    {
+      "id": "003B1356",
+      "type": "WildGourdVineMarker",
+      "x": 121884.6094,
+      "y": -167424.8906
+    },
+    {
+      "id": "003B1357",
+      "type": "WildGourdVineMarker",
+      "x": 122550.2109,
+      "y": -167547.3125
+    },
+    {
+      "id": "003B1383",
+      "type": "WildGourdVineMarker",
+      "x": 117318.3359,
+      "y": -171692.4063
+    },
+    {
+      "id": "003B1394",
+      "type": "WildGourdVineMarker",
+      "x": 117788.8203,
+      "y": -177850.6719
+    },
+    {
+      "id": "003B1395",
+      "type": "WildGourdVineMarker",
+      "x": 118965.7344,
+      "y": -177787.9531
+    },
+    {
+      "id": "003B2B7C",
+      "type": "PumpkinMarker",
+      "x": 170666.2031,
+      "y": -34608.57031
+    },
+    {
+      "id": "003B2B7E",
+      "type": "PumpkinMarker",
+      "x": 170778.9531,
+      "y": -34578.59375
+    },
+    {
+      "id": "003B4139",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 16710.5332,
+      "y": -6148.670898
+    },
+    {
+      "id": "003B4141",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": 17800.5332,
+      "y": -6957.717285
+    },
+    {
+      "id": "003B6805",
+      "type": "WildGourdVineMarker",
+      "x": 179742.0781,
+      "y": -71067.26563
+    },
+    {
+      "id": "003B6806",
+      "type": "WildGourdVineMarker",
+      "x": 179818.4531,
+      "y": -71070.44531
+    },
+    {
+      "id": "003B69CF",
+      "type": "WildGourdVineMarker",
+      "x": 181371.1406,
+      "y": -79100.07813
+    },
+    {
+      "id": "003B69D0",
+      "type": "WildGourdVineMarker",
+      "x": 181430.6094,
+      "y": -79042.71875
+    },
+    {
+      "id": "003B69D1",
+      "type": "WildGourdVineMarker",
+      "x": 181467.5313,
+      "y": -79126.79688
+    },
+    {
+      "id": "003B6A85",
+      "type": "WildGourdVineMarker",
+      "x": 203229.3906,
+      "y": -88747.50781
+    },
+    {
+      "id": "003B6A86",
+      "type": "WildGourdVineMarker",
+      "x": 203149.2031,
+      "y": -88801.85156
+    },
+    {
+      "id": "003B711F",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": 872,
+      "y": -3648
+    },
+    {
+      "id": "003B7120",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 868.334717,
+      "y": -3469.529052
+    },
+    {
+      "id": "003B7156",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 2632,
+      "y": -3528
+    },
+    {
+      "id": "003B7157",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 2632,
+      "y": -3328
+    },
+    {
+      "id": "003B7164",
+      "type": "MelonVineMarker",
+      "x": 2848,
+      "y": -3152
+    },
+    {
+      "id": "003B7185",
+      "type": "WildGourdVineMarker",
+      "x": 3544,
+      "y": -3392
+    },
+    {
+      "id": "003B7186",
+      "type": "WildMelonVineMarker",
+      "x": 3568,
+      "y": -3160
+    },
+    {
+      "id": "003B722F",
+      "type": "PumpkinVeinMarker",
+      "x": 976,
+      "y": -4440
+    },
+    {
+      "id": "003B7273",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": 3029.335937,
+      "y": -5985.677246
+    },
+    {
+      "id": "003B7274",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 3064,
+      "y": -5848
+    },
+    {
+      "id": "003B72C0",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 4160,
+      "y": -5968
+    },
+    {
+      "id": "003B72C1",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 4152,
+      "y": -5744
+    },
+    {
+      "id": "003B72CE",
+      "type": "MelonVineMarker",
+      "x": 4448,
+      "y": -5960
+    },
+    {
+      "id": "003B72E1",
+      "type": "WildGourdVineMarker",
+      "x": 5016,
+      "y": -5432
+    },
+    {
+      "id": "003B72E2",
+      "type": "WildMelonVineMarker",
+      "x": 5033.341308,
+      "y": -5175.131836
+    },
+    {
+      "id": "003B87EE",
+      "type": "WildGourdVineMarker",
+      "x": 181378.5938,
+      "y": -96325.57813
+    },
+    {
+      "id": "003B87EF",
+      "type": "WildGourdVineMarker",
+      "x": 181300.6719,
+      "y": -96344.35156
+    },
+    {
+      "id": "003B87F0",
+      "type": "WildGourdVineMarker",
+      "x": 181256.1563,
+      "y": -96291.60156
+    },
+    {
+      "id": "003BB4AB",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 17874.77539,
+      "y": -6878.465332
+    },
+    {
+      "id": "003BB4C6",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 16761.97656,
+      "y": -5995.867676
+    },
+    {
+      "id": "003BB7D3",
+      "type": "WildGourdVineMarker",
+      "x": 173260.375,
+      "y": -59822.57031
+    },
+    {
+      "id": "003BB7D4",
+      "type": "WildGourdVineMarker",
+      "x": 173088.3906,
+      "y": -59873.98047
+    },
+    {
+      "id": "003BB7D5",
+      "type": "WildGourdVineMarker",
+      "x": 173165.2344,
+      "y": -59756.15234
+    },
+    {
+      "id": "003BF684",
+      "type": "WildGourdVineMarker",
+      "x": 193381.6406,
+      "y": -66874.14063
+    },
+    {
+      "id": "003BF685",
+      "type": "WildGourdVineMarker",
+      "x": 193413.4219,
+      "y": -66986.21094
+    },
+    {
+      "id": "003BF9A0",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -146527.0469,
+      "y": -121390.375
+    },
+    {
+      "id": "003BF9A1",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -146274.9531,
+      "y": -121309.9922
+    },
+    {
+      "id": "003C1D27",
+      "type": "PumpkinMarker",
+      "x": -7689.789063,
+      "y": 9200.785156
+    },
+    {
+      "id": "003C2335",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -157148,
+      "y": -125229.375
+    },
+    {
+      "id": "003C2345",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -156797.9063,
+      "y": -128931.6016
+    },
+    {
+      "id": "003C2346",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -156063.5469,
+      "y": -128539.2344
+    },
+    {
+      "id": "003C2347",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -155558.5938,
+      "y": -129135.8594
+    },
+    {
+      "id": "003C23C0",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -157528.9531,
+      "y": -128894.9844
+    },
+    {
+      "id": "003C23C1",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -157847.5625,
+      "y": -129201.2422
+    },
+    {
+      "id": "003C2415",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -154157.8125,
+      "y": -133061.5469
+    },
+    {
+      "id": "003C2418",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -152662.8594,
+      "y": -131116.7031
+    },
+    {
+      "id": "003C2419",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -152184.9531,
+      "y": -129939.6563
+    },
+    {
+      "id": "003C241A",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -149300.9688,
+      "y": -133434.5625
+    },
+    {
+      "id": "003C241F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -150185.5625,
+      "y": -132738.9844
+    },
+    {
+      "id": "003C2429",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -146166.7656,
+      "y": -129390.1953
+    },
+    {
+      "id": "003C7FE6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -1988.363525,
+      "y": 119919.8984
+    },
+    {
+      "id": "003CC7AE",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 10549.58203,
+      "y": -130998.1875
+    },
+    {
+      "id": "003D1B1A",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 20192.07031,
+      "y": -7505.646973
+    },
+    {
+      "id": "003D1B1B",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 19879.34375,
+      "y": -7182.542481
+    },
+    {
+      "id": "003D81E0",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -174641.8281,
+      "y": -134652.75
+    },
+    {
+      "id": "003D81E6",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -174680,
+      "y": -134675.5938
+    },
+    {
+      "id": "003D84AB",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -161077.2344,
+      "y": 195950.2656
+    },
+    {
+      "id": "003D84AC",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -161000.2188,
+      "y": 195255.0313
+    },
+    {
+      "id": "003D84AD",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -160904.75,
+      "y": 194758.0156
+    },
+    {
+      "id": "003D84AE",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -160876.4531,
+      "y": 194484.2813
+    },
+    {
+      "id": "003D84AF",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -160657.1719,
+      "y": 194674.2344
+    },
+    {
+      "id": "003D84B0",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -160816.6406,
+      "y": 195719.8281
+    },
+    {
+      "id": "003DB27C",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -31638.42969,
+      "y": 154253.1719
+    },
+    {
+      "id": "003DB27F",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -31865.90625,
+      "y": 154217.1719
+    },
+    {
+      "id": "003DB281",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -31738.51953,
+      "y": 154223.8281
+    },
+    {
+      "id": "003DB287",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -75035.27344,
+      "y": 154146.1406
+    },
+    {
+      "id": "003DB28B",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -75129.76563,
+      "y": 154374.0469
+    },
+    {
+      "id": "003DB28F",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -75024.625,
+      "y": 154259.8281
+    },
+    {
+      "id": "003DB299",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 8866.88086,
+      "y": 175066.2813
+    },
+    {
+      "id": "003DB29D",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 8755.969727,
+      "y": 174997.4219
+    },
+    {
+      "id": "003DB2A1",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 8825.304688,
+      "y": 174932.5938
+    },
+    {
+      "id": "003DDEFC",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -75214.59375,
+      "y": 154255.1563
+    },
+    {
+      "id": "003DDEFD",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -74855.10938,
+      "y": 154259.2656
+    },
+    {
+      "id": "003DDEFE",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -31997.15234,
+      "y": 154282.3594
+    },
+    {
+      "id": "003DDF1A",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 8759.993164,
+      "y": 175059.4063
+    },
+    {
+      "id": "003DDF9E",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -75214.59375,
+      "y": 154255.1563
+    },
+    {
+      "id": "003DDF9F",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -74855.10938,
+      "y": 154259.2656
+    },
+    {
+      "id": "003DDFA0",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -31997.15234,
+      "y": 154282.3594
+    },
+    {
+      "id": "003DDFBB",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 8759.993164,
+      "y": 175059.4063
+    },
+    {
+      "id": "003DEE93",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -137700.8125,
+      "y": -117610.1563
+    },
+    {
+      "id": "003E202E",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -7934.121582,
+      "y": 17101.80274
+    },
+    {
+      "id": "003E202F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -7832.233886,
+      "y": 17207.26758
+    },
+    {
+      "id": "003E203D",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -6527.970704,
+      "y": 16385.63281
+    },
+    {
+      "id": "003E203E",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": -6462.700684,
+      "y": 16513.39648
+    },
+    {
+      "id": "003E2046",
+      "type": "MelonVineMarker",
+      "x": -6045.283692,
+      "y": 16209.53906
+    },
+    {
+      "id": "003E2053",
+      "type": "WildGourdVineMarker",
+      "x": -4765.745606,
+      "y": 15698.23926
+    },
+    {
+      "id": "003E2054",
+      "type": "WildMelonVineMarker",
+      "x": -4647.360351,
+      "y": 15676.2832
+    },
+    {
+      "id": "003E2299",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -62415.9375,
+      "y": -111596.2109
+    },
+    {
+      "id": "003E229A",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -62376.31641,
+      "y": -111514.2656
+    },
+    {
+      "id": "003E48D2",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": 19135.40625,
+      "y": -9787.241211
+    },
+    {
+      "id": "003E48D3",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 19454.49805,
+      "y": -9793.621093
+    },
+    {
+      "id": "003E48EC",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 21494.70508,
+      "y": -9614.631836
+    },
+    {
+      "id": "003E48EF",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 21181.97852,
+      "y": -9291.527344
+    },
+    {
+      "id": "003E48FD",
+      "type": "MelonVineMarker",
+      "x": 19298.55859,
+      "y": -8303.025391
+    },
+    {
+      "id": "003E490B",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 20818.30469,
+      "y": -8609.859375
+    },
+    {
+      "id": "003E490D",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 20519.58594,
+      "y": -8362.806641
+    },
+    {
+      "id": "003E4911",
+      "type": "WildGourdVineMarker",
+      "x": 20841.02148,
+      "y": -7691.626465
+    },
+    {
+      "id": "003E4912",
+      "type": "WildMelonVineMarker",
+      "x": 21159.21094,
+      "y": -8638.221679
+    },
+    {
+      "id": "003EC89A",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -53378.05078,
+      "y": -107943.3984
+    },
+    {
+      "id": "003EC8A0",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -42339.95313,
+      "y": -117355.375
+    },
+    {
+      "id": "003EC8A1",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -42316.9375,
+      "y": -117350.5703
+    },
+    {
+      "id": "003EC8A3",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -54013.53516,
+      "y": -106948.3125
+    },
+    {
+      "id": "003EC8A7",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -54003.28125,
+      "y": -106957.5703
+    },
+    {
+      "id": "003EC8B8",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -50608.71875,
+      "y": -134657.0313
+    },
+    {
+      "id": "003EC8C0",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -50698.28906,
+      "y": -134289.4219
+    },
+    {
+      "id": "003EC8D1",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -71572.04688,
+      "y": -129761.0703
+    },
+    {
+      "id": "003EC8DE",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -71754.64063,
+      "y": -129705.5078
+    },
+    {
+      "id": "003EC8E5",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -71654.35156,
+      "y": -129700.8906
+    },
+    {
+      "id": "003EC8F3",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -73430.51563,
+      "y": -125152.9844
+    },
+    {
+      "id": "003EC8FB",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -74632.45313,
+      "y": -125531.0781
+    },
+    {
+      "id": "003EC900",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -73417.58594,
+      "y": -125152.0703
+    },
+    {
+      "id": "003EC905",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -73414.67969,
+      "y": -125151.125
+    },
+    {
+      "id": "003EC907",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -74541.53906,
+      "y": -125724.7656
+    },
+    {
+      "id": "003EC908",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -74544.55469,
+      "y": -125705.7031
+    },
+    {
+      "id": "003EE59A",
+      "type": "WildMelonVineMarker",
+      "x": -11487.13867,
+      "y": -2718.719726
+    },
+    {
+      "id": "003EE59D",
+      "type": "WildMelonVineMarker",
+      "x": -11610.34961,
+      "y": -3293.321289
+    },
+    {
+      "id": "003F6283",
+      "type": "WildGourdVineMarker",
+      "x": -16401.33399,
+      "y": -1874.025146
+    },
+    {
+      "id": "003F7214",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -16407.3125,
+      "y": 367.225891
+    },
+    {
+      "id": "003F7293",
+      "type": "MelonVineMarker",
+      "x": -14802.89551,
+      "y": -1662.476319
+    },
+    {
+      "id": "003F835B",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 26922.02539,
+      "y": 195582.5313
+    },
+    {
+      "id": "003F835C",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 27538.30664,
+      "y": 195960.6719
+    },
+    {
+      "id": "003F835D",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 27495.84766,
+      "y": 195882.7813
+    },
+    {
+      "id": "003FA1EC",
+      "type": "GinsengMarker",
+      "x": -15685.27539,
+      "y": -1946.251465
+    },
+    {
+      "id": "003FA201",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": -14479.50781,
+      "y": 125.595566
+    },
+    {
+      "id": "003FA283",
+      "type": "WildMelonVineMarker",
+      "x": -13701.44141,
+      "y": 851.174805
+    },
+    {
+      "id": "003FA284",
+      "type": "WildMelonVineMarker",
+      "x": -13692.15625,
+      "y": 1061.529052
+    },
+    {
+      "id": "003FA330",
+      "type": "MelonVineMarker",
+      "x": -7917.929199,
+      "y": -3085.050049
+    },
+    {
+      "id": "003FA3C6",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -8453.668946,
+      "y": -1335.24231
+    },
+    {
+      "id": "003FC23D",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -9973.491211,
+      "y": -1366.938843
+    },
+    {
+      "id": "003FC30F",
+      "type": "WildMelonVineMarker",
+      "x": -12448.7793,
+      "y": 1571.68335
+    },
+    {
+      "id": "003FC673",
+      "type": "WildMelonVineMarker",
+      "x": -13280.89258,
+      "y": -1939.782226
+    },
+    {
+      "id": "003FC6D1",
+      "type": "WildGourdVineMarker",
+      "x": -11793.11719,
+      "y": -2413.315674
+    },
+    {
+      "id": "003FE5E9",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -8511.280274,
+      "y": -2106.240479
+    },
+    {
+      "id": "003FE63C",
+      "type": "WildGourdVineMarker",
+      "x": -8732.479492,
+      "y": -1072.807251
+    },
+    {
+      "id": "003FE9F7",
+      "type": "KaleidoporeMarker",
+      "x": -8710.515625,
+      "y": -2509.473633
+    },
+    {
+      "id": "003FE9F8",
+      "type": "KaleidoporeMarker",
+      "x": -8263.492187,
+      "y": -2061.892822
+    },
+    {
+      "id": "003FE9F9",
+      "type": "KaleidoporeMarker",
+      "x": -8422.867188,
+      "y": -1350.299439
+    },
+    {
+      "id": "003FE9FA",
+      "type": "KaleidoporeMarker",
+      "x": -8412.75586,
+      "y": -1223.491211
+    },
+    {
+      "id": "003FE9FB",
+      "type": "KaleidoporeMarker",
+      "x": -9855.881836,
+      "y": -923.594727
+    },
+    {
+      "id": "003FE9FC",
+      "type": "KaleidoporeMarker",
+      "x": -11267.52637,
+      "y": -1995.380249
+    },
+    {
+      "id": "003FE9FD",
+      "type": "KaleidoporeMarker",
+      "x": -11222.83691,
+      "y": -2207.398681
+    },
+    {
+      "id": "003FE9FE",
+      "type": "KaleidoporeMarker",
+      "x": -10390.12012,
+      "y": -2854.959717
+    },
+    {
+      "id": "003FE9FF",
+      "type": "KaleidoporeMarker",
+      "x": -11454.70313,
+      "y": -3481.839355
+    },
+    {
+      "id": "003FEA00",
+      "type": "KaleidoporeMarker",
+      "x": -11236.46777,
+      "y": -4721.507324
+    },
+    {
+      "id": "003FEA01",
+      "type": "KaleidoporeMarker",
+      "x": -9517.262695,
+      "y": -6009.318848
+    },
+    {
+      "id": "003FEA02",
+      "type": "KaleidoporeMarker",
+      "x": -9860.37793,
+      "y": -5870.437012
+    },
+    {
+      "id": "003FEA03",
+      "type": "KaleidoporeMarker",
+      "x": -8457.668946,
+      "y": -4344.128906
+    },
+    {
+      "id": "003FEA04",
+      "type": "KaleidoporeMarker",
+      "x": -7019.488281,
+      "y": -4363.810059
+    },
+    {
+      "id": "003FEA05",
+      "type": "KaleidoporeMarker",
+      "x": -6649.083008,
+      "y": -5465.998047
+    },
+    {
+      "id": "003FEA06",
+      "type": "KaleidoporeMarker",
+      "x": -5783.497558,
+      "y": -5779.928711
+    },
+    {
+      "id": "003FEA07",
+      "type": "KaleidoporeMarker",
+      "x": -5372.983886,
+      "y": -6255.811035
+    },
+    {
+      "id": "003FEA08",
+      "type": "KaleidoporeMarker",
+      "x": -6950.135253,
+      "y": -3299.153321
+    },
+    {
+      "id": "003FEA12",
+      "type": "KaleidoporeMarker",
+      "x": -9873.876953,
+      "y": -970.515748
+    },
+    {
+      "id": "003FEA13",
+      "type": "KaleidoporeMarker",
+      "x": -7446.231445,
+      "y": -5067.370605
+    },
+    {
+      "id": "003FEA15",
+      "type": "KaleidoporeMarker",
+      "x": -7871.272949,
+      "y": -3780.091552
+    },
+    {
+      "id": "00400B55",
+      "type": "WildMelonVineMarker",
+      "x": -13167.81836,
+      "y": -1980.851318
+    },
+    {
+      "id": "00400BA7",
+      "type": "WildMelonVineMarker",
+      "x": -12321.31445,
+      "y": -3670.645752
+    },
+    {
+      "id": "00400BA8",
+      "type": "WildMelonVineMarker",
+      "x": -11598.29785,
+      "y": -3372.40625
+    },
+    {
+      "id": "00400BD1",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -10708.68555,
+      "y": -2041.029053
+    },
+    {
+      "id": "00400EC8",
+      "type": "WildMelonVineMarker",
+      "x": -11205.5459,
+      "y": -6211.483886
+    },
+    {
+      "id": "0040358B",
+      "type": "KaleidoporeMarker",
+      "x": -1497.415039,
+      "y": -4374.365234
+    },
+    {
+      "id": "004041B2",
+      "type": "KaleidoporeMarker",
+      "x": -4151.103028,
+      "y": -1526.894287
+    },
+    {
+      "id": "004041B3",
+      "type": "KaleidoporeMarker",
+      "x": -4225.121093,
+      "y": -1699.351441
+    },
+    {
+      "id": "004041B9",
+      "type": "KaleidoporeMarker",
+      "x": -4054.0271,
+      "y": -1858.486328
+    },
+    {
+      "id": "0040EA2D",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": -6281.882324,
+      "y": -5564.573242
+    },
+    {
+      "id": "0040EA2E",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -5296.032715,
+      "y": -5442.196777
+    },
+    {
+      "id": "0040EE98",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": -13604.91406,
+      "y": 2694.860596
+    },
+    {
+      "id": "0040F3C9",
+      "type": "WildMelonVineMarker",
+      "x": -20621.23828,
+      "y": 95.391159
+    },
+    {
+      "id": "0041A988",
+      "type": "MelonVineMarker",
+      "x": -14161.27637,
+      "y": -3590.76294
+    },
+    {
+      "id": "0041ABBB",
+      "type": "MelonVineMarker",
+      "x": -15198.99316,
+      "y": -3286.658692
+    },
+    {
+      "id": "0041ABBD",
+      "type": "MelonVineMarker",
+      "x": -15075.875,
+      "y": -3604.505859
+    },
+    {
+      "id": "0041ABD7",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -16338.07617,
+      "y": -3461.378906
+    },
+    {
+      "id": "0041AC3B",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -17778.30664,
+      "y": -174.483765
+    },
+    {
+      "id": "0041ACA3",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": -19380.41992,
+      "y": 21.414589
+    },
+    {
+      "id": "0041ADBF",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -20214.3125,
+      "y": -243.320816
+    },
+    {
+      "id": "00421CF0",
+      "type": "WildMelonVineMarker",
+      "x": -1136.27063,
+      "y": -8700.635742
+    },
+    {
+      "id": "00421E3F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -1829.598144,
+      "y": -10310.16309
+    },
+    {
+      "id": "004272D0",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -165730.9375,
+      "y": 193647.2969
+    },
+    {
+      "id": "004272D1",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -165499,
+      "y": 193637.4219
+    },
+    {
+      "id": "004272D2",
+      "type": "WildGourdVineMarker",
+      "x": -165796.8594,
+      "y": 194466.3125
+    },
+    {
+      "id": "004272D3",
+      "type": "WildMelonVineMarker",
+      "x": -165527.7813,
+      "y": 194472.9375
+    },
+    {
+      "id": "0042A5A9",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -165614.1563,
+      "y": 193473.1406
+    },
+    {
+      "id": "00437D6C",
+      "type": "PumpkinMarker",
+      "x": -151719.9844,
+      "y": 143780.7344
+    },
+    {
+      "id": "0043DDCA",
+      "type": "WildGourdVineMarker",
+      "x": -190.627167,
+      "y": 1110.605102
+    },
+    {
+      "id": "0043DDCB",
+      "type": "WildMelonVineMarker",
+      "x": -217.63446,
+      "y": 921.639405
+    },
+    {
+      "id": "0043E4CA",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -31718.24023,
+      "y": 154086.7656
+    },
+    {
+      "id": "0043E4CB",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -31855.98047,
+      "y": 154096.2656
+    },
+    {
+      "id": "0043E4CC",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -31702.72656,
+      "y": 153963.0156
+    },
+    {
+      "id": "0043E4CD",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -31612.44922,
+      "y": 154078.3125
+    },
+    {
+      "id": "00458F7A",
+      "type": "WildMelonVineMarker",
+      "x": -11650.93164,
+      "y": -2151.838379
+    },
+    {
+      "id": "0046EBEF",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -40924.88672,
+      "y": -112255.8594
+    },
+    {
+      "id": "0046EBF0",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -40977.45313,
+      "y": -112252.9688
+    },
+    {
+      "id": "004E012C",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 8489.859375,
+      "y": 173628.5469
+    },
+    {
+      "id": "004E012D",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 8499.992188,
+      "y": 173557.625
+    },
+    {
+      "id": "004E2849",
+      "type": "PumpkinVeinMarker",
+      "x": -4623.625,
+      "y": 15802.88086
+    },
+    {
+      "id": "004E33BF",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -10078.90625,
+      "y": 90280.39063
+    },
+    {
+      "id": "004E33C0",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -10038.60938,
+      "y": 90382.42188
+    },
+    {
+      "id": "004E33C1",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -10055.38477,
+      "y": 90337.51563
+    },
+    {
+      "id": "004E715A",
+      "type": "GinsengMarker",
+      "x": -6546.449707,
+      "y": -43155.01953
+    },
+    {
+      "id": "004E715E",
+      "type": "GinsengMarker",
+      "x": -6360.967773,
+      "y": -43052.66797
+    },
+    {
+      "id": "004E715F",
+      "type": "GinsengMarker",
+      "x": -6512.868165,
+      "y": -43129.01953
+    },
+    {
+      "id": "004E94B7",
+      "type": "GinsengMarker",
+      "x": -34380.07031,
+      "y": -73617.17188
+    },
+    {
+      "id": "004E94B8",
+      "type": "GinsengMarker",
+      "x": -34153.33203,
+      "y": -73567.09375
+    },
+    {
+      "id": "004EBB7D",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -151046.5625,
+      "y": -137855.6094
+    },
+    {
+      "id": "004EBCB2",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -132608.5469,
+      "y": -132688.1719
+    },
+    {
+      "id": "004EC715",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -21345.37695,
+      "y": 29885.53516
+    },
+    {
+      "id": "004EC716",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -21395.48438,
+      "y": 29832.39649
+    },
+    {
+      "id": "004EC717",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -21237.06836,
+      "y": 29613.23242
+    },
+    {
+      "id": "004F79CA",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 178552.9688,
+      "y": -59031.07422
+    },
+    {
+      "id": "004F79CD",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -174001.6406,
+      "y": -30371.9668
+    },
+    {
+      "id": "004F8E92",
+      "type": "GinsengMarker",
+      "x": 197339.9844,
+      "y": 15032.57715
+    },
+    {
+      "id": "004FC325",
+      "type": "PumpkinMarker",
+      "x": 64331.31641,
+      "y": 114680.1484
+    },
+    {
+      "id": "0050290A",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -43295.05859,
+      "y": -156923.5469
+    },
+    {
+      "id": "0050752A",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 92344.32813,
+      "y": 33000.15625
+    },
+    {
+      "id": "0050752B",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -80602.84375,
+      "y": 148761.6719
+    },
+    {
+      "id": "005079A6",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -120709.0469,
+      "y": 173600.2813
+    },
+    {
+      "id": "005079A7",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -113716.7578,
+      "y": 170591.5156
+    },
+    {
+      "id": "005079A8",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -42797.23828,
+      "y": -157228.0625
+    },
+    {
+      "id": "005079A9",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 86303.53906,
+      "y": -49453.99219
+    },
+    {
+      "id": "005079AA",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 11445.06738,
+      "y": 71728.45313
+    },
+    {
+      "id": "005079AB",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 177980.2031,
+      "y": -58878.32031
+    },
+    {
+      "id": "00509A64",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 178258.2813,
+      "y": -59034
+    },
+    {
+      "id": "00509A65",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -121832,
+      "y": 175015.8281
+    },
+    {
+      "id": "00509A66",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -163204.2188,
+      "y": 137535.0938
+    },
+    {
+      "id": "00509A67",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -80794.36719,
+      "y": 148753.5313
+    },
+    {
+      "id": "00509A68",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 107540.5234,
+      "y": -13894.92383
+    },
+    {
+      "id": "00509A69",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 11480.65039,
+      "y": 72246.97656
+    },
+    {
+      "id": "00509CE3",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 76836.07813,
+      "y": 64893.56641
+    },
+    {
+      "id": "00509CE4",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 177523.3281,
+      "y": -58887.65625
+    },
+    {
+      "id": "00509CE6",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -80627.55469,
+      "y": 148908.9063
+    },
+    {
+      "id": "0050CA2F",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -110086.2734,
+      "y": 83983.125
+    },
+    {
+      "id": "005187F4",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": -3803.722412,
+      "y": 15612.13672
+    },
+    {
+      "id": "0051A889",
+      "type": "WildGourdVineMarker",
+      "x": -10563.30273,
+      "y": 14441.87891
+    },
+    {
+      "id": "0051A88C",
+      "type": "WildGourdVineMarker",
+      "x": -10470.66309,
+      "y": 14508.33789
+    },
+    {
+      "id": "0051A88E",
+      "type": "WildMelonVineMarker",
+      "x": -10368.34961,
+      "y": 14104.37109
+    },
+    {
+      "id": "0051A88F",
+      "type": "WildMelonVineMarker",
+      "x": -10253.99609,
+      "y": 14136.80566
+    },
+    {
+      "id": "0051A896",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -10079.06934,
+      "y": 13313.99609
+    },
+    {
+      "id": "0051A897",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -9959.521485,
+      "y": 13293.19922
+    },
+    {
+      "id": "0051A8AC",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -9342.259765,
+      "y": 13085.22949
+    },
+    {
+      "id": "0051A8AD",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -9267.855469,
+      "y": 13106.39551
+    },
+    {
+      "id": "00522F25",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -89564.69531,
+      "y": -83766.82813
+    },
+    {
+      "id": "00526A06",
+      "type": "GinsengMarker",
+      "x": -111779.6094,
+      "y": 90168.26563
+    },
+    {
+      "id": "005275CF",
+      "type": "GinsengMarker",
+      "x": -926.554016,
+      "y": -52813.83594
+    },
+    {
+      "id": "005275F9",
+      "type": "GinsengMarker",
+      "x": -11.248779,
+      "y": 0.335938
+    },
+    {
+      "id": "0052B7BA",
+      "type": "PumpkinVeinMarker",
+      "x": 130371.5078,
+      "y": 136594.4219
+    },
+    {
+      "id": "0052B7BB",
+      "type": "PumpkinVeinMarker",
+      "x": 130461.3125,
+      "y": 136576.7656
+    },
+    {
+      "id": "0052B7BC",
+      "type": "PumpkinVeinMarker",
+      "x": 130453.4609,
+      "y": 136677.1719
+    },
+    {
+      "id": "0052B7BD",
+      "type": "PumpkinVeinMarker",
+      "x": 125197.3672,
+      "y": 138767.4844
+    },
+    {
+      "id": "0052B7BE",
+      "type": "PumpkinVeinMarker",
+      "x": 125071.3672,
+      "y": 138837.7656
+    },
+    {
+      "id": "0052B7BF",
+      "type": "PumpkinVeinMarker",
+      "x": 125161.5234,
+      "y": 138640.5313
+    },
+    {
+      "id": "0052B7C0",
+      "type": "PumpkinVeinMarker",
+      "x": 126025.2734,
+      "y": 129553.7734
+    },
+    {
+      "id": "0052B7C1",
+      "type": "PumpkinVeinMarker",
+      "x": 126068.7266,
+      "y": 129514.4375
+    },
+    {
+      "id": "0052B7C2",
+      "type": "PumpkinVeinMarker",
+      "x": 126177.4766,
+      "y": 129841.5391
+    },
+    {
+      "id": "0052B7C3",
+      "type": "PumpkinVeinMarker",
+      "x": 123466.9219,
+      "y": 128539.6875
+    },
+    {
+      "id": "0052B7C4",
+      "type": "PumpkinVeinMarker",
+      "x": 123104.8438,
+      "y": 128484.4766
+    },
+    {
+      "id": "0052B7C5",
+      "type": "PumpkinVeinMarker",
+      "x": 129296,
+      "y": 134120
+    },
+    {
+      "id": "0052B7C6",
+      "type": "PumpkinVeinMarker",
+      "x": 129408.1094,
+      "y": 134148.6094
+    },
+    {
+      "id": "0052B7C7",
+      "type": "PumpkinVeinMarker",
+      "x": 129379.1016,
+      "y": 134034.7188
+    },
+    {
+      "id": "0052B7C8",
+      "type": "PumpkinVeinMarker",
+      "x": 128663.5859,
+      "y": 134261.6406
+    },
+    {
+      "id": "0052B7C9",
+      "type": "PumpkinVeinMarker",
+      "x": 128761.1094,
+      "y": 133222.0781
+    },
+    {
+      "id": "0052B7CA",
+      "type": "PumpkinVeinMarker",
+      "x": 127629.2188,
+      "y": 134398.875
+    },
+    {
+      "id": "0052B7CB",
+      "type": "PumpkinVeinMarker",
+      "x": 127640.6172,
+      "y": 134500.5313
+    },
+    {
+      "id": "0052B7CC",
+      "type": "PumpkinVeinMarker",
+      "x": 129407.6797,
+      "y": 131445.9844
+    },
+    {
+      "id": "0052B7CD",
+      "type": "PumpkinVeinMarker",
+      "x": 129535.2969,
+      "y": 131420.9531
+    },
+    {
+      "id": "0052B7CE",
+      "type": "PumpkinVeinMarker",
+      "x": 129481.3281,
+      "y": 131334.3125
+    },
+    {
+      "id": "0052B7CF",
+      "type": "PumpkinVeinMarker",
+      "x": 129950.1641,
+      "y": 131496.8906
+    },
+    {
+      "id": "0052B7D0",
+      "type": "PumpkinVeinMarker",
+      "x": 126292.0703,
+      "y": 135279.4063
+    },
+    {
+      "id": "0052B7D1",
+      "type": "PumpkinVeinMarker",
+      "x": 126417.9844,
+      "y": 135267.6563
+    },
+    {
+      "id": "0052B7D2",
+      "type": "PumpkinVeinMarker",
+      "x": 124277.875,
+      "y": 138249.5
+    },
+    {
+      "id": "0052B7D3",
+      "type": "PumpkinVeinMarker",
+      "x": 124277.3203,
+      "y": 138167.6719
+    },
+    {
+      "id": "0052B7D4",
+      "type": "PumpkinVeinMarker",
+      "x": 119413.8203,
+      "y": 135927.5469
+    },
+    {
+      "id": "0052B7D5",
+      "type": "PumpkinVeinMarker",
+      "x": 119325.9063,
+      "y": 136023.3438
+    },
+    {
+      "id": "0052B7D6",
+      "type": "PumpkinVeinMarker",
+      "x": 122131.4766,
+      "y": 136493.2344
+    },
+    {
+      "id": "0052B7D7",
+      "type": "PumpkinVeinMarker",
+      "x": 121515.4844,
+      "y": 136022.0781
+    },
+    {
+      "id": "0052B7D8",
+      "type": "PumpkinVeinMarker",
+      "x": 121855.9766,
+      "y": 136633.0938
+    },
+    {
+      "id": "0052B7D9",
+      "type": "PumpkinVeinMarker",
+      "x": 121040,
+      "y": 136016
+    },
+    {
+      "id": "0052B7DB",
+      "type": "GinsengMarker",
+      "x": 187725.5156,
+      "y": -24415.4668
+    },
+    {
+      "id": "0052B7DC",
+      "type": "GinsengMarker",
+      "x": 187049.0156,
+      "y": -24444.40039
+    },
+    {
+      "id": "0052B7DD",
+      "type": "GinsengMarker",
+      "x": 188091.7813,
+      "y": -24725.99024
+    },
+    {
+      "id": "0052B7DE",
+      "type": "GinsengMarker",
+      "x": 187312.4063,
+      "y": -24725.41406
+    },
+    {
+      "id": "0052B7DF",
+      "type": "GinsengMarker",
+      "x": 186379.4688,
+      "y": -23662.32031
+    },
+    {
+      "id": "0052B7E3",
+      "type": "PumpkinVeinMarker",
+      "x": 173105.7031,
+      "y": -23046.00586
+    },
+    {
+      "id": "0052B7E4",
+      "type": "PumpkinVeinMarker",
+      "x": 173027.8906,
+      "y": -23384.92969
+    },
+    {
+      "id": "0052B837",
+      "type": "GinsengMarker",
+      "x": 171534.4531,
+      "y": -32162.3125
+    },
+    {
+      "id": "0052B83E",
+      "type": "GinsengMarker",
+      "x": 170942.4688,
+      "y": -36421.5625
+    },
+    {
+      "id": "0052B841",
+      "type": "GinsengMarker",
+      "x": 171081.6563,
+      "y": -36166.77734
+    },
+    {
+      "id": "0052BE45",
+      "type": "PumpkinVeinMarker",
+      "x": -41825.32031,
+      "y": -161562.3906
+    },
+    {
+      "id": "0052BE46",
+      "type": "PumpkinVeinMarker",
+      "x": -41706.86328,
+      "y": -161712.6094
+    },
+    {
+      "id": "0052BE47",
+      "type": "PumpkinVeinMarker",
+      "x": -41347.51563,
+      "y": -161674.0313
+    },
+    {
+      "id": "0052BE48",
+      "type": "PumpkinVeinMarker",
+      "x": -41775.53516,
+      "y": -162163.6719
+    },
+    {
+      "id": "0052BE49",
+      "type": "PumpkinVeinMarker",
+      "x": -141119.2656,
+      "y": 174637.1563
+    },
+    {
+      "id": "0052BE4A",
+      "type": "PumpkinVeinMarker",
+      "x": -141124.5625,
+      "y": 174538.7969
+    },
+    {
+      "id": "0052BE4B",
+      "type": "PumpkinVeinMarker",
+      "x": 125047.4766,
+      "y": 131151.1094
+    },
+    {
+      "id": "0052BE4C",
+      "type": "PumpkinVeinMarker",
+      "x": 124393.8906,
+      "y": 137937.0469
+    },
+    {
+      "id": "0052BE4D",
+      "type": "PumpkinVeinMarker",
+      "x": -40924.95313,
+      "y": -161129.9375
+    },
+    {
+      "id": "0052BE4E",
+      "type": "PumpkinVeinMarker",
+      "x": -40804.58594,
+      "y": -160723.875
+    },
+    {
+      "id": "0052BE4F",
+      "type": "PumpkinVeinMarker",
+      "x": -40603.5625,
+      "y": -160967
+    },
+    {
+      "id": "0052BE50",
+      "type": "PumpkinVeinMarker",
+      "x": 129821.5859,
+      "y": 139621.9063
+    },
+    {
+      "id": "0052BE51",
+      "type": "PumpkinVeinMarker",
+      "x": 127989.4375,
+      "y": 135222.8906
+    },
+    {
+      "id": "0052BE52",
+      "type": "PumpkinVeinMarker",
+      "x": 130961.9609,
+      "y": 136567.6719
+    },
+    {
+      "id": "0052BE53",
+      "type": "PumpkinVeinMarker",
+      "x": 130875.1641,
+      "y": 136510.2188
+    },
+    {
+      "id": "0052BE54",
+      "type": "PumpkinVeinMarker",
+      "x": 131434.9063,
+      "y": 136902.3125
+    },
+    {
+      "id": "0052BE55",
+      "type": "PumpkinVeinMarker",
+      "x": -114797.4531,
+      "y": 171617.9531
+    },
+    {
+      "id": "0052BE56",
+      "type": "PumpkinVeinMarker",
+      "x": -114609.4922,
+      "y": 170961.6563
+    },
+    {
+      "id": "0052BE57",
+      "type": "PumpkinVeinMarker",
+      "x": -114181.5156,
+      "y": 171081.9219
+    },
+    {
+      "id": "0052BE58",
+      "type": "PumpkinVeinMarker",
+      "x": -114135.7344,
+      "y": 171576.4688
+    },
+    {
+      "id": "0052BE59",
+      "type": "PumpkinVeinMarker",
+      "x": -114732.6953,
+      "y": 169370.9063
+    },
+    {
+      "id": "0052BE5A",
+      "type": "PumpkinVeinMarker",
+      "x": -114536.8828,
+      "y": 169302.8125
+    },
+    {
+      "id": "0052BE5B",
+      "type": "PumpkinVeinMarker",
+      "x": -114364.8906,
+      "y": 169589.6563
+    },
+    {
+      "id": "0052BE5C",
+      "type": "PumpkinVeinMarker",
+      "x": -114296.2422,
+      "y": 169836.0938
+    },
+    {
+      "id": "0052BE5D",
+      "type": "PumpkinVeinMarker",
+      "x": -114679.2578,
+      "y": 169752.8281
+    },
+    {
+      "id": "0052BE5E",
+      "type": "PumpkinVeinMarker",
+      "x": -114525.5703,
+      "y": 170207.7188
+    },
+    {
+      "id": "0052BE5F",
+      "type": "PumpkinVeinMarker",
+      "x": -114271.5703,
+      "y": 170080.4219
+    },
+    {
+      "id": "0052BE60",
+      "type": "PumpkinVeinMarker",
+      "x": -114139.4688,
+      "y": 170192.7188
+    },
+    {
+      "id": "0052BE61",
+      "type": "PumpkinVeinMarker",
+      "x": 119908.8672,
+      "y": 134916.3125
+    },
+    {
+      "id": "0052BE62",
+      "type": "PumpkinVeinMarker",
+      "x": 119615.6797,
+      "y": 132329.5313
+    },
+    {
+      "id": "0052BE63",
+      "type": "PumpkinVeinMarker",
+      "x": 119415.0234,
+      "y": 132276.7969
+    },
+    {
+      "id": "0052BE64",
+      "type": "PumpkinVeinMarker",
+      "x": 119487.2188,
+      "y": 132391.3125
+    },
+    {
+      "id": "0052BE65",
+      "type": "PumpkinVeinMarker",
+      "x": 82035.98438,
+      "y": -111492.2891
+    },
+    {
+      "id": "0052BE66",
+      "type": "PumpkinVeinMarker",
+      "x": 82038.39063,
+      "y": -111348.7969
+    },
+    {
+      "id": "0052BE67",
+      "type": "PumpkinVeinMarker",
+      "x": 81813.32031,
+      "y": -111492.0469
+    },
+    {
+      "id": "0052BE68",
+      "type": "PumpkinVeinMarker",
+      "x": 81848.21875,
+      "y": -111220.0703
+    },
+    {
+      "id": "0052BE69",
+      "type": "PumpkinVeinMarker",
+      "x": 82048.76563,
+      "y": -111119.9844
+    },
+    {
+      "id": "0052BE6A",
+      "type": "PumpkinVeinMarker",
+      "x": 81851.35156,
+      "y": -111014.5703
+    },
+    {
+      "id": "0052BE6B",
+      "type": "PumpkinVeinMarker",
+      "x": 81863.03906,
+      "y": -110819.4688
+    },
+    {
+      "id": "0052BE6C",
+      "type": "PumpkinVeinMarker",
+      "x": 81860.52344,
+      "y": -110715.4297
+    },
+    {
+      "id": "0052BE6D",
+      "type": "PumpkinVeinMarker",
+      "x": 82099.85938,
+      "y": -110589.5547
+    },
+    {
+      "id": "0052BE6E",
+      "type": "PumpkinVeinMarker",
+      "x": 82072.66406,
+      "y": -110852.0313
+    },
+    {
+      "id": "0052BE6F",
+      "type": "PumpkinVeinMarker",
+      "x": 82285.38281,
+      "y": -110775.2656
+    },
+    {
+      "id": "0052BE70",
+      "type": "PumpkinVeinMarker",
+      "x": 82281.02344,
+      "y": -110871.1172
+    },
+    {
+      "id": "0052BE71",
+      "type": "PumpkinVeinMarker",
+      "x": 121152,
+      "y": 135816
+    },
+    {
+      "id": "0052BE72",
+      "type": "PumpkinVeinMarker",
+      "x": 121254.3281,
+      "y": 135849.5156
+    },
+    {
+      "id": "0052BE74",
+      "type": "PumpkinVeinMarker",
+      "x": 118421.6875,
+      "y": 135563.0781
+    },
+    {
+      "id": "0052BE75",
+      "type": "PumpkinVeinMarker",
+      "x": 116646.4922,
+      "y": 135500.0625
+    },
+    {
+      "id": "0052BE76",
+      "type": "PumpkinVeinMarker",
+      "x": 116643.8594,
+      "y": 135624.2656
+    },
+    {
+      "id": "0052CD3E",
+      "type": "PumpkinVeinMarker",
+      "x": 128248.1484,
+      "y": 132432.6406
+    },
+    {
+      "id": "0052CD3F",
+      "type": "PumpkinVeinMarker",
+      "x": 128194.4141,
+      "y": 132517.9219
+    },
+    {
+      "id": "0052CD40",
+      "type": "PumpkinVeinMarker",
+      "x": 128295.5859,
+      "y": 132513.375
+    },
+    {
+      "id": "0052CEC9",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -124883.8828,
+      "y": -172890.8438
+    },
+    {
+      "id": "0052CECA",
+      "label": 1,
+      "type": "AshRoseMarker",
+      "x": -125103.2109,
+      "y": -172968.1406
+    },
+    {
+      "id": "0052CEDE",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": -135326.0938,
+      "y": -134815.5938
+    },
+    {
+      "id": "0052CF95",
+      "type": "PumpkinVeinMarker",
+      "x": -6620.896484,
+      "y": 18616.88086
+    },
+    {
+      "id": "0052CF96",
+      "type": "PumpkinVeinMarker",
+      "x": -6533.892579,
+      "y": 18694.55469
+    },
+    {
+      "id": "0052FDEE",
+      "type": "PumpkinMarker",
+      "x": -354.229248,
+      "y": -312.387604
+    },
+    {
+      "id": "0052FDF1",
+      "type": "PumpkinMarker",
+      "x": -329.477356,
+      "y": -262.499756
+    },
+    {
+      "id": "0052FDF3",
+      "type": "PumpkinVeinMarker",
+      "x": -317.517029,
+      "y": -209.679595
+    },
+    {
+      "id": "00534FB8",
+      "type": "GinsengMarker",
+      "x": 182819.4063,
+      "y": 11643.67188
+    },
+    {
+      "id": "005352A9",
+      "type": "WildGourdVineMarker",
+      "x": 896.781739,
+      "y": 186.488801
+    },
+    {
+      "id": "0053546C",
+      "type": "WildGourdVineMarker",
+      "x": 896.781739,
+      "y": 186.488801
+    },
+    {
+      "id": "0053C464",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -118950.2578,
+      "y": 120935.4375
+    },
+    {
+      "id": "0053C465",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": -118944.4844,
+      "y": 120824.1563
+    },
+    {
+      "id": "0053C466",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -118945.2266,
+      "y": 120727.4922
+    },
+    {
+      "id": "0053C467",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": -118950.2656,
+      "y": 120615.8516
+    },
+    {
+      "id": "0053C46B",
+      "type": "PumpkinVeinMarker",
+      "x": -118733.2031,
+      "y": 120664.2813
+    },
+    {
+      "id": "0053C46C",
+      "type": "PumpkinVeinMarker",
+      "x": -118756.0859,
+      "y": 120873.0234
+    },
+    {
+      "id": "005454F2",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 8687.96582,
+      "y": -574.094056
+    },
+    {
+      "id": "005454F3",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 9172.584961,
+      "y": -837.12677
+    },
+    {
+      "id": "005454F4",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 10057.78516,
+      "y": -937.724488
+    },
+    {
+      "id": "005454F5",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 9721.15332,
+      "y": -958.083619
+    },
+    {
+      "id": "005454F6",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 10264.81543,
+      "y": -1410.620605
+    },
+    {
+      "id": "005454F7",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 11195.42285,
+      "y": -1668.160645
+    },
+    {
+      "id": "005454F8",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 10822.56152,
+      "y": -1959.660644
+    },
+    {
+      "id": "005454F9",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 6692.022949,
+      "y": -4899.409668
+    },
+    {
+      "id": "005454FA",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 9451.830078,
+      "y": -4096.919434
+    },
+    {
+      "id": "005454FB",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 7359.783691,
+      "y": -8962.960937
+    },
+    {
+      "id": "005454FC",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 8446.790039,
+      "y": -9178.59082
+    },
+    {
+      "id": "005454FD",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 8309.105469,
+      "y": -10430.13965
+    },
+    {
+      "id": "005454FE",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 8384.470703,
+      "y": -10500.42969
+    },
+    {
+      "id": "005454FF",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 7609.135254,
+      "y": -11176.74121
+    },
+    {
+      "id": "0054555E",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 9412.923828,
+      "y": -409.973572
+    },
+    {
+      "id": "005455B6",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 10527.27637,
+      "y": -3860.183838
+    },
+    {
+      "id": "005455B8",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 10207.01758,
+      "y": -4263.978515
+    },
+    {
+      "id": "005455BB",
+      "label": 2,
+      "type": "FeverMarker",
+      "x": 9759.300781,
+      "y": -4020.023438
+    },
+    {
+      "id": "005455C5",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 8463.897461,
+      "y": -2709.590088
+    },
+    {
+      "id": "005455C6",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 8309.680664,
+      "y": -2991.42871
+    },
+    {
+      "id": "005455C9",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 7922.792969,
+      "y": -3416.697754
+    },
+    {
+      "id": "005455D1",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 7774.980957,
+      "y": -3899.683105
+    },
+    {
+      "id": "005455D4",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 6994.862304,
+      "y": -3931.47583
+    },
+    {
+      "id": "005455D7",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 6630.520508,
+      "y": -4231.929687
+    },
+    {
+      "id": "005455DD",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 6449.862305,
+      "y": -5118.628418
+    },
+    {
+      "id": "005469B6",
+      "label": 1,
+      "type": "FeverMarker",
+      "x": 9457.424805,
+      "y": -8152.101074
+    },
+    {
+      "id": "00547D8F",
+      "label": 2,
+      "type": "AshRoseMarker",
+      "x": 10286.29102,
+      "y": -600.375244
+    },
+    {
+      "id": "0055BEF6",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 198302.2969,
+      "y": 43464.42969
+    },
+    {
+      "id": "0055BEF7",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 198300.4375,
+      "y": 43780.48047
+    },
+    {
+      "id": "0055BEF8",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 198074.4688,
+      "y": 43257.85547
+    },
+    {
+      "id": "0055BEF9",
+      "label": 1,
+      "type": "TatoPlantMarker",
+      "x": 198068.3125,
+      "y": 43535.875
+    },
+    {
+      "id": "0055BEFA",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 198313.9688,
+      "y": 43320.55469
+    },
+    {
+      "id": "0055BEFB",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 198293.1406,
+      "y": 43605.95703
+    },
+    {
+      "id": "0055BEFC",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 198089.375,
+      "y": 43138.28125
+    },
+    {
+      "id": "0055BEFD",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 198080,
+      "y": 43392
+    },
+    {
+      "id": "0055BEFE",
+      "label": 2,
+      "type": "TatoPlantMarker",
+      "x": 198095.0781,
+      "y": 43678.57813
+    }
+  ]
+}

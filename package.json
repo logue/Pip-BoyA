@@ -31,9 +31,6 @@
     "email": "logue@hotmail.co.jp",
     "url": "https://logue.dev/"
   },
-  "build": {
-    "appId": "dev.logue.pipBoyA"
-  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/logue/Pip-BoyA/issues"
