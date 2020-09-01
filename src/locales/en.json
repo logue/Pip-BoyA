@@ -438,6 +438,7 @@
     "junk-fiber": "Screws & Ballistic Fiber",
     "junk-wood": "Wood (logs)",
     "junk-instrument": "Instruments",
+    "safe-terminal": "Safe Box & Terminal",
     "workbench": "Workbenchs",
     "treasure": "Treasure Map"
   },
@@ -533,7 +534,9 @@
     "PAWorkbenchMarker": "Power Armor Workbench",
     "WeaponWorkbenchMarker": "Wepon Workbench",
     "BrewingWorkbenchMarker": "Brewing Workbench",
-    "TinkerWorkbenchMarker": "Tinker Workbench"
+    "TinkerWorkbenchMarker": "Tinker Workbench",
+    "SafeMarker": "Safe Box",
+    "TerminalMarker": "Terminal"
   },
   "maps": {
     "flora": {

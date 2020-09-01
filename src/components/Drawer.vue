@@ -115,6 +115,11 @@ export default {
           to: '/workbench',
         },
         {
+          icon: 'mdi-key',
+          title: 'categories.safe-terminal',
+          to: '/safe_terminal',
+        },
+        {
           icon: 'mdi-treasure-chest',
           title: 'categories.treasure',
           to: '/treasure',

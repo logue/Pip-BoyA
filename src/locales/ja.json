@@ -439,6 +439,7 @@
     "junk-wood": "木材",
     "junk-instrument": "楽器",
     "workbench": "ワークベンチ",
+    "safe-terminal": "金庫＆ターミナル",
     "treasure": "宝の地図"
   },
   "markers": {
@@ -533,7 +534,9 @@
     "PAWorkbenchMarker": "パワーアーマーステーション",
     "WeaponWorkbenchMarker": "武器作業台",
     "BrewingWorkbenchMarker": "醸造ステーション",
-    "TinkerWorkbenchMarker": "細工師の作業台"
+    "TinkerWorkbenchMarker": "細工師の作業台",
+    "SafeMarker": "金庫",
+    "TerminalMarker": "ターミナル"
   },
   "maps": {
     "flora": {
