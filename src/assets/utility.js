@@ -109,7 +109,7 @@ export function createMarkerStyle() {
       image: new Circle({
         radius: 5,
         stroke: new Stroke({
-          color: colorSet.accent3 || colorSet.darken3,
+          color: colorSet.accent2 || colorSet.darken2,
         }),
         fill: new Fill({
           color: `rgba(${hexToRgb(colorSet.accent1 || colorSet.lighten5)},0.3)`,
@@ -121,8 +121,8 @@ export function createMarkerStyle() {
           color: colorSet.darken4,
         }),
         stroke: new Stroke({
-          color: `rgba(${hexToRgb(colorSet.lighten5)},0.5)`,
-          width: 2,
+          color: `rgba(${hexToRgb(colorSet.lighten5)}, 0.9)`,
+          width: 2.5,
         }),
       }),
     });

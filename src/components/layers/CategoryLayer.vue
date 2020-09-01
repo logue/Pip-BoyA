@@ -124,10 +124,11 @@ export default {
       // マーカーのタイプを色のインデックスにする
       let index = this.types.indexOf(feature.get('type'));
 
-      if (this.types.length < this.set.markerColor.length / 2) {
-        // マーカーの種類が少ない場合は1パレット分スキップする
-        index++;
+      if (this.set.markerColor.length / this.types.length > 2) {
+        // マーカーの種類が少ない場合、色がバラけるようにする。
+        index = (index * (this.set.markerColor.length / this.types.length)) | 0;
       }
+
       const style = valuesOf(styles)[index];
       const label = feature.values_.label
         ? feature.values_.label.toString()

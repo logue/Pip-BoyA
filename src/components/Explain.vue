@@ -26,7 +26,7 @@
         >
           <v-checkbox
             v-model="checked"
-            :color="set.markerColor[index]"
+            :color="set.markerColor[getColorIndex(index)]"
             :value="item"
             hide-details
             checked="true"
@@ -34,7 +34,9 @@
           >
             <template #label>
               <span
-                :class="`explain_list_item_label ${set.markerColor[index]}--text`"
+                :class="`explain_list_item_label ${
+                  set.markerColor[getColorIndex(index)]
+                }--text`"
               >
                 {{ $t(`markers.${item}`) }}
               </span>
@@ -83,6 +85,14 @@ export default {
     toggleMarker() {
       // console.log(this.checked);
       this.$emit('select-change', this.checked);
+    },
+    getColorIndex(index) {
+      if (this.set.markerColor.length / this.explains.length > 2) {
+        // マーカーの種類が少ない場合、色がバラけるようにする。
+        index =
+          (index * (this.set.markerColor.length / this.explains.length)) | 0;
+      }
+      return index;
     },
   },
 };
