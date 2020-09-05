@@ -84,6 +84,10 @@
             Fallout76大辞典
           </v-btn>
           <v-spacer />
+          <v-btn text color="secondary" @click="close">
+            <v-icon left>mdi-close</v-icon>
+            {{ $t('close') }}
+          </v-btn>
           <v-btn
             v-clipboard:copy="uri"
             v-clipboard:success="onCopy"
@@ -93,10 +97,6 @@
           >
             <v-icon left>mdi-clipboard-arrow-down</v-icon>
             {{ $t('copy') }}
-          </v-btn>
-          <v-btn text color="secondary" @click="close">
-            <v-icon left>mdi-close</v-icon>
-            {{ $t('close') }}
           </v-btn>
         </v-card-actions>
       </v-card>

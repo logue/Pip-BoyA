@@ -96,8 +96,8 @@ export default {
         },
         {
           icon: 'mdi-semantic-web',
-          title: 'categories.headpoint',
-          to: '/headpoint',
+          title: 'categories.hardpoint',
+          to: '/hardpoint',
         },
         {
           icon: 'mdi-notebook',

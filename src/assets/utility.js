@@ -1,4 +1,3 @@
-import colorset from '@/assets/colorset.json';
 import colors from 'vuetify/lib/util/colors';
 import {Style, Circle, Text, Fill, Stroke} from 'ol/style';
 
@@ -90,36 +89,69 @@ export function convertGeoJson(
   );
   return converted;
 }
-
 /**
  * Generate Marker Style
  * @return {Array}
  */
-export function createMarkerStyle() {
+export const markerStyles = () => {
+  // Material Color name (Ignore Black and White)
+  // @see https://vuetifyjs.com/styles/colors/
+  const palette = [
+    'red',
+    'pink',
+    'purple',
+    'deep-purple',
+    'indigo',
+    'blue',
+    'light-blue',
+    'cyan',
+    'teal',
+    'green',
+    'light-green',
+    'lime',
+    'yellow',
+    'amber',
+    'orange',
+    'deep-orange',
+    'brown',
+    'grey',
+    'blue-grey',
+  ];
   const styles = [];
-  for (const color of colorset.markerColor) {
-    const colorSet = colors[toKebabCase(color)];
-    styles[color] = new Style({
+  for (const colorName of palette) {
+    // Get Material Color from palette color name
+    const colorSet = colors[toKebabCase(colorName)];
+    // Generate Color set
+    styles[colorName] = new Style({
       fill: new Fill({
         color: `rgba(${hexToRgb(colorSet.accent1 || colorSet.lighten5)},0.3)`,
       }),
       stroke: new Stroke({
         color: colorSet.accent3 || colorSet.darken3,
       }),
+      // Marker Config
       image: new Circle({
+        // Marker size
         radius: 5,
+        // Marker Border color
         stroke: new Stroke({
+          // Brown and blueGrey and Grey does not have accent color
           color: colorSet.accent2 || colorSet.darken2,
         }),
+        // Marker fill color
         fill: new Fill({
           color: `rgba(${hexToRgb(colorSet.accent1 || colorSet.lighten5)},0.3)`,
         }),
       }),
+      // Annotation(label) text
       text: new Text({
+        // Text font
         font: '"Noto Sans JP"',
+        // Text color
         fill: new Fill({
           color: colorSet.darken4,
         }),
+        // Text outline color and blur size.
         stroke: new Stroke({
           color: `rgba(${hexToRgb(colorSet.lighten5)}, 0.9)`,
           width: 2.5,
@@ -128,7 +160,8 @@ export function createMarkerStyle() {
     });
   }
   return styles;
-}
+};
+
 /**
  * Convert hex color code to rgb array.
  *

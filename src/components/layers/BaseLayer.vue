@@ -19,12 +19,6 @@
         :tile-pixe-ratio="config.tilePixelRatio"
       />
     </vl-layer-tile>
-    <vl-layer-vector>
-      <vl-geom-point :coordinates="[-10, -10]" />
-      <vl-style-box>
-        <vl-style-icon src="/img/WaypointMarker.svg" />
-      </vl-style-box>
-    </vl-layer-vector>
   </vl-layer-group>
 </template>
 

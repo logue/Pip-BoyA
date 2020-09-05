@@ -20,16 +20,16 @@
 <script>
 import config from '@/assets/map.config.js';
 import colorset from '@/assets/colorset.json';
-import {convertGeoJson, createMarkerStyle, valuesOf} from '@/assets/utility.js';
+import {convertGeoJson, markerStyles, valuesOf} from '@/assets/utility.js';
 
-const styles = createMarkerStyle();
+const styles = markerStyles();
 
 /**
  * Category Marker
  * (Tile based marker and coordinate based marker.)
  */
 export default {
-  emits: ['init', 'loaded', 'redrawed', 'ready'],
+  emits: ['init', 'loaded', 'redraw', 'ready'],
   data() {
     return {
       // Markers
@@ -94,7 +94,7 @@ export default {
       return convertGeoJson(locations.data.markers, config.center);
     },
     async redraw() {
-      this.$emit('redrawed');
+      this.$emit('redraw');
       if (this.features.length === 0) {
         // const source = await this.$refs.categoryTileLayer.getSource();
         const source = this.$refs.categoryLayerSource;
@@ -142,7 +142,15 @@ export default {
     },
     // 凡例で選択された配列のレイヤーのみ表示する
     setMarkerVisibility(markers) {
-      // TODO: エラーになる
+      for (const marker of markers) {
+        for (const feature of this.features) {
+          if (feature.properties.type === marker) {
+            continue;
+          }
+          feature.style = {visibility: 'hidden'};
+        }
+      }
+      this.redraw();
     },
   },
 };

@@ -1,12 +1,10 @@
 # Extractor Sunrise
 
 Program for extracting missing in [YASSM](https://github.com/dan-parker/fo76edit-scripts).
-Be careful because the operation is very heavy.
 
 [Original story](https://fallout.fandom.com/wiki/RobCo_sales_%26_service_center_terminal_entries)
 
 [YASSM](https://github.com/dan-parker/fo76edit-scripts)で不足している抽出プログラム。
-とても動作が重いので注意。
 
 [元ネタ](https://game-dictionary.net/fo4/word/%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%BB%E3%82%B5%E3%83%B3%E3%83%A9%E3%82%A4%E3%82%BA)
 
@@ -28,15 +26,29 @@ English:
 
 ## Notice
 
-It is output as JSON data, but do not think that it can be used as it is by pouring it into a program.
-Depending on the output file size, the output file size can reach several megabytes.
-Experience shows that if the maximum number of markers that can be displayed on a single map exceeds 300, drawing will be heavy.
-When actually configuring a program, I think it is better to divide the data with Excel or use MySQL, sql.js, etc. to obtain the coordinates displayed in the database and limit the markers displayed at one time. I will.
+* It is output as JSON data, but do not think that it can be used as it is by pouring it into a program.
+* Depending on the output file size, the output file size can reach several megabytes.
+* Experience shows that if the maximum number of markers that can be displayed on a single map exceeds 300, drawing will be heavy.
+* When actually configuring a program, I think it is better to divide the data with Excel or use MySQL, sql.js, etc. to obtain the coordinates displayed in the database and limit the markers displayed at one time. I will.
 
-JSONデータとして出力されますが、そのままプログラムに流し込んで使えるとは考えないこと。
-ものにもよりますが、出力ファイル容量が数メガに及ぶ場合があります。
-経験上単一のマップに300箇所以上マーカーを表示しようとすると描画が重くなります。
-実際プログラムを組む場合は、Excelでデータを分割したり、MySQLやsql.jsなどを使用してデータベース化して表示されている座標を取得して一度に表示されるマーカーを制限したほうがいいと思います。
+* JSONデータとして出力されますが、そのままプログラムに流し込んで使えるとは考えないこと。
+* ものにもよりますが、出力ファイル容量が数メガに及ぶ場合があります。
+* 経験上単一のマップに300箇所以上マーカーを表示しようとすると描画が重くなります。
+* 実際プログラムを組む場合は、Excelでデータを分割したり、MySQLやsql.jsなどを使用してデータベース化して表示されている座標を取得して一度に表示されるマーカーを制限したほうがいいと思います。
+
+## i18n
+
+In Pip-boyA, the locale data is not included in the marker coordinate information in principle.
+
+Location data only has a unique name for the marker.
+To extract these data, run [YASSM - MapMarker Export.pas](../scripts/YASSM - MapMarker Export.pas) in the scripts directory with Fallout76 for the language.
+For example, if you want Chinese data, you need to run the above script on the Chinese client.
+
+Pip-boyAでは、原則的にマーカーの座標情報にロケールデータは含みません。
+
+ロケーションデータのみマーカーに固有の名前があります。
+これらのデータを抽出する場合は、scriptsディレクトリ内の[YASSM - MapMarker Export.pas](../scripts/YASSM - MapMarker Export.pas)を当該言語のFallout76で実行してください。
+例えば、中国語のデータが欲しい場合は中国語版クライアントで、上記スクリプトを実行する必要があります。
 
 ## License
 

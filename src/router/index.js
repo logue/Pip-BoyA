@@ -16,7 +16,11 @@ const routes = [
   },
   {
     path: '/resource',
-    redirect: '/headpoint',
+    redirect: '/hardpoint',
+  },
+  {
+    path: '/headpoint',
+    redirect: '/hardpoint',
   },
   {
     path: '/nuclear-winter',
