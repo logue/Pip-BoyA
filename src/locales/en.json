@@ -508,7 +508,7 @@
     "JunkPileMarker": "Junk Pile",
     "JunkSkirtMarker": "Junk Skirt",
     "LeadDepositMarker": "Lead Deposit",
-    "OilMarker": "Oil Seep",
+    "OilSeepMarker": "Oil Seep",
     "PhosphateMarker": "Phosphate Deposit",
     "SilverDepositMarker": "Silver Deposit",
     "StoneSkirtMarker": "Stone Skirt",
@@ -541,7 +541,19 @@
     "BrewingWorkbenchMarker": "Brewing Workbench",
     "TinkersWorkbenchMarker": "Tinker Workbench",
     "SafeMarker": "Safe Box",
-    "TerminalMarker": "Terminal"
+    "TerminalMarker": "Terminal",
+    "ArmorModsRecipeMarker": "Armor Mods Plan",
+    "ArmorRecipeMarker": "Armor Plan",
+    "ChemsRecipeMarker": "Chems Plan",
+    "CookingRecipeMarker": "Cooking Recipe",
+    "DiseaseCuresRecipeMarker": "Disease Cures Recipe",
+    "ModsRecipeMarker": "Mod Plan",
+    "PowerArmorModsRecipeMarker": "Power Armor Mods Plan",
+    "TinkersRecipeMarker": "Tinkers Plan",
+    "WaterFilterRecipeMarker": "Water Filter Plan",
+    "WeaponsModsRecipeMarker": "Weapon Mods Plan",
+    "WeaponsRecipeMarker": "Weapons Plan",
+    "WorkshopRecipeMarker": "Workshop Plan"
   },
   "maps": {
     "flora": {

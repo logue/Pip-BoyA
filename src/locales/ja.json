@@ -508,7 +508,7 @@
     "JunkPileMarker": "ジャンクの山",
     "JunkSkirtMarker": "ジャンクスカート",
     "LeadDepositMarker": "鉛鉱床",
-    "OilMarker": "廃油",
+    "OilSeepMarker": "廃油",
     "PhosphateMarker": "リン酸塩鉱床",
     "SilverDepositMarker": "銀鉱床",
     "StoneSkirtMarker": "石",
@@ -540,7 +540,19 @@
     "BrewingWorkbenchMarker": "醸造ステーション",
     "TinkersWorkbenchMarker": "細工師の作業台",
     "SafeMarker": "金庫",
-    "TerminalMarker": "ターミナル"
+    "TerminalMarker": "ターミナル",
+    "ArmorModsRecipeMarker": "防具のModsの設計図",
+    "ArmorRecipeMarker": "防具の設計図",
+    "ChemsRecipeMarker": "薬品の設計図",
+    "CookingRecipeMarker": "料理のレシピ",
+    "DiseaseCuresRecipeMarker": "ディスイーズキュアの設計図",
+    "ModsRecipeMarker": "Modの設計図",
+    "PowerArmorModsRecipeMarker": "パワーアーマーのModsの設計図",
+    "TinkersRecipeMarker": "作業台の設計図",
+    "WaterFilterRecipeMarker": "浄水器の設計図",
+    "WeaponsModsRecipeMarker": "武器のModsの設計図",
+    "WeaponsRecipeMarker": "武器の設計図",
+    "WorkshopRecipeMarker": "ワークショップの設計図"
   },
   "maps": {
     "flora": {

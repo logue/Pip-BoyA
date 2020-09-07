@@ -3,7 +3,7 @@ import {Style, Circle, Text, Fill, Stroke} from 'ol/style';
 
 // Fallout76 coordinates to pixel coordinates pixel rate.
 const COORDINATES_REDUCTION_RATE = 142; // WTF?
-const COORDINATES_OFFSET = [5, -5];
+const COORDINATES_OFFSET = [0, -0];
 /**
  * Convert Fallout76 native coordinates to map size based pixel coordinates.
  *
