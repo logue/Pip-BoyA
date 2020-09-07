@@ -25,7 +25,8 @@
 
       <!-- Base map layers -->
       <base-layer ref="baseLayer" :opacity="1" />
-
+      <!-- Map markers -->
+      <location-layer ref="locationLayer" />
       <!-- Category map layer -->
       <category-layer
         v-if="$route.name === 'Category'"
@@ -34,10 +35,6 @@
         @init="onCategoryLayerInit"
         @ready="onCategoryLayerReady"
       />
-
-      <!-- Map markers -->
-      <location-layer ref="locationLayer" />
-
       <waypoint-layer ref="waypointLayer" />
 
       <!-- Tooltip Overlay -->
@@ -54,12 +51,7 @@
       </vl-overlay>
 
       <!-- detect Select event -->
-      <vl-interaction-select
-        ref="selectInteraction"
-        hover
-        :style="null"
-        @select="onSelect"
-      />
+      <vl-interaction-select ref="selectInteraction" hover @select="onSelect" />
     </vl-map>
     <!-- opacity slider -->
     <v-tooltip bottom>
@@ -136,7 +128,7 @@ export default {
     zoom() {
       if (this.$root.$data.displayLocation) {
         // ズームの値によってロケーションアイコンのサイズを変える
-        this.$refs.locationLayer.setScale(this.zoom);
+        this.$refs.locationLayer.redraw();
       }
     },
   },
@@ -150,7 +142,7 @@ export default {
 
     if (this.$root.$data.displayLocation) {
       // ズームの値によってロケーションアイコンのサイズを変える
-      this.$refs.locationLayer.setScale(this.zoom);
+      this.$refs.locationLayer.redraw();
     }
   },
   methods: {
