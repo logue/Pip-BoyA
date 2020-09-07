@@ -25,11 +25,10 @@
           class="explain_list_item explain_list_checkbox"
         >
           <v-checkbox
-            v-model="checked"
+            v-model="selected"
             :color="set.markerColor[getColorIndex(index)]"
             :value="item"
             hide-details
-            checked="true"
             @change="toggleMarker"
           >
             <template #label>
@@ -54,7 +53,7 @@ import colorset from '@/assets/colorset.json';
  * Explain component
  */
 export default {
-  emits: ['select-change'],
+  emits: ['changed'],
   data() {
     return {
       // カラーセット
@@ -66,7 +65,7 @@ export default {
       // 最大化／最小化
       isShrinked: false,
       // チェック済みの項目の配列
-      checked: [],
+      selected: [],
       // falseは画像マーカーモード
       markerMode: false,
     };
@@ -75,7 +74,7 @@ export default {
     update(explains) {
       this.explains = explains;
       // マーカーはすべて選択状態にする
-      this.checked = explains;
+      this.selected = explains;
     },
     // 最小化／最大化
     toggleShrink() {
@@ -83,8 +82,8 @@ export default {
     },
     // マーカー表示／非表示
     toggleMarker() {
-      // console.log(this.checked);
-      this.$emit('select-change', this.checked);
+      // console.log(this.selected);
+      this.$emit('changed', this.selected);
     },
     getColorIndex(index) {
       if (this.set.markerColor.length / this.explains.length > 2) {

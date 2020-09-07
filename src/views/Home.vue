@@ -32,7 +32,6 @@
         v-if="$route.name === 'Category'"
         ref="categoryLayer"
         :category="$route.params.category"
-        @init="onCategoryLayerInit"
         @ready="onCategoryLayerReady"
       />
       <waypoint-layer ref="waypointLayer" />
@@ -72,7 +71,7 @@
     <explain
       v-if="$route.name === 'Category'"
       ref="explainPopup"
-      @select-change="onMarkerSelectChanged"
+      @changed="onMarkerSelectChanged"
     />
   </div>
 </template>
@@ -231,17 +230,16 @@ export default {
       const features = this.$refs.selectInteraction.getFeatures();
       console.log(features);
     },
-    onCategoryLayerInit() {
-      this.$root.$data.loading = true;
-    },
+    // カテゴリレイヤーの描画が完了したとき
     onCategoryLayerReady(explains) {
-      this.$root.$data.loading = false;
       // 画像マーカーモードのときはベースマップの透過度を半分にする
       this.$refs.explainPopup.update(explains);
       // this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
     },
+    // 凡例のチェックボックスが変化した時
     onMarkerSelectChanged(selected) {
-      this.$refs.categoryLayer.setMarkerVisibility(selected);
+      // console.log(selected);
+      this.$refs.categoryLayer.isVisible = selected;
     },
   },
 };

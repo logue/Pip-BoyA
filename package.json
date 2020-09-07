@@ -1,7 +1,7 @@
 {
   "name": "pip-boya",
   "description": "Fallout76 Pip-boy Application",
-  "version": "0.2.1-beta3",
+  "version": "0.2.4-beta",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

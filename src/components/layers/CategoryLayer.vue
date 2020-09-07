@@ -12,7 +12,7 @@
     </vl-layer-tile>
     <!-- location based marker mode -->
     <vl-layer-vector ref="markerLayer">
-      <vl-source-vector :features.sync="features" />
+      <vl-source-vector :features="features" />
     </vl-layer-vector>
   </vl-layer-group>
 </template>
@@ -41,7 +41,7 @@ export default {
       // Color Configure
       set: colorset,
       // Marker Visibiloty
-      visible: {},
+      isVisible: [],
     };
   },
   watch: {
@@ -49,7 +49,9 @@ export default {
       this.$emit('init');
       this.features = await this.loadFeatures(to.params.category);
       this.category = to.params.category;
-      this.redraw();
+    },
+    isVisible() {
+      this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
     },
   },
   async mounted() {
@@ -93,8 +95,9 @@ export default {
       this.$emit('loaded');
       return convertGeoJson(locations.data.markers, config.center);
     },
-    async redraw() {
+    redraw() {
       this.$emit('redraw');
+      this.$root.$data.loading = true;
       if (this.features.length === 0) {
         // const source = await this.$refs.categoryTileLayer.getSource();
         const source = this.$refs.categoryLayerSource;
@@ -114,43 +117,43 @@ export default {
         }
       } else {
         // console.log(this.$refs.markerLayer);
-        await this.$refs.markerLayer.setStyle((features) =>
-          this.setStyle(features)
-        );
+        this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
       }
+      this.$root.$data.loading = false;
       this.$emit('ready', this.types);
     },
+    // Apply Marker style.
     setStyle(feature) {
-      // マーカーのタイプを色のインデックスにする
-      let index = this.types.indexOf(feature.get('type'));
+      // Get Marker type
+      const type = feature.get('type');
+      // Get color index from
+      let index = this.types.indexOf(type);
 
       if (this.set.markerColor.length / this.types.length > 2) {
-        // マーカーの種類が少ない場合、色がバラけるようにする。
+        // If there are not enough markers, the colors should be varied.
         index = (index * (this.set.markerColor.length / this.types.length)) | 0;
       }
 
+      // Apply marker color
       const style = valuesOf(styles)[index];
+      // Add label to marker
       const label = feature.values_.label
         ? feature.values_.label.toString()
         : '';
       if (label && label.length <= 2) {
         style.getText().setText(label);
+      }
+
+      // Toggle display
+      if (this.isVisible.includes(type)) {
+        // Visible
+        style.getImage().setOpacity(1);
       } else {
+        // Invisible
+        style.getImage().setOpacity(0);
         style.getText().setText('');
       }
       return style;
-    },
-    // 凡例で選択された配列のレイヤーのみ表示する
-    setMarkerVisibility(markers) {
-      for (const marker of markers) {
-        for (const feature of this.features) {
-          if (feature.properties.type === marker) {
-            continue;
-          }
-          feature.style = {visibility: 'hidden'};
-        }
-      }
-      this.redraw();
     },
   },
 };
