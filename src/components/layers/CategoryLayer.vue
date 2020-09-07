@@ -36,6 +36,7 @@ export default {
       features: [],
       // types
       types: [],
+
       // Map Configure
       config: config,
       // Color Configure
@@ -49,6 +50,7 @@ export default {
       this.$emit('init');
       this.features = await this.loadFeatures(to.params.category);
       this.category = to.params.category;
+      this.redraw();
     },
     isVisible() {
       this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
@@ -77,19 +79,23 @@ export default {
 
       if (locations.data.markers) {
         // 定義されているマーカーの種類
-        const types = Array.from(
-          new Set(locations.data.markers.map((item) => item.type))
-        ).sort();
+        const types = locations.data.markers.map((item) => item.type).sort();
 
-        if (types.length > this.set.markerColor.length) {
+        // 表示するマーカーの種類の変数に全種類のマーカーを代入
+        const markerTypes = Array.from(new Set(types));
+
+        if (markerTypes.length > this.set.markerColor.length) {
           throw new Error(
             `Too many marker types. less than ${this.set.markerColor.length}`
           );
         }
-        this.types = types;
+        this.isVisible = markerTypes;
+        this.types = types.reduce((prev, cur) => {
+          prev[cur] = (prev[cur] || 0) + 1;
+          return prev;
+        }, {});
       } else {
         this.types = locations.data.explains;
-
         return [];
       }
       this.$emit('loaded');
@@ -126,12 +132,14 @@ export default {
     setStyle(feature) {
       // Get Marker type
       const type = feature.get('type');
-      // Get color index from
-      let index = this.types.indexOf(type);
+      // Get all type list.
+      const types = Object.keys(this.types);
+      // Get color index from type
+      let index = types.indexOf(type);
 
-      if (this.set.markerColor.length / this.types.length > 2) {
+      if (this.set.markerColor.length / types.length > 2) {
         // If there are not enough markers, the colors should be varied.
-        index = (index * (this.set.markerColor.length / this.types.length)) | 0;
+        index = (index * (this.set.markerColor.length / types.length)) | 0;
       }
 
       // Apply marker color
@@ -140,15 +148,15 @@ export default {
       const label = feature.values_.label
         ? feature.values_.label.toString()
         : '';
+      // apply
       if (label && label.length <= 2) {
         style.getText().setText(label);
       }
 
+      style.getImage().setOpacity(1);
+
       // Toggle display
-      if (this.isVisible.includes(type)) {
-        // Visible
-        style.getImage().setOpacity(1);
-      } else {
+      if (!this.isVisible.includes(type)) {
         // Invisible
         style.getImage().setOpacity(0);
         style.getText().setText('');

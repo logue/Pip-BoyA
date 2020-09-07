@@ -9,7 +9,7 @@
       </v-btn>
     </v-card-title>
     <v-card-text v-if="!isShrinked" class="explain_body">
-      <ul v-if="explains[0].match(/^map/)" class="explain_list">
+      <ul v-if="Object.keys(explains)[0] === '0'" class="explain_list">
         <li
           v-for="(item, index) in explains"
           :key="index"
@@ -20,14 +20,14 @@
       </ul>
       <ul v-else class="explain_list explain_check_list">
         <li
-          v-for="(item, index) in explains"
+          v-for="(value, key, index) in explains"
           :key="index"
           class="explain_list_item explain_list_checkbox"
         >
           <v-checkbox
             v-model="selected"
             :color="set.markerColor[getColorIndex(index)]"
-            :value="item"
+            :value="key"
             hide-details
             @change="toggleMarker"
           >
@@ -37,7 +37,8 @@
                   set.markerColor[getColorIndex(index)]
                 }--text`"
               >
-                {{ $t(`markers.${item}`) }}
+                {{ $t(`markers.${key}`) }}
+                <small>({{ value }})</small>
               </span>
             </template>
           </v-checkbox>
@@ -66,15 +67,13 @@ export default {
       isShrinked: false,
       // チェック済みの項目の配列
       selected: [],
-      // falseは画像マーカーモード
-      markerMode: false,
     };
   },
   methods: {
     update(explains) {
       this.explains = explains;
       // マーカーはすべて選択状態にする
-      this.selected = explains;
+      this.selected = Object.keys(explains);
     },
     // 最小化／最大化
     toggleShrink() {
@@ -86,10 +85,10 @@ export default {
       this.$emit('changed', this.selected);
     },
     getColorIndex(index) {
-      if (this.set.markerColor.length / this.explains.length > 2) {
+      const length = Object.keys(this.explains).length;
+      if (this.set.markerColor.length / length > 2) {
         // マーカーの種類が少ない場合、色がバラけるようにする。
-        index =
-          (index * (this.set.markerColor.length / this.explains.length)) | 0;
+        index = (index * (this.set.markerColor.length / length)) | 0;
       }
       return index;
     },
