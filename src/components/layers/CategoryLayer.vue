@@ -84,6 +84,8 @@ export default {
         // 表示するマーカーの種類の変数に全種類のマーカーを代入
         const markerTypes = Array.from(new Set(types));
 
+        console.debug(markerTypes);
+
         if (markerTypes.length > this.set.markerColor.length) {
           throw new Error(
             `Too many marker types. less than ${this.set.markerColor.length}`
@@ -151,15 +153,17 @@ export default {
       // apply
       if (label && label.length <= 2) {
         style.getText().setText(label);
+      } else {
+        style.getText().setText('');
       }
-
-      style.getImage().setOpacity(1);
 
       // Toggle display
       if (!this.isVisible.includes(type)) {
         // Invisible
         style.getImage().setOpacity(0);
         style.getText().setText('');
+      } else {
+        style.getImage().setOpacity(1);
       }
       return style;
     },

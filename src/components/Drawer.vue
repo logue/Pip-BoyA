@@ -85,6 +85,28 @@ export default {
           ],
         },
         {
+          title: 'categories.food',
+          icon: 'mdi-food-fork-drink',
+          items: [
+            {
+              title: 'categories.food-meat',
+              to: null,
+            },
+            {
+              title: 'categories.food-packaged',
+              to: '/food-packaged',
+            },
+            {
+              title: 'categories.food-vegitable',
+              to: '/food-vegitable',
+            },
+            {
+              title: 'categories.food-misc',
+              to: null,
+            },
+          ],
+        },
+        {
           icon: 'mdi-flask',
           title: 'categories.flux',
           to: '/flux',
@@ -113,6 +135,11 @@ export default {
           icon: 'mdi-hammer-wrench',
           title: 'categories.workbench',
           to: '/workbench',
+        },
+        {
+          icon: 'mdi-ammunition',
+          title: 'categories.ammunition',
+          to: null,
         },
         {
           icon: 'mdi-key',
