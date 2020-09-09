@@ -77,7 +77,63 @@
         </v-list>
       </v-menu>
     </div>
-    <div class="d-flex d-sm-none"></div>
+    <div class="d-flex d-sm-none">
+      <v-menu offset-y>
+        <template #activator="{on, attrs}">
+          <v-btn icon v-bind="attrs" v-on="on">
+            <v-icon>mdi-dots-vertical</v-icon>
+          </v-btn>
+        </template>
+        <v-list dense>
+          <v-list-item @click="$refs.about.open()">
+            <v-list-item-icon>
+              <v-icon>mdi-information-outline</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>About</v-list-item-title>
+          </v-list-item>
+          <v-divider />
+          <v-list-item @click="$refs.getLink.open()">
+            <v-list-item-icon>
+              <v-icon>mdi-link</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>{{ $t('getUri') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item @click="toggleLocation($root.$data.displayLocation)">
+            <v-list-item-icon>
+              <v-icon v-if="$root.$data.displayLocation">mdi-map-marker</v-icon>
+              <v-icon v-else>mdi-map-marker-off</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>{{ $t('toggleLocation') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item @click="toggleMapMode($root.$data.isMilitary)">
+            <v-list-item-icon>
+              <v-icon v-if="!$root.$data.isMilitary">mdi-map</v-icon>
+              <v-icon v-else>mdi-map-outline</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>{{ $t('toggleMap') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item @click="toggleThemeMode($vuetify.theme.dark)">
+            <v-list-item-icon>
+              <v-icon>mdi-invert-colors</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>{{ $t('toggleDarkMode') }}</v-list-item-title>
+          </v-list-item>
+          <v-divider />
+          <v-subheader prepend-icon="mdi-translate" inset>
+            {{ $t('locale') }}
+          </v-subheader>
+          <v-list-item
+            v-for="locale in locales"
+            :key="locale"
+            @click="changeLocale(locale)"
+          >
+            <v-list-item-title>
+              {{ $t(`locales.${locale}`) }}
+            </v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+    </div>
   </div>
 </template>
 

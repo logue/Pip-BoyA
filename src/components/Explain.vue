@@ -150,7 +150,7 @@ export default {
   bottom: 1rem;
   padding: 0.5rem;
   margin: 0;
-  z-index: 100;
+  z-index: 2;
   &_title {
     padding: 0 0.5rem !important;
   }
