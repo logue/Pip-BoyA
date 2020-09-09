@@ -1,6 +1,6 @@
 <template>
   <!-- Location Marker markers -->
-  <vl-layer-vector ref="locationLayer" :z-index="2" :visible="visible">
+  <vl-layer-vector ref="locationLayer" :z-index="1" :visible="visible">
     <vl-source-vector
       :features.sync="features"
       :update-while-animating="true"
@@ -40,7 +40,26 @@ export default {
     },
   },
   mounted() {
+    // クエリから座標を取得
+    this.coordinates = [this.$route.query.x | 0, this.$route.query.y | 0];
+    // ロケーションデーターを取得
     this.loadFeatures().then((features) => {
+      if (this.coordinates !== [0, 0]) {
+        // 外部からのリンクのときに、その場所にマーカーアイコンを設置
+        features.push({
+          geometry: {
+            type: 'Point',
+            coordinates: this.coordinates,
+          },
+          properties: {
+            type: 'WaypointMarker',
+            x: this.coordinates[0],
+            y: this.coordinates[1],
+          },
+          type: 'Feature',
+        });
+      }
+      // console.log(features);
       this.features = features.map(Object.freeze);
       this.redraw();
     });
@@ -54,10 +73,17 @@ export default {
           console.error(err);
         });
 
+      // マーカーの座標
+      const markers = locations.data.markers;
+
       // 使用されているマーカーの種類
       const types = Array.from(
         new Set(locations.data.markers.map((item) => item.type))
       ).sort();
+
+      // 外部からリンクしたときのマーカー
+      types.push('WaypointMarker');
+
       // スタイル定義をキャッシュする
       for (const type of types) {
         this.styles[type] = new Style({
@@ -65,6 +91,7 @@ export default {
           image: new Icon({
             src: `/img/marker/${type}.svg`,
             crossOrigin: 'anonymous',
+            anchor: [0.5, type === 'Waypoint' ? 0.9 : 0.5],
           }),
           // 注釈テキスト
           text: new Text({
@@ -83,7 +110,7 @@ export default {
           }),
         });
       }
-      return convertGeoJson(locations.data.markers, config.center);
+      return convertGeoJson(markers, config.center);
     },
     redraw() {
       // マーカーのスタイルを設定

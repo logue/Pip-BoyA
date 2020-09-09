@@ -10,7 +10,10 @@
       <v-card>
         <div class="d-flex">
           <v-avatar
-            v-if="marker.name && marker.name.match(/^Loc/)"
+            v-if="
+              (marker.name && marker.name.match(/^Loc/)) ||
+              marker.type === 'WaypointMarker'
+            "
             size="128"
             tile
             class="m-3"
@@ -32,7 +35,7 @@
             <v-card-text>
               <v-simple-table>
                 <tbody>
-                  <tr>
+                  <tr v-if="marker.id">
                     <th scope="col">ID</th>
                     <td>{{ marker.id }}</td>
                   </tr>

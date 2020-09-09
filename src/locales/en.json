@@ -592,7 +592,8 @@
     "FoodVegitablePumpkinMarker": "Pumpkin",
     "FoodVegitableRazorgrainMarker": "Razorgrain",
     "FoodVegitableSiltBeanMarker": "Silt Bean",
-    "FoodVegitableTatoMarker": "Tato"
+    "FoodVegitableTatoMarker": "Tato",
+    "WaypointMarker": "Link Location"
   },
   "maps": {
     "flora": {

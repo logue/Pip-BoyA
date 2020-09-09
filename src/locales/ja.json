@@ -592,7 +592,8 @@
     "FoodVegitablePumpkinMarker": "かぼちゃ", 
     "FoodVegitableRazorgrainMarker": "レイザーグレイン",
     "FoodVegitableSiltBeanMarker": "シルトビーン", 
-    "FoodVegitableTatoMarker": "テイト"
+    "FoodVegitableTatoMarker": "テイト",
+    "WaypointMarker": "リンクのロケーション"
   },
   "maps": {
     "flux": {

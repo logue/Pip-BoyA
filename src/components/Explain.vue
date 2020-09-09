@@ -4,9 +4,8 @@
       {{ $t('legend') }}
       <v-spacer />
       <v-checkbox
+        v-if="items[0] !== '0'"
         v-model="checked"
-        label="Select / Deselect All"
-        class="sm"
         color="gray"
         :indeterminate="indeterminate"
         @click="setSelection"
@@ -42,14 +41,17 @@
             @change="toggleMarker"
           >
             <template #label>
-              <span
+              <v-badge
+                inline
+                :label="key"
+                :content="value"
+                :color="set.markerColor[getColorIndex(index)]"
                 :class="`explain_list_item_label ${
                   set.markerColor[getColorIndex(index)]
-                }--text`"
+                }--text ${$vuetify.dark ? 'text--lighten-3' : 'text-darken-1'}`"
               >
                 {{ $t(`markers.${key}`) }}
-                <small>({{ value }})</small>
-              </span>
+              </v-badge>
             </template>
           </v-checkbox>
         </li>
@@ -79,9 +81,9 @@ export default {
       isShrinked: false,
       // チェック済みの項目の配列
       selected: [],
-      // チェックボックスが選択されているかどうかの判定
+      // 全選択／解除チェックボックスのチェック
       checked: true,
-
+      // 全選択／解除チェックボックスの中間状態フラグ
       indeterminate: false,
     };
   },
@@ -134,15 +136,15 @@ export default {
 
 // アウトライン生成
 @function outline($color, $width, $blur) {
-  @return $width $width $blur $color, -$width $width $blur $color,
-    $width -$width $blur $color, -$width -$width $blur $color,
-    $width 0px $blur $color, 0px $width $blur $color, -$width 0px $blur $color,
-    0px -$width $blur $color;
+  @return $width $width $blur $color, (-$width) $width $blur $color,
+    $width (-$width) $blur $color, (-$width) (-$width) $blur $color,
+    $width 0px $blur $color, 0px $width $blur $color, (-$width) 0px $blur $color,
+    0px (-$width) $blur $color;
 }
 
 .explain {
   color: map-get($grey, 'lighten-4');
-  text-shadow: outline(rgba(map-get($grey, 'darken-4'), 0.5), 1px, 1px);
+  text-shadow: outline(map-get($grey, 'darken-4'), 1px, 0.5px);
   position: absolute;
   right: 1rem;
   bottom: 1rem;
@@ -170,15 +172,21 @@ export default {
       font-size: 0.75rem !important;
     }
   }
+  .v-badge__badge {
+    font-size: 0.25rem !important;
+  }
 
   &_list {
     padding-left: 0.5rem !important;
     list-style-type: none;
-    columns: 2;
+    column-count: 2;
     &_item {
       font-size: 0.75rem;
-      &_label {
-        text-shadow: outline(rgb(0, 0, 0), 0px, 1px);
+      box-sizing: border-box;
+      page-break-inside: avoid;
+      break-inside: avoid-column;
+      .v-input__control {
+        display: block;
       }
 
       &_cyan {
@@ -242,7 +250,7 @@ export default {
 
 .theme--dark {
   .explain {
-    background-color: rgba(map-get($grey, 'darken-1'), 0.7);
+    background-color: rgba(map-get($grey, 'darken-4'), 0.7);
   }
 }
 </style>

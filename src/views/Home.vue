@@ -34,7 +34,6 @@
         :category="$route.params.category"
         @ready="onCategoryLayerReady"
       />
-      <waypoint-layer ref="waypointLayer" />
 
       <!-- Tooltip Overlay -->
       <vl-overlay
@@ -92,7 +91,6 @@ import config from '@/assets/map.config.js';
 import BaseLayer from '@/components/layers/BaseLayer.vue';
 import CategoryLayer from '@/components/layers/CategoryLayer.vue';
 import LocationLayer from '@/components/layers/LocationLayer.vue';
-import WaypointLayer from '@/components/layers/WaypointLayer.vue';
 import MarkerInfo from '@/components/MarkerInfo.vue';
 import Explain from '@/components/Explain.vue';
 
@@ -102,7 +100,6 @@ export default {
     'base-layer': BaseLayer,
     'category-layer': CategoryLayer,
     'location-layer': LocationLayer,
-    'waypoint-layer': WaypointLayer,
     explain: Explain,
   },
   data() {

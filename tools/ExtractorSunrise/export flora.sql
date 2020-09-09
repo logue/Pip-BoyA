@@ -1,10 +1,10 @@
 SELECT 
   source.id,
-  CONCAT(REGEXP_REPLACE(source.name, '^LPI_Flora([A-z]+)([0-9]{2})?(.+)$', '\\1'), 'Marker') AS type,
-  CAST(REGEXP_REPLACE(source.name, '^LPI_Flora([A-z]+)([0-9]{2})?(.+)$', '\\2') AS SIGNED) AS label,
+  CONCAT('Flora',REGEXP_REPLACE(source.name, '^(?:Use)?LPI_Flora([A-z]+)([0-9]{2})?(Diseased)?(.+)$', '\\1\\3'), 'Marker') AS type,
+  CAST(REGEXP_REPLACE(source.name, '^(?:Use)?LPI_Flora([A-z]+)([0-9]{2})?(.+)$', '\\2') AS SIGNED) AS label,
   source.x,
   source.y
 FROM
   source
 WHERE
-  source.name LIKE 'LPI_Flora%';
+  source.name LIKE '%Flora%';

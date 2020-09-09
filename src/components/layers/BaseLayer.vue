@@ -1,28 +1,14 @@
 <template>
   <!-- Base map layers -->
   <vl-layer-group ref="baseLayers" :opacity="opacity" :z-index="0">
-    <vl-layer-tile :visible="$root.$data.isMilitary === true">
+    <vl-layer-tile>
       <vl-source-xyz
-        :url="'/img/tiles/military/{z}/{x}/{y}.webp'"
+        ref="baseLayerSource"
+        :url="url"
         :projection="config.projection"
         :min-zoom="config.minZoom"
         :max-zoom="config.maxZoom"
         :tile-pixe-ratio="config.tilePixelRatio"
-        @tileloadstart="onTileLoadStart"
-        @tileloadend="onTileLoadEnd"
-        @tileloaderror="onTileLoadError"
-      />
-    </vl-layer-tile>
-    <vl-layer-tile :visible="!$root.$data.isMilitary">
-      <vl-source-xyz
-        :url="'/img/tiles/base/{z}/{x}/{y}.webp'"
-        :projection="config.projection"
-        :min-zoom="config.minZoom"
-        :max-zoom="config.maxZoom"
-        :tile-pixe-ratio="config.tilePixelRatio"
-        @tileloadstart="onTileLoadStart"
-        @tileloadend="onTileLoadEnd"
-        @tileloaderror="onTileLoadError"
       />
     </vl-layer-tile>
   </vl-layer-group>
@@ -41,21 +27,33 @@ export default {
       opacity: 1,
       // マップ設定
       config: config,
+      // 画像のパス
+      url: '/img/tiles/base/{z}/{x}/{y}.webp',
     };
   },
+  watch: {
+    '$root.$data.isMilitary'() {
+      this.redraw();
+    },
+  },
+  mounted() {
+    this.redraw();
+  },
   methods: {
-    // ロード開始
-    onTileLoadStart() {
-      // this.$root.$data.loading = true;
-    },
-    // ロード終了
-    onTileLoadEnd() {
-      // this.$root.$data.loading = false;
-    },
-    // エラー
-    onTileLoadError() {
-      // this.$root.$data.loading = false;
-      // TODO
+    redraw() {
+      // 軍用マップ切り替え
+      this.url = `/img/tiles/${
+        this.$root.$data.isMilitary ? 'military' : 'base'
+      }/{z}/{x}/{y}.webp`;
+      // マップのリロード
+      this.$refs.baseLayerSource.$createPromise.then(() => {
+        const source = this.$refs.baseLayerSource.$source;
+        // キャッシュを削除
+        source.tileCache.expireCache({});
+        source.tileCache.clear();
+        // リフレッシュ
+        source.refresh();
+      });
     },
   },
 };
