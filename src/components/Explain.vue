@@ -173,7 +173,7 @@ export default {
     }
   }
   .v-badge__badge {
-    font-size: 0.25rem !important;
+    font-size: 0.5rem !important;
   }
 
   &_list {

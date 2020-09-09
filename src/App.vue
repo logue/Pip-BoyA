@@ -18,7 +18,7 @@
         v-if="primaryDrawer.type !== 'permanent'"
         @click.stop="primaryDrawer.model = !primaryDrawer.model"
       />
-      <v-toolbar-title>Mappalachia for Web</v-toolbar-title>
+      <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-spacer />
       <appbar />
     </v-app-bar>
@@ -49,13 +49,9 @@ export default {
     appbar: AppBar,
   },
   data() {
-    document.title = this.$t('title');
-    if (process.env.IS_ELECTRON) {
-      document.title.replace('Web', 'Electron');
-    }
-    this.$i18n.locale = this.$cookies.get('locale') || 'en';
     return {
       drawer: null,
+      title: null,
       primaryDrawer: {
         model: null,
         type: 'default (no property)',
@@ -64,6 +60,14 @@ export default {
         mini: false,
       },
     };
+  },
+  mounted() {
+    const title = this.$t('title');
+    this.title = process.env.IS_ELECTRON
+      ? title.replace(/Web/g, 'Electron')
+      : title;
+    this.$i18n.locale = this.$cookies.get('locale') || 'en';
+    document.title = this.title;
   },
 };
 </script>

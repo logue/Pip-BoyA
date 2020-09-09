@@ -36,7 +36,7 @@ export default {
       this.redraw();
     },
   },
-  mounted() {
+  created() {
     this.redraw();
   },
   methods: {

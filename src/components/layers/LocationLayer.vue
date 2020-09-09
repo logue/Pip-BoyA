@@ -64,6 +64,9 @@ export default {
       this.redraw();
     });
   },
+  created() {
+    this.redraw();
+  },
   methods: {
     // マーカーを追加
     async loadFeatures() {

@@ -60,7 +60,7 @@ export default {
     this.features = await this.loadFeatures(this.$route.params.category);
     this.category = this.$route.params.category;
   },
-  updated() {
+  created() {
     this.redraw();
   },
   methods: {
