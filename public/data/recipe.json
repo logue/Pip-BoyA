@@ -2,3517 +2,3517 @@
   "markers": [
     {
       "id": "002B7941",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 29063.107422,
       "y": 21861.970703
     },
     {
       "id": "002B851C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 16125.071289,
       "y": 933.007141
     },
     {
       "id": "004E7C60",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 12315.438477,
       "y": 57687.5625
     },
     {
       "id": "004E7C4D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 12081.128906,
       "y": 58394.398438
     },
     {
       "id": "004E7C4E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 11818.664062,
       "y": 58346.195313
     },
     {
       "id": "004E7C51",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 11789.920898,
       "y": 58608.324219
     },
     {
       "id": "004E7C53",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 10459.40918,
       "y": 58453.964843
     },
     {
       "id": "003D2816",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 25825.746094,
       "y": 100604.445313
     },
     {
       "id": "0050D737",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 21064.375,
       "y": 130561.671875
     },
     {
       "id": "0050D738",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": 19637.917968,
       "y": 129260.84375
     },
     {
       "id": "003D6610",
-      "type": "WaterFilterRecipeMarker",
+      "type": "RecipeWaterFilterMarker",
       "x": 20073.445312,
       "y": 130072.476563
     },
     {
       "id": "003DC51A",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 4683.262695,
       "y": 120774.695312
     },
     {
       "id": "00511711",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 232.333938,
       "y": 127955.648438
     },
     {
       "id": "003DC51C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 3926.842773,
       "y": 121612.859375
     },
     {
       "id": "003097FB",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 53934.3125,
       "y": 29089.359375
     },
     {
       "id": "003097FC",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 53806.011719,
       "y": 29360.212891
     },
     {
       "id": "0030980C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 54856.089844,
       "y": 24919.714844
     },
     {
       "id": "0030980D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 54665.167969,
       "y": 24875.728515
     },
     {
       "id": "00309808",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 52489.417968,
       "y": 28758.376953
     },
     {
       "id": "0050D970",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 49792.789062,
       "y": 27111.029297
     },
     {
       "id": "003097EC",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 50292.878906,
       "y": 27072.435547
     },
     {
       "id": "003097EE",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 49285.273438,
       "y": 26657.097657
     },
     {
       "id": "0050D973",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 46873.292969,
       "y": 24935.388672
     },
     {
       "id": "003219D3",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 46090.277344,
       "y": 25248.195312
     },
     {
       "id": "003219D4",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 46897.226563,
       "y": 24695.28711
     },
     {
       "id": "003097EF",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 48648.574219,
       "y": 26858.398437
     },
     {
       "id": "0050D977",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 47406.457031,
       "y": 24111.994141
     },
     {
       "id": "003219D2",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 47229.414063,
       "y": 22946.298828
     },
     {
       "id": "00309800",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 47660.910157,
       "y": 22649.080078
     },
     {
       "id": "00309801",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 46106.539063,
       "y": 21187.267579
     },
     {
       "id": "00309802",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 46260.53125,
       "y": 20523.5
     },
     {
       "id": "00308C06",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 45673.734375,
       "y": 16417.447266
     },
     {
       "id": "0050D9A2",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 48592.867187,
       "y": 16345.801758
     },
     {
       "id": "00308C05",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 45788.90625,
       "y": 16218.467773
     },
     {
       "id": "0050D97D",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 44169.980468,
       "y": 21319.035156
     },
     {
       "id": "003219D5",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 44892.597657,
       "y": 22594.101563
     },
     {
       "id": "003219D8",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 44307.25,
       "y": 21214.546875
     },
     {
       "id": "003219DA",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 44794.78125,
       "y": 21040.578125
     },
     {
       "id": "00308C0B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 44275.703125,
       "y": 23570.386718
     },
     {
       "id": "00308C04",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 44494.269532,
       "y": 16455.929687
     },
     {
       "id": "0050D99A",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 42847.011719,
       "y": 13776.015625
     },
     {
       "id": "003219B8",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 43122.042969,
       "y": 15340.382812
     },
     {
       "id": "003219BB",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 42636.402343,
       "y": 13908.208984
     },
     {
       "id": "003CD3C1",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 42838.246094,
       "y": 6005.65625
     },
     {
       "id": "003CD3C2",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 43516.898437,
       "y": 7471.385254
     },
     {
       "id": "003CD36F",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 57668.265625,
       "y": 60746.386719
     },
     {
       "id": "003CD36E",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 55282.390625,
       "y": 59045.082031
     },
     {
       "id": "003CD341",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 56131.875,
       "y": 54237.464844
     },
     {
       "id": "003CD340",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 52046.140625,
       "y": 52956.960937
     },
     {
       "id": "00386C31",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 40322.214844,
       "y": 35735.082031
     },
     {
       "id": "00386C35",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 39884.609375,
       "y": 34788.382812
     },
     {
       "id": "00386C3A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 39723.03125,
       "y": 34932.402344
     },
     {
       "id": "003C711E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 53787.976562,
       "y": 80703.851562
     },
     {
       "id": "0050C894",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": 52860.730469,
       "y": 78823.382813
     },
     {
       "id": "002B7A19",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 77045.304687,
       "y": 25242.099609
     },
     {
       "id": "00386BF8",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 71284.195312,
       "y": 25678.265625
     },
     {
       "id": "00386BF9",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 69220.929687,
       "y": 23885.671875
     },
     {
       "id": "00386C1E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 85762.257812,
       "y": 49840.136719
     },
     {
       "id": "00386C1F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 85713.21875,
       "y": 50014.390625
     },
     {
       "id": "00386CB2",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 77012.828125,
       "y": 42471.242188
     },
     {
       "id": "00386CB8",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 76535.484375,
       "y": 42246.421875
     },
     {
       "id": "00386CBB",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 77022.53125,
       "y": 42635.785156
     },
     {
       "id": "003DC819",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 87307.726563,
       "y": 129299.34375
     },
     {
       "id": "003DC821",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 86461.148438,
       "y": 129340.84375
     },
     {
       "id": "003D0509",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 79200.101562,
       "y": 112469.601562
     },
     {
       "id": "0038C54A",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 78957.203125,
       "y": 112271.9375
     },
     {
       "id": "002B9146",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 68912.132812,
       "y": 101888.320313
     },
     {
       "id": "002B9147",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 69443.554688,
       "y": 101421.148438
     },
     {
       "id": "00386C09",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 115772.8125,
       "y": 39653
     },
     {
       "id": "00386C0B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 115313.476563,
       "y": 39446.609375
     },
     {
       "id": "00244019",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 108252.09375,
       "y": 57952.253907
     },
     {
       "id": "00386C2B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 100932.617187,
       "y": 46441.3125
     },
     {
       "id": "002B90BF",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 114976.257813,
       "y": 91652.015625
     },
     {
       "id": "002B90BE",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 114423.898437,
       "y": 92758.296875
     },
     {
       "id": "00386FD5",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 103952.8125,
       "y": 95130.804688
     },
     {
       "id": "00386FE7",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 104548.921875,
       "y": 97103.539063
     },
     {
       "id": "0050DA5E",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 103641.226562,
       "y": 93956.15625
     },
     {
       "id": "0037D10E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 115608.617187,
       "y": 113745.890625
     },
     {
       "id": "0037D113",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 114068.96875,
       "y": 113538.507812
     },
     {
       "id": "0050D74A",
-      "type": "TinkersRecipeMarker",
+      "type": "RecipeTinkersMarker",
       "x": 21078.146485,
       "y": 132365.5
     },
     {
       "id": "0050D74B",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 21036.392578,
       "y": 131511.3125
     },
     {
       "id": "0050D74D",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 21035.837891,
       "y": 132884.953125
     },
     {
       "id": "0050D74E",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 17058.701172,
       "y": 132970
     },
     {
       "id": "0050D74F",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 17570.759766,
       "y": 132409.640625
     },
     {
       "id": "00437B97",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 15003.75293,
       "y": 135968.546875
     },
     {
       "id": "002B7A05",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 11927.387695,
       "y": 131893.921875
     },
     {
       "id": "00126B78",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 589.386231,
       "y": 138043.234375
     },
     {
       "id": "00126B79",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 1223.343384,
       "y": 138308.65625
     },
     {
       "id": "002B7929",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 30876.533203,
       "y": 190479.8125
     },
     {
       "id": "005116F8",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 31068.449219,
       "y": 170035.5625
     },
     {
       "id": "0050D35D",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 7446.232422,
       "y": 174625.828125
     },
     {
       "id": "002B79EA",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 1846.188232,
       "y": 170998.578125
     },
     {
       "id": "002B79EF",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 1597.917358,
       "y": 171301.5625
     },
     {
       "id": "002B911E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 54993.242187,
       "y": 132308.59375
     },
     {
       "id": "0050AFB4",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 33698.699219,
       "y": 138552.4375
     },
     {
       "id": "003D112E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 62841.394531,
       "y": 191006.609375
     },
     {
       "id": "003D401C",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 59360.695312,
       "y": 169059.40625
     },
     {
       "id": "003D401E",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 58835.597656,
       "y": 168794.109375
     },
     {
       "id": "003D401A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 55736.933593,
       "y": 168679.6875
     },
     {
       "id": "002CB4F9",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 39954.761719,
       "y": 173097
     },
     {
       "id": "003D78FC",
-      "type": "WaterFilterRecipeMarker",
+      "type": "RecipeWaterFilterMarker",
       "x": 46101.550782,
       "y": 199903.859375
     },
     {
       "id": "00386CBC",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 46123.003907,
       "y": 199877.359375
     },
     {
       "id": "00386CBD",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 46219.277343,
       "y": 199509.4375
     },
     {
       "id": "00386CC3",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 46534.785157,
       "y": 198375.3125
     },
     {
       "id": "00386CCF",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 46128.945313,
       "y": 199902.859375
     },
     {
       "id": "003DC85A",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 97510.140625,
       "y": 143833.71875
     },
     {
       "id": "003DC830",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 85324.9375,
       "y": 133475.609375
     },
     {
       "id": "0050AF7B",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 73514.578125,
       "y": 139773.828125
     },
     {
       "id": "0013CA8C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 83906.320312,
       "y": 189256.578125
     },
     {
       "id": "0055F232",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 80173.171875,
       "y": 176848.65625
     },
     {
       "id": "002B7A42",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 68921.078125,
       "y": 186346.125
     },
     {
       "id": "002B7A43",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 68966.109375,
       "y": 186338.0625
     },
     {
       "id": "002B792D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 94170.09375,
       "y": 201656.296875
     },
     {
       "id": "002B851F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 93535.273438,
       "y": 201108.40625
     },
     {
       "id": "002B793A",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 121668.90625,
       "y": 133411.625
     },
     {
       "id": "002B8522",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 115469.609375,
       "y": 135398.9375
     },
     {
       "id": "0050ADDC",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 9121.009766,
       "y": -166070.921875
     },
     {
       "id": "003D1113",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": 1160.227295,
       "y": -152362.359375
     },
     {
       "id": "005641F3",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 74878.210938,
       "y": -179510.390625
     },
     {
       "id": "003D2037",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 73873.289062,
       "y": -180024.015625
     },
     {
       "id": "00567388",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 65706.734375,
       "y": -146288.21875
     },
     {
       "id": "0050ADE4",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 66413.914062,
       "y": -146186.640625
     },
     {
       "id": "003D3736",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 122585.375,
       "y": -164613.40625
     },
     {
       "id": "003D3AB8",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 110181.25,
       "y": -172864.640625
     },
     {
       "id": "003DC573",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 129564.0625,
       "y": -153884.515625
     },
     {
       "id": "0051E49F",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 124670,
       "y": -134514.28125
     },
     {
       "id": "0050BF90",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 113705.921875,
       "y": -148456.375
     },
     {
       "id": "0050BF91",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": 113092.4375,
       "y": -148914.484375
     },
     {
       "id": "002CB5B3",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 8197.034179,
       "y": -98515.148437
     },
     {
       "id": "0050D3B0",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 7682.141114,
       "y": -98514.265625
     },
     {
       "id": "002CB5B4",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 7848.610351,
       "y": -98616.53125
     },
     {
       "id": "002CB5B5",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 7490.748535,
       "y": -99666.953125
     },
     {
       "id": "003AC82F",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 25147.328125,
       "y": -71370.273438
     },
     {
       "id": "0051E4D3",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 29125.035156,
       "y": -46380.71875
     },
     {
       "id": "0014C1A3",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 29066.84961,
       "y": -50214.335937
     },
     {
       "id": "003C017C",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 27091.146485,
       "y": -46618.617187
     },
     {
       "id": "0050AF7C",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 22156.615234,
       "y": -53958.523438
     },
     {
       "id": "003CD3E2",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 23909.15625,
       "y": -13697.611328
     },
     {
       "id": "003C7152",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 10244.991211,
       "y": -24136.242187
     },
     {
       "id": "003C7180",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 45391.277343,
       "y": -114265.0625
     },
     {
       "id": "003AC832",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 36025.84375,
       "y": -65716.382812
     },
     {
       "id": "003AC835",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 36383.417969,
       "y": -65954.242187
     },
     {
       "id": "003E3C6E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 46227.199218,
       "y": -37067.320312
     },
     {
       "id": "003E3C74",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 46545.324218,
       "y": -39488.710937
     },
     {
       "id": "0050B2CC",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 45255.285157,
       "y": -7883.297851
     },
     {
       "id": "003CD3B9",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 42233.054687,
       "y": -8933.419921
     },
     {
       "id": "002B79DB",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 33841.394532,
       "y": -5444.545898
     },
     {
       "id": "0050C02C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 89607.25,
       "y": -80296.773437
     },
     {
       "id": "0050C02D",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 89264.195313,
       "y": -80306.992187
     },
     {
       "id": "0050ADB1",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 65871.328125,
       "y": -88553.773437
     },
     {
       "id": "003D28C8",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 83670.632813,
       "y": -37378.144532
     },
     {
       "id": "0050C022",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 123487.46875,
       "y": -104055.875
     },
     {
       "id": "0050C024",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 121764.703125,
       "y": -103075.195313
     },
     {
       "id": "003B772D",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 119276.367188,
       "y": -128895.101563
     },
     {
       "id": "0038F1A3",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 112804.59375,
       "y": -114183.304688
     },
     {
       "id": "0050C00A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 109127.257812,
       "y": -104041.492187
     },
     {
       "id": "0037E27B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 129468.5,
       "y": -65785.015625
     },
     {
       "id": "002B7B6D",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 115411.5625,
       "y": -86564.492187
     },
     {
       "id": "00244017",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 102594.0625,
       "y": -80743.734375
     },
     {
       "id": "0050DA5F",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 99628.039062,
       "y": -58229.378906
     },
     {
       "id": "002B79D5",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 125164.625,
       "y": -29007.121094
     },
     {
       "id": "0051E4EF",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 119069.796875,
       "y": -16292.563477
     },
     {
       "id": "0051E4F3",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 117873.210937,
       "y": -16743.414063
     },
     {
       "id": "0052E5CD",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 161458.796875,
       "y": 6488.157227
     },
     {
       "id": "0052E5CE",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 160632.109375,
       "y": 3421
     },
     {
       "id": "0052E5CF",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 161586.0625,
       "y": 2743.656982
     },
     {
       "id": "0052E5E3",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 161862.140625,
       "y": 3434.377929
     },
     {
       "id": "0052E5D3",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 158231.5625,
       "y": 840.850586
     },
     {
       "id": "0050AFBE",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 144156.1875,
       "y": 11514.020508
     },
     {
       "id": "003CFCFD",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 139858.828125,
       "y": 786.123535
     },
     {
       "id": "004511B3",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 135786.078125,
       "y": 21355.09375
     },
     {
       "id": "003CFD4A",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 138245.9375,
       "y": 2155.362793
     },
     {
       "id": "003CFD4B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 137988.59375,
       "y": 2414.237549
     },
     {
       "id": "003E4DC8",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": 162209.984375,
       "y": 45832.28125
     },
     {
       "id": "0037E254",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 152220.96875,
       "y": 85108.953125
     },
     {
       "id": "0037E289",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 154441.5,
       "y": 76422.304687
     },
     {
       "id": "0050CDA5",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 150912.359375,
       "y": 74687.492187
     },
     {
       "id": "003D2805",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 137496.15625,
       "y": 70388.289062
     },
     {
       "id": "003D280B",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 137385.90625,
       "y": 70750.101562
     },
     {
       "id": "00386C60",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 137727.859375,
       "y": 70770.6875
     },
     {
       "id": "00386C61",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 138013.203125,
       "y": 70696.359375
     },
     {
       "id": "00386C6F",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 135900.265625,
       "y": 70292.507813
     },
     {
       "id": "00386C70",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 135919.890625,
       "y": 70234.226563
     },
     {
       "id": "00386C72",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 136144.421875,
       "y": 72565.742188
     },
     {
       "id": "00386C75",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 136282.25,
       "y": 70089.320312
     },
     {
       "id": "00386C76",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 136355.875,
       "y": 69961.015625
     },
     {
       "id": "00520D0A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 132382.78125,
       "y": 103911.914063
     },
     {
       "id": "003D3C4E",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 192935.671875,
       "y": 16627.964844
     },
     {
       "id": "003D3C4C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 193279.03125,
       "y": 14834.560547
     },
     {
       "id": "003D3C5A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 191844.515625,
       "y": 16828.542969
     },
     {
       "id": "003D3C4D",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 191020.640625,
       "y": 15013.103516
     },
     {
       "id": "003D3C52",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 189809.796875,
       "y": 15962.458985
     },
     {
       "id": "003D3C51",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 188275.609375,
       "y": 14887.916992
     },
     {
       "id": "003D174A",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 183032.78125,
       "y": 11707.909179
     },
     {
       "id": "0052E5C9",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 164448.0625,
       "y": 6320.338379
     },
     {
       "id": "0052E5D0",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 164628.140625,
       "y": 5822.456054
     },
     {
       "id": "0052E5D1",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 166866.875,
       "y": 3748.913819
     },
     {
       "id": "0052E5DD",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 167275.625,
       "y": 3281.004395
     },
     {
       "id": "0052E5DE",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 166913.734375,
       "y": 3796.608154
     },
     {
       "id": "0052E5E0",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 163969.828125,
       "y": 225.752822
     },
     {
       "id": "002B7922",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 190344.0625,
       "y": 48341.703125
     },
     {
       "id": "0050BFBD",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 177111.03125,
       "y": 43683.507813
     },
     {
       "id": "003096DE",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 181973.71875,
       "y": 82907.265625
     },
     {
       "id": "003096E0",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 182938.6875,
       "y": 79956.851562
     },
     {
       "id": "002B90D4",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 171148.296875,
       "y": 125123.085937
     },
     {
       "id": "003D173A",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 202516.25,
       "y": 68506.367187
     },
     {
       "id": "003CD377",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 161899.53125,
       "y": 152850.171875
     },
     {
       "id": "003CD378",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 161616.40625,
       "y": 152080.125
     },
     {
       "id": "003CD379",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 161373.65625,
       "y": 152159.859375
     },
     {
       "id": "003CD381",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 161723.625,
       "y": 152054.796875
     },
     {
       "id": "003CD382",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 161632.390625,
       "y": 151829.15625
     },
     {
       "id": "003CD383",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 161687.21875,
       "y": 153111.859375
     },
     {
       "id": "003D37B4",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 137800.109375,
       "y": 151811.625
     },
     {
       "id": "004ECC6E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 134146.546875,
       "y": 179263.828125
     },
     {
       "id": "0050C3E9",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 161660.984375,
       "y": -167213.6875
     },
     {
       "id": "003C9E69",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 156566.09375,
       "y": -140985
     },
     {
       "id": "003C9E6B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 153881.734375,
       "y": -137627.9375
     },
     {
       "id": "003CD679",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 153424.640625,
       "y": -145953.734375
     },
     {
       "id": "002B7B61",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 152388.53125,
       "y": -160133.0625
     },
     {
       "id": "003C9E6C",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 151023.421875,
       "y": -136201.40625
     },
     {
       "id": "003C9E6D",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 139653.765625,
       "y": -139578.421875
     },
     {
       "id": "00536894",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 140902.109375,
       "y": -160251.921875
     },
     {
       "id": "003C9E72",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 135949.875,
       "y": -137992.765625
     },
     {
       "id": "002B85A1",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 136544.09375,
       "y": -141510.34375
     },
     {
       "id": "003C9E70",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 135240.9375,
       "y": -144711.828125
     },
     {
       "id": "003CE8DD",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 137247.8125,
       "y": -150992.796875
     },
     {
       "id": "003CE87C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 182539.375,
       "y": -170656.65625
     },
     {
       "id": "0051E4BA",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 176872.84375,
       "y": -167205.234375
     },
     {
       "id": "0051E482",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 165496.65625,
       "y": -177736.765625
     },
     {
       "id": "0050BFD0",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": 191173.234375,
       "y": -156563.703125
     },
     {
       "id": "0052E5C4",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 179167.171875,
       "y": -141762.390625
     },
     {
       "id": "0052E5B3",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 173272.890625,
       "y": -139318.5625
     },
     {
       "id": "0050D3CE",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 173015.28125,
       "y": -145701.75
     },
     {
       "id": "0052E5BB",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 173772.40625,
       "y": -146204.90625
     },
     {
       "id": "0052E5C0",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 175378.109375,
       "y": -144883.796875
     },
     {
       "id": "0052E5C3",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 172998.5,
       "y": -146184.390625
     },
     {
       "id": "0050BFF0",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": 165412.78125,
       "y": -155440.875
     },
     {
       "id": "003D387B",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 201563.78125,
       "y": -168992.453125
     },
     {
       "id": "0051E4B1",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 156811.671875,
       "y": -101436.5625
     },
     {
       "id": "003DC569",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 157034.953125,
       "y": -109371.507813
     },
     {
       "id": "005362B4",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 141664.03125,
       "y": -102426.25
     },
     {
       "id": "0050BFD2",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 140663.859375,
       "y": -108915.578125
     },
     {
       "id": "0050AFC5",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 142883.203125,
       "y": -121165.796875
     },
     {
       "id": "003C7167",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 148008.65625,
       "y": -90416.609375
     },
     {
       "id": "003C716A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 150161.015625,
       "y": -95728.5625
     },
     {
       "id": "003CFCF7",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 159935.125,
       "y": -39164.765625
     },
     {
       "id": "003CFCF8",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 161322.53125,
       "y": -40906.398438
     },
     {
       "id": "00355A4C",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 158662.03125,
       "y": -35537.449218
     },
     {
       "id": "00493082",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 159567.71875,
       "y": -37959.378906
     },
     {
       "id": "00493084",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 159659.953125,
       "y": -38197.03125
     },
     {
       "id": "003CFCF6",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 158498.296875,
       "y": -38573.910157
     },
     {
       "id": "0050C010",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": 141653.859375,
       "y": -59486.546875
     },
     {
       "id": "003D175E",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 137762.046875,
       "y": -42559.554688
     },
     {
       "id": "0052E5D6",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 161646.890625,
       "y": -3938.495605
     },
     {
       "id": "0052E5D7",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 160587.046875,
       "y": -4624.734863
     },
     {
       "id": "0052E5D8",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 162191.078125,
       "y": -6053.97461
     },
     {
       "id": "003CFD30",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 162240.53125,
       "y": -17560.484375
     },
     {
       "id": "003E18E0",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 162204.0625,
       "y": -17516.525391
     },
     {
       "id": "00386CD8",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 162707.84375,
       "y": -26985.546875
     },
     {
       "id": "0050DF23",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 158651.96875,
       "y": -1543.380981
     },
     {
       "id": "0050DF24",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 158400.96875,
       "y": -1748.95337
     },
     {
       "id": "002B7918",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 146057.609375,
       "y": -6236.790527
     },
     {
       "id": "003D1753",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 146047.453125,
       "y": -19975.339844
     },
     {
       "id": "0050BFDC",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 195507,
       "y": -104901.140625
     },
     {
       "id": "003DC52C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 192695.34375,
       "y": -128498.28125
     },
     {
       "id": "003CE8CD",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 180575.6875,
       "y": -115622.007812
     },
     {
       "id": "00386CEB",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 190623.9375,
       "y": -94137.921875
     },
     {
       "id": "00386CEC",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 190771.90625,
       "y": -93078.859375
     },
     {
       "id": "003D0ADD",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 190475.765625,
       "y": -94979.015625
     },
     {
       "id": "00386CE7",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 189928.171875,
       "y": -96718.414063
     },
     {
       "id": "00386CE8",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 190436.875,
       "y": -94978.429687
     },
     {
       "id": "0050D507",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 181121.4375,
       "y": -89795.59375
     },
     {
       "id": "00334E1F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 183972.828125,
       "y": -87756.703125
     },
     {
       "id": "00334E1C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 183950.578125,
       "y": -90315.960938
     },
     {
       "id": "00334E1E",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": 183419.609375,
       "y": -92120.109375
     },
     {
       "id": "00334E1D",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 177250.046875,
       "y": -91536.375
     },
     {
       "id": "00334E20",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 174510.171875,
       "y": -95571.835938
     },
     {
       "id": "0050CD9F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 166112.90625,
       "y": -83556.554687
     },
     {
       "id": "003453BE",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": 165822.421875,
       "y": -83661.421875
     },
     {
       "id": "003CFD46",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 190126.078125,
       "y": -38734.8125
     },
     {
       "id": "003CFD47",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 190421.34375,
       "y": -38658.675781
     },
     {
       "id": "004F7BFE",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 182881.09375,
       "y": -60185.148437
     },
     {
       "id": "0051E4DB",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": 181993.953125,
       "y": -60773.375
     },
     {
       "id": "0051E4DD",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 183285.984375,
       "y": -60267.339844
     },
     {
       "id": "00391B9E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 180960.3125,
       "y": -61220.707031
     },
     {
       "id": "004F7BFF",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 180186.25,
       "y": -59430.839844
     },
     {
       "id": "0050C016",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": 165765.0625,
       "y": -55342.605468
     },
     {
       "id": "0050D385",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": 189307.421875,
       "y": -23377.052734
     },
     {
       "id": "002B7942",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 185451.015625,
       "y": -4655.185058
     },
     {
       "id": "0051E48B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": 201775.953125,
       "y": -87202.4375
     },
     {
       "id": "002B7B56",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": 200170.9375,
       "y": -97926.085938
     },
     {
       "id": "003C707B",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -173260.46875,
       "y": 75581.101562
     },
     {
       "id": "003C7079",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -175468.515625,
       "y": 73724.242188
     },
     {
       "id": "003C707E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -175313.375,
       "y": 73616.15625
     },
     {
       "id": "0050DE7C",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": -177401.703125,
       "y": 78385.757812
     },
     {
       "id": "003C707C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -177771.71875,
       "y": 78649.28125
     },
     {
       "id": "0050DE75",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -179308.765625,
       "y": 76678.414062
     },
     {
       "id": "0050DE77",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": -179818.484375,
       "y": 77020.3125
     },
     {
       "id": "003C707A",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -177330.125,
       "y": 74742.125
     },
     {
       "id": "003C707D",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -177813.15625,
       "y": 76128.421875
     },
     {
       "id": "003C707F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -177576.484375,
       "y": 75047.773438
     },
     {
       "id": "003C7084",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -177358.484375,
       "y": 73870.242187
     },
     {
       "id": "003C708C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -177146.546875,
       "y": 74210.851563
     },
     {
       "id": "003C7089",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -181096.296875,
       "y": 76387.859375
     },
     {
       "id": "00452012",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -137338.421875,
       "y": 26047.408203
     },
     {
       "id": "003D7572",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -137034.140625,
       "y": 26856.511719
     },
     {
       "id": "0050AFA8",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -142105.21875,
       "y": 19480.699219
     },
     {
       "id": "003D02A8",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -150319.59375,
       "y": 22206.054688
     },
     {
       "id": "0050AE2A",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -149205.859375,
       "y": 53007.898437
     },
     {
       "id": "0038B2EE",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -135211.765625,
       "y": 97284.382812
     },
     {
       "id": "0052BB0F",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -154335.078125,
       "y": 79711.945313
     },
     {
       "id": "00496FE4",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": -147391.171875,
       "y": 111783.179688
     },
     {
       "id": "003D1144",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -151454.5625,
       "y": 102721.679688
     },
     {
       "id": "004E8D40",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -153617.859375,
       "y": 125989.359375
     },
     {
       "id": "003FBF58",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": -157679.046875,
       "y": 115182.867187
     },
     {
       "id": "003CE7B7",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -165383.859375,
       "y": 189125.75
     },
     {
       "id": "00501B5E",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -165251.484375,
       "y": 187543.828125
     },
     {
       "id": "003D21FB",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -169239.609375,
       "y": 194890.140625
     },
     {
       "id": "00594393",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -168863.40625,
       "y": 189278.90625
     },
     {
       "id": "003D1783",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -132459.578125,
       "y": 131674.46875
     },
     {
       "id": "002B8569",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -146611.859375,
       "y": 143751.40625
     },
     {
       "id": "002B858F",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -156706,
       "y": 135890.515625
     },
     {
       "id": "002BA28D",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -162909.265625,
       "y": 137010.6875
     },
     {
       "id": "003D0895",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -140305.4375,
       "y": 175068.28125
     },
     {
       "id": "004E8D36",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -139388.296875,
       "y": 174828.421875
     },
     {
       "id": "00435782",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -148992.34375,
       "y": 164666.140625
     },
     {
       "id": "003D08A5",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -149089.046875,
       "y": 164754.09375
     },
     {
       "id": "003D1713",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -181420.34375,
       "y": -135198.125
     },
     {
       "id": "003E18F8",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -180541.734375,
       "y": -136120.765625
     },
     {
       "id": "002B9156",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -154080.1875,
       "y": -166316.78125
     },
     {
       "id": "003DC5A8",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -150401.34375,
       "y": -135505.390625
     },
     {
       "id": "0050DEDC",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -154480.96875,
       "y": -132944.375
     },
     {
       "id": "003DC5A6",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -154370.015625,
       "y": -134322.296875
     },
     {
       "id": "003DC5AA",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -154877.96875,
       "y": -132705.140625
     },
     {
       "id": "003CB075",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -160461.78125,
       "y": -152433.8125
     },
     {
       "id": "003CB064",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -169207.796875,
       "y": -113875.117187
     },
     {
       "id": "0038686D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -177477.65625,
       "y": -111366.953125
     },
     {
       "id": "0052615E",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -187753.96875,
       "y": -122437.8125
     },
     {
       "id": "0052614E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -189487.046875,
       "y": -120687.804687
     },
     {
       "id": "00526164",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -192158.515625,
       "y": -125953.851563
     },
     {
       "id": "003C6103",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -164076.390625,
       "y": -72167.8125
     },
     {
       "id": "0050D461",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -179508.671875,
       "y": -83139.460937
     },
     {
       "id": "0050D468",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -176465.84375,
       "y": -82993.882812
     },
     {
       "id": "0033414B",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -179571.078125,
       "y": -81921.296875
     },
     {
       "id": "00333467",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -179349.453125,
       "y": -82729.1875
     },
     {
       "id": "00333468",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -178210.984375,
       "y": -82407.789063
     },
     {
       "id": "00333469",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -182158.0625,
       "y": -79796
     },
     {
       "id": "003E1E04",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -173234.359375,
       "y": -42237.875
     },
     {
       "id": "002DB8EB",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -171195.5,
       "y": -5050.428222
     },
     {
       "id": "003DC53E",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -187252.421875,
       "y": -32467.671875
     },
     {
       "id": "003C54EE",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -134350.28125,
       "y": -123376.242188
     },
     {
       "id": "003C6104",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -163795.859375,
       "y": -71744.304688
     },
     {
       "id": "0051EEF2",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -160781.21875,
       "y": -82119.929688
     },
     {
       "id": "003CB079",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -163392.328125,
       "y": -93712.898437
     },
     {
       "id": "00332684",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -158468.203125,
       "y": -40423.964844
     },
     {
       "id": "004E7CA9",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -132863.8125,
       "y": -27662.470703
     },
     {
       "id": "004E8D1A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -153214.625,
       "y": -31398.84961
     },
     {
       "id": "0050D3E4",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -163072.640625,
       "y": -769.09906
     },
     {
       "id": "003E14C9",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -161763.484375,
       "y": -6750.597168
     },
     {
       "id": "004E2574",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -104167.570312,
       "y": 19807.814453
     },
     {
       "id": "004E41B6",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -104538.898437,
       "y": 19429.826172
     },
     {
       "id": "004E2573",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -104377.96875,
       "y": 19797.316406
     },
     {
       "id": "003D0FFE",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -107026.226563,
       "y": 23131.269532
     },
     {
       "id": "004E2588",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -109493.429688,
       "y": 21512.123047
     },
     {
       "id": "0058EC75",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -106953.304688,
       "y": 19317.957031
     },
     {
       "id": "003D0FFB",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -108723.273438,
       "y": 17849.824219
     },
     {
       "id": "003D0FFC",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -108565.226563,
       "y": 17868.966797
     },
     {
       "id": "003D0FFF",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -106937.3125,
       "y": 20386.589844
     },
     {
       "id": "004E258A",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -106990.570313,
       "y": 17079.695313
     },
     {
       "id": "004E2575",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -106667.539063,
       "y": 17730.273437
     },
     {
       "id": "003D2907",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -102027.078125,
       "y": 59015.488281
     },
     {
       "id": "003E505E",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -104199.296875,
       "y": 50122.824218
     },
     {
       "id": "003CFD02",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -113400.304688,
       "y": 45820.425781
     },
     {
       "id": "003D7579",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -129754.929687,
       "y": 56094.035156
     },
     {
       "id": "004E41B4",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -109644.03125,
       "y": 83724.710938
     },
     {
       "id": "004E2585",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -109473.5,
       "y": 84043.382813
     },
     {
       "id": "004E2586",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -108770.546875,
       "y": 84796.023438
     },
     {
       "id": "004E2591",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -108827.921875,
       "y": 75874.171875
     },
     {
       "id": "004E257D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -108791.914062,
       "y": 75984.476562
     },
     {
       "id": "004E2583",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -78151.15625,
       "y": 12137.211914
     },
     {
       "id": "004E2584",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -78334.078125,
       "y": 12239.189453
     },
     {
       "id": "003D0505",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -66577.523438,
       "y": 47388.148437
     },
     {
       "id": "003CB29F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -66045.507812,
       "y": 46140.839844
     },
     {
       "id": "004ECC77",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -94602.648437,
       "y": 57705.335937
     },
     {
       "id": "003C7574",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -76834.84375,
       "y": 75729.742188
     },
     {
       "id": "003C7577",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -76814.882812,
       "y": 75286.5625
     },
     {
       "id": "003DC470",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -84717.875,
       "y": 93750.773437
     },
     {
       "id": "003DC471",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -84229.335937,
       "y": 93461.304687
     },
     {
       "id": "003E08CE",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -85201.945313,
       "y": 93928.132813
     },
     {
       "id": "0014EE73",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -83355.960938,
       "y": 85096.3125
     },
     {
       "id": "004E2582",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -93307.640625,
       "y": 78465.546875
     },
     {
       "id": "004E2580",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -98218.53125,
       "y": 97157.09375
     },
     {
       "id": "00553CFD",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -75452.960937,
       "y": 114296.695312
     },
     {
       "id": "003D0882",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -74016.648437,
       "y": 114267.242188
     },
     {
       "id": "0037D1E0",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -33830.808594,
       "y": 4813.019531
     },
     {
       "id": "0050D540",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -38632.164062,
       "y": 32235.736329
     },
     {
       "id": "0052E592",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -38817.609375,
       "y": 32497.361328
     },
     {
       "id": "0052E596",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -41009.339843,
       "y": 32580.386719
     },
     {
       "id": "0054ED0D",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -54772.75,
       "y": 26197.189453
     },
     {
       "id": "0050E691",
-      "type": "TinkersRecipeMarker",
+      "type": "RecipeTinkersMarker",
       "x": -58746.832032,
       "y": 29233.794922
     },
     {
       "id": "00113B76",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -58194.203125,
       "y": 28992.117188
     },
     {
       "id": "003D1146",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -60357.496094,
       "y": 24984.083984
     },
     {
       "id": "003CA21C",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -60632.449219,
       "y": 25874.212891
     },
     {
       "id": "003CA21D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -59837.839844,
       "y": 25251.5625
     },
     {
       "id": "003CFD09",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -61078.875,
       "y": 22980.267578
     },
     {
       "id": "0052E59C",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -35366.660157,
       "y": 38209.597657
     },
     {
       "id": "004ED18F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -33095.089843,
       "y": 34008.511719
     },
     {
       "id": "0052E59B",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -37402.707032,
       "y": 34147.296875
     },
     {
       "id": "0050D754",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -41927.820312,
       "y": 51119.417969
     },
     {
       "id": "0050D755",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": -42589.476562,
       "y": 51260.054688
     },
     {
       "id": "0050D756",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": -44113.710938,
       "y": 52059.601563
     },
     {
       "id": "0050D758",
-      "type": "TinkersRecipeMarker",
+      "type": "RecipeTinkersMarker",
       "x": -44345.085937,
       "y": 50671.625
     },
     {
       "id": "0050D759",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -44361.542969,
       "y": 49897.5625
     },
     {
       "id": "0050D75A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -41643.503906,
       "y": 51695.65625
     },
     {
       "id": "0050D75B",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -41842.613281,
       "y": 49794.152343
     },
     {
       "id": "0052E593",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -42284.253906,
       "y": 37560.632812
     },
     {
       "id": "004ED18E",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -41913.683594,
       "y": 36210.566407
     },
     {
       "id": "002F8A4D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -59219.867187,
       "y": 91626.570313
     },
     {
       "id": "0051E4F7",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -1842.80896,
       "y": 17898.580078
     },
     {
       "id": "0051E4F8",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -309.262939,
       "y": 17943.25586
     },
     {
       "id": "003E18CD",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -853.717713,
       "y": 17795.048828
     },
     {
       "id": "003CD3B2",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -19651.164062,
       "y": 30886.603516
     },
     {
       "id": "003CD3B3",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -19368.933594,
       "y": 30563.677735
     },
     {
       "id": "003CD3B4",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -18565.445312,
       "y": 29361.142578
     },
     {
       "id": "003CD3A6",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -20965.935547,
       "y": 29775.525391
     },
     {
       "id": "003CD3A7",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -20774.800782,
       "y": 29641.808594
     },
     {
       "id": "003CD3B0",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -21394.560547,
       "y": 32012.882812
     },
     {
       "id": "003CD3B1",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -21014.773438,
       "y": 31736.419922
     },
     {
       "id": "003CD3B5",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -21490.871094,
       "y": 29903.607422
     },
     {
       "id": "003CD3B6",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -21250.570312,
       "y": 29708.246094
     },
     {
       "id": "0032E9CE",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -27827.027344,
       "y": 18352.705078
     },
     {
       "id": "0050D53F",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -31055.804688,
       "y": 27501.308594
     },
     {
       "id": "0037D1DA",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -32160,
       "y": 4128
     },
     {
       "id": "0037D271",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -23399.544922,
       "y": 50148.785156
     },
     {
       "id": "0037D273",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -21933.433594,
       "y": 48601.675781
     },
     {
       "id": "0037D275",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -21839.191406,
       "y": 48055.855469
     },
     {
       "id": "003D1147",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -9602.084961,
       "y": 92199.382812
     },
     {
       "id": "003E3CAE",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -15192.695313,
       "y": 85543.265625
     },
     {
       "id": "003E18D7",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -20890.802734,
       "y": 89106.179687
     },
     {
       "id": "0050C8A5",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -28722.757812,
       "y": 92600.367187
     },
     {
       "id": "0050C8A6",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -30210.095703,
       "y": 90916.625
     },
     {
       "id": "0050C8A4",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": -29793.21875,
       "y": 89699.015625
     },
     {
       "id": "003C712A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -30517.308594,
       "y": 90045.71875
     },
     {
       "id": "003C712D",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -29967.339843,
       "y": 89747.867187
     },
     {
       "id": "0037D27F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -8411.423828,
       "y": 105960.210937
     },
     {
       "id": "0037D281",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -8565.743164,
       "y": 106015.085937
     },
     {
       "id": "004E258E",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -10444.726563,
       "y": 103230.09375
     },
     {
       "id": "004E258D",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -12151.424804,
       "y": 101657.085937
     },
     {
       "id": "003D1B9A",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -13708.099609,
       "y": 101395.101562
     },
     {
       "id": "003D1B9B",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -21285.046875,
       "y": 102864.757812
     },
     {
       "id": "002C5DF6",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -27263.654297,
       "y": 130016.070313
     },
     {
       "id": "0033AF37",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": -28374.68164,
       "y": 128755.34375
     },
     {
       "id": "004511E3",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": -29009.949219,
       "y": 101418.351563
     },
     {
       "id": "003D088A",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -103366.054687,
       "y": 152303.046875
     },
     {
       "id": "004E8D1F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -104247.953125,
       "y": 153766.859375
     },
     {
       "id": "002DB8F4",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -129263.03125,
       "y": 157318.53125
     },
     {
       "id": "003D1145",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -121565.984375,
       "y": 171362.203125
     },
     {
       "id": "0037AB2B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -124752.085937,
       "y": 178585.15625
     },
     {
       "id": "0037AB37",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -123800.101562,
       "y": 177996.203125
     },
     {
       "id": "002B79FE",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -76271.679687,
       "y": 149572.8125
     },
     {
       "id": "002B79FF",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -75768.828125,
       "y": 149340.578125
     },
     {
       "id": "002B7A00",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -75810.320313,
       "y": 149101.65625
     },
     {
       "id": "002B7A02",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -75902.171875,
       "y": 149638.140625
     },
     {
       "id": "002B79F8",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -79721.601563,
       "y": 148612.125
     },
     {
       "id": "002B79F9",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -80078.0625,
       "y": 148467.0625
     },
     {
       "id": "002B79FA",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -78261.453125,
       "y": 147660.765625
     },
     {
       "id": "003D1760",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -78960.90625,
       "y": 138471.078125
     },
     {
       "id": "004E8D2A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -91487.476562,
       "y": 160726.484375
     },
     {
       "id": "004E8D2B",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -91628.179688,
       "y": 160833.59375
     },
     {
       "id": "003D6613",
-      "type": "WaterFilterRecipeMarker",
+      "type": "RecipeWaterFilterMarker",
       "x": -67040.976563,
       "y": 184097.4375
     },
     {
       "id": "0037D0A8",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -67152,
       "y": 183264
     },
     {
       "id": "00511701",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -66013.226562,
       "y": 174679.9375
     },
     {
       "id": "002B79E7",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -75460.84375,
       "y": 173649.09375
     },
     {
       "id": "003E190C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -93284.554687,
       "y": 183991.203125
     },
     {
       "id": "002B90CB",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -92271.28125,
       "y": 205888.28125
     },
     {
       "id": "002B90CC",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -92296.21875,
       "y": 204987.953125
     },
     {
       "id": "003D6614",
-      "type": "WaterFilterRecipeMarker",
+      "type": "RecipeWaterFilterMarker",
       "x": -49404.171875,
       "y": 141912.4375
     },
     {
       "id": "003D1143",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -56197,
       "y": 146959.375
     },
     {
       "id": "003D6617",
-      "type": "WaterFilterRecipeMarker",
+      "type": "RecipeWaterFilterMarker",
       "x": -53270.492188,
       "y": 146633.984375
     },
     {
       "id": "002B7A0E",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -58351.75,
       "y": 160513.71875
     },
     {
       "id": "002B7A0F",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -58209.734375,
       "y": 161002.15625
     },
     {
       "id": "003D6615",
-      "type": "WaterFilterRecipeMarker",
+      "type": "RecipeWaterFilterMarker",
       "x": -60446.96875,
       "y": 142143.1875
     },
     {
       "id": "0050C034",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -60836.738281,
       "y": 183334
     },
     {
       "id": "003CFD0E",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -1283.772217,
       "y": 140044.546875
     },
     {
       "id": "003D6616",
-      "type": "WaterFilterRecipeMarker",
+      "type": "RecipeWaterFilterMarker",
       "x": -1039.805053,
       "y": 135350.296875
     },
     {
       "id": "0051170F",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -13048.5625,
       "y": 148259.296875
     },
     {
       "id": "003D6612",
-      "type": "WaterFilterRecipeMarker",
+      "type": "RecipeWaterFilterMarker",
       "x": -29712.478516,
       "y": 149979.59375
     },
     {
       "id": "002B79DD",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -7375.40625,
       "y": 165126.703125
     },
     {
       "id": "002B79E4",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -7514.151855,
       "y": 165146.21875
     },
     {
       "id": "00386C85",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -11925.018555,
       "y": 180405.765625
     },
     {
       "id": "00386C7D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -9485.62793,
       "y": 179413.296875
     },
     {
       "id": "00386C89",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -9921.628906,
       "y": 178976.546875
     },
     {
       "id": "003CD384",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -11492.363281,
       "y": 172470.453125
     },
     {
       "id": "003D0B1A",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -15572.385743,
       "y": 184055.765625
     },
     {
       "id": "00386C83",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -13686.137695,
       "y": 182278.5
     },
     {
       "id": "003D0B12",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -17034.677734,
       "y": 190069.90625
     },
     {
       "id": "00386CAD",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -17064.193359,
       "y": 192198.53125
     },
     {
       "id": "003D75A0",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -16543.535156,
       "y": 165080.0625
     },
     {
       "id": "0050D760",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -21495.34961,
       "y": 165049.421875
     },
     {
       "id": "0050D761",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -22538.857422,
       "y": 167799.984375
     },
     {
       "id": "0050D762",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -21511.275391,
       "y": 164628.65625
     },
     {
       "id": "0050D763",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -21881.580078,
       "y": 165147.125
     },
     {
       "id": "0050D764",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -24795.464843,
       "y": 167048.84375
     },
     {
       "id": "003D28CB",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -29382.4375,
       "y": 188664.609375
     },
     {
       "id": "002B90B3",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -112650.351563,
       "y": -167907.671875
     },
     {
       "id": "002B90B4",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -115637.25,
       "y": -167949.421875
     },
     {
       "id": "005910C7",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -105602.5,
       "y": -141634.125
     },
     {
       "id": "005910C8",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -106063.367187,
       "y": -142432.625
     },
     {
       "id": "003D08B2",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": -113790.101563,
       "y": -131397.484375
     },
     {
       "id": "003D171D",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -125608.28125,
       "y": -148415.015625
     },
     {
       "id": "0050D765",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": -72886.773438,
       "y": -151472.53125
     },
     {
       "id": "0050D766",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -72941.046875,
       "y": -151854.21875
     },
     {
       "id": "0050D768",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -74638.742188,
       "y": -150829.078125
     },
     {
       "id": "0050D76D",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -73799.820313,
       "y": -152101.875
     },
     {
       "id": "0050D76E",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": -74871.71875,
       "y": -152281.453125
     },
     {
       "id": "0050D76F",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -74194.882813,
       "y": -151837.40625
     },
     {
       "id": "003CB05F",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -97296.375,
       "y": -138276.875
     },
     {
       "id": "002B9130",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -36634.308594,
       "y": -155750.515625
     },
     {
       "id": "0050D774",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -56969.191406,
       "y": -148235.203125
     },
     {
       "id": "0050D775",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -56099.664062,
       "y": -149011.765625
     },
     {
       "id": "0050D779",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -56507.335937,
       "y": -147740.09375
     },
     {
       "id": "0050D77E",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -57600.34375,
       "y": -148158.828125
     },
     {
       "id": "0050D77F",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -58793.152344,
       "y": -148113.03125
     },
     {
       "id": "0050D781",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -58159.273437,
       "y": -149514.546875
     },
     {
       "id": "0039DAAA",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -2905.120362,
       "y": -178944.546875
     },
     {
       "id": "0050ADC7",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -14776,
       "y": -155768
     },
     {
       "id": "003D170B",
-      "type": "PowerArmorModsRecipeMarker",
+      "type": "RecipePowerArmorModsMarker",
       "x": -99683.09375,
       "y": -114733.9375
     },
     {
       "id": "0050DA66",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -112514.992188,
       "y": -111273.953125
     },
     {
       "id": "003CB06B",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -122905.039063,
       "y": -112066.953125
     },
     {
       "id": "003C7144",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -130112.75,
       "y": -101350.023437
     },
     {
       "id": "0037E20E",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -104976.070313,
       "y": -69624.414062
     },
     {
       "id": "0037E20F",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -105022.171875,
       "y": -69633.820312
     },
     {
       "id": "00395223",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -105511.164063,
       "y": -79051.5625
     },
     {
       "id": "004E7C72",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -113837.6875,
       "y": -75865.390625
     },
     {
       "id": "0050D7CA",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -101581.046875,
       "y": -47340.132812
     },
     {
       "id": "0050D7CB",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -99830.296875,
       "y": -49356.636718
     },
     {
       "id": "0050D7CC",
-      "type": "DiseaseCuresRecipeMarker",
+      "type": "RecipeDiseaseCuresMarker",
       "x": -101175.742188,
       "y": -61242.574218
     },
     {
       "id": "0050D7CD",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -101499.765625,
       "y": -57556.195313
     },
     {
       "id": "0050D7CF",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -100420.1875,
       "y": -61159.152344
     },
     {
       "id": "0050D7D9",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -100136.367187,
       "y": -61453.941406
     },
     {
       "id": "0050D7E1",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -104647.90625,
       "y": -45545.882812
     },
     {
       "id": "0037D12A",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -106126.742187,
       "y": -47174.234375
     },
     {
       "id": "0037D125",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -107594.492187,
       "y": -47989.195313
     },
     {
       "id": "0050D7E2",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -111624.6875,
       "y": -50374.359375
     },
     {
       "id": "0050D7E3",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -111743.023438,
       "y": -51166.429688
     },
     {
       "id": "0037E213",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -118207.15625,
       "y": -47616.539063
     },
     {
       "id": "002C5EA0",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -127602.601563,
       "y": -41930.246094
     },
     {
       "id": "002C5EA8",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -127548.367188,
       "y": -43459.5625
     },
     {
       "id": "003CB314",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -108548.09375,
       "y": -31084.910157
     },
     {
       "id": "003D02C2",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -125236.03125,
       "y": -15560.785157
     },
     {
       "id": "003AC828",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -80104.179688,
       "y": -84740.414062
     },
     {
       "id": "003D1DC9",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -83507.265625,
       "y": -93426.835937
     },
     {
       "id": "003C75A5",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -69445.054688,
       "y": -41647.113281
     },
     {
       "id": "003C759A",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -70224.53125,
       "y": -40651.34375
     },
     {
       "id": "003C75A1",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -72257.5625,
       "y": -47161.851563
     },
     {
       "id": "003CD371",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -78071.179688,
       "y": -56105.453125
     },
     {
       "id": "0050D7E4",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -84802.734375,
       "y": -59069.429688
     },
     {
       "id": "0050CDB4",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -68522.609375,
       "y": -12160.814453
     },
     {
       "id": "003086DA",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -87320.53125,
       "y": -29677.203125
     },
     {
       "id": "0050BFA8",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -45787.273437,
       "y": -120481.515625
     },
     {
       "id": "002F8AA8",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -47040.339844,
       "y": -120453.171875
     },
     {
       "id": "0050AFA0",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -45470.070312,
       "y": -126038.328125
     },
     {
       "id": "0037D26C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -58924.652344,
       "y": -107655.976562
     },
     {
       "id": "0050C88C",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": -60631.425781,
       "y": -110662.976563
     },
     {
       "id": "0050D3C3",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -65252.285156,
       "y": -120798.625
     },
     {
       "id": "003D1E8C",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -38028.648438,
       "y": -41674.042969
     },
     {
       "id": "003D0873",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -46751.523438,
       "y": -51643.214844
     },
     {
       "id": "003D0870",
-      "type": "ArmorModsRecipeMarker",
+      "type": "RecipeArmorModsMarker",
       "x": -48257.753906,
       "y": -55411.289062
     },
     {
       "id": "003D0871",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -48593.949218,
       "y": -55703.175781
     },
     {
       "id": "003D0872",
-      "type": "ArmorRecipeMarker",
+      "type": "RecipeArmorMarker",
       "x": -50883.292969,
       "y": -46745.363281
     },
     {
       "id": "00126B94",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -51052.984375,
       "y": -46861.5625
     },
     {
       "id": "0059131C",
-      "type": "ModsRecipeMarker",
+      "type": "RecipeModsMarker",
       "x": -60802.105468,
       "y": -56046.121093
     },
     {
       "id": "0052BB00",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -60415.085937,
       "y": -55866.269531
     },
     {
       "id": "0052BB02",
-      "type": "WeaponsRecipeMarker",
+      "type": "RecipeWeaponsMarker",
       "x": -60942.964844,
       "y": -56342.796875
     },
     {
       "id": "0050AFAB",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -34713.242187,
       "y": -953.559571
     },
     {
       "id": "002DB8EA",
-      "type": "WeaponsModsRecipeMarker",
+      "type": "RecipeWeaponsModsMarker",
       "x": -37361.25,
       "y": -12024.794922
     },
     {
       "id": "00424A8C",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -44077.5625,
       "y": -11132.240234
     },
     {
       "id": "00424A8D",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -44056.199219,
       "y": -11266.473633
     },
     {
       "id": "0050C883",
-      "type": "TinkersRecipeMarker",
+      "type": "RecipeTinkersMarker",
       "x": -59118.398438,
       "y": -24483.609375
     },
     {
       "id": "0050C882",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -60958.511719,
       "y": -26041.492187
     },
     {
       "id": "0050C885",
-      "type": "ChemsRecipeMarker",
+      "type": "RecipeChemsMarker",
       "x": -60700.175782,
       "y": -28469.058594
     },
     {
       "id": "003D3823",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -22143.634766,
       "y": -106982.28125
     },
     {
       "id": "0050D3BC",
-      "type": "WorkshopRecipeMarker",
+      "type": "RecipeWorkshopMarker",
       "x": -27883.736329,
       "y": -83680.140625
     },
     {
       "id": "002C5F0B",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -12654.864258,
       "y": -52055.8125
     },
     {
       "id": "002BA298",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -17957.851563,
       "y": -36192.203125
     },
     {
       "id": "0052FD8D",
-      "type": "CookingRecipeMarker",
+      "type": "RecipeCookingMarker",
       "x": -26112.457031,
       "y": -9688.972657
     }

@@ -1,255 +1,246 @@
 {
-  "explains": {
-    "AshTreasureMarker": "maps.treasure.ash",
-    "BogTreasureMarker": "maps.treasure.bog",
-    "ForestTreasureMarker": "maps.treasure.forest",
-    "SavageTreasureMarker": "maps.treasure.savage",
-    "MireTreasureMarker": "maps.treasure.mire",
-    "ToxicValleyTreasureMarker": "maps.treasure.toxic"
-  },
-  "colorset": ["red", "pink", "green", "orange", "blue", "yellow"],
   "markers": [
     {
       "id": "0038ACBD",
-      "type": "BogTreasureMarker",
+      "type": "TreasureBogMarker",
       "x": 192578.8125,
       "y": -89122.875,
       "label": 4
     },
     {
       "id": "0038AD1A",
-      "type": "MireTreasureMarker",
+      "type": "TreasureMireMarker",
       "x": 181776.0156,
       "y": 104687.4531,
       "label": 5
     },
     {
       "id": "0038AD47",
-      "type": "BogTreasureMarker",
+      "type": "TreasureBogMarker",
       "x": 175651.7813,
       "y": -176662.4531,
       "label": 3
     },
     {
       "id": "0038AD4A",
-      "type": "MireTreasureMarker",
+      "type": "TreasureMireMarker",
       "x": 175781.4688,
       "y": 78368.53906,
       "label": 4
     },
     {
       "id": "0038AD4D",
-      "type": "MireTreasureMarker",
+      "type": "TreasureMireMarker",
       "x": 160578.3281,
       "y": 18416.20117,
       "label": 3
     },
     {
       "id": "0038AD50",
-      "type": "BogTreasureMarker",
+      "type": "TreasureBogMarker",
       "x": 157542.4375,
       "y": -88259.26563,
       "label": 2
     },
     {
       "id": "0038AD61",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 150924.7969,
       "y": 180168.6406,
       "label": 10
     },
     {
       "id": "0038AD9E",
-      "type": "MireTreasureMarker",
+      "type": "TreasureMireMarker",
       "x": 142882.9063,
       "y": -26589.47656,
       "label": 2
     },
     {
       "id": "0038ADA2",
-      "type": "MireTreasureMarker",
+      "type": "TreasureMireMarker",
       "x": 140590.7031,
       "y": 111464.9844,
       "label": 1
     },
     {
       "id": "0038ADAB",
-      "type": "BogTreasureMarker",
+      "type": "TreasureBogMarker",
       "x": 130433.7031,
       "y": -129577.2109,
       "label": 1
     },
     {
       "id": "0038ADD7",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 98820.34375,
       "y": 42795.46484,
       "label": 9
     },
     {
       "id": "0038ADDC",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 66572.60156,
       "y": 30560.26367,
       "label": 8
     },
     {
       "id": "0038AE4D",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 61745.27734,
       "y": -124896.1484,
       "label": 7
     },
     {
       "id": "0038AF4C",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 56127,
       "y": 176659.0625,
       "label": 6
     },
     {
       "id": "0038AF64",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 33260.05469,
       "y": -47051.60156,
       "label": 5
     },
     {
       "id": "0038AF66",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 36779.82813,
       "y": -62224.10156,
       "label": 4
     },
     {
       "id": "0038AF8C",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 32254.21484,
       "y": 27944.49805,
       "label": 3
     },
     {
       "id": "0038AF9D",
-      "type": "ToxicValleyTreasureMarker",
+      "type": "TreasureToxicValleyMarker",
       "x": 26592.54102,
       "y": 192093.1563,
       "label": 4
     },
     {
       "id": "0038B06A",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": 16156.7168,
       "y": -16360.66504,
       "label": 2
     },
     {
       "id": "0038B0DA",
-      "type": "ToxicValleyTreasureMarker",
+      "type": "TreasureToxicValleyMarker",
       "x": 5849.466797,
       "y": 134711.0313,
       "label": 3
     },
     {
       "id": "0038B0DD",
-      "type": "SavageTreasureMarker",
+      "type": "TreasureSavageMarker",
       "x": -8329.735352,
       "y": -157138.2656,
       "label": 1
     },
     {
       "id": "0038B109",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -25714.58984,
       "y": 43075.90234,
       "label": 10
     },
     {
       "id": "0038B147",
-      "type": "ToxicValleyTreasureMarker",
+      "type": "TreasureToxicValleyMarker",
       "x": -31294.22656,
       "y": 163443.9219,
       "label": 2
     },
     {
       "id": "0038B14D",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -41273.65234,
       "y": -24995.27148,
       "label": 9
     },
     {
       "id": "0038B156",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -41079.30469,
       "y": 72407.89063,
       "label": 8
     },
     {
       "id": "0038B159",
-      "type": "ToxicValleyTreasureMarker",
+      "type": "TreasureToxicValleyMarker",
       "x": -77637.67969,
       "y": 150060.8125,
       "label": 1
     },
     {
       "id": "0038B176",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -78384.15625,
       "y": -84171.11719,
       "label": 7
     },
     {
       "id": "0038B198",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -81548.46094,
       "y": 48992.01563,
       "label": 6
     },
     {
       "id": "0038B1D7",
-      "type": "AshTreasureMarker",
+      "type": "TreasureAshMarker",
       "x": -101486.8828,
       "y": -81483.96094,
       "label": 2
     },
     {
       "id": "0038B1DA",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -119683.5625,
       "y": 119820.7188,
       "label": 4
     },
     {
       "id": "0038B1F0",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -122167.4531,
       "y": -49725.00391,
       "label": 5
     },
     {
       "id": "0038B1F2",
-      "type": "AshTreasureMarker",
+      "type": "TreasureAshMarker",
       "x": -126027.6563,
       "y": -143726.75,
       "label": 1
     },
     {
       "id": "0038B220",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -135648.5625,
       "y": -65181.51172,
       "label": 3
     },
     {
       "id": "0038B252",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -158059.7969,
       "y": -40684.77734,
       "label": 2
     },
     {
       "id": "0038B328",
-      "type": "ForestTreasureMarker",
+      "type": "TreasureForestMarker",
       "x": -177856.1875,
       "y": 66008.125,
       "label": 1

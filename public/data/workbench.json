@@ -2,4735 +2,4735 @@
   "markers": [
     {
       "id": "0034EF68",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 16543.96289,
       "y": 916.85791
     },
     {
       "id": "003C3E21",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 29.390856,
       "y": 18556.26758
     },
     {
       "id": "003C3E22",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 499.089112,
       "y": 18287.10547
     },
     {
       "id": "003D0CBA",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 0,
       "y": 0
     },
     {
       "id": "0050D566",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 11881.41797,
       "y": 58093.62109
     },
     {
       "id": "003D472B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 20671.87695,
       "y": 77618.84375
     },
     {
       "id": "00209268",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 20656.36524,
       "y": 72080.21094
     },
     {
       "id": "003D2815",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 25297.93945,
       "y": 100621.8672
     },
     {
       "id": "00346CD3",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 20033.39063,
       "y": 129329.2734
     },
     {
       "id": "002E1F2F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 5234.317383,
       "y": 121581.3828
     },
     {
       "id": "003DC515",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 3494.833008,
       "y": 122203.1328
     },
     {
       "id": "0038FFDE",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 4053.811768,
       "y": 121577.6641
     },
     {
       "id": "002DE529",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 4074.012207,
       "y": 122245.9609
     },
     {
       "id": "00046FD7",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 49671.72656,
       "y": 27009.35938
     },
     {
       "id": "00341997",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 49368.3125,
       "y": 16770.33203
     },
     {
       "id": "003CC579",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 49881.61328,
       "y": 9804.594726
     },
     {
       "id": "003CC593",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 50028.65234,
       "y": 9281.641602
     },
     {
       "id": "00341990",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 46951.8125,
       "y": 24836.13086
     },
     {
       "id": "002ABD32",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 48142.70703,
       "y": 27568.45117
     },
     {
       "id": "002ABD3D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 48984.21484,
       "y": 27478.26953
     },
     {
       "id": "00341994",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 47145.22656,
       "y": 22589.65234
     },
     {
       "id": "00341993",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 45255.52344,
       "y": 22001.01563
     },
     {
       "id": "00341991",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 47290.51172,
       "y": 24172.26367
     },
     {
       "id": "00046FC3",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 46279.24219,
       "y": 20956.51953
     },
     {
       "id": "00341996",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 48662.96094,
       "y": 16293.18066
     },
     {
       "id": "004511E5",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 48545.89453,
       "y": 9871.878906
     },
     {
       "id": "00341992",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 44240.67578,
       "y": 21281.35742
     },
     {
       "id": "00341998",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 43141.95313,
       "y": 15486.81641
     },
     {
       "id": "00341999",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 42965.39063,
       "y": 13801.07813
     },
     {
       "id": "00303D62",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 42348.25781,
       "y": 7689.046387
     },
     {
       "id": "00451209",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 58131.60938,
       "y": 60365.91797
     },
     {
       "id": "003664C6",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 57405.01953,
       "y": 60680.30859
     },
     {
       "id": "002E8D33",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 55006.49219,
       "y": 59055.12109
     },
     {
       "id": "003664C8",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 55927.40625,
       "y": 53969.67188
     },
     {
       "id": "003664CB",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 54665.34766,
       "y": 56776.54688
     },
     {
       "id": "00110C31",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 55176.30078,
       "y": 34100.96094
     },
     {
       "id": "00345A0F",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 53677.82422,
       "y": 80826.22656
     },
     {
       "id": "001949F3",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 52934.73047,
       "y": 78788.41406
     },
     {
       "id": "002B7A1B",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 92409.51563,
       "y": 28401.27344
     },
     {
       "id": "00241FB6",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 93406.59375,
       "y": 28490.86914
     },
     {
       "id": "0046F5A2",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 90006.46875,
       "y": 19962.42774
     },
     {
       "id": "00588BC0",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 76842.09375,
       "y": 17175.49414
     },
     {
       "id": "003E4332",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 69427.33594,
       "y": 24792.71289
     },
     {
       "id": "00304ECE",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 69434.67969,
       "y": 25714.97656
     },
     {
       "id": "00277463",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 85813.71875,
       "y": 50518.64063
     },
     {
       "id": "0009BA37",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 76897.28125,
       "y": 42540.77734
     },
     {
       "id": "003EA5C8",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 96473.25,
       "y": 71522.11719
     },
     {
       "id": "005A5F43",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 80618.60156,
       "y": 73520.98438
     },
     {
       "id": "005A5F44",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 80720.94531,
       "y": 73144.60938
     },
     {
       "id": "005A5F4D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 80944.19531,
       "y": 73002.57813
     },
     {
       "id": "0036AC88",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 91836.45313,
       "y": 99062.24219
     },
     {
       "id": "0036BF08",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 86299.14844,
       "y": 128886.9609
     },
     {
       "id": "0036BF09",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 86519.14844,
       "y": 129125.1719
     },
     {
       "id": "0036BF0A",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 86254.01563,
       "y": 130381.4141
     },
     {
       "id": "0031FABB",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 87446.07031,
       "y": 129443.6406
     },
     {
       "id": "0052DA47",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 79219.34375,
       "y": 112512.5938
     },
     {
       "id": "004511F1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 74396.54688,
       "y": 130235.5625
     },
     {
       "id": "003C384C",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 69203.96094,
       "y": 115189.2969
     },
     {
       "id": "003C3852",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 68880.45313,
       "y": 114585.0469
     },
     {
       "id": "00342C08",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 120471,
       "y": 29440.89063
     },
     {
       "id": "0037CFB0",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 122159.0313,
       "y": 25065.9668
     },
     {
       "id": "0037CFB3",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 122103.5703,
       "y": 25409.47266
     },
     {
       "id": "0037CFC5",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 122122.6172,
       "y": 25596.14648
     },
     {
       "id": "00368A8B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 105167.4766,
       "y": 6898.9375
     },
     {
       "id": "00368A2A",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 105167.4766,
       "y": 6898.9375
     },
     {
       "id": "00542712",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 128571.8906,
       "y": 34028.10156
     },
     {
       "id": "0025940E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 115221.1484,
       "y": 39443.15625
     },
     {
       "id": "0032CA63",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 115402.9141,
       "y": 92871.97656
     },
     {
       "id": "0036BF0E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 106693.7734,
       "y": 94245.17969
     },
     {
       "id": "0046DA91",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 106241.8906,
       "y": 95857.03125
     },
     {
       "id": "0036BF0D",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 103733.2266,
       "y": 97375.57031
     },
     {
       "id": "0036BF0F",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 105873.1797,
       "y": 95708.51563
     },
     {
       "id": "0036BF10",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 104706.8438,
       "y": 94336.05469
     },
     {
       "id": "001FFB88",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 104516.0703,
       "y": 96604.45313
     },
     {
       "id": "0036BF0B",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 103774.1641,
       "y": 93965.10938
     },
     {
       "id": "0036BF0C",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 103382.6094,
       "y": 93965.21875
     },
     {
       "id": "003BB29A",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 99012.57031,
       "y": 95329.39844
     },
     {
       "id": "003BB29B",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 98929.04688,
       "y": 95474.76563
     },
     {
       "id": "003D1DF7",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 117880.625,
       "y": 128202.9844
     },
     {
       "id": "00346CCC",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 21078.25,
       "y": 131386.2188
     },
     {
       "id": "00346CCD",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 20960.4375,
       "y": 132489.7656
     },
     {
       "id": "0034D98D",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 17872.55078,
       "y": 132766.9688
     },
     {
       "id": "0034D98F",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 17185.58789,
       "y": 132822.7813
     },
     {
       "id": "00346CCB",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 14899.69727,
       "y": 136018.0781
     },
     {
       "id": "003DF882",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 8225.964844,
       "y": 140427.9531
     },
     {
       "id": "0038DA3B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 4169.405761,
       "y": 138220.4219
     },
     {
       "id": "00124C97",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 373.482513,
       "y": 138392.4219
     },
     {
       "id": "00124CE7",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 577.716309,
       "y": 138769.9375
     },
     {
       "id": "00124CEA",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 455.867035,
       "y": 137953.8281
     },
     {
       "id": "00389B3B",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 31179.83594,
       "y": 190200.5469
     },
     {
       "id": "00389B4E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 31594.64258,
       "y": 190434.7969
     },
     {
       "id": "00361246",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 15087.99023,
       "y": 167798.1875
     },
     {
       "id": "002E1AFA",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 7199.462403,
       "y": 174185.4531
     },
     {
       "id": "003EC37E",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 2863.406739,
       "y": 182898.5313
     },
     {
       "id": "005943F1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 27590.56836,
       "y": 202563.0469
     },
     {
       "id": "005943F2",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 27716.71875,
       "y": 202493.8281
     },
     {
       "id": "005943F3",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 27418.77734,
       "y": 202511.5469
     },
     {
       "id": "005943F4",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 27991.00977,
       "y": 202181.5156
     },
     {
       "id": "005943F5",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 27928.86914,
       "y": 202410.2188
     },
     {
       "id": "005943F6",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 27415.16406,
       "y": 202612.0781
     },
     {
       "id": "00365DB7",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 58808.29688,
       "y": 160532.7969
     },
     {
       "id": "00346CC7",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 60810.09375,
       "y": 163696.2969
     },
     {
       "id": "0038A3AF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 54854.02734,
       "y": 133569.5625
     },
     {
       "id": "0059A414",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 51269.46094,
       "y": 135788.0625
     },
     {
       "id": "003D112D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 62944,
       "y": 190920
     },
     {
       "id": "00300195",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 61968.89063,
       "y": 192065.0156
     },
     {
       "id": "00346CBB",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 59097.24219,
       "y": 169236.8594
     },
     {
       "id": "00346CBC",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 59003.84766,
       "y": 168908.25
     },
     {
       "id": "00346CBD",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 57405.51172,
       "y": 169660.2031
     },
     {
       "id": "00346CC6",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 59061.18359,
       "y": 171026.2031
     },
     {
       "id": "002FF42F",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 58974.34766,
       "y": 168678.7813
     },
     {
       "id": "002FF42E",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 58419.87891,
       "y": 168851.9063
     },
     {
       "id": "00346CBF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 56143.40234,
       "y": 168964.3281
     },
     {
       "id": "00346CC1",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 56042.53516,
       "y": 168389.0156
     },
     {
       "id": "0036004D",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 46038.07422,
       "y": 200001.4531
     },
     {
       "id": "0036004E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 45321.28906,
       "y": 198546.1563
     },
     {
       "id": "00359B2B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 83762.85156,
       "y": 189714.8281
     },
     {
       "id": "0059027B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 78880.96875,
       "y": 175504.8125
     },
     {
       "id": "0035682C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 94616.67969,
       "y": 201325.9844
     },
     {
       "id": "0035682B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 96584.92969,
       "y": 200703.1563
     },
     {
       "id": "0035682D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 93923.97656,
       "y": 201175.4844
     },
     {
       "id": "0059A8E9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 128957.6406,
       "y": 158347.7188
     },
     {
       "id": "001DB273",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 127324.9688,
       "y": 134697.6719
     },
     {
       "id": "003D1DED",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 120907.5625,
       "y": 132006.625
     },
     {
       "id": "0035DA4F",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 115550.5938,
       "y": 135506.0625
     },
     {
       "id": "00342C7F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 110812.7266,
       "y": 183594.1875
     },
     {
       "id": "00342C80",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 112859.2813,
       "y": 182563.6719
     },
     {
       "id": "0050ADDD",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 9064.339844,
       "y": -165559.6875
     },
     {
       "id": "0055F785",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 31364.47656,
       "y": -161106.1719
     },
     {
       "id": "0055F786",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 32287.58594,
       "y": -161067.5313
     },
     {
       "id": "0055F787",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 32433.83594,
       "y": -160625.9219
     },
     {
       "id": "0040378F",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 21720,
       "y": -154304
     },
     {
       "id": "00403825",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 21333.11328,
       "y": -155035.5313
     },
     {
       "id": "004511ED",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 10515.55273,
       "y": -132314.9219
     },
     {
       "id": "003D1112",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 761.392822,
       "y": -152356.7031
     },
     {
       "id": "0051A6BB",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 123.781189,
       "y": -152955.7813
     },
     {
       "id": "003EC385",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 74968.48438,
       "y": -179873.4531
     },
     {
       "id": "0037917D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 73976.33594,
       "y": -180079.2188
     },
     {
       "id": "00558B16",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 89084.36719,
       "y": -138220.4844
     },
     {
       "id": "0052CABC",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 65542.32031,
       "y": -146732.6094
     },
     {
       "id": "00377AB3",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 123511.3047,
       "y": -164210.8125
     },
     {
       "id": "0046F5A1",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 122280.9063,
       "y": -164197.6875
     },
     {
       "id": "00437D36",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 121737.2031,
       "y": -164097.7344
     },
     {
       "id": "003D2041",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 122744.125,
       "y": -164344.4844
     },
     {
       "id": "00377A80",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 122192,
       "y": -164416
     },
     {
       "id": "0036D065",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 110104.2188,
       "y": -172926.5781
     },
     {
       "id": "003237F3",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 129872,
       "y": -153688
     },
     {
       "id": "00048055",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 113408,
       "y": -148999.7031
     },
     {
       "id": "002B0034",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 113592,
       "y": -148999.7031
     },
     {
       "id": "00343280",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 113280,
       "y": -148536
     },
     {
       "id": "00343283",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 113792,
       "y": -148728
     },
     {
       "id": "003432BF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 112718.8672,
       "y": -148980.5625
     },
     {
       "id": "003419AE",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 8088.818848,
       "y": -98515.76563
     },
     {
       "id": "0034968D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 25299.38477,
       "y": -70341.16406
     },
     {
       "id": "0050CBBA",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 28957.42383,
       "y": -46233.89063
     },
     {
       "id": "003419B8",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 28809.28711,
       "y": -46224.38281
     },
     {
       "id": "003419B7",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 29068.41602,
       "y": -46458.21094
     },
     {
       "id": "002FCA91",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 29041.43945,
       "y": -46488.31641
     },
     {
       "id": "00357B01",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 28995.0957,
       "y": -50581.60938
     },
     {
       "id": "002FCA98",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 28549.26172,
       "y": -44813.9375
     },
     {
       "id": "00002CA0",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 26786.16602,
       "y": -47055.875
     },
     {
       "id": "003419B9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 28465.92773,
       "y": -45366.62891
     },
     {
       "id": "003419BA",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 27007.20703,
       "y": -46499.85156
     },
     {
       "id": "004511FC",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 19858.85156,
       "y": -46649.82031
     },
     {
       "id": "003D290F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 13539.18262,
       "y": -34859.16016
     },
     {
       "id": "0036ACB7",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 2379.87085,
       "y": -42547.21094
     },
     {
       "id": "0036ACCA",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 2584.543457,
       "y": -41976.37109
     },
     {
       "id": "0036ACD1",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 2531.446289,
       "y": -42423.25
     },
     {
       "id": "0036ACD8",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 2611.919189,
       "y": -42222.98828
     },
     {
       "id": "0052D47C",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 2707.732666,
       "y": -46470.41016
     },
     {
       "id": "0052D653",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 2488.532471,
       "y": -47082.59375
     },
     {
       "id": "0052D66D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 3300.427735,
       "y": -47082.57031
     },
     {
       "id": "00345993",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 16640.91406,
       "y": -20690.29688
     },
     {
       "id": "00345994",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 10147.52344,
       "y": -24435.33984
     },
     {
       "id": "002C9E13",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 11851.37402,
       "y": -25282.64063
     },
     {
       "id": "0039B016",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 4607.896484,
       "y": -24795.39063
     },
     {
       "id": "003459A5",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 45508.70703,
       "y": -114242.5625
     },
     {
       "id": "00558269",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 38407.4375,
       "y": -103466.5625
     },
     {
       "id": "00404641",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 37795.17188,
       "y": -102597.5469
     },
     {
       "id": "00404617",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 37007.76953,
       "y": -103119.1094
     },
     {
       "id": "0050D38C",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 38581.27734,
       "y": -103361.1094
     },
     {
       "id": "0041755A",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 36421.65234,
       "y": -100093.8203
     },
     {
       "id": "0041755B",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 36250.73828,
       "y": -100244.25
     },
     {
       "id": "0041755D",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 36046.69531,
       "y": -100295.7734
     },
     {
       "id": "00558F16",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 35826.46484,
       "y": -104008.0391
     },
     {
       "id": "00558F17",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 35737.08984,
       "y": -103807.2969
     },
     {
       "id": "003AC83D",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 34914.92578,
       "y": -65613.47656
     },
     {
       "id": "0034E84D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 36473.24609,
       "y": -65565.57031
     },
     {
       "id": "0029562D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 46296.54297,
       "y": -36698.94141
     },
     {
       "id": "0034E84A",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 41843.61719,
       "y": -64394.43359
     },
     {
       "id": "0034E84B",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 41412.50781,
       "y": -64234.42578
     },
     {
       "id": "00537E4E",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 40482.21094,
       "y": -64228.35547
     },
     {
       "id": "0034E876",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 37419.14453,
       "y": -64242.24219
     },
     {
       "id": "0034E877",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 39692.14453,
       "y": -64870.63672
     },
     {
       "id": "0034E84E",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 36429.30469,
       "y": -65331.23828
     },
     {
       "id": "00089BEF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 60181.87109,
       "y": -17806.97461
     },
     {
       "id": "003AF151",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 45150.83594,
       "y": -8056.140625
     },
     {
       "id": "00176E6A",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 33892.64453,
       "y": -5382.677734
     },
     {
       "id": "00345A00",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 89726,
       "y": -80158.07813
     },
     {
       "id": "002CB3E7",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 67647.96094,
       "y": -87968.6875
     },
     {
       "id": "002C3E5B",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 66121.82031,
       "y": -88439.83594
     },
     {
       "id": "002CFE8A",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 89808.29688,
       "y": -56960.33594
     },
     {
       "id": "003B0ABB",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 89031.85156,
       "y": -59639.53906
     },
     {
       "id": "00342C4D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 83689.32031,
       "y": -37339.73828
     },
     {
       "id": "002AF7DE",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 74260.39063,
       "y": -63669.71094
     },
     {
       "id": "0059A9C5",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 74516.125,
       "y": -27687.64453
     },
     {
       "id": "0050C023",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 121642.1953,
       "y": -103101.6484
     },
     {
       "id": "0036A0E8",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 109466.0234,
       "y": -103838.4219
     },
     {
       "id": "00369B1E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 116077.3359,
       "y": -87092.83594
     },
     {
       "id": "00387395",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 117302.6094,
       "y": -59767.69531
     },
     {
       "id": "0038633E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 117585.6016,
       "y": -59874.64844
     },
     {
       "id": "003957D1",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 99723.72656,
       "y": -58276.78906
     },
     {
       "id": "003957F0",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 99276.39844,
       "y": -58986.8125
     },
     {
       "id": "00203CC8",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 125245.9297,
       "y": -29266.32813
     },
     {
       "id": "0051E4EE",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 119532.6328,
       "y": -15994.5166
     },
     {
       "id": "0051E4F4",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 116268.4297,
       "y": -12556.50977
     },
     {
       "id": "0051E4F2",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 118088.6563,
       "y": -16794.03516
     },
     {
       "id": "00366607",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 99274.63281,
       "y": -26030.41797
     },
     {
       "id": "00366608",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 99660.32031,
       "y": -26362.11133
     },
     {
       "id": "00081FDC",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 162342.7969,
       "y": 7219.898438
     },
     {
       "id": "0015F0AE",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 160380.2031,
       "y": 3836.957763
     },
     {
       "id": "000402CB",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 158130.7031,
       "y": 677.925415
     },
     {
       "id": "000402CC",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 157857.5781,
       "y": 363.862305
     },
     {
       "id": "0046DC8E",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 139796.3438,
       "y": 1127.092773
     },
     {
       "id": "00341B7F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 139913.5156,
       "y": 625.670654
     },
     {
       "id": "00341B7E",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 139642.9063,
       "y": 349.647034
     },
     {
       "id": "00257871",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 139424.2344,
       "y": 1062.027221
     },
     {
       "id": "00342C03",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 135445.1563,
       "y": 21543.08594
     },
     {
       "id": "003F8685",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 136474.9844,
       "y": 14868.4375
     },
     {
       "id": "00257872",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 138702.5781,
       "y": 1930.698486
     },
     {
       "id": "0046F59E",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 162301.75,
       "y": 45314.80469
     },
     {
       "id": "003A72E0",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 162672.9688,
       "y": 45730.97656
     },
     {
       "id": "003D1C83",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 161859.1875,
       "y": 45018.84766
     },
     {
       "id": "003D27EB",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 145919.6094,
       "y": 35882.09766
     },
     {
       "id": "003E349B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 142731.9844,
       "y": 48384.59766
     },
     {
       "id": "00006FFB",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 152241.6719,
       "y": 89534.03125
     },
     {
       "id": "003E6149",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 151849.6094,
       "y": 84842.89844
     },
     {
       "id": "00344F66",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 150860.8125,
       "y": 74606.13281
     },
     {
       "id": "0046F5A0",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 137419.9063,
       "y": 71121.27344
     },
     {
       "id": "003D2801",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 137540.0313,
       "y": 70267.55469
     },
     {
       "id": "003D2809",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 137285.4844,
       "y": 70784.02344
     },
     {
       "id": "003D2811",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 138317.7656,
       "y": 71935.73438
     },
     {
       "id": "00052BDA",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 133512.7969,
       "y": 71792.94531
     },
     {
       "id": "003C048B",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 162064.1563,
       "y": 107229.5703
     },
     {
       "id": "00520D09",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 132029.7969,
       "y": 103543.0234
     },
     {
       "id": "003B8D72",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 196303.9531,
       "y": 14446.68067
     },
     {
       "id": "003BB0A7",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 189829.7656,
       "y": 16399.55469
     },
     {
       "id": "003BA00D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 188685.75,
       "y": 15021.81543
     },
     {
       "id": "003D1748",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 183098.7031,
       "y": 11499.29004
     },
     {
       "id": "004EE685",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 182269.2969,
       "y": 2876.660645
     },
     {
       "id": "004EE68B",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 182059.3438,
       "y": 2847.269531
     },
     {
       "id": "002C5FB9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 179952.375,
       "y": 5768.341796
     },
     {
       "id": "00055F2C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 173676.1406,
       "y": 8308.516602
     },
     {
       "id": "002C5FC0",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 167705.4375,
       "y": 27812.23047
     },
     {
       "id": "00344031",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 177227.375,
       "y": 42222.80078
     },
     {
       "id": "003DA3D6",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 174044.5781,
       "y": 64385.06641
     },
     {
       "id": "0035188E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 189233.9375,
       "y": 93637.98438
     },
     {
       "id": "00353D4C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 181943.1875,
       "y": 82990.27344
     },
     {
       "id": "00351809",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 192410.5938,
       "y": 101126.6328
     },
     {
       "id": "0043CC38",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 198174.3281,
       "y": 15943.18359
     },
     {
       "id": "003D725B",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 197825.6406,
       "y": 15744.79102
     },
     {
       "id": "001F6A7C",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 202022.0469,
       "y": 68191.49219
     },
     {
       "id": "001F6A37",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 202664.6719,
       "y": 68567.89063
     },
     {
       "id": "000371C5",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 161725.5,
       "y": 153080.5469
     },
     {
       "id": "001FDAA1",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 161725.5,
       "y": 153080.5469
     },
     {
       "id": "00164CEE",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 145296.3125,
       "y": 137405.1094
     },
     {
       "id": "004940CE",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 140453.5469,
       "y": 152812.5781
     },
     {
       "id": "0050D618",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 140646.3125,
       "y": 152028.2656
     },
     {
       "id": "0032B783",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 136826.5,
       "y": 143586.4531
     },
     {
       "id": "0032C0A3",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 134854.9688,
       "y": 149516.9844
     },
     {
       "id": "003930F2",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 143889.2969,
       "y": 200615.625
     },
     {
       "id": "0039B015",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 194972.5938,
       "y": 201038.2656
     },
     {
       "id": "0035B7BF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 161479.0313,
       "y": -167198
     },
     {
       "id": "0059B275",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 142401.8438,
       "y": -178738.8281
     },
     {
       "id": "003459CA",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 156606.7344,
       "y": -141039.1875
     },
     {
       "id": "0039C5D8",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 153241.5781,
       "y": -145907.9063
     },
     {
       "id": "002B7B62",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 155489.1563,
       "y": -160943.2188
     },
     {
       "id": "00451201",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 150817.6563,
       "y": -150100.2969
     },
     {
       "id": "0050C03E",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 141863.75,
       "y": -163582.2344
     },
     {
       "id": "0050C044",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 165224.6719,
       "y": -178014.9375
     },
     {
       "id": "003DC562",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 191692.0625,
       "y": -157708.9219
     },
     {
       "id": "00492895",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 185889.1875,
       "y": -158974.0156
     },
     {
       "id": "00492897",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 186067.0781,
       "y": -158361.2188
     },
     {
       "id": "003419A9",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 179088.5156,
       "y": -140766.7969
     },
     {
       "id": "000937E4",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 179280.1719,
       "y": -141982.8594
     },
     {
       "id": "003419AA",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 173322.5,
       "y": -139208.8438
     },
     {
       "id": "004EAD65",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 173254.6406,
       "y": -145563.0469
     },
     {
       "id": "003419AB",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 173978.2656,
       "y": -146152.0938
     },
     {
       "id": "003419A8",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 174046.0938,
       "y": -145393.25
     },
     {
       "id": "0034E36E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 165155.3906,
       "y": -154833.7813
     },
     {
       "id": "0034E3A1",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 165215.8125,
       "y": -155446.7656
     },
     {
       "id": "0051A6EA",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 202494.7344,
       "y": -169343.6875
     },
     {
       "id": "0039B017",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 201735.9219,
       "y": -168989.5781
     },
     {
       "id": "0032080C",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 157144,
       "y": -109432
     },
     {
       "id": "00537720",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 143011.3125,
       "y": -101174.0469
     },
     {
       "id": "00537754",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 140588.4063,
       "y": -105076.4766
     },
     {
       "id": "003459A1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 147854.0938,
       "y": -90165.72656
     },
     {
       "id": "003459A4",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 149971.625,
       "y": -95719.98438
     },
     {
       "id": "001DACA6",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 160641.0156,
       "y": -39088.34375
     },
     {
       "id": "001DACA5",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 160444.9375,
       "y": -39207.08984
     },
     {
       "id": "0010A4A8",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 160756.9531,
       "y": -38873.78516
     },
     {
       "id": "0010A4AD",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 160048.5625,
       "y": -39116.65625
     },
     {
       "id": "00341B75",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 159315.9688,
       "y": -35561.47656
     },
     {
       "id": "00341B74",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 159014.7344,
       "y": -35491.21094
     },
     {
       "id": "002A2C93",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 159678.1406,
       "y": -37947.42188
     },
     {
       "id": "0036A124",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 141590.1719,
       "y": -59817.54688
     },
     {
       "id": "0052C6AF",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 137466.625,
       "y": -42747.93359
     },
     {
       "id": "0052C6D1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 137114.3438,
       "y": -42704.875
     },
     {
       "id": "003E7BF0",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 162312.2656,
       "y": -4078.38208
     },
     {
       "id": "003E7BF1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 161967.2188,
       "y": -4183.621093
     },
     {
       "id": "003E7BF2",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 160680.1563,
       "y": -5365.703125
     },
     {
       "id": "003E18E3",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": 163816,
       "y": -16376
     },
     {
       "id": "003CFD2F",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 163445.8438,
       "y": -16776.03125
     },
     {
       "id": "003E18E4",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 161130.4219,
       "y": -18160.47266
     },
     {
       "id": "0039C1C1",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 162257.8125,
       "y": -27547.90625
     },
     {
       "id": "0039C1C2",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 162868.8906,
       "y": -27136.27148
     },
     {
       "id": "0039C16C",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 162615.9844,
       "y": -27078.29492
     },
     {
       "id": "003E7C50",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 158388.8906,
       "y": -2755.828369
     },
     {
       "id": "003E5B90",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 158730.3281,
       "y": -1418.921264
     },
     {
       "id": "003E5B91",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 158304.5781,
       "y": -1762.658082
     },
     {
       "id": "0055CBA1",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 150542.75,
       "y": -32250.3457
     },
     {
       "id": "0052C726",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 146368.8438,
       "y": -6286.832031
     },
     {
       "id": "0052C769",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 146063.7813,
       "y": -6901.229493
     },
     {
       "id": "0052D17C",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 145366.9531,
       "y": -19601.10156
     },
     {
       "id": "00369B99",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 144411.2969,
       "y": -26481.7832
     },
     {
       "id": "0036475D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 132541.5938,
       "y": -9946.974609
     },
     {
       "id": "003DC529",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 192722.2344,
       "y": -128257.9141
     },
     {
       "id": "002D3124",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 183323.1875,
       "y": -99419.53906
     },
     {
       "id": "003D0AD9",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 190402.7031,
       "y": -94909.61719
     },
     {
       "id": "004511AA",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 184772.7188,
       "y": -97307.6875
     },
     {
       "id": "0034198D",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 181161.6875,
       "y": -89895.64063
     },
     {
       "id": "0034198C",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 183429.5781,
       "y": -91771.03125
     },
     {
       "id": "0051E514",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 181108.5,
       "y": -95091.24219
     },
     {
       "id": "0051E51F",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 183409.7344,
       "y": -95277.57813
     },
     {
       "id": "003DB02C",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 184139.7969,
       "y": -95554.14063
     },
     {
       "id": "002D23D3",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 183377.9063,
       "y": -94524.8125
     },
     {
       "id": "002D231A",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 178010.8594,
       "y": -89888.40625
     },
     {
       "id": "00337464",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 179849.9844,
       "y": -88787.10938
     },
     {
       "id": "002A9C7B",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 177584.6719,
       "y": -93306.1875
     },
     {
       "id": "0029AAC6",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 178136.1875,
       "y": -91873.73438
     },
     {
       "id": "0029AACA",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 180112.4531,
       "y": -91795.47656
     },
     {
       "id": "002D0843",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 179123.25,
       "y": -93615.69531
     },
     {
       "id": "0015CE8A",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 177150.3906,
       "y": -91563.47656
     },
     {
       "id": "003EC384",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 176299.1563,
       "y": -94331.6875
     },
     {
       "id": "002D23A7",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 180116.1406,
       "y": -96427.51563
     },
     {
       "id": "0019BED9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 179556.25,
       "y": -94341
     },
     {
       "id": "002D0842",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 179116.8594,
       "y": -97296.79688
     },
     {
       "id": "002D0853",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 177386.6094,
       "y": -97261.67969
     },
     {
       "id": "0029AAC9",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 174395.25,
       "y": -95531.17969
     },
     {
       "id": "003AB96B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 170436.6094,
       "y": -68809.89844
     },
     {
       "id": "0046DA88",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": 165688.9063,
       "y": -83775.04688
     },
     {
       "id": "0036BF11",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 165744,
       "y": -83990.90625
     },
     {
       "id": "0036BF12",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 165763.375,
       "y": -83272.125
     },
     {
       "id": "0036BF13",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 166157.0781,
       "y": -83171.16406
     },
     {
       "id": "0036BF14",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 166166.75,
       "y": -83357.07031
     },
     {
       "id": "003CFD45",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 190543.9219,
       "y": -38737.65234
     },
     {
       "id": "0051E4D8",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": 181666.5625,
       "y": -59209.375
     },
     {
       "id": "0051E4D9",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 181636.5156,
       "y": -60652.14063
     },
     {
       "id": "00341A58",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 181004.1719,
       "y": -60788.14844
     },
     {
       "id": "00341A59",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": 177813.8125,
       "y": -59943.64844
     },
     {
       "id": "0036C2A9",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 165232.7656,
       "y": -55369.90625
     },
     {
       "id": "00451219",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 189226.4688,
       "y": -13739.05566
     },
     {
       "id": "0050D382",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 189501.8594,
       "y": -23330.63867
     },
     {
       "id": "00398754",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 201647.7813,
       "y": -82203.72656
     },
     {
       "id": "003AC70A",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": 200285.2188,
       "y": -97974.02344
     },
     {
       "id": "005555F9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": 201622.7031,
       "y": -36473.80469
     },
     {
       "id": "005A0CE3",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": 204452.0938,
       "y": -61178.68359
     },
     {
       "id": "0018FC3C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -166781.2344,
       "y": 50115.68359
     },
     {
       "id": "0059810E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -168464.2188,
       "y": 87060.33594
     },
     {
       "id": "003419B1",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -173229.1719,
       "y": 78840.92969
     },
     {
       "id": "003419AF",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -172551.0469,
       "y": 75613.79688
     },
     {
       "id": "003419B0",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -175467.5625,
       "y": 73510.65625
     },
     {
       "id": "0050DE6F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -179497.9844,
       "y": 76745.38281
     },
     {
       "id": "0050DE70",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -179737.9063,
       "y": 76861.75
     },
     {
       "id": "003A6635",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -177137.6875,
       "y": 74632.26563
     },
     {
       "id": "0029CEFB",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -177589.9531,
       "y": 75056.92969
     },
     {
       "id": "00011F4F",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -150398.7188,
       "y": 22200.33594
     },
     {
       "id": "00599A0A",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -161268.1875,
       "y": 3981.243408
     },
     {
       "id": "0039AF3D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -149995.1719,
       "y": 50876.00781
     },
     {
       "id": "0039AF3E",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -149188.6719,
       "y": 52976.44531
     },
     {
       "id": "005AD31B",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -135165.2344,
       "y": 97281.14063
     },
     {
       "id": "0039AF2F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -154267.2969,
       "y": 78972.79688
     },
     {
       "id": "00342B00",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -154177.375,
       "y": 78136.46875
     },
     {
       "id": "00599A17",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -161846.625,
       "y": 97644.57813
     },
     {
       "id": "004E2598",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -147319.4219,
       "y": 111605.125
     },
     {
       "id": "0039AF1B",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -154077.3594,
       "y": 126020.1875
     },
     {
       "id": "003EEBCA",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -157782,
       "y": 115115.0703
     },
     {
       "id": "0007A3FD",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -155987.5469,
       "y": 101191.7188
     },
     {
       "id": "00428422",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -167279.8438,
       "y": 192926.0938
     },
     {
       "id": "003CE7AE",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -165373.0469,
       "y": 188828.6406
     },
     {
       "id": "00501B52",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -165860,
       "y": 189471.0313
     },
     {
       "id": "00501B6C",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -165860,
       "y": 189730.7188
     },
     {
       "id": "00501B38",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -165527.5625,
       "y": 187678.0625
     },
     {
       "id": "003D178B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -132531.5,
       "y": 132024.7813
     },
     {
       "id": "0039AF1A",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -132036.3906,
       "y": 131528.9063
     },
     {
       "id": "0052DBB7",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -143795.8438,
       "y": 147361.875
     },
     {
       "id": "002E68F2",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -147189.9531,
       "y": 140757.5
     },
     {
       "id": "0058973D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -148549.4063,
       "y": 143644.3125
     },
     {
       "id": "0039AF17",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -151455.7813,
       "y": 142584.2813
     },
     {
       "id": "00015BE2",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -155725.7344,
       "y": 143962.1719
     },
     {
       "id": "0044AA16",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -162858.3281,
       "y": 136845.2969
     },
     {
       "id": "00342B19",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -139212.375,
       "y": 174540.8594
     },
     {
       "id": "003D0894",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -140260.2188,
       "y": 173318.5313
     },
     {
       "id": "000337D1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -145510.6406,
       "y": 194808.8594
     },
     {
       "id": "003D08A4",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -149022.4688,
       "y": 166363.7344
     },
     {
       "id": "0002E4B7",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -150526.0938,
       "y": 164393.2344
     },
     {
       "id": "0039AF10",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -137921.4531,
       "y": 203216.4844
     },
     {
       "id": "003D1711",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -181011.8906,
       "y": -135423.9844
     },
     {
       "id": "003D1714",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -182165.2188,
       "y": -135522.9375
     },
     {
       "id": "0058D377",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -138664.1875,
       "y": -131795.8906
     },
     {
       "id": "003D1DD0",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -143006.7656,
       "y": -146652.9531
     },
     {
       "id": "003CB05A",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -143147.3906,
       "y": -145783.5313
     },
     {
       "id": "003AFC27",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -147032.625,
       "y": -139198.5313
     },
     {
       "id": "003AFC28",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -147160.5469,
       "y": -138721.4688
     },
     {
       "id": "003419B6",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -154500.9531,
       "y": -132855.8906
     },
     {
       "id": "003CB070",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -160999.6719,
       "y": -152069.3906
     },
     {
       "id": "00342AF1",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -171025.4844,
       "y": -113826.8516
     },
     {
       "id": "00342AF3",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -169775.8906,
       "y": -114165.7344
     },
     {
       "id": "00342AF2",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -170869.4844,
       "y": -114926.2656
     },
     {
       "id": "00342AE1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -171295.1875,
       "y": -114729.6406
     },
     {
       "id": "002EB795",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -184069.3125,
       "y": -126455.7188
     },
     {
       "id": "003CABE7",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -187836.8594,
       "y": -122410.9063
     },
     {
       "id": "0034323E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -185254.6875,
       "y": -122637.6719
     },
     {
       "id": "0034323F",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -185698.6875,
       "y": -123398.9766
     },
     {
       "id": "0034323D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -188741.8438,
       "y": -122772.5234
     },
     {
       "id": "00343240",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -188586.8281,
       "y": -120454.4297
     },
     {
       "id": "00387D0B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -163958.7031,
       "y": -72077.01563
     },
     {
       "id": "00218790",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -165775.2188,
       "y": -87624.25781
     },
     {
       "id": "0033344B",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -179280.1719,
       "y": -82815.83594
     },
     {
       "id": "0033344D",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -178713.0156,
       "y": -83193.26563
     },
     {
       "id": "0010A56D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -178539.0938,
       "y": -82462.5
     },
     {
       "id": "0010A56E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -178208.4063,
       "y": -82241.28125
     },
     {
       "id": "0034198F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -176568.6563,
       "y": -82934.67969
     },
     {
       "id": "003BFFC1",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -184201,
       "y": -76457.27344
     },
     {
       "id": "00599A33",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -188110.125,
       "y": -71868.30469
     },
     {
       "id": "0028A2A7",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -173530.7969,
       "y": -43086.98828
     },
     {
       "id": "003419A2",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -176133.4844,
       "y": -41129.29297
     },
     {
       "id": "00599A4C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -181398.5625,
       "y": -38680.875
     },
     {
       "id": "00357B3C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -171800.2656,
       "y": -6404.583496
     },
     {
       "id": "00357ADC",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -170368.125,
       "y": -5329.39209
     },
     {
       "id": "003419A3",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -173513.1094,
       "y": -14530.94922
     },
     {
       "id": "0013A1E9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -175834.2813,
       "y": -23193.30273
     },
     {
       "id": "003459FF",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -187347.3594,
       "y": -32422.41406
     },
     {
       "id": "00341A6E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -131727.4844,
       "y": -123398.2578
     },
     {
       "id": "00341A6D",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -131368.6563,
       "y": -124033.9453
     },
     {
       "id": "00341A6A",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -133269.9219,
       "y": -123946.5781
     },
     {
       "id": "00341A69",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -132933.2188,
       "y": -124011.5156
     },
     {
       "id": "00381D03",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -135629.3281,
       "y": -111758.2969
     },
     {
       "id": "00341A67",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -136154.4063,
       "y": -116945.4375
     },
     {
       "id": "00526135",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -135056.0938,
       "y": -95976.85156
     },
     {
       "id": "00526136",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -135085.9688,
       "y": -95813.26563
     },
     {
       "id": "0059B675",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -151186.0625,
       "y": -79695.48438
     },
     {
       "id": "003C6A00",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -160972.9531,
       "y": -81613.5
     },
     {
       "id": "003C69FF",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -160809.5781,
       "y": -82339.51563
     },
     {
       "id": "00599A64",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -136672.1563,
       "y": -55715.55078
     },
     {
       "id": "0046DF4D",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -151719.0938,
       "y": -32861.45703
     },
     {
       "id": "00356B6E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -157917.4375,
       "y": -40743.79297
     },
     {
       "id": "003201F7",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -151341.9063,
       "y": -32417.70117
     },
     {
       "id": "00356F52",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -153791.9531,
       "y": -29828.69141
     },
     {
       "id": "003DC95E",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -159460.8906,
       "y": -2190.98999
     },
     {
       "id": "0039AF47",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -162867.5938,
       "y": -1062.269409
     },
     {
       "id": "003DC95F",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -161463.75,
       "y": -6540.144531
     },
     {
       "id": "003DC960",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -161373,
       "y": -7089.488281
     },
     {
       "id": "003DC961",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -161567.3906,
       "y": -6838.252442
     },
     {
       "id": "004F9544",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -109442.6641,
       "y": 21249.01563
     },
     {
       "id": "003BFDCB",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -109599.9297,
       "y": 21009.38086
     },
     {
       "id": "003BFE40",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -108196.25,
       "y": 22725.08594
     },
     {
       "id": "003BFE87",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -106987.25,
       "y": 22984.33984
     },
     {
       "id": "003BF0D4",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -107053.7266,
       "y": 17479.26953
     },
     {
       "id": "003BFCF4",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -107053.7266,
       "y": 17479.26953
     },
     {
       "id": "003BFE31",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -107096.6094,
       "y": 20031.99023
     },
     {
       "id": "003BFE73",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -108690.6406,
       "y": 17997.58008
     },
     {
       "id": "004511B9",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -107371.1875,
       "y": 10014.43066
     },
     {
       "id": "002AC06B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -111176.9375,
       "y": 12896.52051
     },
     {
       "id": "0039AF38",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -99318.25,
       "y": 61031.58984
     },
     {
       "id": "0039AF3B",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -101821.75,
       "y": 58973.02734
     },
     {
       "id": "003CFD01",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -113462.8203,
       "y": 45637.98438
     },
     {
       "id": "0039AF34",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -103922.375,
       "y": 69647.53125
     },
     {
       "id": "00432FA4",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -109752.2734,
       "y": 84061.82813
     },
     {
       "id": "0039AF26",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": -108885.8438,
       "y": 84720.78125
     },
     {
       "id": "002F02EF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -111468.5078,
       "y": 89429.38281
     },
     {
       "id": "0055584D",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -116145.2969,
       "y": 86956.78906
     },
     {
       "id": "0054A56C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -117452.2266,
       "y": 86958.10938
     },
     {
       "id": "0039AF31",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -120844.6484,
       "y": 74464.75781
     },
     {
       "id": "0039AF32",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -125468.6641,
       "y": 65654.77344
     },
     {
       "id": "00553798",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -99408.6875,
       "y": 125829.4766
     },
     {
       "id": "0053C426",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -120296.1016,
       "y": 120888.7422
     },
     {
       "id": "0053C431",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -120107.75,
       "y": 120900.5469
     },
     {
       "id": "0053C462",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -119914.4688,
       "y": 120996.5469
     },
     {
       "id": "00390EBF",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -121243.75,
       "y": 120926.8438
     },
     {
       "id": "0033CD47",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -124507.6094,
       "y": 99352.80469
     },
     {
       "id": "00598135",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -130719.8359,
       "y": 120769.0391
     },
     {
       "id": "0039AF4F",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -77369.82031,
       "y": 21321.84375
     },
     {
       "id": "0059BEC9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -75026.57813,
       "y": 3944.87915
     },
     {
       "id": "0039AF45",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -78297.60156,
       "y": 12218.04785
     },
     {
       "id": "0038EFBE",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -65930.14844,
       "y": 55955.96875
     },
     {
       "id": "003CB29A",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -66529.875,
       "y": 47387.03125
     },
     {
       "id": "0059814C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -74695.36719,
       "y": 56587.71484
     },
     {
       "id": "003DC4DF",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -80906.4375,
       "y": 43845.25
     },
     {
       "id": "00131769",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -80843.67969,
       "y": 44281.1875
     },
     {
       "id": "00131778",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -81232.21094,
       "y": 44134.79297
     },
     {
       "id": "0039AF43",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -91613.71094,
       "y": 43863.87891
     },
     {
       "id": "0039AF3A",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -94838.85938,
       "y": 56891.07813
     },
     {
       "id": "00387B92",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -84842.3125,
       "y": 94273.8125
     },
     {
       "id": "003CA40D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -84351.04688,
       "y": 93577.42188
     },
     {
       "id": "0039AF2A",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -83345.78125,
       "y": 85140.17969
     },
     {
       "id": "0039AF36",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -87911.17969,
       "y": 67951.28906
     },
     {
       "id": "0039AF37",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -88154.60938,
       "y": 67411.65625
     },
     {
       "id": "0039AF2E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -93229.95313,
       "y": 78485.78125
     },
     {
       "id": "0039AF24",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -98137.46094,
       "y": 97283.13281
     },
     {
       "id": "003A59AF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -96069.47656,
       "y": 82939.42969
     },
     {
       "id": "0039AF1C",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -75672.36719,
       "y": 114242.3281
     },
     {
       "id": "00342B02",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -75417.01563,
       "y": 113136.6641
     },
     {
       "id": "0038F972",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -84229.5,
       "y": 99992.41406
     },
     {
       "id": "002E2FE4",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -95048.72656,
       "y": 130260.3203
     },
     {
       "id": "0037D1DB",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -33736,
       "y": 4832
     },
     {
       "id": "0034199D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -38573.40625,
       "y": 32345.07227
     },
     {
       "id": "0054F28D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -55861.39844,
       "y": 27029.06836
     },
     {
       "id": "0040D20D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -55148.59375,
       "y": 26665.19531
     },
     {
       "id": "0040D20E",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -55280.02734,
       "y": 26577.49414
     },
     {
       "id": "0040D20F",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -55417.17578,
       "y": 26912.38086
     },
     {
       "id": "0040D210",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -55065.37109,
       "y": 26933.70898
     },
     {
       "id": "00125E31",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -58721.96484,
       "y": 29403.14063
     },
     {
       "id": "0039AF44",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -58048.55078,
       "y": 30024.18164
     },
     {
       "id": "003E3F05",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -59640.66406,
       "y": 25195.91406
     },
     {
       "id": "003E3F49",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -60490.29688,
       "y": 24901.26172
     },
     {
       "id": "003E3F4A",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -60446.5,
       "y": 24766.91797
     },
     {
       "id": "004511F3",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -60612.18359,
       "y": 12213.11231
     },
     {
       "id": "0045120E",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -62709.88672,
       "y": 27026.63281
     },
     {
       "id": "00191B64",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -35158.0625,
       "y": 37899.49609
     },
     {
       "id": "0043E794",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -44436,
       "y": 51928
     },
     {
       "id": "00346E03",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -44232.69531,
       "y": 50634.30078
     },
     {
       "id": "00151953",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -43476.24219,
       "y": 49970.57031
     },
     {
       "id": "00151954",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -44210.80078,
       "y": 49939.23047
     },
     {
       "id": "0030B198",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -41962.21875,
       "y": 50947.81641
     },
     {
       "id": "0030B199",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -42747.42969,
       "y": 50922.06641
     },
     {
       "id": "0030B19A",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -41725.96094,
       "y": 50926.50391
     },
     {
       "id": "0030B19B",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -41201.96875,
       "y": 50948.03906
     },
     {
       "id": "0030B1A1",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -44255.50781,
       "y": 49398.77734
     },
     {
       "id": "0030E770",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -43159.07813,
       "y": 50487.32813
     },
     {
       "id": "0034199E",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -42122.67578,
       "y": 37602.40234
     },
     {
       "id": "0034199F",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -41942.43359,
       "y": 36174.92188
     },
     {
       "id": "00304BBA",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -45082.35938,
       "y": 50180.37891
     },
     {
       "id": "002B7AD7",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -58268.06641,
       "y": 62229.58203
     },
     {
       "id": "0010990D",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -56888.83594,
       "y": 90126.77344
     },
     {
       "id": "00186636",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -53270.17578,
       "y": 87476.97656
     },
     {
       "id": "0051A6DA",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -58501.27734,
       "y": 91917.07031
     },
     {
       "id": "0039AF1E",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -55856.94141,
       "y": 111655.4844
     },
     {
       "id": "0039AF1F",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -55540.04297,
       "y": 111344.6172
     },
     {
       "id": "00598164",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -61886.98828,
       "y": 99394.79688
     },
     {
       "id": "0051E4F5",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -1315.498535,
       "y": 19782.63477
     },
     {
       "id": "0051E4F6",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -1669.546143,
       "y": 18565.25977
     },
     {
       "id": "00324C2C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -20347.14844,
       "y": 30948.50391
     },
     {
       "id": "003294D0",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -21529.08789,
       "y": 31659.36523
     },
     {
       "id": "0032E9CD",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -28018.9707,
       "y": 18257.71875
     },
     {
       "id": "003419A1",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -31005.35547,
       "y": 27559.05078
     },
     {
       "id": "0050F95B",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -30580.86328,
       "y": 9124.176758
     },
     {
       "id": "00344068",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -32620.81055,
       "y": 8300.079102
     },
     {
       "id": "00344067",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -32063.95703,
       "y": 4218.558105
     },
     {
       "id": "003ADD7D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -9476.663086,
       "y": 50751.05078
     },
     {
       "id": "0059BA4B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -23128.45703,
       "y": 59604.15625
     },
     {
       "id": "003EC37B",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": -23137.43164,
       "y": 49961.65625
     },
     {
       "id": "0034403F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -21028.07227,
       "y": 47675.13281
     },
     {
       "id": "00093BE0",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -21867.79688,
       "y": 48463.24219
     },
     {
       "id": "004E5DDC",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -4568.693359,
       "y": 91510.39844
     },
     {
       "id": "002C5382",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -5590.028809,
       "y": 89601.86719
     },
     {
       "id": "002E6B8E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -5600.69043,
       "y": 89286.75781
     },
     {
       "id": "002C9BF8",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -8339.84668,
       "y": 95342.55469
     },
     {
       "id": "004E5DAD",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -10823.70215,
       "y": 94570.48438
     },
     {
       "id": "004E5E01",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -9761.021484,
       "y": 92016.53125
     },
     {
       "id": "004E33BB",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -9310.195312,
       "y": 90134.96875
     },
     {
       "id": "00530A40",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -10619.04395,
       "y": 90069.25781
     },
     {
       "id": "0059798E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -9233.560547,
       "y": 82343.79688
     },
     {
       "id": "004E5C1B",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -14000.6416,
       "y": 97035.46875
     },
     {
       "id": "004E5D02",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -13964.32031,
       "y": 96266.4375
     },
     {
       "id": "003F226F",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -15648.47852,
       "y": 69261.74219
     },
     {
       "id": "00535D09",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -21569.89063,
       "y": 81813.86719
     },
     {
       "id": "00535D0A",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -20943.26758,
       "y": 81842.23438
     },
     {
       "id": "00345A1C",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -30387.32031,
       "y": 90972.59375
     },
     {
       "id": "00345A1D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -28821.29102,
       "y": 92707.375
     },
     {
       "id": "003253A9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -29620.92773,
       "y": 90954.82031
     },
     {
       "id": "003B1889",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -29654.18945,
       "y": 89874.66406
     },
     {
       "id": "00325306",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -30236.72852,
       "y": 89956.76563
     },
     {
       "id": "004511C1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -982.909302,
       "y": 101208.2344
     },
     {
       "id": "0055758B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -10928.71973,
       "y": 103216.2891
     },
     {
       "id": "0033B0D9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -8612.358398,
       "y": 105952.0625
     },
     {
       "id": "002BF8B7",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -10538.2041,
       "y": 103370.7578
     },
     {
       "id": "0034239F",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -14175.10352,
       "y": 101311.3047
     },
     {
       "id": "002BF624",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -13409.05078,
       "y": 100977.0859
     },
     {
       "id": "002BF627",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -13913.36621,
       "y": 101180.6641
     },
     {
       "id": "003423A5",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -19427.41992,
       "y": 104339.3984
     },
     {
       "id": "00351921",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -21224.38281,
       "y": 106143.6484
     },
     {
       "id": "00351923",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -21156.09766,
       "y": 103125.4766
     },
     {
       "id": "0050D646",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -28440.40625,
       "y": 128881.7422
     },
     {
       "id": "0036ACE9",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -27892.125,
       "y": 130004.2188
     },
     {
       "id": "00178005",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -27339.86719,
       "y": 129781.5391
     },
     {
       "id": "00176669",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -27921.7207,
       "y": 129910.7031
     },
     {
       "id": "0017668B",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -27982.89063,
       "y": 129832.2031
     },
     {
       "id": "00178085",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -28160.82422,
       "y": 128784.5313
     },
     {
       "id": "00178087",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -28719.99023,
       "y": 128978.9453
     },
     {
       "id": "004511DA",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -29116.6543,
       "y": 101479.0547
     },
     {
       "id": "003D0889",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -103369.4219,
       "y": 152395.3281
     },
     {
       "id": "0039AF16",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -103560.6563,
       "y": 153099.8594
     },
     {
       "id": "003520C5",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -122332.6016,
       "y": 178058.1094
     },
     {
       "id": "0037AB3B",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -121668.7266,
       "y": 171701.6406
     },
     {
       "id": "00177DD0",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -121687.1719,
       "y": 171513.2031
     },
     {
       "id": "0046F599",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": -124088.5547,
       "y": 178266
     },
     {
       "id": "004344BD",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -124896.5234,
       "y": 177086.8125
     },
     {
       "id": "003D0CBB",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -123924.1016,
       "y": 177822.4688
     },
     {
       "id": "00588112",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -112343.8438,
       "y": 199379.2188
     },
     {
       "id": "003B40A8",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -68553.1875,
       "y": 158060.4375
     },
     {
       "id": "002E1B3C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -70089.48438,
       "y": 148406.4844
     },
     {
       "id": "0035D1BF",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -79762.42188,
       "y": 148868.8906
     },
     {
       "id": "003EC381",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": -92519.57813,
       "y": 160758.2031
     },
     {
       "id": "003D0890",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -91545.84375,
       "y": 161504.7031
     },
     {
       "id": "003D0891",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -91820.39844,
       "y": 160825.8125
     },
     {
       "id": "002FCFF0",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -91863,
       "y": 160596.3594
     },
     {
       "id": "0034404B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -67098.78906,
       "y": 184147.2344
     },
     {
       "id": "0039F0F5",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -69408.5,
       "y": 172328.4375
     },
     {
       "id": "0039AF14",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -77244.41406,
       "y": 183347.4375
     },
     {
       "id": "0039AF13",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -75475.00781,
       "y": 173803.25
     },
     {
       "id": "0039AF11",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -90890.53906,
       "y": 196449.4531
     },
     {
       "id": "0038A288",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -92408.33594,
       "y": 183373.2188
     },
     {
       "id": "0038A27B",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -93358.54688,
       "y": 182829.1563
     },
     {
       "id": "0039ED29",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -92854.52344,
       "y": 205636.0938
     },
     {
       "id": "0039ED4F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -92307.59375,
       "y": 204846.6875
     },
     {
       "id": "0039ED59",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -92028,
       "y": 205326.9063
     },
     {
       "id": "0039AF12",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -91013.22656,
       "y": 197039.3438
     },
     {
       "id": "003C5305",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -43868.41016,
       "y": 151460.2656
     },
     {
       "id": "002E1B55",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -47090.00391,
       "y": 157161.2656
     },
     {
       "id": "00319529",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -45785.42578,
       "y": 150503.5781
     },
     {
       "id": "003B600B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -47689.27734,
       "y": 144169.8125
     },
     {
       "id": "002E1B6A",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -51868.42969,
       "y": 147000.2969
     },
     {
       "id": "0007E033",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -53096.78906,
       "y": 146555.25
     },
     {
       "id": "003C52F6",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -49198.31641,
       "y": 141904.2344
     },
     {
       "id": "00319556",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -56157.02734,
       "y": 146829.2031
     },
     {
       "id": "0031955A",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -56859.25391,
       "y": 144667.3438
     },
     {
       "id": "004511D2",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -59852.32031,
       "y": 142366.7344
     },
     {
       "id": "003C69AC",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -60275.43359,
       "y": 142460.5781
     },
     {
       "id": "003CFD0F",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -907.591858,
       "y": 139544.4063
     },
     {
       "id": "003CEFFA",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -907.591858,
       "y": 139544.4063
     },
     {
       "id": "003DF884",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -347.454224,
       "y": 140954.5781
     },
     {
       "id": "003CFD10",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -876.208191,
       "y": 135531.0938
     },
     {
       "id": "003CEFFB",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -876.208191,
       "y": 135531.0938
     },
     {
       "id": "003DF883",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -1053.508911,
       "y": 134805.5156
     },
     {
       "id": "0039F0EF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -5155.70752,
       "y": 161882.1563
     },
     {
       "id": "0059A9F2",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -4593.917968,
       "y": 152549.3594
     },
     {
       "id": "0059AA2D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -17637.9707,
       "y": 140039.8594
     },
     {
       "id": "002E1B10",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -29848.4707,
       "y": 160601.8281
     },
     {
       "id": "002E1B2D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -29699.01953,
       "y": 149969.25
     },
     {
       "id": "002E1B02",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -73.676438,
       "y": 183902.0156
     },
     {
       "id": "003D0B26",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -10289.70313,
       "y": 179272.7188
     },
     {
       "id": "003D0B16",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -16209.04492,
       "y": 187870.125
     },
     {
       "id": "003D0B10",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -16925.64648,
       "y": 189988.2344
     },
     {
       "id": "003D0B14",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -18561.79297,
       "y": 190486.2031
     },
     {
       "id": "00378ED3",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -18231.33789,
       "y": 168234.0156
     },
     {
       "id": "00346B63",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -21565.37891,
       "y": 167358.2344
     },
     {
       "id": "00346B64",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -22112.38281,
       "y": 165325.875
     },
     {
       "id": "0019FD51",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -22176.76563,
       "y": 167768.0469
     },
     {
       "id": "00346B61",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -25712.49219,
       "y": 168045.1563
     },
     {
       "id": "00342C70",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -29505.27539,
       "y": 188247.6563
     },
     {
       "id": "002E1B18",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -28821.10156,
       "y": 170361.4063
     },
     {
       "id": "00536A0B",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -7214.802246,
       "y": 199314.8281
     },
     {
       "id": "00536924",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -7299.978516,
       "y": 198297.1563
     },
     {
       "id": "0059A363",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -106697.7734,
       "y": -171337.1875
     },
     {
       "id": "003914EE",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -116814.7344,
       "y": -169039.2031
     },
     {
       "id": "003CB077",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -102204.5547,
       "y": -151152.9844
     },
     {
       "id": "005910B3",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -106225.3359,
       "y": -138705.625
     },
     {
       "id": "005910C9",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -105804.1719,
       "y": -142213.0625
     },
     {
       "id": "005910B1",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -106989.3828,
       "y": -140594.7813
     },
     {
       "id": "003D08B1",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -114083.0703,
       "y": -131584.3281
     },
     {
       "id": "00000966",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -125757.5859,
       "y": -149786.4063
     },
     {
       "id": "00000967",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -125757.5859,
       "y": -149559.8438
     },
     {
       "id": "00000968",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -125838.2813,
       "y": -148460.8281
     },
     {
       "id": "00000969",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -125837.6641,
       "y": -149060.4375
     },
     {
       "id": "0000096F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -125042.0469,
       "y": -149191.0469
     },
     {
       "id": "003DE3FE",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -73202.82031,
       "y": -151539.8125
     },
     {
       "id": "003E022C",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -71728.40625,
       "y": -152031.0625
     },
     {
       "id": "0032D32F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -72926.78125,
       "y": -152108.1875
     },
     {
       "id": "003D6CC1",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -56911.13281,
       "y": -147825.7813
     },
     {
       "id": "00438A64",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -57419.14063,
       "y": -148406.4688
     },
     {
       "id": "00326111",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -57839.69141,
       "y": -148681.7813
     },
     {
       "id": "003434D6",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -57821.00391,
       "y": -148500.9688
     },
     {
       "id": "003434DC",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -57902.19922,
       "y": -148240.3438
     },
     {
       "id": "0039CA41",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -2592.776611,
       "y": -178585.2656
     },
     {
       "id": "0046D965",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -14109.57129,
       "y": -166874.7188
     },
     {
       "id": "003BB298",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -23432.17188,
       "y": -169234.9063
     },
     {
       "id": "003531F1",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -23587.03516,
       "y": -168353.7969
     },
     {
       "id": "00359B1D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -14385.51172,
       "y": -155795.3906
     },
     {
       "id": "003E18EA",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -99092.24219,
       "y": -115691.7734
     },
     {
       "id": "0039F267",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -112208.1641,
       "y": -110837.5547
     },
     {
       "id": "0039F283",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -112390.4922,
       "y": -111266.8438
     },
     {
       "id": "003AC822",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -112250.7422,
       "y": -130481.4609
     },
     {
       "id": "0024043F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -121000.6094,
       "y": -103772.6797
     },
     {
       "id": "003CB06A",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -122791.4844,
       "y": -112084.9766
     },
     {
       "id": "0052B223",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -122708.8438,
       "y": -123044.4531
     },
     {
       "id": "0038C939",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -129876.0547,
       "y": -122814.4922
     },
     {
       "id": "001B2A93",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -105073.0156,
       "y": -69316.04688
     },
     {
       "id": "001B2A8D",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -105346.8828,
       "y": -69484.11719
     },
     {
       "id": "0044D501",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -105526.9375,
       "y": -71125.78125
     },
     {
       "id": "00311DE6",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -105343.7266,
       "y": -79154.05469
     },
     {
       "id": "002FF0EB",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -107622.6953,
       "y": -79601.13281
     },
     {
       "id": "005256AB",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -113766.9688,
       "y": -75663.46875
     },
     {
       "id": "003BD6BB",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -118701.1016,
       "y": -83228.625
     },
     {
       "id": "0059A384",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -121700.7891,
       "y": -67042.35938
     },
     {
       "id": "003E83C7",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -126291.125,
       "y": -82189.39063
     },
     {
       "id": "002E2480",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -101176.125,
       "y": -61341.05078
     },
     {
       "id": "0043C464",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -103599.1328,
       "y": -46968.26953
     },
     {
       "id": "001ED244",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -106488,
       "y": -47520
     },
     {
       "id": "00452080",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -103269.4609,
       "y": -63594.57422
     },
     {
       "id": "0035CA8B",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -107504.8125,
       "y": -47853.67969
     },
     {
       "id": "002699EF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -108256.3438,
       "y": -46729.78125
     },
     {
       "id": "004511CE",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -114537.3047,
       "y": -34326.23438
     },
     {
       "id": "0034403E",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -118246.5781,
       "y": -48103.89453
     },
     {
       "id": "0034403D",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -118090.9063,
       "y": -47475.92969
     },
     {
       "id": "00395139",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -123582.4844,
       "y": -51030.97266
     },
     {
       "id": "002DF67D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -128992.3281,
       "y": -48750.38672
     },
     {
       "id": "002DF67C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -127677,
       "y": -48520.98438
     },
     {
       "id": "003DF08D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -126993.0156,
       "y": -61783.47656
     },
     {
       "id": "003CB30D",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -108473.6953,
       "y": -31403.41406
     },
     {
       "id": "003CB339",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -110807.5625,
       "y": -24421.91016
     },
     {
       "id": "003CB398",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -114349.4688,
       "y": -24364.83789
     },
     {
       "id": "003EB251",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -123513.3828,
       "y": -10807.66016
     },
     {
       "id": "003EB207",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -123823.5,
       "y": -10610.11523
     },
     {
       "id": "0039AF4E",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -125143.0547,
       "y": -15722.47266
     },
     {
       "id": "0039AF48",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -130595.5391,
       "y": -1574.395264
     },
     {
       "id": "0039AF49",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -129174.0469,
       "y": -1307.551514
     },
     {
       "id": "0039AF4A",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -128294.7969,
       "y": -1364.634644
     },
     {
       "id": "004511BA",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -129802.1484,
       "y": -32163.37695
     },
     {
       "id": "0034296C",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -67002.94531,
       "y": -99930.64844
     },
     {
       "id": "003CB061",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -73415.35938,
       "y": -126371.9609
     },
     {
       "id": "003E8061",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -74116.51563,
       "y": -126111.2109
     },
     {
       "id": "003419FE",
-      "type": "PAWorkbenchMarker",
+      "type": "WorkbenchPowerArmorMarker",
       "x": -81941.3125,
       "y": -99730.85938
     },
     {
       "id": "003419FD",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -82028.83594,
       "y": -99567.67188
     },
     {
       "id": "005520A7",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -98004.42188,
       "y": -115749.8594
     },
     {
       "id": "0054FC95",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -97209.71875,
       "y": -115009.7344
     },
     {
       "id": "0046F59D",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": -80064.05469,
       "y": -84563.26563
     },
     {
       "id": "003D08B7",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -80398.46875,
       "y": -84814.52344
     },
     {
       "id": "003496B4",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -80655.17969,
       "y": -84345.55469
     },
     {
       "id": "0048F8EE",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -83884.375,
       "y": -68273.9375
     },
     {
       "id": "003F23FB",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -83532.02344,
       "y": -93129.01563
     },
     {
       "id": "00312064",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -83726.69531,
       "y": -93413.76563
     },
     {
       "id": "0059A3A1",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -86451.125,
       "y": -76824.375
     },
     {
       "id": "002D10C7",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -70119.64063,
       "y": -40482.57031
     },
     {
       "id": "0043CF28",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -72600.91406,
       "y": -45723.82422
     },
     {
       "id": "0029761E",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -72220.67969,
       "y": -46870.44141
     },
     {
       "id": "002D10E5",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -70941.92969,
       "y": -47384.01563
     },
     {
       "id": "0052A6D4",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -88945.98438,
       "y": -53939.90234
     },
     {
       "id": "0036BF01",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -68397.96094,
       "y": -11837.5957
     },
     {
       "id": "0036BF02",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -68277.03125,
       "y": -12293.49414
     },
     {
       "id": "002EAFF8",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -73210.54688,
       "y": -24356.06836
     },
     {
       "id": "00349E1A",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -47400.37109,
       "y": -113731.3203
     },
     {
       "id": "00574109",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -46128.77344,
       "y": -120450.9141
     },
     {
       "id": "0050BFA7",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -46349.52344,
       "y": -119195.8438
     },
     {
       "id": "003432E6",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -46725.10547,
       "y": -119730.3828
     },
     {
       "id": "00343FFF",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -59021.92578,
       "y": -107658.3359
     },
     {
       "id": "00343FFB",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -61097.80078,
       "y": -110563.8672
     },
     {
       "id": "00343FF9",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -59319.75391,
       "y": -110728.9453
     },
     {
       "id": "004511D6",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -62046.83984,
       "y": -117583.4453
     },
     {
       "id": "0050D3BD",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -64727.29688,
       "y": -120367.1719
     },
     {
       "id": "003CB053",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -38016.625,
       "y": -41987.79297
     },
     {
       "id": "003CB054",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -37936.46094,
       "y": -41777.81641
     },
     {
       "id": "00307AAD",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -38319.42969,
       "y": -41012.78906
     },
     {
       "id": "0059A3B1",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -44131.02734,
       "y": -44399.38281
     },
     {
       "id": "0018E31F",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -46616.35547,
       "y": -51729.43359
     },
     {
       "id": "00316B5C",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -46475.03125,
       "y": -52231.79688
     },
     {
       "id": "00341B73",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -47866.79688,
       "y": -57070.11719
     },
     {
       "id": "00316AE7",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -48495.35156,
       "y": -55548.67969
     },
     {
       "id": "00316AE4",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -48103.72266,
       "y": -55297.03516
     },
     {
       "id": "003459A7",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -53189.39063,
       "y": -39145.97266
     },
     {
       "id": "003169F7",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -50760.35938,
       "y": -46657.17188
     },
     {
       "id": "00341B72",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -51845.19922,
       "y": -49225.68359
     },
     {
       "id": "003EC37C",
-      "type": "BrewingWorkbenchMarker",
+      "type": "WorkbenchBrewingMarker",
       "x": -57748.78906,
       "y": -38332.09375
     },
     {
       "id": "003459A6",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -58378.8125,
       "y": -38017.40625
     },
     {
       "id": "002A6291",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -58810.92969,
       "y": -39452.81641
     },
     {
       "id": "0055ABB4",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -59091.11328,
       "y": -56989.95703
     },
     {
       "id": "0055AC0B",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -60441.16406,
       "y": -55394.71484
     },
     {
       "id": "0055ABC0",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -57905.87109,
       "y": -57508.66406
     },
     {
       "id": "00452FB8",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -43879.13672,
       "y": -15083.24707
     },
     {
       "id": "0059F0A8",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -42306.47266,
       "y": -18279.2168
     },
     {
       "id": "00452FB6",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -44372.74219,
       "y": -20650.97852
     },
     {
       "id": "0059EE74",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -45344.47266,
       "y": -21932.45117
     },
     {
       "id": "00452FB4",
-      "type": "ArmorWorkbenchMarker",
+      "type": "WorkbenchArmorMarker",
       "x": -46437.07813,
       "y": -20816.16211
     },
     {
       "id": "00343FF5",
-      "type": "TinkersWorkbenchMarker",
+      "type": "WorkbenchTinkersMarker",
       "x": -58992.45313,
       "y": -24551.48242
     },
     {
       "id": "00343FF2",
-      "type": "ChemistryWorkbenchMarker",
+      "type": "WorkbenchChemistryMarker",
       "x": -60654.46094,
       "y": -28459.98438
     },
     {
       "id": "0051C047",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -30610.27149,
       "y": -107680.3672
     },
     {
       "id": "0050D3BB",
-      "type": "WeaponWorkbenchMarker",
+      "type": "WorkbenchWeaponMarker",
       "x": -28133.05664,
       "y": -83945.38281
     },
     {
       "id": "00371249",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -2466.496582,
       "y": -8648.0625
     },
     {
       "id": "0052C94C",
-      "type": "CookWorkbenchMarker",
+      "type": "WorkbenchCookMarker",
       "x": -2573.742676,
       "y": -25331.58008
     }
