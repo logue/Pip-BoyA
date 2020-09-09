@@ -3,13 +3,21 @@
     <v-card-title class="explain_title">
       {{ $t('legend') }}
       <v-spacer />
+      <v-checkbox
+        v-model="checked"
+        label="Select / Deselect All"
+        class="sm"
+        color="gray"
+        :indeterminate="indeterminate"
+        @click="setSelection"
+      />
       <v-btn icon @click="toggleShrink">
         <v-icon v-if="!isShrinked">mdi-window-minimize</v-icon>
         <v-icon v-else>mdi-window-maximize</v-icon>
       </v-btn>
     </v-card-title>
     <v-card-text v-if="!isShrinked" class="explain_body">
-      <ul v-if="Object.keys(explains)[0] === '0'" class="explain_list">
+      <ul v-if="items[0] === '0'" class="explain_list">
         <li
           v-for="(item, index) in explains"
           :key="index"
@@ -28,7 +36,9 @@
             v-model="selected"
             :color="set.markerColor[getColorIndex(index)]"
             :value="key"
+            dense
             hide-details
+            class="sm"
             @change="toggleMarker"
           >
             <template #label>
@@ -61,19 +71,25 @@ export default {
       set: colorset,
       // 凡例
       explains: {},
+      // 項目
+      items: [],
       // 色設定
       colors: [],
       // 最大化／最小化
       isShrinked: false,
       // チェック済みの項目の配列
       selected: [],
+      // チェックボックスが選択されているかどうかの判定
+      checked: true,
+
+      indeterminate: false,
     };
   },
   methods: {
     update(explains) {
       this.explains = explains;
       // マーカーはすべて選択状態にする
-      this.selected = Object.keys(explains);
+      this.selected = this.items = Object.keys(explains);
     },
     // 最小化／最大化
     toggleShrink() {
@@ -82,15 +98,32 @@ export default {
     // マーカー表示／非表示
     toggleMarker() {
       // console.log(this.selected);
+      this.checked = this.items.length === this.selected.length;
+      this.indeterminate =
+        this.selected.length !== 0 &&
+        this.items.length !== this.selected.length;
       this.$emit('changed', this.selected);
     },
     getColorIndex(index) {
-      const length = Object.keys(this.explains).length;
-      if (this.set.markerColor.length / length > 2) {
+      const length = this.items.length;
+      if ((this.set.markerColor.length - 3) / length > 2) {
         // マーカーの種類が少ない場合、色がバラけるようにする。
-        index = (index * (this.set.markerColor.length / length)) | 0;
+        // ※予備色のbrown、blue-gray、grayは含めない
+        index = (index * ((this.set.markerColor.length - 3) / length)) | 0;
       }
       return index;
+    },
+    setSelection(action) {
+      if (this.checked) {
+        // Select all CheckBox
+        this.items.forEach((key) => {
+          this.selected.push(key);
+        }, this);
+      } else {
+        // Unselect all ClearBox selected
+        this.selected = [];
+      }
+      this.$emit('changed', this.selected);
     },
   },
 };
@@ -124,6 +157,20 @@ export default {
     padding: 0;
   }
 
+  .sm {
+    &.v-input--selection-controls {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .v-input--selection-controls__input {
+      margin: 0 !important;
+    }
+    .v-label,
+    .v-icon {
+      font-size: 0.75rem !important;
+    }
+  }
+
   &_list {
     padding-left: 0.5rem !important;
     list-style-type: none;
@@ -132,27 +179,6 @@ export default {
       font-size: 0.75rem;
       &_label {
         text-shadow: outline(rgb(0, 0, 0), 0px, 1px);
-      }
-
-      .v-input--selection-controls {
-        margin: 0;
-        padding: 0;
-        display: inline-block;
-      }
-      .v-input--selection-controls__input {
-        height: auto;
-        width: auto;
-      }
-      .v-input--selection-controls__ripple {
-        height: 1.5rem;
-        width: 1.5rem;
-        left: -0.75rem;
-        top: -0.5rem;
-      }
-
-      .v-label,
-      .v-icon {
-        font-size: 0.75rem !important;
       }
 
       &_cyan {
@@ -216,7 +242,7 @@ export default {
 
 .theme--dark {
   .explain {
-    background-color: rgba(map-get($grey, 'darken-3'), 0.7);
+    background-color: rgba(map-get($grey, 'darken-1'), 0.7);
   }
 }
 </style>

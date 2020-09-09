@@ -1,6 +1,6 @@
 <template>
   <vl-layer-group :opacity="1" :z-index="3" class="category-layer">
-    <vl-layer-tile ref="categoryTileLayer">
+    <vl-layer-tile v-if="features.length === 0" ref="categoryTileLayer">
       <!-- tile based marker mode -->
       <vl-source-xyz
         :url="'/img/markerTile/' + $route.params.category + '/{z}/{x}/{y}.png'"
@@ -11,7 +11,7 @@
       />
     </vl-layer-tile>
     <!-- location based marker mode -->
-    <vl-layer-vector ref="markerLayer">
+    <vl-layer-vector v-else ref="markerLayer">
       <vl-source-vector :features="features" />
     </vl-layer-vector>
   </vl-layer-group>
@@ -139,9 +139,11 @@ export default {
       // Get color index from type
       let index = types.indexOf(type);
 
-      if (this.set.markerColor.length / types.length > 2) {
+      if ((this.set.markerColor.length - 3) / types.length > 2) {
         // If there are not enough markers, the colors should be varied.
-        index = (index * (this.set.markerColor.length / types.length)) | 0;
+        // * Ignore Brown and Blue-gray and Gray
+        index =
+          (index * ((this.set.markerColor.length - 3) / types.length)) | 0;
       }
 
       // Apply marker color
