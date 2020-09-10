@@ -7,13 +7,19 @@
         v-if="items[0] !== '0'"
         v-model="checked"
         color="gray"
+        :title="$t('toggleMarkerSelect')"
         :indeterminate="indeterminate"
         @click="setSelection"
       />
-      <v-btn icon @click="toggleShrink">
-        <v-icon v-if="!isShrinked">mdi-window-minimize</v-icon>
-        <v-icon v-else>mdi-window-maximize</v-icon>
-      </v-btn>
+      <v-tooltip top>
+        <template #activator="{on, attrs}">
+          <v-btn icon v-bind="attrs" @click="toggleShrink" v-on="on">
+            <v-icon v-if="!isShrinked">mdi-window-minimize</v-icon>
+            <v-icon v-else>mdi-window-maximize</v-icon>
+          </v-btn>
+        </template>
+        <span>{{ $t('toggleShrink') }}</span>
+      </v-tooltip>
     </v-card-title>
     <v-card-text v-if="!isShrinked" class="explain_body">
       <ul v-if="items[0] === '0'" class="explain_list">
@@ -48,7 +54,7 @@
                 :color="set.markerColor[getColorIndex(index)]"
                 :class="`explain_list_item_label ${
                   set.markerColor[getColorIndex(index)]
-                }--text ${$vuetify.dark ? 'text--lighten-3' : 'text-darken-1'}`"
+                }--text text--lighten-2`"
               >
                 {{ $t(`markers.${key}`) }}
               </v-badge>

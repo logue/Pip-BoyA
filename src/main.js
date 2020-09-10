@@ -2,7 +2,7 @@
  * Fallout76 Pip-boy Application (Pip-BoyA／Pip坊や)
  *
  * @author    Logue <logue@hotmail.co.jp>
- * @version   0.2.0
+ * @version   0.2.4
  * @copyright 2020 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
  * @license   MIT
  */
@@ -39,6 +39,8 @@ new Vue({
       displayLocation: Boolean(this.$cookies.get('display-location')) || false,
       // loading overlay
       loading: true,
+      // WebGL mode
+      webgl: Boolean(this.$cookies.get('webgl')) || false,
     };
   },
   router,

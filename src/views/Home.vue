@@ -8,7 +8,7 @@
       }`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
-      :renderer="webgl ? 'webgl' : 'canvas'"
+      :renderer="$root.$data.webgl ? 'webgl' : 'canvas'"
       @mounted="onMapMounted"
       @pointermove="onMapPointerMove"
       @movestart="onMoveStart"
@@ -29,7 +29,6 @@
       <location-layer ref="locationLayer" />
       <!-- Category map layer -->
       <category-layer
-        v-if="$route.name === 'Category'"
         ref="categoryLayer"
         :category="$route.params.category"
         @ready="onCategoryLayerReady"

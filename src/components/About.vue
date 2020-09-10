@@ -5,14 +5,35 @@
       <v-card-text>
         <section class="my-2">
           <h2>{{ sprintf(this.$t('about'), this.$t('title')) }}</h2>
-          <nl2br tag="p" :text="$t('description')" />
-          <v-btn
-            href="https://github.com/logue/Pip-BoyA"
-            @click.prevent="openNewWin"
-          >
-            <v-icon left>mdi-github</v-icon>
-            Visit Project site
-          </v-btn>
+          <v-banner>
+            <nl2br tag="p" :text="$t('description')" />
+            <template #actions>
+              <v-btn
+                href="https://github.com/logue/Pip-BoyA"
+                @click.prevent="openNewWin"
+              >
+                <v-icon left>mdi-github</v-icon>
+                Visit Project site
+              </v-btn>
+              <v-btn
+                color="yellow"
+                href="https://www.nexusmods.com/fallout76/mods/697"
+                @click.prevent="openNewWin"
+              >
+                <v-icon left>mdi-open-in-new</v-icon>
+                Nexus Mod
+              </v-btn>
+              <v-btn
+                v-if="isElectron"
+                color="amber"
+                href="https://fo76.logue.be/"
+                @click.prevent="openNewWin"
+              >
+                <v-icon left>mdi-open-in-new</v-icon>
+                Web Version
+              </v-btn>
+            </template>
+          </v-banner>
         </section>
         <section class="my-2">
           <h2>Author</h2>
@@ -141,7 +162,11 @@ export default {
   data() {
     return {
       dialog: false,
+      isElectron: false,
     };
+  },
+  mounted() {
+    this.isElectron = process.env.IS_ELECTRON;
   },
   methods: {
     sprintf(...arr) {
@@ -155,7 +180,7 @@ export default {
     },
     openNewWin(e) {
       const href = e.currentTarget.href;
-      if (process.env.IS_ELECTRON) {
+      if (this.isElectron) {
         this.$electron.shell.openExternal(href);
       } else {
         window.open(href);

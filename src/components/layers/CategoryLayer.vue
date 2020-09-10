@@ -47,8 +47,14 @@ export default {
   watch: {
     async $route(to) {
       this.$emit('init');
-      this.features = await this.loadFeatures(to.params.category);
       this.category = to.params.category;
+      if (!this.category) {
+        document.title = this.$t('title');
+        return;
+      }
+      this.features = await this.loadFeatures();
+      document.title =
+        this.$t(`categories.${this.category}`) + ' - ' + this.$t('title');
       this.redraw();
     },
     isVisible() {
@@ -57,23 +63,27 @@ export default {
   },
   async mounted() {
     this.$emit('init');
-    this.features = await this.loadFeatures(this.$route.params.category);
     this.category = this.$route.params.category;
-  },
-  created() {
+    if (!this.category) {
+      document.title = this.$t('title');
+      return;
+    }
+    this.features = await this.loadFeatures();
+    document.title =
+      this.$t(`categories.${this.category}`) + ' - ' + this.$t('title');
     this.redraw();
   },
   methods: {
     // マーカーを追加
-    async loadFeatures(category) {
+    async loadFeatures() {
       this.features = [];
       const locations = await this.axios
-        .get(`/data/${category}.json`)
+        .get(`/data/${this.category}.json`)
         .catch((err) => {
           console.error(err);
         });
       if (!locations.data) {
-        return;
+        return [];
       }
 
       if (locations.data.markers) {
@@ -124,10 +134,9 @@ export default {
           // リフレッシュ
           source.refresh();
         }
-      } else {
-        // console.log(this.$refs.markerLayer);
-        this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
       }
+      // console.log(this.$refs.markerLayer);
+      this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
       this.$root.$data.loading = false;
       this.$emit('ready', this.types);
     },

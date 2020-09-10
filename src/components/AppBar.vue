@@ -1,7 +1,8 @@
 <template>
   <div>
+    <!-- Normal mode -->
     <div class="d-none d-sm-flex d-sm-none d-md-flex">
-      <about ref="about" />
+      <!-- About -->
       <v-tooltip bottom>
         <template #activator="{on, attrs}">
           <v-btn icon v-bind="attrs" v-on="on" @click="$refs.about.open()">
@@ -10,7 +11,7 @@
         </template>
         <span>About</span>
       </v-tooltip>
-      <get-link ref="getLink" />
+      <!-- Get Link -->
       <v-tooltip bottom>
         <template #activator="{on, attrs}">
           <v-btn icon v-bind="attrs" v-on="on" @click="$refs.getLink.open()">
@@ -19,6 +20,7 @@
         </template>
         <span>{{ $t('getUri') }}</span>
       </v-tooltip>
+      <!-- Toggle Location Marker -->
       <v-tooltip bottom>
         <template #activator="{on, attrs}">
           <v-btn
@@ -27,12 +29,30 @@
             v-on="on"
             @click="toggleLocation($root.$data.displayLocation)"
           >
-            <v-icon v-if="$root.$data.displayLocation">mdi-map-marker</v-icon>
-            <v-icon v-else>mdi-map-marker-off</v-icon>
+            <v-icon v-if="$root.$data.displayLocation">
+              mdi-map-marker-outline
+            </v-icon>
+            <v-icon v-else>mdi-map-marker-off-outline</v-icon>
           </v-btn>
         </template>
         <span>{{ $t('toggleLocation') }}</span>
       </v-tooltip>
+      <!-- Toggle WebGL -->
+      <v-tooltip bottom>
+        <template #activator="{on, attrs}">
+          <v-btn
+            icon
+            v-bind="attrs"
+            v-on="on"
+            @click="toggleWebGl($root.$data.webgl)"
+          >
+            <v-icon v-if="$root.$data.webgl">mdi-cube-outline</v-icon>
+            <v-icon v-else>mdi-cube-off-outline</v-icon>
+          </v-btn>
+        </template>
+        <span>{{ $t('toggleWebGl') }}</span>
+      </v-tooltip>
+      <!-- Toggle Map -->
       <v-tooltip bottom>
         <template #activator="{on, attrs}">
           <v-btn
@@ -47,6 +67,7 @@
         </template>
         <span>{{ $t('toggleMap') }}</span>
       </v-tooltip>
+      <!-- Toggle Dark mode -->
       <v-tooltip bottom>
         <template #activator="{on, attrs}">
           <v-btn
@@ -60,6 +81,7 @@
         </template>
         <span>{{ $t('toggleDarkMode') }}</span>
       </v-tooltip>
+      <!-- Locale Menu -->
       <v-menu offset-y>
         <template #activator="{on, attrs}">
           <v-btn icon v-bind="attrs" v-on="on">
@@ -77,6 +99,7 @@
         </v-list>
       </v-menu>
     </div>
+    <!-- Small window mode -->
     <div class="d-flex d-sm-none">
       <v-menu offset-y>
         <template #activator="{on, attrs}">
@@ -85,6 +108,7 @@
           </v-btn>
         </template>
         <v-list dense>
+          <!-- About -->
           <v-list-item @click="$refs.about.open()">
             <v-list-item-icon>
               <v-icon>mdi-information-outline</v-icon>
@@ -92,6 +116,7 @@
             <v-list-item-title>About</v-list-item-title>
           </v-list-item>
           <v-divider />
+          <!-- Get Link -->
           <v-list-item @click="$refs.getLink.open()">
             <v-list-item-icon>
               <v-icon>mdi-link</v-icon>
@@ -100,11 +125,22 @@
           </v-list-item>
           <v-list-item @click="toggleLocation($root.$data.displayLocation)">
             <v-list-item-icon>
-              <v-icon v-if="$root.$data.displayLocation">mdi-map-marker</v-icon>
-              <v-icon v-else>mdi-map-marker-off</v-icon>
+              <v-icon v-if="$root.$data.displayLocation">
+                mdi-map-marker-outline
+              </v-icon>
+              <v-icon v-else>map-marker-off-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>{{ $t('toggleLocation') }}</v-list-item-title>
           </v-list-item>
+          <!-- Toggle WebGL -->
+          <v-list-item @click="toggleWebGl($root.$data.webgl)">
+            <v-list-item-icon>
+              <v-icon v-if="$root.$data.webgl">mdi-cube-outline</v-icon>
+              <v-icon v-else>mdi-cube-off-outline</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>{{ $t('toggleWebGl') }}</v-list-item-title>
+          </v-list-item>
+          <!-- Toggle Map -->
           <v-list-item @click="toggleMapMode($root.$data.isMilitary)">
             <v-list-item-icon>
               <v-icon v-if="!$root.$data.isMilitary">mdi-map</v-icon>
@@ -112,6 +148,7 @@
             </v-list-item-icon>
             <v-list-item-title>{{ $t('toggleMap') }}</v-list-item-title>
           </v-list-item>
+          <!-- Toggle Dark mode -->
           <v-list-item @click="toggleThemeMode($vuetify.theme.dark)">
             <v-list-item-icon>
               <v-icon>mdi-invert-colors</v-icon>
@@ -119,6 +156,7 @@
             <v-list-item-title>{{ $t('toggleDarkMode') }}</v-list-item-title>
           </v-list-item>
           <v-divider />
+          <!-- Locale selection -->
           <v-subheader prepend-icon="mdi-translate" inset>
             {{ $t('locale') }}
           </v-subheader>
@@ -134,6 +172,9 @@
         </v-list>
       </v-menu>
     </div>
+    <!-- dialogs -->
+    <about ref="about" />
+    <get-link ref="getLink" />
   </div>
 </template>
 
@@ -166,6 +207,10 @@ export default {
     toggleLocation(value) {
       this.$root.$data.displayLocation = !value;
       this.$cookies.set('display-location', this.$root.$data.displayLocation);
+    },
+    toggleWebGl(value) {
+      this.$root.$data.webgl = !value;
+      this.$cookies.set('webgl', this.$root.$data.webgl);
     },
     changeLocale(locale) {
       this.$i18n.locale = locale;
