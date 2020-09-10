@@ -25,8 +25,13 @@ Vue.config.productionTip = false;
 
 new Vue({
   data() {
+    const title = this.$t('title');
     // Global variables
     return {
+      // App title
+      title: process.env.IS_ELECTRON
+        ? title.replace(/Web/g, 'Electron')
+        : title,
       // map mode
       isMilitary: Boolean(this.$cookies.get('military-map')) || false,
       // map location

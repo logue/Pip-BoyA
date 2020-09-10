@@ -128,7 +128,7 @@
               <v-icon v-if="$root.$data.displayLocation">
                 mdi-map-marker-outline
               </v-icon>
-              <v-icon v-else>map-marker-off-outline</v-icon>
+              <v-icon v-else>mdi-map-marker-off-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>{{ $t('toggleLocation') }}</v-list-item-title>
           </v-list-item>

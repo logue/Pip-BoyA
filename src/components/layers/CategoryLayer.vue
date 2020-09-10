@@ -45,19 +45,22 @@ export default {
     };
   },
   watch: {
+    // ページ遷移したとき
     async $route(to) {
       this.$emit('init');
       this.category = to.params.category;
       if (!this.category) {
-        document.title = this.$t('title');
+        document.title = this.$root.$data.title;
         return;
       }
       this.features = await this.loadFeatures();
+      // タイトルを書き換える
       document.title =
-        this.$t(`categories.${this.category}`) + ' - ' + this.$t('title');
+        this.$t(`categories.${this.category}`) + ' - ' + this.$root.$data.title;
       this.redraw();
     },
     isVisible() {
+      // 表示マーカーの設定が変化したとき
       this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
     },
   },
@@ -65,12 +68,12 @@ export default {
     this.$emit('init');
     this.category = this.$route.params.category;
     if (!this.category) {
-      document.title = this.$t('title');
+      document.title = this.$root.$data.title;
       return;
     }
     this.features = await this.loadFeatures();
     document.title =
-      this.$t(`categories.${this.category}`) + ' - ' + this.$t('title');
+      this.$t(`categories.${this.category}`) + ' - ' + this.$root.$data.title;
     this.redraw();
   },
   methods: {

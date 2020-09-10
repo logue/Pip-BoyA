@@ -1,43 +1,40 @@
 <template>
   <v-dialog v-model="dialog" max-width="800" light @keydown.esc="close">
     <v-card>
-      <v-card-title>About</v-card-title>
+      <v-card-title>{{ sprintf($t('about'), $root.$data.title) }}</v-card-title>
       <v-card-text>
-        <section class="my-2">
-          <h2>{{ sprintf(this.$t('about'), this.$t('title')) }}</h2>
-          <v-banner>
-            <nl2br tag="p" :text="$t('description')" />
-            <template #actions>
-              <v-btn
-                href="https://github.com/logue/Pip-BoyA"
-                @click.prevent="openNewWin"
-              >
-                <v-icon left>mdi-github</v-icon>
-                Visit Project site
-              </v-btn>
-              <v-btn
-                color="yellow"
-                href="https://www.nexusmods.com/fallout76/mods/697"
-                @click.prevent="openNewWin"
-              >
-                <v-icon left>mdi-open-in-new</v-icon>
-                Nexus Mod
-              </v-btn>
-              <v-btn
-                v-if="isElectron"
-                color="amber"
-                href="https://fo76.logue.be/"
-                @click.prevent="openNewWin"
-              >
-                <v-icon left>mdi-open-in-new</v-icon>
-                Web Version
-              </v-btn>
-            </template>
-          </v-banner>
-        </section>
-        <section class="my-2">
-          <h2>Author</h2>
-          <v-card width="480">
+        <v-banner>
+          <nl2br tag="p" :text="$t('description')" />
+          <template #actions>
+            <v-btn
+              href="https://github.com/logue/Pip-BoyA"
+              @click.prevent="openNewWin"
+            >
+              <v-icon left>mdi-github</v-icon>
+              Visit Project site
+            </v-btn>
+            <v-btn
+              color="yellow"
+              href="https://www.nexusmods.com/fallout76/mods/697"
+              @click.prevent="openNewWin"
+            >
+              <v-icon left>mdi-open-in-new</v-icon>
+              Nexus Mod
+            </v-btn>
+            <v-btn
+              v-if="isElectron"
+              color="amber"
+              href="https://fo76.logue.be/"
+              @click.prevent="openNewWin"
+            >
+              <v-icon left>mdi-open-in-new</v-icon>
+              Web Version
+            </v-btn>
+          </template>
+        </v-banner>
+        <section class="my-3">
+          <h2 class="mb-3">Author</h2>
+          <v-card width="480" class="mx-3 my3">
             <div class="d-flex">
               <v-avatar class="ml-0 mt-0" size="128" tile>
                 <v-gavatar email="logue@hotmail.co.jp" :size="128" />
@@ -45,7 +42,7 @@
               <div>
                 <v-card-title>Logue</v-card-title>
                 <v-card-subtitle>Developer</v-card-subtitle>
-                <v-card-actions>
+                <v-card-actions class="pb-0">
                   <v-btn
                     icon
                     color="blue-grey"
@@ -99,8 +96,8 @@
             </div>
           </v-card>
         </section>
-        <section class="my-2">
-          <h2>Acknowledgement</h2>
+        <section class="my-3">
+          <h2 class="mb-3">Acknowledgement</h2>
           <ul>
             <li>
               <a
@@ -122,9 +119,9 @@
             </li>
           </ul>
         </section>
-        <section class="my-2">
-          <h2>Legal Notice</h2>
-          <p>
+        <section class="my-3">
+          <h2 class="mb-3">Legal Notice</h2>
+          <p class="mx-3 my-3">
             Fallout® 76 Wastelanders © 2020 Bethesda Softworks LLC, a ZeniMax
             Media company. Bethesda, Bethesda Softworks, Bethesda Game Studios,
             ZeniMax, Pip-Boy, Vault-Tec and related logos are registered

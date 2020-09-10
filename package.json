@@ -1,7 +1,7 @@
 {
   "name": "pip-boya",
   "description": "Fallout76 Pip-boy Application",
-  "version": "0.2.4-beta",
+  "version": "0.2.5-beta",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -58,10 +58,10 @@
   },
   "devDependencies": {
     "@mdi/font": "^5.5.55",
-    "@vue/cli-plugin-babel": "~4.5.4",
-    "@vue/cli-plugin-eslint": "~4.5.4",
-    "@vue/cli-plugin-router": "~4.5.4",
-    "@vue/cli-service": "~4.5.4",
+    "@vue/cli-plugin-babel": "^4.5.6",
+    "@vue/cli-plugin-eslint": "^4.5.6",
+    "@vue/cli-plugin-router": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "deepmerge": "^4.2.2",
