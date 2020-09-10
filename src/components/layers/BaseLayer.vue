@@ -1,6 +1,6 @@
 <template>
   <!-- Base map layers -->
-  <vl-layer-group ref="baseLayers" :opacity="opacity" :z-index="0">
+  <vl-layer-group ref="baseLayer" :opacity="opacity" :z-index="0">
     <vl-layer-tile>
       <vl-source-xyz
         ref="baseLayerSource"
@@ -40,20 +40,22 @@ export default {
     this.redraw();
   },
   methods: {
-    redraw() {
+    async redraw() {
       // 軍用マップ切り替え
       this.url = `/img/tiles/${
         this.$root.$data.isMilitary ? 'military' : 'base'
       }/{z}/{x}/{y}.webp`;
       // マップのリロード
-      this.$refs.baseLayerSource.$createPromise.then(() => {
-        const source = this.$refs.baseLayerSource.$source;
+      const sourceLayer = await this.$refs.baseLayerSource;
+
+      if (sourceLayer) {
+        const source = sourceLayer.$source;
         // キャッシュを削除
         source.tileCache.expireCache({});
         source.tileCache.clear();
         // リフレッシュ
         source.refresh();
-      });
+      }
     },
   },
 };
