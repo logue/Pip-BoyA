@@ -1,17 +1,15 @@
 <template>
   <!-- Base map layers -->
-  <vl-layer-group ref="baseLayer" :opacity="opacity" :z-index="0">
-    <vl-layer-tile>
-      <vl-source-xyz
-        ref="baseLayerSource"
-        :url="url"
-        :projection="config.projection"
-        :min-zoom="config.minZoom"
-        :max-zoom="config.maxZoom"
-        :tile-pixe-ratio="config.tilePixelRatio"
-      />
-    </vl-layer-tile>
-  </vl-layer-group>
+  <vl-layer-tile ref="baseLayer" :opacity="opacity" :z-index="-1">
+    <vl-source-xyz
+      ref="baseLayerSource"
+      :url="url"
+      :projection="config.projection"
+      :min-zoom="config.minZoom"
+      :max-zoom="config.maxZoom"
+      :tile-pixe-ratio="config.tilePixelRatio"
+    />
+  </vl-layer-tile>
 </template>
 
 <script>
@@ -48,7 +46,6 @@ export default {
           source.tileCache.clear();
           // リフレッシュ
           source.refresh();
-          sourceLayer.setZIndex(0);
         }
       }
     });

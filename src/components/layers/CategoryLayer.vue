@@ -1,5 +1,5 @@
 <template>
-  <vl-layer-group ref="categoryLayer">
+  <vl-layer-group ref="categoryLayer" :z-index="10">
     <vl-layer-tile v-if="features.length === 0" ref="categoryTileLayer">
       <!-- tile based marker mode -->
       <vl-source-xyz
@@ -52,6 +52,7 @@ export default {
       this.category = to.params.category;
       if (!this.category) {
         document.title = this.$root.$data.title;
+        this.features = [];
         return;
       }
       this.features = await this.loadFeatures();
@@ -140,14 +141,15 @@ export default {
         }
       }
       // console.log(this.$refs.markerLayer);
-      this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
+      this.$refs.markerLayer.setStyle((features, resolution) =>
+        this.setStyle(features, resolution)
+      );
       // Force layer to front
-      this.$refs.categoryLayer.$layer.state_.zIndex = 1;
       this.$root.$data.loading = false;
       this.$emit('ready', this.types);
     },
     // Apply Marker style.
-    setStyle(feature) {
+    setStyle(feature, resolution) {
       // Get Marker type
       const type = feature.get('type');
       // Get all type list.
@@ -168,6 +170,9 @@ export default {
       const label = feature.values_.label
         ? feature.values_.label.toString()
         : '';
+      // Map zoom
+      const scale =
+        this.$parent.getView().getResolutionForZoom(1.5) / resolution;
       // apply
       if (label && label.length <= 2) {
         style.getText().setText(label);
@@ -183,6 +188,8 @@ export default {
       } else {
         style.getImage().setOpacity(1);
       }
+
+      style.getImage().setScale(scale < 1 ? scale : 1);
       return style;
     },
   },

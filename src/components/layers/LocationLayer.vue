@@ -2,6 +2,7 @@
   <!-- Location Marker markers -->
   <vl-layer-vector
     ref="locationLayer"
+    :z-index="1"
     :visible="$store.state.config.displayLocation"
   >
     <vl-source-vector
@@ -101,11 +102,9 @@ export default {
     }
     // console.log(features);
     this.features = features.map(Object.freeze);
-
-    this.redraw();
   },
   mounted() {
-    this.$refs.locationLayer.$layer.state_.zIndex = 2;
+    this.redraw();
   },
   methods: {
     redraw() {

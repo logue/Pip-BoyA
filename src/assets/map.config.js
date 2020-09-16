@@ -9,14 +9,13 @@ import Projection from 'ol/proj/Projection';
 import TileGrid from 'ol/tilegrid/TileGrid';
 
 // The value output by MapTiler is used as is.
-/***************************************************/
 const mapExtent = [0.0, -4096.0, 4096.0, 0.0];
 const mapMinZoom = 1;
 const mapMaxZoom = 5;
 const mapMaxResolution = 0.5;
 const tileExtent = [0.0, -4096.0, 4096.0, 0.0];
-/***************************************************/
 
+// Do not change below lines.
 const mapResolutions = [];
 for (let z = mapMinZoom; z <= mapMaxZoom; z++) {
   mapResolutions.push(Math.pow(2, mapMaxZoom - z) * mapMaxResolution);

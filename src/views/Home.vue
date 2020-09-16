@@ -123,6 +123,7 @@ export default {
     zoom() {
       // ズームの値によってロケーションアイコンのサイズを変える
       this.$refs.locationLayer.redraw();
+      this.$refs.categoryLayer.redraw();
     },
   },
   mounted() {
