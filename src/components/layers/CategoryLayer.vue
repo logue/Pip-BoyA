@@ -1,8 +1,9 @@
 <template>
-  <vl-layer-group :z-index="2">
+  <vl-layer-group ref="categoryLayer">
     <vl-layer-tile v-if="features.length === 0" ref="categoryTileLayer">
       <!-- tile based marker mode -->
       <vl-source-xyz
+        v-if="features.length === 0"
         :url="'/img/markerTile/' + $route.params.category + '/{z}/{x}/{y}.png'"
         :projection="config.projection"
         :min-zoom="config.minZoom"
@@ -140,6 +141,8 @@ export default {
       }
       // console.log(this.$refs.markerLayer);
       this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
+      // Force layer to front
+      this.$refs.categoryLayer.$layer.state_.zIndex = 1;
       this.$root.$data.loading = false;
       this.$emit('ready', this.types);
     },

@@ -18,7 +18,7 @@
         v-if="primaryDrawer.type !== 'permanent'"
         @click.stop="primaryDrawer.model = !primaryDrawer.model"
       />
-      <v-toolbar-title>{{ title }}</v-toolbar-title>
+      <v-toolbar-title>{{ $root.$data.title }}</v-toolbar-title>
       <v-spacer />
       <appbar />
     </v-app-bar>
@@ -61,13 +61,19 @@ export default {
       },
     };
   },
+  computed: {
+    '$vuetify.theme.dark'() {
+      return this.$store.state.config.themeDark;
+    },
+    '$i18n.locale'() {
+      return this.$store.state.config.locale;
+    },
+  },
   mounted() {
-    const title = this.$t('title');
-    this.title = process.env.IS_ELECTRON
-      ? title.replace(/Web/g, 'Electron')
-      : title;
-    this.$i18n.locale = this.$cookies.get('locale') || 'en';
-    document.title = this.title;
+    document.title = this.$root.$data.title;
+    // 設定を反映
+    this.$vuetify.theme.dark = this.$store.state.config.themeDark;
+    this.$i18n.locale = this.$store.state.config.locale;
   },
 };
 </script>

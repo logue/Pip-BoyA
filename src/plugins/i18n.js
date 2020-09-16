@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
-
 Vue.use(VueI18n);
 
 // 言語ファイル読み込み
@@ -22,12 +21,7 @@ const loadLocaleMessages = () => {
 };
 
 export default new VueI18n({
-  // デフォルトのロケールは、ブラウザの優先言語
-  locale:
-    (window.navigator.languages && window.navigator.languages[0]) ||
-    window.navigator.language ||
-    window.navigator.userLanguage ||
-    window.navigator.browserLanguage,
+  locale: 'en',
   fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
   messages: loadLocaleMessages(),
 });

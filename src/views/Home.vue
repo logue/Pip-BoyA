@@ -8,7 +8,7 @@
       }`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
-      :renderer="$root.$data.webgl ? 'webgl' : 'canvas'"
+      :renderer="webgl ? 'webgl' : 'canvas'"
       @mounted="onMapMounted"
       @pointermove="onMapPointerMove"
       @movestart="onMoveStart"
@@ -121,24 +121,24 @@ export default {
   },
   watch: {
     zoom() {
-      if (this.$root.$data.displayLocation) {
-        // ズームの値によってロケーションアイコンのサイズを変える
-        this.$refs.locationLayer.redraw();
-      }
+      // ズームの値によってロケーションアイコンのサイズを変える
+      this.$refs.locationLayer.redraw();
     },
   },
   mounted() {
+    this.$store.subscribe((mutation, state) => {
+      switch (mutation.type) {
+        case 'config/toggleWebGl':
+          this.webgl = state.config.webgl;
+          break;
+      }
+    });
     // Load location from QueryString.
     this.center = [
       (this.$route.query.x ?? config.center[0]) | 0,
       (this.$route.query.y ?? config.center[1]) | 0,
     ];
     this.zoom = (this.$route.query.z ?? 1) | 0;
-
-    if (this.$root.$data.displayLocation) {
-      // ズームの値によってロケーションアイコンのサイズを変える
-      this.$refs.locationLayer.redraw();
-    }
   },
   methods: {
     // マップが読み込まれたとき
@@ -171,11 +171,11 @@ export default {
     onMoveEnd(e) {
       this.isMoving = false;
       // グローバル変数の座標を更新
-      this.$root.$data.location = {
+      this.$store.commit('location/setLocation', {
         x: this.center[0] | 0,
         y: this.center[1] | 0,
         z: this.zoom | 0,
-      };
+      });
     },
     // ポインタ移動時
     onMapPointerMove(arr) {

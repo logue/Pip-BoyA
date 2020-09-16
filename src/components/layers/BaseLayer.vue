@@ -31,32 +31,27 @@ export default {
       url: '/img/tiles/base/{z}/{x}/{y}.webp',
     };
   },
-  watch: {
-    '$root.$data.isMilitary'() {
-      this.redraw();
-    },
-  },
-  created() {
-    this.redraw();
-  },
-  methods: {
-    async redraw() {
-      // 軍用マップ切り替え
-      this.url = `/img/tiles/${
-        this.$root.$data.isMilitary ? 'military' : 'base'
-      }/{z}/{x}/{y}.webp`;
-      // マップのリロード
-      const sourceLayer = await this.$refs.baseLayerSource;
+  mounted() {
+    this.$store.subscribe((mutation, state) => {
+      if (mutation.type === 'config/toggleMap') {
+        // 軍用マップ切り替え
+        this.url = `/img/tiles/${
+          state.config.isMilitary ? 'military' : 'base'
+        }/{z}/{x}/{y}.webp`;
 
-      if (sourceLayer) {
-        const source = sourceLayer.$source;
-        // キャッシュを削除
-        source.tileCache.expireCache({});
-        source.tileCache.clear();
-        // リフレッシュ
-        source.refresh();
+        const sourceLayer = this.$refs.baseLayerSource;
+
+        if (sourceLayer) {
+          const source = sourceLayer.$source;
+          // キャッシュを削除
+          source.tileCache.expireCache({});
+          source.tileCache.clear();
+          // リフレッシュ
+          source.refresh();
+          sourceLayer.setZIndex(0);
+        }
       }
-    },
+    });
   },
 };
 </script>

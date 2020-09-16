@@ -52,12 +52,18 @@ export default {
       uri: null,
     };
   },
+  mounted() {
+    this.$store.subscribe((mutation, state) => {
+      if (mutation.type === 'location/setLocation') {
+        // URLを更新
+        this.uri = getUri(this.$store.state.location, this.$router);
+      }
+    });
+  },
   methods: {
     // ウィンドウを開いたとき
     open() {
       this.dialog = true;
-      // URLを更新
-      this.uri = getUri(this.$root.$data.location, this.$router);
     },
     // ウィンドウを閉じる
     close() {

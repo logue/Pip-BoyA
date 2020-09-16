@@ -27,9 +27,9 @@
             icon
             v-bind="attrs"
             v-on="on"
-            @click="toggleLocation($root.$data.displayLocation)"
+            @click="$store.commit('config/toggleLocationMarker')"
           >
-            <v-icon v-if="$root.$data.displayLocation">
+            <v-icon v-if="$store.state.config.displayLocation">
               mdi-map-marker-outline
             </v-icon>
             <v-icon v-else>mdi-map-marker-off-outline</v-icon>
@@ -44,9 +44,9 @@
             icon
             v-bind="attrs"
             v-on="on"
-            @click="toggleWebGl($root.$data.webgl)"
+            @click="$store.commit('config/toggleWebGl')"
           >
-            <v-icon v-if="$root.$data.webgl">mdi-cube-outline</v-icon>
+            <v-icon v-if="$store.state.config.webgl">mdi-cube-outline</v-icon>
             <v-icon v-else>mdi-cube-off-outline</v-icon>
           </v-btn>
         </template>
@@ -59,10 +59,12 @@
             icon
             v-bind="attrs"
             v-on="on"
-            @click="toggleMapMode($root.$data.isMilitary)"
+            @click="$store.commit('config/toggleMap')"
           >
-            <v-icon v-if="!$root.$data.isMilitary">mdi-map</v-icon>
-            <v-icon v-else>mdi-map-outline</v-icon>
+            <v-icon v-if="$store.state.config.isMilitary">
+              mdi-map-outline
+            </v-icon>
+            <v-icon v-else>mdi-map-legend</v-icon>
           </v-btn>
         </template>
         <span>{{ $t('toggleMap') }}</span>
@@ -74,7 +76,7 @@
             icon
             v-bind="attrs"
             v-on="on"
-            @click="toggleThemeMode($vuetify.theme.dark)"
+            @click="$store.commit('config/toggleTheme')"
           >
             <v-icon>mdi-invert-colors</v-icon>
           </v-btn>
@@ -92,6 +94,7 @@
           <v-list-item
             v-for="locale in locales"
             :key="locale"
+            :color="$i18n.locale == locale ? 'primary' : ''"
             @click="changeLocale(locale)"
           >
             <v-list-item-title>{{ $t(`locales.${locale}`) }}</v-list-item-title>
@@ -123,9 +126,9 @@
             </v-list-item-icon>
             <v-list-item-title>{{ $t('getUri') }}</v-list-item-title>
           </v-list-item>
-          <v-list-item @click="toggleLocation($root.$data.displayLocation)">
+          <v-list-item @click="$store.commit('config/toggleLocationMarker')">
             <v-list-item-icon>
-              <v-icon v-if="$root.$data.displayLocation">
+              <v-icon v-if="$store.state.config.displayLocation">
                 mdi-map-marker-outline
               </v-icon>
               <v-icon v-else>mdi-map-marker-off-outline</v-icon>
@@ -133,23 +136,23 @@
             <v-list-item-title>{{ $t('toggleLocation') }}</v-list-item-title>
           </v-list-item>
           <!-- Toggle WebGL -->
-          <v-list-item @click="toggleWebGl($root.$data.webgl)">
+          <v-list-item @click="$store.commit('config/toggleWebGl')">
             <v-list-item-icon>
-              <v-icon v-if="$root.$data.webgl">mdi-cube-outline</v-icon>
+              <v-icon v-if="$store.state.config.webgl">mdi-cube-outline</v-icon>
               <v-icon v-else>mdi-cube-off-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>{{ $t('toggleWebGl') }}</v-list-item-title>
           </v-list-item>
           <!-- Toggle Map -->
-          <v-list-item @click="toggleMapMode($root.$data.isMilitary)">
+          <v-list-item @click="$store.commit('config/toggleMap')">
             <v-list-item-icon>
-              <v-icon v-if="!$root.$data.isMilitary">mdi-map</v-icon>
+              <v-icon v-if="!$store.state.config.isMilitary">mdi-map</v-icon>
               <v-icon v-else>mdi-map-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>{{ $t('toggleMap') }}</v-list-item-title>
           </v-list-item>
           <!-- Toggle Dark mode -->
-          <v-list-item @click="toggleThemeMode($vuetify.theme.dark)">
+          <v-list-item @click="$store.commit('config/toggleTheme')">
             <v-list-item-icon>
               <v-icon>mdi-invert-colors</v-icon>
             </v-list-item-icon>
@@ -195,26 +198,22 @@ export default {
       locales: Object.keys(this.$i18n.messages),
     };
   },
+  mounted() {
+    this.$store.subscribe((mutation, state) => {
+      switch (mutation.type) {
+        case 'config/toggleTheme':
+          this.$vuetify.theme.dark = state.config.themeDark;
+          break;
+        case 'config/setLocale':
+          this.$i18n.locale = state.config.locale;
+          break;
+      }
+    });
+  },
   methods: {
-    toggleThemeMode(value) {
-      this.$vuetify.theme.dark = !value;
-      this.$cookies.set('theme', this.$vuetify.theme.dark);
-    },
-    toggleMapMode(value) {
-      this.$root.$data.isMilitary = !value;
-      this.$cookies.set('military-map', this.$root.$data.isMilitary);
-    },
-    toggleLocation(value) {
-      this.$root.$data.displayLocation = !value;
-      this.$cookies.set('display-location', this.$root.$data.displayLocation);
-    },
-    toggleWebGl(value) {
-      this.$root.$data.webgl = !value;
-      this.$cookies.set('webgl', this.$root.$data.webgl);
-    },
     changeLocale(locale) {
       this.$i18n.locale = locale;
-      this.$cookies.set('locale', locale);
+      this.$store.commit('config/setLocale', locale);
     },
   },
 };

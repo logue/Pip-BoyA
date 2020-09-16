@@ -1,6 +1,9 @@
 <template>
   <!-- Location Marker markers -->
-  <vl-layer-vector ref="locationLayer" :z-index="1" :visible="visible">
+  <vl-layer-vector
+    ref="locationLayer"
+    :visible="$store.state.config.displayLocation"
+  >
     <vl-source-vector
       :features.sync="features"
       :update-while-animating="true"
@@ -27,91 +30,84 @@ export default {
       features: [],
       // Marker Styles
       styles: {},
-      // Visible Location flag
-      visible: Boolean(this.$cookies.get('display-location')),
+      // center location
+      coordinates: [0, 0],
     };
   },
-  watch: {
-    '$root.$data.displayLocation'() {
-      this.visible = this.$root.$data.displayLocation;
-      if (this.visible) {
-        this.redraw();
-      }
+  computed: {
+    visible() {
+      return this.$store.getters['config/displayLocation'];
     },
   },
-  mounted() {
+  async created() {
     // クエリから座標を取得
     this.coordinates = [this.$route.query.x | 0, this.$route.query.y | 0];
-    // ロケーションデーターを取得
-    this.loadFeatures().then((features) => {
-      if (this.coordinates !== [0, 0]) {
-        // 外部からのリンクのときに、その場所にマーカーアイコンを設置
-        features.push({
-          geometry: {
-            type: 'Point',
-            coordinates: this.coordinates,
-          },
-          properties: {
-            type: 'WaypointMarker',
-            x: this.coordinates[0],
-            y: this.coordinates[1],
-          },
-          type: 'Feature',
-        });
-      }
-      // console.log(features);
-      this.features = features.map(Object.freeze);
-      this.redraw();
-    });
+
+    const locations = await this.axios
+      .get('/data/locations.json')
+      .catch((err) => console.error(err));
+
+    const markers = locations.data.markers;
+
+    // 使用されているマーカーの種類
+    const types = Array.from(new Set(markers.map((item) => item.type))).sort();
+
+    // 外部からリンクしたときのマーカー
+    types.push('WaypointMarker');
+
+    // スタイル定義をキャッシュする
+    for (const type of types) {
+      this.styles[type] = new Style({
+        // アイコン
+        image: new Icon({
+          src: `/img/marker/${type}.svg`,
+          crossOrigin: 'anonymous',
+          anchor: [0.5, type === 'Waypoint' ? 0.9 : 0.5],
+        }),
+        // 注釈テキスト
+        text: new Text({
+          font: 'Noto Sans JP',
+          offsetX: 2,
+          offsetY: 2,
+          // 文字色
+          fill: new Fill({
+            color: colors.blueGrey.darken4,
+          }),
+          // 文字のアウトラインの設定
+          stroke: new Stroke({
+            color: colors.blueGrey.lighten5,
+            width: 1,
+          }),
+        }),
+      });
+    }
+
+    // マーカーの座標
+    const features = convertGeoJson(markers, config.center);
+    if (this.coordinates !== [0, 0]) {
+      // 外部からのリンクのときに、その場所にマーカーアイコンを設置
+      features.push({
+        geometry: {
+          type: 'Point',
+          coordinates: this.coordinates,
+        },
+        properties: {
+          type: 'WaypointMarker',
+          x: this.coordinates[0],
+          y: this.coordinates[1],
+        },
+        type: 'Feature',
+      });
+    }
+    // console.log(features);
+    this.features = features.map(Object.freeze);
+
+    this.redraw();
+  },
+  mounted() {
+    this.$refs.locationLayer.$layer.state_.zIndex = 2;
   },
   methods: {
-    // マーカーを追加
-    async loadFeatures() {
-      const locations = await this.axios
-        .get('/data/locations.json')
-        .catch((err) => {
-          console.error(err);
-        });
-
-      // マーカーの座標
-      const markers = locations.data.markers;
-
-      // 使用されているマーカーの種類
-      const types = Array.from(
-        new Set(locations.data.markers.map((item) => item.type))
-      ).sort();
-
-      // 外部からリンクしたときのマーカー
-      types.push('WaypointMarker');
-
-      // スタイル定義をキャッシュする
-      for (const type of types) {
-        this.styles[type] = new Style({
-          // アイコン
-          image: new Icon({
-            src: `/img/marker/${type}.svg`,
-            crossOrigin: 'anonymous',
-            anchor: [0.5, type === 'Waypoint' ? 0.9 : 0.5],
-          }),
-          // 注釈テキスト
-          text: new Text({
-            font: 'Noto Sans JP',
-            offsetX: 2,
-            offsetY: 2,
-            // 文字色
-            fill: new Fill({
-              color: colors.blueGrey.darken4,
-            }),
-            // 文字のアウトラインの設定
-            stroke: new Stroke({
-              color: colors.blueGrey.lighten5,
-              width: 1,
-            }),
-          }),
-        });
-      }
-      return convertGeoJson(markers, config.center);
-    },
     redraw() {
       // マーカーのスタイルを設定
       this.$refs.locationLayer.setStyle((feature, resolution) => {

@@ -107,7 +107,7 @@ export default {
           ],
         },
         {
-          icon: 'mdi-flask',
+          icon: 'mdi-flask-round-bottom',
           title: 'categories.flux',
           to: '/flux',
         },

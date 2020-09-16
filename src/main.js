@@ -2,7 +2,7 @@
  * Fallout76 Pip-boy Application (Pip-BoyA／Pip坊や)
  *
  * @author    Logue <logue@hotmail.co.jp>
- * @version   0.2.4
+ * @version   0.3.0
  * @copyright 2020 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
  * @license   MIT
  */
@@ -10,6 +10,7 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
+import store from './store';
 
 import i18n from './plugins/i18n';
 import vuetify from './plugins/vuetify';
@@ -32,24 +33,14 @@ new Vue({
       title: process.env.IS_ELECTRON
         ? title.replace(/Web/g, 'Electron')
         : title,
-      // map mode
-      isMilitary: Boolean(this.$cookies.get('military-map')) || false,
-      // map location
-      location: {
-        x: 2048,
-        y: -2048,
-        z: 1,
-      },
-      // display location
-      displayLocation: Boolean(this.$cookies.get('display-location')) || false,
       // loading overlay
       loading: true,
-      // WebGL mode
-      webgl: Boolean(this.$cookies.get('webgl')) || false,
     };
   },
+
   router,
   vuetify,
   i18n,
+  store,
   render: (h) => h(App),
 }).$mount('#app');
