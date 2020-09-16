@@ -210,5 +210,9 @@ export function getUri(loc, $router) {
   const url = $router.resolve({
     query: {x: loc.x, y: loc.y, z: loc.z},
   });
-  return 'https://fo76.logue.be' + url.href.replace('#', '');
+
+  // console.debug(url);
+  return process.env.IS_ELECTRON
+    ? url.href.replace('/app:/./#', 'https://fo76.logue.be')
+    : location.origin + url.href;
 }
