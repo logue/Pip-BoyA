@@ -1,10 +1,10 @@
 <template>
-  <vl-layer-group
-    v-if="$route.params.category"
-    ref="categoryLayer"
-    :z-index="10"
-  >
-    <vl-layer-tile ref="categoryTileLayer">
+  <vl-layer-group ref="categoryLayer">
+    <vl-layer-tile
+      v-if="$route.params.category"
+      ref="categoryTileLayer"
+      :z-index="10"
+    >
       <!-- tile based marker mode -->
       <vl-source-xyz
         v-if="tileImage"
@@ -16,7 +16,7 @@
       />
     </vl-layer-tile>
     <!-- location based marker mode -->
-    <vl-layer-vector ref="markerLayer">
+    <vl-layer-vector ref="markerLayer" :z-index="15">
       <vl-source-vector :features="features" />
     </vl-layer-vector>
   </vl-layer-group>
@@ -179,10 +179,11 @@ export default {
         ? feature.values_.label.toString()
         : '';
       // Map zoom
-      const scale =
-        this.$parent.getView().getResolutionForZoom(1.5) / resolution;
+      const scale = this.$parent.getView().getResolutionForZoom(1) / resolution;
+      // console.log(scale);
+
       // apply
-      if (label && label.length <= 2) {
+      if (label && label.length <= 2 && scale > 1) {
         style.getText().setText(label);
       } else {
         style.getText().setText('');

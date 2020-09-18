@@ -118,7 +118,7 @@ export default {
         const style = this.styles[type];
         // アイコンのサイズを調整
         const scale =
-          this.$parent.getView().getResolutionForZoom(1.5) / resolution;
+          this.$parent.getView().getResolutionForZoom(1) / resolution;
 
         // 注釈を入れる
         style.getText().setText(label);
