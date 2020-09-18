@@ -1,4 +1,5 @@
 {
+  "tileImage": "flora-abundant/{z}/{x}/{y}.png",
   "explains": [
     "markers.FloraBlackberryMarker",
     "markers.FloraSootFlowerMarker",

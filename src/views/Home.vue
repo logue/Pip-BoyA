@@ -132,6 +132,9 @@ export default {
         case 'config/toggleWebGl':
           this.webgl = state.config.webgl;
           break;
+        case 'explain/update':
+          this.explain = state.explains;
+          break;
       }
     });
     // Load location from QueryString.
@@ -227,9 +230,11 @@ export default {
     },
     // カテゴリレイヤーの描画が完了したとき
     onCategoryLayerReady(explains) {
-      // 画像マーカーモードのときはベースマップの透過度を半分にする
-      this.$refs.explainPopup.update(explains);
-      // this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
+      if (this.$route.params.category) {
+        // 画像マーカーモードのときはベースマップの透過度を半分にする
+        this.$refs.explainPopup.update(explains);
+        // this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
+      }
     },
     // 凡例のチェックボックスが変化した時
     onMarkerSelectChanged(selected) {

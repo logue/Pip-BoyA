@@ -424,7 +424,7 @@
       "id": "000725F7",
       "name": "LocToxicBlackBearLodgeLocation",
       "type": "BrownstoneMarker",
-      "x": 2645.395508,
+      "x": 2645.395507,
       "y": 182860.5313
     },
     {
@@ -887,7 +887,7 @@
       "name": "LocForestWhitePowderWinterSportsLocation",
       "type": "SkiResortMarker",
       "x": -949.519104,
-      "y": 18367.95898
+      "y": 18367.95899
     },
     {
       "id": "0009A124",
@@ -970,7 +970,7 @@
       "id": "0009A452",
       "name": "LocWhitespringTheWhitespringResortLocation",
       "type": "WhitespringResort",
-      "x": 6663.169434,
+      "x": 6663.169433,
       "y": -52810.28516
     },
     {
@@ -1075,7 +1075,7 @@
       "id": "00109D2D",
       "name": "LocMountainsFederalDisposalFieldLocation",
       "type": "WorkshopMarker",
-      "x": -509.849487,
+      "x": -509.849488,
       "y": -154826.1094
     },
     {
@@ -1489,7 +1489,7 @@
       "name": "LocForestSubstationPoseidonPX02Location",
       "type": "ElectricalSubstationMarker",
       "x": -36059.33203,
-      "y": -513.580688
+      "y": -513.580689
     },
     {
       "id": "002CF31B",
@@ -2174,7 +2174,7 @@
       "id": "003A070F",
       "name": "LocMountainsFissureSiteBetaLocation",
       "type": "FissureMarker",
-      "label": "Œ≤",
+      "label": "É¿",
       "x": 153700.0625,
       "y": 182385.2813
     },
@@ -2203,7 +2203,7 @@
       "id": "003A579D",
       "name": "LocToxicFissureSiteDeltaLocation",
       "type": "FissureMarker",
-      "label": "Œ¥",
+      "label": "É¬",
       "x": 35581.11719,
       "y": 195062.25
     },
@@ -2211,7 +2211,7 @@
       "id": "003A57D7",
       "name": "LocCranberryFissureSiteEpsilonLocation",
       "type": "FissureMarker",
-      "label": "Œµ",
+      "label": "É√",
       "x": 152676.4688,
       "y": -66537.04688
     },
@@ -2219,7 +2219,7 @@
       "id": "003A581A",
       "name": "LocMountainsFissureSiteGammaLocation",
       "type": "FissureMarker",
-      "label": "Œ≥",
+      "label": "É¡",
       "x": 58897.04297,
       "y": -150970.0156
     },
@@ -2227,7 +2227,7 @@
       "id": "003A584D",
       "name": "LocForestFissureSiteKappaLocation",
       "type": "FissureMarker",
-      "label": "Œ∫",
+      "label": "É»",
       "x": -98966.46094,
       "y": 177503.3281
     },
@@ -2235,7 +2235,7 @@
       "id": "003A587C",
       "name": "LocForestFissureSiteLambdaLocation",
       "type": "FissureMarker",
-      "label": "Œª",
+      "label": "É…",
       "x": -38686.0625,
       "y": -70771.60938
     },
@@ -2243,7 +2243,7 @@
       "id": "003A58AC",
       "name": "LocMTRFissureSiteOmegaLocation",
       "type": "FissureMarker",
-      "label": "œâ",
+      "label": "É÷",
       "x": -120766.625,
       "y": -162345.9844
     },
@@ -2251,7 +2251,7 @@
       "id": "003A58DE",
       "name": "LocSwampFissureSiteOmicronLocation",
       "type": "FissureMarker",
-      "label": "Œø",
+      "label": "ÉÕ",
       "x": 129596.0938,
       "y": 75406.42188
     },
@@ -2259,7 +2259,7 @@
       "id": "003A590D",
       "name": "LocMountainsFissureSiteSigmaLocation",
       "type": "FissureMarker",
-      "label": "œÉ",
+      "label": "É–",
       "x": 112457.7969,
       "y": 124837.2344
     },
@@ -2267,7 +2267,7 @@
       "id": "003A5940",
       "name": "LocMountainsFissureSiteTauLocation",
       "type": "FissureMarker",
-      "label": "œÑ",
+      "label": "É—",
       "x": -9070.779297,
       "y": -11031.55957
     },
@@ -2275,7 +2275,7 @@
       "id": "003A596E",
       "name": "LocForestFissureSiteThetaLocation",
       "type": "FissureMarker",
-      "label": "Œ∏",
+      "label": "É∆",
       "x": 19005.47461,
       "y": 34149.70313
     },
@@ -2318,7 +2318,7 @@
       "id": "003A746C",
       "name": "LocCranberryFissureSiteAlphaLocation",
       "type": "FissureMarker",
-      "label": "Œ±",
+      "label": "Éø",
       "x": 173252,
       "y": -159284
     },
@@ -2326,7 +2326,7 @@
       "id": "003A8CCF",
       "name": "LocCranberryFissureSiteZetaLocation",
       "type": "FissureMarker",
-      "label": "Œ∂",
+      "label": "Éƒ",
       "x": 196808,
       "y": -165776
     },

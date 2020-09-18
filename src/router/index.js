@@ -4,7 +4,6 @@ import VueRouter from 'vue-router';
 import goTo from 'vuetify/es5/services/goto';
 
 import Home from '@/views/Home.vue';
-import NuclearWinter from '@/views/NuclearWinter.vue';
 
 Vue.use(VueRouter);
 
@@ -21,11 +20,6 @@ const routes = [
   {
     path: '/headpoint',
     redirect: '/hardpoint',
-  },
-  {
-    path: '/nuclear-winter',
-    name: 'NuclearWinter',
-    component: NuclearWinter,
   },
   {
     path: '/:category',

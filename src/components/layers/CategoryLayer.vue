@@ -1,10 +1,14 @@
 <template>
-  <vl-layer-group ref="categoryLayer" :z-index="10">
-    <vl-layer-tile v-if="features.length === 0" ref="categoryTileLayer">
+  <vl-layer-group
+    v-if="$route.params.category"
+    ref="categoryLayer"
+    :z-index="10"
+  >
+    <vl-layer-tile ref="categoryTileLayer">
       <!-- tile based marker mode -->
       <vl-source-xyz
-        v-if="features.length === 0"
-        :url="'/img/markerTile/' + $route.params.category + '/{z}/{x}/{y}.png'"
+        v-if="tileImage"
+        :url="'/img/markerTile/' + tileImage"
         :projection="config.projection"
         :min-zoom="config.minZoom"
         :max-zoom="config.maxZoom"
@@ -43,6 +47,8 @@ export default {
       set: colorset,
       // Marker Visibiloty
       isVisible: [],
+      // use marker tile
+      tileImage: false,
     };
   },
   watch: {
@@ -71,6 +77,15 @@ export default {
     this.category = this.$route.params.category;
     if (!this.category) {
       document.title = this.$root.$data.title;
+      if (this.tileImage) {
+        // const source = await this.$refs.categoryTileLayer.getSource();
+        const source = this.$refs.categoryLayerSource;
+        // 新しい画像レイヤを指定
+        if (source) {
+          source.setUrl('');
+          this.clearCache(source);
+        }
+      }
       return;
     }
     this.features = await this.loadFeatures();
@@ -90,6 +105,8 @@ export default {
       if (!locations.data) {
         return [];
       }
+
+      this.tileImage = locations.data.tileImage || false;
 
       if (locations.data.markers) {
         // 定義されているマーカーの種類
@@ -122,22 +139,13 @@ export default {
     redraw() {
       this.$emit('redraw');
       this.$root.$data.loading = true;
-      if (this.features.length === 0) {
+      if (this.tileImage) {
         // const source = await this.$refs.categoryTileLayer.getSource();
         const source = this.$refs.categoryLayerSource;
-
+        // 新しい画像レイヤを指定
         if (source) {
-          // 新しい画像レイヤを指定
-          source.setUrl(
-            '/img/markerTile/' + this.category + '/{z}/{x}/{y}.png'
-          );
-          if (source.tileCache) {
-            // 表示されている画像データとキャッシュを削除
-            source.tileCache.expireCache({});
-            source.tileCache.clear();
-          }
-          // リフレッシュ
-          source.refresh();
+          source.setUrl('/img/markerTile/' + this.tileImage);
+          this.clearCache(source);
         }
       }
       // console.log(this.$refs.markerLayer);
@@ -192,6 +200,15 @@ export default {
       style.getImage().setScale(scale < 1 ? scale : 1);
       return style;
     },
+  },
+  clearCache(source) {
+    if (source.tileCache) {
+      // 表示されている画像データとキャッシュを削除
+      source.tileCache.expireCache({});
+      source.tileCache.clear();
+    }
+    // リフレッシュ
+    source.refresh();
   },
 };
 </script>

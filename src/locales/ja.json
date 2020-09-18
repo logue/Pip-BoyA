@@ -449,7 +449,8 @@
     "workbench": "ワークベンチ",
     "ammunition": "弾薬",
     "safe-terminal": "金庫＆ターミナル",
-    "treasure": "宝の地図"
+    "treasure": "宝の地図",
+    "nuclear-winter": "Nuclear Winter"
   },
   "markers": {
     "BobbyPinMarker": "ヘアピン",
@@ -596,7 +597,13 @@
     "FoodVegitableRazorgrainMarker": "レイザーグレイン",
     "FoodVegitableSiltBeanMarker": "シルトビーン",
     "FoodVegitableTatoMarker": "テイト",
-    "WaypointMarker": "リンクのロケーション"
+    "WaypointMarker": "リンクのロケーション",
+    "BriefcaseMarker": "Valut-tecランチボックス",
+    "LootHighMarker": "戦利品（高）",
+    "LootMediumMarker": "戦利品（中）",
+    "LootLowMarker": "戦利品（低）",
+    "LootMarker": "戦利品",
+    "PowerArmorMarker": "パワーアーマー"
   },
   "maps": {
     "flux": {

@@ -95,3 +95,7 @@ If the label has a value, it will be displayed on the marker. (Two or more chara
 
 The types of markers that can be used in one category correspond to the colors defined in [Material Color](https://material.io/resources/color/), and up to 17 markers can be used.
 An exception will be output if you load more types of markers.
+
+### Nuclear Winter
+
+Nucler Winterのマップの座標系は通常のマップと同じです。単純に通常のマップに投影した場合、40％の大きさと一致します。

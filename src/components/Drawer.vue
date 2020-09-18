@@ -46,7 +46,7 @@
       </v-list-group>
     </div>
     <v-divider />
-    <v-list-item link to="/nuclear-winter" disabled>
+    <v-list-item link to="/nuclear-winter">
       <v-list-item-action>
         <v-icon>mdi-nuke</v-icon>
       </v-list-item-action>

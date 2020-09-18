@@ -449,7 +449,8 @@
     "safe-terminal": "Safe Box & Terminal",
     "workbench": "Workbenchs",
     "ammunition": "Ammunitions",
-    "treasure": "Treasure Map"
+    "treasure": "Treasure Map",
+    "nuclear-winter": "Nuclear Winter"
   },
   "markers": {
     "BobbyPinMarker": "Bobby Pin",
@@ -596,7 +597,13 @@
     "FoodVegitableRazorgrainMarker": "Razorgrain",
     "FoodVegitableSiltBeanMarker": "Silt Bean",
     "FoodVegitableTatoMarker": "Tato",
-    "WaypointMarker": "Link Location"
+    "WaypointMarker": "Link Location",
+    "BriefcaseMarker": "Nuclear Briefcase",
+    "LootHighMarker": "Loot (High)",
+    "LootMediumMarker": "Loot (Medium)",
+    "LootLowMarker": "Loot (Low)",
+    "LootMarker": "Loot",
+    "PowerArmorMarker": "Power Armor"
   },
   "maps": {
     "flora": {
