@@ -63,7 +63,7 @@ export default {
         image: new Icon({
           src: `/img/marker/${type}.svg`,
           crossOrigin: 'anonymous',
-          anchor: [0.5, type === 'Waypoint' ? 0.9 : 0.5],
+          anchor: [0.5, type === 'WaypointMarker' ? 0.9 : 0.5],
         }),
         // 注釈テキスト
         text: new Text({
@@ -102,6 +102,7 @@ export default {
     }
     // console.log(features);
     this.features = features.map(Object.freeze);
+    this.redraw();
   },
   mounted() {
     this.redraw();
