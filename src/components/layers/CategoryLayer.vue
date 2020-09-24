@@ -179,11 +179,11 @@ export default {
         ? feature.values_.label.toString()
         : '';
       // Map zoom
-      const scale = this.$parent.getView().getResolutionForZoom(1) / resolution;
+      const scale = this.$parent.getView().getResolutionForZoom(2) / resolution;
       // console.log(scale);
 
       // apply
-      if (label && label.length <= 2 && scale > 1) {
+      if (label && scale >= 1) {
         style.getText().setText(label);
       } else {
         style.getText().setText('');

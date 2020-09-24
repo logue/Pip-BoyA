@@ -62,6 +62,7 @@ export default {
         // アイコン
         image: new Icon({
           src: `/img/marker/${type}.svg`,
+          scale: [1, 1],
           crossOrigin: 'anonymous',
           anchor: [0.5, type === 'WaypointMarker' ? 0.9 : 0.5],
         }),
@@ -119,10 +120,11 @@ export default {
         const style = this.styles[type];
         // アイコンのサイズを調整
         const scale =
-          this.$parent.getView().getResolutionForZoom(1) / resolution;
+          this.$parent.getView().getResolutionForZoom(2.5) / resolution;
 
         // 注釈を入れる
-        style.getText().setText(label);
+        style.getText().setText(scale < 1 ? '' : label);
+
         // リサイズ
         style.getImage().setScale(scale < 1 ? scale : 1);
 

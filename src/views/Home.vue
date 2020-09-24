@@ -33,6 +33,20 @@
         :category="$route.params.category"
         @ready="onCategoryLayerReady"
       />
+      <!-- Blast Zone -->
+      <!--vl-feature>
+        <vl-geom-circle
+          ref="blastZone"
+          :coordinates="coordinatesBlastZone"
+          :radius="160"
+        />
+        <vl-style-box>
+          <vl-style-fill
+            :color="`rgba(${hexToRgb(blastZoneColorSet.accent1)},0.3)`"
+          />
+          <vl-style-stroke :color="blastZoneColorSet.accent4" />
+        </vl-style-box>
+      </vl-feature-->
 
       <!-- Tooltip Overlay -->
       <vl-overlay
@@ -78,14 +92,18 @@
 /**
  * Map Viewer and Explains Component
  */
+import colors from 'vuetify/lib/util/colors';
+
 import FullScreen from 'ol/control/FullScreen';
 import OverviewMap from 'ol/control/OverviewMap';
 import ZoomSlider from 'ol/control/ZoomSlider';
 import MousePosition from 'ol/control/MousePosition';
+import PinchRotate from 'ol/interaction/PinchRotate';
 
 import {createStringXY} from 'ol/coordinate';
 
 import config from '@/assets/map.config.js';
+import {hexToRgb} from '@/assets/utility.js';
 
 import BaseLayer from '@/components/layers/BaseLayer.vue';
 import CategoryLayer from '@/components/layers/CategoryLayer.vue';
@@ -117,6 +135,9 @@ export default {
       currentPosition: undefined,
       currentName: undefined,
       showMarkerTooltip: false,
+      // Blast zone
+      coordinatesBlastZone: [0, 0],
+      blastZoneColorSet: colors.red,
     };
   },
   watch: {
@@ -159,6 +180,12 @@ export default {
         }),
         new ZoomSlider(),
       ]);
+      // Disable rotate function.
+      const interactions = this.$refs.map.$map.getInteractions().getArray();
+      const pinchRotateInteraction = interactions.filter((interaction) => {
+        return interaction instanceof PinchRotate;
+      })[0];
+      pinchRotateInteraction.setActive(false);
 
       // console.log(this.config.extent, this.$refs.map.$map.getSize());
       this.$refs.map.$map
@@ -240,6 +267,9 @@ export default {
     onMarkerSelectChanged(selected) {
       // console.log(selected);
       this.$refs.categoryLayer.isVisible = selected;
+    },
+    hexToRgb(hex) {
+      return hexToRgb(hex);
     },
   },
 };
