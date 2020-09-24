@@ -450,7 +450,9 @@
     "ammunition": "弾薬",
     "safe-terminal": "金庫＆ターミナル",
     "treasure": "宝の地図",
-    "nuclear-winter": "Nuclear Winter"
+    "nw": "Nuclear Winter",
+    "nw-misc": "その他",
+    "nw-loot": "戦利品"
   },
   "markers": {
     "BobbyPinMarker": "ヘアピン",
@@ -512,11 +514,11 @@
     "FloraWildRazorgrainMarker": "野生のレイザーグレイン",
     "FloraWildTarberryFloatMarker": "野生のタールベリー",
     "FloraWildTatoPlantMarker": "野生のテイト・プラント",
-    "CobaltFluxMarker": "コバルト溶剤",
-    "FluorescentFluxMarker": "蛍光溶剤",
-    "VioletFluxMarker": "バイオレット溶剤",
-    "CrimsonFluxMarker": "クリムゾン溶剤",
-    "YellowcakeFluxMarker": "イエローケーキ溶剤",
+    "FluxCobaltMarker": "コバルト溶剤",
+    "FluxFluorescentMarker": "蛍光溶剤",
+    "FluxVioletMarker": "バイオレット溶剤",
+    "FluxCrimsonMarker": "クリムゾン溶剤",
+    "FluxYellowcakeMarker": "イエローケーキ溶剤",
     "HardpointAcidMarker": "酸",
     "HardpointAluminumMarker": "アルミニウム鉱床",
     "HardpointCoalMarker": "石炭鉱床",
@@ -598,27 +600,13 @@
     "FoodVegitableSiltBeanMarker": "シルトビーン",
     "FoodVegitableTatoMarker": "テイト",
     "WaypointMarker": "リンクのロケーション",
-    "BriefcaseMarker": "Valut-tecランチボックス",
-    "LootHighMarker": "戦利品（高）",
-    "LootMediumMarker": "戦利品（中）",
-    "LootLowMarker": "戦利品（低）",
-    "LootMarker": "戦利品",
-    "PowerArmorMarker": "パワーアーマー"
-  },
-  "maps": {
-    "flux": {
-      "cobalt": "コバルト溶剤",
-      "fluorescent": "蛍光溶剤",
-      "violet": "バイオレット溶剤",
-      "crimson": "クリムゾン溶剤",
-      "yellowcake": "イエローケーキ溶剤"
-    },
-    "nw": {
-      "briefcase": "核ブリーフケース",
-      "loot": "戦利品",
-      "pa": "パワーアーマー",
-      "safe": "金庫",
-      "terminal": "ターミナル"
-    }
+    "BabylonNukeBriefcaseMarker": "Valut-tecランチボックス",
+    "BabylonLootHighMarker": "戦利品（高）",
+    "BabylonLootMedMarker": "戦利品（中）",
+    "BabylonLootLowMarker": "戦利品（低）",
+    "BabylonLootBobbleheadsMarker": "ボブルヘッド",
+    "BabylonLootMagazinesMarker": "雑誌",
+    "BabylonLootTerminalMarker": "戦利品ターミナル",
+    "BabylonPowerArmorFurnitureMarker": "パワーアーマー"
   }
 }

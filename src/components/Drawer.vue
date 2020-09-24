@@ -45,15 +45,6 @@
         </v-list-item>
       </v-list-group>
     </div>
-    <v-divider />
-    <v-list-item link to="/nuclear-winter">
-      <v-list-item-action>
-        <v-icon>mdi-nuke</v-icon>
-      </v-list-item-action>
-      <v-list-item-content>
-        <v-list-item-title>Nuclear Winter</v-list-item-title>
-      </v-list-item-content>
-    </v-list-item>
   </v-list>
 </template>
 
@@ -155,6 +146,20 @@ export default {
           icon: 'mdi-alpha-c-circle-outline',
           title: 'categories.caps-pin',
           to: '/caps-pin',
+        },
+        {
+          title: 'categories.nw',
+          icon: 'mdi-nuke',
+          items: [
+            {
+              title: 'categories.nw-misc',
+              to: '/nw-misc',
+            },
+            {
+              title: 'categories.nw-loot',
+              to: '/nw-loot',
+            },
+          ],
         },
       ],
     };

@@ -1,27 +1,15 @@
 <template>
   <v-app class="pip-boya">
-    <v-navigation-drawer
-      v-model="primaryDrawer.model"
-      :clipped="primaryDrawer.clipped"
-      :floating="primaryDrawer.floating"
-      :mini-variant="primaryDrawer.mini"
-      :permanent="primaryDrawer.type === 'permanent'"
-      :temporary="primaryDrawer.type === 'temporary'"
-      app
-      overflow
-    >
-      <d />
-    </v-navigation-drawer>
-
-    <v-app-bar :clipped-left="primaryDrawer.clipped" app dense>
-      <v-app-bar-nav-icon
-        v-if="primaryDrawer.type !== 'permanent'"
-        @click.stop="primaryDrawer.model = !primaryDrawer.model"
-      />
+    <v-app-bar app dense>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>{{ $root.$data.title }}</v-toolbar-title>
       <v-spacer />
       <appbar />
     </v-app-bar>
+
+    <v-navigation-drawer v-model="drawer" app left>
+      <d />
+    </v-navigation-drawer>
 
     <v-main>
       <v-fade-transition mode="out-in">
@@ -50,15 +38,9 @@ export default {
   },
   data() {
     return {
-      drawer: null,
       title: null,
-      primaryDrawer: {
-        model: null,
-        type: 'default (no property)',
-        clipped: false,
-        floating: false,
-        mini: false,
-      },
+      drawer: false,
+      explain: false,
     };
   },
   computed: {

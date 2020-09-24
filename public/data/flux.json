@@ -1,11 +1,11 @@
 {
   "tileImage": "flux/{z}/{x}/{y}.png",
   "explains": [
-    "maps.flux.cobalt",
-    "maps.flux.fluorescent",
-    "maps.flux.violet",
-    "maps.flux.crimson",
-    "maps.flux.yellowcake"
+    "markers.FluxCobaltMarker",
+    "markers.FluxFluorescentMarker",
+    "markers.FluxVioletMarker",
+    "markers.FluxCrimsonMarker",
+    "markers.FluxYellowcakeMarker"
   ],
   "colorset": [
     "blue",
