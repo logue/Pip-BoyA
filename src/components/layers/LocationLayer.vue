@@ -1,10 +1,6 @@
 <template>
   <!-- Location Marker markers -->
-  <vl-layer-vector
-    ref="locationLayer"
-    :z-index="1"
-    :visible="$store.state.config.displayLocation"
-  >
+  <vl-layer-vector ref="locationLayer" :z-index="1" :visible="visible">
     <vl-source-vector
       :features.sync="features"
       :update-while-animating="true"
@@ -37,7 +33,7 @@ export default {
   },
   computed: {
     visible() {
-      return this.$store.getters['config/displayLocation'];
+      return this.$store.state.config.displayLocation;
     },
   },
   async created() {
@@ -120,7 +116,7 @@ export default {
         const style = this.styles[type];
         // アイコンのサイズを調整
         const scale =
-          this.$parent.getView().getResolutionForZoom(2.5) / resolution;
+          this.$parent.getView().getResolutionForZoom(2) / resolution;
 
         // 注釈を入れる
         style.getText().setText(scale < 1 ? '' : label);

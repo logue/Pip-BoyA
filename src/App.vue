@@ -61,6 +61,15 @@ export default {
 </script>
 
 <style lang="scss">
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 ::-webkit-scrollbar {
   width: 0.75rem;
   background-color: rgba(map-get($grey, 'lighten-1'), 1);

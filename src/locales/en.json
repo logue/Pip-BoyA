@@ -428,10 +428,10 @@
     "flux": "Flux",
     "food": "Foods",
     "food-meat": "Meats",
-    "food-packaged": "Packaged Foods",
+    "food-packaged": "Pre-War Foods",
     "food-vegitable": "Vegitable",
     "food-misc": "Misc Foods",
-    "encounter": "Random Encounters",
+    "encounters": "Random Encounters",
     "hardpoint": "Resource Nodes",
     "recipe": "Recipes & Plans",
     "ore": "Ore",
@@ -454,6 +454,10 @@
     "nw-misc": "Misc",
     "nw-loot": "Loot"
   },
+  "annotations": {
+    "food-packaged": "\"C\" means not radioactively contaminated.",
+    "safe-terminal": "Numeric annotation means required skill level. 🚪 means Door terminal"
+  },
   "markers": {
     "BobbyPinMarker": "Bobby Pin",
     "BobbyPinBoxMarker": "Bobby Pin Box",
@@ -461,8 +465,8 @@
     "CapsStashMarker": "Caps Stash",
     "BlastingCapsBoxMarker": "Blasting Caps Stash",
     "CameraMarker": "Camera",
-    "CampEncounterMarker": "Camp",
-    "MistressMarker": "Order of Mistress",
+    "CampEncounterMarker": "Camp Encounter",
+    "MistressMarker": "Order of Mistress Body",
     "ObjectEncounterMarker": "Object Encounter",
     "SceneEncounterMarker": "Scene Encounter",
     "TravelEncounterMarker": "Travel Encounter",

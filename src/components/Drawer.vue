@@ -104,7 +104,7 @@ export default {
         },
         {
           icon: 'mdi-alert-decagram',
-          title: 'categories.encounter',
+          title: 'categories.encounters',
           to: '/encounters',
         },
         {
@@ -135,7 +135,7 @@ export default {
         {
           icon: 'mdi-key',
           title: 'categories.safe-terminal',
-          to: '/safe_terminal',
+          to: '/safe-terminal',
         },
         {
           icon: 'mdi-treasure-chest',

@@ -26,7 +26,7 @@
         <li
           v-for="(item, index) in explains"
           :key="index"
-          :class="`explain_list_item explain_list_item_${set.tileExplainColor[index]}`"
+          :class="`explain_list_item explain_list_item_${colorset[index]}`"
         >
           ◆ {{ $t(item) }}
         </li>
@@ -39,7 +39,7 @@
         >
           <v-checkbox
             v-model="selected"
-            :color="set.markerColor[getColorIndex(index)]"
+            :color="colorset[getColorIndex(index)]"
             :value="key"
             dense
             hide-details
@@ -51,9 +51,9 @@
                 inline
                 :label="key"
                 :content="value"
-                :color="set.markerColor[getColorIndex(index)]"
+                :color="colorset[getColorIndex(index)]"
                 :class="`explain_list_item_label ${
-                  set.markerColor[getColorIndex(index)]
+                  colorset[getColorIndex(index)]
                 }--text text--lighten-2`"
               >
                 {{ $t(`markers.${key}`) }}
@@ -62,12 +62,14 @@
           </v-checkbox>
         </li>
       </ul>
+      <!--p v-if="$t('annotations.' + $route.params.category)">
+        {{ $t('annotations.' + $route.params.category) }}
+      </p-->
     </v-card-text>
   </v-card>
 </template>
 
 <script>
-import colorset from '@/assets/colorset.json';
 /**
  * Explain component
  */
@@ -76,7 +78,7 @@ export default {
   data() {
     return {
       // カラーセット
-      set: colorset,
+      colorset: [],
       // 凡例
       explains: {},
       // 項目
@@ -94,10 +96,11 @@ export default {
     };
   },
   methods: {
-    update(explains) {
-      this.explains = explains;
+    update(data) {
+      this.explains = data[0];
+      this.colorset = data[1];
       // マーカーはすべて選択状態にする
-      this.selected = this.items = Object.keys(explains);
+      this.selected = this.items = Object.keys(this.explains);
     },
     // 最小化／最大化
     toggleShrink() {
@@ -114,10 +117,10 @@ export default {
     },
     getColorIndex(index) {
       const length = this.items.length;
-      if ((this.set.markerColor.length - 3) / length > 2) {
+      if ((this.colorset.length - 3) / length > 2) {
         // マーカーの種類が少ない場合、色がバラけるようにする。
         // ※予備色のbrown、blue-gray、grayは含めない
-        index = (index * ((this.set.markerColor.length - 3) / length)) | 0;
+        index = (index * ((this.colorset.length - 3) / length)) | 0;
       }
       return index;
     },

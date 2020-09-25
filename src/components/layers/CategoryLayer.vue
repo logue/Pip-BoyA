@@ -44,7 +44,7 @@ export default {
       // Map Configure
       config: config,
       // Color Configure
-      set: colorset,
+      colorset: [],
       // Marker Visibiloty
       isVisible: [],
       // use marker tile
@@ -117,9 +117,9 @@ export default {
 
         console.debug(markerTypes);
 
-        if (markerTypes.length > this.set.markerColor.length) {
+        if (markerTypes.length > colorset.markerColor.length) {
           throw new Error(
-            `Too many marker types. less than ${this.set.markerColor.length}`
+            `Too many marker types. less than ${colorset.markerColor.length}`
           );
         }
         // 表示マーカー
@@ -129,8 +129,10 @@ export default {
           prev[cur] = (prev[cur] || 0) + 1;
           return prev;
         }, {});
+        this.colorset = colorset.markerColor;
       } else {
         this.types = locations.data.explains;
+        this.colorset = locations.data.colorset || colorset.tileExplainColor;
         return [];
       }
       this.$emit('loaded');
@@ -154,7 +156,7 @@ export default {
       );
       // Force layer to front
       this.$root.$data.loading = false;
-      this.$emit('ready', this.types);
+      this.$emit('ready', [this.types, this.colorset]);
     },
     // Apply Marker style.
     setStyle(feature, resolution) {
@@ -165,11 +167,10 @@ export default {
       // Get color index from type
       let index = types.indexOf(type);
 
-      if ((this.set.markerColor.length - 3) / types.length > 2) {
+      if ((this.colorset.length - 3) / types.length > 2) {
         // If there are not enough markers, the colors should be varied.
         // * Ignore Brown and Blue-gray and Gray
-        index =
-          (index * ((this.set.markerColor.length - 3) / types.length)) | 0;
+        index = (index * ((this.colorset.length - 3) / types.length)) | 0;
       }
 
       // Apply marker color

@@ -15,13 +15,9 @@ Vue.use(VueAnalytics, {
   autoTracking: {
     pageviewTemplate(route) {
       // allow custom page titles in the router meta
-      let title = route.meta.title;
-      if (!title) {
-        title = route.name;
-      }
       return {
-        page: route.name,
-        title: title,
+        page: route.params.category || route.name,
+        title: document.title,
         location: route.path,
       };
     },

@@ -9,6 +9,7 @@
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
       :renderer="webgl ? 'webgl' : 'canvas'"
+      :max-extent="config.extent"
       @mounted="onMapMounted"
       @pointermove="onMapPointerMove"
       @movestart="onMoveStart"
@@ -21,6 +22,7 @@
         :rotation.sync="rotation"
         :projection="config.projection"
         :resolutions="config.resolutions"
+        :extent="config.extent"
       />
 
       <!-- Base map layers -->
@@ -168,8 +170,9 @@ export default {
   methods: {
     // マップが読み込まれたとき
     onMapMounted() {
+      const map = this.$refs.map.$map;
       // now ol.Map instance is ready and we can work with it directly
-      this.$refs.map.$map.getControls().extend([
+      map.getControls().extend([
         new MousePosition({
           coordinateFormat: createStringXY(0),
         }),
@@ -181,16 +184,11 @@ export default {
         new ZoomSlider(),
       ]);
       // Disable rotate function.
-      const interactions = this.$refs.map.$map.getInteractions().getArray();
+      const interactions = map.getInteractions().getArray();
       const pinchRotateInteraction = interactions.filter((interaction) => {
         return interaction instanceof PinchRotate;
       })[0];
       pinchRotateInteraction.setActive(false);
-
-      // console.log(this.config.extent, this.$refs.map.$map.getSize());
-      this.$refs.map.$map
-        .getView()
-        .fit(this.config.extent, this.$refs.map.$map.getSize());
 
       this.$root.$data.loading = false;
     },
@@ -256,10 +254,10 @@ export default {
       console.info(features);
     },
     // カテゴリレイヤーの描画が完了したとき
-    onCategoryLayerReady(explains) {
+    onCategoryLayerReady(explains, colorset) {
       if (this.$route.params.category) {
         // 画像マーカーモードのときはベースマップの透過度を半分にする
-        this.$refs.explainPopup.update(explains);
+        this.$refs.explainPopup.update(explains, colorset);
         // this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
       }
     },

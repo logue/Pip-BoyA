@@ -1995,7 +1995,7 @@
     {
       "id": "003ABF14",
       "type": "FoodFancyLadSnackCakesMarker",
-      "label": "P",
+      "label": "C",
       "x": 20200.03125,
       "y": -46538.95703
     },
@@ -2032,14 +2032,14 @@
     {
       "id": "003CC3CF",
       "type": "FoodSalisburySteakMarker",
-      "label": "P",
+      "label": "C",
       "x": 9604.732422,
       "y": -41177.26172
     },
     {
       "id": "003CC3D0",
       "type": "FoodSugarbombsMarker",
-      "label": "P",
+      "label": "C",
       "x": 9598.777344,
       "y": -41183.94141
     },
@@ -2142,14 +2142,14 @@
     {
       "id": "003A1B57",
       "type": "FoodFancyLadSnackCakesMarker",
-      "label": "P",
+      "label": "C",
       "x": 2898.118409,
       "y": -50743.8125
     },
     {
       "id": "003A1B56",
       "type": "FoodFancyLadSnackCakesMarker",
-      "label": "P",
+      "label": "C",
       "x": 2899.544922,
       "y": -50735.62891
     },
@@ -2168,7 +2168,7 @@
     {
       "id": "003D6939",
       "type": "FoodFancyLadSnackCakesMarker",
-      "label": "P",
+      "label": "C",
       "x": 1888.002197,
       "y": -50760.82031
     },
