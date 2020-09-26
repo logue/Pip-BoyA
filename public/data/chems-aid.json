@@ -1,0 +1,6550 @@
+{
+  "markers": [
+    {
+      "id": "003C5E5D",
+      "type": "ChemsAnyMarker",
+      "x": 29038.10352,
+      "y": 21829.95703
+    },
+    {
+      "id": "004F9961",
+      "type": "ChemsAnyMarker",
+      "x": 28503.01953,
+      "y": 14259.79688
+    },
+    {
+      "id": "00211A48",
+      "type": "ChemsAnyMarker",
+      "x": 28517.55469,
+      "y": 14238.63379
+    },
+    {
+      "id": "00315AD9",
+      "type": "ChemsAnyMarker",
+      "x": 12436.59766,
+      "y": 58178.25391
+    },
+    {
+      "id": "004DF137",
+      "type": "ChemsBloodpackMarker",
+      "x": 12003.44727,
+      "y": 58437.33984
+    },
+    {
+      "id": "004DF138",
+      "type": "ChemsBloodpackMarker",
+      "x": 11943.82813,
+      "y": 58493.84375
+    },
+    {
+      "id": "003C2914",
+      "type": "ChemsAnyMarker",
+      "x": 11492.69043,
+      "y": 59585.51953
+    },
+    {
+      "id": "00315AD7",
+      "type": "ChemsAnyMarker",
+      "x": 11011.46289,
+      "y": 58676.83984
+    },
+    {
+      "id": "00315AEA",
+      "type": "ChemsAnyMarker",
+      "x": 12210.85938,
+      "y": 59013.19531
+    },
+    {
+      "id": "00315AF3",
+      "type": "ChemsAnyMarker",
+      "x": 11161.33399,
+      "y": 58998.88281
+    },
+    {
+      "id": "00315AF4",
+      "type": "ChemsAnyMarker",
+      "x": 10842.37402,
+      "y": 57848.05469
+    },
+    {
+      "id": "00528CE9",
+      "type": "ChemsRadMedsMarker",
+      "x": 21111.85352,
+      "y": 78470.46094
+    },
+    {
+      "id": "0055FB1C",
+      "type": "ChemsRadMedsMarker",
+      "x": 24653.5332,
+      "y": 100186.0547
+    },
+    {
+      "id": "00320402",
+      "type": "ChemsPrewarMarker",
+      "x": 25692.80078,
+      "y": 100509.6563
+    },
+    {
+      "id": "0032CA5C",
+      "type": "ChemsPrewarMarker",
+      "x": 53570.55859,
+      "y": 29328.65234
+    },
+    {
+      "id": "0032CA5B",
+      "type": "ChemsPrewarMarker",
+      "x": 53418.75781,
+      "y": 28822.33789
+    },
+    {
+      "id": "0032CA50",
+      "type": "ChemsRadMedsMarker",
+      "x": 53844.59375,
+      "y": 29292.16797
+    },
+    {
+      "id": "003C0E2D",
+      "type": "ChemsAnyMarker",
+      "x": 53964.58984,
+      "y": 24762.47852
+    },
+    {
+      "id": "003C0E2E",
+      "type": "ChemsAnyMarker",
+      "x": 54050.8125,
+      "y": 24611.79102
+    },
+    {
+      "id": "003C0E2F",
+      "type": "ChemsAnyMarker",
+      "x": 54032.71875,
+      "y": 24601.48047
+    },
+    {
+      "id": "003C0E30",
+      "type": "ChemsAnyMarker",
+      "x": 54016.53125,
+      "y": 24590.62891
+    },
+    {
+      "id": "0032CA45",
+      "type": "ChemsRadMedsMarker",
+      "x": 54786.26953,
+      "y": 24854.10742
+    },
+    {
+      "id": "0032CA4A",
+      "type": "ChemsPrewarMarker",
+      "x": 54555.35547,
+      "y": 25354.89063
+    },
+    {
+      "id": "0032CA5A",
+      "type": "ChemsPrewarMarker",
+      "x": 52605.51953,
+      "y": 29440.97266
+    },
+    {
+      "id": "0032CA58",
+      "type": "ChemsPrewarMarker",
+      "x": 52653.64453,
+      "y": 29129.17969
+    },
+    {
+      "id": "0032CA0D",
+      "type": "ChemsAnyMarker",
+      "x": 49331.43359,
+      "y": 26237.34375
+    },
+    {
+      "id": "0032CA4B",
+      "type": "ChemsPrewarMarker",
+      "x": 52622.14453,
+      "y": 28603.05078
+    },
+    {
+      "id": "0032CA4C",
+      "type": "ChemsPrewarMarker",
+      "x": 52700.51172,
+      "y": 28389.60156
+    },
+    {
+      "id": "0032C983",
+      "type": "ChemsAnyMarker",
+      "x": 49473.91406,
+      "y": 22888.74805
+    },
+    {
+      "id": "0032C985",
+      "type": "ChemsAnyMarker",
+      "x": 49627.80859,
+      "y": 22789.7832
+    },
+    {
+      "id": "0032C986",
+      "type": "ChemsAnyMarker",
+      "x": 49540.47266,
+      "y": 22690.15039
+    },
+    {
+      "id": "0032C988",
+      "type": "ChemsAnyMarker",
+      "x": 49320.71094,
+      "y": 22494.31641
+    },
+    {
+      "id": "0032C989",
+      "type": "ChemsAnyMarker",
+      "x": 49291.01172,
+      "y": 22532.7168
+    },
+    {
+      "id": "0032C98A",
+      "type": "ChemsAnyMarker",
+      "x": 49334.40625,
+      "y": 22515.25391
+    },
+    {
+      "id": "0032C98B",
+      "type": "ChemsAnyMarker",
+      "x": 49218.59375,
+      "y": 22643.99219
+    },
+    {
+      "id": "0032CA37",
+      "type": "ChemsAnyMarker",
+      "x": 45446.28906,
+      "y": 24643.38086
+    },
+    {
+      "id": "0032CA11",
+      "type": "ChemsAnyMarker",
+      "x": 47618.73047,
+      "y": 27601.84961
+    },
+    {
+      "id": "0032CA10",
+      "type": "ChemsAnyMarker",
+      "x": 48530.57813,
+      "y": 27003.41602
+    },
+    {
+      "id": "0032C995",
+      "type": "ChemsAnyMarker",
+      "x": 45132.42578,
+      "y": 21731.26172
+    },
+    {
+      "id": "0032C991",
+      "type": "ChemsAnyMarker",
+      "x": 45157.46875,
+      "y": 21817.09375
+    },
+    {
+      "id": "0032C990",
+      "type": "ChemsAnyMarker",
+      "x": 45723.91406,
+      "y": 20579.94727
+    },
+    {
+      "id": "0032C98F",
+      "type": "ChemsAnyMarker",
+      "x": 46842.02734,
+      "y": 21535.03125
+    },
+    {
+      "id": "0032C98D",
+      "type": "ChemsAnyMarker",
+      "x": 48967.38672,
+      "y": 23280.89844
+    },
+    {
+      "id": "0032C916",
+      "type": "ChemsAnyMarker",
+      "x": 47878.46094,
+      "y": 22316.61328
+    },
+    {
+      "id": "0032C913",
+      "type": "ChemsAnyMarker",
+      "x": 46275.53906,
+      "y": 20505.44141
+    },
+    {
+      "id": "0032C927",
+      "type": "ChemsRadMedsMarker",
+      "x": 48524.02734,
+      "y": 16583.85742
+    },
+    {
+      "id": "0032C926",
+      "type": "ChemsRadMedsMarker",
+      "x": 48534.97656,
+      "y": 16561.33789
+    },
+    {
+      "id": "0032C914",
+      "type": "ChemsAnyMarker",
+      "x": 46102.68359,
+      "y": 20413.21289
+    },
+    {
+      "id": "003CC6B9",
+      "type": "ChemsBloodpackMarker",
+      "x": 48619.08203,
+      "y": 9613.13086
+    },
+    {
+      "id": "003CC6CD",
+      "type": "ChemsAnyMarker",
+      "x": 48789.79297,
+      "y": 10116.53906
+    },
+    {
+      "id": "0032CA2D",
+      "type": "ChemsRadMedsMarker",
+      "x": 44879.59375,
+      "y": 22748.70508
+    },
+    {
+      "id": "0032CA35",
+      "type": "ChemsAnyMarker",
+      "x": 44705.29297,
+      "y": 23544.29883
+    },
+    {
+      "id": "0032CA36",
+      "type": "ChemsAnyMarker",
+      "x": 44602.19531,
+      "y": 24076.99219
+    },
+    {
+      "id": "0031E250",
+      "type": "ChemsAnyMarker",
+      "x": 43171.80859,
+      "y": 15546.69922
+    },
+    {
+      "id": "0031E252",
+      "type": "ChemsAnyMarker",
+      "x": 43173.27734,
+      "y": 15288.58105
+    },
+    {
+      "id": "0031E255",
+      "type": "ChemsAnyMarker",
+      "x": 42950.71094,
+      "y": 15362.63379
+    },
+    {
+      "id": "0031E256",
+      "type": "ChemsAnyMarker",
+      "x": 42681.87109,
+      "y": 14795.65527
+    },
+    {
+      "id": "0032EA29",
+      "type": "ChemsRadMedsMarker",
+      "x": 40127.87891,
+      "y": 14333.16309
+    },
+    {
+      "id": "0032EA2A",
+      "type": "ChemsRadMedsMarker",
+      "x": 40146.03125,
+      "y": 14410.26172
+    },
+    {
+      "id": "0032EA2B",
+      "type": "ChemsRadMedsMarker",
+      "x": 40132.74219,
+      "y": 14421.03223
+    },
+    {
+      "id": "004F996C",
+      "type": "ChemsAnyMarker",
+      "x": 64991.08984,
+      "y": 33313.89844
+    },
+    {
+      "id": "003AFE72",
+      "type": "ChemsPrewarMarker",
+      "x": 58226.03516,
+      "y": 58923.84375
+    },
+    {
+      "id": "003AFE60",
+      "type": "ChemsPrewarMarker",
+      "x": 56241.45313,
+      "y": 53823.85938
+    },
+    {
+      "id": "003AFE61",
+      "type": "ChemsPrewarMarker",
+      "x": 56229.85156,
+      "y": 53809.40625
+    },
+    {
+      "id": "003AFE59",
+      "type": "ChemsPrewarMarker",
+      "x": 52467.09375,
+      "y": 53075.13672
+    },
+    {
+      "id": "004FB2FD",
+      "type": "ChemsAnyMarker",
+      "x": 34182.96875,
+      "y": 58848.71094
+    },
+    {
+      "id": "00311281",
+      "type": "ChemsRadXMarker",
+      "x": 52740.74609,
+      "y": 78863.875
+    },
+    {
+      "id": "00311284",
+      "type": "ChemsStimpakMarker",
+      "x": 52752.55469,
+      "y": 78847.0625
+    },
+    {
+      "id": "00399D2C",
+      "type": "ChemsAnyMarker",
+      "x": 59769.78516,
+      "y": 129279.4922
+    },
+    {
+      "id": "00355D45",
+      "type": "ChemsRadMedsMarker",
+      "x": 86938.64063,
+      "y": 129596.2734
+    },
+    {
+      "id": "00355D54",
+      "type": "ChemsPrewarMarker",
+      "x": 86805.875,
+      "y": 129744.3984
+    },
+    {
+      "id": "00355D55",
+      "type": "ChemsAnyMarker",
+      "x": 87136.25781,
+      "y": 130074.625
+    },
+    {
+      "id": "003EAED4",
+      "type": "ChemsAnyMarker",
+      "x": 85116.5625,
+      "y": 128508.9375
+    },
+    {
+      "id": "00355D3B",
+      "type": "ChemsPrewarMarker",
+      "x": 85512.28906,
+      "y": 128791.1875
+    },
+    {
+      "id": "00355D3F",
+      "type": "ChemsAnyMarker",
+      "x": 85517.74219,
+      "y": 128642.3047
+    },
+    {
+      "id": "00355D4B",
+      "type": "ChemsRadMedsMarker",
+      "x": 85523.10938,
+      "y": 129194.6797
+    },
+    {
+      "id": "00355D62",
+      "type": "ChemsPrewarMarker",
+      "x": 85471.15625,
+      "y": 129267.9453
+    },
+    {
+      "id": "00355D66",
+      "type": "ChemsRadMedsMarker",
+      "x": 85032.75,
+      "y": 128719.3359
+    },
+    {
+      "id": "00355D68",
+      "type": "ChemsPrewarMarker",
+      "x": 85449.9375,
+      "y": 128635.8281
+    },
+    {
+      "id": "00522617",
+      "type": "ChemsAnyMarker",
+      "x": 73017.42188,
+      "y": 114368.9141
+    },
+    {
+      "id": "00522618",
+      "type": "ChemsAnyMarker",
+      "x": 72989.67969,
+      "y": 114361.0078
+    },
+    {
+      "id": "003A8740",
+      "type": "ChemsAnyMarker",
+      "x": 69758.8125,
+      "y": 101720.7891
+    },
+    {
+      "id": "003A7642",
+      "type": "ChemsAnyMarker",
+      "x": 72126.19531,
+      "y": 100324.2188
+    },
+    {
+      "id": "003A8758",
+      "type": "ChemsRadMedsMarker",
+      "x": 68868.20313,
+      "y": 101926.0547
+    },
+    {
+      "id": "003A8759",
+      "type": "ChemsRadMedsMarker",
+      "x": 68851.44531,
+      "y": 101933.7578
+    },
+    {
+      "id": "003A875B",
+      "type": "ChemsAnyMarker",
+      "x": 68779.13281,
+      "y": 101728.8203
+    },
+    {
+      "id": "004396E0",
+      "type": "ChemsAnyMarker",
+      "x": 127766.9141,
+      "y": 25951.60156
+    },
+    {
+      "id": "004396E1",
+      "type": "ChemsAnyMarker",
+      "x": 127832.6016,
+      "y": 25943.00586
+    },
+    {
+      "id": "00139083",
+      "type": "ChemsRadAwayMarker",
+      "x": 126679.875,
+      "y": 27206.40039
+    },
+    {
+      "id": "00342C05",
+      "type": "ChemsPrewarMarker",
+      "x": 124375.2109,
+      "y": 25132.22461
+    },
+    {
+      "id": "00130DDA",
+      "type": "ChemsAnyMarker",
+      "x": 119925.0938,
+      "y": 30783.03125
+    },
+    {
+      "id": "00130DDB",
+      "type": "ChemsStimpakMarker",
+      "x": 120053.4297,
+      "y": 30897.68164
+    },
+    {
+      "id": "00342C06",
+      "type": "ChemsAnyMarker",
+      "x": 119675.4609,
+      "y": 29265.79297
+    },
+    {
+      "id": "003427C4",
+      "type": "ChemsAnyMarker",
+      "x": 122463.3672,
+      "y": 23139.44141
+    },
+    {
+      "id": "004F77F7",
+      "type": "ChemsRadXMarker",
+      "x": 122503.5625,
+      "y": 18182.29883
+    },
+    {
+      "id": "004F77F8",
+      "type": "ChemsRadAwayMarker",
+      "x": 122511.5234,
+      "y": 18205.07422
+    },
+    {
+      "id": "004F77F9",
+      "type": "ChemsRadAwayMarker",
+      "x": 122479.2578,
+      "y": 18218.92383
+    },
+    {
+      "id": "0055FFA9",
+      "type": "ChemsRadMedsMarker",
+      "x": 128417.0156,
+      "y": 35183.66797
+    },
+    {
+      "id": "0055FFE4",
+      "type": "ChemsPrewarMarker",
+      "x": 128679.6016,
+      "y": 36261.17969
+    },
+    {
+      "id": "00560AD2",
+      "type": "ChemsStimpakMarker",
+      "x": 126808.7344,
+      "y": 36492.35938
+    },
+    {
+      "id": "003B2E0B",
+      "type": "ChemsPrewarMarker",
+      "x": 100317.7734,
+      "y": 34996.04297
+    },
+    {
+      "id": "003958BA",
+      "type": "ChemsAnyMarker",
+      "x": 116165.1797,
+      "y": 92202.04688
+    },
+    {
+      "id": "003958BB",
+      "type": "ChemsAnyMarker",
+      "x": 116146.5078,
+      "y": 92216.13281
+    },
+    {
+      "id": "003619DB",
+      "type": "ChemsAnyMarker",
+      "x": 106709.0234,
+      "y": 93792.21875
+    },
+    {
+      "id": "003619A1",
+      "type": "ChemsRadMedsMarker",
+      "x": 103971.0703,
+      "y": 95126.5625
+    },
+    {
+      "id": "003619E9",
+      "type": "ChemsPrewarMarker",
+      "x": 105941.2734,
+      "y": 95436.65625
+    },
+    {
+      "id": "003619EE",
+      "type": "ChemsAnyMarker",
+      "x": 104624.2344,
+      "y": 97092.42188
+    },
+    {
+      "id": "003619DF",
+      "type": "ChemsPrewarMarker",
+      "x": 106020.5938,
+      "y": 93707.00781
+    },
+    {
+      "id": "003E247C",
+      "type": "ChemsPrewarMarker",
+      "x": 104961.8125,
+      "y": 88477.29688
+    },
+    {
+      "id": "003E247D",
+      "type": "ChemsPrewarMarker",
+      "x": 104995.5703,
+      "y": 88486.42188
+    },
+    {
+      "id": "003619B9",
+      "type": "ChemsAnyMarker",
+      "x": 99045.57031,
+      "y": 95394.44531
+    },
+    {
+      "id": "003619BE",
+      "type": "ChemsPrewarMarker",
+      "x": 99152.14844,
+      "y": 95068.57031
+    },
+    {
+      "id": "003619CD",
+      "type": "ChemsAnyMarker",
+      "x": 99092.625,
+      "y": 94847.73438
+    },
+    {
+      "id": "003619CE",
+      "type": "ChemsAnyMarker",
+      "x": 98902.86719,
+      "y": 94951.125
+    },
+    {
+      "id": "003619D0",
+      "type": "ChemsAnyMarker",
+      "x": 98861.27344,
+      "y": 94740.63281
+    },
+    {
+      "id": "0050DC4B",
+      "type": "ChemsAnyMarker",
+      "x": 118167.3359,
+      "y": 121718.8594
+    },
+    {
+      "id": "0050DC4C",
+      "type": "ChemsAnyMarker",
+      "x": 118200.7344,
+      "y": 121816.4453
+    },
+    {
+      "id": "0034D957",
+      "type": "ChemsRadMedsMarker",
+      "x": 21591.36719,
+      "y": 132127.6406
+    },
+    {
+      "id": "0034D981",
+      "type": "ChemsRadMedsMarker",
+      "x": 21030.05469,
+      "y": 132863.9219
+    },
+    {
+      "id": "003434C5",
+      "type": "ChemsStimpakMarker",
+      "x": 21874.61914,
+      "y": 132318.1719
+    },
+    {
+      "id": "0034D97C",
+      "type": "ChemsRadMedsMarker",
+      "x": 16575.53906,
+      "y": 131822.4375
+    },
+    {
+      "id": "0034D97E",
+      "type": "ChemsRadMedsMarker",
+      "x": 16671.84766,
+      "y": 133546.2969
+    },
+    {
+      "id": "003828B2",
+      "type": "ChemsRadMedsMarker",
+      "x": 13502.18457,
+      "y": 157458.7813
+    },
+    {
+      "id": "0035E480",
+      "type": "ChemsRadMedsMarker",
+      "x": 12033.64551,
+      "y": 131822.8125
+    },
+    {
+      "id": "0035E486",
+      "type": "ChemsAnyMarker",
+      "x": 12139.56152,
+      "y": 132003.1563
+    },
+    {
+      "id": "002B95EE",
+      "type": "ChemsAnyMarker",
+      "x": 5716.897461,
+      "y": 134355.8281
+    },
+    {
+      "id": "003DF897",
+      "type": "ChemsRadMedsMarker",
+      "x": 3540.007324,
+      "y": 140598.4844
+    },
+    {
+      "id": "003133B8",
+      "type": "ChemsAnyMarker",
+      "x": 1746.816651,
+      "y": 141935.8906
+    },
+    {
+      "id": "00389B60",
+      "type": "ChemsRadMedsMarker",
+      "x": 30891.18945,
+      "y": 190413
+    },
+    {
+      "id": "00389B66",
+      "type": "ChemsRadMedsMarker",
+      "x": 30906.04883,
+      "y": 190422
+    },
+    {
+      "id": "0000083E",
+      "type": "ChemsRadMedsMarker",
+      "x": 31013.69141,
+      "y": 170317.6406
+    },
+    {
+      "id": "004FB112",
+      "type": "ChemsAnyMarker",
+      "x": 22057.72461,
+      "y": 180550.4219
+    },
+    {
+      "id": "004FB113",
+      "type": "ChemsAnyMarker",
+      "x": 22344.45117,
+      "y": 179200.7188
+    },
+    {
+      "id": "00000837",
+      "type": "ChemsRadMedsMarker",
+      "x": 21931.96289,
+      "y": 179586.6406
+    },
+    {
+      "id": "003A7966",
+      "type": "ChemsRadMedsMarker",
+      "x": 15281.61035,
+      "y": 185907.1094
+    },
+    {
+      "id": "0036123E",
+      "type": "ChemsRadMedsMarker",
+      "x": 14677.18457,
+      "y": 166991.8906
+    },
+    {
+      "id": "0036123F",
+      "type": "ChemsRadMedsMarker",
+      "x": 14774.00684,
+      "y": 166966.0156
+    },
+    {
+      "id": "00361248",
+      "type": "ChemsRadMedsMarker",
+      "x": 15039.01758,
+      "y": 167755.25
+    },
+    {
+      "id": "003EABE0",
+      "type": "ChemsAnyMarker",
+      "x": 7715.457032,
+      "y": 173652.8594
+    },
+    {
+      "id": "00342C34",
+      "type": "ChemsAnyMarker",
+      "x": 2763.374023,
+      "y": 183102.1406
+    },
+    {
+      "id": "00342C33",
+      "type": "ChemsAnyMarker",
+      "x": 2983.247314,
+      "y": 182811.2969
+    },
+    {
+      "id": "0034018D",
+      "type": "ChemsPrewarMarker",
+      "x": 1604.930298,
+      "y": 171026.4844
+    },
+    {
+      "id": "0034018C",
+      "type": "ChemsPrewarMarker",
+      "x": 1838.255981,
+      "y": 171047.9688
+    },
+    {
+      "id": "003C4466",
+      "type": "ChemsRadMedsMarker",
+      "x": 57616.25391,
+      "y": 153216.6406
+    },
+    {
+      "id": "0038A407",
+      "type": "ChemsAnyMarker",
+      "x": 54792.14844,
+      "y": 133187.1406
+    },
+    {
+      "id": "0038A408",
+      "type": "ChemsAnyMarker",
+      "x": 54987.45703,
+      "y": 132239.9063
+    },
+    {
+      "id": "004030B0",
+      "type": "ChemsStimpakMarker",
+      "x": 62386.48438,
+      "y": 196370.6563
+    },
+    {
+      "id": "004030B1",
+      "type": "ChemsStimpakMarker",
+      "x": 65457.46094,
+      "y": 196594.4375
+    },
+    {
+      "id": "004030B3",
+      "type": "ChemsStimpakMarker",
+      "x": 63684.28125,
+      "y": 189955.6875
+    },
+    {
+      "id": "004030B4",
+      "type": "ChemsStimpakMarker",
+      "x": 63695.23047,
+      "y": 189940.1094
+    },
+    {
+      "id": "004030AF",
+      "type": "ChemsStimpakMarker",
+      "x": 58080.44141,
+      "y": 193778.8438
+    },
+    {
+      "id": "004030B5",
+      "type": "ChemsStimpakMarker",
+      "x": 61086.86328,
+      "y": 188820.7344
+    },
+    {
+      "id": "003D4ECA",
+      "type": "ChemsAnyMarker",
+      "x": 58425.09375,
+      "y": 172663.3438
+    },
+    {
+      "id": "003D4ECB",
+      "type": "ChemsAnyMarker",
+      "x": 59443.65625,
+      "y": 172395.0156
+    },
+    {
+      "id": "00365E41",
+      "type": "ChemsAnyMarker",
+      "x": 57989.19922,
+      "y": 172255.4688
+    },
+    {
+      "id": "00365E42",
+      "type": "ChemsAnyMarker",
+      "x": 58064.46094,
+      "y": 172237.2656
+    },
+    {
+      "id": "003D4026",
+      "type": "ChemsRadMedsMarker",
+      "x": 58494.58984,
+      "y": 169110.5156
+    },
+    {
+      "id": "003D4ECF",
+      "type": "ChemsRadMedsMarker",
+      "x": 59903.90625,
+      "y": 167731.9375
+    },
+    {
+      "id": "003D4027",
+      "type": "ChemsRadMedsMarker",
+      "x": 58449.44141,
+      "y": 167869.3594
+    },
+    {
+      "id": "004030AD",
+      "type": "ChemsStimpakMarker",
+      "x": 56060.51172,
+      "y": 193329.1875
+    },
+    {
+      "id": "004030AE",
+      "type": "ChemsStimpakMarker",
+      "x": 56507.39453,
+      "y": 194145.6406
+    },
+    {
+      "id": "004030B6",
+      "type": "ChemsStimpakMarker",
+      "x": 57127.28125,
+      "y": 189117.9531
+    },
+    {
+      "id": "004030B7",
+      "type": "ChemsStimpakMarker",
+      "x": 57149.64453,
+      "y": 189125.1563
+    },
+    {
+      "id": "004030A8",
+      "type": "ChemsStimpakMarker",
+      "x": 39480.28906,
+      "y": 173115.7344
+    },
+    {
+      "id": "004030A9",
+      "type": "ChemsStimpakMarker",
+      "x": 39511.23438,
+      "y": 173121.5469
+    },
+    {
+      "id": "004030AA",
+      "type": "ChemsStimpakMarker",
+      "x": 39943.04688,
+      "y": 173056.8281
+    },
+    {
+      "id": "004030AB",
+      "type": "ChemsStimpakMarker",
+      "x": 38979.67578,
+      "y": 172850.2188
+    },
+    {
+      "id": "004030AC",
+      "type": "ChemsStimpakMarker",
+      "x": 38992.31641,
+      "y": 172860.4375
+    },
+    {
+      "id": "00355DA3",
+      "type": "ChemsRadMedsMarker",
+      "x": 97637.34375,
+      "y": 143781.2188
+    },
+    {
+      "id": "00355DB0",
+      "type": "ChemsAnyMarker",
+      "x": 97524.59375,
+      "y": 143662.0781
+    },
+    {
+      "id": "002BA28E",
+      "type": "ChemsAnyMarker",
+      "x": 94583.46875,
+      "y": 139273.625
+    },
+    {
+      "id": "003862ED",
+      "type": "ChemsAnyMarker",
+      "x": 94600.16406,
+      "y": 139256.875
+    },
+    {
+      "id": "00522554",
+      "type": "ChemsRadMedsMarker",
+      "x": 87374.53125,
+      "y": 145078.4531
+    },
+    {
+      "id": "00355D8E",
+      "type": "ChemsAnyMarker",
+      "x": 86793.25,
+      "y": 131961.7813
+    },
+    {
+      "id": "00355D93",
+      "type": "ChemsRadMedsMarker",
+      "x": 87832.3125,
+      "y": 133777.5469
+    },
+    {
+      "id": "00369726",
+      "type": "ChemsAnyMarker",
+      "x": 84969.85938,
+      "y": 132603
+    },
+    {
+      "id": "00355D7A",
+      "type": "ChemsRadMedsMarker",
+      "x": 85184.35156,
+      "y": 132803.3281
+    },
+    {
+      "id": "00355D82",
+      "type": "ChemsAnyMarker",
+      "x": 85629.875,
+      "y": 133874.3906
+    },
+    {
+      "id": "00355D85",
+      "type": "ChemsAnyMarker",
+      "x": 85884.59375,
+      "y": 133768.5938
+    },
+    {
+      "id": "003A7AE0",
+      "type": "ChemsRadMedsMarker",
+      "x": 81575.125,
+      "y": 144766.9844
+    },
+    {
+      "id": "003BD7C8",
+      "type": "ChemsRadMedsMarker",
+      "x": 77437.33594,
+      "y": 153949.9688
+    },
+    {
+      "id": "0055F20B",
+      "type": "ChemsAnyMarker",
+      "x": 79859.22656,
+      "y": 176672.2188
+    },
+    {
+      "id": "0055F212",
+      "type": "ChemsRadMedsMarker",
+      "x": 78719.90625,
+      "y": 176434.75
+    },
+    {
+      "id": "00394C01",
+      "type": "ChemsAnyMarker",
+      "x": 73101.3125,
+      "y": 180433.4219
+    },
+    {
+      "id": "004030B2",
+      "type": "ChemsStimpakMarker",
+      "x": 65601.14844,
+      "y": 195534.1563
+    },
+    {
+      "id": "00356802",
+      "type": "ChemsAnyMarker",
+      "x": 96971.34375,
+      "y": 198563.75
+    },
+    {
+      "id": "004030C1",
+      "type": "ChemsStimpakMarker",
+      "x": 127126.0156,
+      "y": 134826.5313
+    },
+    {
+      "id": "004030C2",
+      "type": "ChemsStimpakMarker",
+      "x": 127252.2891,
+      "y": 134835.2031
+    },
+    {
+      "id": "004030C0",
+      "type": "ChemsStimpakMarker",
+      "x": 126870.2813,
+      "y": 133118.5469
+    },
+    {
+      "id": "003BAC63",
+      "type": "ChemsAnyMarker",
+      "x": 126397.4766,
+      "y": 133034.3281
+    },
+    {
+      "id": "00342E76",
+      "type": "ChemsAnyMarker",
+      "x": 126845.5859,
+      "y": 132875.6719
+    },
+    {
+      "id": "003C409F",
+      "type": "ChemsRadMedsMarker",
+      "x": 121586.125,
+      "y": 134035.5313
+    },
+    {
+      "id": "003C40A0",
+      "type": "ChemsRadMedsMarker",
+      "x": 121590.2891,
+      "y": 134071.0469
+    },
+    {
+      "id": "00342C27",
+      "type": "ChemsRadMedsMarker",
+      "x": 115996.8672,
+      "y": 160574.2813
+    },
+    {
+      "id": "00342C25",
+      "type": "ChemsRadMedsMarker",
+      "x": 115984.0547,
+      "y": 160452.2969
+    },
+    {
+      "id": "003875FF",
+      "type": "ChemsAnyMarker",
+      "x": 105896.3438,
+      "y": 153264.3438
+    },
+    {
+      "id": "00355D9D",
+      "type": "ChemsRadMedsMarker",
+      "x": 98612.07813,
+      "y": 144290.625
+    },
+    {
+      "id": "004E40C2",
+      "type": "ChemsRadMedsMarker",
+      "x": 112642.75,
+      "y": 182997.9375
+    },
+    {
+      "id": "004E40C3",
+      "type": "ChemsRadMedsMarker",
+      "x": 112681.5391,
+      "y": 182950.5313
+    },
+    {
+      "id": "00342C83",
+      "type": "ChemsAnyMarker",
+      "x": 112254.0547,
+      "y": 182931.8594
+    },
+    {
+      "id": "004E40B2",
+      "type": "ChemsAnyMarker",
+      "x": 109906.6094,
+      "y": 180295.875
+    },
+    {
+      "id": "004E40D4",
+      "type": "ChemsAnyMarker",
+      "x": 109652.4531,
+      "y": 181583.8438
+    },
+    {
+      "id": "003DEF41",
+      "type": "ChemsPrewarMarker",
+      "x": 11941.79883,
+      "y": -132224.625
+    },
+    {
+      "id": "0040308D",
+      "type": "ChemsRadMedsMarker",
+      "x": 862.762695,
+      "y": -152885.1406
+    },
+    {
+      "id": "0040308E",
+      "type": "ChemsRadXMarker",
+      "x": 937.880127,
+      "y": -152876.2656
+    },
+    {
+      "id": "0040308F",
+      "type": "ChemsStimpakMarker",
+      "x": 1162.087524,
+      "y": -152338.8125
+    },
+    {
+      "id": "00403090",
+      "type": "ChemsRadAwayMarker",
+      "x": 911.741333,
+      "y": -152883.25
+    },
+    {
+      "id": "00403091",
+      "type": "ChemsStimpakMarker",
+      "x": 916.417298,
+      "y": -152856.4844
+    },
+    {
+      "id": "00403092",
+      "type": "ChemsStimpakMarker",
+      "x": 940.632386,
+      "y": -152859.5781
+    },
+    {
+      "id": "0051BDA9",
+      "type": "ChemsRadAwayMarker",
+      "x": 84.252419,
+      "y": -152721.8438
+    },
+    {
+      "id": "003A7337",
+      "type": "ChemsAnyMarker",
+      "x": 90.112335,
+      "y": -152836.4531
+    },
+    {
+      "id": "002E2BC2",
+      "type": "ChemsRadXMarker",
+      "x": 1183.647461,
+      "y": -152267.7031
+    },
+    {
+      "id": "002E2BC1",
+      "type": "ChemsRadAwayMarker",
+      "x": 1200.83667,
+      "y": -152211.1094
+    },
+    {
+      "id": "002E2B56",
+      "type": "ChemsRadXMarker",
+      "x": 682.29657,
+      "y": -152361.9375
+    },
+    {
+      "id": "002E2B55",
+      "type": "ChemsRadXMarker",
+      "x": 690.324951,
+      "y": -152351.8281
+    },
+    {
+      "id": "002E2B1A",
+      "type": "ChemsRadAwayMarker",
+      "x": 684.265686,
+      "y": -152218.2031
+    },
+    {
+      "id": "0052CB2B",
+      "type": "ChemsPrewarMarker",
+      "x": 65112.17969,
+      "y": -145746.4688
+    },
+    {
+      "id": "0031905D",
+      "type": "ChemsAnyMarker",
+      "x": 90715.85156,
+      "y": -138733.9375
+    },
+    {
+      "id": "0031905B",
+      "type": "ChemsAnyMarker",
+      "x": 88586.19531,
+      "y": -139015.5938
+    },
+    {
+      "id": "0033820C",
+      "type": "ChemsAnyMarker",
+      "x": 78922.39063,
+      "y": -160116.1875
+    },
+    {
+      "id": "0033820B",
+      "type": "ChemsAnyMarker",
+      "x": 78443.03125,
+      "y": -160017.4219
+    },
+    {
+      "id": "0058C74B",
+      "type": "ChemsStimpakMarker",
+      "x": 66308.38281,
+      "y": -145565.5156
+    },
+    {
+      "id": "00377AED",
+      "type": "ChemsAnyMarker",
+      "x": 123600.1484,
+      "y": -164140.2656
+    },
+    {
+      "id": "00437303",
+      "type": "ChemsAnyMarker",
+      "x": 122910.625,
+      "y": -172599.4844
+    },
+    {
+      "id": "0059B28A",
+      "type": "ChemsStimpakMarker",
+      "x": 121170.9531,
+      "y": -175239.5625
+    },
+    {
+      "id": "0059B289",
+      "type": "ChemsStimpakMarker",
+      "x": 121175.75,
+      "y": -175221.3438
+    },
+    {
+      "id": "00570BC1",
+      "type": "ChemsBloodpackMarker",
+      "x": 113404.7266,
+      "y": -148750.9844
+    },
+    {
+      "id": "00570BC2",
+      "type": "ChemsStimpakMarker",
+      "x": 113564.0469,
+      "y": -148745.5938
+    },
+    {
+      "id": "00570BC3",
+      "type": "ChemsRadAwayMarker",
+      "x": 113611.1484,
+      "y": -148765.5313
+    },
+    {
+      "id": "004F8E27",
+      "type": "ChemsAnyMarker",
+      "x": 112140.7266,
+      "y": -148618.7344
+    },
+    {
+      "id": "003CC79B",
+      "type": "ChemsRadMedsMarker",
+      "x": 10723.66016,
+      "y": -130756.25
+    },
+    {
+      "id": "003A6744",
+      "type": "ChemsPrewarMarker",
+      "x": 7615.341797,
+      "y": -98786.22656
+    },
+    {
+      "id": "003A674A",
+      "type": "ChemsPrewarMarker",
+      "x": 7456.432617,
+      "y": -98674.00781
+    },
+    {
+      "id": "004F9976",
+      "type": "ChemsRadXMarker",
+      "x": 30863.6543,
+      "y": -75651.5625
+    },
+    {
+      "id": "004F9977",
+      "type": "ChemsRadAwayMarker",
+      "x": 30848.15039,
+      "y": -75662.10938
+    },
+    {
+      "id": "00349681",
+      "type": "ChemsAnyMarker",
+      "x": 23379.81055,
+      "y": -67064.67969
+    },
+    {
+      "id": "003419CF",
+      "type": "ChemsAnyMarker",
+      "x": 29101.14649,
+      "y": -46724.05859
+    },
+    {
+      "id": "003419CE",
+      "type": "ChemsAnyMarker",
+      "x": 28854.67383,
+      "y": -46702.67188
+    },
+    {
+      "id": "00357AF5",
+      "type": "ChemsAnyMarker",
+      "x": 29324.01367,
+      "y": -50136.28516
+    },
+    {
+      "id": "003419CA",
+      "type": "ChemsAnyMarker",
+      "x": 27979.88477,
+      "y": -43517.65625
+    },
+    {
+      "id": "003419C9",
+      "type": "ChemsAnyMarker",
+      "x": 28299.4707,
+      "y": -43585.49219
+    },
+    {
+      "id": "003419D7",
+      "type": "ChemsAnyMarker",
+      "x": 27874.78711,
+      "y": -48657.34375
+    },
+    {
+      "id": "003419D9",
+      "type": "ChemsAnyMarker",
+      "x": 28119.74219,
+      "y": -49186.35547
+    },
+    {
+      "id": "004FB114",
+      "type": "ChemsAnyMarker",
+      "x": 23264.10547,
+      "y": -44700.55469
+    },
+    {
+      "id": "00364687",
+      "type": "ChemsAnyMarker",
+      "x": 13032.77344,
+      "y": -34676.4375
+    },
+    {
+      "id": "00277A3E",
+      "type": "ChemsPrewarMarker",
+      "x": 13563.87598,
+      "y": -56625.13281
+    },
+    {
+      "id": "00277A3F",
+      "type": "ChemsPrewarMarker",
+      "x": 13567.58887,
+      "y": -56632.1875
+    },
+    {
+      "id": "00277A40",
+      "type": "ChemsPrewarMarker",
+      "x": 13562.26074,
+      "y": -56631.59766
+    },
+    {
+      "id": "0023D8A9",
+      "type": "ChemsAnyMarker",
+      "x": 11914.37793,
+      "y": -58319.77344
+    },
+    {
+      "id": "0023D8AA",
+      "type": "ChemsAnyMarker",
+      "x": 11922.4209,
+      "y": -58333.79688
+    },
+    {
+      "id": "003D710C",
+      "type": "ChemsPrewarMarker",
+      "x": 7135.20166,
+      "y": -38221.76563
+    },
+    {
+      "id": "003D710D",
+      "type": "ChemsPrewarMarker",
+      "x": 7153.422852,
+      "y": -38224.84766
+    },
+    {
+      "id": "0036FFC5",
+      "type": "ChemsPrewarMarker",
+      "x": 4882.197754,
+      "y": -38208.78906
+    },
+    {
+      "id": "0050BA03",
+      "type": "ChemsAnyMarker",
+      "x": 6420.379883,
+      "y": -44035.13281
+    },
+    {
+      "id": "003D709E",
+      "type": "ChemsPrewarMarker",
+      "x": 7631.044922,
+      "y": -43768.84766
+    },
+    {
+      "id": "003D709F",
+      "type": "ChemsPrewarMarker",
+      "x": 7573.854004,
+      "y": -43793.67969
+    },
+    {
+      "id": "003D63EC",
+      "type": "ChemsPrewarMarker",
+      "x": 6686.015137,
+      "y": -50841.84375
+    },
+    {
+      "id": "003D1EF3",
+      "type": "ChemsStimpakMarker",
+      "x": 47.826737,
+      "y": -33471.26953
+    },
+    {
+      "id": "003D1EF4",
+      "type": "ChemsStimpakMarker",
+      "x": 48.808869,
+      "y": -33472.02344
+    },
+    {
+      "id": "003AD690",
+      "type": "ChemsPrewarMarker",
+      "x": 21034.41406,
+      "y": -7314.693848
+    },
+    {
+      "id": "00345999",
+      "type": "ChemsRadMedsMarker",
+      "x": 15364.68555,
+      "y": -20764.62891
+    },
+    {
+      "id": "0034E85E",
+      "type": "ChemsRadMedsMarker",
+      "x": 36311.79688,
+      "y": -66018.03125
+    },
+    {
+      "id": "004030A5",
+      "type": "ChemsRadAwayMarker",
+      "x": 59198.03906,
+      "y": -52858.90625
+    },
+    {
+      "id": "004030A6",
+      "type": "ChemsStimpakMarker",
+      "x": 59197.46875,
+      "y": -52859.94141
+    },
+    {
+      "id": "004030A7",
+      "type": "ChemsStimpakMarker",
+      "x": 59231.9375,
+      "y": -52821.54688
+    },
+    {
+      "id": "004030A1",
+      "type": "ChemsStimpakMarker",
+      "x": 57909.13281,
+      "y": -54747.1875
+    },
+    {
+      "id": "004030A2",
+      "type": "ChemsRadMedsMarker",
+      "x": 57842.86719,
+      "y": -54933.05469
+    },
+    {
+      "id": "004030A3",
+      "type": "ChemsRadAwayMarker",
+      "x": 57876.33203,
+      "y": -54961.32031
+    },
+    {
+      "id": "004030A4",
+      "type": "ChemsStimpakMarker",
+      "x": 57794.62891,
+      "y": -54926.65234
+    },
+    {
+      "id": "0040309D",
+      "type": "ChemsStimpakMarker",
+      "x": 55174.05859,
+      "y": -51376.94531
+    },
+    {
+      "id": "0040309E",
+      "type": "ChemsStimpakMarker",
+      "x": 55443.55469,
+      "y": -52021.96484
+    },
+    {
+      "id": "0040309F",
+      "type": "ChemsStimpakMarker",
+      "x": 56893.5625,
+      "y": -52870.37891
+    },
+    {
+      "id": "004030A0",
+      "type": "ChemsRadAwayMarker",
+      "x": 56905.10547,
+      "y": -52852.00391
+    },
+    {
+      "id": "0059B92F",
+      "type": "ChemsAnyMarker",
+      "x": 56004.35938,
+      "y": -61878.53906
+    },
+    {
+      "id": "003E1309",
+      "type": "ChemsPrewarMarker",
+      "x": 49115.89844,
+      "y": -37648.23047
+    },
+    {
+      "id": "003E130F",
+      "type": "ChemsPrewarMarker",
+      "x": 44491.46484,
+      "y": -39954.05469
+    },
+    {
+      "id": "005A1684",
+      "type": "ChemsPrewarMarker",
+      "x": 41889.41016,
+      "y": -65260.79297
+    },
+    {
+      "id": "005A1685",
+      "type": "ChemsPrewarMarker",
+      "x": 41870.47266,
+      "y": -65256.02734
+    },
+    {
+      "id": "0034E893",
+      "type": "ChemsAnyMarker",
+      "x": 41069,
+      "y": -62785.80859
+    },
+    {
+      "id": "0034E892",
+      "type": "ChemsAnyMarker",
+      "x": 40607.94922,
+      "y": -63895.09375
+    },
+    {
+      "id": "003EC190",
+      "type": "ChemsBloodpackMarker",
+      "x": 59678.59375,
+      "y": -14558.85156
+    },
+    {
+      "id": "003B2E2C",
+      "type": "ChemsRadMedsMarker",
+      "x": 33962.92578,
+      "y": -5448.305176
+    },
+    {
+      "id": "003A8954",
+      "type": "ChemsRadMedsMarker",
+      "x": 89375.96094,
+      "y": -80986.53125
+    },
+    {
+      "id": "0055C32D",
+      "type": "ChemsAnyMarker",
+      "x": 84408.49219,
+      "y": -69825.32031
+    },
+    {
+      "id": "003D5433",
+      "type": "ChemsStimpakMarker",
+      "x": 73380.48438,
+      "y": -95278.92188
+    },
+    {
+      "id": "003BE46C",
+      "type": "ChemsAnyMarker",
+      "x": 91791.86719,
+      "y": -32025.58594
+    },
+    {
+      "id": "003BE46D",
+      "type": "ChemsAnyMarker",
+      "x": 92066.23438,
+      "y": -32307.53711
+    },
+    {
+      "id": "004FD18D",
+      "type": "ChemsAnyMarker",
+      "x": 119529.0234,
+      "y": -128491.5859
+    },
+    {
+      "id": "003BB27F",
+      "type": "ChemsAnyMarker",
+      "x": 119992.5547,
+      "y": -128358.3125
+    },
+    {
+      "id": "0036A0A3",
+      "type": "ChemsPrewarMarker",
+      "x": 119117.0313,
+      "y": -129407.1328
+    },
+    {
+      "id": "0036A0A4",
+      "type": "ChemsAnyMarker",
+      "x": 119354.2656,
+      "y": -129459.7422
+    },
+    {
+      "id": "0036A0AD",
+      "type": "ChemsPrewarMarker",
+      "x": 120027.5234,
+      "y": -128942.7578
+    },
+    {
+      "id": "0036A0AE",
+      "type": "ChemsPrewarMarker",
+      "x": 120074.3438,
+      "y": -129028.6016
+    },
+    {
+      "id": "003957F4",
+      "type": "ChemsAnyMarker",
+      "x": 98806.03906,
+      "y": -59426.48438
+    },
+    {
+      "id": "003957FA",
+      "type": "ChemsRadMedsMarker",
+      "x": 99467.71875,
+      "y": -59410.08594
+    },
+    {
+      "id": "003957FB",
+      "type": "ChemsRadMedsMarker",
+      "x": 99486.52344,
+      "y": -59425.56641
+    },
+    {
+      "id": "00312232",
+      "type": "ChemsRadMedsMarker",
+      "x": 117914.3594,
+      "y": -16824.77734
+    },
+    {
+      "id": "0033569F",
+      "type": "ChemsAnyMarker",
+      "x": 161612.1875,
+      "y": 8748.300781
+    },
+    {
+      "id": "0042F6E3",
+      "type": "ChemsPrewarMarker",
+      "x": 160171.0938,
+      "y": 5694.288575
+    },
+    {
+      "id": "0042F6E4",
+      "type": "ChemsPrewarMarker",
+      "x": 160115.2969,
+      "y": 5818.536133
+    },
+    {
+      "id": "0042F6E5",
+      "type": "ChemsPrewarMarker",
+      "x": 160084.3438,
+      "y": 5607.701172
+    },
+    {
+      "id": "0042F6E6",
+      "type": "ChemsPrewarMarker",
+      "x": 160019.3906,
+      "y": 5707.852539
+    },
+    {
+      "id": "0042F6E7",
+      "type": "ChemsPrewarMarker",
+      "x": 160171.875,
+      "y": 5828.572265
+    },
+    {
+      "id": "003E9922",
+      "type": "ChemsRadMedsMarker",
+      "x": 162490.4688,
+      "y": 5724.48877
+    },
+    {
+      "id": "003E7C3B",
+      "type": "ChemsRadMedsMarker",
+      "x": 160621.0469,
+      "y": 7075.61914
+    },
+    {
+      "id": "003E7C3C",
+      "type": "ChemsRadMedsMarker",
+      "x": 160636.1563,
+      "y": 7063.87793
+    },
+    {
+      "id": "003E7C3D",
+      "type": "ChemsRadMedsMarker",
+      "x": 160649.2188,
+      "y": 7089.751953
+    },
+    {
+      "id": "00335699",
+      "type": "ChemsAnyMarker",
+      "x": 162369.4375,
+      "y": 7054.532226
+    },
+    {
+      "id": "0033569A",
+      "type": "ChemsAnyMarker",
+      "x": 162394.7344,
+      "y": 7167.993652
+    },
+    {
+      "id": "0033569B",
+      "type": "ChemsAnyMarker",
+      "x": 162328.1094,
+      "y": 7293.369141
+    },
+    {
+      "id": "0033569C",
+      "type": "ChemsAnyMarker",
+      "x": 162409.9688,
+      "y": 7208.529785
+    },
+    {
+      "id": "0033569E",
+      "type": "ChemsAnyMarker",
+      "x": 161556.1563,
+      "y": 6708.477051
+    },
+    {
+      "id": "003356A0",
+      "type": "ChemsAnyMarker",
+      "x": 161113.1875,
+      "y": 6712.499023
+    },
+    {
+      "id": "003356A1",
+      "type": "ChemsAnyMarker",
+      "x": 161504.5,
+      "y": 6497.14502
+    },
+    {
+      "id": "003356A2",
+      "type": "ChemsAnyMarker",
+      "x": 160716.4219,
+      "y": 4293.67334
+    },
+    {
+      "id": "003356AB",
+      "type": "ChemsAnyMarker",
+      "x": 162670.1406,
+      "y": 7317.555665
+    },
+    {
+      "id": "003E9929",
+      "type": "ChemsRadMedsMarker",
+      "x": 161326,
+      "y": 2648.65747
+    },
+    {
+      "id": "003E5D51",
+      "type": "ChemsRadMedsMarker",
+      "x": 159789.3594,
+      "y": 3084.227783
+    },
+    {
+      "id": "0033568A",
+      "type": "ChemsAnyMarker",
+      "x": 162576.4063,
+      "y": 2915.614991
+    },
+    {
+      "id": "003356A3",
+      "type": "ChemsAnyMarker",
+      "x": 160279.4375,
+      "y": 3875.497803
+    },
+    {
+      "id": "003356A4",
+      "type": "ChemsAnyMarker",
+      "x": 160761.4375,
+      "y": 3525.344971
+    },
+    {
+      "id": "003356A5",
+      "type": "ChemsAnyMarker",
+      "x": 161214.9844,
+      "y": 3828.724853
+    },
+    {
+      "id": "003356A6",
+      "type": "ChemsAnyMarker",
+      "x": 161101.125,
+      "y": 3710.809327
+    },
+    {
+      "id": "003356A7",
+      "type": "ChemsAnyMarker",
+      "x": 160232.8906,
+      "y": 3839.004883
+    },
+    {
+      "id": "003356A8",
+      "type": "ChemsAnyMarker",
+      "x": 160357.3438,
+      "y": 3749.480469
+    },
+    {
+      "id": "003356AA",
+      "type": "ChemsPrewarMarker",
+      "x": 160692.4531,
+      "y": 3475.914551
+    },
+    {
+      "id": "003E5D84",
+      "type": "ChemsRadMedsMarker",
+      "x": 159085.2813,
+      "y": 2901.958252
+    },
+    {
+      "id": "003E5DDE",
+      "type": "ChemsAnyMarker",
+      "x": 156929.125,
+      "y": 2484.570313
+    },
+    {
+      "id": "004396ED",
+      "type": "ChemsAnyMarker",
+      "x": 132034.3438,
+      "y": 24625.36524
+    },
+    {
+      "id": "004396F1",
+      "type": "ChemsPrewarMarker",
+      "x": 131659.2656,
+      "y": 24749.00195
+    },
+    {
+      "id": "004396F2",
+      "type": "ChemsPrewarMarker",
+      "x": 131675.9375,
+      "y": 24759.97852
+    },
+    {
+      "id": "00342BF7",
+      "type": "ChemsPrewarMarker",
+      "x": 131198.1094,
+      "y": 26111.28125
+    },
+    {
+      "id": "00340EC3",
+      "type": "ChemsPrewarMarker",
+      "x": 131622.6875,
+      "y": 24718.08399
+    },
+    {
+      "id": "00340EC2",
+      "type": "ChemsPrewarMarker",
+      "x": 131933.9375,
+      "y": 24769.00391
+    },
+    {
+      "id": "004396E6",
+      "type": "ChemsAnyMarker",
+      "x": 131756.5938,
+      "y": 24540.85938
+    },
+    {
+      "id": "0052709F",
+      "type": "ChemsPrewarMarker",
+      "x": 131531.2344,
+      "y": 24225.73633
+    },
+    {
+      "id": "005270BD",
+      "type": "ChemsPrewarMarker",
+      "x": 131262.4531,
+      "y": 24541.98828
+    },
+    {
+      "id": "00525CF3",
+      "type": "ChemsPrewarMarker",
+      "x": 131239.0781,
+      "y": 24106.39844
+    },
+    {
+      "id": "00525CF4",
+      "type": "ChemsAnyMarker",
+      "x": 131625.3438,
+      "y": 24092.55469
+    },
+    {
+      "id": "00340EBF",
+      "type": "ChemsPrewarMarker",
+      "x": 131935,
+      "y": 24103.94922
+    },
+    {
+      "id": "00340EC0",
+      "type": "ChemsPrewarMarker",
+      "x": 131927.3906,
+      "y": 24128.36133
+    },
+    {
+      "id": "00340EC1",
+      "type": "ChemsPrewarMarker",
+      "x": 131655.7969,
+      "y": 24202.16992
+    },
+    {
+      "id": "003E4DC1",
+      "type": "ChemsAnyMarker",
+      "x": 161590.625,
+      "y": 47616.92188
+    },
+    {
+      "id": "003E6156",
+      "type": "ChemsAnyMarker",
+      "x": 156770.8594,
+      "y": 88310.91406
+    },
+    {
+      "id": "0036BECA",
+      "type": "ChemsRadMedsMarker",
+      "x": 157922.375,
+      "y": 87499.76563
+    },
+    {
+      "id": "0036BECC",
+      "type": "ChemsPrewarMarker",
+      "x": 158434.375,
+      "y": 86957.11719
+    },
+    {
+      "id": "0036BEDE",
+      "type": "ChemsRadMedsMarker",
+      "x": 156814.2813,
+      "y": 87953.02344
+    },
+    {
+      "id": "0036BEF1",
+      "type": "ChemsPrewarMarker",
+      "x": 152571.3438,
+      "y": 85821.42969
+    },
+    {
+      "id": "0036BEE8",
+      "type": "ChemsRadMedsMarker",
+      "x": 151104.5156,
+      "y": 84992.03906
+    },
+    {
+      "id": "0043E16D",
+      "type": "ChemsAnyMarker",
+      "x": 138428.5938,
+      "y": 72023.79688
+    },
+    {
+      "id": "003C0DB2",
+      "type": "ChemsRadMedsMarker",
+      "x": 161955.375,
+      "y": 106730.9609
+    },
+    {
+      "id": "00593A76",
+      "type": "ChemsRadMedsMarker",
+      "x": 145762.5781,
+      "y": 111495.8516
+    },
+    {
+      "id": "0051B921",
+      "type": "ChemsHealingSalveMarker",
+      "x": 139192.1875,
+      "y": 111565.8594
+    },
+    {
+      "id": "003E4DF0",
+      "type": "ChemsRadMedsMarker",
+      "x": 192889.7031,
+      "y": 16583.4375
+    },
+    {
+      "id": "004FB0DA",
+      "type": "ChemsAnyMarker",
+      "x": 196078.1094,
+      "y": 14554.9248
+    },
+    {
+      "id": "00347293",
+      "type": "ChemsAnyMarker",
+      "x": 193730.6563,
+      "y": 14346.27734
+    },
+    {
+      "id": "003BA884",
+      "type": "ChemsAnyMarker",
+      "x": 196018.5,
+      "y": 14530.09766
+    },
+    {
+      "id": "003E7D97",
+      "type": "ChemsAnyMarker",
+      "x": 193278.2031,
+      "y": 14814.4082
+    },
+    {
+      "id": "003E25AF",
+      "type": "ChemsAnyMarker",
+      "x": 193326.5625,
+      "y": 13166.36524
+    },
+    {
+      "id": "00346E80",
+      "type": "ChemsRadMedsMarker",
+      "x": 190915.5781,
+      "y": 14276.37207
+    },
+    {
+      "id": "003F3E07",
+      "type": "ChemsRadMedsMarker",
+      "x": 182964.6875,
+      "y": 12006.50586
+    },
+    {
+      "id": "00535043",
+      "type": "ChemsAnyMarker",
+      "x": 183017.875,
+      "y": 12252.75293
+    },
+    {
+      "id": "00470D15",
+      "type": "ChemsAnyMarker",
+      "x": 181995.7969,
+      "y": 3132.18042
+    },
+    {
+      "id": "00470D16",
+      "type": "ChemsAnyMarker",
+      "x": 182339.5156,
+      "y": 2766.351074
+    },
+    {
+      "id": "00470D17",
+      "type": "ChemsAnyMarker",
+      "x": 182250.6563,
+      "y": 2521.394776
+    },
+    {
+      "id": "00470D1A",
+      "type": "ChemsRadMedsMarker",
+      "x": 181993.7344,
+      "y": 3136.526367
+    },
+    {
+      "id": "00470D80",
+      "type": "ChemsRadMedsMarker",
+      "x": 182813,
+      "y": 3395.503906
+    },
+    {
+      "id": "003356AC",
+      "type": "ChemsAnyMarker",
+      "x": 164792.3281,
+      "y": 5876.480957
+    },
+    {
+      "id": "003356AD",
+      "type": "ChemsAnyMarker",
+      "x": 164782.4063,
+      "y": 5894.311523
+    },
+    {
+      "id": "0042F6EB",
+      "type": "ChemsAnyMarker",
+      "x": 166424.4219,
+      "y": 3306.736817
+    },
+    {
+      "id": "003E8BE9",
+      "type": "ChemsPrewarMarker",
+      "x": 164324.2188,
+      "y": 2059.386475
+    },
+    {
+      "id": "003E8BEA",
+      "type": "ChemsPrewarMarker",
+      "x": 164335.5625,
+      "y": 2072.144776
+    },
+    {
+      "id": "003E8BEB",
+      "type": "ChemsPrewarMarker",
+      "x": 164723.1406,
+      "y": 1762.976563
+    },
+    {
+      "id": "000425F7",
+      "type": "ChemsRadXMarker",
+      "x": 164624.125,
+      "y": 2558.163575
+    },
+    {
+      "id": "000425F2",
+      "type": "ChemsRadXMarker",
+      "x": 164639.9063,
+      "y": 2556.278565
+    },
+    {
+      "id": "000425EC",
+      "type": "ChemsStimpakMarker",
+      "x": 164617.1875,
+      "y": 2561.636475
+    },
+    {
+      "id": "000425DF",
+      "type": "ChemsStimpakMarker",
+      "x": 164201.75,
+      "y": 2540.238526
+    },
+    {
+      "id": "00335698",
+      "type": "ChemsAnyMarker",
+      "x": 167573.7969,
+      "y": 3486.96875
+    },
+    {
+      "id": "003356AE",
+      "type": "ChemsAnyMarker",
+      "x": 164484.3125,
+      "y": 1398.248168
+    },
+    {
+      "id": "003356AF",
+      "type": "ChemsAnyMarker",
+      "x": 164428.75,
+      "y": 1943.395996
+    },
+    {
+      "id": "003356B0",
+      "type": "ChemsAnyMarker",
+      "x": 164098.1875,
+      "y": 1893.045166
+    },
+    {
+      "id": "003356B1",
+      "type": "ChemsAnyMarker",
+      "x": 164130.2344,
+      "y": 1878.098388
+    },
+    {
+      "id": "003356B4",
+      "type": "ChemsAnyMarker",
+      "x": 164379.9219,
+      "y": 1790.610839
+    },
+    {
+      "id": "003356B5",
+      "type": "ChemsAnyMarker",
+      "x": 164485.5781,
+      "y": 1704.140015
+    },
+    {
+      "id": "003356B7",
+      "type": "ChemsAnyMarker",
+      "x": 164819.1875,
+      "y": 1646.509033
+    },
+    {
+      "id": "003356B9",
+      "type": "ChemsAnyMarker",
+      "x": 164800.3438,
+      "y": 2379.748779
+    },
+    {
+      "id": "003356BA",
+      "type": "ChemsAnyMarker",
+      "x": 164398.2344,
+      "y": 2758.033447
+    },
+    {
+      "id": "003356BC",
+      "type": "ChemsAnyMarker",
+      "x": 164067.0313,
+      "y": 2904.051514
+    },
+    {
+      "id": "003356BD",
+      "type": "ChemsAnyMarker",
+      "x": 164090.3438,
+      "y": 2685.399902
+    },
+    {
+      "id": "003356BE",
+      "type": "ChemsAnyMarker",
+      "x": 164334.0313,
+      "y": 2369.884766
+    },
+    {
+      "id": "003356FC",
+      "type": "ChemsAnyMarker",
+      "x": 164529.8906,
+      "y": 1350.608155
+    },
+    {
+      "id": "0033574C",
+      "type": "ChemsPrewarMarker",
+      "x": 164404.5469,
+      "y": 1544.954712
+    },
+    {
+      "id": "0012F231",
+      "type": "ChemsAnyMarker",
+      "x": 190719,
+      "y": 48643.17188
+    },
+    {
+      "id": "0052ECC2",
+      "type": "ChemsRadMedsMarker",
+      "x": 176750.2969,
+      "y": 44817.35547
+    },
+    {
+      "id": "00344035",
+      "type": "ChemsAnyMarker",
+      "x": 177164.1406,
+      "y": 42090.14844
+    },
+    {
+      "id": "0035CE36",
+      "type": "ChemsStimpakMarker",
+      "x": 177504.7969,
+      "y": 34648.85938
+    },
+    {
+      "id": "003ABEAE",
+      "type": "ChemsAnyMarker",
+      "x": 173914.2031,
+      "y": 63527.87109
+    },
+    {
+      "id": "003314D3",
+      "type": "ChemsRadMedsMarker",
+      "x": 173780.9063,
+      "y": 64230.23828
+    },
+    {
+      "id": "003C617D",
+      "type": "ChemsAnyMarker",
+      "x": 173284.1406,
+      "y": 60280.34766
+    },
+    {
+      "id": "003E4D4E",
+      "type": "ChemsRadMedsMarker",
+      "x": 164284.3281,
+      "y": 44124.55078
+    },
+    {
+      "id": "004E7A71",
+      "type": "ChemsRadMedsMarker",
+      "x": 189687.9219,
+      "y": 95196.77344
+    },
+    {
+      "id": "0051E721",
+      "type": "ChemsStimpakMarker",
+      "x": 183747.1094,
+      "y": 83222.71875
+    },
+    {
+      "id": "003518EE",
+      "type": "ChemsRadMedsMarker",
+      "x": 195680.8281,
+      "y": 100651.5547
+    },
+    {
+      "id": "0035180A",
+      "type": "ChemsRadMedsMarker",
+      "x": 192017.8594,
+      "y": 101197.6484
+    },
+    {
+      "id": "0035180D",
+      "type": "ChemsAnyMarker",
+      "x": 192143.9844,
+      "y": 101394.3828
+    },
+    {
+      "id": "0038A87B",
+      "type": "ChemsAnyMarker",
+      "x": 173372.9531,
+      "y": 107823.6406
+    },
+    {
+      "id": "0038A87C",
+      "type": "ChemsAnyMarker",
+      "x": 173327.75,
+      "y": 107861.6406
+    },
+    {
+      "id": "003A4DC1",
+      "type": "ChemsAnyMarker",
+      "x": 168795.7969,
+      "y": 124800.5469
+    },
+    {
+      "id": "003A4DCB",
+      "type": "ChemsAnyMarker",
+      "x": 168812.5313,
+      "y": 124983.875
+    },
+    {
+      "id": "003E18B7",
+      "type": "ChemsAnyMarker",
+      "x": 201781.125,
+      "y": 70298.91406
+    },
+    {
+      "id": "0038FF18",
+      "type": "ChemsAnyMarker",
+      "x": 202145.7344,
+      "y": 99281.55469
+    },
+    {
+      "id": "0020FC54",
+      "type": "ChemsRadMedsMarker",
+      "x": 197581.875,
+      "y": 99123.45313
+    },
+    {
+      "id": "0038F019",
+      "type": "ChemsRadMedsMarker",
+      "x": 161790.0625,
+      "y": 152434.4844
+    },
+    {
+      "id": "0038F01B",
+      "type": "ChemsRadMedsMarker",
+      "x": 161933.4688,
+      "y": 152827.125
+    },
+    {
+      "id": "0038F02B",
+      "type": "ChemsPrewarMarker",
+      "x": 161622.7969,
+      "y": 152690.3438
+    },
+    {
+      "id": "004030B8",
+      "type": "ChemsStimpakMarker",
+      "x": 140303.1875,
+      "y": 153388.8594
+    },
+    {
+      "id": "004030B9",
+      "type": "ChemsStimpakMarker",
+      "x": 140299.5156,
+      "y": 153367.2656
+    },
+    {
+      "id": "004030BA",
+      "type": "ChemsStimpakMarker",
+      "x": 139870.6094,
+      "y": 153170.5156
+    },
+    {
+      "id": "004030BE",
+      "type": "ChemsStimpakMarker",
+      "x": 140288.5469,
+      "y": 144804.4844
+    },
+    {
+      "id": "0034272C",
+      "type": "ChemsRadMedsMarker",
+      "x": 140615.0625,
+      "y": 144870.2031
+    },
+    {
+      "id": "004030BF",
+      "type": "ChemsStimpakMarker",
+      "x": 139343.9531,
+      "y": 142860.5156
+    },
+    {
+      "id": "0051CBA8",
+      "type": "ChemsStimpakMarker",
+      "x": 136378.0781,
+      "y": 161973.7031
+    },
+    {
+      "id": "004030BB",
+      "type": "ChemsStimpakMarker",
+      "x": 137807.0469,
+      "y": 152161.3281
+    },
+    {
+      "id": "00342723",
+      "type": "ChemsRadMedsMarker",
+      "x": 136707.875,
+      "y": 152105.4844
+    },
+    {
+      "id": "004030BD",
+      "type": "ChemsStimpakMarker",
+      "x": 137900.5313,
+      "y": 148026.0156
+    },
+    {
+      "id": "004030BC",
+      "type": "ChemsStimpakMarker",
+      "x": 134824.625,
+      "y": 149392.1406
+    },
+    {
+      "id": "004E34F0",
+      "type": "ChemsAnyMarker",
+      "x": 134264.9063,
+      "y": 150357.3438
+    },
+    {
+      "id": "00592F5F",
+      "type": "ChemsAnyMarker",
+      "x": 145112.1563,
+      "y": 186860.1875
+    },
+    {
+      "id": "0039312A",
+      "type": "ChemsAnyMarker",
+      "x": 144123.8906,
+      "y": 200438.1719
+    },
+    {
+      "id": "003A6FC3",
+      "type": "ChemsAnyMarker",
+      "x": 190790.9531,
+      "y": 182731.0781
+    },
+    {
+      "id": "003A6FC4",
+      "type": "ChemsAnyMarker",
+      "x": 190807.4531,
+      "y": 182760.6094
+    },
+    {
+      "id": "0059B284",
+      "type": "ChemsAnyMarker",
+      "x": 142497.6719,
+      "y": -178232.7031
+    },
+    {
+      "id": "0059AE67",
+      "type": "ChemsHealingSalveMarker",
+      "x": 157032.7656,
+      "y": -163062.125
+    },
+    {
+      "id": "0059AE68",
+      "type": "ChemsBloodpackMarker",
+      "x": 157014.75,
+      "y": -163049.5156
+    },
+    {
+      "id": "003459BE",
+      "type": "ChemsAnyMarker",
+      "x": 153534.1563,
+      "y": -138460
+    },
+    {
+      "id": "0035EBD8",
+      "type": "ChemsAnyMarker",
+      "x": 152033.4063,
+      "y": -160847.4375
+    },
+    {
+      "id": "0051DB27",
+      "type": "ChemsAnyMarker",
+      "x": 150766.2813,
+      "y": -135063.5313
+    },
+    {
+      "id": "003E570A",
+      "type": "ChemsPrewarMarker",
+      "x": 147990.2188,
+      "y": -150518.4688
+    },
+    {
+      "id": "003AA673",
+      "type": "ChemsBloodpackMarker",
+      "x": 151160.8594,
+      "y": -149720.9688
+    },
+    {
+      "id": "0035A91C",
+      "type": "ChemsAnyMarker",
+      "x": 141245.7969,
+      "y": -141016.6094
+    },
+    {
+      "id": "0035A927",
+      "type": "ChemsRadMedsMarker",
+      "x": 141159.9531,
+      "y": -141047.1094
+    },
+    {
+      "id": "0035A928",
+      "type": "ChemsPrewarMarker",
+      "x": 141503.7031,
+      "y": -141014.9531
+    },
+    {
+      "id": "00536892",
+      "type": "ChemsXCellMarker",
+      "x": 140489.2813,
+      "y": -160659.1875
+    },
+    {
+      "id": "0050CD5E",
+      "type": "ChemsRadMedsMarker",
+      "x": 137015.1563,
+      "y": -140919.75
+    },
+    {
+      "id": "0035A93D",
+      "type": "ChemsAnyMarker",
+      "x": 138040.8438,
+      "y": -139887.4531
+    },
+    {
+      "id": "0035A942",
+      "type": "ChemsRadMedsMarker",
+      "x": 136026.4688,
+      "y": -143145.5625
+    },
+    {
+      "id": "0035A94D",
+      "type": "ChemsRadMedsMarker",
+      "x": 137173.0156,
+      "y": -140946.8281
+    },
+    {
+      "id": "0035A952",
+      "type": "ChemsAnyMarker",
+      "x": 137222.9063,
+      "y": -141711.5938
+    },
+    {
+      "id": "0035A955",
+      "type": "ChemsPrewarMarker",
+      "x": 136580.7813,
+      "y": -141897.5469
+    },
+    {
+      "id": "0035A956",
+      "type": "ChemsPrewarMarker",
+      "x": 136606.9063,
+      "y": -141919.875
+    },
+    {
+      "id": "0035A95B",
+      "type": "ChemsAnyMarker",
+      "x": 136560.4219,
+      "y": -141240.7969
+    },
+    {
+      "id": "005368C7",
+      "type": "ChemsHealingSalveMarker",
+      "x": 138834.7813,
+      "y": -158391.0938
+    },
+    {
+      "id": "0042C231",
+      "type": "ChemsRadAwayMarker",
+      "x": 138517.125,
+      "y": -158529.9688
+    },
+    {
+      "id": "003EA77F",
+      "type": "ChemsRadAwayMarker",
+      "x": 190929.9531,
+      "y": -156978.1563
+    },
+    {
+      "id": "00315B58",
+      "type": "ChemsAnyMarker",
+      "x": 180797.2344,
+      "y": -141622.7031
+    },
+    {
+      "id": "00315B5A",
+      "type": "ChemsAnyMarker",
+      "x": 180360.9063,
+      "y": -140176.2656
+    },
+    {
+      "id": "00315BC9",
+      "type": "ChemsAnyMarker",
+      "x": 181568.5938,
+      "y": -144367.4531
+    },
+    {
+      "id": "00315B5C",
+      "type": "ChemsAnyMarker",
+      "x": 180135.1719,
+      "y": -140022.8906
+    },
+    {
+      "id": "004DDC1D",
+      "type": "ChemsRadMedsMarker",
+      "x": 177171.25,
+      "y": -145663.9531
+    },
+    {
+      "id": "00315B5E",
+      "type": "ChemsAnyMarker",
+      "x": 178279.7813,
+      "y": -144877.3594
+    },
+    {
+      "id": "00315B8D",
+      "type": "ChemsAnyMarker",
+      "x": 178225.5313,
+      "y": -143758.875
+    },
+    {
+      "id": "004DDB27",
+      "type": "ChemsAnyMarker",
+      "x": 175006.0469,
+      "y": -146141.8438
+    },
+    {
+      "id": "004DDB30",
+      "type": "ChemsRadMedsMarker",
+      "x": 174300.0938,
+      "y": -146087.1875
+    },
+    {
+      "id": "004DDB60",
+      "type": "ChemsPrewarMarker",
+      "x": 172791.4531,
+      "y": -146207.7813
+    },
+    {
+      "id": "004DDB94",
+      "type": "ChemsPrewarMarker",
+      "x": 173036.125,
+      "y": -146151.4531
+    },
+    {
+      "id": "004DDBCE",
+      "type": "ChemsAnyMarker",
+      "x": 172632.9375,
+      "y": -145816.0625
+    },
+    {
+      "id": "00315BC7",
+      "type": "ChemsAnyMarker",
+      "x": 172849.8594,
+      "y": -144450.2813
+    },
+    {
+      "id": "00315B6E",
+      "type": "ChemsAnyMarker",
+      "x": 175527.5313,
+      "y": -146008.7813
+    },
+    {
+      "id": "004DDB4F",
+      "type": "ChemsAnyMarker",
+      "x": 170922.4219,
+      "y": -140834.8594
+    },
+    {
+      "id": "0036B1F1",
+      "type": "ChemsRadMedsMarker",
+      "x": 208032.7188,
+      "y": -145471.6406
+    },
+    {
+      "id": "0036B1F2",
+      "type": "ChemsStimpakMarker",
+      "x": 208070.3281,
+      "y": -145385.9531
+    },
+    {
+      "id": "00355BF1",
+      "type": "ChemsRadMedsMarker",
+      "x": 201232.6875,
+      "y": -161850.5938
+    },
+    {
+      "id": "00355BF2",
+      "type": "ChemsRadMedsMarker",
+      "x": 201202.4375,
+      "y": -161849.4063
+    },
+    {
+      "id": "00355BF3",
+      "type": "ChemsRadXMarker",
+      "x": 201080.2656,
+      "y": -161861.5625
+    },
+    {
+      "id": "00355BF4",
+      "type": "ChemsRadXMarker",
+      "x": 201091.4844,
+      "y": -161855.6406
+    },
+    {
+      "id": "00355BF5",
+      "type": "ChemsRadXMarker",
+      "x": 201081.6406,
+      "y": -161846.75
+    },
+    {
+      "id": "00380C17",
+      "type": "ChemsAnyMarker",
+      "x": 157581.8125,
+      "y": -109376.7422
+    },
+    {
+      "id": "0053613F",
+      "type": "ChemsStimpakMarker",
+      "x": 142359.8594,
+      "y": -100278.7266
+    },
+    {
+      "id": "0055F545",
+      "type": "ChemsStimpakMarker",
+      "x": 142450.4844,
+      "y": -102591.7891
+    },
+    {
+      "id": "0053628F",
+      "type": "ChemsStimpakMarker",
+      "x": 139694.0781,
+      "y": -103578.2031
+    },
+    {
+      "id": "005362AB",
+      "type": "ChemsRadMedsMarker",
+      "x": 140104.7656,
+      "y": -102757.2656
+    },
+    {
+      "id": "0043568C",
+      "type": "ChemsAnyMarker",
+      "x": 161980.0313,
+      "y": -73890.30469
+    },
+    {
+      "id": "002C9F81",
+      "type": "ChemsStimpakMarker",
+      "x": 149111.2344,
+      "y": -90288.375
+    },
+    {
+      "id": "00164230",
+      "type": "ChemsRadMedsMarker",
+      "x": 161392.7969,
+      "y": -41464.85156
+    },
+    {
+      "id": "0036C298",
+      "type": "ChemsRadMedsMarker",
+      "x": 141391.375,
+      "y": -59598.71875
+    },
+    {
+      "id": "0052C6CF",
+      "type": "ChemsAnyMarker",
+      "x": 137726.875,
+      "y": -42818.83594
+    },
+    {
+      "id": "0038F1FC",
+      "type": "ChemsRadMedsMarker",
+      "x": 132151.5781,
+      "y": -64112.02734
+    },
+    {
+      "id": "0038F224",
+      "type": "ChemsAnyMarker",
+      "x": 131336.3125,
+      "y": -63715.01172
+    },
+    {
+      "id": "004FDDFE",
+      "type": "ChemsAnyMarker",
+      "x": 162437,
+      "y": -5992.964356
+    },
+    {
+      "id": "003E7BE8",
+      "type": "ChemsPrewarMarker",
+      "x": 163062.9688,
+      "y": -5401.045898
+    },
+    {
+      "id": "0052F9CA",
+      "type": "ChemsRadMedsMarker",
+      "x": 162626.6094,
+      "y": -17465.66797
+    },
+    {
+      "id": "0052F9CD",
+      "type": "ChemsRadMedsMarker",
+      "x": 162690.0938,
+      "y": -17541.53711
+    },
+    {
+      "id": "0052F9D2",
+      "type": "ChemsAnyMarker",
+      "x": 162660.9063,
+      "y": -17511.05664
+    },
+    {
+      "id": "0037A79C",
+      "type": "ChemsRadAwayMarker",
+      "x": 150355.5938,
+      "y": -20231.36914
+    },
+    {
+      "id": "00382A44",
+      "type": "ChemsAnyMarker",
+      "x": 150720.6406,
+      "y": -21089.09375
+    },
+    {
+      "id": "0055C6BE",
+      "type": "ChemsRadMedsMarker",
+      "x": 150638.2969,
+      "y": -32167.03906
+    },
+    {
+      "id": "0052C72C",
+      "type": "ChemsRadMedsMarker",
+      "x": 145936.5469,
+      "y": -6490.104004
+    },
+    {
+      "id": "0052C758",
+      "type": "ChemsRadMedsMarker",
+      "x": 146479.8438,
+      "y": -6902.653809
+    },
+    {
+      "id": "0031BA58",
+      "type": "ChemsAnyMarker",
+      "x": 184149.7188,
+      "y": -99587.59375
+    },
+    {
+      "id": "0031A5C8",
+      "type": "ChemsAnyMarker",
+      "x": 185406.8906,
+      "y": -88266.70313
+    },
+    {
+      "id": "0031A5C7",
+      "type": "ChemsAnyMarker",
+      "x": 185820.5781,
+      "y": -89323.94531
+    },
+    {
+      "id": "0031A5C6",
+      "type": "ChemsAnyMarker",
+      "x": 185020.4219,
+      "y": -89453.23438
+    },
+    {
+      "id": "003DB1CD",
+      "type": "ChemsAnyMarker",
+      "x": 184496.7969,
+      "y": -92987.53906
+    },
+    {
+      "id": "0031A5CF",
+      "type": "ChemsAnyMarker",
+      "x": 184449.2813,
+      "y": -91991.5
+    },
+    {
+      "id": "0031A5C9",
+      "type": "ChemsAnyMarker",
+      "x": 183948.6719,
+      "y": -87661.99219
+    },
+    {
+      "id": "0031BAEF",
+      "type": "ChemsAnyMarker",
+      "x": 183843.4219,
+      "y": -87522.91406
+    },
+    {
+      "id": "0031A5E0",
+      "type": "ChemsAnyMarker",
+      "x": 182744.1406,
+      "y": -94114.17188
+    },
+    {
+      "id": "0031A5DE",
+      "type": "ChemsAnyMarker",
+      "x": 180580.2813,
+      "y": -92821
+    },
+    {
+      "id": "0031A5DD",
+      "type": "ChemsAnyMarker",
+      "x": 180380.375,
+      "y": -93911.98438
+    },
+    {
+      "id": "0031A5DC",
+      "type": "ChemsAnyMarker",
+      "x": 180648.6406,
+      "y": -93815.1875
+    },
+    {
+      "id": "0031A5DB",
+      "type": "ChemsAnyMarker",
+      "x": 184019.7969,
+      "y": -93606.44531
+    },
+    {
+      "id": "0031A5DA",
+      "type": "ChemsAnyMarker",
+      "x": 184260.5,
+      "y": -93192.61719
+    },
+    {
+      "id": "0031A5D9",
+      "type": "ChemsAnyMarker",
+      "x": 183747.0469,
+      "y": -92858.09375
+    },
+    {
+      "id": "0031A5D8",
+      "type": "ChemsAnyMarker",
+      "x": 183799.5156,
+      "y": -93059.99219
+    },
+    {
+      "id": "0031A5CE",
+      "type": "ChemsAnyMarker",
+      "x": 183457.5313,
+      "y": -91571.73438
+    },
+    {
+      "id": "0031A5CD",
+      "type": "ChemsAnyMarker",
+      "x": 183571.5469,
+      "y": -91837.67969
+    },
+    {
+      "id": "0031A5CC",
+      "type": "ChemsAnyMarker",
+      "x": 183402.6563,
+      "y": -91895.95313
+    },
+    {
+      "id": "0031A5CB",
+      "type": "ChemsAnyMarker",
+      "x": 183398.5469,
+      "y": -91570.78906
+    },
+    {
+      "id": "0031A5CA",
+      "type": "ChemsAnyMarker",
+      "x": 183845.0625,
+      "y": -91495.19531
+    },
+    {
+      "id": "0031A5BB",
+      "type": "ChemsAnyMarker",
+      "x": 180747.875,
+      "y": -93254.01563
+    },
+    {
+      "id": "0031BAB5",
+      "type": "ChemsAnyMarker",
+      "x": 181867.5313,
+      "y": -93942.35938
+    },
+    {
+      "id": "003DB154",
+      "type": "ChemsRadMedsMarker",
+      "x": 183842.4531,
+      "y": -97330.11719
+    },
+    {
+      "id": "0031A5DF",
+      "type": "ChemsAnyMarker",
+      "x": 182286.5469,
+      "y": -94458.82031
+    },
+    {
+      "id": "0031A5D0",
+      "type": "ChemsAnyMarker",
+      "x": 183887.7344,
+      "y": -96846.88281
+    },
+    {
+      "id": "0031A5D7",
+      "type": "ChemsAnyMarker",
+      "x": 177972.375,
+      "y": -90127.92188
+    },
+    {
+      "id": "0031A5D6",
+      "type": "ChemsAnyMarker",
+      "x": 176850.1563,
+      "y": -91663.96094
+    },
+    {
+      "id": "0031A5D5",
+      "type": "ChemsAnyMarker",
+      "x": 176993.8125,
+      "y": -91505.70313
+    },
+    {
+      "id": "0031A5C5",
+      "type": "ChemsAnyMarker",
+      "x": 179399.7969,
+      "y": -93140.63281
+    },
+    {
+      "id": "0031A5C0",
+      "type": "ChemsAnyMarker",
+      "x": 177496.875,
+      "y": -93258.75
+    },
+    {
+      "id": "0031A5BF",
+      "type": "ChemsAnyMarker",
+      "x": 176933.5313,
+      "y": -93473.46094
+    },
+    {
+      "id": "0031A5BE",
+      "type": "ChemsAnyMarker",
+      "x": 177084.2188,
+      "y": -93338.63281
+    },
+    {
+      "id": "0031A5BD",
+      "type": "ChemsAnyMarker",
+      "x": 176941.8906,
+      "y": -93340.45313
+    },
+    {
+      "id": "0031A5BC",
+      "type": "ChemsAnyMarker",
+      "x": 176981.6719,
+      "y": -93345.39063
+    },
+    {
+      "id": "0031BA48",
+      "type": "ChemsAnyMarker",
+      "x": 177651.6875,
+      "y": -93306.125
+    },
+    {
+      "id": "004F697D",
+      "type": "ChemsPrewarMarker",
+      "x": 179452.6094,
+      "y": -97389.92969
+    },
+    {
+      "id": "0031A5D4",
+      "type": "ChemsAnyMarker",
+      "x": 176491.7344,
+      "y": -94636.8125
+    },
+    {
+      "id": "0031A5D2",
+      "type": "ChemsAnyMarker",
+      "x": 179729.5156,
+      "y": -96526.21094
+    },
+    {
+      "id": "0031A5C2",
+      "type": "ChemsAnyMarker",
+      "x": 176438.8125,
+      "y": -94601.14063
+    },
+    {
+      "id": "0031A5C3",
+      "type": "ChemsAnyMarker",
+      "x": 174503.0781,
+      "y": -94857.84375
+    },
+    {
+      "id": "003BB286",
+      "type": "ChemsAnyMarker",
+      "x": 165689.5938,
+      "y": -84006.92969
+    },
+    {
+      "id": "003BB287",
+      "type": "ChemsAnyMarker",
+      "x": 165686.4063,
+      "y": -84011.48438
+    },
+    {
+      "id": "0036B464",
+      "type": "ChemsAnyMarker",
+      "x": 165962.4531,
+      "y": -84507.89063
+    },
+    {
+      "id": "0036B465",
+      "type": "ChemsAnyMarker",
+      "x": 165548.7813,
+      "y": -83988.10156
+    },
+    {
+      "id": "0036B48C",
+      "type": "ChemsAnyMarker",
+      "x": 165798.7656,
+      "y": -84304.96094
+    },
+    {
+      "id": "0036B48D",
+      "type": "ChemsAnyMarker",
+      "x": 165666.5,
+      "y": -84210.375
+    },
+    {
+      "id": "0036B48E",
+      "type": "ChemsAnyMarker",
+      "x": 165852.3125,
+      "y": -84141.28125
+    },
+    {
+      "id": "00530D93",
+      "type": "ChemsAnyMarker",
+      "x": 190309.0781,
+      "y": -38677.49609
+    },
+    {
+      "id": "00341A65",
+      "type": "ChemsAnyMarker",
+      "x": 183118.2656,
+      "y": -59806.46484
+    },
+    {
+      "id": "00341A64",
+      "type": "ChemsAnyMarker",
+      "x": 182874.9688,
+      "y": -60155.8125
+    },
+    {
+      "id": "003B2BFD",
+      "type": "ChemsHealingSalveMarker",
+      "x": 172304.0625,
+      "y": -34722.19531
+    },
+    {
+      "id": "0036C2D1",
+      "type": "ChemsRadMedsMarker",
+      "x": 166217.4531,
+      "y": -56012.79297
+    },
+    {
+      "id": "00111795",
+      "type": "ChemsAnyMarker",
+      "x": 196425.0625,
+      "y": -31237.82617
+    },
+    {
+      "id": "00111776",
+      "type": "ChemsAnyMarker",
+      "x": 196423.3125,
+      "y": -31243.54297
+    },
+    {
+      "id": "0050C439",
+      "type": "ChemsRadAwayMarker",
+      "x": 206209.4219,
+      "y": -71459.72656
+    },
+    {
+      "id": "005A0D00",
+      "type": "ChemsBloodpackMarker",
+      "x": 204537.125,
+      "y": -60286.71484
+    },
+    {
+      "id": "00568656",
+      "type": "ChemsBloodpackMarker",
+      "x": 200005.2656,
+      "y": -37313.48438
+    },
+    {
+      "id": "0050A23B",
+      "type": "ChemsRadAwayMarker",
+      "x": 196738.1094,
+      "y": -62692.23438
+    },
+    {
+      "id": "004FCBEA",
+      "type": "ChemsAnyMarker",
+      "x": -172450.5781,
+      "y": 74139.3125
+    },
+    {
+      "id": "004FCBEB",
+      "type": "ChemsAnyMarker",
+      "x": -172448.8125,
+      "y": 74150.96094
+    },
+    {
+      "id": "0029CFB8",
+      "type": "ChemsRadXMarker",
+      "x": -172976.8594,
+      "y": 74653.5625
+    },
+    {
+      "id": "0029CFB2",
+      "type": "ChemsBloodpackMarker",
+      "x": -172748.5156,
+      "y": 74751.75
+    },
+    {
+      "id": "0029CFAB",
+      "type": "ChemsStimpakMarker",
+      "x": -172980.6563,
+      "y": 74831.82031
+    },
+    {
+      "id": "0032EAD8",
+      "type": "ChemsAnyMarker",
+      "x": -174785.1094,
+      "y": 75527.79688
+    },
+    {
+      "id": "0032EADA",
+      "type": "ChemsAnyMarker",
+      "x": -172441.1719,
+      "y": 74322.59375
+    },
+    {
+      "id": "0032EADB",
+      "type": "ChemsAnyMarker",
+      "x": -172640.9844,
+      "y": 74025.17969
+    },
+    {
+      "id": "0032EADC",
+      "type": "ChemsAnyMarker",
+      "x": -172571.5781,
+      "y": 74553.5
+    },
+    {
+      "id": "0032EADD",
+      "type": "ChemsAnyMarker",
+      "x": -172424.875,
+      "y": 74987.99219
+    },
+    {
+      "id": "0032EADE",
+      "type": "ChemsAnyMarker",
+      "x": -173221.0469,
+      "y": 75592.75781
+    },
+    {
+      "id": "0032EADF",
+      "type": "ChemsAnyMarker",
+      "x": -173332.7344,
+      "y": 75211.23438
+    },
+    {
+      "id": "0032EAE0",
+      "type": "ChemsAnyMarker",
+      "x": -173000.7969,
+      "y": 75410.41406
+    },
+    {
+      "id": "0032EB48",
+      "type": "ChemsRadMedsMarker",
+      "x": -172860.9375,
+      "y": 74715.92188
+    },
+    {
+      "id": "0032EB49",
+      "type": "ChemsRadMedsMarker",
+      "x": -172720.2813,
+      "y": 74971.98438
+    },
+    {
+      "id": "0032EB4A",
+      "type": "ChemsRadMedsMarker",
+      "x": -172805.3594,
+      "y": 75148.27344
+    },
+    {
+      "id": "0032EB4B",
+      "type": "ChemsRadMedsMarker",
+      "x": -172834.2188,
+      "y": 75297.25
+    },
+    {
+      "id": "0032EB4C",
+      "type": "ChemsRadMedsMarker",
+      "x": -173149.0156,
+      "y": 75586.0625
+    },
+    {
+      "id": "0032EB4F",
+      "type": "ChemsRadMedsMarker",
+      "x": -173116.5781,
+      "y": 74116.72656
+    },
+    {
+      "id": "0032EB51",
+      "type": "ChemsRadMedsMarker",
+      "x": -173110.7031,
+      "y": 74083.32031
+    },
+    {
+      "id": "0032EB1A",
+      "type": "ChemsAnyMarker",
+      "x": -175082.5156,
+      "y": 73139.96094
+    },
+    {
+      "id": "0032EAD9",
+      "type": "ChemsAnyMarker",
+      "x": -175335.9844,
+      "y": 73689.11719
+    },
+    {
+      "id": "004FCBF2",
+      "type": "ChemsAnyMarker",
+      "x": -177487.1094,
+      "y": 78354.15625
+    },
+    {
+      "id": "0032EB54",
+      "type": "ChemsAnyMarker",
+      "x": -177423.875,
+      "y": 78722.30469
+    },
+    {
+      "id": "0032EB55",
+      "type": "ChemsAnyMarker",
+      "x": -177253.7813,
+      "y": 78730.92188
+    },
+    {
+      "id": "0032EB56",
+      "type": "ChemsAnyMarker",
+      "x": -177331,
+      "y": 78597.77344
+    },
+    {
+      "id": "0032EAC1",
+      "type": "ChemsRadMedsMarker",
+      "x": -177054.8438,
+      "y": 75429.74219
+    },
+    {
+      "id": "0032EAC2",
+      "type": "ChemsRadMedsMarker",
+      "x": -177115.75,
+      "y": 75410.82031
+    },
+    {
+      "id": "0032EAC3",
+      "type": "ChemsRadMedsMarker",
+      "x": -176969.7969,
+      "y": 74907.91406
+    },
+    {
+      "id": "0032EAC4",
+      "type": "ChemsRadMedsMarker",
+      "x": -177008.7031,
+      "y": 75222.02344
+    },
+    {
+      "id": "0032EAC9",
+      "type": "ChemsAnyMarker",
+      "x": -177442.8594,
+      "y": 75199.16406
+    },
+    {
+      "id": "0032EACA",
+      "type": "ChemsAnyMarker",
+      "x": -177618.0781,
+      "y": 74767.85938
+    },
+    {
+      "id": "0032EACB",
+      "type": "ChemsAnyMarker",
+      "x": -177337.5156,
+      "y": 74452.72656
+    },
+    {
+      "id": "0032EB11",
+      "type": "ChemsAnyMarker",
+      "x": -178968.2031,
+      "y": 74508.33594
+    },
+    {
+      "id": "0032EB12",
+      "type": "ChemsAnyMarker",
+      "x": -179263.2969,
+      "y": 74166.34375
+    },
+    {
+      "id": "0032EB16",
+      "type": "ChemsAnyMarker",
+      "x": -179031.6563,
+      "y": 73762.92969
+    },
+    {
+      "id": "0032EB45",
+      "type": "ChemsPrewarMarker",
+      "x": -179272.75,
+      "y": 73950.95313
+    },
+    {
+      "id": "0032EB46",
+      "type": "ChemsPrewarMarker",
+      "x": -179048.9063,
+      "y": 73986.89844
+    },
+    {
+      "id": "004FCBF9",
+      "type": "ChemsAnyMarker",
+      "x": -177464.6094,
+      "y": 71362.96094
+    },
+    {
+      "id": "0032EB5D",
+      "type": "ChemsAnyMarker",
+      "x": -177491.3438,
+      "y": 71344.45313
+    },
+    {
+      "id": "0032EB18",
+      "type": "ChemsAnyMarker",
+      "x": -178772.8906,
+      "y": 72044.73438
+    },
+    {
+      "id": "0032EB17",
+      "type": "ChemsAnyMarker",
+      "x": -178824.5625,
+      "y": 72064.57813
+    },
+    {
+      "id": "0032EB5C",
+      "type": "ChemsAnyMarker",
+      "x": -181324.125,
+      "y": 75440.85938
+    },
+    {
+      "id": "0032EB5B",
+      "type": "ChemsAnyMarker",
+      "x": -181756.6563,
+      "y": 75810.60156
+    },
+    {
+      "id": "0032EB5A",
+      "type": "ChemsAnyMarker",
+      "x": -181623.5938,
+      "y": 75800.86719
+    },
+    {
+      "id": "0032EB1C",
+      "type": "ChemsAnyMarker",
+      "x": -180483.5781,
+      "y": 71875.01563
+    },
+    {
+      "id": "0032EB1B",
+      "type": "ChemsAnyMarker",
+      "x": -180832.2969,
+      "y": 72817.85156
+    },
+    {
+      "id": "0014EC74",
+      "type": "ChemsRadMedsMarker",
+      "x": -164430.3438,
+      "y": 111341.0234
+    },
+    {
+      "id": "00342C1D",
+      "type": "ChemsAnyMarker",
+      "x": -153108.3594,
+      "y": 13315.86914
+    },
+    {
+      "id": "0028E628",
+      "type": "ChemsStimpakMarker",
+      "x": -149658.8594,
+      "y": 39768.65234
+    },
+    {
+      "id": "00390EAF",
+      "type": "ChemsRadXMarker",
+      "x": -151420.7188,
+      "y": 102734.0625
+    },
+    {
+      "id": "003A94FE",
+      "type": "ChemsAnyMarker",
+      "x": -153606.125,
+      "y": 125991.5234
+    },
+    {
+      "id": "00040CBE",
+      "type": "ChemsRadAwayMarker",
+      "x": -153654.3594,
+      "y": 108012.6094
+    },
+    {
+      "id": "0003EC41",
+      "type": "ChemsRadXMarker",
+      "x": -153734.5156,
+      "y": 108059.4531
+    },
+    {
+      "id": "00390EAC",
+      "type": "ChemsRadAwayMarker",
+      "x": -151918.9688,
+      "y": 102882.3906
+    },
+    {
+      "id": "00390EB0",
+      "type": "ChemsRadXMarker",
+      "x": -151807.4375,
+      "y": 102814.25
+    },
+    {
+      "id": "00390EAE",
+      "type": "ChemsRadXMarker",
+      "x": -151849.0469,
+      "y": 102424.0625
+    },
+    {
+      "id": "00390EAD",
+      "type": "ChemsRadAwayMarker",
+      "x": -151553.9844,
+      "y": 102357.3125
+    },
+    {
+      "id": "004DEB40",
+      "type": "ChemsAnyMarker",
+      "x": -161320.7813,
+      "y": 108306.6094
+    },
+    {
+      "id": "003419F8",
+      "type": "ChemsAnyMarker",
+      "x": -161436.3125,
+      "y": 108786.7891
+    },
+    {
+      "id": "0042C6FB",
+      "type": "ChemsRadMedsMarker",
+      "x": -166675.375,
+      "y": 194299.6875
+    },
+    {
+      "id": "0042C6FC",
+      "type": "ChemsRadMedsMarker",
+      "x": -166726.3438,
+      "y": 194295.2969
+    },
+    {
+      "id": "0042C711",
+      "type": "ChemsAnyMarker",
+      "x": -166790.3438,
+      "y": 194297.1094
+    },
+    {
+      "id": "0042C712",
+      "type": "ChemsAnyMarker",
+      "x": -166889,
+      "y": 194297.1563
+    },
+    {
+      "id": "004030CB",
+      "type": "ChemsStimpakMarker",
+      "x": -165144.7188,
+      "y": 188977.7188
+    },
+    {
+      "id": "004030CC",
+      "type": "ChemsStimpakMarker",
+      "x": -165405.9063,
+      "y": 188664.2344
+    },
+    {
+      "id": "004030CD",
+      "type": "ChemsStimpakMarker",
+      "x": -165937.3594,
+      "y": 189139.0469
+    },
+    {
+      "id": "004030C9",
+      "type": "ChemsStimpakMarker",
+      "x": -165545.8281,
+      "y": 187473.3125
+    },
+    {
+      "id": "004030CA",
+      "type": "ChemsStimpakMarker",
+      "x": -165527.5156,
+      "y": 187468.4844
+    },
+    {
+      "id": "0042CEFC",
+      "type": "ChemsStimpakMarker",
+      "x": -168692.8125,
+      "y": 194411.3281
+    },
+    {
+      "id": "004030D1",
+      "type": "ChemsStimpakMarker",
+      "x": -169016.6094,
+      "y": 193700.3594
+    },
+    {
+      "id": "004030D2",
+      "type": "ChemsStimpakMarker",
+      "x": -169262.1406,
+      "y": 195675.125
+    },
+    {
+      "id": "003D024C",
+      "type": "ChemsRadMedsMarker",
+      "x": -168995.8125,
+      "y": 194714.8125
+    },
+    {
+      "id": "003D0283",
+      "type": "ChemsAnyMarker",
+      "x": -169108.6563,
+      "y": 194127.0156
+    },
+    {
+      "id": "004030D0",
+      "type": "ChemsStimpakMarker",
+      "x": -169038.1719,
+      "y": 191926.4688
+    },
+    {
+      "id": "004030D5",
+      "type": "ChemsStimpakMarker",
+      "x": -169501.9219,
+      "y": 190590.3906
+    },
+    {
+      "id": "003578AF",
+      "type": "ChemsPrewarMarker",
+      "x": -145803.9063,
+      "y": 144502.3906
+    },
+    {
+      "id": "003578B1",
+      "type": "ChemsPrewarMarker",
+      "x": -145688.625,
+      "y": 144661.6563
+    },
+    {
+      "id": "003578B2",
+      "type": "ChemsPrewarMarker",
+      "x": -145528.1875,
+      "y": 144480.0469
+    },
+    {
+      "id": "003578B3",
+      "type": "ChemsPrewarMarker",
+      "x": -145535.8438,
+      "y": 144468.3594
+    },
+    {
+      "id": "0050CD57",
+      "type": "ChemsAnyMarker",
+      "x": -145064.9844,
+      "y": 139279.75
+    },
+    {
+      "id": "003578A7",
+      "type": "ChemsAnyMarker",
+      "x": -144007.0938,
+      "y": 142239.5938
+    },
+    {
+      "id": "003578AB",
+      "type": "ChemsPrewarMarker",
+      "x": -144210.9844,
+      "y": 142905.4531
+    },
+    {
+      "id": "003578CC",
+      "type": "ChemsPrewarMarker",
+      "x": -148205.3281,
+      "y": 140517.8281
+    },
+    {
+      "id": "00357894",
+      "type": "ChemsRadMedsMarker",
+      "x": -151664.6094,
+      "y": 143298.7813
+    },
+    {
+      "id": "003578D1",
+      "type": "ChemsRadMedsMarker",
+      "x": -157179.1719,
+      "y": 135590.1719
+    },
+    {
+      "id": "00342B21",
+      "type": "ChemsAnyMarker",
+      "x": -140296.4375,
+      "y": 175042.5469
+    },
+    {
+      "id": "003A951F",
+      "type": "ChemsRadMedsMarker",
+      "x": -148420.4063,
+      "y": 165363.9063
+    },
+    {
+      "id": "003A9521",
+      "type": "ChemsRadMedsMarker",
+      "x": -150665.4063,
+      "y": 164788.7344
+    },
+    {
+      "id": "0035F6A5",
+      "type": "ChemsPrewarMarker",
+      "x": -181587.8125,
+      "y": -136129.1094
+    },
+    {
+      "id": "003A3424",
+      "type": "ChemsAnyMarker",
+      "x": -153805.1094,
+      "y": -166679.9688
+    },
+    {
+      "id": "003A3425",
+      "type": "ChemsAnyMarker",
+      "x": -153741.9219,
+      "y": -166706.7188
+    },
+    {
+      "id": "003E8EF8",
+      "type": "ChemsRadMedsMarker",
+      "x": -142986.0469,
+      "y": -146969.9219
+    },
+    {
+      "id": "0032958C",
+      "type": "ChemsAnyMarker",
+      "x": -150903.4688,
+      "y": -133416.7813
+    },
+    {
+      "id": "003D662A",
+      "type": "ChemsPrewarMarker",
+      "x": -151348.6563,
+      "y": -136279.1094
+    },
+    {
+      "id": "00329589",
+      "type": "ChemsAnyMarker",
+      "x": -150523.1406,
+      "y": -135662.5625
+    },
+    {
+      "id": "0032957B",
+      "type": "ChemsAnyMarker",
+      "x": -152078.625,
+      "y": -132440.7813
+    },
+    {
+      "id": "0032957C",
+      "type": "ChemsAnyMarker",
+      "x": -152231.2969,
+      "y": -132519.7188
+    },
+    {
+      "id": "00329580",
+      "type": "ChemsAnyMarker",
+      "x": -154474.8125,
+      "y": -131634.7656
+    },
+    {
+      "id": "00329581",
+      "type": "ChemsAnyMarker",
+      "x": -155202.7031,
+      "y": -132146.8281
+    },
+    {
+      "id": "003D6629",
+      "type": "ChemsPrewarMarker",
+      "x": -151556.4531,
+      "y": -136270.9063
+    },
+    {
+      "id": "00329586",
+      "type": "ChemsAnyMarker",
+      "x": -154499.2656,
+      "y": -136272.9375
+    },
+    {
+      "id": "00329587",
+      "type": "ChemsAnyMarker",
+      "x": -152149.875,
+      "y": -138045.5469
+    },
+    {
+      "id": "00329588",
+      "type": "ChemsAnyMarker",
+      "x": -152445.4063,
+      "y": -137884.8438
+    },
+    {
+      "id": "003295B1",
+      "type": "ChemsRadMedsMarker",
+      "x": -151888.9063,
+      "y": -136996.8125
+    },
+    {
+      "id": "00329584",
+      "type": "ChemsAnyMarker",
+      "x": -157451.1719,
+      "y": -134135.25
+    },
+    {
+      "id": "00329583",
+      "type": "ChemsAnyMarker",
+      "x": -157656.3438,
+      "y": -132972.7188
+    },
+    {
+      "id": "00329585",
+      "type": "ChemsAnyMarker",
+      "x": -155700.25,
+      "y": -135642.3438
+    },
+    {
+      "id": "004E3F41",
+      "type": "ChemsAnyMarker",
+      "x": -166839.4844,
+      "y": -123497.5938
+    },
+    {
+      "id": "004E3F42",
+      "type": "ChemsAnyMarker",
+      "x": -166814.6563,
+      "y": -123482.125
+    },
+    {
+      "id": "003E810D",
+      "type": "ChemsAnyMarker",
+      "x": -171053.5,
+      "y": -114141.8672
+    },
+    {
+      "id": "003E8113",
+      "type": "ChemsAnyMarker",
+      "x": -171310.0625,
+      "y": -113935.1484
+    },
+    {
+      "id": "003E815F",
+      "type": "ChemsAnyMarker",
+      "x": -169691.7031,
+      "y": -113723.25
+    },
+    {
+      "id": "003E8200",
+      "type": "ChemsRadMedsMarker",
+      "x": -169213.5313,
+      "y": -113842.5234
+    },
+    {
+      "id": "003E8144",
+      "type": "ChemsAnyMarker",
+      "x": -171150,
+      "y": -114918.5547
+    },
+    {
+      "id": "0042FAB8",
+      "type": "ChemsAnyMarker",
+      "x": -187540.1406,
+      "y": -108637.5313
+    },
+    {
+      "id": "003C67B7",
+      "type": "ChemsStimpakMarker",
+      "x": -185660.7813,
+      "y": -120370.1016
+    },
+    {
+      "id": "00343259",
+      "type": "ChemsRadMedsMarker",
+      "x": -186461.25,
+      "y": -121829.125
+    },
+    {
+      "id": "00343254",
+      "type": "ChemsAnyMarker",
+      "x": -187363.8906,
+      "y": -123489.5859
+    },
+    {
+      "id": "00343269",
+      "type": "ChemsAnyMarker",
+      "x": -189483.8594,
+      "y": -128310.3359
+    },
+    {
+      "id": "00132141",
+      "type": "ChemsAnyMarker",
+      "x": -166691.5938,
+      "y": -86771.57031
+    },
+    {
+      "id": "00132070",
+      "type": "ChemsAnyMarker",
+      "x": -166623.9063,
+      "y": -87290.01563
+    },
+    {
+      "id": "0014EC39",
+      "type": "ChemsAnyMarker",
+      "x": -165710.375,
+      "y": -87662.46875
+    },
+    {
+      "id": "00188D80",
+      "type": "ChemsAnyMarker",
+      "x": -179409.2031,
+      "y": -72890.3125
+    },
+    {
+      "id": "00188D66",
+      "type": "ChemsAnyMarker",
+      "x": -177409.7344,
+      "y": -80128.85938
+    },
+    {
+      "id": "00188DA9",
+      "type": "ChemsAnyMarker",
+      "x": -177345.3906,
+      "y": -81819.33594
+    },
+    {
+      "id": "00188D4D",
+      "type": "ChemsAnyMarker",
+      "x": -176374.6406,
+      "y": -82426.89063
+    },
+    {
+      "id": "00527DF1",
+      "type": "ChemsRadMedsMarker",
+      "x": -176189.375,
+      "y": -95249.875
+    },
+    {
+      "id": "001872CE",
+      "type": "ChemsAnyMarker",
+      "x": -183890.2969,
+      "y": -73797.42188
+    },
+    {
+      "id": "00188D7F",
+      "type": "ChemsAnyMarker",
+      "x": -182400.6563,
+      "y": -80023.85156
+    },
+    {
+      "id": "00188DBD",
+      "type": "ChemsAnyMarker",
+      "x": -181083.1719,
+      "y": -80097.8125
+    },
+    {
+      "id": "00188DE1",
+      "type": "ChemsAnyMarker",
+      "x": -181191.0781,
+      "y": -79858.8125
+    },
+    {
+      "id": "00188DE2",
+      "type": "ChemsAnyMarker",
+      "x": -181206.1875,
+      "y": -79842.84375
+    },
+    {
+      "id": "00188E18",
+      "type": "ChemsAnyMarker",
+      "x": -182176.8125,
+      "y": -79600.14844
+    },
+    {
+      "id": "00188E19",
+      "type": "ChemsAnyMarker",
+      "x": -182174.3438,
+      "y": -79619.73438
+    },
+    {
+      "id": "00188E1A",
+      "type": "ChemsAnyMarker",
+      "x": -182176.4063,
+      "y": -79638.0625
+    },
+    {
+      "id": "00341A85",
+      "type": "ChemsAnyMarker",
+      "x": -166136.7031,
+      "y": -54089.35156
+    },
+    {
+      "id": "003DB25B",
+      "type": "ChemsRadMedsMarker",
+      "x": -175222.25,
+      "y": -40934.19922
+    },
+    {
+      "id": "003DB254",
+      "type": "ChemsPrewarMarker",
+      "x": -173551.5938,
+      "y": -43602.55469
+    },
+    {
+      "id": "003459FA",
+      "type": "ChemsAnyMarker",
+      "x": -187578.8281,
+      "y": -32993.28516
+    },
+    {
+      "id": "004FBD5B",
+      "type": "ChemsStimpakMarker",
+      "x": -172522.1563,
+      "y": -29874.37109
+    },
+    {
+      "id": "004FBD5C",
+      "type": "ChemsAnyMarker",
+      "x": -173860.8906,
+      "y": -29838.4707
+    },
+    {
+      "id": "004FBD5D",
+      "type": "ChemsAnyMarker",
+      "x": -173244.6719,
+      "y": -29226.31641
+    },
+    {
+      "id": "00341A78",
+      "type": "ChemsRadMedsMarker",
+      "x": -132654.625,
+      "y": -119957.6406
+    },
+    {
+      "id": "00071931",
+      "type": "ChemsAnyMarker",
+      "x": -131303.6875,
+      "y": -123221.8359
+    },
+    {
+      "id": "000718E8",
+      "type": "ChemsAnyMarker",
+      "x": -131305.5781,
+      "y": -123488.1953
+    },
+    {
+      "id": "0001AAE2",
+      "type": "ChemsAnyMarker",
+      "x": -138813.3281,
+      "y": -114401.7109
+    },
+    {
+      "id": "003BDDF3",
+      "type": "ChemsStimpakMarker",
+      "x": -145022.6719,
+      "y": -127575.4453
+    },
+    {
+      "id": "0032957E",
+      "type": "ChemsAnyMarker",
+      "x": -153489.9375,
+      "y": -130415.9922
+    },
+    {
+      "id": "0032957D",
+      "type": "ChemsAnyMarker",
+      "x": -153497.9063,
+      "y": -130396.4766
+    },
+    {
+      "id": "003E25A0",
+      "type": "ChemsAnyMarker",
+      "x": -132627,
+      "y": -72534.21875
+    },
+    {
+      "id": "003E25A1",
+      "type": "ChemsAnyMarker",
+      "x": -132272.3906,
+      "y": -72202.00781
+    },
+    {
+      "id": "0039469E",
+      "type": "ChemsStimpakMarker",
+      "x": -145196.5469,
+      "y": -67323.67188
+    },
+    {
+      "id": "004F78CF",
+      "type": "ChemsRadAwayMarker",
+      "x": -146388.0781,
+      "y": -95200.46875
+    },
+    {
+      "id": "004F78DA",
+      "type": "ChemsRadAwayMarker",
+      "x": -146521.9844,
+      "y": -95144.00781
+    },
+    {
+      "id": "0059B682",
+      "type": "ChemsAnyMarker",
+      "x": -151365.875,
+      "y": -79593.24219
+    },
+    {
+      "id": "00387569",
+      "type": "ChemsPrewarMarker",
+      "x": -154958.7656,
+      "y": -68301.64063
+    },
+    {
+      "id": "0038756A",
+      "type": "ChemsPrewarMarker",
+      "x": -154804.0156,
+      "y": -68291.66406
+    },
+    {
+      "id": "00387D6D",
+      "type": "ChemsAnyMarker",
+      "x": -163453.0938,
+      "y": -71466.10156
+    },
+    {
+      "id": "00492681",
+      "type": "ChemsRadAwayMarker",
+      "x": -162304.2031,
+      "y": -85521.85156
+    },
+    {
+      "id": "00492682",
+      "type": "ChemsRadMedsMarker",
+      "x": -162275.0781,
+      "y": -85501.94531
+    },
+    {
+      "id": "00217B5F",
+      "type": "ChemsStimpakMarker",
+      "x": -160857.3438,
+      "y": -82010.73438
+    },
+    {
+      "id": "001532AC",
+      "type": "ChemsAnyMarker",
+      "x": -161114.7031,
+      "y": -82127.82031
+    },
+    {
+      "id": "0036FF9F",
+      "type": "ChemsPrewarMarker",
+      "x": -133170.8125,
+      "y": -42564.51563
+    },
+    {
+      "id": "0036FFA0",
+      "type": "ChemsPrewarMarker",
+      "x": -133177.25,
+      "y": -42578.71484
+    },
+    {
+      "id": "0036FFA1",
+      "type": "ChemsPrewarMarker",
+      "x": -133195.4063,
+      "y": -42581.875
+    },
+    {
+      "id": "003BAB44",
+      "type": "ChemsAnyMarker",
+      "x": -137231.9844,
+      "y": -46330.875
+    },
+    {
+      "id": "003BAB47",
+      "type": "ChemsAnyMarker",
+      "x": -137241.9844,
+      "y": -46326.81641
+    },
+    {
+      "id": "003B2E8E",
+      "type": "ChemsPrewarMarker",
+      "x": -145752.5938,
+      "y": -61412.75781
+    },
+    {
+      "id": "003B2E8F",
+      "type": "ChemsRadMedsMarker",
+      "x": -145700.2344,
+      "y": -61182.08203
+    },
+    {
+      "id": "00403094",
+      "type": "ChemsStimpakMarker",
+      "x": -131513.2031,
+      "y": -27053.03906
+    },
+    {
+      "id": "00403095",
+      "type": "ChemsStimpakMarker",
+      "x": -131729.9844,
+      "y": -27538.80469
+    },
+    {
+      "id": "003BB0DB",
+      "type": "ChemsAnyMarker",
+      "x": -131439.7813,
+      "y": -27042.23633
+    },
+    {
+      "id": "00403096",
+      "type": "ChemsStimpakMarker",
+      "x": -132603.3125,
+      "y": -29991.83203
+    },
+    {
+      "id": "003BB0CE",
+      "type": "ChemsAnyMarker",
+      "x": -132611.6719,
+      "y": -29617.51758
+    },
+    {
+      "id": "004865D5",
+      "type": "ChemsAnyMarker",
+      "x": -102553.5625,
+      "y": 5611.783692
+    },
+    {
+      "id": "003EA8EB",
+      "type": "ChemsAnyMarker",
+      "x": -109307.4609,
+      "y": 25385.70703
+    },
+    {
+      "id": "003EA8EC",
+      "type": "ChemsAnyMarker",
+      "x": -109321.9609,
+      "y": 25411.45508
+    },
+    {
+      "id": "0058EC6F",
+      "type": "ChemsRadMedsMarker",
+      "x": -106659.1172,
+      "y": 19455.56641
+    },
+    {
+      "id": "0058EC72",
+      "type": "ChemsRadMedsMarker",
+      "x": -106628.9219,
+      "y": 19448.58398
+    },
+    {
+      "id": "003AD70B",
+      "type": "ChemsPrewarMarker",
+      "x": -108802.0078,
+      "y": 20274.02539
+    },
+    {
+      "id": "003AED86",
+      "type": "ChemsRadMedsMarker",
+      "x": -107761.3906,
+      "y": 20104.50781
+    },
+    {
+      "id": "002DDCD4",
+      "type": "ChemsStimpakMarker",
+      "x": -116154.625,
+      "y": 5372.972168
+    },
+    {
+      "id": "003CFD00",
+      "type": "ChemsAnyMarker",
+      "x": -113366.3516,
+      "y": 44918.60156
+    },
+    {
+      "id": "0051BF7F",
+      "type": "ChemsRadAwayMarker",
+      "x": -119427.1563,
+      "y": 40531.08984
+    },
+    {
+      "id": "0051BF85",
+      "type": "ChemsRadAwayMarker",
+      "x": -119027.3047,
+      "y": 38069.47266
+    },
+    {
+      "id": "003A6638",
+      "type": "ChemsPrewarMarker",
+      "x": -105461.9609,
+      "y": 65685.51563
+    },
+    {
+      "id": "00180184",
+      "type": "ChemsPrewarMarker",
+      "x": -105062.4766,
+      "y": 69106.875
+    },
+    {
+      "id": "003B2DB2",
+      "type": "ChemsPrewarMarker",
+      "x": -121062.75,
+      "y": 74380.11719
+    },
+    {
+      "id": "00553750",
+      "type": "ChemsStimpakMarker",
+      "x": -99521.82031,
+      "y": 125468.6797
+    },
+    {
+      "id": "005537AB",
+      "type": "ChemsAnyMarker",
+      "x": -98958.1875,
+      "y": 125656.2031
+    },
+    {
+      "id": "0059E315",
+      "type": "ChemsBloodpackMarker",
+      "x": -121226.5781,
+      "y": 120010.375
+    },
+    {
+      "id": "0059BED1",
+      "type": "ChemsAnyMarker",
+      "x": -75294.125,
+      "y": 3838.145019
+    },
+    {
+      "id": "004FA7A8",
+      "type": "ChemsStimpakMarker",
+      "x": -79536.03906,
+      "y": 27692.49023
+    },
+    {
+      "id": "004FA7A7",
+      "type": "ChemsStimpakMarker",
+      "x": -79518.79688,
+      "y": 27699.09766
+    },
+    {
+      "id": "004FCC4D",
+      "type": "ChemsAnyMarker",
+      "x": -82917.96094,
+      "y": 9331.881835
+    },
+    {
+      "id": "0043730C",
+      "type": "ChemsAnyMarker",
+      "x": -69602.625,
+      "y": 57408.73438
+    },
+    {
+      "id": "00351DA3",
+      "type": "ChemsAnyMarker",
+      "x": -67116.64844,
+      "y": 55229.77734
+    },
+    {
+      "id": "003AB23F",
+      "type": "ChemsAnyMarker",
+      "x": -96684.34375,
+      "y": 60327.5625
+    },
+    {
+      "id": "00370196",
+      "type": "ChemsAnyMarker",
+      "x": -75418.39844,
+      "y": 79219.5625
+    },
+    {
+      "id": "00370197",
+      "type": "ChemsAnyMarker",
+      "x": -75408,
+      "y": 79267.42188
+    },
+    {
+      "id": "003CD278",
+      "type": "ChemsPrewarMarker",
+      "x": -77084.32813,
+      "y": 75505.61719
+    },
+    {
+      "id": "003701A6",
+      "type": "ChemsPrewarMarker",
+      "x": -76857.5,
+      "y": 75738.96094
+    },
+    {
+      "id": "00387B77",
+      "type": "ChemsAnyMarker",
+      "x": -84218.33594,
+      "y": 94787.46094
+    },
+    {
+      "id": "00553EE4",
+      "type": "ChemsAnyMarker",
+      "x": -74018.19531,
+      "y": 113584.2422
+    },
+    {
+      "id": "00553CF8",
+      "type": "ChemsStimpakMarker",
+      "x": -75447.00781,
+      "y": 114243.8047
+    },
+    {
+      "id": "00342B16",
+      "type": "ChemsAnyMarker",
+      "x": -94513.85156,
+      "y": 130345.6797
+    },
+    {
+      "id": "0034406E",
+      "type": "ChemsAnyMarker",
+      "x": -33758.33203,
+      "y": 5051.277832
+    },
+    {
+      "id": "0031DB73",
+      "type": "ChemsPrewarMarker",
+      "x": -40467.52734,
+      "y": 32357.41992
+    },
+    {
+      "id": "0031DB75",
+      "type": "ChemsPrewarMarker",
+      "x": -38629.66797,
+      "y": 32196.26172
+    },
+    {
+      "id": "0031DB81",
+      "type": "ChemsAnyMarker",
+      "x": -40783.02734,
+      "y": 32434.53711
+    },
+    {
+      "id": "0031DB84",
+      "type": "ChemsAnyMarker",
+      "x": -40616.00781,
+      "y": 32757.20703
+    },
+    {
+      "id": "003C1F18",
+      "type": "ChemsPrewarMarker",
+      "x": -44525.54297,
+      "y": 17343.71875
+    },
+    {
+      "id": "00382074",
+      "type": "ChemsRadMedsMarker",
+      "x": -44489.91406,
+      "y": 17293.99609
+    },
+    {
+      "id": "0054F1F6",
+      "type": "ChemsAnyMarker",
+      "x": -55527.13281,
+      "y": 27033.09766
+    },
+    {
+      "id": "003177F5",
+      "type": "ChemsAnyMarker",
+      "x": -60680.41016,
+      "y": 25728.28906
+    },
+    {
+      "id": "003BA6AE",
+      "type": "ChemsRadMedsMarker",
+      "x": -63647.23438,
+      "y": 24657.39063
+    },
+    {
+      "id": "003BA6D5",
+      "type": "ChemsAnyMarker",
+      "x": -62186.14453,
+      "y": 27577.375
+    },
+    {
+      "id": "003BA6B5",
+      "type": "ChemsRadMedsMarker",
+      "x": -63412.5,
+      "y": 24388.75391
+    },
+    {
+      "id": "002E63E5",
+      "type": "ChemsRadXMarker",
+      "x": -34934.34375,
+      "y": 38362.95313
+    },
+    {
+      "id": "003F17BB",
+      "type": "ChemsRadAwayMarker",
+      "x": -36484.00781,
+      "y": 34069.15625
+    },
+    {
+      "id": "0031DB78",
+      "type": "ChemsPrewarMarker",
+      "x": -36452.15234,
+      "y": 34217.88281
+    },
+    {
+      "id": "0031DB70",
+      "type": "ChemsPrewarMarker",
+      "x": -40950.79297,
+      "y": 32901.30078
+    },
+    {
+      "id": "0031DB72",
+      "type": "ChemsPrewarMarker",
+      "x": -40466.85156,
+      "y": 32933.30469
+    },
+    {
+      "id": "0031DB74",
+      "type": "ChemsPrewarMarker",
+      "x": -40615.54297,
+      "y": 32803.99609
+    },
+    {
+      "id": "0031DB76",
+      "type": "ChemsPrewarMarker",
+      "x": -37078.15234,
+      "y": 34056.76953
+    },
+    {
+      "id": "0034D920",
+      "type": "ChemsRadMedsMarker",
+      "x": -42022.62109,
+      "y": 50506.59766
+    },
+    {
+      "id": "0034D922",
+      "type": "ChemsRadMedsMarker",
+      "x": -41564.26563,
+      "y": 50983.09766
+    },
+    {
+      "id": "0034D937",
+      "type": "ChemsPrewarMarker",
+      "x": -41545.13672,
+      "y": 51050.07031
+    },
+    {
+      "id": "0034D93E",
+      "type": "ChemsPrewarMarker",
+      "x": -44947.31641,
+      "y": 49465.92969
+    },
+    {
+      "id": "0034D940",
+      "type": "ChemsPrewarMarker",
+      "x": -41907.19531,
+      "y": 51028.19531
+    },
+    {
+      "id": "0034D948",
+      "type": "ChemsRadMedsMarker",
+      "x": -43959.94922,
+      "y": 51460.32813
+    },
+    {
+      "id": "00346DE5",
+      "type": "ChemsRadMedsMarker",
+      "x": -42587.66016,
+      "y": 51264.22656
+    },
+    {
+      "id": "00346DE7",
+      "type": "ChemsRadMedsMarker",
+      "x": -42405.22266,
+      "y": 51266.34766
+    },
+    {
+      "id": "00346DE6",
+      "type": "ChemsRadMedsMarker",
+      "x": -43504.33984,
+      "y": 51007.59766
+    },
+    {
+      "id": "00346DF6",
+      "type": "ChemsAnyMarker",
+      "x": -43704.93359,
+      "y": 51797.25391
+    },
+    {
+      "id": "0031DB7F",
+      "type": "ChemsAnyMarker",
+      "x": -42027.66406,
+      "y": 37539.85156
+    },
+    {
+      "id": "0031DB80",
+      "type": "ChemsAnyMarker",
+      "x": -42204.75781,
+      "y": 36034.67188
+    },
+    {
+      "id": "0040309A",
+      "type": "ChemsStimpakMarker",
+      "x": -53048.42578,
+      "y": 89669.95313
+    },
+    {
+      "id": "00403097",
+      "type": "ChemsStimpakMarker",
+      "x": -56894.42188,
+      "y": 89929.6875
+    },
+    {
+      "id": "00403098",
+      "type": "ChemsStimpakMarker",
+      "x": -56927.14063,
+      "y": 89925.97656
+    },
+    {
+      "id": "00403099",
+      "type": "ChemsRadAwayMarker",
+      "x": -56910.64844,
+      "y": 89939.88281
+    },
+    {
+      "id": "0040309B",
+      "type": "ChemsStimpakMarker",
+      "x": -59074.67188,
+      "y": 91914.53906
+    },
+    {
+      "id": "0040309C",
+      "type": "ChemsStimpakMarker",
+      "x": -59353.21484,
+      "y": 91849.28906
+    },
+    {
+      "id": "003A7348",
+      "type": "ChemsAnyMarker",
+      "x": -59110.3125,
+      "y": 91915.6875
+    },
+    {
+      "id": "004E27A3",
+      "type": "ChemsPrewarMarker",
+      "x": -55331.38672,
+      "y": 111405.6094
+    },
+    {
+      "id": "00294FCE",
+      "type": "ChemsBloodpackMarker",
+      "x": -56191.46875,
+      "y": 113835.0078
+    },
+    {
+      "id": "004FA799",
+      "type": "ChemsAnyMarker",
+      "x": -54430.69531,
+      "y": 107851.8125
+    },
+    {
+      "id": "0059EC42",
+      "type": "ChemsAnyMarker",
+      "x": -196.918396,
+      "y": 22068.7793
+    },
+    {
+      "id": "004FCC30",
+      "type": "ChemsAnyMarker",
+      "x": -21614.19141,
+      "y": 29739.20313
+    },
+    {
+      "id": "00324C79",
+      "type": "ChemsRadMedsMarker",
+      "x": -21676.09961,
+      "y": 29341.84961
+    },
+    {
+      "id": "00324C77",
+      "type": "ChemsRadMedsMarker",
+      "x": -21151.98047,
+      "y": 29683.0332
+    },
+    {
+      "id": "00338231",
+      "type": "ChemsAnyMarker",
+      "x": -6786.665039,
+      "y": 34318.96094
+    },
+    {
+      "id": "004E5DD3",
+      "type": "ChemsAnyMarker",
+      "x": -3242.292969,
+      "y": 91904.46094
+    },
+    {
+      "id": "004E1FA5",
+      "type": "ChemsAnyMarker",
+      "x": -2891.302002,
+      "y": 83143.98438
+    },
+    {
+      "id": "004E1FF6",
+      "type": "ChemsAnyMarker",
+      "x": -2028.747925,
+      "y": 84825.27344
+    },
+    {
+      "id": "004E1FF7",
+      "type": "ChemsRadMedsMarker",
+      "x": -2002.94751,
+      "y": 84816.6875
+    },
+    {
+      "id": "0045310C",
+      "type": "ChemsAnyMarker",
+      "x": -1697.147217,
+      "y": 81884.64063
+    },
+    {
+      "id": "002C8B0F",
+      "type": "ChemsRadMedsMarker",
+      "x": -4290.353515,
+      "y": 93473.24219
+    },
+    {
+      "id": "002BA26D",
+      "type": "ChemsRadAwayMarker",
+      "x": -4680.254883,
+      "y": 88328.64844
+    },
+    {
+      "id": "004E343D",
+      "type": "ChemsPrewarMarker",
+      "x": -5764.113769,
+      "y": 87604.53125
+    },
+    {
+      "id": "002BA23F",
+      "type": "ChemsRadAwayMarker",
+      "x": -9465.717773,
+      "y": 90280.67969
+    },
+    {
+      "id": "004E5E38",
+      "type": "ChemsAnyMarker",
+      "x": -11626.39453,
+      "y": 93115.45313
+    },
+    {
+      "id": "003E4294",
+      "type": "ChemsAnyMarker",
+      "x": -11810.80859,
+      "y": 76174.375
+    },
+    {
+      "id": "0033C918",
+      "type": "ChemsPrewarMarker",
+      "x": -16249.94238,
+      "y": 83856.6875
+    },
+    {
+      "id": "0033C91A",
+      "type": "ChemsPrewarMarker",
+      "x": -15930.50293,
+      "y": 83895.6875
+    },
+    {
+      "id": "0033C927",
+      "type": "ChemsPrewarMarker",
+      "x": -16082.46875,
+      "y": 85923.77344
+    },
+    {
+      "id": "0033C944",
+      "type": "ChemsRadMedsMarker",
+      "x": -15302.54102,
+      "y": 85488.55469
+    },
+    {
+      "id": "001557CE",
+      "type": "ChemsAnyMarker",
+      "x": -14246.4541,
+      "y": 67673.07031
+    },
+    {
+      "id": "005308D6",
+      "type": "ChemsPrewarMarker",
+      "x": -18935.92969,
+      "y": 84736
+    },
+    {
+      "id": "005308D7",
+      "type": "ChemsPrewarMarker",
+      "x": -19222.5625,
+      "y": 84565.97656
+    },
+    {
+      "id": "003E426F",
+      "type": "ChemsPrewarMarker",
+      "x": -17356.28906,
+      "y": 74155.13281
+    },
+    {
+      "id": "0051BF6E",
+      "type": "ChemsRadAwayMarker",
+      "x": -20992.86328,
+      "y": 96757.125
+    },
+    {
+      "id": "003C16E3",
+      "type": "ChemsRadXMarker",
+      "x": -21185.36133,
+      "y": 96987.89063
+    },
+    {
+      "id": "003B6B5F",
+      "type": "ChemsPrewarMarker",
+      "x": -31695.30664,
+      "y": 92537.14844
+    },
+    {
+      "id": "003B189E",
+      "type": "ChemsAnyMarker",
+      "x": -30357.78125,
+      "y": 90549.49219
+    },
+    {
+      "id": "003B9796",
+      "type": "ChemsRadMedsMarker",
+      "x": -31360.85547,
+      "y": 89738.95313
+    },
+    {
+      "id": "003B97A8",
+      "type": "ChemsRadMedsMarker",
+      "x": -32140.07227,
+      "y": 89996.85938
+    },
+    {
+      "id": "003B6B89",
+      "type": "ChemsPrewarMarker",
+      "x": -31229.4375,
+      "y": 88618.57031
+    },
+    {
+      "id": "00557623",
+      "type": "ChemsRadXMarker",
+      "x": -12173.91016,
+      "y": 101207.5547
+    },
+    {
+      "id": "00346DD2",
+      "type": "ChemsRadMedsMarker",
+      "x": -11941.58789,
+      "y": 101628.4063
+    },
+    {
+      "id": "0035193A",
+      "type": "ChemsRadMedsMarker",
+      "x": -15286.99707,
+      "y": 103750.375
+    },
+    {
+      "id": "00351938",
+      "type": "ChemsRadMedsMarker",
+      "x": -15271.08789,
+      "y": 103701.7656
+    },
+    {
+      "id": "00351A2B",
+      "type": "ChemsAnyMarker",
+      "x": -15258.3457,
+      "y": 103639.0078
+    },
+    {
+      "id": "00351A2C",
+      "type": "ChemsAnyMarker",
+      "x": -15221.02832,
+      "y": 103478.9688
+    },
+    {
+      "id": "00346DCE",
+      "type": "ChemsRadMedsMarker",
+      "x": -12499.82617,
+      "y": 101929.3359
+    },
+    {
+      "id": "0055762B",
+      "type": "ChemsStimpakMarker",
+      "x": -12359.26172,
+      "y": 101160.5078
+    },
+    {
+      "id": "003C15B1",
+      "type": "ChemsRadXMarker",
+      "x": -12309.60938,
+      "y": 101429.7266
+    },
+    {
+      "id": "003C15B4",
+      "type": "ChemsStimpakMarker",
+      "x": -12397.96387,
+      "y": 102076.3203
+    },
+    {
+      "id": "00346DC7",
+      "type": "ChemsRadMedsMarker",
+      "x": -12475.53418,
+      "y": 102235.8828
+    },
+    {
+      "id": "00346DD0",
+      "type": "ChemsRadMedsMarker",
+      "x": -12362.49024,
+      "y": 101955.0469
+    },
+    {
+      "id": "0036FFEB",
+      "type": "ChemsAnyMarker",
+      "x": -30896.47656,
+      "y": 130439.9844
+    },
+    {
+      "id": "003E13FF",
+      "type": "ChemsBloodpackMarker",
+      "x": -29401.38477,
+      "y": 101346.4844
+    },
+    {
+      "id": "003DFF53",
+      "type": "ChemsRadMedsMarker",
+      "x": -30162.89649,
+      "y": 99700.99219
+    },
+    {
+      "id": "003A94E0",
+      "type": "ChemsRadMedsMarker",
+      "x": -104069.9375,
+      "y": 153603.5625
+    },
+    {
+      "id": "00403088",
+      "type": "ChemsStimpakMarker",
+      "x": -116837.7344,
+      "y": 173535.125
+    },
+    {
+      "id": "00403084",
+      "type": "ChemsStimpakMarker",
+      "x": -121787.8203,
+      "y": 179791.4844
+    },
+    {
+      "id": "00403086",
+      "type": "ChemsStimpakMarker",
+      "x": -122847.1641,
+      "y": 177663.8594
+    },
+    {
+      "id": "003BAC5C",
+      "type": "ChemsAnyMarker",
+      "x": -122873.9766,
+      "y": 178098
+    },
+    {
+      "id": "004FDE95",
+      "type": "ChemsAnyMarker",
+      "x": -122026.3516,
+      "y": 171896.5156
+    },
+    {
+      "id": "004EC136",
+      "type": "ChemsRadMedsMarker",
+      "x": -121965.8984,
+      "y": 171979.375
+    },
+    {
+      "id": "00403087",
+      "type": "ChemsStimpakMarker",
+      "x": -123206.4609,
+      "y": 181219.3906
+    },
+    {
+      "id": "0036E27A",
+      "type": "ChemsAnyMarker",
+      "x": -123266.5781,
+      "y": 181032.4531
+    },
+    {
+      "id": "00403083",
+      "type": "ChemsStimpakMarker",
+      "x": -123969.8125,
+      "y": 178661.9844
+    },
+    {
+      "id": "00403085",
+      "type": "ChemsStimpakMarker",
+      "x": -123415.5078,
+      "y": 179980.4844
+    },
+    {
+      "id": "005AD131",
+      "type": "ChemsStimpakMarker",
+      "x": -129991.7188,
+      "y": 181634.7969
+    },
+    {
+      "id": "003F02AE",
+      "type": "ChemsStimpakMarker",
+      "x": -127389.6719,
+      "y": 202736.4844
+    },
+    {
+      "id": "003F02B2",
+      "type": "ChemsStimpakMarker",
+      "x": -127387.8672,
+      "y": 202732
+    },
+    {
+      "id": "00379B6E",
+      "type": "ChemsRadMedsMarker",
+      "x": -70536,
+      "y": 133560
+    },
+    {
+      "id": "004ED1D7",
+      "type": "ChemsRadMedsMarker",
+      "x": -75124.30469,
+      "y": 153037.4844
+    },
+    {
+      "id": "0035D1B9",
+      "type": "ChemsRadMedsMarker",
+      "x": -79814.21094,
+      "y": 148922.6875
+    },
+    {
+      "id": "0035D110",
+      "type": "ChemsRadMedsMarker",
+      "x": -75463.36719,
+      "y": 173624.5625
+    },
+    {
+      "id": "0039ED99",
+      "type": "ChemsAnyMarker",
+      "x": -93413.09375,
+      "y": 204844.1719
+    },
+    {
+      "id": "0039ED9B",
+      "type": "ChemsAnyMarker",
+      "x": -93426.00781,
+      "y": 204866.2344
+    },
+    {
+      "id": "0031953A",
+      "type": "ChemsAnyMarker",
+      "x": -45653.14453,
+      "y": 150370.2344
+    },
+    {
+      "id": "0031953B",
+      "type": "ChemsAnyMarker",
+      "x": -45622.84766,
+      "y": 150378.1875
+    },
+    {
+      "id": "0031953C",
+      "type": "ChemsAnyMarker",
+      "x": -45640.41016,
+      "y": 150347.4688
+    },
+    {
+      "id": "00386B8D",
+      "type": "ChemsRadMedsMarker",
+      "x": -52452.24609,
+      "y": 151103.6406
+    },
+    {
+      "id": "00386B90",
+      "type": "ChemsRadMedsMarker",
+      "x": -52260.10938,
+      "y": 151155.5781
+    },
+    {
+      "id": "00386BA0",
+      "type": "ChemsRadMedsMarker",
+      "x": -52780.375,
+      "y": 150932.0625
+    },
+    {
+      "id": "00314D7E",
+      "type": "ChemsStimpakMarker",
+      "x": -52673.10547,
+      "y": 148687.0313
+    },
+    {
+      "id": "00314D7F",
+      "type": "ChemsStimpakMarker",
+      "x": -52663.71875,
+      "y": 148689.7969
+    },
+    {
+      "id": "003E1403",
+      "type": "ChemsBloodpackMarker",
+      "x": -59589.99219,
+      "y": 142194.9688
+    },
+    {
+      "id": "003C69A6",
+      "type": "ChemsRadMedsMarker",
+      "x": -60169.39063,
+      "y": 141945.2344
+    },
+    {
+      "id": "00000861",
+      "type": "ChemsRadMedsMarker",
+      "x": -38170.50781,
+      "y": 180923.8594
+    },
+    {
+      "id": "00390F29",
+      "type": "ChemsAnyMarker",
+      "x": -12938.29004,
+      "y": 148233.7813
+    },
+    {
+      "id": "003EAC72",
+      "type": "ChemsAnyMarker",
+      "x": -32367.25195,
+      "y": 155091.5
+    },
+    {
+      "id": "0033E011",
+      "type": "ChemsAnyMarker",
+      "x": -725.481079,
+      "y": 168321.5938
+    },
+    {
+      "id": "0034196F",
+      "type": "ChemsPrewarMarker",
+      "x": -7319.910645,
+      "y": 165279.1875
+    },
+    {
+      "id": "00341977",
+      "type": "ChemsRadMedsMarker",
+      "x": -7410.3125,
+      "y": 164980.4688
+    },
+    {
+      "id": "0034197C",
+      "type": "ChemsAnyMarker",
+      "x": -10584.17773,
+      "y": 164971.8594
+    },
+    {
+      "id": "0033E00B",
+      "type": "ChemsAnyMarker",
+      "x": -13982.33399,
+      "y": 173802
+    },
+    {
+      "id": "0033E00D",
+      "type": "ChemsAnyMarker",
+      "x": -14331.8125,
+      "y": 173901.2031
+    },
+    {
+      "id": "0033E00E",
+      "type": "ChemsAnyMarker",
+      "x": -13001.84766,
+      "y": 174983.3281
+    },
+    {
+      "id": "001FCA26",
+      "type": "ChemsAnyMarker",
+      "x": -19342.82617,
+      "y": 193212.25
+    },
+    {
+      "id": "003AB264",
+      "type": "ChemsAnyMarker",
+      "x": -17085.26172,
+      "y": 192196.7656
+    },
+    {
+      "id": "003AB2A6",
+      "type": "ChemsAnyMarker",
+      "x": -17091.44727,
+      "y": 192188.1875
+    },
+    {
+      "id": "003AB38F",
+      "type": "ChemsAnyMarker",
+      "x": -16796.18555,
+      "y": 188478.2188
+    },
+    {
+      "id": "003AB3CD",
+      "type": "ChemsAnyMarker",
+      "x": -16847.41211,
+      "y": 188427.75
+    },
+    {
+      "id": "0033DF13",
+      "type": "ChemsAnyMarker",
+      "x": -17311.58594,
+      "y": 190576.5625
+    },
+    {
+      "id": "003AB345",
+      "type": "ChemsAnyMarker",
+      "x": -18497.7832,
+      "y": 187280.5
+    },
+    {
+      "id": "003AB37E",
+      "type": "ChemsAnyMarker",
+      "x": -18475.86328,
+      "y": 187345.6406
+    },
+    {
+      "id": "00486727",
+      "type": "ChemsRadMedsMarker",
+      "x": -21785.32813,
+      "y": 165405.7813
+    },
+    {
+      "id": "00486728",
+      "type": "ChemsRadMedsMarker",
+      "x": -23171.91992,
+      "y": 165866.7813
+    },
+    {
+      "id": "00486729",
+      "type": "ChemsRadMedsMarker",
+      "x": -21994.13281,
+      "y": 166888.2656
+    },
+    {
+      "id": "0048672A",
+      "type": "ChemsRadMedsMarker",
+      "x": -20679.78125,
+      "y": 167587.5313
+    },
+    {
+      "id": "0048672B",
+      "type": "ChemsRadMedsMarker",
+      "x": -24208.05273,
+      "y": 167685.6094
+    },
+    {
+      "id": "0043731A",
+      "type": "ChemsAnyMarker",
+      "x": -22097.16211,
+      "y": 167016.5938
+    },
+    {
+      "id": "004F87B9",
+      "type": "ChemsAnyMarker",
+      "x": -22658.64649,
+      "y": 167146.7344
+    },
+    {
+      "id": "004F87BA",
+      "type": "ChemsAnyMarker",
+      "x": -22679.83789,
+      "y": 167257.1406
+    },
+    {
+      "id": "003BCBDF",
+      "type": "ChemsAnyMarker",
+      "x": -21955.68555,
+      "y": 167447.1875
+    },
+    {
+      "id": "00346B27",
+      "type": "ChemsPrewarMarker",
+      "x": -21998.00195,
+      "y": 167764.2656
+    },
+    {
+      "id": "00346B28",
+      "type": "ChemsRadMedsMarker",
+      "x": -22003.28516,
+      "y": 167829.3281
+    },
+    {
+      "id": "00346B2A",
+      "type": "ChemsRadMedsMarker",
+      "x": -22001.01172,
+      "y": 167718.5781
+    },
+    {
+      "id": "00379276",
+      "type": "ChemsStimpakMarker",
+      "x": -25456.82422,
+      "y": 167271.4531
+    },
+    {
+      "id": "00352FAE",
+      "type": "ChemsAnyMarker",
+      "x": -28135.49023,
+      "y": 201316.3906
+    },
+    {
+      "id": "0034F5A4",
+      "type": "ChemsAnyMarker",
+      "x": -28955.06641,
+      "y": 197189.5
+    },
+    {
+      "id": "004533BC",
+      "type": "ChemsAnyMarker",
+      "x": -114556.5781,
+      "y": -167261.875
+    },
+    {
+      "id": "004E358E",
+      "type": "ChemsAnyMarker",
+      "x": -116800.8203,
+      "y": -169760.0313
+    },
+    {
+      "id": "004532E6",
+      "type": "ChemsAnyMarker",
+      "x": -116368.0703,
+      "y": -168225.1406
+    },
+    {
+      "id": "00453360",
+      "type": "ChemsPrewarMarker",
+      "x": -115270.8828,
+      "y": -167976.8906
+    },
+    {
+      "id": "00453371",
+      "type": "ChemsPrewarMarker",
+      "x": -115710.0703,
+      "y": -168301.0625
+    },
+    {
+      "id": "004533CB",
+      "type": "ChemsPrewarMarker",
+      "x": -116032.0781,
+      "y": -168965.0313
+    },
+    {
+      "id": "005910B9",
+      "type": "ChemsAnyMarker",
+      "x": -104666.1563,
+      "y": -138829.8594
+    },
+    {
+      "id": "0033BC3C",
+      "type": "ChemsAnyMarker",
+      "x": -113781.0391,
+      "y": -131491.3594
+    },
+    {
+      "id": "0033BC3D",
+      "type": "ChemsAnyMarker",
+      "x": -113545.4375,
+      "y": -131751.2188
+    },
+    {
+      "id": "0042FA17",
+      "type": "ChemsAnyMarker",
+      "x": -121594.5078,
+      "y": -132220.3906
+    },
+    {
+      "id": "0042FA86",
+      "type": "ChemsAnyMarker",
+      "x": -121302.1406,
+      "y": -133709.1563
+    },
+    {
+      "id": "000008DC",
+      "type": "ChemsPrewarMarker",
+      "x": -125855.2422,
+      "y": -149194.875
+    },
+    {
+      "id": "001B881C",
+      "type": "ChemsPrewarMarker",
+      "x": -73006.41406,
+      "y": -151185.8125
+    },
+    {
+      "id": "004F979C",
+      "type": "ChemsRadMedsMarker",
+      "x": -73272.96875,
+      "y": -152268.3594
+    },
+    {
+      "id": "003E7F86",
+      "type": "ChemsAnyMarker",
+      "x": -96901.42188,
+      "y": -137716.4375
+    },
+    {
+      "id": "003E7F87",
+      "type": "ChemsAnyMarker",
+      "x": -96826.59375,
+      "y": -137708.4375
+    },
+    {
+      "id": "003A63A7",
+      "type": "ChemsPrewarMarker",
+      "x": -36496.92188,
+      "y": -155950.3438
+    },
+    {
+      "id": "003A63A8",
+      "type": "ChemsPrewarMarker",
+      "x": -36432.99609,
+      "y": -155907.2344
+    },
+    {
+      "id": "003A63B0",
+      "type": "ChemsPrewarMarker",
+      "x": -36234.44922,
+      "y": -155698.0625
+    },
+    {
+      "id": "003A63E1",
+      "type": "ChemsPrewarMarker",
+      "x": -36105.40234,
+      "y": -155779.6406
+    },
+    {
+      "id": "004FB3DF",
+      "type": "ChemsAnyMarker",
+      "x": -55069.75781,
+      "y": -148403.9063
+    },
+    {
+      "id": "004FA472",
+      "type": "ChemsAnyMarker",
+      "x": -55581.71094,
+      "y": -148996.2344
+    },
+    {
+      "id": "004FA706",
+      "type": "ChemsRadMedsMarker",
+      "x": -55899.19922,
+      "y": -149516.3281
+    },
+    {
+      "id": "0036A67B",
+      "type": "ChemsAnyMarker",
+      "x": -53403.13281,
+      "y": -163275.2969
+    },
+    {
+      "id": "004FA66C",
+      "type": "ChemsStimpakMarker",
+      "x": -59519.81641,
+      "y": -148683.4844
+    },
+    {
+      "id": "004FA70E",
+      "type": "ChemsStimpakMarker",
+      "x": -58519.08594,
+      "y": -147984.3281
+    },
+    {
+      "id": "003AB0A0",
+      "type": "ChemsAnyMarker",
+      "x": -13232.49707,
+      "y": -166634.5625
+    },
+    {
+      "id": "003532CC",
+      "type": "ChemsAnyMarker",
+      "x": -24053.96289,
+      "y": -169164.2656
+    },
+    {
+      "id": "003532CE",
+      "type": "ChemsStimpakMarker",
+      "x": -23812.73828,
+      "y": -169060.0313
+    },
+    {
+      "id": "0040308B",
+      "type": "ChemsRadAwayMarker",
+      "x": -98.305832,
+      "y": -153185.75
+    },
+    {
+      "id": "0040308C",
+      "type": "ChemsStimpakMarker",
+      "x": -106.466339,
+      "y": -153167.9531
+    },
+    {
+      "id": "002E2C40",
+      "type": "ChemsRadXMarker",
+      "x": -1134.859497,
+      "y": -152770.9063
+    },
+    {
+      "id": "00403089",
+      "type": "ChemsStimpakMarker",
+      "x": -8315.404297,
+      "y": -150889.7656
+    },
+    {
+      "id": "0040308A",
+      "type": "ChemsRadAwayMarker",
+      "x": -8278.241211,
+      "y": -150914.8906
+    },
+    {
+      "id": "00359B25",
+      "type": "ChemsAnyMarker",
+      "x": -14455.16016,
+      "y": -156527.0469
+    },
+    {
+      "id": "00398711",
+      "type": "ChemsAnyMarker",
+      "x": -106767.7031,
+      "y": -101274.3984
+    },
+    {
+      "id": "00398722",
+      "type": "ChemsAnyMarker",
+      "x": -106712.6406,
+      "y": -101228.9141
+    },
+    {
+      "id": "0039F2D9",
+      "type": "ChemsAnyMarker",
+      "x": -112277.7813,
+      "y": -111050.8203
+    },
+    {
+      "id": "0039F2F6",
+      "type": "ChemsAnyMarker",
+      "x": -112837.6641,
+      "y": -111251.4922
+    },
+    {
+      "id": "0039F2F7",
+      "type": "ChemsAnyMarker",
+      "x": -112798.1484,
+      "y": -111249.6953
+    },
+    {
+      "id": "0039F315",
+      "type": "ChemsRadMedsMarker",
+      "x": -112535.9688,
+      "y": -111019.3906
+    },
+    {
+      "id": "0036479C",
+      "type": "ChemsAnyMarker",
+      "x": -111924.6484,
+      "y": -127289.0078
+    },
+    {
+      "id": "0038FF2F",
+      "type": "ChemsAnyMarker",
+      "x": -117562.8359,
+      "y": -114579.8828
+    },
+    {
+      "id": "004E555E",
+      "type": "ChemsPrewarMarker",
+      "x": -118749.4453,
+      "y": -124090.2969
+    },
+    {
+      "id": "004E555F",
+      "type": "ChemsPrewarMarker",
+      "x": -118773.0703,
+      "y": -124088.4141
+    },
+    {
+      "id": "00355AD1",
+      "type": "ChemsAnyMarker",
+      "x": -120780.1328,
+      "y": -105038.2578
+    },
+    {
+      "id": "003E8E3B",
+      "type": "ChemsRadMedsMarker",
+      "x": -122160.9375,
+      "y": -111783.4922
+    },
+    {
+      "id": "003E8E40",
+      "type": "ChemsRadMedsMarker",
+      "x": -122356.6797,
+      "y": -111637.2813
+    },
+    {
+      "id": "0038AD53",
+      "type": "ChemsAnyMarker",
+      "x": -125561.7109,
+      "y": -122869.1406
+    },
+    {
+      "id": "0052B2BC",
+      "type": "ChemsAnyMarker",
+      "x": -123342.3984,
+      "y": -123010.9766
+    },
+    {
+      "id": "0050C8A9",
+      "type": "ChemsStimpakMarker",
+      "x": -130479.0547,
+      "y": -101857.4375
+    },
+    {
+      "id": "0039F1B9",
+      "type": "ChemsStimpakMarker",
+      "x": -105444.6484,
+      "y": -68871.10938
+    },
+    {
+      "id": "0034330F",
+      "type": "ChemsAnyMarker",
+      "x": -103745.8047,
+      "y": -68786.32813
+    },
+    {
+      "id": "003ABE7E",
+      "type": "ChemsAnyMarker",
+      "x": -102410.3281,
+      "y": -80842.8125
+    },
+    {
+      "id": "0034295E",
+      "type": "ChemsPrewarMarker",
+      "x": -107782.5625,
+      "y": -79489.78906
+    },
+    {
+      "id": "0031E38C",
+      "type": "ChemsAnyMarker",
+      "x": -109887.9766,
+      "y": -91660.45313
+    },
+    {
+      "id": "004030C6",
+      "type": "ChemsStimpakMarker",
+      "x": -112604.9844,
+      "y": -72688.42188
+    },
+    {
+      "id": "004030C3",
+      "type": "ChemsStimpakMarker",
+      "x": -113598.9063,
+      "y": -76101.98438
+    },
+    {
+      "id": "004030C4",
+      "type": "ChemsStimpakMarker",
+      "x": -113898.4219,
+      "y": -75841.91406
+    },
+    {
+      "id": "004030C5",
+      "type": "ChemsStimpakMarker",
+      "x": -113917.6875,
+      "y": -75838.82813
+    },
+    {
+      "id": "0034CE7C",
+      "type": "ChemsAnyMarker",
+      "x": -114450.6719,
+      "y": -74547.92188
+    },
+    {
+      "id": "004E672B",
+      "type": "ChemsAnyMarker",
+      "x": -118254.0234,
+      "y": -83013.53906
+    },
+    {
+      "id": "004E672E",
+      "type": "ChemsRadMedsMarker",
+      "x": -118375.5391,
+      "y": -82915.73438
+    },
+    {
+      "id": "003E842F",
+      "type": "ChemsPrewarMarker",
+      "x": -126441.8594,
+      "y": -81800.92188
+    },
+    {
+      "id": "003E83CF",
+      "type": "ChemsRadMedsMarker",
+      "x": -126068.3438,
+      "y": -82795.92188
+    },
+    {
+      "id": "00343FC0",
+      "type": "ChemsRadXMarker",
+      "x": -129822.9766,
+      "y": -93882.61719
+    },
+    {
+      "id": "00343FC1",
+      "type": "ChemsRadXMarker",
+      "x": -129807.0703,
+      "y": -93883.375
+    },
+    {
+      "id": "00343FCE",
+      "type": "ChemsStimpakMarker",
+      "x": -129805.5391,
+      "y": -93894.10938
+    },
+    {
+      "id": "00343FD1",
+      "type": "ChemsBloodpackMarker",
+      "x": -129811.9922,
+      "y": -93867.90625
+    },
+    {
+      "id": "0052C7ED",
+      "type": "ChemsAnyMarker",
+      "x": -101800.6484,
+      "y": -47602.03906
+    },
+    {
+      "id": "0034F0B8",
+      "type": "ChemsStimpakMarker",
+      "x": -99833.42969,
+      "y": -49355.82031
+    },
+    {
+      "id": "0052A762",
+      "type": "ChemsAnyMarker",
+      "x": -100128.3516,
+      "y": -54202.08594
+    },
+    {
+      "id": "0034C2AB",
+      "type": "ChemsStimpakMarker",
+      "x": -100901.9297,
+      "y": -61178.89453
+    },
+    {
+      "id": "002BA318",
+      "type": "ChemsStimpakMarker",
+      "x": -103344.0938,
+      "y": -46637.66016
+    },
+    {
+      "id": "003B7601",
+      "type": "ChemsAnyMarker",
+      "x": -107476.1406,
+      "y": -47399.06641
+    },
+    {
+      "id": "0059C689",
+      "type": "ChemsAnyMarker",
+      "x": -106601.4453,
+      "y": -50841.42578
+    },
+    {
+      "id": "0059C68B",
+      "type": "ChemsAnyMarker",
+      "x": -106574.9766,
+      "y": -50858.66406
+    },
+    {
+      "id": "003E141D",
+      "type": "ChemsRadMedsMarker",
+      "x": -112677.1172,
+      "y": -36874.26172
+    },
+    {
+      "id": "003E13D4",
+      "type": "ChemsBloodpackMarker",
+      "x": -115660.8125,
+      "y": -34448.85547
+    },
+    {
+      "id": "005B702D",
+      "type": "ChemsStimpakMarker",
+      "x": -118103.8828,
+      "y": -48900.25781
+    },
+    {
+      "id": "00344037",
+      "type": "ChemsAnyMarker",
+      "x": -118132.5469,
+      "y": -48680.66406
+    },
+    {
+      "id": "003BABB4",
+      "type": "ChemsAnyMarker",
+      "x": -127828.8984,
+      "y": -48731.08594
+    },
+    {
+      "id": "003DF0E3",
+      "type": "ChemsAnyMarker",
+      "x": -129048.3672,
+      "y": -62427.16797
+    },
+    {
+      "id": "003CB38F",
+      "type": "ChemsRadMedsMarker",
+      "x": -114036.1328,
+      "y": -24265.41602
+    },
+    {
+      "id": "004865E2",
+      "type": "ChemsAnyMarker",
+      "x": -115941.5625,
+      "y": -4108.232422
+    },
+    {
+      "id": "00403093",
+      "type": "ChemsStimpakMarker",
+      "x": -129905.5,
+      "y": -31941.875
+    },
+    {
+      "id": "0035DB4D",
+      "type": "ChemsBloodpackMarker",
+      "x": -129902.9531,
+      "y": -31934.67578
+    },
+    {
+      "id": "0042F86D",
+      "type": "ChemsPrewarMarker",
+      "x": -67070.79688,
+      "y": -100156.0781
+    },
+    {
+      "id": "0042F948",
+      "type": "ChemsAnyMarker",
+      "x": -67117.20313,
+      "y": -102002.8438
+    },
+    {
+      "id": "003E8033",
+      "type": "ChemsAnyMarker",
+      "x": -73662.38281,
+      "y": -126323.0781
+    },
+    {
+      "id": "003E803B",
+      "type": "ChemsPrewarMarker",
+      "x": -74116.125,
+      "y": -126294.125
+    },
+    {
+      "id": "002B8559",
+      "type": "ChemsRadMedsMarker",
+      "x": -86289.1875,
+      "y": -104822.7969
+    },
+    {
+      "id": "002B855A",
+      "type": "ChemsRadMedsMarker",
+      "x": -86252.39063,
+      "y": -104805.5703
+    },
+    {
+      "id": "001DFB94",
+      "type": "ChemsAnyMarker",
+      "x": -88493.17188,
+      "y": -120086.0781
+    },
+    {
+      "id": "0058B5A0",
+      "type": "ChemsRadMedsMarker",
+      "x": -98070.86719,
+      "y": -114539.7344
+    },
+    {
+      "id": "0058B4A9",
+      "type": "ChemsStimpakMarker",
+      "x": -97700.45313,
+      "y": -118233.2813
+    },
+    {
+      "id": "0036F379",
+      "type": "ChemsAnyMarker",
+      "x": -78727.42969,
+      "y": -83494.74219
+    },
+    {
+      "id": "0034CEE8",
+      "type": "ChemsAnyMarker",
+      "x": -83256.98438,
+      "y": -93094.64063
+    },
+    {
+      "id": "003438B8",
+      "type": "ChemsAnyMarker",
+      "x": -69443.91406,
+      "y": -41855.16406
+    },
+    {
+      "id": "003438B6",
+      "type": "ChemsPrewarMarker",
+      "x": -69179.74219,
+      "y": -42532.19531
+    },
+    {
+      "id": "003438B9",
+      "type": "ChemsAnyMarker",
+      "x": -69414.44531,
+      "y": -41829.3125
+    },
+    {
+      "id": "003DEE4A",
+      "type": "ChemsPrewarMarker",
+      "x": -65870.05469,
+      "y": -52680.92578
+    },
+    {
+      "id": "003DEE4B",
+      "type": "ChemsPrewarMarker",
+      "x": -65803.80469,
+      "y": -52654.09766
+    },
+    {
+      "id": "00343886",
+      "type": "ChemsAnyMarker",
+      "x": -71559.30469,
+      "y": -40703.29688
+    },
+    {
+      "id": "003438BE",
+      "type": "ChemsAnyMarker",
+      "x": -70165.71875,
+      "y": -40573.50781
+    },
+    {
+      "id": "003438C2",
+      "type": "ChemsAnyMarker",
+      "x": -71482.90625,
+      "y": -44912.53125
+    },
+    {
+      "id": "00343893",
+      "type": "ChemsPrewarMarker",
+      "x": -69725.875,
+      "y": -41602.21484
+    },
+    {
+      "id": "00343896",
+      "type": "ChemsAnyMarker",
+      "x": -69954.0625,
+      "y": -43500.08984
+    },
+    {
+      "id": "00343887",
+      "type": "ChemsAnyMarker",
+      "x": -72514.74219,
+      "y": -45354.82813
+    },
+    {
+      "id": "00343889",
+      "type": "ChemsAnyMarker",
+      "x": -72570.53125,
+      "y": -47169.05078
+    },
+    {
+      "id": "003438AD",
+      "type": "ChemsPrewarMarker",
+      "x": -69694.59375,
+      "y": -47147.5625
+    },
+    {
+      "id": "003438C3",
+      "type": "ChemsAnyMarker",
+      "x": -71585.04688,
+      "y": -45123.05859
+    },
+    {
+      "id": "003438C4",
+      "type": "ChemsAnyMarker",
+      "x": -71539.65625,
+      "y": -45079.44141
+    },
+    {
+      "id": "003438C6",
+      "type": "ChemsAnyMarker",
+      "x": -70898.14844,
+      "y": -46878.78125
+    },
+    {
+      "id": "004FCD94",
+      "type": "ChemsAnyMarker",
+      "x": -80362.64063,
+      "y": -35602.63672
+    },
+    {
+      "id": "004FCD95",
+      "type": "ChemsAnyMarker",
+      "x": -80578.24219,
+      "y": -35607.76953
+    },
+    {
+      "id": "004FCD96",
+      "type": "ChemsAnyMarker",
+      "x": -80703.5625,
+      "y": -35818.44531
+    },
+    {
+      "id": "004FCD97",
+      "type": "ChemsAnyMarker",
+      "x": -80604.1875,
+      "y": -35813.82813
+    },
+    {
+      "id": "004FCD98",
+      "type": "ChemsAnyMarker",
+      "x": -80769.17969,
+      "y": -35092.52344
+    },
+    {
+      "id": "004FCD99",
+      "type": "ChemsAnyMarker",
+      "x": -80385.83594,
+      "y": -35254.87891
+    },
+    {
+      "id": "004DE1ED",
+      "type": "ChemsPrewarMarker",
+      "x": -80345.29688,
+      "y": -35569.94141
+    },
+    {
+      "id": "004DE1EE",
+      "type": "ChemsPrewarMarker",
+      "x": -81402.57813,
+      "y": -35863.82813
+    },
+    {
+      "id": "003B7875",
+      "type": "ChemsRadXMarker",
+      "x": -80588.5,
+      "y": -35208.00781
+    },
+    {
+      "id": "003B7876",
+      "type": "ChemsRadXMarker",
+      "x": -80775.96875,
+      "y": -36235.98438
+    },
+    {
+      "id": "003B7877",
+      "type": "ChemsRadXMarker",
+      "x": -80642.19531,
+      "y": -35168.03906
+    },
+    {
+      "id": "0052C889",
+      "type": "ChemsRadMedsMarker",
+      "x": -85626.89063,
+      "y": -57695.05469
+    },
+    {
+      "id": "004DE155",
+      "type": "ChemsAnyMarker",
+      "x": -86302.44531,
+      "y": -41935.92969
+    },
+    {
+      "id": "0052A6DC",
+      "type": "ChemsStimpakMarker",
+      "x": -96438.78906,
+      "y": -50933.25781
+    },
+    {
+      "id": "003429EB",
+      "type": "ChemsAnyMarker",
+      "x": -68675.61719,
+      "y": -11498.21973
+    },
+    {
+      "id": "003429F5",
+      "type": "ChemsPrewarMarker",
+      "x": -68968.84375,
+      "y": -11050.00684
+    },
+    {
+      "id": "003429F6",
+      "type": "ChemsPrewarMarker",
+      "x": -68987.65625,
+      "y": -11064.32324
+    },
+    {
+      "id": "00523E2F",
+      "type": "ChemsPrewarMarker",
+      "x": -66003.75781,
+      "y": -12855.20508
+    },
+    {
+      "id": "003429DC",
+      "type": "ChemsPrewarMarker",
+      "x": -66578.96875,
+      "y": -13957.36621
+    },
+    {
+      "id": "003429FA",
+      "type": "ChemsRadMedsMarker",
+      "x": -68707.67969,
+      "y": -12636.08496
+    },
+    {
+      "id": "003429FB",
+      "type": "ChemsRadMedsMarker",
+      "x": -68719.60938,
+      "y": -12653.65137
+    },
+    {
+      "id": "003429E6",
+      "type": "ChemsPrewarMarker",
+      "x": -69192.97656,
+      "y": -17078.88672
+    },
+    {
+      "id": "0031D1CA",
+      "type": "ChemsAnyMarker",
+      "x": -73016.46094,
+      "y": -23965.45703
+    },
+    {
+      "id": "0031D1C9",
+      "type": "ChemsAnyMarker",
+      "x": -73164.44531,
+      "y": -24203.63477
+    },
+    {
+      "id": "004DE10B",
+      "type": "ChemsAnyMarker",
+      "x": -89251.77344,
+      "y": -26910.44336
+    },
+    {
+      "id": "004DE10C",
+      "type": "ChemsAnyMarker",
+      "x": -89454.17969,
+      "y": -26772.75
+    },
+    {
+      "id": "0035E114",
+      "type": "ChemsAnyMarker",
+      "x": -64902.92188,
+      "y": -129403.0859
+    },
+    {
+      "id": "0035E115",
+      "type": "ChemsAnyMarker",
+      "x": -64873.66016,
+      "y": -129396.8672
+    },
+    {
+      "id": "00336BDC",
+      "type": "ChemsPrewarMarker",
+      "x": -41243.88672,
+      "y": -88952.39844
+    },
+    {
+      "id": "00336BCF",
+      "type": "ChemsAnyMarker",
+      "x": -42926.34766,
+      "y": -90653.44531
+    },
+    {
+      "id": "00336BD1",
+      "type": "ChemsPrewarMarker",
+      "x": -42190.85156,
+      "y": -90858.54688
+    },
+    {
+      "id": "00338252",
+      "type": "ChemsAnyMarker",
+      "x": -45206.76563,
+      "y": -84722.96875
+    },
+    {
+      "id": "003C5589",
+      "type": "ChemsPrewarMarker",
+      "x": -45716.79688,
+      "y": -84878.11719
+    },
+    {
+      "id": "003AA501",
+      "type": "ChemsPrewarMarker",
+      "x": -46380.28516,
+      "y": -85103.70313
+    },
+    {
+      "id": "005545E0",
+      "type": "ChemsAnyMarker",
+      "x": -37819.63281,
+      "y": -41657.37109
+    },
+    {
+      "id": "005545E1",
+      "type": "ChemsAnyMarker",
+      "x": -37814.62109,
+      "y": -41682.17188
+    },
+    {
+      "id": "0031D17F",
+      "type": "ChemsStimpakMarker",
+      "x": -39593.70313,
+      "y": -59070.70703
+    },
+    {
+      "id": "0031D17D",
+      "type": "ChemsAnyMarker",
+      "x": -39584.21094,
+      "y": -59043.67969
+    },
+    {
+      "id": "00439E40",
+      "type": "ChemsStimpakMarker",
+      "x": -53593.04688,
+      "y": -37229.90625
+    },
+    {
+      "id": "003B52FD",
+      "type": "ChemsAnyMarker",
+      "x": -55806.53516,
+      "y": -37773.57422
+    },
+    {
+      "id": "00355A6F",
+      "type": "ChemsAnyMarker",
+      "x": -54605.25781,
+      "y": -40384.16797
+    },
+    {
+      "id": "00355A70",
+      "type": "ChemsAnyMarker",
+      "x": -55235.04688,
+      "y": -40483.40625
+    },
+    {
+      "id": "00355A72",
+      "type": "ChemsAnyMarker",
+      "x": -55378.82813,
+      "y": -39454.68359
+    },
+    {
+      "id": "002AA571",
+      "type": "ChemsBloodpackMarker",
+      "x": -53812.61719,
+      "y": -39651.60156
+    },
+    {
+      "id": "0031BB7E",
+      "type": "ChemsAnyMarker",
+      "x": -57121.04688,
+      "y": -60575.125
+    },
+    {
+      "id": "003B5308",
+      "type": "ChemsRadMedsMarker",
+      "x": -57887.1875,
+      "y": -34890.65625
+    },
+    {
+      "id": "003459B2",
+      "type": "ChemsRadMedsMarker",
+      "x": -59180.19922,
+      "y": -39570.69141
+    },
+    {
+      "id": "003459B4",
+      "type": "ChemsAnyMarker",
+      "x": -61241.09766,
+      "y": -39299.83203
+    },
+    {
+      "id": "00591334",
+      "type": "ChemsRadMedsMarker",
+      "x": -59394.74219,
+      "y": -56998.82422
+    },
+    {
+      "id": "0055AC0A",
+      "type": "ChemsAnyMarker",
+      "x": -60451.16797,
+      "y": -55302.17188
+    },
+    {
+      "id": "0059EC4D",
+      "type": "ChemsStimpakMarker",
+      "x": -43882.625,
+      "y": -15223.5332
+    },
+    {
+      "id": "003647AA",
+      "type": "ChemsAnyMarker",
+      "x": -44748.51953,
+      "y": -13849.94238
+    },
+    {
+      "id": "003CF3E5",
+      "type": "ChemsStimpakMarker",
+      "x": -49040.00391,
+      "y": -28952.68555
+    },
+    {
+      "id": "003AB0B2",
+      "type": "ChemsAnyMarker",
+      "x": -20455.01953,
+      "y": -106821.0938
+    },
+    {
+      "id": "005A4F25",
+      "type": "ChemsAnyMarker",
+      "x": -22202.81641,
+      "y": -84489.67188
+    },
+    {
+      "id": "0050BC11",
+      "type": "ChemsStimpakMarker",
+      "x": -966.137024,
+      "y": -51675.43359
+    },
+    {
+      "id": "0050BC14",
+      "type": "ChemsAnyMarker",
+      "x": -994.928039,
+      "y": -51630.26172
+    },
+    {
+      "id": "0050BC17",
+      "type": "ChemsAnyMarker",
+      "x": -991.603515,
+      "y": -51605.22656
+    },
+    {
+      "id": "0027D0E1",
+      "type": "ChemsPrewarMarker",
+      "x": -12653.74707,
+      "y": -52050.42188
+    },
+    {
+      "id": "0027D0DA",
+      "type": "ChemsPrewarMarker",
+      "x": -12670.46387,
+      "y": -52050.13281
+    },
+    {
+      "id": "0039D268",
+      "type": "ChemsPrewarMarker",
+      "x": -17822.48828,
+      "y": -35867.36328
+    },
+    {
+      "id": "0039D26A",
+      "type": "ChemsPrewarMarker",
+      "x": -17803.32227,
+      "y": -35864.41797
+    },
+    {
+      "id": "003712C3",
+      "type": "ChemsAnyMarker",
+      "x": -2471.996338,
+      "y": -9100.658203
+    }
+  ]
+}

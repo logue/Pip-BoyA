@@ -1,0 +1,634 @@
+{
+  "markers": [
+    {
+      "id": "0021118F",
+      "type": "ChemsBuffoutMarker",
+      "x": 24623.99219,
+      "y": 26199.86133
+    },
+    {
+      "id": "002111F2",
+      "type": "ChemsBuffoutMarker",
+      "x": 24424.51953,
+      "y": 26303.2793
+    },
+    {
+      "id": "0059EC38",
+      "type": "ChemsDayTripperMarker",
+      "x": 111.592819,
+      "y": 22395.03516
+    },
+    {
+      "id": "0032040C",
+      "type": "ChemsOrangeMentatsMarker",
+      "x": 25601.23828,
+      "y": 100398.2344
+    },
+    {
+      "id": "00311278",
+      "type": "ChemsAddictolMarker",
+      "x": 52328.69922,
+      "y": 78683.03906
+    },
+    {
+      "id": "0021F9EC",
+      "type": "ChemsPsychoMarker",
+      "x": 86234.89063,
+      "y": 2954.556885
+    },
+    {
+      "id": "00138198",
+      "type": "ChemsDaddyOMarker",
+      "x": 125929.4375,
+      "y": 25088.88477
+    },
+    {
+      "id": "00139082",
+      "type": "ChemsPsychoMarker",
+      "x": 126917.6875,
+      "y": 27860.54297
+    },
+    {
+      "id": "00594747",
+      "type": "ChemsDaddyOMarker",
+      "x": 107353.4297,
+      "y": 107713.3281
+    },
+    {
+      "id": "00594748",
+      "type": "ChemsPsychoMarker",
+      "x": 107354.8125,
+      "y": 107696.8672
+    },
+    {
+      "id": "0010E592",
+      "type": "ChemsPsychoMarker",
+      "x": 14160.33496,
+      "y": 186747.7031
+    },
+    {
+      "id": "001AA6F7",
+      "type": "ChemsPsychoMarker",
+      "x": 3618.686524,
+      "y": 182854.75
+    },
+    {
+      "id": "001F4CEC",
+      "type": "ChemsPsychoMarker",
+      "x": 2854.500733,
+      "y": 184014.0781
+    },
+    {
+      "id": "003668E5",
+      "type": "ChemsDayTripperMarker",
+      "x": 60500.92578,
+      "y": 170319.8906
+    },
+    {
+      "id": "0036690C",
+      "type": "ChemsDayTripperMarker",
+      "x": 59986.63672,
+      "y": 170616.5938
+    },
+    {
+      "id": "00365E09",
+      "type": "ChemsDayTripperMarker",
+      "x": 59022,
+      "y": 170787
+    },
+    {
+      "id": "002F0330",
+      "type": "ChemsDaddyOMarker",
+      "x": 58706.46484,
+      "y": 171003.875
+    },
+    {
+      "id": "002F032F",
+      "type": "ChemsDayTripperMarker",
+      "x": 58712.83984,
+      "y": 171009.0938
+    },
+    {
+      "id": "0009DADB",
+      "type": "ChemsMentatsMarker",
+      "x": 41459.75781,
+      "y": 188824.9531
+    },
+    {
+      "id": "0009DAD5",
+      "type": "ChemsMentatsMarker",
+      "x": 41541.69531,
+      "y": 188693.2344
+    },
+    {
+      "id": "00114E5B",
+      "type": "ChemsMentatsMarker",
+      "x": 41006.50781,
+      "y": 188031.6875
+    },
+    {
+      "id": "00114E45",
+      "type": "ChemsBuffoutMarker",
+      "x": 41306.13281,
+      "y": 187923.375
+    },
+    {
+      "id": "0009DAD0",
+      "type": "ChemsBuffoutMarker",
+      "x": 41610.02344,
+      "y": 187258.5313
+    },
+    {
+      "id": "0039525E",
+      "type": "ChemsPsychoMarker",
+      "x": 124116.2188,
+      "y": 136393.8281
+    },
+    {
+      "id": "0039521F",
+      "type": "ChemsFuryMarker",
+      "x": 124140.8594,
+      "y": 136300.7344
+    },
+    {
+      "id": "002A4F6B",
+      "type": "ChemsFuryMarker",
+      "x": 1968.894897,
+      "y": -150973.0313
+    },
+    {
+      "id": "004FB2ED",
+      "type": "ChemsPsychoMarker",
+      "x": 39746.30469,
+      "y": -148959.4688
+    },
+    {
+      "id": "00570BC4",
+      "type": "ChemsDayTripperMarker",
+      "x": 113596.7578,
+      "y": -148758.6406
+    },
+    {
+      "id": "003A463D",
+      "type": "ChemsBuffoutMarker",
+      "x": 15806.71484,
+      "y": -104926.6953
+    },
+    {
+      "id": "0038E41B",
+      "type": "ChemsMentatsMarker",
+      "x": 51361.37891,
+      "y": -123597.7109
+    },
+    {
+      "id": "00451F14",
+      "type": "ChemsMentatsMarker",
+      "x": 65827.03906,
+      "y": -88606.96875
+    },
+    {
+      "id": "00451F16",
+      "type": "ChemsPsychotatsMarker",
+      "x": 66372.64844,
+      "y": -88048.67188
+    },
+    {
+      "id": "004DE6E5",
+      "type": "ChemsBuffoutMarker",
+      "x": 115671.5703,
+      "y": -86648.47656
+    },
+    {
+      "id": "00492893",
+      "type": "ChemsAddictolMarker",
+      "x": 99118.29688,
+      "y": -25556.07617
+    },
+    {
+      "id": "0038A881",
+      "type": "ChemsPsychoMarker",
+      "x": 164992.25,
+      "y": 16787.33594
+    },
+    {
+      "id": "0035CE35",
+      "type": "ChemsBuffoutMarker",
+      "x": 177541.3906,
+      "y": 34695.12109
+    },
+    {
+      "id": "0051BF08",
+      "type": "ChemsBuffoutMarker",
+      "x": 187072.3594,
+      "y": 94019.44531
+    },
+    {
+      "id": "002EAD6A",
+      "type": "ChemsBufftatsMarker",
+      "x": 139152.7656,
+      "y": 142403.6875
+    },
+    {
+      "id": "0038FAA6",
+      "type": "ChemsMentatsMarker",
+      "x": 157170.7188,
+      "y": -137208.8281
+    },
+    {
+      "id": "0059AE66",
+      "type": "ChemsDaddyOMarker",
+      "x": 157003.6094,
+      "y": -163065.7813
+    },
+    {
+      "id": "002DC2CB",
+      "type": "ChemsOrangeMentatsMarker",
+      "x": 149511.3594,
+      "y": -90281.3125
+    },
+    {
+      "id": "002C9F89",
+      "type": "ChemsBuffoutMarker",
+      "x": 149112.6875,
+      "y": -90202.27344
+    },
+    {
+      "id": "00386CE2",
+      "type": "ChemsMentatsMarker",
+      "x": 189702.5469,
+      "y": -97483.42188
+    },
+    {
+      "id": "003A404A",
+      "type": "ChemsMentatsMarker",
+      "x": 189702.5469,
+      "y": -97483.42188
+    },
+    {
+      "id": "003A404B",
+      "type": "ChemsMentatsMarker",
+      "x": 189764.1406,
+      "y": -96656.16406
+    },
+    {
+      "id": "003A404C",
+      "type": "ChemsMentatsMarker",
+      "x": 190031.4063,
+      "y": -95783
+    },
+    {
+      "id": "0050C438",
+      "type": "ChemsBufftatsMarker",
+      "x": 206222.7031,
+      "y": -71474.27344
+    },
+    {
+      "id": "005555DF",
+      "type": "ChemsDayTripperMarker",
+      "x": 201259.1406,
+      "y": -38410.00781
+    },
+    {
+      "id": "005555E0",
+      "type": "ChemsBuffoutMarker",
+      "x": 201237.7188,
+      "y": -38394.74219
+    },
+    {
+      "id": "005A0CFF",
+      "type": "ChemsFuryMarker",
+      "x": 204265.2969,
+      "y": -60944.21484
+    },
+    {
+      "id": "00568654",
+      "type": "ChemsBuffoutMarker",
+      "x": 199946.8438,
+      "y": -37315.13672
+    },
+    {
+      "id": "002DDCE8",
+      "type": "ChemsMentatsMarker",
+      "x": -134701.1406,
+      "y": 37359.05078
+    },
+    {
+      "id": "00040CBF",
+      "type": "ChemsAddictolMarker",
+      "x": -153692.0625,
+      "y": 108036.5859
+    },
+    {
+      "id": "00541210",
+      "type": "ChemsPsychoMarker",
+      "x": -167438.2813,
+      "y": 193369.6563
+    },
+    {
+      "id": "00541211",
+      "type": "ChemsDayTripperMarker",
+      "x": -166792.3125,
+      "y": 193450.5313
+    },
+    {
+      "id": "00541212",
+      "type": "ChemsPsychoMarker",
+      "x": -166854.1094,
+      "y": 189484.1406
+    },
+    {
+      "id": "003A66BC",
+      "type": "ChemsPsychoMarker",
+      "x": -148058.8125,
+      "y": -174406.5
+    },
+    {
+      "id": "00398B6B",
+      "type": "ChemsPsychoMarker",
+      "x": -157160.9219,
+      "y": -162159.4063
+    },
+    {
+      "id": "00398B6C",
+      "type": "ChemsPsychoMarker",
+      "x": -157120.2969,
+      "y": -162665.3906
+    },
+    {
+      "id": "00398B6E",
+      "type": "ChemsBuffoutMarker",
+      "x": -156932.5156,
+      "y": -162606.1406
+    },
+    {
+      "id": "000712F8",
+      "type": "ChemsBerryMentatsMarker",
+      "x": -132464.6563,
+      "y": -123517.2344
+    },
+    {
+      "id": "00048BDB",
+      "type": "ChemsDayTripperMarker",
+      "x": -101975.6875,
+      "y": 30062.69141
+    },
+    {
+      "id": "005537AC",
+      "type": "ChemsFuryMarker",
+      "x": -98985.59375,
+      "y": 125645.7188
+    },
+    {
+      "id": "003AC03B",
+      "type": "ChemsPsychoMarker",
+      "x": -69914.89063,
+      "y": 7861.510254
+    },
+    {
+      "id": "003B191C",
+      "type": "ChemsAddictolMarker",
+      "x": -84140.60938,
+      "y": 59476.59766
+    },
+    {
+      "id": "00553EE5",
+      "type": "ChemsFuryMarker",
+      "x": -74007.84375,
+      "y": 113586.2813
+    },
+    {
+      "id": "003551CF",
+      "type": "ChemsBuffoutMarker",
+      "x": -43878.68359,
+      "y": 51062.71875
+    },
+    {
+      "id": "00308C13",
+      "type": "ChemsPsychoMarker",
+      "x": -42142.58203,
+      "y": 37327.46484
+    },
+    {
+      "id": "00308C14",
+      "type": "ChemsPsychoMarker",
+      "x": -42290.46875,
+      "y": 37332.15625
+    },
+    {
+      "id": "00308C15",
+      "type": "ChemsPsychoMarker",
+      "x": -42269.53906,
+      "y": 37549.56641
+    },
+    {
+      "id": "00308C17",
+      "type": "ChemsPsychotatsMarker",
+      "x": -42229.83984,
+      "y": 37644.36328
+    },
+    {
+      "id": "00308C1B",
+      "type": "ChemsPsychoMarker",
+      "x": -41937.18359,
+      "y": 36303.41016
+    },
+    {
+      "id": "0029C841",
+      "type": "ChemsDayTripperMarker",
+      "x": -32280.19336,
+      "y": 8200.866211
+    },
+    {
+      "id": "005575CD",
+      "type": "ChemsMentatsMarker",
+      "x": -12267.20996,
+      "y": 101861.9453
+    },
+    {
+      "id": "0055762E",
+      "type": "ChemsBuffoutMarker",
+      "x": -12183.72266,
+      "y": 101205.8906
+    },
+    {
+      "id": "003C1599",
+      "type": "ChemsAddictolMarker",
+      "x": -11797.78906,
+      "y": 102282.8672
+    },
+    {
+      "id": "003F02B3",
+      "type": "ChemsBuffoutMarker",
+      "x": -128656.6172,
+      "y": 198275.3906
+    },
+    {
+      "id": "003EADF5",
+      "type": "ChemsPsychoMarker",
+      "x": -67036.78906,
+      "y": 149808.6719
+    },
+    {
+      "id": "00390F3E",
+      "type": "ChemsPsychoMarker",
+      "x": -12518.17969,
+      "y": 148337.8125
+    },
+    {
+      "id": "00390F3F",
+      "type": "ChemsPsychoMarker",
+      "x": -13025.10449,
+      "y": 148867.5938
+    },
+    {
+      "id": "00390F52",
+      "type": "ChemsPsychoMarker",
+      "x": -13106.01758,
+      "y": 148775.0469
+    },
+    {
+      "id": "001BBC92",
+      "type": "ChemsBuffoutMarker",
+      "x": -72500.03125,
+      "y": -151341.0938
+    },
+    {
+      "id": "004FA4E8",
+      "type": "ChemsBuffoutMarker",
+      "x": -55677.26172,
+      "y": -149552.1563
+    },
+    {
+      "id": "004FA4E9",
+      "type": "ChemsBuffoutMarker",
+      "x": -55644.86719,
+      "y": -149555.5625
+    },
+    {
+      "id": "004FA4EB",
+      "type": "ChemsBuffoutMarker",
+      "x": -54713.14453,
+      "y": -148679.4688
+    },
+    {
+      "id": "003532CD",
+      "type": "ChemsPsychoMarker",
+      "x": -24064.86328,
+      "y": -169137.2813
+    },
+    {
+      "id": "003532CF",
+      "type": "ChemsPsychoMarker",
+      "x": -23750.37305,
+      "y": -169293.4375
+    },
+    {
+      "id": "00584D5C",
+      "type": "ChemsPsychoMarker",
+      "x": -98600.97656,
+      "y": -115846.5
+    },
+    {
+      "id": "0059C65F",
+      "type": "ChemsPsychoMarker",
+      "x": -106592.8516,
+      "y": -50661.86719
+    },
+    {
+      "id": "0045C5DE",
+      "type": "ChemsDayTripperMarker",
+      "x": -76773.42188,
+      "y": -68225.95313
+    },
+    {
+      "id": "0045CB37",
+      "type": "ChemsDayTripperMarker",
+      "x": -76773.42188,
+      "y": -68225.95313
+    },
+    {
+      "id": "003B787E",
+      "type": "ChemsMentatsMarker",
+      "x": -80582.46875,
+      "y": -35204.36719
+    },
+    {
+      "id": "003B7881",
+      "type": "ChemsMentatsMarker",
+      "x": -80398.10938,
+      "y": -35247.80469
+    },
+    {
+      "id": "004FE0E7",
+      "type": "ChemsDayTripperMarker",
+      "x": -87571.0625,
+      "y": -59092.35156
+    },
+    {
+      "id": "0050D673",
+      "type": "ChemsPsychoMarker",
+      "x": -92172.375,
+      "y": -41679.19922
+    },
+    {
+      "id": "0050D674",
+      "type": "ChemsBufftatsMarker",
+      "x": -92090.16406,
+      "y": -41678.47656
+    },
+    {
+      "id": "0059EC4C",
+      "type": "ChemsAddictolMarker",
+      "x": -43881.44531,
+      "y": -15208.57129
+    },
+    {
+      "id": "0046D2D7",
+      "type": "ChemsDaddyOMarker",
+      "x": -22998.41016,
+      "y": -108912.6953
+    },
+    {
+      "id": "0046D2D8",
+      "type": "ChemsDaddyOMarker",
+      "x": -22998.85547,
+      "y": -108906.0859
+    },
+    {
+      "id": "004FB258",
+      "type": "ChemsFuryMarker",
+      "x": -22837.70117,
+      "y": -120642.0391
+    },
+    {
+      "id": "0036FFBF",
+      "type": "ChemsMentatsMarker",
+      "x": -7071.933594,
+      "y": -43614.09766
+    },
+    {
+      "id": "00301F40",
+      "type": "ChemsBuffoutMarker",
+      "x": -6043.72461,
+      "y": -42754.82813
+    },
+    {
+      "id": "00301F3F",
+      "type": "ChemsBuffoutMarker",
+      "x": -6031.31836,
+      "y": -42756.26172
+    },
+    {
+      "id": "0028204A",
+      "type": "ChemsPsychoMarker",
+      "x": -12551.92773,
+      "y": -52766.52734
+    },
+    {
+      "id": "0027E237",
+      "type": "ChemsBuffoutMarker",
+      "x": -12602.66309,
+      "y": -52795.71094
+    }
+  ]
+}

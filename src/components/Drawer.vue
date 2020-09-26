@@ -128,6 +128,20 @@ export default {
           to: '/workbench',
         },
         {
+          icon: 'mdi-pharmacy',
+          title: 'categories.chems',
+          items: [
+            {
+              title: 'categories.chems-aid',
+              to: '/chems-aid',
+            },
+            {
+              title: 'categories.chems-drug',
+              to: '/chems-drug',
+            },
+          ],
+        },
+        {
           icon: 'mdi-ammunition',
           title: 'categories.ammunition',
           to: null,
