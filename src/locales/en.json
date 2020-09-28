@@ -1,5 +1,5 @@
 {
-  "description": "This site is a site where you can see the Appalachian map like Google Maps.\nThe original Mappalachia project by u/AHeroicLlama on Reddit. \n",
+  "description": "This site is a site where you can see the Appalachian map like Google Maps.\nThe original Mappalachia project by u/AHeroicLlama on Reddit.",
   "getUri": "Get URI for this location.",
   "projection": "Projection",
   "rotation": "Rotation",
@@ -29,10 +29,10 @@
     "it": "Italian",
     "ja": "Japanese",
     "ko": "Korean",
-    "po": "Polish",
+    "pl": "Polish",
     "ru": "Russian",
-    "zh-cmn-Hans": "Simplified Chinese",
-    "zh-cmn-Hant": "Traditional Chinese"
+    "zh-cn": "Simplified Chinese",
+    "zh-tw": "Traditional Chinese"
   },
   "locations": {
     "LocMountainsNationalRadioArrayLocation": "National Isolated Radio Array",

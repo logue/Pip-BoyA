@@ -20,7 +20,7 @@
   "copy-success": "この場所へのURIをクリップボードにコピーしました。",
   "copy-failure": "コピーできませんでした。",
   "locale": "言語切り替え",
-  "all": "全て",
+  "all": "全てを選択",
   "locales": {
     "de": "ドイツ語",
     "en": "英語",
@@ -29,10 +29,10 @@
     "it": "イタリア語",
     "ja": "日本語",
     "ko": "韓国語",
-    "po": "ポルトガル語",
+    "pl": "ポーランド語",
     "ru": "ロシア語",
-    "zh-cmn-Hans": "簡体字中国語",
-    "zh-cmn-Hant": "繁体字中国語"
+    "zh-cn": "簡体字中国語",
+    "zh-tw": "繁体字中国語"
   },
   "locations": {
     "LocMountainsNationalRadioArrayLocation": "国立隔離無線アレイ",
@@ -636,9 +636,9 @@
     "FoodVegitableTatoMarker": "テイト",
     "WaypointMarker": "リンクのロケーション",
     "BabylonNukeBriefcaseMarker": "Valut-tecランチボックス",
-    "BabylonLootHighMarker": "戦利品（高）",
-    "BabylonLootMedMarker": "戦利品（中）",
-    "BabylonLootLowMarker": "戦利品（低）",
+    "BabylonLootHighMarker": "支給箱（高）",
+    "BabylonLootMedMarker": "支給箱（中）",
+    "BabylonLootLowMarker": "支給箱（低）",
     "BabylonLootBobbleheadsMarker": "ボブルヘッド",
     "BabylonLootMagazinesMarker": "雑誌",
     "BabylonLootTerminalMarker": "戦利品ターミナル",

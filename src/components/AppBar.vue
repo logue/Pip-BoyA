@@ -90,15 +90,8 @@
             <v-icon>mdi-translate</v-icon>
           </v-btn>
         </template>
-        <v-list v-model="$i18n.locale">
-          <v-list-item
-            v-for="locale in locales"
-            :key="locale"
-            :color="$i18n.locale == locale ? 'primary' : ''"
-            @click="changeLocale(locale)"
-          >
-            <v-list-item-title>{{ $t(`locales.${locale}`) }}</v-list-item-title>
-          </v-list-item>
+        <v-list dense>
+          <locale-changer />
         </v-list>
       </v-menu>
     </div>
@@ -163,15 +156,7 @@
           <v-subheader prepend-icon="mdi-translate" inset>
             {{ $t('locale') }}
           </v-subheader>
-          <v-list-item
-            v-for="locale in locales"
-            :key="locale"
-            @click="changeLocale(locale)"
-          >
-            <v-list-item-title>
-              {{ $t(`locales.${locale}`) }}
-            </v-list-item-title>
-          </v-list-item>
+          <locale-changer />
         </v-list>
       </v-menu>
     </div>
@@ -187,11 +172,12 @@
  */
 import About from '@/components/About.vue';
 import GetLink from '@/components/GetLink.vue';
-
+import LocaleChanger from '@/components/LocaleChanger.vue';
 export default {
   components: {
     about: About,
     'get-link': GetLink,
+    'locale-changer': LocaleChanger,
   },
   data() {
     return {
@@ -209,12 +195,6 @@ export default {
           break;
       }
     });
-  },
-  methods: {
-    changeLocale(locale) {
-      this.$i18n.locale = locale;
-      this.$store.commit('config/setLocale', locale);
-    },
   },
 };
 </script>
