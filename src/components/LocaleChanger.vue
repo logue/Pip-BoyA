@@ -1,25 +1,44 @@
 <template>
   <v-list-item-group v-model="$i18n.locale">
     <v-list-item
-      v-for="(lang, i) in langs"
-      :key="`Lang${i}`"
-      :value="lang"
+      v-for="(value, key, i) in languages"
+      :key="i"
+      :value="key"
       mandatory
-      @click="changeLocale(lang)"
+      @click="changeLocale(key)"
     >
-      <v-list-item-title>
-        {{ $t(`locales.${lang}`) }}
+      <v-list-item-title class="locale-item">
+        <country-flag :country="value" size="normal" />
+        <span>{{ $t(`locales.${key}`) }}</span>
       </v-list-item-title>
     </v-list-item>
   </v-list-item-group>
 </template>
 
 <script>
+import CountryFlag from 'vue-country-flag';
+
 export default {
   name: 'LocaleChanger',
+  components: {
+    CountryFlag,
+  },
   data() {
     return {
-      langs: Object.keys(this.$i18n.messages),
+      languages: {
+        de: 'de',
+        en: 'gb',
+        es: 'es',
+        fr: 'fr',
+        it: 'it',
+        ja: 'jp',
+        ko: 'kr',
+        pl: 'pl',
+        pt: 'pt',
+        ru: 'ru',
+        'zh-cn': 'cn',
+        'zh-tw': 'tw',
+      },
     };
   },
   methods: {
@@ -30,3 +49,14 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.locale-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  > span {
+    display: block;
+  }
+}
+</style>

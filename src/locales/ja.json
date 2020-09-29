@@ -1,7 +1,7 @@
 {
   "description": "このサイトは、GoogleMapsのような操作感でアパラチアのマップを見ることができるサイトです。\nオリジナルのMappalachiaは、Reditのu/AHeroicLlama氏のプロジェクトによって作られました。",
   "getUri": "この場所のリンクを取得する",
-  "projection": "座標",
+  "coordinate": "座標",
   "rotation": "回転",
   "title": "Mappalachia for Web",
   "toggleLocation": "ロケーションアイコンの表示切り替え",
@@ -14,12 +14,13 @@
   "zoom": "縮尺",
   "opacity": "地図の透過度",
   "legend": "凡例",
-  "about": "%sについて",
+  "about": "{appname}について",
   "close": "閉じる",
   "copy": "コピー",
   "copy-success": "この場所へのURIをクリップボードにコピーしました。",
   "copy-failure": "コピーできませんでした。",
   "locale": "言語切り替え",
+  "locale-changed": "言語設定は{locale}に切り替えられました。",
   "all": "全てを選択",
   "locales": {
     "de": "ドイツ語",
@@ -30,6 +31,7 @@
     "ja": "日本語",
     "ko": "韓国語",
     "pl": "ポーランド語",
+    "pt": "ポルトガル語",
     "ru": "ロシア語",
     "zh-cn": "簡体字中国語",
     "zh-tw": "繁体字中国語"

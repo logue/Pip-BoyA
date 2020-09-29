@@ -24,8 +24,12 @@
 
 <script>
 import config from '@/assets/map.config.js';
-import colorset from '@/assets/colorset.json';
-import {convertGeoJson, markerStyles, valuesOf} from '@/assets/utility.js';
+import {
+  convertGeoJson,
+  markerStyles,
+  valuesOf,
+  colorset,
+} from '@/assets/utility.js';
 
 const styles = markerStyles();
 

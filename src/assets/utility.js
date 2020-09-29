@@ -130,13 +130,25 @@ export function generateBuckets(features, attributeName, bucketCount) {
 }
 
 /**
- * Generate Marker Style
- * @return {Array}
+ * Default Marker color set
  */
-export const markerStyles = () => {
-  // Material Color name (Ignore Black and White)
-  // @see https://vuetifyjs.com/styles/colors/
-  const palette = [
+export const colorset = {
+  tileExplainColor: [
+    'cyan',
+    'magenta',
+    'yellow',
+    'red',
+    'lime',
+    'blue',
+    'lightgray',
+    'orange',
+    'springgreen',
+    'pink',
+    'purple',
+    'darkgreen',
+    'maroon',
+  ],
+  markerColor: [
     'red',
     'pink',
     'purple',
@@ -154,11 +166,19 @@ export const markerStyles = () => {
     'orange',
     'deep-orange',
     'brown',
-    'grey',
     'blue-grey',
-  ];
+    'grey',
+  ],
+};
+/**
+ * Generate Marker Style
+ * @return {Array}
+ */
+export const markerStyles = () => {
+  // Material Color name (Ignore Black and White)
+  // @see https://vuetifyjs.com/styles/colors/
   const styles = [];
-  for (const colorName of palette) {
+  for (const colorName of colorset.markerColor) {
     // Get Material Color from palette color name
     const colorSet = colors[toKebabCase(colorName)];
     // Generate Color set
@@ -200,6 +220,23 @@ export const markerStyles = () => {
     });
   }
   return styles;
+};
+
+/**
+ * Country icon mapping
+ */
+export const languages = {
+  de: 'de',
+  en: 'gb',
+  es: 'es',
+  fr: 'fr',
+  it: 'it',
+  ja: 'jp',
+  ko: 'kr',
+  pl: 'pl',
+  ru: 'ru',
+  'zh-cn': 'cn',
+  'zh-tw': 'tw',
 };
 
 /**

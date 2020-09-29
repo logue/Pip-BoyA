@@ -15,7 +15,7 @@
       <v-tooltip bottom>
         <template #activator="{on, attrs}">
           <v-btn icon v-bind="attrs" v-on="on" @click="$refs.getLink.open()">
-            <v-icon>mdi-link</v-icon>
+            <v-icon>mdi-share-variant</v-icon>
           </v-btn>
         </template>
         <span>{{ $t('getUri') }}</span>
@@ -85,10 +85,15 @@
       </v-tooltip>
       <!-- Locale Menu -->
       <v-menu offset-y>
-        <template #activator="{on, attrs}">
-          <v-btn icon v-bind="attrs" v-on="on">
-            <v-icon>mdi-translate</v-icon>
-          </v-btn>
+        <template #activator="{on: menu, attrs}">
+          <v-tooltip bottom>
+            <template #activator="{on: tooltip}">
+              <v-btn icon v-bind="attrs" v-on="{...tooltip, ...menu}">
+                <v-icon>mdi-translate</v-icon>
+              </v-btn>
+            </template>
+            <span>{{ $t('locale') }}</span>
+          </v-tooltip>
         </template>
         <v-list dense>
           <locale-changer />
@@ -115,7 +120,7 @@
           <!-- Get Link -->
           <v-list-item @click="$refs.getLink.open()">
             <v-list-item-icon>
-              <v-icon>mdi-link</v-icon>
+              <v-icon>mdi-share-variant</v-icon>
             </v-list-item-icon>
             <v-list-item-title>{{ $t('getUri') }}</v-list-item-title>
           </v-list-item>
@@ -153,7 +158,7 @@
           </v-list-item>
           <v-divider />
           <!-- Locale selection -->
-          <v-subheader prepend-icon="mdi-translate" inset>
+          <v-subheader prepend-icon="mdi-translate">
             {{ $t('locale') }}
           </v-subheader>
           <locale-changer />
@@ -178,11 +183,6 @@ export default {
     about: About,
     'get-link': GetLink,
     'locale-changer': LocaleChanger,
-  },
-  data() {
-    return {
-      locales: Object.keys(this.$i18n.messages),
-    };
   },
   mounted() {
     this.$store.subscribe((mutation, state) => {

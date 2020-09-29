@@ -1,7 +1,7 @@
 {
   "description": "This site is a site where you can see the Appalachian map like Google Maps.\nThe original Mappalachia project by u/AHeroicLlama on Reddit.",
   "getUri": "Get URI for this location.",
-  "projection": "Projection",
+  "coordinate": "Coordinate",
   "rotation": "Rotation",
   "title": "Mappalachia for Web",
   "toggleLocation": "Toggle Location icon",
@@ -14,13 +14,14 @@
   "zoom": "Zoom",
   "opacity": "Map Opacity",
   "legend": "Legend",
-  "about": "About %s",
+  "about": "About {appname}",
   "close": "Close",
   "copy": "Copy",
   "copy-success": "The URI to this location was copied to the clipboard.",
   "copy-failure": "Copy is failure.",
   "locale": "Change Locale",
-  "all": "All",
+  "locale-changed": "The language setting has been switched to {locale}.",
+  "all": "Select All",
   "locales": {
     "de": "German",
     "en": "English",
@@ -30,6 +31,7 @@
     "ja": "Japanese",
     "ko": "Korean",
     "pl": "Polish",
+    "pt": "Portguese",
     "ru": "Russian",
     "zh-cn": "Simplified Chinese",
     "zh-tw": "Traditional Chinese"
