@@ -9,9 +9,32 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   strict: process.env.NODE_ENV !== 'production',
-  state: {},
-  mutations: {},
-  actions: {},
+  state: {
+    // ローディングオーバーレイの表示制御
+    loading: true,
+    // スナックバーのテキスト
+    message: null,
+  },
+  getters: {
+    loading: (state) => state.loading,
+    message: (state) => state.message,
+  },
+  mutations: {
+    setLoading(state, display) {
+      state.loading = display;
+    },
+    setMessage(state, message) {
+      state.message = message || '';
+    },
+  },
+  actions: {
+    setLoading(context, display = false) {
+      context.commit('setLoading', display);
+    },
+    setMessage(context, message = null) {
+      context.commit('setMessage', message);
+    },
+  },
   modules: {
     config: config,
     location: location,
@@ -20,6 +43,7 @@ export default new Vuex.Store({
     createPersistedState({
       key: 'pipBoyA',
       storage: window.sessionStorage,
+      // paths: ['config'],
     }),
   ],
 });

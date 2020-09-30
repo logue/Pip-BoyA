@@ -2,9 +2,16 @@
   <v-app class="pip-boya">
     <v-app-bar app dense>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>{{ $root.$data.title }}</v-toolbar-title>
+      <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-spacer />
       <appbar />
+      <v-progress-linear
+        :active="loading"
+        :indeterminate="loading"
+        absolute
+        bottom
+        color="blue accent-4"
+      />
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" app left>
@@ -17,9 +24,18 @@
       </v-fade-transition>
     </v-main>
 
-    <v-overlay :value="$root.$data.loading">
+    <v-overlay :value="loading">
       <v-progress-circular indeterminate size="64" />
     </v-overlay>
+
+    <v-snackbar v-model="snackbar" timeout="5000">
+      {{ snackbarText }}
+      <template #action="{attrs}">
+        <v-btn color="primary" text v-bind="attrs" @click="snackbar = false">
+          {{ $t('close') }}
+        </v-btn>
+      </template>
+    </v-snackbar>
   </v-app>
 </template>
 
@@ -38,24 +54,49 @@ export default {
   },
   data() {
     return {
-      title: null,
+      title: this.$t('title'),
       drawer: false,
       explain: false,
+      snackbar: false,
     };
   },
   computed: {
     '$vuetify.theme.dark'() {
-      return this.$store.state.config.themeDark;
+      return this.$store.getters.config.themeDark;
     },
     '$i18n.locale'() {
-      return this.$store.state.config.locale;
+      return this.$store.getters.config.locale;
+    },
+    snackbarText() {
+      return this.$store.getters.message || null;
+    },
+    loading() {
+      return this.$store.getters.loading || false;
+    },
+  },
+  watch: {
+    '$i18n.locale'() {
+      const title = this.$t('title');
+      this.title = document.title = process.env.IS_ELECTRON
+        ? title.replace(/Web/g, 'Electron')
+        : title;
+      document.documentElement.lang = this.$i18n.locale;
+      document.getElementsByName('description')[0].content = this.$t(
+        'description'
+      );
+    },
+    '$store.getters.message'() {
+      this.snackbar = true;
+    },
+    $route() {
+      this.snackbar = false;
     },
   },
   mounted() {
-    document.title = this.$root.$data.title;
     // 設定を反映
     this.$vuetify.theme.dark = this.$store.state.config.themeDark;
     this.$i18n.locale = this.$store.state.config.locale;
+    document.title = this.title;
   },
 };
 </script>

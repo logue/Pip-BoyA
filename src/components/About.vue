@@ -1,7 +1,7 @@
 <template>
   <v-dialog v-model="dialog" max-width="800" light @keydown.esc="close">
     <v-card>
-      <v-card-title>{{ sprintf($t('about'), $root.$data.title) }}</v-card-title>
+      <v-card-title>{{ $t('about', {appname: $t('title')}) }}</v-card-title>
       <v-card-text>
         <v-banner>
           <nl2br tag="p" :text="$t('description')" />
@@ -147,7 +147,6 @@
 /**
  * About dialog
  */
-import {sprintf} from 'sprintf-js';
 import Gravatar from 'vue-gravatar';
 import Nl2br from 'vue-nl2br';
 
@@ -166,9 +165,6 @@ export default {
     this.isElectron = process.env.IS_ELECTRON;
   },
   methods: {
-    sprintf(...arr) {
-      return sprintf(...arr);
-    },
     open() {
       this.dialog = true;
     },

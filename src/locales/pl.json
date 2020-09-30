@@ -20,7 +20,9 @@
   "copy-success": "Skopiuj identyfikator URI do tej lokalizacji do schowka." ,
   "copy-failure": "Nie można skopiować.",
   "locale": "Zmiana języka",
-  "locale-changed": "Ustawienie języka zostało zmienione na [locale].",
+  "locale-changed": "Ustawienie języka zostało zmienione na {locale}.",
+  "category": "kategoria",
+  "category-changed": "Przełączono na mapę {category}.",
   "all": "Zaznacz wszystko",
   "locales": {
     "de": "Niemiecki",

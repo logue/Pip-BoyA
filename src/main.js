@@ -25,19 +25,6 @@ import './plugins/analytics';
 Vue.config.productionTip = false;
 
 new Vue({
-  data() {
-    const title = this.$t('title');
-    // Global variables
-    return {
-      // App title
-      title: process.env.IS_ELECTRON
-        ? title.replace(/Web/g, 'Electron')
-        : title,
-      // loading overlay
-      loading: true,
-    };
-  },
-
   router,
   vuetify,
   i18n,

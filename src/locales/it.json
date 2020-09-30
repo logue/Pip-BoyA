@@ -21,6 +21,8 @@
   "copy-failure": "Non poteva copiare.",
   "locale": "Cambio lingua",
   "locale-changed": "L'impostazione della lingua è stata cambiata in {locale}.",
+  "category": "categoria",
+  "category-changed": "Switched to {category} map.",
   "all": "Seleziona tutto",
   "locales": {
     "de": "Tedesco",

@@ -20,7 +20,9 @@
   "copy-success": "この場所へのURIをクリップボードにコピーしました。",
   "copy-failure": "コピーできませんでした。",
   "locale": "言語切り替え",
-  "locale-changed": "言語設定は{locale}に切り替えられました。",
+  "locale-changed": "言語設定を{locale}に切り替えました。",
+  "category": "カテゴリ",
+  "category-changed": "{category}のマップに切り替えました。",
   "all": "全てを選択",
   "locales": {
     "de": "ドイツ語",

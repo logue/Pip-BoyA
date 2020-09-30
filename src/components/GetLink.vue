@@ -27,14 +27,6 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-    <v-snackbar v-model="snackbar" timeout="2000">
-      {{ snackbarText }}
-      <template #action="{attrs}">
-        <v-btn color="blue" text v-bind="attrs" @click="snackbar = false">
-          {{ $t('close') }}
-        </v-btn>
-      </template>
-    </v-snackbar>
   </span>
 </template>
 
@@ -47,8 +39,6 @@ export default {
   data() {
     return {
       dialog: false,
-      snackbar: false,
-      snackbarText: null,
       uri: null,
     };
   },
@@ -72,14 +62,12 @@ export default {
     // クリップボードにコピー
     onCopy(e) {
       this.dialog = false;
-      this.snackbarText = this.$t('copy-success');
-      this.snackbar = true;
+      this.$store.dispatch('setMessage', this.$t('copy-success'));
     },
     // クリップボードにコピーできなかったとき
     onError(e) {
       this.dialog = false;
-      this.snackbarText = this.$t('copy-failure');
-      this.snackbar = true;
+      this.$store.dispatch('setMessage', this.$t('copy-failure'));
     },
   },
 };

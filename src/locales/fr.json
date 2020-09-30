@@ -20,7 +20,9 @@
   "copy-success": "L'URI de cet emplacement a été copié dans le presse-papiers.",
   "copy-failure": "Impossible de copier.",
   "locale": "Changement de langue",
-  "locale-changed": "Le paramètre de langue est passé à [locale].",
+  "locale-changed": "Le paramètre de langue est passé à {locale}.",
+  "category": "catégorie",
+  "category-changed": "Passé à la carte {category}.",
   "all": "Tout sélectionner",
   "locales": {
     "de": "Allemand",

@@ -45,6 +45,10 @@ export default {
     changeLocale(locale) {
       this.$i18n.locale = locale;
       this.$store.commit('config/setLocale', locale);
+      this.$store.commit(
+        'setMessage',
+        this.$t('locale-changed', {locale: this.$t(`locales.${locale}`)})
+      );
     },
   },
 };

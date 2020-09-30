@@ -58,18 +58,33 @@ export default {
   watch: {
     // ページ遷移したとき
     async $route(to) {
+      this.$store.dispatch('setLoading', true);
       this.$emit('init');
       this.category = to.params.category;
+
+      const title = process.env.IS_ELECTRON
+        ? this.$t('title').replace(/Web/g, 'Electron')
+        : this.$t('title');
+
       if (!this.category) {
-        document.title = this.$root.$data.title;
+        document.title = title;
+        this.$store.dispatch('setLoading', false);
         this.features = [];
         return;
       }
       this.features = await this.loadFeatures();
       // タイトルを書き換える
-      document.title =
-        this.$t(`categories.${this.category}`) + ' - ' + this.$root.$data.title;
+      document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
       this.redraw();
+      // ローディングオーバーレイを閉じる
+      this.$store.dispatch('setLoading', false);
+      // 切り替え完了のメッセージを出力
+      this.$store.dispatch(
+        'setMessage',
+        this.$t('category-changed', {
+          category: this.$t(`categories.${this.category}`),
+        })
+      );
     },
     isVisible() {
       // 表示マーカーの設定が変化したとき

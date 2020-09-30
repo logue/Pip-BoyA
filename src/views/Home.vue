@@ -170,6 +170,7 @@ export default {
   methods: {
     // マップが読み込まれたとき
     onMapMounted() {
+      this.$store.dispatch('setLoading', true);
       const map = this.$refs.map.$map;
       // now ol.Map instance is ready and we can work with it directly
       map.getControls().extend([
@@ -190,7 +191,7 @@ export default {
       })[0];
       pinchRotateInteraction.setActive(false);
 
-      this.$root.$data.loading = false;
+      this.$store.dispatch('setLoading', false);
     },
     // マップ移動開始時
     onMoveStart() {

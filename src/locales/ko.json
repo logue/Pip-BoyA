@@ -21,6 +21,8 @@
   "copy-failure": "복사 할 수 없습니다.",
   "locale": "언어 전환",
   "locale-changed": "언어 설정은 {locale}로 전환했습니다.",
+  "category": "카테고리",
+  "category-changed": "{category}의지도로 전환했습니다.",
   "all": "모두 선택",
   "locales": {
     "de": "독일어",

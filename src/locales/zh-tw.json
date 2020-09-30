@@ -21,6 +21,8 @@
   "copy-failure": "複製失敗。",
   "locale": "語言切換",
   "locale-changed": "語言設置已切換為{locale}。",
+  "category": "類別",
+  "category-changed": "已切換到{category}地圖。",
   "all": "全選",
   "locales": {
     "de": "德語",

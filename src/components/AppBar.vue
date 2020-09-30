@@ -9,7 +9,7 @@
             <v-icon>mdi-information-outline</v-icon>
           </v-btn>
         </template>
-        <span>About</span>
+        <span>{{ $t('about', {appname: $t('title')}) }}</span>
       </v-tooltip>
       <!-- Get Link -->
       <v-tooltip bottom>
@@ -114,7 +114,9 @@
             <v-list-item-icon>
               <v-icon>mdi-information-outline</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>About</v-list-item-title>
+            <v-list-item-title>
+              {{ $t('about', {appname: $t('title')}) }}
+            </v-list-item-title>
           </v-list-item>
           <v-divider />
           <!-- Get Link -->
