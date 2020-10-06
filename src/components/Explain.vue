@@ -1,10 +1,10 @@
 <template>
-  <v-card v-if="explains" shaped dark class="explain">
+  <v-card shaped dark class="explain">
     <v-card-title class="explain_title">
       {{ $t('legend') }}
       <v-spacer />
       <v-checkbox
-        v-if="items[0] !== '0'"
+        v-if="Object.keys(types)[0] !== '0'"
         v-model="checked"
         color="gray"
         :title="$t('toggleMarkerSelect')"
@@ -22,9 +22,9 @@
       </v-tooltip>
     </v-card-title>
     <v-card-text v-if="!isShrinked" class="explain_body">
-      <ul v-if="items[0] === '0'" class="explain_list">
+      <ul v-if="Object.keys(types)[0] === '0'" class="explain_list">
         <li
-          v-for="(item, index) in explains"
+          v-for="(item, index) in types"
           :key="index"
           :class="`explain_list_item explain_list_item_${colorset[index]}`"
         >
@@ -33,13 +33,13 @@
       </ul>
       <ul v-else class="explain_list explain_check_list">
         <li
-          v-for="(value, key, index) in explains"
+          v-for="(value, key, index) in types"
           :key="index"
           class="explain_list_item explain_list_checkbox"
         >
           <v-checkbox
             v-model="selected"
-            :color="colorset[getColorIndex(index)]"
+            :color="colorset[index]"
             :value="key"
             dense
             hide-details
@@ -51,10 +51,8 @@
                 inline
                 :label="key"
                 :content="value"
-                :color="colorset[getColorIndex(index)]"
-                :class="`explain_list_item_label ${
-                  colorset[getColorIndex(index)]
-                }--text text--lighten-2`"
+                :color="colorset[index]"
+                :class="`explain_list_item_label ${colorset[index]}--text text--lighten-2`"
               >
                 {{ $t(`markers.${key}`) }}
               </v-badge>
@@ -77,14 +75,12 @@ export default {
   emits: ['changed'],
   data() {
     return {
-      // カラーセット
-      colorset: [],
-      // 凡例
-      explains: {},
+      category: null,
+      types: [],
       // 項目
       items: [],
       // 色設定
-      colors: [],
+      colorset: [],
       // 最大化／最小化
       isShrinked: false,
       // チェック済みの項目の配列
@@ -96,11 +92,14 @@ export default {
     };
   },
   methods: {
-    update(data) {
-      this.explains = data[0];
-      this.colorset = data[1];
+    update() {
+      // データ読み込み
+      this.category = this.$route.params.category;
+      this.types = this.$store.getters['marker/types'](this.category);
+      this.colorset = this.$store.getters['marker/colorset'](this.category);
       // マーカーはすべて選択状態にする
-      this.selected = this.items = Object.keys(this.explains);
+      this.selected = this.items = Object.keys(this.types);
+      console.debug('explain init: ', this.category);
     },
     // 最小化／最大化
     toggleShrink() {
@@ -109,25 +108,16 @@ export default {
     // マーカー表示／非表示
     toggleMarker() {
       // console.log(this.selected);
-      this.checked = this.items.length === this.selected.length;
+      this.checked = this.types.length === this.selected.length;
       this.indeterminate =
         this.selected.length !== 0 &&
-        this.items.length !== this.selected.length;
+        this.types.length !== this.selected.length;
       this.$emit('changed', this.selected);
-    },
-    getColorIndex(index) {
-      const length = this.items.length;
-      if ((this.colorset.length - 3) / length > 2) {
-        // マーカーの種類が少ない場合、色がバラけるようにする。
-        // ※予備色のbrown、blue-gray、grayは含めない
-        index = (index * ((this.colorset.length - 3) / length)) | 0;
-      }
-      return index;
     },
     setSelection(action) {
       if (this.checked) {
         // Select all CheckBox
-        this.items.forEach((key) => {
+        this.types.forEach((key) => {
           this.selected.push(key);
         }, this);
       } else {

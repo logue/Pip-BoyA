@@ -1,3 +1,4 @@
+import config from './map.config';
 import colors from 'vuetify/lib/util/colors';
 import {Style, Circle, Text, Fill, Stroke} from 'ol/style';
 
@@ -57,7 +58,7 @@ export function convertCoordinates(
  */
 export function convertGeoJson(
   markers,
-  center,
+  center = config.center,
   rate = COORDINATES_REDUCTION_RATE,
   offset = COORDINATES_OFFSET
 ) {

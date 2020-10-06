@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <!-- Normal mode -->
     <div class="d-none d-sm-flex d-sm-none d-md-flex">
       <!-- About -->
@@ -84,24 +84,10 @@
         <span>{{ $t('toggleDarkMode') }}</span>
       </v-tooltip>
       <!-- Locale Menu -->
-      <v-menu offset-y>
-        <template #activator="{on: menu, attrs}">
-          <v-tooltip bottom>
-            <template #activator="{on: tooltip}">
-              <v-btn icon v-bind="attrs" v-on="{...tooltip, ...menu}">
-                <v-icon>mdi-translate</v-icon>
-              </v-btn>
-            </template>
-            <span>{{ $t('locale') }}</span>
-          </v-tooltip>
-        </template>
-        <v-list dense>
-          <locale-changer />
-        </v-list>
-      </v-menu>
+      <locale-changer />
     </div>
-    <!-- Small window mode -->
     <div class="d-flex d-sm-none">
+      <!-- Small window mode -->
       <v-menu offset-y>
         <template #activator="{on, attrs}">
           <v-btn icon v-bind="attrs" v-on="on">
@@ -158,14 +144,10 @@
             </v-list-item-icon>
             <v-list-item-title>{{ $t('toggleDarkMode') }}</v-list-item-title>
           </v-list-item>
-          <v-divider />
-          <!-- Locale selection -->
-          <v-subheader prepend-icon="mdi-translate">
-            {{ $t('locale') }}
-          </v-subheader>
-          <locale-changer />
         </v-list>
       </v-menu>
+      <!-- Locale Menu -->
+      <locale-changer />
     </div>
     <!-- dialogs -->
     <about ref="about" />
@@ -185,6 +167,11 @@ export default {
     about: About,
     'get-link': GetLink,
     'locale-changer': LocaleChanger,
+  },
+  computed: {
+    '$vuetify.theme.dark'() {
+      return this.$store.state.config.themeDark;
+    },
   },
   mounted() {
     this.$store.subscribe((mutation, state) => {

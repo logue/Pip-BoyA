@@ -1,5 +1,9 @@
 <template>
   <v-app class="pip-boya">
+    <v-navigation-drawer v-model="drawer" app left>
+      <d />
+    </v-navigation-drawer>
+
     <v-app-bar app dense>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>{{ title }}</v-toolbar-title>
@@ -13,10 +17,6 @@
         color="blue accent-4"
       />
     </v-app-bar>
-
-    <v-navigation-drawer v-model="drawer" app left>
-      <d />
-    </v-navigation-drawer>
 
     <v-main>
       <v-fade-transition mode="out-in">

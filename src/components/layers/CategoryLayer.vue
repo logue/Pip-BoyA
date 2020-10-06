@@ -24,12 +24,7 @@
 
 <script>
 import config from '@/assets/map.config.js';
-import {
-  convertGeoJson,
-  markerStyles,
-  valuesOf,
-  colorset,
-} from '@/assets/utility.js';
+import {markerStyles, valuesOf} from '@/assets/utility.js';
 
 const styles = markerStyles();
 
@@ -45,22 +40,35 @@ export default {
       features: [],
       // types
       types: [],
+      // Marker Visibiloty
+      isVisible: [],
       // Map Configure
       config: config,
       // Color Configure
       colorset: [],
-      // Marker Visibiloty
-      isVisible: [],
       // use marker tile
       tileImage: false,
     };
   },
   watch: {
     // ページ遷移したとき
-    async $route(to) {
+    $route(to) {
+      this.category = to.params.category;
+      this.init();
+    },
+    isVisible() {
+      // 表示マーカーの設定が変化したとき
+      this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
+    },
+  },
+  mounted() {
+    this.category = this.$route.params.category;
+    this.init();
+  },
+  methods: {
+    async init() {
       this.$store.dispatch('setLoading', true);
       this.$emit('init');
-      this.category = to.params.category;
 
       const title = process.env.IS_ELECTRON
         ? this.$t('title').replace(/Web/g, 'Electron')
@@ -69,10 +77,24 @@ export default {
       if (!this.category) {
         document.title = title;
         this.$store.dispatch('setLoading', false);
-        this.features = [];
         return;
       }
-      this.features = await this.loadFeatures();
+      console.debug('set category:', this.category);
+      if (!this.$store.getters['marker/types'](this.category)) {
+        await this.$store.dispatch('marker/getCategory', this.category);
+      }
+      // マーカーを登録
+      this.features = this.$store.getters['marker/features'](this.category);
+
+      if (this.features.length !== 0) {
+        // 種別を登録
+        this.types = this.isVisible = Object.keys(
+          this.$store.getters['marker/types'](this.category)
+        );
+      }
+      // 画像タイルレイヤ
+      this.tileImage = this.$store.getters['marker/tileImage'](this.category);
+
       // タイトルを書き換える
       document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
       this.redraw();
@@ -85,111 +107,50 @@ export default {
           category: this.$t(`categories.${this.category}`),
         })
       );
-    },
-    isVisible() {
-      // 表示マーカーの設定が変化したとき
-      this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
-    },
-  },
-  async mounted() {
-    this.$emit('init');
-    this.category = this.$route.params.category;
-    if (!this.category) {
-      document.title = this.$root.$data.title;
-      if (this.tileImage) {
-        // const source = await this.$refs.categoryTileLayer.getSource();
-        const source = this.$refs.categoryLayerSource;
-        // 新しい画像レイヤを指定
-        if (source) {
-          source.setUrl('');
-          this.clearCache(source);
-        }
-      }
-      return;
-    }
-    this.features = await this.loadFeatures();
-    document.title =
-      this.$t(`categories.${this.category}`) + ' - ' + this.$root.$data.title;
-    this.redraw();
-  },
-  methods: {
-    // マーカーを追加
-    async loadFeatures() {
-      this.features = [];
-      const locations = await this.axios
-        .get(`/data/${this.category}.json`)
-        .catch((err) => {
-          console.error(err);
-        });
-      if (!locations.data) {
-        return [];
-      }
-
-      this.tileImage = locations.data.tileImage || false;
-
-      if (locations.data.markers) {
-        // 定義されているマーカーの種類
-        const types = locations.data.markers.map((item) => item.type).sort();
-
-        // 表示するマーカーの種類の変数に全種類のマーカーを代入
-        const markerTypes = Array.from(new Set(types));
-
-        console.debug(markerTypes);
-
-        if (markerTypes.length > colorset.markerColor.length) {
-          throw new Error(
-            `Too many marker types. less than ${colorset.markerColor.length}`
-          );
-        }
-        // 表示マーカー
-        this.isVisible = markerTypes;
-        // マーカー名とその個数の連想配列を生成し、typesに代入
-        this.types = types.reduce((prev, cur) => {
-          prev[cur] = (prev[cur] || 0) + 1;
-          return prev;
-        }, {});
-        this.colorset = colorset.markerColor;
-      } else {
-        this.types = locations.data.explains;
-        this.colorset = locations.data.colorset || colorset.tileExplainColor;
-        return [];
-      }
-      this.$emit('loaded');
-      return convertGeoJson(locations.data.markers, config.center);
+      // 完了イベント
+      this.$emit('ready');
     },
     redraw() {
       this.$emit('redraw');
-      this.$root.$data.loading = true;
       if (this.tileImage) {
         // const source = await this.$refs.categoryTileLayer.getSource();
         const source = this.$refs.categoryLayerSource;
         // 新しい画像レイヤを指定
         if (source) {
           source.setUrl('/img/markerTile/' + this.tileImage);
-          this.clearCache(source);
+          if (source.tileCache) {
+            // 表示されている画像データとキャッシュを削除
+            source.tileCache.expireCache({});
+            source.tileCache.clear();
+          }
+          // リフレッシュ
+          source.refresh();
         }
       }
-      // console.log(this.$refs.markerLayer);
-      this.$refs.markerLayer.setStyle((features, resolution) =>
-        this.setStyle(features, resolution)
-      );
-      // Force layer to front
-      this.$root.$data.loading = false;
-      this.$emit('ready', [this.types, this.colorset]);
+
+      if (this.features.length !== 0) {
+        this.$refs.markerLayer.setStyle((features, resolution) =>
+          this.setStyle(features, resolution)
+        );
+      }
     },
     // Apply Marker style.
     setStyle(feature, resolution) {
       // Get Marker type
       const type = feature.get('type');
       // Get all type list.
-      const types = Object.keys(this.types);
+      const types = Object.keys(
+        this.$store.getters['marker/types'](this.category)
+      );
+
+      const colorset = this.$store.getters['marker/colorset'](this.category);
       // Get color index from type
       let index = types.indexOf(type);
 
-      if ((this.colorset.length - 3) / types.length > 2) {
+      if ((colorset.length - 3) / types.length > 2) {
         // If there are not enough markers, the colors should be varied.
         // * Ignore Brown and Blue-gray and Gray
-        index = (index * ((this.colorset.length - 3) / types.length)) | 0;
+        index = (index * ((colorset.length - 3) / types.length)) | 0;
       }
 
       // Apply marker color
@@ -221,15 +182,6 @@ export default {
       style.getImage().setScale(scale < 1 ? scale : 1);
       return style;
     },
-  },
-  clearCache(source) {
-    if (source.tileCache) {
-      // 表示されている画像データとキャッシュを削除
-      source.tileCache.expireCache({});
-      source.tileCache.clear();
-    }
-    // リフレッシュ
-    source.refresh();
   },
 };
 </script>

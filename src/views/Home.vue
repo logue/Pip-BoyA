@@ -255,12 +255,9 @@ export default {
       console.info(features);
     },
     // カテゴリレイヤーの描画が完了したとき
-    onCategoryLayerReady(explains, colorset) {
-      if (this.$route.params.category) {
-        // 画像マーカーモードのときはベースマップの透過度を半分にする
-        this.$refs.explainPopup.update(explains, colorset);
-        // this.$refs.baseLayer.opacity = tileMarkerMode ? 0.5 : 1;
-      }
+    onCategoryLayerReady() {
+      console.log('redraw');
+      this.$refs.explainPopup.update();
     },
     // 凡例のチェックボックスが変化した時
     onMarkerSelectChanged(selected) {
