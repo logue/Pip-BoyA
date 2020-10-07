@@ -2,15 +2,20 @@ import axios from 'axios';
 import {convertGeoJson, colorset, markerStyles} from '@/assets/utility.js';
 
 /**
- * Map location store
+ * Map Marker location store
  */
 export default {
   namespaced: true,
   state: {
+    // Marker location object
     features: {},
-    styles: markerStyles(),
+    // Marker Style definition.
+    styles: {},
+    // Marker Types
     types: {},
+    // Marker color palette
     colorset: {},
+    // Overlay tile image path
     tileImage: {},
   },
   getters: {
@@ -30,10 +35,24 @@ export default {
       state.colorset[payload.category] = payload.colorset;
       state.types[payload.category] = payload.types;
       state.tileImage[payload.category] = payload.tileImage;
-      console.log(state);
+    },
+    /**
+     * save to marker style set.
+     * @param {VueAxios.State} state Vuex State
+     * @param {object} payload data
+     */
+    setStyle(state, payload) {
+      state.styles = payload;
     },
   },
   actions: {
+    /**
+     * Init style set
+     * @param {VueAxios.State} context Context
+     */
+    init(context) {
+      context.commit('setStyle', markerStyles());
+    },
     /**
      * Set category location data.
      * @param {VueAxios.State} context Context
@@ -47,27 +66,43 @@ export default {
       const payload = {};
       payload.category = category;
       if (data.markers) {
+        // convert Fo76 marker location to geo json object
         payload.features = convertGeoJson(data.markers);
-        payload.colorset = data.colorset || colorset.markerColor;
-        // タイプ一覧を生成
-        const types = Array.from(new Set(data.markers));
+        payload.colorset = [];
 
-        // マーカー名とその個数の連想配列を生成し、typesに代入
+        const colors = data.colorset || colorset.markerColor;
+        // Get marker types.
+        const types = Array.from(
+          new Set(data.markers.map((item) => item.type))
+        ).sort();
+
+        if (types.length > colors.length) {
+          throw new Error(`Too many marker types. less than ${colors.length}`);
+        }
+
+        // Reduce color palette.
+        for (const type of types) {
+          let index = types.indexOf(type);
+
+          if ((colors.length - 3) / types.length > 2) {
+            // If there are not enough markers, the colors should be varied.
+            // * Ignore Brown and Blue-gray and Gray
+            index = (index * ((colors.length - 3) / types.length)) | 0;
+          }
+          payload.colorset.push(colors[index]);
+        }
+
+        // マーカー名とその個数の連想配列を生成し、payload.typesに代入
         // {タイプ名: マーカーの個数}
-        payload.types = types
+        payload.types = Array.from(new Set(data.markers))
           .map((item) => item.type)
           .sort()
           .reduce((prev, cur) => {
             prev[cur] = (prev[cur] || 0) + 1;
             return prev;
           }, {});
-
-        if (payload.types.length > payload.colorset.length) {
-          throw new Error(
-            `Too many marker types. less than ${payload.colorset.length}`
-          );
-        }
       } else {
+        // タイルマーカーモード（マーカー画像が予め含まれている）
         payload.features = [];
         payload.colorset = data.colorset || colorset.tileExplainColor;
         payload.types = {...data.explains};

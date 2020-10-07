@@ -44,8 +44,13 @@ export default new Vuex.Store({
   plugins: [
     createPersistedState({
       key: 'pipBoyA',
+      storage: window.localStorage,
+      paths: ['marker', 'config'],
+    }),
+    createPersistedState({
+      key: 'pipBoyA',
       storage: window.sessionStorage,
-      paths: ['config'],
+      paths: ['location'],
     }),
   ],
 });

@@ -24,7 +24,7 @@
 
 <script>
 import config from '@/assets/map.config.js';
-import {markerStyles, valuesOf} from '@/assets/utility.js';
+import {markerStyles} from '@/assets/utility.js';
 
 const styles = markerStyles();
 
@@ -58,7 +58,9 @@ export default {
     },
     isVisible() {
       // 表示マーカーの設定が変化したとき
-      this.$refs.markerLayer.setStyle((features) => this.setStyle(features));
+      this.$refs.markerLayer.setStyle((features, resolution) =>
+        this.setStyle(features, resolution)
+      );
     },
   },
   mounted() {
@@ -145,16 +147,10 @@ export default {
 
       const colorset = this.$store.getters['marker/colorset'](this.category);
       // Get color index from type
-      let index = types.indexOf(type);
-
-      if ((colorset.length - 3) / types.length > 2) {
-        // If there are not enough markers, the colors should be varied.
-        // * Ignore Brown and Blue-gray and Gray
-        index = (index * ((colorset.length - 3) / types.length)) | 0;
-      }
+      const index = types.indexOf(type);
 
       // Apply marker color
-      const style = valuesOf(styles)[index];
+      const style = styles[colorset[index]];
       // Add label to marker
       const label = feature.values_.label
         ? feature.values_.label.toString()

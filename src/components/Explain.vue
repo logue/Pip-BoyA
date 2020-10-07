@@ -5,7 +5,7 @@
       <v-spacer />
       <v-checkbox
         v-if="Object.keys(types)[0] !== '0'"
-        v-model="checked"
+        v-model="checkAll"
         color="gray"
         :title="$t('toggleMarkerSelect')"
         :indeterminate="indeterminate"
@@ -38,7 +38,7 @@
           class="explain_list_item explain_list_checkbox"
         >
           <v-checkbox
-            v-model="selected"
+            v-model="checked"
             :color="colorset[index]"
             :value="key"
             dense
@@ -76,29 +76,32 @@ export default {
   data() {
     return {
       category: null,
-      types: [],
       // 項目
       items: [],
-      // 色設定
-      colorset: [],
       // 最大化／最小化
       isShrinked: false,
       // チェック済みの項目の配列
-      selected: [],
+      checked: [],
       // 全選択／解除チェックボックスのチェック
-      checked: true,
+      checkAll: true,
       // 全選択／解除チェックボックスの中間状態フラグ
       indeterminate: false,
     };
+  },
+  computed: {
+    types() {
+      return this.$store.getters['marker/types'](this.category);
+    },
+    colorset() {
+      return this.$store.getters['marker/colorset'](this.category);
+    },
   },
   methods: {
     update() {
       // データ読み込み
       this.category = this.$route.params.category;
-      this.types = this.$store.getters['marker/types'](this.category);
-      this.colorset = this.$store.getters['marker/colorset'](this.category);
       // マーカーはすべて選択状態にする
-      this.selected = this.items = Object.keys(this.types);
+      this.checked = this.items = Object.keys(this.types);
       console.debug('explain init: ', this.category);
     },
     // 最小化／最大化
@@ -108,23 +111,22 @@ export default {
     // マーカー表示／非表示
     toggleMarker() {
       // console.log(this.selected);
-      this.checked = this.types.length === this.selected.length;
+      this.checkAll = this.items.length === this.checked.length;
       this.indeterminate =
-        this.selected.length !== 0 &&
-        this.types.length !== this.selected.length;
-      this.$emit('changed', this.selected);
+        this.checked.length !== 0 && this.items.length !== this.checked.length;
+      this.$emit('changed', this.checked);
     },
     setSelection(action) {
-      if (this.checked) {
+      if (this.checkAll) {
         // Select all CheckBox
-        this.types.forEach((key) => {
-          this.selected.push(key);
+        this.items.forEach((key) => {
+          this.checked.push(key);
         }, this);
       } else {
         // Unselect all ClearBox selected
-        this.selected = [];
+        this.checked = [];
       }
-      this.$emit('changed', this.selected);
+      this.$emit('changed', this.checked);
     },
   },
 };
