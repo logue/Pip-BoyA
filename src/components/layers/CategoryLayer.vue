@@ -68,7 +68,7 @@ export default {
     this.init();
   },
   methods: {
-    async init() {
+    init() {
       this.$store.dispatch('setLoading', true);
       this.$emit('init');
 
@@ -78,13 +78,16 @@ export default {
 
       if (!this.category) {
         document.title = title;
+        this.features = [];
         this.$store.dispatch('setLoading', false);
         return;
       }
+      this.$store.dispatch('setProgress', 10);
       console.debug('set category:', this.category);
       if (!this.$store.getters['marker/types'](this.category)) {
-        await this.$store.dispatch('marker/getCategory', this.category);
+        this.$store.dispatch('marker/getCategory', this.category);
       }
+      this.$store.dispatch('setProgress', 30);
       // マーカーを登録
       this.features = this.$store.getters['marker/features'](this.category);
 
@@ -93,12 +96,14 @@ export default {
         this.types = this.isVisible = Object.keys(
           this.$store.getters['marker/types'](this.category)
         );
+        this.$store.dispatch('setProgress', 50);
       }
       // 画像タイルレイヤ
       this.tileImage = this.$store.getters['marker/tileImage'](this.category);
 
       // タイトルを書き換える
       document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
+      this.$store.dispatch('setProgress', 70);
       this.redraw();
       // ローディングオーバーレイを閉じる
       this.$store.dispatch('setLoading', false);

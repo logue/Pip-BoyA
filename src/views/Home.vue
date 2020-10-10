@@ -155,9 +155,6 @@ export default {
         case 'config/toggleWebGl':
           this.webgl = state.config.webgl;
           break;
-        case 'explain/update':
-          this.explain = state.explains;
-          break;
       }
     });
     // Load location from QueryString.

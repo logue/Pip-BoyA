@@ -11,10 +11,11 @@
       <appbar />
       <v-progress-linear
         :active="loading"
-        :indeterminate="loading"
+        :indeterminate="progress === null"
+        :value="progress"
         absolute
         bottom
-        color="blue accent-4"
+        color="blue accent-3"
       />
     </v-app-bar>
 
@@ -56,22 +57,22 @@ export default {
     return {
       title: this.$t('title'),
       drawer: false,
-      explain: false,
+      loading: true,
       snackbar: false,
     };
   },
   computed: {
     '$vuetify.theme.dark'() {
-      return this.$store.getters.config.themeDark;
+      return this.$store.getters['config/themeDark'];
     },
     '$i18n.locale'() {
-      return this.$store.getters.config.locale;
+      return this.$store.getters['config/locale'];
     },
     snackbarText() {
-      return this.$store.getters.message || null;
+      return this.$store.getters.message;
     },
-    loading() {
-      return this.$store.getters.loading || false;
+    progress() {
+      return this.$store.getters.progress;
     },
   },
   watch: {
@@ -84,6 +85,11 @@ export default {
       document.getElementsByName('description')[0].content = this.$t(
         'description'
       );
+    },
+    '$store.state.loading'() {
+      const loading = this.$store.getters.loading;
+      document.body.style.cursor = loading ? 'wait' : 'auto';
+      this.loading = loading;
     },
     '$store.getters.message'() {
       this.snackbar = true;
