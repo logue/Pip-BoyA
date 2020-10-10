@@ -68,8 +68,8 @@ export default {
     this.init();
   },
   methods: {
-    init() {
-      this.$store.dispatch('setLoading', true);
+    async init() {
+      await this.$store.dispatch('setLoading', true);
       this.$emit('init');
 
       const title = process.env.IS_ELECTRON
@@ -82,31 +82,34 @@ export default {
         this.$store.dispatch('setLoading', false);
         return;
       }
-      this.$store.dispatch('setProgress', 10);
+      await this.$store.dispatch('setProgress', 10);
       console.debug('set category:', this.category);
       if (!this.$store.getters['marker/types'](this.category)) {
-        this.$store.dispatch('marker/getCategory', this.category);
+        await this.$store.dispatch('marker/getCategory', this.category);
       }
-      this.$store.dispatch('setProgress', 30);
+      await this.$store.dispatch('setProgress', 30);
       // マーカーを登録
       this.features = this.$store.getters['marker/features'](this.category);
 
-      if (this.features.length !== 0) {
+      if (this.features) {
         // 種別を登録
         this.types = this.isVisible = Object.keys(
           this.$store.getters['marker/types'](this.category)
         );
-        this.$store.dispatch('setProgress', 50);
+        await this.$store.dispatch('setProgress', 50);
       }
       // 画像タイルレイヤ
       this.tileImage = this.$store.getters['marker/tileImage'](this.category);
 
       // タイトルを書き換える
       document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
-      this.$store.dispatch('setProgress', 70);
+      await this.$store.dispatch('setProgress', 70);
+
+      // 再描画
       this.redraw();
+
       // ローディングオーバーレイを閉じる
-      this.$store.dispatch('setLoading', false);
+      await this.$store.dispatch('setLoading', false);
       // 切り替え完了のメッセージを出力
       this.$store.dispatch(
         'setMessage',
@@ -135,7 +138,7 @@ export default {
         }
       }
 
-      if (this.features.length !== 0) {
+      if (this.features) {
         this.$refs.markerLayer.setStyle((features, resolution) =>
           this.setStyle(features, resolution)
         );
