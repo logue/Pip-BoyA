@@ -100,8 +100,8 @@ export default {
   },
   mounted() {
     // 設定を反映
-    this.$vuetify.theme.dark = this.$store.state.config.themeDark;
-    this.$i18n.locale = this.$store.state.config.locale;
+    this.$vuetify.theme.dark = this.$store.getters['config/themeDark'];
+    this.$i18n.locale = this.$store.getters['config/locale'];
     document.title = this.title;
   },
 };

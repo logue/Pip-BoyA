@@ -24,23 +24,19 @@
 
 <script>
 import config from '@/assets/map.config.js';
-import {markerStyles} from '@/assets/utility.js';
-
-const styles = markerStyles();
 
 /**
  * Category Marker
  * (Tile based marker and coordinate based marker.)
  */
 export default {
-  emits: ['init', 'loaded', 'redraw', 'ready'],
   data() {
     return {
       // Markers
       features: [],
       // types
       types: [],
-      // Marker Visibiloty
+      // Marker Visibility
       isVisible: [],
       // Map Configure
       config: config,
@@ -48,6 +44,9 @@ export default {
       colorset: [],
       // use marker tile
       tileImage: false,
+
+      key: 0,
+      distance: 40,
     };
   },
   watch: {
@@ -56,12 +55,19 @@ export default {
       this.category = to.params.category;
       this.init();
     },
+    // マーカーが変化した時
+    features() {
+      this.key++;
+    },
     isVisible() {
       // 表示マーカーの設定が変化したとき
       this.$refs.markerLayer.setStyle((features, resolution) =>
         this.setStyle(features, resolution)
       );
     },
+  },
+  created() {
+    this.$store.dispatch('marker/init');
   },
   mounted() {
     this.category = this.$route.params.category;
@@ -70,7 +76,6 @@ export default {
   methods: {
     async init() {
       await this.$store.dispatch('setLoading', true);
-      this.$emit('init');
 
       const title = process.env.IS_ELECTRON
         ? this.$t('title').replace(/Web/g, 'Electron')
@@ -84,9 +89,12 @@ export default {
       }
       await this.$store.dispatch('setProgress', 10);
       console.debug('set category:', this.category);
+
+      performance.mark('getMarker');
       if (!this.$store.getters['marker/types'](this.category)) {
         await this.$store.dispatch('marker/getCategory', this.category);
       }
+
       await this.$store.dispatch('setProgress', 30);
       // マーカーを登録
       this.features = this.$store.getters['marker/features'](this.category);
@@ -106,6 +114,7 @@ export default {
       await this.$store.dispatch('setProgress', 70);
 
       // 再描画
+      performance.mark('redraw');
       this.redraw();
 
       // ローディングオーバーレイを閉じる
@@ -117,14 +126,19 @@ export default {
           category: this.$t(`categories.${this.category}`),
         })
       );
-      // 完了イベント
-      this.$emit('ready');
+      performance.mark('end');
+
+      performance.measure(
+        'process', // 計測名
+        'redraw', // 計測開始点
+        'end' // 計測終了点
+      );
+      console.log(performance.getEntriesByName('process')[0]);
     },
     redraw() {
-      this.$emit('redraw');
       if (this.tileImage) {
-        // const source = await this.$refs.categoryTileLayer.getSource();
-        const source = this.$refs.categoryLayerSource;
+        const source = this.$refs.categoryTileLayer.getSource();
+        // const source = this.$refs.categoryLayerSource;
         // 新しい画像レイヤを指定
         if (source) {
           source.setUrl('/img/markerTile/' + this.tileImage);
@@ -137,7 +151,6 @@ export default {
           source.refresh();
         }
       }
-
       if (this.features) {
         this.$refs.markerLayer.setStyle((features, resolution) =>
           this.setStyle(features, resolution)
@@ -158,16 +171,16 @@ export default {
       const index = types.indexOf(type);
 
       // Apply marker color
-      const style = styles[colorset[index]];
+      const style = this.$store.getters['marker/style'](colorset[index]);
+      // Map zoom
+      const scale = this.$parent.getView().getResolutionForZoom(2) / resolution;
+
       // Add label to marker
       const label = feature.values_.label
         ? feature.values_.label.toString()
         : '';
-      // Map zoom
-      const scale = this.$parent.getView().getResolutionForZoom(2) / resolution;
-      // console.log(scale);
 
-      // apply
+      // apply label text
       if (label && scale >= 1) {
         style.getText().setText(label);
       } else {

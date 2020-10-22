@@ -23,6 +23,7 @@ export default {
     types: (state) => (category) => state.types[category],
     colorset: (state) => (category) => state.colorset[category],
     tileImage: (state) => (category) => state.tileImage[category],
+    style: (state) => (type) => state.styles[type],
   },
   mutations: {
     /**
