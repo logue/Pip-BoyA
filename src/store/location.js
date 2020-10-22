@@ -8,6 +8,9 @@ export default {
     y: -2048,
     z: 1,
   },
+  getters: {
+    zoom: (state) => state.z | 0,
+  },
   mutations: {
     setLocation(state, {x, y, z}) {
       state.x = x;

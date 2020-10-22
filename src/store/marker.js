@@ -28,35 +28,36 @@ export default {
   mutations: {
     /**
      * save to state category location data.
-     * @param {VueAxios.State} state Vuex State
+     * @param {Vuex.State} state Vuex State
      * @param {object} payload data
      */
     set(state, payload) {
-      state.features[payload.category] = payload.features;
       state.colorset[payload.category] = payload.colorset;
       state.types[payload.category] = payload.types;
       state.tileImage[payload.category] = payload.tileImage;
     },
+    setFeatures(state, payload) {
+      state.features[payload.category] = convertGeoJson(payload.features);
+    },
     /**
      * save to marker style set.
-     * @param {VueAxios.State} state Vuex State
-     * @param {object} payload data
+     * @param {Vuex.State} state Vuex State
      */
-    setStyle(state, payload) {
-      state.styles = payload;
+    setStyle(state) {
+      state.styles = markerStyles();
     },
   },
   actions: {
     /**
      * Init style set
-     * @param {VueAxios.State} context Context
+     * @param {Vuex.State} context Context
      */
     init(context) {
-      context.commit('setStyle', markerStyles());
+      context.commit('setStyle');
     },
     /**
      * Set category location data.
-     * @param {VueAxios.State} context Context
+     * @param {Vuex.State} context Context
      * @param {String} category Category
      */
     async getCategory(context, category) {
@@ -68,7 +69,10 @@ export default {
       payload.category = category;
       if (data.markers) {
         // convert Fo76 marker location to geo json object
-        payload.features = convertGeoJson(data.markers);
+        context.commit('setFeatures', {
+          category: category,
+          features: data.markers,
+        });
         payload.colorset = [];
 
         const colors = data.colorset || colorset.markerColor;
@@ -104,7 +108,6 @@ export default {
           }, {});
       } else {
         // タイルマーカーモード（マーカー画像が予め含まれている）
-        payload.features = [];
         payload.colorset = data.colorset || colorset.tileExplainColor;
         payload.types = {...data.explains};
       }

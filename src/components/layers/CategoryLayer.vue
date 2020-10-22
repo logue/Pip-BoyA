@@ -17,7 +17,11 @@
     </vl-layer-tile>
     <!-- location based marker mode -->
     <vl-layer-vector ref="markerLayer" :z-index="15">
-      <vl-source-vector :features="features" />
+      <vl-source-vector
+        :features="features"
+        :update-while-animating="true"
+        :update-while-interacting="true"
+      />
     </vl-layer-vector>
   </vl-layer-group>
 </template>
@@ -49,24 +53,45 @@ export default {
       distance: 40,
     };
   },
+  computed: {
+    // Zoom
+    zoom() {
+      return this.$store.getters['location/zoom'];
+    },
+  },
   watch: {
-    // ページ遷移したとき
+    /**
+     * When Page transition
+     * @param {*} to new route
+     */
     $route(to) {
       this.category = to.params.category;
       this.init();
     },
-    // マーカーが変化した時
+    /**
+     * When marker changed.
+     */
     features() {
       this.key++;
     },
+    /**
+     * When switch change visibility
+     */
     isVisible() {
       // 表示マーカーの設定が変化したとき
       this.$refs.markerLayer.setStyle((features, resolution) =>
         this.setStyle(features, resolution)
       );
     },
+    /**
+     * When change map scale
+     */
+    zoom() {
+      this.redraw();
+    },
   },
   created() {
+    // マーカースタイルを定義
     this.$store.dispatch('marker/init');
   },
   mounted() {
@@ -74,23 +99,29 @@ export default {
     this.init();
   },
   methods: {
+    /**
+     * Initialize category markers.
+     */
     async init() {
       await this.$store.dispatch('setLoading', true);
 
+      // タイトルを変更
       const title = process.env.IS_ELECTRON
         ? this.$t('title').replace(/Web/g, 'Electron')
         : this.$t('title');
 
       if (!this.category) {
+        // カテゴリ別のページでない場合、表示中のマーカーを削除して終了
         document.title = title;
         this.features = [];
-        this.$store.dispatch('setLoading', false);
+        await this.$store.dispatch('setLoading', false);
         return;
       }
       await this.$store.dispatch('setProgress', 10);
       console.debug('set category:', this.category);
 
       performance.mark('getMarker');
+      // キャッシュのマーカーを確認
       if (!this.$store.getters['marker/types'](this.category)) {
         await this.$store.dispatch('marker/getCategory', this.category);
       }
@@ -135,6 +166,9 @@ export default {
       );
       console.log(performance.getEntriesByName('process')[0]);
     },
+    /**
+     * Redraw map markers and map tiles.
+     */
     redraw() {
       if (this.tileImage) {
         const source = this.$refs.categoryTileLayer.getSource();
@@ -157,7 +191,12 @@ export default {
         );
       }
     },
-    // Apply Marker style.
+    /**
+     * Apply Marker style.
+     * @param {ol.Feature} feature Marker
+     * @param {number} resolution Map zoom
+     * @return {ol.style.Style}
+     */
     setStyle(feature, resolution) {
       // Get Marker type
       const type = feature.get('type');

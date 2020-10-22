@@ -8,7 +8,7 @@
       }`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
-      :renderer="webgl ? 'webgl' : 'canvas'"
+      :renderer="$store.getters['config/webgl'] ? 'webgl' : 'canvas'"
       :max-extent="config.extent"
       @mounted="onMapMounted"
       @pointermove="onMapPointerMove"
@@ -129,7 +129,6 @@ export default {
       center: config.center,
       rotation: 0,
       opacity: 1,
-      webgl: false,
       hitFeature: null,
       // detect map move
       isMoving: false,
@@ -142,27 +141,13 @@ export default {
       blastZoneColorSet: colors.red,
     };
   },
-  watch: {
-    zoom() {
-      // ズームの値によってロケーションアイコンのサイズを変える
-      this.$refs.locationLayer.redraw();
-      this.$refs.categoryLayer.redraw();
-    },
-  },
   mounted() {
-    this.$store.subscribe((mutation, state) => {
-      switch (mutation.type) {
-        case 'config/toggleWebGl':
-          this.webgl = state.config.webgl;
-          break;
-      }
-    });
     // Load location from QueryString.
     this.center = [
-      (this.$route.query.x ?? config.center[0]) | 0,
-      (this.$route.query.y ?? config.center[1]) | 0,
+      (this.$route.query.x || config.center[0]) | 0,
+      (this.$route.query.y || config.center[1]) | 0,
     ];
-    this.zoom = (this.$route.query.z ?? 1) | 0;
+    this.zoom = (this.$route.query.z || 1) | 0;
   },
   methods: {
     // マップが読み込まれたとき

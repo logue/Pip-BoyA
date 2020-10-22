@@ -4,6 +4,7 @@ import createPersistedState from 'vuex-persistedstate';
 
 import config from './config';
 import location from './location';
+import locationMarker from './locationMarker';
 import marker from './marker';
 
 Vue.use(Vuex);
@@ -50,6 +51,7 @@ export default new Vuex.Store({
     config: config,
     location: location,
     marker: marker,
+    locationMarker: locationMarker,
   },
   plugins: [
     // ブラウザを閉じても保存されるデータ
