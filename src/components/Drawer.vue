@@ -108,6 +108,11 @@ export default {
           to: '/encounters',
         },
         {
+          icon: 'mdi-nature-people',
+          title: 'categories.denizen',
+          to: '/denizen',
+        },
+        {
           icon: 'mdi-semantic-web',
           title: 'categories.hardpoint',
           to: '/hardpoint',

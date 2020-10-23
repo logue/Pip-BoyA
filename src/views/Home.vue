@@ -82,11 +82,7 @@
       <span>{{ $t('opacity') }}</span>
     </v-tooltip>
     <marker-info ref="markerInfo" />
-    <explain
-      v-if="$route.name === 'Category'"
-      ref="explainPopup"
-      @changed="onMarkerSelectChanged"
-    />
+    <explain ref="explainPopup" @changed="onMarkerSelectChanged" />
   </div>
 </template>
 

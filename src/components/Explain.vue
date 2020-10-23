@@ -96,10 +96,18 @@ export default {
       return this.$store.getters['marker/colorset'](this.category);
     },
   },
+  watch: {
+    /**
+     * When Page transition
+     */
+    $route() {
+      this.init();
+    },
+  },
   methods: {
-    update() {
+    init() {
       // データ読み込み
-      this.category = this.$route.params.category;
+      this.category = this.$route.params.category || null;
       // マーカーはすべて選択状態にする
       this.checked = this.items = Object.keys(this.types);
       console.debug('explain init: ', this.category);

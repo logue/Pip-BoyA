@@ -2,6 +2,7 @@
   <!-- Location Marker markers -->
   <vl-layer-vector ref="locationLayer" :z-index="1" :visible="visible">
     <vl-source-vector
+      ref="vectorSource"
       :features="features"
       :update-while-animating="true"
       :update-while-interacting="true"
@@ -44,11 +45,13 @@ export default {
     },
   },
   async created() {
+    console.log('created');
     if (this.$store.getters['locationMarker/features'].length === 0) {
       await this.$store.dispatch('locationMarker/init');
     }
 
     // マーカーを登録
+    this.$refs.vectorSource.$source.clear();
     this.features = this.$store.getters['locationMarker/features'];
     this.styles = this.$store.getters['locationMarker/styles'];
     this.redraw();
