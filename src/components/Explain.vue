@@ -13,7 +13,12 @@
       />
       <v-tooltip top>
         <template #activator="{on, attrs}">
-          <v-btn icon v-bind="attrs" @click="toggleShrink" v-on="on">
+          <v-btn
+            icon
+            v-bind="attrs"
+            @click="isShrinked = !isShrinked"
+            v-on="on"
+          >
             <v-icon v-if="!isShrinked">mdi-window-minimize</v-icon>
             <v-icon v-else>mdi-window-maximize</v-icon>
           </v-btn>
@@ -100,22 +105,15 @@ export default {
     /**
      * When Page transition
      */
-    $route() {
-      this.init();
-    },
-  },
-  methods: {
-    init() {
+    '$route.params.category'() {
       // データ読み込み
       this.category = this.$route.params.category || null;
       // マーカーはすべて選択状態にする
-      this.checked = this.items = Object.keys(this.types);
+      this.checked = this.items = this.category ? Object.keys(this.types) : [];
       console.debug('explain init: ', this.category);
     },
-    // 最小化／最大化
-    toggleShrink() {
-      this.isShrinked = !this.isShrinked;
-    },
+  },
+  methods: {
     // マーカー表示／非表示
     toggleMarker() {
       // console.log(this.selected);
