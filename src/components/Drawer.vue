@@ -147,6 +147,40 @@ export default {
           ],
         },
         {
+          icon: 'mdi-space-invaders',
+          title: 'categories.lvl',
+          items: [
+            {
+              title: 'categories.lvl-animal',
+              to: '/lvl-animal',
+            },
+            {
+              title: 'categories.lvl-bot',
+              to: '/lvl-bot',
+            },
+            {
+              title: 'categories.lvl-critter',
+              to: 'lvl-critter',
+            },
+            {
+              title: 'categories.lvl-human',
+              to: 'lvl-human',
+            },
+            {
+              title: 'categories.lvl-insect',
+              to: 'lvl-insect',
+            },
+            {
+              title: 'categories.lvl-supermutant',
+              to: 'lvl-supermutant',
+            },
+            {
+              title: 'categories.lvl-rare',
+              to: 'lvl-rare',
+            },
+          ],
+        },
+        {
           icon: 'mdi-ammunition',
           title: 'categories.ammunition',
           to: null,

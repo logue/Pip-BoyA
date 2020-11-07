@@ -1,0 +1,268 @@
+{
+  "markers": [
+    {
+      "id": "00599738",
+      "type": "LvlMothmanMarker",
+      "x": -129527.9688,
+      "y": 189375.4219
+    },
+    {
+      "id": "005983DF",
+      "type": "LvlMothmanMarker",
+      "x": -108077.6641,
+      "y": 58725.96094
+    },
+    {
+      "id": "005997C8",
+      "type": "LvlMothmanMarker",
+      "x": -146625.7344,
+      "y": 121626.3516
+    },
+    {
+      "id": "0059A1F9",
+      "type": "LvlMothmanMarker",
+      "x": -60935.79297,
+      "y": 206753.4219
+    },
+    {
+      "id": "0059A615",
+      "type": "LvlMothmanMarker",
+      "x": -177542.5938,
+      "y": 73077.10938
+    },
+    {
+      "id": "0059A68B",
+      "type": "LvlMothmanMarker",
+      "x": -41390.84375,
+      "y": 104074.0703
+    },
+    {
+      "id": "0059A6E3",
+      "type": "LvlMothmanMarker",
+      "x": -100559.9141,
+      "y": 108488.2031
+    },
+    {
+      "id": "0059A788",
+      "type": "LvlMothmanMarker",
+      "x": -5518.647461,
+      "y": 170152.6719
+    },
+    {
+      "id": "0059AB9D",
+      "type": "LvlMothmanMarker",
+      "x": 206803.9063,
+      "y": 147312.3594
+    },
+    {
+      "id": "0059AE21",
+      "type": "LvlMothmanMarker",
+      "x": 125256.2422,
+      "y": -113053.5547
+    },
+    {
+      "id": "0059AE41",
+      "type": "LvlMothmanMarker",
+      "x": 157037.7188,
+      "y": -181509.1094
+    },
+    {
+      "id": "0059B203",
+      "type": "LvlMothmanMarker",
+      "x": 159729.3438,
+      "y": 29180.29688
+    },
+    {
+      "id": "0059B20A",
+      "type": "LvlMothmanMarker",
+      "x": 178506.2969,
+      "y": 99318.17969
+    },
+    {
+      "id": "0059B231",
+      "type": "LvlMothmanMarker",
+      "x": 205061.0938,
+      "y": -49401.70313
+    },
+    {
+      "id": "0059B2A1",
+      "type": "LvlMothmanMarker",
+      "x": 205935.0625,
+      "y": -100181.3672
+    },
+    {
+      "id": "0059B68A",
+      "type": "LvlMothmanMarker",
+      "x": -156974.5313,
+      "y": -86616.28906
+    },
+    {
+      "id": "0059B77C",
+      "type": "LvlMothmanMarker",
+      "x": -69310,
+      "y": -138255.5938
+    },
+    {
+      "id": "0059BE31",
+      "type": "LvlMothmanMarker",
+      "x": -142498.7813,
+      "y": -41520
+    },
+    {
+      "id": "0059BE80",
+      "type": "LvlMothmanMarker",
+      "x": -174799.3906,
+      "y": -9007.03125
+    },
+    {
+      "id": "0059BED8",
+      "type": "LvlMothmanMarker",
+      "x": -83924.11719,
+      "y": -15105.44141
+    },
+    {
+      "id": "0059C09E",
+      "type": "LvlMothmanMarker",
+      "x": 117785.1641,
+      "y": 186726.5
+    },
+    {
+      "id": "0059C0BF",
+      "type": "LvlMothmanMarker",
+      "x": 127647.7031,
+      "y": 207764.2188
+    },
+    {
+      "id": "00432E58",
+      "type": "LvlGraftonMarker",
+      "x": -83037.72656,
+      "y": -58862.42969
+    },
+    {
+      "id": "003C3F6F",
+      "type": "LvlGraftonMarker",
+      "x": -65246.60547,
+      "y": 178882.7031
+    },
+    {
+      "id": "004FD421",
+      "type": "LvlGraftonMarker",
+      "x": -113705.9141,
+      "y": -44878.36328
+    },
+    {
+      "id": "0043CCA1",
+      "type": "LvlMegaslothMarker",
+      "x": 130296.8672,
+      "y": 58520.32422
+    },
+    {
+      "id": "0045026E",
+      "type": "LvlMegaslothMarker",
+      "x": 164513.8281,
+      "y": 30895.09766
+    },
+    {
+      "id": "004502A4",
+      "type": "LvlMegaslothMarker",
+      "x": 170346.3125,
+      "y": 15191.98535
+    },
+    {
+      "id": "004502A7",
+      "type": "LvlMegaslothMarker",
+      "x": 170060.2813,
+      "y": 14874.59277
+    },
+    {
+      "id": "004502AC",
+      "type": "LvlMegaslothMarker",
+      "x": 135874.5156,
+      "y": -7166.749512
+    },
+    {
+      "id": "004502BB",
+      "type": "LvlMegaslothMarker",
+      "x": 175930.6094,
+      "y": -29692.56641
+    },
+    {
+      "id": "0048CC55",
+      "type": "LvlMegaslothMarker",
+      "x": 179528.3906,
+      "y": -42074.92578
+    },
+    {
+      "id": "0048CC5A",
+      "type": "LvlMegaslothMarker",
+      "x": 177867.6719,
+      "y": -41982.64453
+    },
+    {
+      "id": "00450251",
+      "type": "LvlWendigoMarker",
+      "x": 192931.6094,
+      "y": 125934.8672
+    },
+    {
+      "id": "00450253",
+      "type": "LvlWendigoMarker",
+      "x": 192597.2656,
+      "y": 126608.4219
+    },
+    {
+      "id": "00450266",
+      "type": "LvlWendigoMarker",
+      "x": 188322.4531,
+      "y": 43491.03516
+    },
+    {
+      "id": "00450292",
+      "type": "LvlWendigoMarker",
+      "x": 156501.9219,
+      "y": 25826.23633
+    },
+    {
+      "id": "00450298",
+      "type": "LvlWendigoMarker",
+      "x": 156056.0625,
+      "y": 28499.39453
+    },
+    {
+      "id": "0045023C",
+      "type": "LvlWendigoMarker",
+      "x": 175382.9219,
+      "y": 115435.4063
+    },
+    {
+      "id": "0045024C",
+      "type": "LvlWendigoMarker",
+      "x": 192809.5,
+      "y": 127073.8984
+    },
+    {
+      "id": "0045027E",
+      "type": "LvlWendigoMarker",
+      "x": 142973.2656,
+      "y": 52762.67578
+    },
+    {
+      "id": "004502B1",
+      "type": "LvlWendigoMarker",
+      "x": 146756.1094,
+      "y": -37655.23047
+    },
+    {
+      "id": "0048CC5B",
+      "type": "LvlWendigoMarker",
+      "x": 143583,
+      "y": 47571.8125
+    },
+    {
+      "id": "0048CC61",
+      "type": "LvlWendigoMarker",
+      "x": 143466.2031,
+      "y": 47903.49219
+    }
+  ]
+}
