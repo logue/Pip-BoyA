@@ -58,6 +58,9 @@ export default {
     zoom() {
       return this.$store.getters['location/zoom'];
     },
+    category() {
+      return this.$route.params.category;
+    },
   },
   watch: {
     /**
@@ -65,7 +68,6 @@ export default {
      * @param {*} to new route
      */
     $route(to) {
-      this.category = to.params.category;
       this.init();
     },
     /**
@@ -95,16 +97,16 @@ export default {
     this.$store.dispatch('marker/init');
   },
   mounted() {
-    this.category = this.$route.params.category;
     this.init();
   },
   methods: {
     /**
      * Initialize category markers.
+     * @return {void}
      */
     async init() {
       await this.$store.dispatch('setLoading', true);
-
+      await this.$forceNextTick();
       // タイトルを変更
       const title = process.env.IS_ELECTRON
         ? this.$t('title').replace(/Web/g, 'Electron')
@@ -114,42 +116,46 @@ export default {
         // カテゴリ別のページでない場合、表示中のマーカーを削除して終了
         document.title = title;
         this.features = [];
-        await this.$store.dispatch('setLoading', false);
-        return;
+        this.$store.dispatch('setLoading', false);
+        return 2;
       }
-      await this.$store.dispatch('setProgress', 10);
-      console.debug('set category:', this.category);
 
-      performance.mark('getMarker');
+      await this.$store.dispatch('setProgress', 10);
+      await this.$forceNextTick();
+      console.debug('set category:', this.category);
       // キャッシュのマーカーを確認
       if (!this.$store.getters['marker/types'](this.category)) {
-        await this.$store.dispatch('marker/getCategory', this.category);
+        this.$store.dispatch('marker/getCategory', this.category);
       }
 
       await this.$store.dispatch('setProgress', 30);
+      await this.$forceNextTick();
       // マーカーを登録
       this.features = this.$store.getters['marker/features'](this.category);
 
+      await this.$store.dispatch('setProgress', 50);
+      await this.$forceNextTick();
       if (this.features) {
         // 種別を登録
-        this.types = this.isVisible = Object.keys(
-          this.$store.getters['marker/types'](this.category)
+        this.types = this.isVisible = this.$store.getters['marker/items'](
+          this.category
         );
-        await this.$store.dispatch('setProgress', 50);
       }
       // 画像タイルレイヤ
       this.tileImage = this.$store.getters['marker/tileImage'](this.category);
-
       // タイトルを書き換える
       document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
-      await this.$store.dispatch('setProgress', 70);
 
+      await this.$store.dispatch('setProgress', 70);
+      await this.$forceNextTick();
       // 再描画
-      performance.mark('redraw');
       this.redraw();
 
+      await this.$store.dispatch('setProgress', 100);
       // ローディングオーバーレイを閉じる
       await this.$store.dispatch('setLoading', false);
+      await this.$forceNextTick();
+
       // 切り替え完了のメッセージを出力
       this.$store.dispatch(
         'setMessage',
@@ -157,14 +163,6 @@ export default {
           category: this.$t(`categories.${this.category}`),
         })
       );
-      performance.mark('end');
-
-      performance.measure(
-        'process', // 計測名
-        'redraw', // 計測開始点
-        'end' // 計測終了点
-      );
-      console.log(performance.getEntriesByName('process')[0]);
     },
     /**
      * Redraw map markers and map tiles.
@@ -201,13 +199,11 @@ export default {
       // Get Marker type
       const type = feature.get('type');
       // Get all type list.
-      const types = Object.keys(
-        this.$store.getters['marker/types'](this.category)
-      );
+      const items = this.$store.getters['marker/items'](this.category);
 
       const colorset = this.$store.getters['marker/colorset'](this.category);
       // Get color index from type
-      const index = types.indexOf(type);
+      const index = items.indexOf(type);
 
       // Apply marker color
       const style = this.$store.getters['marker/style'](colorset[index]);
@@ -220,11 +216,7 @@ export default {
         : '';
 
       // apply label text
-      if (label && scale >= 1) {
-        style.getText().setText(label);
-      } else {
-        style.getText().setText('');
-      }
+      style.getText().setText(label && scale >= 1 ? label : '');
 
       // Toggle display
       if (!this.isVisible.includes(type)) {

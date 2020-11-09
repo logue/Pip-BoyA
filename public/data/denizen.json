@@ -1,2642 +1,3210 @@
 {
   "markers": [
     {
-      "id": "005864B9",
-      "type": "DenizenRaiderMarker",
-      "x": -521.916993,
-      "y": -6652.583984
-    },
-    {
-      "id": "005864BD",
-      "type": "DenizenSettlerMarker",
-      "x": -3621.345703,
-      "y": -7161.068359
-    },
-    {
-      "id": "005864C1",
-      "type": "DenizenScavengerMarker",
-      "x": -2644.821777,
-      "y": -7692.807129
-    },
-    {
-      "id": "005864C9",
-      "type": "DenizenRaiderMarker",
-      "x": -149.888214,
-      "y": -5911.768555
-    },
-    {
-      "id": "005864D0",
-      "type": "DenizenRaiderMarker",
-      "x": -1124.944824,
-      "y": -6529.991211
-    },
-    {
-      "id": "00586D4D",
-      "type": "DenizenRaiderMarker",
-      "x": -849.037293,
-      "y": -6053.041016
-    },
-    {
-      "id": "00586D59",
-      "type": "DenizenSettlerMarker",
-      "x": -3782.821533,
-      "y": -7691.950196
-    },
-    {
-      "id": "00586D5B",
-      "type": "DenizenScavengerMarker",
-      "x": -2634.541748,
-      "y": -6938.174804
-    },
-    {
-      "id": "00586D5D",
-      "type": "DenizenSettlerMarker",
-      "x": -4475.170899,
-      "y": -6860.380371
-    },
-    {
-      "id": "00586D63",
-      "type": "DenizenScavengerMarker",
-      "x": -4348.028809,
-      "y": -6156.644043
-    },
-    {
-      "id": "00586D65",
-      "type": "DenizenScavengerMarker",
-      "x": -2270.341308,
-      "y": -6334.425293
-    },
-    {
-      "id": "00586D69",
-      "type": "DenizenSettlerMarker",
-      "x": -4324.220215,
-      "y": -8140.501953
-    },
-    {
-      "id": "00586D6C",
-      "type": "DenizenRaiderMarker",
-      "x": -349.38385,
-      "y": -51.399902
-    },
-    {
-      "id": "00586D72",
-      "type": "DenizenRaiderMarker",
-      "x": 29.740051,
-      "y": 422.37793
-    },
-    {
-      "id": "00586D7E",
-      "type": "DenizenRaiderMarker",
-      "x": 112.514618,
-      "y": -94.932617
-    },
-    {
-      "id": "00586D8C",
-      "type": "DenizenRaiderMarker",
-      "x": 59.339234,
-      "y": 144.416016
-    },
-    {
-      "id": "00586D96",
-      "type": "DenizenSettlerMarker",
-      "x": 112.514618,
-      "y": -94.932617
-    },
-    {
-      "id": "00586D9A",
-      "type": "DenizenScavengerMarker",
-      "x": 112.514618,
-      "y": -94.932617
-    },
-    {
-      "id": "00586DA9",
-      "type": "DenizenSettlerMarker",
-      "x": 29.740051,
-      "y": 422.37793
-    },
-    {
-      "id": "00586DAB",
-      "type": "DenizenScavengerMarker",
-      "x": 29.851555,
-      "y": 421.361145
-    },
-    {
-      "id": "00586DB9",
-      "type": "DenizenScavengerMarker",
-      "x": 317.779785,
-      "y": -50.185547
-    },
-    {
-      "id": "00586DC0",
-      "type": "DenizenRaiderMarker",
-      "x": 317.779785,
-      "y": -50.185547
-    },
-    {
-      "id": "00586DD1",
-      "type": "DenizenScavengerMarker",
-      "x": -29.028809,
-      "y": 61.123535
-    },
-    {
-      "id": "00586DD6",
-      "type": "DenizenSettlerMarker",
-      "x": -18.372559,
-      "y": 40.826172
-    },
-    {
-      "id": "00586DE1",
-      "type": "DenizenScavengerMarker",
-      "x": -18.372559,
-      "y": 40.826172
-    },
-    {
-      "id": "00586DE5",
-      "type": "DenizenScavengerMarker",
-      "x": -6.194824,
-      "y": -159.296875
-    },
-    {
-      "id": "00586DEA",
-      "type": "DenizenSettlerMarker",
-      "x": -6.194824,
-      "y": -159.296875
-    },
-    {
-      "id": "00586DEC",
-      "type": "DenizenSettlerMarker",
-      "x": -4020.434082,
-      "y": -5799.463867
-    },
-    {
-      "id": "00586DF3",
-      "type": "DenizenSettlerMarker",
-      "x": 30.37085,
-      "y": -265.768066
-    },
-    {
-      "id": "00586DFA",
-      "type": "DenizenScavengerMarker",
-      "x": 30.37085,
-      "y": -265.768066
-    },
-    {
-      "id": "00586E03",
-      "type": "DenizenScavengerMarker",
-      "x": 112.557129,
-      "y": 12.735352
-    },
-    {
-      "id": "00586E08",
-      "type": "DenizenSettlerMarker",
-      "x": 59.339234,
-      "y": 144.416016
-    },
-    {
-      "id": "00586E15",
-      "type": "DenizenSettlerMarker",
-      "x": -1.480957,
-      "y": 29.630371
-    },
-    {
-      "id": "00586ECA",
-      "type": "DenizenScavengerMarker",
-      "x": -104770.5156,
-      "y": 35507.71094
-    },
-    {
-      "id": "00586ED1",
-      "type": "DenizenRaiderMarker",
-      "x": -84952.57031,
-      "y": 18398.08789
-    },
-    {
-      "id": "00586ED5",
-      "type": "DenizenScavengerMarker",
-      "x": -96256.14844,
-      "y": 38604.57813
-    },
-    {
-      "id": "00586EDA",
-      "type": "DenizenScavengerMarker",
-      "x": -109489.3125,
-      "y": 23873.67578
-    },
-    {
-      "id": "00586EDF",
-      "type": "DenizenRaiderMarker",
-      "x": -65430.78906,
-      "y": 11151.48633
-    },
-    {
-      "id": "00586EE8",
-      "type": "DenizenScavengerMarker",
-      "x": -59636.00391,
-      "y": 17089.82031
-    },
-    {
-      "id": "00586EEE",
-      "type": "DenizenScavengerMarker",
-      "x": -66406.09375,
-      "y": 26147.38672
-    },
-    {
-      "id": "00586EF4",
-      "type": "DenizenSettlerMarker",
-      "x": -66663.96094,
-      "y": 47848.21094
-    },
-    {
-      "id": "00586EF7",
-      "type": "DenizenScavengerMarker",
-      "x": -69064.07813,
-      "y": 61901.19531
-    },
-    {
-      "id": "00586EFC",
-      "type": "DenizenRaiderMarker",
-      "x": -61018.19141,
-      "y": 80078.19531
-    },
-    {
-      "id": "00586F03",
-      "type": "DenizenScavengerMarker",
-      "x": -48265.62891,
-      "y": 81171.49219
-    },
-    {
-      "id": "00586F07",
-      "type": "DenizenScavengerMarker",
-      "x": -55874.98047,
-      "y": 65326.70703
-    },
-    {
-      "id": "0058722B",
-      "type": "DenizenSettlerMarker",
-      "x": -2562.695557,
-      "y": -9060.443359
-    },
-    {
-      "id": "00587A38",
-      "type": "DenizenSettlerMarker",
-      "x": -163604.6563,
-      "y": -1159.093384
-    },
-    {
-      "id": "00587A44",
-      "type": "DenizenScavengerMarker",
-      "x": -183942.9688,
-      "y": -27922.00781
-    },
-    {
-      "id": "00587A66",
-      "type": "DenizenSettlerMarker",
-      "x": -157104.4375,
-      "y": 154749.375
-    },
-    {
-      "id": "00587A6D",
-      "type": "DenizenRaiderMarker",
-      "x": -155773.2813,
-      "y": 143633.6406
-    },
-    {
-      "id": "00587A76",
-      "type": "DenizenSettlerMarker",
-      "x": -166375.8125,
-      "y": 135729.7344
-    },
-    {
-      "id": "00587A85",
-      "type": "DenizenRaiderMarker",
-      "x": -164504.8281,
-      "y": 111850.7734
-    },
-    {
-      "id": "00587A9D",
-      "type": "DenizenRaiderMarker",
-      "x": -174543.125,
-      "y": 59794.76172
-    },
-    {
-      "id": "00587AA8",
-      "type": "DenizenSettlerMarker",
-      "x": -147527.5469,
-      "y": 36510.41016
-    },
-    {
-      "id": "00587AAB",
-      "type": "DenizenScavengerMarker",
-      "x": -145303.25,
-      "y": 26091.53906
-    },
-    {
-      "id": "00587AB3",
-      "type": "DenizenScavengerMarker",
-      "x": -150790.4375,
-      "y": 11473.56836
-    },
-    {
-      "id": "00587AC0",
-      "type": "DenizenRaiderMarker",
-      "x": -139680.3594,
-      "y": 162491.3438
-    },
-    {
-      "id": "00587AD9",
-      "type": "DenizenRaiderMarker",
-      "x": -99522.125,
-      "y": 141411.8281
-    },
-    {
-      "id": "00587AE2",
-      "type": "DenizenRaiderMarker",
-      "x": -94595.75,
-      "y": 129743.8984
-    },
-    {
-      "id": "00587AEE",
-      "type": "DenizenRaiderMarker",
-      "x": -81553.60938,
-      "y": 127732.8359
-    },
-    {
-      "id": "00587AF4",
-      "type": "DenizenSettlerMarker",
-      "x": -71777.78125,
-      "y": 120709.2109
-    },
-    {
-      "id": "00587AF9",
-      "type": "DenizenScavengerMarker",
-      "x": -62996.80078,
-      "y": 115670.2031
-    },
-    {
-      "id": "00587AFF",
-      "type": "DenizenSettlerMarker",
-      "x": -54879.86328,
-      "y": 108174.6563
-    },
-    {
-      "id": "00587B0A",
-      "type": "DenizenSettlerMarker",
-      "x": -39835.40625,
-      "y": -5658.409668
-    },
-    {
-      "id": "00587B18",
-      "type": "DenizenRaiderMarker",
-      "x": -49017.35547,
-      "y": -7380.213867
-    },
-    {
-      "id": "00587B1D",
-      "type": "DenizenScavengerMarker",
-      "x": -55211.62109,
-      "y": -22637.80274
-    },
-    {
-      "id": "00587B25",
-      "type": "DenizenSettlerMarker",
-      "x": -66688.71875,
-      "y": -30675.21875
-    },
-    {
-      "id": "00587B2F",
-      "type": "DenizenSettlerMarker",
-      "x": -77103.03125,
-      "y": -40474.07813
-    },
-    {
-      "id": "00587B34",
-      "type": "DenizenRaiderMarker",
-      "x": -67622.90625,
-      "y": -64593.64453
-    },
-    {
-      "id": "00587B42",
-      "type": "DenizenRaiderMarker",
-      "x": -116178.6328,
-      "y": 100071.3516
-    },
-    {
-      "id": "00587B48",
-      "type": "DenizenScavengerMarker",
-      "x": -127080.3672,
-      "y": 104047.1953
-    },
-    {
-      "id": "00587B4D",
-      "type": "DenizenScavengerMarker",
-      "x": -132953.8594,
-      "y": 112899.8203
-    },
-    {
-      "id": "00587B72",
-      "type": "DenizenSettlerMarker",
-      "x": -119600.9141,
-      "y": 81628.14844
-    },
-    {
-      "id": "00587B7A",
-      "type": "DenizenSettlerMarker",
-      "x": -109275.5313,
-      "y": 84083.84375
-    },
-    {
-      "id": "00587B82",
-      "type": "DenizenScavengerMarker",
-      "x": -111992.4297,
-      "y": 76000.13281
-    },
-    {
-      "id": "00587B8A",
-      "type": "DenizenRaiderMarker",
-      "x": -113424.0078,
-      "y": 45743.77344
-    },
-    {
-      "id": "00587B8F",
-      "type": "DenizenSettlerMarker",
-      "x": -107814.0469,
-      "y": 38308.49219
-    },
-    {
-      "id": "00587B95",
-      "type": "DenizenSettlerMarker",
-      "x": 26810.08398,
-      "y": -113783.2344
-    },
-    {
-      "id": "00587B99",
-      "type": "DenizenSettlerMarker",
-      "x": 18386.38086,
-      "y": -115733.7266
-    },
-    {
-      "id": "00588E19",
-      "type": "DenizenSettlerMarker",
-      "x": 107933.0313,
-      "y": 130141.6016
-    },
-    {
-      "id": "00588E1F",
-      "type": "DenizenSettlerMarker",
-      "x": 30364.19922,
-      "y": -127703.1797
-    },
-    {
-      "id": "00588E24",
-      "type": "DenizenSettlerMarker",
-      "x": 82208.71875,
-      "y": -110705.1328
-    },
-    {
-      "id": "00588E2C",
-      "type": "DenizenRaiderMarker",
-      "x": 116424.0469,
-      "y": 134699.8281
-    },
-    {
-      "id": "00588E32",
-      "type": "DenizenScavengerMarker",
-      "x": 121802.125,
-      "y": 131353.4844
-    },
-    {
-      "id": "00588E54",
-      "type": "DenizenSettlerMarker",
-      "x": -3094.474609,
-      "y": 178828.9063
-    },
-    {
-      "id": "00588E59",
-      "type": "DenizenSettlerMarker",
-      "x": -6420.631348,
-      "y": 146425.3594
-    },
-    {
-      "id": "00588E5E",
-      "type": "DenizenRaiderMarker",
-      "x": 6743.489746,
-      "y": -135901.875
-    },
-    {
-      "id": "00588E6C",
-      "type": "DenizenSettlerMarker",
-      "x": 1999.433838,
-      "y": -109442.6563
-    },
-    {
-      "id": "00588E75",
-      "type": "DenizenSettlerMarker",
-      "x": 2713.708984,
-      "y": -97155.53125
-    },
-    {
-      "id": "00588E7A",
-      "type": "DenizenSettlerMarker",
-      "x": 432.137879,
-      "y": -100347.0469
-    },
-    {
-      "id": "00588E81",
-      "type": "DenizenScavengerMarker",
-      "x": -8408.897461,
-      "y": -92034.58594
-    },
-    {
-      "id": "00588E85",
-      "type": "DenizenScavengerMarker",
-      "x": -10778.34277,
-      "y": -87100.60156
-    },
-    {
-      "id": "00588E8D",
-      "type": "DenizenSettlerMarker",
-      "x": -22148.76563,
-      "y": -84444.96094
-    },
-    {
-      "id": "00588E93",
-      "type": "DenizenScavengerMarker",
-      "x": -32824.83203,
-      "y": -76787.33594
-    },
-    {
-      "id": "00588E97",
-      "type": "DenizenScavengerMarker",
-      "x": -53032.14844,
-      "y": -72246.89844
-    },
-    {
-      "id": "00588EAB",
-      "type": "DenizenRaiderMarker",
-      "x": -80967.90625,
-      "y": 604.899475
-    },
-    {
-      "id": "00588EAF",
-      "type": "DenizenSettlerMarker",
-      "x": -85843.09375,
-      "y": 1973.407104
-    },
-    {
-      "id": "00588EB5",
-      "type": "DenizenRaiderMarker",
-      "x": -99533.84375,
-      "y": 1139.389282
-    },
-    {
-      "id": "00588EC0",
-      "type": "DenizenSettlerMarker",
-      "x": -34609.91406,
-      "y": 107277.2813
-    },
-    {
-      "id": "00588ECE",
-      "type": "DenizenScavengerMarker",
-      "x": -30143.57617,
-      "y": 100292.1875
-    },
-    {
-      "id": "00588ED7",
-      "type": "DenizenScavengerMarker",
-      "x": -32781.8125,
-      "y": 70014.74219
-    },
-    {
-      "id": "00588EE6",
-      "type": "DenizenScavengerMarker",
-      "x": -105453.0469,
-      "y": -165187.0313
-    },
-    {
-      "id": "00588EF0",
-      "type": "DenizenScavengerMarker",
-      "x": 176204.5469,
-      "y": -54565.10938
-    },
-    {
-      "id": "00588EF4",
-      "type": "DenizenScavengerMarker",
-      "x": -96206.61719,
-      "y": -132043.3125
-    },
-    {
-      "id": "00588EF8",
-      "type": "DenizenScavengerMarker",
-      "x": 179449.2656,
-      "y": -29210.64063
-    },
-    {
-      "id": "00588EFB",
-      "type": "DenizenScavengerMarker",
-      "x": 117022.9219,
-      "y": -69378.21094
-    },
-    {
-      "id": "00588F02",
-      "type": "DenizenScavengerMarker",
-      "x": -82703.25,
-      "y": -157173.4531
-    },
-    {
-      "id": "00588F05",
-      "type": "DenizenScavengerMarker",
-      "x": 198774.375,
-      "y": 26501.03125
-    },
-    {
-      "id": "00588F08",
-      "type": "DenizenScavengerMarker",
-      "x": -82544.28125,
-      "y": -79688.53125
-    },
-    {
-      "id": "00588F10",
-      "type": "DenizenScavengerMarker",
-      "x": -142526.2969,
-      "y": -89301.53125
-    },
-    {
-      "id": "00588F13",
-      "type": "DenizenScavengerMarker",
-      "x": 110328.3516,
-      "y": 26865.86719
-    },
-    {
-      "id": "00588F1D",
-      "type": "DenizenScavengerMarker",
-      "x": -132781.5781,
-      "y": -130224.1484
-    },
-    {
-      "id": "00588F29",
-      "type": "DenizenScavengerMarker",
-      "x": -97288.80469,
-      "y": -107254.7031
-    },
-    {
-      "id": "00588F31",
-      "type": "DenizenScavengerMarker",
-      "x": 161606.2813,
-      "y": -100645.4531
-    },
-    {
-      "id": "00588F34",
-      "type": "DenizenScavengerMarker",
-      "x": 190901.2188,
-      "y": 1211.095337
-    },
-    {
-      "id": "00588F46",
-      "type": "DenizenScavengerMarker",
-      "x": 136246.5313,
-      "y": -76044.03125
-    },
-    {
-      "id": "00588F4F",
-      "type": "DenizenScavengerMarker",
-      "x": -57130.83203,
-      "y": 198840.8906
-    },
-    {
-      "id": "00588F58",
-      "type": "DenizenScavengerMarker",
-      "x": 122056.0469,
-      "y": -108840.4063
-    },
-    {
-      "id": "00588F5B",
-      "type": "DenizenScavengerMarker",
-      "x": -132842.7344,
-      "y": -134817.4531
-    },
-    {
-      "id": "00588F5E",
-      "type": "DenizenScavengerMarker",
-      "x": -184240.0313,
-      "y": -103054.7422
-    },
-    {
-      "id": "00588F64",
-      "type": "DenizenScavengerMarker",
-      "x": 130486.5391,
-      "y": -146789.2188
-    },
-    {
-      "id": "00588F6A",
-      "type": "DenizenScavengerMarker",
-      "x": 171892.0781,
-      "y": -148857.5781
-    },
-    {
-      "id": "00588F6D",
-      "type": "DenizenSettlerMarker",
-      "x": 16012.33691,
-      "y": 145224.0469
-    },
-    {
-      "id": "00588F70",
-      "type": "DenizenSettlerMarker",
-      "x": 194780.3125,
-      "y": -142636.875
-    },
-    {
-      "id": "00588F73",
-      "type": "DenizenSettlerMarker",
-      "x": 55782.98438,
-      "y": -22139.76953
-    },
-    {
-      "id": "00588F76",
-      "type": "DenizenSettlerMarker",
-      "x": -24279.8125,
-      "y": -125975.3281
-    },
-    {
-      "id": "00588F7C",
-      "type": "DenizenScavengerMarker",
-      "x": 50017.77734,
-      "y": -111695.6953
-    },
-    {
-      "id": "00588F7F",
-      "type": "DenizenScavengerMarker",
-      "x": 191574.7656,
-      "y": -169548.9531
-    },
-    {
-      "id": "00588F82",
-      "type": "DenizenScavengerMarker",
-      "x": 31033.33008,
-      "y": -6697.203125
-    },
-    {
-      "id": "00588F85",
-      "type": "DenizenScavengerMarker",
-      "x": 197040.7031,
-      "y": 64761.79688
-    },
-    {
-      "id": "00588F88",
-      "type": "DenizenScavengerMarker",
-      "x": 137870.6406,
-      "y": -169259.0156
-    },
-    {
-      "id": "00588F91",
-      "type": "DenizenSettlerMarker",
-      "x": 113789.4609,
-      "y": -107899.6719
-    },
-    {
-      "id": "00588F97",
-      "type": "DenizenScavengerMarker",
-      "x": -55579.78125,
-      "y": 125988.5625
-    },
-    {
-      "id": "00588F9A",
-      "type": "DenizenSettlerMarker",
-      "x": -34333.625,
-      "y": -134141.8438
-    },
-    {
-      "id": "00588F9D",
-      "type": "DenizenSettlerMarker",
-      "x": 144931.5,
-      "y": -97436.55469
-    },
-    {
-      "id": "00588FA0",
-      "type": "DenizenScavengerMarker",
-      "x": -27925.76367,
-      "y": -79531.625
-    },
-    {
-      "id": "00588FAC",
-      "type": "DenizenScavengerMarker",
-      "x": 147612.3438,
-      "y": -172358.0469
-    },
-    {
-      "id": "00588FAF",
-      "type": "DenizenScavengerMarker",
-      "x": 169801.625,
-      "y": -81321.77344
-    },
-    {
-      "id": "00588FB2",
-      "type": "DenizenScavengerMarker",
-      "x": 168840.0469,
-      "y": 24086.24023
-    },
-    {
-      "id": "00588FB8",
-      "type": "DenizenSettlerMarker",
-      "x": 186836.6094,
-      "y": -104114.5078
-    },
-    {
-      "id": "00588FBB",
-      "type": "DenizenSettlerMarker",
-      "x": -97568.17188,
-      "y": 186118.6406
-    },
-    {
-      "id": "00588FBE",
-      "type": "DenizenScavengerMarker",
-      "x": -107420.5156,
-      "y": 183081.0313
-    },
-    {
-      "id": "00588FC1",
-      "type": "DenizenScavengerMarker",
-      "x": 173549.0313,
-      "y": -23440.16797
-    },
-    {
-      "id": "00588FC4",
-      "type": "DenizenSettlerMarker",
-      "x": 169130.3125,
-      "y": 121499.6719
-    },
-    {
-      "id": "00588FC7",
-      "type": "DenizenSettlerMarker",
-      "x": -173194.1094,
-      "y": -17878.72656
-    },
-    {
-      "id": "00588FCA",
-      "type": "DenizenScavengerMarker",
-      "x": 160803.9688,
-      "y": -64038.01563
-    },
-    {
-      "id": "00588FCD",
-      "type": "DenizenScavengerMarker",
-      "x": 154425.3594,
-      "y": -172617.7656
-    },
-    {
-      "id": "00588FD3",
-      "type": "DenizenScavengerMarker",
-      "x": 140410.5625,
-      "y": 70741.39844
-    },
-    {
-      "id": "00588FD6",
-      "type": "DenizenScavengerMarker",
-      "x": -54589.48047,
-      "y": -161738.5469
-    },
-    {
-      "id": "00588FD9",
-      "type": "DenizenSettlerMarker",
-      "x": 8418.28418,
-      "y": 90933.45313
-    },
-    {
-      "id": "00588FDF",
-      "type": "DenizenSettlerMarker",
-      "x": -99508.5,
-      "y": -69517.80469
-    },
-    {
-      "id": "00589146",
-      "type": "DenizenScavengerMarker",
-      "x": -2886.448487,
-      "y": -7632.81836
-    },
-    {
-      "id": "00589148",
-      "type": "DenizenRaiderMarker",
-      "x": -1187.843872,
-      "y": -5928.122559
-    },
-    {
-      "id": "00589149",
-      "type": "DenizenRaiderMarker",
-      "x": -425.510773,
-      "y": -5908.533203
-    },
-    {
-      "id": "00589A3B",
-      "type": "DenizenRaiderMarker",
-      "x": 184391.7031,
-      "y": -153384.875
-    },
-    {
-      "id": "00589A44",
-      "type": "DenizenRaiderMarker",
-      "x": 172693.3906,
-      "y": -138237.1719
-    },
-    {
-      "id": "00589A49",
-      "type": "DenizenSettlerMarker",
-      "x": 162039.7188,
-      "y": -136401.0625
-    },
-    {
-      "id": "00589A54",
-      "type": "DenizenRaiderMarker",
-      "x": 143262.4844,
-      "y": -125903.2344
-    },
-    {
-      "id": "00589A5C",
-      "type": "DenizenScavengerMarker",
-      "x": 139533.0469,
-      "y": -127712.9297
-    },
-    {
-      "id": "00589A63",
-      "type": "DenizenRaiderMarker",
-      "x": 133949.1875,
-      "y": -127649.4922
-    },
-    {
-      "id": "00589A76",
-      "type": "DenizenScavengerMarker",
-      "x": -138117.4375,
-      "y": 198573.5469
-    },
-    {
-      "id": "00589A8E",
-      "type": "DenizenScavengerMarker",
-      "x": 137878.5469,
-      "y": 78186.24219
-    },
-    {
-      "id": "00589A98",
-      "type": "DenizenScavengerMarker",
-      "x": -35946.37891,
-      "y": -45247.03125
-    },
-    {
-      "id": "00589A9F",
-      "type": "DenizenRaiderMarker",
-      "x": -5644.351074,
-      "y": 8174.798339
-    },
-    {
-      "id": "00589AA7",
-      "type": "DenizenRaiderMarker",
-      "x": -125345.2344,
-      "y": -7498.311523
-    },
-    {
-      "id": "00589ABD",
-      "type": "DenizenScavengerMarker",
-      "x": -150604.7656,
-      "y": -35446.37109
-    },
-    {
-      "id": "00589AC2",
-      "type": "DenizenSettlerMarker",
-      "x": 152826.2188,
-      "y": 130534.6484
-    },
-    {
-      "id": "00589AC7",
-      "type": "DenizenSettlerMarker",
-      "x": 152773.5781,
-      "y": -88260.88281
-    },
-    {
-      "id": "00589ACC",
-      "type": "DenizenSettlerMarker",
-      "x": 152385.7969,
-      "y": 89486.14063
-    },
-    {
-      "id": "00589AD3",
-      "type": "DenizenRaiderMarker",
-      "x": 170020.7813,
-      "y": 88625.07031
-    },
-    {
-      "id": "00589ADF",
-      "type": "DenizenScavengerMarker",
-      "x": 107457.6484,
-      "y": 145874.4688
-    },
-    {
-      "id": "00589AE4",
-      "type": "DenizenSettlerMarker",
-      "x": 117431.8594,
-      "y": -60013.33984
-    },
-    {
-      "id": "00589AEA",
-      "type": "DenizenRaiderMarker",
-      "x": 146651.4375,
-      "y": -5940.937988
-    },
-    {
-      "id": "00589AF4",
-      "type": "DenizenSettlerMarker",
-      "x": 198381.875,
-      "y": 43562.01563
-    },
-    {
-      "id": "0058BDC6",
-      "type": "DenizenScavengerMarker",
-      "x": 19332.84766,
-      "y": 67511.57813
-    },
-    {
-      "id": "0058BDCA",
-      "type": "DenizenRaiderMarker",
-      "x": 46082.31641,
-      "y": 85440.17969
-    },
-    {
-      "id": "0058BDCE",
-      "type": "DenizenScavengerMarker",
-      "x": 64670.94531,
-      "y": 114277.4453
-    },
-    {
-      "id": "0058BDCF",
-      "type": "DenizenSettlerMarker",
-      "x": 78045.75,
-      "y": 23215.40039
-    },
-    {
-      "id": "0058BDD0",
-      "type": "DenizenRaiderMarker",
-      "x": 81015.85938,
-      "y": 119848.6953
-    },
-    {
-      "id": "0058BDD2",
-      "type": "DenizenScavengerMarker",
-      "x": 109411.5938,
-      "y": 42893.64844
-    },
-    {
-      "id": "0058BDD3",
-      "type": "DenizenScavengerMarker",
-      "x": 116480.9297,
-      "y": 66840.67969
-    },
-    {
-      "id": "0058BDD4",
-      "type": "DenizenScavengerMarker",
-      "x": 107483.8281,
-      "y": -14090.21777
-    },
-    {
-      "id": "0058BDDE",
-      "type": "DenizenRaiderMarker",
-      "x": 121434.2891,
-      "y": -39995.11328
-    },
-    {
-      "id": "0058BDF1",
-      "type": "DenizenRaiderMarker",
-      "x": 99872.47656,
-      "y": 1186.395874
-    },
-    {
-      "id": "0058BDF8",
-      "type": "DenizenScavengerMarker",
-      "x": 86089.38281,
-      "y": -49266.14844
-    },
-    {
-      "id": "0058BDFF",
-      "type": "DenizenSettlerMarker",
-      "x": 61201.40234,
-      "y": -81282.01563
-    },
-    {
-      "id": "0058CCBC",
-      "type": "DenizenScavengerMarker",
-      "x": 36331.10938,
-      "y": -76393.42188
-    },
-    {
-      "id": "0058CCC3",
-      "type": "DenizenRaiderMarker",
-      "x": 90046.86719,
-      "y": 61950.09375
-    },
-    {
-      "id": "0058CCCC",
-      "type": "DenizenRaiderMarker",
-      "x": 33603.25391,
-      "y": 34192.15234
-    },
-    {
-      "id": "0058CCD4",
-      "type": "DenizenScavengerMarker",
-      "x": 54128.52344,
-      "y": 142391.1094
-    },
-    {
-      "id": "0058CCD9",
-      "type": "DenizenScavengerMarker",
-      "x": 56797.49219,
-      "y": -159130.2031
-    },
-    {
-      "id": "0058CCE0",
-      "type": "DenizenSettlerMarker",
-      "x": 9747.069336,
-      "y": -93593.23438
-    },
-    {
-      "id": "0058E4E8",
-      "type": "DenizenScavengerMarker",
-      "x": 117052.5313,
-      "y": 160299.1094
-    },
-    {
-      "id": "0058E4F7",
-      "type": "DenizenScavengerMarker",
-      "x": 75375.625,
-      "y": 155740.2344
-    },
-    {
-      "id": "0058E502",
-      "type": "DenizenSettlerMarker",
-      "x": 140175.7656,
-      "y": 111646.1563
-    },
-    {
-      "id": "0059192B",
-      "type": "DenizenSettlerMarker",
-      "x": -127152.0313,
-      "y": 157386.6563
-    },
-    {
-      "id": "00596C67",
-      "type": "DenizenScavengerMarker",
-      "x": -133182.8125,
-      "y": 22245.41992
-    },
-    {
-      "id": "00596C68",
-      "type": "DenizenRaiderMarker",
-      "x": -135305.5938,
-      "y": 22798.4043
-    },
-    {
-      "id": "00596C6A",
-      "type": "DenizenSettlerMarker",
-      "x": -146266.4531,
-      "y": 15129.35938
-    },
-    {
-      "id": "00596C6C",
-      "type": "DenizenRaiderMarker",
-      "x": -148237.3438,
-      "y": 21535.66211
-    },
-    {
-      "id": "00596C6E",
-      "type": "DenizenScavengerMarker",
-      "x": -148497.9063,
-      "y": 16264.2959
-    },
-    {
-      "id": "00596C6F",
-      "type": "DenizenScavengerMarker",
-      "x": -149934.6875,
-      "y": 5789.924316
-    },
-    {
-      "id": "00596C70",
-      "type": "DenizenScavengerMarker",
-      "x": -153162.5,
-      "y": 17245.60547
-    },
-    {
-      "id": "00596C73",
-      "type": "DenizenRaiderMarker",
-      "x": -155913.5781,
-      "y": 9539.608399
-    },
-    {
-      "id": "00596C76",
-      "type": "DenizenRaiderMarker",
-      "x": -156800.4688,
-      "y": 3754.746094
-    },
-    {
-      "id": "00596C77",
-      "type": "DenizenSettlerMarker",
-      "x": -166218.9531,
-      "y": 257.197082
-    },
-    {
-      "id": "00596C78",
-      "type": "DenizenSettlerMarker",
-      "x": -166034.1094,
-      "y": -36320.5
-    },
-    {
-      "id": "00596C7A",
-      "type": "DenizenScavengerMarker",
-      "x": -163935.7344,
-      "y": -56777.26563
-    },
-    {
-      "id": "00596C89",
-      "type": "DenizenScavengerMarker",
-      "x": -164966.8594,
-      "y": -59192.27344
-    },
-    {
-      "id": "00596C8A",
-      "type": "DenizenSettlerMarker",
-      "x": -171052.25,
-      "y": -35206.22656
-    },
-    {
-      "id": "00596C8C",
-      "type": "DenizenRaiderMarker",
-      "x": -170705.5625,
-      "y": -52406.03125
-    },
-    {
-      "id": "00596C8D",
-      "type": "DenizenSettlerMarker",
-      "x": -168691.2813,
-      "y": -56150.79688
-    },
-    {
-      "id": "00596C8E",
-      "type": "DenizenScavengerMarker",
-      "x": -173940.3281,
-      "y": -48891.06641
-    },
-    {
-      "id": "00596C95",
-      "type": "DenizenScavengerMarker",
-      "x": -168134.7813,
-      "y": -3021.879638
-    },
-    {
-      "id": "00596C96",
-      "type": "DenizenRaiderMarker",
-      "x": -133495.0938,
-      "y": -58404.625
-    },
-    {
-      "id": "00596C9A",
-      "type": "DenizenScavengerMarker",
-      "x": -140167.4375,
-      "y": -54038.44922
-    },
-    {
-      "id": "00596C9C",
-      "type": "DenizenRaiderMarker",
-      "x": -145031.7344,
-      "y": -61302.66797
-    },
-    {
-      "id": "00596C9D",
-      "type": "DenizenRaiderMarker",
-      "x": -148962.125,
-      "y": -55741.50391
-    },
-    {
-      "id": "00596C9E",
-      "type": "DenizenScavengerMarker",
-      "x": -153206,
-      "y": -58537.20313
-    },
-    {
-      "id": "00596C9F",
-      "type": "DenizenSettlerMarker",
-      "x": -158735.5625,
-      "y": -60127.63281
-    },
-    {
-      "id": "00596CA0",
-      "type": "DenizenScavengerMarker",
-      "x": -158774.8281,
-      "y": -58203.22266
-    },
-    {
-      "id": "00596CA1",
-      "type": "DenizenRaiderMarker",
-      "x": -160124.2813,
-      "y": -51495.18359
-    },
-    {
-      "id": "00596CA3",
-      "type": "DenizenSettlerMarker",
-      "x": -163832.7344,
-      "y": -62617.13672
-    },
-    {
-      "id": "00596CA4",
-      "type": "DenizenRaiderMarker",
-      "x": -136694.7188,
-      "y": -6067.759278
-    },
-    {
-      "id": "00596CA7",
-      "type": "DenizenScavengerMarker",
-      "x": -154428.5625,
-      "y": -539.105591
-    },
-    {
-      "id": "00596CA8",
-      "type": "DenizenSettlerMarker",
-      "x": -122041.4922,
-      "y": 5884.335937
-    },
-    {
-      "id": "00596CAA",
-      "type": "DenizenSettlerMarker",
-      "x": -128771.8594,
-      "y": 26323.83789
-    },
-    {
-      "id": "00596CAC",
-      "type": "DenizenSettlerMarker",
-      "x": -111335.8203,
-      "y": -33329.35938
-    },
-    {
-      "id": "00596CAD",
-      "type": "DenizenScavengerMarker",
-      "x": -112364.625,
-      "y": -37145.07422
-    },
-    {
-      "id": "00596CAF",
-      "type": "DenizenRaiderMarker",
-      "x": -112004.7266,
-      "y": -44868.54688
-    },
-    {
-      "id": "00596CB0",
-      "type": "DenizenSettlerMarker",
-      "x": -119935.3516,
-      "y": -33412.61719
-    },
-    {
-      "id": "00596CB1",
-      "type": "DenizenSettlerMarker",
-      "x": -121271.9219,
-      "y": -39836.6875
-    },
-    {
-      "id": "00596CB2",
-      "type": "DenizenScavengerMarker",
-      "x": -119918.5313,
-      "y": -43779.08984
-    },
-    {
-      "id": "00596CB3",
-      "type": "DenizenScavengerMarker",
-      "x": -121462.2031,
-      "y": -47526.76563
-    },
-    {
-      "id": "00596CB4",
-      "type": "DenizenRaiderMarker",
-      "x": -120341.8047,
-      "y": -57961.98438
-    },
-    {
-      "id": "00596CB5",
-      "type": "DenizenScavengerMarker",
-      "x": -126363.8281,
-      "y": -49555.625
-    },
-    {
-      "id": "00596CB6",
-      "type": "DenizenRaiderMarker",
-      "x": -123736.4688,
-      "y": -51357.71484
-    },
-    {
-      "id": "00596CB7",
-      "type": "DenizenScavengerMarker",
-      "x": -128401.2578,
-      "y": -56760.61719
-    },
-    {
-      "id": "00596CBE",
-      "type": "DenizenScavengerMarker",
-      "x": -108898.6172,
-      "y": -30944.88477
-    },
-    {
-      "id": "00596CBF",
-      "type": "DenizenSettlerMarker",
-      "x": -113898.4766,
-      "y": -24709
-    },
-    {
-      "id": "00596CC0",
-      "type": "DenizenSettlerMarker",
-      "x": -118475.1406,
-      "y": -17034.99219
-    },
-    {
-      "id": "00596CC1",
-      "type": "DenizenSettlerMarker",
-      "x": -115982.5625,
-      "y": -30787.95117
-    },
-    {
-      "id": "00596CC2",
-      "type": "DenizenScavengerMarker",
-      "x": -121208.0313,
-      "y": -22079.47852
-    },
-    {
-      "id": "00596CC3",
-      "type": "DenizenRaiderMarker",
-      "x": -125562.25,
-      "y": -15921.4209
-    },
-    {
-      "id": "00596CC4",
-      "type": "DenizenSettlerMarker",
-      "x": -126685.1328,
-      "y": -19912.29883
-    },
-    {
-      "id": "00596CC6",
-      "type": "DenizenRaiderMarker",
-      "x": -129498.2813,
-      "y": -13718.16211
-    },
-    {
-      "id": "00596CC7",
-      "type": "DenizenScavengerMarker",
-      "x": -130621.3672,
-      "y": -17879.21484
-    },
-    {
-      "id": "00596CC9",
-      "type": "DenizenScavengerMarker",
-      "x": -178581.9219,
-      "y": -13599.09277
-    },
-    {
-      "id": "00596CD2",
-      "type": "DenizenScavengerMarker",
-      "x": -166294.1719,
-      "y": -22450.92188
-    },
-    {
-      "id": "00596CD9",
-      "type": "DenizenScavengerMarker",
-      "x": -181195.2188,
-      "y": -23053.10938
-    },
-    {
-      "id": "00596CE4",
-      "type": "DenizenScavengerMarker",
-      "x": -157717.1719,
-      "y": -21149.07813
-    },
-    {
-      "id": "00596CE8",
-      "type": "DenizenSettlerMarker",
-      "x": -149197.0938,
-      "y": -9337.636718
-    },
-    {
-      "id": "00596CEF",
-      "type": "DenizenSettlerMarker",
-      "x": -153201.4688,
-      "y": -4341.269531
-    },
-    {
-      "id": "00596CF2",
-      "type": "DenizenSettlerMarker",
-      "x": -160279.9375,
-      "y": -9916.325195
-    },
-    {
-      "id": "00596CF8",
-      "type": "DenizenSettlerMarker",
-      "x": -169084.6563,
-      "y": -15524.98633
-    },
-    {
-      "id": "00596D04",
-      "type": "DenizenSettlerMarker",
-      "x": -180760.1563,
-      "y": -28229.28125
-    },
-    {
-      "id": "00596D08",
-      "type": "DenizenScavengerMarker",
-      "x": -160034.9844,
-      "y": -29178.1582
-    },
-    {
-      "id": "00596D0F",
-      "type": "DenizenScavengerMarker",
-      "x": -159890.625,
-      "y": -35517.88281
-    },
-    {
-      "id": "00596D16",
-      "type": "DenizenRaiderMarker",
-      "x": -158492.9688,
-      "y": -40654.24609
-    },
-    {
-      "id": "00596D20",
-      "type": "DenizenSettlerMarker",
-      "x": -151199.7188,
-      "y": -43831.53516
-    },
-    {
-      "id": "00596D27",
-      "type": "DenizenScavengerMarker",
-      "x": -151315.1094,
-      "y": -26194.56641
-    },
-    {
-      "id": "00596D2B",
-      "type": "DenizenSettlerMarker",
-      "x": -151137.6406,
-      "y": -19689.44727
-    },
-    {
-      "id": "00596D8A",
-      "type": "DenizenScavengerMarker",
-      "x": -137712.9063,
-      "y": 46227.12891
-    },
-    {
-      "id": "00596D8B",
-      "type": "DenizenScavengerMarker",
-      "x": -141591.6094,
-      "y": 38612.42188
-    },
-    {
-      "id": "00596D8D",
-      "type": "DenizenSettlerMarker",
-      "x": -133552.3906,
-      "y": 123563.2109
-    },
-    {
-      "id": "00596D92",
-      "type": "DenizenSettlerMarker",
-      "x": -82636.15625,
-      "y": 85174.08594
-    },
-    {
-      "id": "00596D93",
-      "type": "DenizenScavengerMarker",
-      "x": -88808.52344,
-      "y": 111841.9219
-    },
-    {
-      "id": "00596D95",
-      "type": "DenizenScavengerMarker",
-      "x": -50101.78906,
-      "y": 64202.88672
-    },
-    {
-      "id": "00596D97",
-      "type": "DenizenScavengerMarker",
-      "x": -63079.73047,
-      "y": 89654.61719
-    },
-    {
-      "id": "00596D99",
-      "type": "DenizenRaiderMarker",
-      "x": -29971.96484,
-      "y": 34161.56641
-    },
-    {
-      "id": "00596D9A",
-      "type": "DenizenScavengerMarker",
-      "x": -21833.19727,
-      "y": 92386.51563
-    },
-    {
-      "id": "00596D9B",
-      "type": "DenizenScavengerMarker",
-      "x": -22893.74805,
-      "y": 67877.33594
-    },
-    {
-      "id": "00596D9C",
-      "type": "DenizenSettlerMarker",
-      "x": -20059.95508,
-      "y": 108668.0547
-    },
-    {
-      "id": "00596D9D",
-      "type": "DenizenScavengerMarker",
-      "x": -109828.7891,
-      "y": 141798.75
-    },
-    {
-      "id": "00596D9E",
-      "type": "DenizenScavengerMarker",
-      "x": -121236.6484,
-      "y": 142268.7031
-    },
-    {
-      "id": "00596D9F",
-      "type": "DenizenSettlerMarker",
-      "x": -130230.4766,
-      "y": 141931.2813
-    },
-    {
-      "id": "00596DA1",
-      "type": "DenizenScavengerMarker",
-      "x": -129913.7344,
-      "y": 181433.75
-    },
-    {
-      "id": "00596DA2",
-      "type": "DenizenScavengerMarker",
-      "x": -14108.68066,
-      "y": 54508.20703
-    },
-    {
-      "id": "00596DA6",
-      "type": "DenizenSettlerMarker",
-      "x": -44465.78906,
-      "y": 93115.0625
-    },
-    {
-      "id": "00596DAE",
-      "type": "DenizenScavengerMarker",
-      "x": -79268.90625,
-      "y": 138849.8281
-    },
-    {
-      "id": "00596DB6",
-      "type": "DenizenScavengerMarker",
-      "x": -153546.5156,
-      "y": 92186.08594
-    },
-    {
-      "id": "00596DC6",
-      "type": "DenizenScavengerMarker",
-      "x": -66727.1875,
-      "y": 30529.82813
-    },
-    {
-      "id": "00596DCD",
-      "type": "DenizenSettlerMarker",
-      "x": -75230.03906,
-      "y": -2642.738037
-    },
-    {
-      "id": "00596DD2",
-      "type": "DenizenScavengerMarker",
-      "x": -72824.99219,
-      "y": -23965.17969
-    },
-    {
-      "id": "005979B3",
-      "type": "DenizenRaiderMarker",
-      "x": -117267.2969,
-      "y": 92787.66406
-    },
-    {
-      "id": "005979E7",
-      "type": "DenizenRaiderMarker",
-      "x": -117303.9844,
-      "y": 92847.51563
-    },
-    {
       "id": "00598328",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": -115572.3047,
       "y": 63232.91016
     },
     {
       "id": "00598334",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
       "x": -101561.3281,
       "y": 28934.45508
     },
     {
       "id": "00598344",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": -96892.17188,
       "y": 32055.6543
     },
     {
       "id": "00598368",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": -84864.11719,
       "y": 47981.60938
     },
     {
-      "id": "0059836E",
-      "type": "DenizenSettlerMarker",
-      "x": -88593.22656,
-      "y": 67605.89063
-    },
-    {
       "id": "00598377",
       "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": -88585.28125,
       "y": 67434.55469
     },
     {
       "id": "00598384",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
       "x": -96157.75,
       "y": 82635.67969
     },
     {
-      "id": "0059838C",
-      "type": "DenizenSettlerMarker",
-      "x": -109323.1094,
-      "y": 84041.67969
-    },
-    {
-      "id": "0059839C",
-      "type": "DenizenScavengerMarker",
-      "x": -92875.6875,
-      "y": 78001.1875
-    },
-    {
-      "id": "005983B6",
-      "type": "DenizenSettlerMarker",
-      "x": -108406.8984,
-      "y": 75963.125
-    },
-    {
-      "id": "005983C3",
-      "type": "DenizenRaiderMarker",
-      "x": -120129.3359,
-      "y": 76496.63281
-    },
-    {
-      "id": "005983CB",
-      "type": "DenizenRaiderMarker",
-      "x": -120241.7344,
-      "y": 76895.34375
-    },
-    {
-      "id": "005983FC",
-      "type": "DenizenScavengerMarker",
-      "x": -105990.0859,
-      "y": 28336.5332
-    },
-    {
-      "id": "005984F3",
-      "type": "DenizenRaiderMarker",
-      "x": -132567.6875,
-      "y": 131010.6172
-    },
-    {
-      "id": "005984FA",
-      "type": "DenizenRaiderMarker",
-      "x": -132752.9219,
-      "y": 130926.9141
-    },
-    {
-      "id": "005984FB",
-      "type": "DenizenRaiderMarker",
-      "x": -132644.2344,
-      "y": 130783.5938
-    },
-    {
-      "id": "0059850C",
-      "type": "DenizenScavengerMarker",
-      "x": -91414.35156,
-      "y": 87920.23438
-    },
-    {
       "id": "00598528",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -94620.03906,
       "y": 68610.96875
     },
     {
       "id": "00598540",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": -99058.82031,
       "y": 49894.20313
     },
     {
       "id": "00598554",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": -98924.41406,
       "y": 49949.46094
     },
     {
       "id": "00598560",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -165502.7188,
       "y": 130449.3672
     },
     {
+      "id": "00599769",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -169017.7031,
+      "y": 164607.9219
+    },
+    {
+      "id": "005979E7",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -117303.9844,
+      "y": 92847.51563
+    },
+    {
+      "id": "00588E19",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Farmer",
+      "x": 107933.0313,
+      "y": 130141.6016
+    },
+    {
+      "id": "00588E24",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Farmer",
+      "x": 82208.71875,
+      "y": -110705.1328
+    },
+    {
+      "id": "00588E32",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": 121802.125,
+      "y": 131353.4844
+    },
+    {
+      "id": "00588E54",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -3094.474609,
+      "y": 178828.9063
+    },
+    {
+      "id": "00588E59",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -6420.631348,
+      "y": 146425.3594
+    },
+    {
+      "id": "00588E75",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 2713.708984,
+      "y": -97155.53125
+    },
+    {
+      "id": "00588E81",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -8408.897461,
+      "y": -92034.58594
+    },
+    {
+      "id": "00588E85",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -10778.34277,
+      "y": -87100.60156
+    },
+    {
+      "id": "00588E93",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -32824.83203,
+      "y": -76787.33594
+    },
+    {
+      "id": "00588E97",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": -53032.14844,
+      "y": -72246.89844
+    },
+    {
+      "id": "00586ECA",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Farmer",
+      "x": -104770.5156,
+      "y": 35507.71094
+    },
+    {
+      "id": "00586ED1",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -84952.57031,
+      "y": 18398.08789
+    },
+    {
+      "id": "00586ED5",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -96256.14844,
+      "y": 38604.57813
+    },
+    {
+      "id": "00586EDA",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -109489.3125,
+      "y": 23873.67578
+    },
+    {
+      "id": "00586EDF",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -65430.78906,
+      "y": 11151.48633
+    },
+    {
+      "id": "00586EE8",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -59636.00391,
+      "y": 17089.82031
+    },
+    {
+      "id": "00586EEE",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -66406.09375,
+      "y": 26147.38672
+    },
+    {
+      "id": "00586EF4",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -66663.96094,
+      "y": 47848.21094
+    },
+    {
+      "id": "00586EF7",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -69064.07813,
+      "y": 61901.19531
+    },
+    {
+      "id": "00586EFC",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -61018.19141,
+      "y": 80078.19531
+    },
+    {
+      "id": "00586F03",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -48265.62891,
+      "y": 81171.49219
+    },
+    {
+      "id": "00586F07",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -55874.98047,
+      "y": 65326.70703
+    },
+    {
+      "id": "00587A38",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Farmer",
+      "x": -163604.6563,
+      "y": -1159.093384
+    },
+    {
+      "id": "00587A44",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -183942.9688,
+      "y": -27922.00781
+    },
+    {
+      "id": "00587A66",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": -157104.4375,
+      "y": 154749.375
+    },
+    {
+      "id": "00587A6D",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
+      "x": -155773.2813,
+      "y": 143633.6406
+    },
+    {
+      "id": "00587A76",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -166375.8125,
+      "y": 135729.7344
+    },
+    {
+      "id": "00587A85",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
+      "x": -164504.8281,
+      "y": 111850.7734
+    },
+    {
+      "id": "00587A9D",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -174543.125,
+      "y": 59794.76172
+    },
+    {
+      "id": "00587AA8",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -147527.5469,
+      "y": 36510.41016
+    },
+    {
+      "id": "00587AAB",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -145303.25,
+      "y": 26091.53906
+    },
+    {
+      "id": "00587AB3",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -150790.4375,
+      "y": 11473.56836
+    },
+    {
+      "id": "00587AC0",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -139680.3594,
+      "y": 162491.3438
+    },
+    {
+      "id": "00587AD9",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -99522.125,
+      "y": 141411.8281
+    },
+    {
+      "id": "00587AE2",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
+      "x": -94595.75,
+      "y": 129743.8984
+    },
+    {
+      "id": "00587AEE",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -81553.60938,
+      "y": 127732.8359
+    },
+    {
+      "id": "00587AF4",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -71777.78125,
+      "y": 120709.2109
+    },
+    {
+      "id": "00587AF9",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -62996.80078,
+      "y": 115670.2031
+    },
+    {
+      "id": "00587AFF",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": -54879.86328,
+      "y": 108174.6563
+    },
+    {
+      "id": "00587B0A",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -39835.40625,
+      "y": -5658.409668
+    },
+    {
+      "id": "00587B18",
+      "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Butcher",
+      "x": -49017.35547,
+      "y": -7380.213867
+    },
+    {
+      "id": "00587B1D",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -55211.62109,
+      "y": -22637.80274
+    },
+    {
+      "id": "00587B25",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": -66688.71875,
+      "y": -30675.21875
+    },
+    {
+      "id": "00587B2F",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -77103.03125,
+      "y": -40474.07813
+    },
+    {
+      "id": "00587B34",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -67622.90625,
+      "y": -64593.64453
+    },
+    {
+      "id": "00587B42",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -116178.6328,
+      "y": 100071.3516
+    },
+    {
+      "id": "00587B48",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": -127080.3672,
+      "y": 104047.1953
+    },
+    {
+      "id": "00587B4D",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -132953.8594,
+      "y": 112899.8203
+    },
+    {
+      "id": "00587B72",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": -119600.9141,
+      "y": 81628.14844
+    },
+    {
+      "id": "00587B7A",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": -109275.5313,
+      "y": 84083.84375
+    },
+    {
+      "id": "00587B82",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -111992.4297,
+      "y": 76000.13281
+    },
+    {
+      "id": "00587B8A",
+      "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Butcher",
+      "x": -113424.0078,
+      "y": 45743.77344
+    },
+    {
+      "id": "00587B8F",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -107814.0469,
+      "y": 38308.49219
+    },
+    {
+      "id": "00587B95",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Intimidator",
+      "x": 26810.08398,
+      "y": -113783.2344
+    },
+    {
+      "id": "00587B99",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 18386.38086,
+      "y": -115733.7266
+    },
+    {
+      "id": "00588E1F",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": 30364.19922,
+      "y": -127703.1797
+    },
+    {
+      "id": "00588E2C",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": 116424.0469,
+      "y": 134699.8281
+    },
+    {
+      "id": "00588E5E",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": 6743.489746,
+      "y": -135901.875
+    },
+    {
+      "id": "00588E6C",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": 1999.433838,
+      "y": -109442.6563
+    },
+    {
+      "id": "00588E7A",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": 432.137879,
+      "y": -100347.0469
+    },
+    {
+      "id": "00588EAB",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -80967.90625,
+      "y": 604.899475
+    },
+    {
+      "id": "00588EAF",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -85843.09375,
+      "y": 1973.407104
+    },
+    {
+      "id": "00588EB5",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -99533.84375,
+      "y": 1139.389282
+    },
+    {
+      "id": "00588EC0",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -34609.91406,
+      "y": 107277.2813
+    },
+    {
+      "id": "00588ECE",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -30143.57617,
+      "y": 100292.1875
+    },
+    {
+      "id": "00588ED7",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -32781.8125,
+      "y": 70014.74219
+    },
+    {
+      "id": "00588EE6",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -105453.0469,
+      "y": -165187.0313
+    },
+    {
+      "id": "00588EF0",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 176204.5469,
+      "y": -54565.10938
+    },
+    {
+      "id": "00588EF4",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -96206.61719,
+      "y": -132043.3125
+    },
+    {
+      "id": "00588EF8",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 179449.2656,
+      "y": -29210.64063
+    },
+    {
+      "id": "00588EFB",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 117022.9219,
+      "y": -69378.21094
+    },
+    {
+      "id": "00588F02",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -82703.25,
+      "y": -157173.4531
+    },
+    {
+      "id": "00588F05",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 198774.375,
+      "y": 26501.03125
+    },
+    {
+      "id": "00588F08",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -82544.28125,
+      "y": -79688.53125
+    },
+    {
+      "id": "00588F10",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -142526.2969,
+      "y": -89301.53125
+    },
+    {
+      "id": "00588F13",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 110328.3516,
+      "y": 26865.86719
+    },
+    {
+      "id": "00588F1D",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -132781.5781,
+      "y": -130224.1484
+    },
+    {
+      "id": "00588F29",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -97288.80469,
+      "y": -107254.7031
+    },
+    {
+      "id": "00588F31",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 161606.2813,
+      "y": -100645.4531
+    },
+    {
+      "id": "00588F34",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 190901.2188,
+      "y": 1211.095337
+    },
+    {
+      "id": "00588F46",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 136246.5313,
+      "y": -76044.03125
+    },
+    {
+      "id": "00588F4F",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -57130.83203,
+      "y": 198840.8906
+    },
+    {
+      "id": "00588F58",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 122056.0469,
+      "y": -108840.4063
+    },
+    {
+      "id": "00588F5B",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -132842.7344,
+      "y": -134817.4531
+    },
+    {
+      "id": "00588F5E",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -184240.0313,
+      "y": -103054.7422
+    },
+    {
+      "id": "00588F64",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 130486.5391,
+      "y": -146789.2188
+    },
+    {
+      "id": "00588F6A",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 171892.0781,
+      "y": -148857.5781
+    },
+    {
+      "id": "00588F6D",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": 16012.33691,
+      "y": 145224.0469
+    },
+    {
+      "id": "00588F70",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": 194780.3125,
+      "y": -142636.875
+    },
+    {
+      "id": "00588F73",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": 55782.98438,
+      "y": -22139.76953
+    },
+    {
+      "id": "00588F76",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -24279.8125,
+      "y": -125975.3281
+    },
+    {
+      "id": "00588F7C",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 50017.77734,
+      "y": -111695.6953
+    },
+    {
+      "id": "00588F7F",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 191574.7656,
+      "y": -169548.9531
+    },
+    {
+      "id": "00588F82",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 31033.33008,
+      "y": -6697.203125
+    },
+    {
+      "id": "00588F85",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 197040.7031,
+      "y": 64761.79688
+    },
+    {
+      "id": "00588F88",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 137870.6406,
+      "y": -169259.0156
+    },
+    {
+      "id": "00588F91",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": 113789.4609,
+      "y": -107899.6719
+    },
+    {
+      "id": "00588F97",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": -55579.78125,
+      "y": 125988.5625
+    },
+    {
+      "id": "00588F9A",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -34333.625,
+      "y": -134141.8438
+    },
+    {
+      "id": "00588F9D",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": 144931.5,
+      "y": -97436.55469
+    },
+    {
+      "id": "00588FA0",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": -27925.76367,
+      "y": -79531.625
+    },
+    {
+      "id": "00588FAC",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 147612.3438,
+      "y": -172358.0469
+    },
+    {
+      "id": "00588FAF",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 169801.625,
+      "y": -81321.77344
+    },
+    {
+      "id": "00588FB2",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 168840.0469,
+      "y": 24086.24023
+    },
+    {
+      "id": "00588FB8",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": 186836.6094,
+      "y": -104114.5078
+    },
+    {
+      "id": "00588FBB",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -97568.17188,
+      "y": 186118.6406
+    },
+    {
+      "id": "00588FBE",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": -107420.5156,
+      "y": 183081.0313
+    },
+    {
+      "id": "00588FC1",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 173549.0313,
+      "y": -23440.16797
+    },
+    {
+      "id": "00588FC4",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": 169130.3125,
+      "y": 121499.6719
+    },
+    {
+      "id": "00588FC7",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -173194.1094,
+      "y": -17878.72656
+    },
+    {
+      "id": "00588FCA",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 160803.9688,
+      "y": -64038.01563
+    },
+    {
+      "id": "00588FCD",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 154425.3594,
+      "y": -172617.7656
+    },
+    {
+      "id": "00588FD3",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": 140410.5625,
+      "y": 70741.39844
+    },
+    {
+      "id": "00588FD6",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
+      "x": -54589.48047,
+      "y": -161738.5469
+    },
+    {
+      "id": "00588FD9",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": 8418.28418,
+      "y": 90933.45313
+    },
+    {
+      "id": "00588FDF",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": -99508.5,
+      "y": -69517.80469
+    },
+    {
+      "id": "00589A3B",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": 184391.7031,
+      "y": -153384.875
+    },
+    {
+      "id": "00589A44",
+      "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Butcher",
+      "x": 172693.3906,
+      "y": -138237.1719
+    },
+    {
+      "id": "00589A49",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": 162039.7188,
+      "y": -136401.0625
+    },
+    {
+      "id": "00589A54",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": 143262.4844,
+      "y": -125903.2344
+    },
+    {
+      "id": "00589A5C",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 139533.0469,
+      "y": -127712.9297
+    },
+    {
+      "id": "00589A63",
+      "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Butcher",
+      "x": 133949.1875,
+      "y": -127649.4922
+    },
+    {
+      "id": "00589A76",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -138117.4375,
+      "y": 198573.5469
+    },
+    {
+      "id": "00589A8E",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": 137878.5469,
+      "y": 78186.24219
+    },
+    {
+      "id": "00589A98",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -35946.37891,
+      "y": -45247.03125
+    },
+    {
+      "id": "00589A9F",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -5644.351074,
+      "y": 8174.798339
+    },
+    {
+      "id": "00589AA7",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -125345.2344,
+      "y": -7498.311523
+    },
+    {
+      "id": "00589ABD",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -150604.7656,
+      "y": -35446.37109
+    },
+    {
+      "id": "00589AC2",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 152826.2188,
+      "y": 130534.6484
+    },
+    {
+      "id": "00589AC7",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 152773.5781,
+      "y": -88260.88281
+    },
+    {
+      "id": "00589ACC",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 152385.7969,
+      "y": 89486.14063
+    },
+    {
+      "id": "00589AD3",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": 170020.7813,
+      "y": 88625.07031
+    },
+    {
+      "id": "00589ADF",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": 107457.6484,
+      "y": 145874.4688
+    },
+    {
+      "id": "00589AE4",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 117431.8594,
+      "y": -60013.33984
+    },
+    {
+      "id": "00589AEA",
+      "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Builder",
+      "x": 146651.4375,
+      "y": -5940.937988
+    },
+    {
+      "id": "00589AF4",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Farmer",
+      "x": 198381.875,
+      "y": 43562.01563
+    },
+    {
+      "id": "0058BDC6",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Butcher",
+      "x": 19332.84766,
+      "y": 67511.57813
+    },
+    {
+      "id": "0058BDCA",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
+      "x": 46082.31641,
+      "y": 85440.17969
+    },
+    {
+      "id": "0058BDCE",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": 64670.94531,
+      "y": 114277.4453
+    },
+    {
+      "id": "0058BDCF",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 78045.75,
+      "y": 23215.40039
+    },
+    {
+      "id": "0058BDD0",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": 81015.85938,
+      "y": 119848.6953
+    },
+    {
+      "id": "0058BDD2",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": 109411.5938,
+      "y": 42893.64844
+    },
+    {
+      "id": "0058BDD3",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": 116480.9297,
+      "y": 66840.67969
+    },
+    {
+      "id": "0058BDD4",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Farmer",
+      "x": 107483.8281,
+      "y": -14090.21777
+    },
+    {
+      "id": "0058BDDE",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": 121434.2891,
+      "y": -39995.11328
+    },
+    {
+      "id": "0058BDF1",
+      "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Builder",
+      "x": 99872.47656,
+      "y": 1186.395874
+    },
+    {
+      "id": "0058BDF8",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Farmer",
+      "x": 86089.38281,
+      "y": -49266.14844
+    },
+    {
+      "id": "0058BDFF",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 61201.40234,
+      "y": -81282.01563
+    },
+    {
+      "id": "0058CCBC",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": 36331.10938,
+      "y": -76393.42188
+    },
+    {
+      "id": "0058CCC3",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": 90046.86719,
+      "y": 61950.09375
+    },
+    {
+      "id": "0058CCCC",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
+      "x": 33603.25391,
+      "y": 34192.15234
+    },
+    {
+      "id": "0058CCD4",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": 54128.52344,
+      "y": 142391.1094
+    },
+    {
+      "id": "0058CCD9",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": 56797.49219,
+      "y": -159130.2031
+    },
+    {
+      "id": "0058CCE0",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": 9747.069336,
+      "y": -93593.23438
+    },
+    {
+      "id": "0058E4E8",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": 117052.5313,
+      "y": 160299.1094
+    },
+    {
+      "id": "0058E4F7",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": 75375.625,
+      "y": 155740.2344
+    },
+    {
+      "id": "0058E502",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": 140175.7656,
+      "y": 111646.1563
+    },
+    {
+      "id": "0059192B",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": -127152.0313,
+      "y": 157386.6563
+    },
+    {
+      "id": "00596C67",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -133182.8125,
+      "y": 22245.41992
+    },
+    {
+      "id": "00596C68",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -135305.5938,
+      "y": 22798.4043
+    },
+    {
+      "id": "00596C6A",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -146266.4531,
+      "y": 15129.35938
+    },
+    {
+      "id": "00596C6C",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -148237.3438,
+      "y": 21535.66211
+    },
+    {
+      "id": "00596C6E",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -148497.9063,
+      "y": 16264.2959
+    },
+    {
+      "id": "00596C6F",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -149934.6875,
+      "y": 5789.924316
+    },
+    {
+      "id": "00596C70",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -153162.5,
+      "y": 17245.60547
+    },
+    {
+      "id": "00596C73",
+      "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Butcher",
+      "x": -155913.5781,
+      "y": 9539.608399
+    },
+    {
+      "id": "00596C76",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -156800.4688,
+      "y": 3754.746094
+    },
+    {
+      "id": "00596C77",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": -166218.9531,
+      "y": 257.197082
+    },
+    {
+      "id": "00596C78",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -166034.1094,
+      "y": -36320.5
+    },
+    {
+      "id": "00596C7A",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -163935.7344,
+      "y": -56777.26563
+    },
+    {
+      "id": "00596C89",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -164966.8594,
+      "y": -59192.27344
+    },
+    {
+      "id": "00596C8A",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -171052.25,
+      "y": -35206.22656
+    },
+    {
+      "id": "00596C8C",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -170705.5625,
+      "y": -52406.03125
+    },
+    {
+      "id": "00596C8D",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -168691.2813,
+      "y": -56150.79688
+    },
+    {
+      "id": "00596C8E",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -173940.3281,
+      "y": -48891.06641
+    },
+    {
+      "id": "00596C95",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -168134.7813,
+      "y": -3021.879638
+    },
+    {
+      "id": "00596C96",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
+      "x": -133495.0938,
+      "y": -58404.625
+    },
+    {
+      "id": "00596C9A",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -140167.4375,
+      "y": -54038.44922
+    },
+    {
+      "id": "00596C9C",
+      "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Builder",
+      "x": -145031.7344,
+      "y": -61302.66797
+    },
+    {
+      "id": "00596C9D",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -148962.125,
+      "y": -55741.50391
+    },
+    {
+      "id": "00596C9E",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -153206,
+      "y": -58537.20313
+    },
+    {
+      "id": "00596C9F",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Intimidator",
+      "x": -158735.5625,
+      "y": -60127.63281
+    },
+    {
+      "id": "00596CA0",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -158774.8281,
+      "y": -58203.22266
+    },
+    {
+      "id": "00596CA1",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -160124.2813,
+      "y": -51495.18359
+    },
+    {
+      "id": "00596CA3",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -163832.7344,
+      "y": -62617.13672
+    },
+    {
+      "id": "00596CA4",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -136694.7188,
+      "y": -6067.759278
+    },
+    {
+      "id": "00596CA7",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Farmer",
+      "x": -154428.5625,
+      "y": -539.105591
+    },
+    {
+      "id": "00596CA8",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -122041.4922,
+      "y": 5884.335937
+    },
+    {
+      "id": "00596CAA",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -128771.8594,
+      "y": 26323.83789
+    },
+    {
+      "id": "00596CAC",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Farmer",
+      "x": -111335.8203,
+      "y": -33329.35938
+    },
+    {
+      "id": "00596CAD",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -112364.625,
+      "y": -37145.07422
+    },
+    {
+      "id": "00596CAF",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -112004.7266,
+      "y": -44868.54688
+    },
+    {
+      "id": "00596CB0",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Intimidator",
+      "x": -119935.3516,
+      "y": -33412.61719
+    },
+    {
+      "id": "00596CB1",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -121271.9219,
+      "y": -39836.6875
+    },
+    {
+      "id": "00596CB2",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -119918.5313,
+      "y": -43779.08984
+    },
+    {
+      "id": "00596CB3",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -121462.2031,
+      "y": -47526.76563
+    },
+    {
+      "id": "00596CB4",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -120341.8047,
+      "y": -57961.98438
+    },
+    {
+      "id": "00596CB5",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -126363.8281,
+      "y": -49555.625
+    },
+    {
+      "id": "00596CB6",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -123736.4688,
+      "y": -51357.71484
+    },
+    {
+      "id": "00596CB7",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": -128401.2578,
+      "y": -56760.61719
+    },
+    {
+      "id": "00596CBE",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -108898.6172,
+      "y": -30944.88477
+    },
+    {
+      "id": "00596CBF",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": -113898.4766,
+      "y": -24709
+    },
+    {
+      "id": "00596CC0",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -118475.1406,
+      "y": -17034.99219
+    },
+    {
+      "id": "00596CC1",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -115982.5625,
+      "y": -30787.95117
+    },
+    {
+      "id": "00596CC2",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -121208.0313,
+      "y": -22079.47852
+    },
+    {
+      "id": "00596CC3",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -125562.25,
+      "y": -15921.4209
+    },
+    {
+      "id": "00596CC4",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -126685.1328,
+      "y": -19912.29883
+    },
+    {
+      "id": "00596CC6",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -129498.2813,
+      "y": -13718.16211
+    },
+    {
+      "id": "00596CC7",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -130621.3672,
+      "y": -17879.21484
+    },
+    {
+      "id": "00596CC9",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -178581.9219,
+      "y": -13599.09277
+    },
+    {
+      "id": "00596CD2",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -166294.1719,
+      "y": -22450.92188
+    },
+    {
+      "id": "00596CD9",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -181195.2188,
+      "y": -23053.10938
+    },
+    {
+      "id": "00596CE4",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -157717.1719,
+      "y": -21149.07813
+    },
+    {
+      "id": "00596CE8",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Farmer",
+      "x": -149197.0938,
+      "y": -9337.636718
+    },
+    {
+      "id": "00596CEF",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -153201.4688,
+      "y": -4341.269531
+    },
+    {
+      "id": "00596CF2",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Farmer",
+      "x": -160279.9375,
+      "y": -9916.325195
+    },
+    {
+      "id": "00596CF8",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": -169084.6563,
+      "y": -15524.98633
+    },
+    {
+      "id": "00596D04",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Intimidator",
+      "x": -180760.1563,
+      "y": -28229.28125
+    },
+    {
+      "id": "00596D08",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": -160034.9844,
+      "y": -29178.1582
+    },
+    {
+      "id": "00596D0F",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -159890.625,
+      "y": -35517.88281
+    },
+    {
+      "id": "00596D16",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
+      "x": -158492.9688,
+      "y": -40654.24609
+    },
+    {
+      "id": "00596D20",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
+      "x": -151199.7188,
+      "y": -43831.53516
+    },
+    {
+      "id": "00596D27",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -151315.1094,
+      "y": -26194.56641
+    },
+    {
+      "id": "00596D2B",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -151137.6406,
+      "y": -19689.44727
+    },
+    {
+      "id": "00596D8A",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -137712.9063,
+      "y": 46227.12891
+    },
+    {
+      "id": "00596D8B",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -141591.6094,
+      "y": 38612.42188
+    },
+    {
+      "id": "00596D8D",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -133552.3906,
+      "y": 123563.2109
+    },
+    {
+      "id": "00596D92",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": -82636.15625,
+      "y": 85174.08594
+    },
+    {
+      "id": "00596D93",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -88808.52344,
+      "y": 111841.9219
+    },
+    {
+      "id": "00596D95",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": -50101.78906,
+      "y": 64202.88672
+    },
+    {
+      "id": "00596D97",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -63079.73047,
+      "y": 89654.61719
+    },
+    {
+      "id": "00596D99",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -29971.96484,
+      "y": 34161.56641
+    },
+    {
+      "id": "00596D9A",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -21833.19727,
+      "y": 92386.51563
+    },
+    {
+      "id": "00596D9B",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -22893.74805,
+      "y": 67877.33594
+    },
+    {
+      "id": "00596D9C",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -20059.95508,
+      "y": 108668.0547
+    },
+    {
+      "id": "00596D9D",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": -109828.7891,
+      "y": 141798.75
+    },
+    {
+      "id": "00596D9E",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -121236.6484,
+      "y": 142268.7031
+    },
+    {
+      "id": "00596D9F",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -130230.4766,
+      "y": 141931.2813
+    },
+    {
+      "id": "00596DA1",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -129913.7344,
+      "y": 181433.75
+    },
+    {
+      "id": "00596DA2",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -14108.68066,
+      "y": 54508.20703
+    },
+    {
+      "id": "00596DA6",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -44465.78906,
+      "y": 93115.0625
+    },
+    {
+      "id": "00596DAE",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": -79268.90625,
+      "y": 138849.8281
+    },
+    {
+      "id": "00596DB6",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
+      "x": -153546.5156,
+      "y": 92186.08594
+    },
+    {
+      "id": "00596DC6",
+      "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
+      "x": -66727.1875,
+      "y": 30529.82813
+    },
+    {
+      "id": "00596DCD",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
+      "x": -75230.03906,
+      "y": -2642.738037
+    },
+    {
+      "id": "00596DD2",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": -72824.99219,
+      "y": -23965.17969
+    },
+    {
+      "id": "005979B3",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -117267.2969,
+      "y": 92787.66406
+    },
+    {
+      "id": "0059836E",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
+      "x": -88593.22656,
+      "y": 67605.89063
+    },
+    {
+      "id": "0059838C",
+      "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Butcher",
+      "x": -109323.1094,
+      "y": 84041.67969
+    },
+    {
+      "id": "0059839C",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": -92875.6875,
+      "y": 78001.1875
+    },
+    {
+      "id": "005983B6",
+      "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
+      "x": -108406.8984,
+      "y": 75963.125
+    },
+    {
+      "id": "005983C3",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -120129.3359,
+      "y": 76496.63281
+    },
+    {
+      "id": "005983CB",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -120241.7344,
+      "y": 76895.34375
+    },
+    {
+      "id": "005983FC",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
+      "x": -105990.0859,
+      "y": 28336.5332
+    },
+    {
+      "id": "005984F3",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
+      "x": -132567.6875,
+      "y": 131010.6172
+    },
+    {
+      "id": "005984FA",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -132752.9219,
+      "y": 130926.9141
+    },
+    {
+      "id": "005984FB",
+      "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
+      "x": -132644.2344,
+      "y": 130783.5938
+    },
+    {
+      "id": "0059850C",
+      "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
+      "x": -91414.35156,
+      "y": 87920.23438
+    },
+    {
       "id": "005989BF",
       "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
       "x": -104526.0078,
       "y": 48389.87891
     },
     {
       "id": "005989C2",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
       "x": -104379.75,
       "y": 48353.29297
     },
     {
       "id": "00598A0C",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
       "x": -103795.2109,
       "y": 48278.98438
     },
     {
       "id": "00598A0D",
       "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": -104226.0781,
       "y": 48347.69531
     },
     {
       "id": "00598A0F",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -130280.7813,
       "y": 39579.59766
     },
     {
       "id": "00598A15",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -130261.4297,
       "y": 39708.96094
     },
     {
       "id": "005996FD",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": -165460.0781,
       "y": 205303.6563
     },
     {
       "id": "0059970B",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -143204.3125,
       "y": 196775.7969
     },
     {
       "id": "0059972E",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -117292.3125,
       "y": 185978.7031
     },
     {
-      "id": "00599769",
-      "type": "DenizenScavengerMarker",
-      "x": -169017.7031,
-      "y": 164607.9219
-    },
-    {
       "id": "0059977D",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Butcher",
       "x": -129212.5313,
       "y": 157425.7969
     },
     {
       "id": "0059979C",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -116267.0625,
       "y": 153341.2344
     },
     {
       "id": "005997B9",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -116379.6484,
       "y": 153257.1406
     },
     {
       "id": "005997BE",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -104994.125,
       "y": 164469.75
     },
     {
       "id": "0059A1C2",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": -66344.36719,
       "y": 174178.4375
     },
     {
       "id": "0059A1C5",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -77119.26563,
       "y": 182980.2656
     },
     {
       "id": "0059A1C7",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -76993.02344,
       "y": 182924.8594
     },
     {
       "id": "0059A1C8",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
       "x": -74813.03906,
       "y": 173622.0625
     },
     {
       "id": "0059A1CB",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -74874.84375,
       "y": 173790.7188
     },
     {
       "id": "0059A1D8",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -45761.27734,
       "y": 154450.125
     },
     {
       "id": "0059A1DA",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -45877.85938,
       "y": 154677.875
     },
     {
       "id": "0059A1DC",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -35156.21484,
       "y": 192208.5
     },
     {
       "id": "0059A1DE",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -35268.87891,
       "y": 192106.9844
     },
     {
       "id": "0059A1EF",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -41237.73828,
       "y": 175092.9531
     },
     {
       "id": "0059A1F2",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -41247.82031,
       "y": 174991.9219
     },
     {
       "id": "0059A1F3",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -52863.04688,
       "y": 174028.2188
     },
     {
       "id": "0059A453",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Farmer",
       "x": -56237.34766,
       "y": 143454.0313
     },
     {
       "id": "0059A45B",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": -56351.96875,
       "y": 143419.6406
     },
     {
       "id": "0059A461",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -72360.84375,
       "y": 141016.3125
     },
     {
       "id": "0059A46A",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -72271.66406,
       "y": 141162.9844
     },
     {
       "id": "0059A678",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 7470.20459,
       "y": 113387.0469
     },
     {
       "id": "0059A679",
       "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Farmer",
       "x": -157351.75,
       "y": 154743.7188
     },
     {
       "id": "0059A67A",
       "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
       "x": -157235.6406,
       "y": 154745.9375
     },
     {
       "id": "0059A6CA",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -75678.25781,
       "y": 99131.39063
     },
     {
       "id": "0059A6D4",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
       "x": -81305.71875,
       "y": 94995.75781
     },
     {
       "id": "0059A7C0",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": 532.016846,
       "y": 184395.6875
     },
     {
       "id": "0059A7C9",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": 763.060669,
       "y": 184240.5
     },
     {
       "id": "0059A861",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 89831.63281,
       "y": 16101.03516
     },
     {
       "id": "0059A863",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 82446.49219,
       "y": 25623.68555
     },
     {
       "id": "0059A868",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": 92221.94531,
       "y": 170065.5625
     },
     {
       "id": "0059A86A",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": 92192.28125,
       "y": 170165.25
     },
     {
       "id": "0059A86D",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": 68444.76563,
       "y": 185971.8594
     },
     {
       "id": "0059A86F",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": 121427.9609,
       "y": 149100.4375
     },
     {
       "id": "0059ABB4",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
       "x": 182729.2344,
       "y": -55888.45703
     },
     {
       "id": "0059ACC6",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 32756.86523,
       "y": -166830.3125
     },
     {
       "id": "0059ACCC",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 26515.46875,
       "y": -160542.0156
     },
     {
       "id": "0059ACCD",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": 18068.27734,
       "y": -146426.7813
     },
     {
       "id": "0059ACD2",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": 14447.28613,
       "y": -115409.2344
     },
     {
       "id": "0059ACDC",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 9652.063477,
       "y": -121043.8047
     },
     {
       "id": "0059ACE1",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
       "x": -7890.423828,
       "y": -138049.1563
     },
     {
       "id": "0059ACE4",
       "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Lumberjack",
       "x": -8432.225586,
       "y": -138446.5469
     },
     {
       "id": "0059ACF1",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -41315,
       "y": -174205.4844
     },
     {
       "id": "0059ACF8",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": -48050.91406,
       "y": -176895.5313
     },
     {
       "id": "0059AD01",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Farmer",
       "x": -54580.46484,
       "y": -162284.7344
     },
     {
       "id": "0059AD0A",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -64305.83984,
       "y": -159173.2969
     },
     {
       "id": "0059AD13",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -64348.24219,
       "y": -160029.0938
     },
     {
       "id": "0059AD1F",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": -27810.85938,
       "y": -141150.3594
     },
     {
       "id": "0059AD29",
       "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": -26802.01172,
       "y": -121621.1016
     },
     {
       "id": "0059AD33",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Butcher",
       "x": -26721.02149,
       "y": -122442.9844
     },
     {
       "id": "0059AD53",
       "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Butcher",
       "x": 70941.76563,
       "y": -128424.5156
     },
     {
       "id": "0059AD5C",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
       "x": 70198.73438,
       "y": -128319.2109
     },
     {
       "id": "0059AE92",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": 121177,
       "y": -175138.4063
     },
     {
       "id": "0059B22A",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": 175961.9063,
       "y": -49616.50781
     },
     {
-      "id": "0059B271",
-      "type": "DenizenScavengerMarker",
-      "x": 142389.5781,
-      "y": -178931.4063
-    },
-    {
       "id": "0059B291",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": 116133.7031,
       "y": -174401.4844
     },
     {
       "id": "0059B516",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -142215.7813,
       "y": -68412.23438
     },
     {
       "id": "0059B51B",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -68758.47656,
       "y": 157938.5625
     },
     {
       "id": "0059B51E",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -112002.0469,
       "y": -118488.9063
     },
     {
       "id": "0059B520",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -112140.7422,
       "y": -118598.6641
     },
     {
       "id": "0059B521",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -101333.1328,
       "y": -81425.33594
     },
     {
       "id": "0059B522",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -101444.4453,
       "y": -81303.92188
     },
     {
       "id": "0059B525",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -121013.8516,
       "y": -87874.46094
     },
     {
       "id": "0059B527",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -121393.4922,
       "y": -87811.04688
     },
     {
       "id": "0059B541",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": -92758.76563,
       "y": -129711.9531
     },
     {
       "id": "0059B543",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -92898.0625,
       "y": -129772.8516
     },
     {
       "id": "0059B61C",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 177680.4844,
       "y": -136330.8906
     },
     {
       "id": "0059B627",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": 122321.8281,
       "y": -153658.3594
     },
     {
       "id": "0059B635",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -141199,
       "y": -66436.19531
     },
     {
       "id": "0059B66E",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": -151216.9063,
       "y": -80027.01563
     },
     {
       "id": "0059B6FB",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": 78159.82813,
       "y": -610.731628
     },
     {
       "id": "0059B700",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": -187748.9531,
       "y": -108474.4688
     },
     {
       "id": "0059B70D",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -111359.1172,
       "y": -67585.45313
     },
     {
       "id": "0059B747",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -168194.9063,
       "y": -154495.6406
     },
     {
       "id": "0059B7F7",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -90337.89063,
       "y": -174543.5781
     },
     {
       "id": "0059B7FC",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -61016.23828,
       "y": -104127.6719
     },
     {
       "id": "0059B917",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": 58905.45313,
       "y": -40305.26953
     },
     {
       "id": "0059B918",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 59028.98438,
       "y": -40220.20313
     },
     {
       "id": "0059B91C",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Lumberjack",
       "x": 59277.02734,
       "y": -42432.01563
     },
     {
       "id": "0059B932",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": 37288.17188,
       "y": -28370.87109
     },
     {
       "id": "0059B958",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": 20752.72266,
       "y": -39923.82031
     },
     {
       "id": "0059B961",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 22097.38281,
       "y": -21597.84375
     },
     {
       "id": "0059B969",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": 1688.94397,
       "y": -86399.8125
     },
     {
       "id": "0059B98B",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
       "x": 4877.08545,
       "y": -24792.83398
     },
     {
       "id": "0059B992",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
       "x": 5030.697754,
       "y": -24831.62305
     },
     {
       "id": "0059B99E",
       "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Builder",
       "x": 4291.202148,
       "y": -23607.40234
     },
     {
       "id": "0059BA33",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -166450.375,
       "y": 50119
     },
     {
       "id": "0059BA36",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
       "x": -157123.9844,
       "y": 59990.11328
     },
     {
       "id": "0059BA3C",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -161841.0625,
       "y": 84638.5625
     },
     {
       "id": "0059BA3E",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": -144501.6875,
       "y": 107215.0547
     },
     {
       "id": "0059BA47",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": -108745.7813,
       "y": 70556.875
     },
     {
       "id": "0059BA49",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -77741.91406,
       "y": 67121.46875
     },
     {
       "id": "0059BA4A",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -32903.77344,
       "y": 70001.375
     },
     {
       "id": "0059BA4C",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
       "x": -22953.89844,
       "y": 59530.33984
     },
     {
       "id": "0059BA4F",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -23140.16992,
       "y": 59780.47656
     },
     {
       "id": "0059BA50",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -5495.775391,
       "y": 47546.32031
     },
     {
       "id": "0059BA57",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": 14245.55859,
       "y": 47621.88281
     },
     {
       "id": "0059BA61",
       "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Builder",
       "x": 29576.51953,
       "y": 21993.68359
     },
     {
       "id": "0059BA6A",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": 29478.0625,
       "y": 22119.38281
     },
     {
       "id": "0059BA78",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": 1330.60669,
       "y": -1337.817261
     },
     {
       "id": "0059BB46",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": 24341.44141,
       "y": 25808.10547
     },
     {
       "id": "0059BB47",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": 24222.42578,
       "y": 25933.86719
     },
     {
       "id": "0059BB48",
       "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Builder",
       "x": 61611.27734,
       "y": 107062.0781
     },
     {
       "id": "0059BB4B",
       "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Butcher",
       "x": 61819.11719,
       "y": 106891.5703
     },
     {
       "id": "0059BB4C",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": 61852.79688,
       "y": 107039.1875
     },
     {
       "id": "0059BB54",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": 88004.28906,
       "y": 81446.14844
     },
     {
       "id": "0059BB6C",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Tresure",
       "x": 53936.30469,
       "y": 313.955993
     },
     {
       "id": "0059BB72",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": 108329.7031,
       "y": 57680.61328
     },
     {
       "id": "0059BB98",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Looter",
       "x": 99298.82031,
       "y": 81041.46094
     },
     {
       "id": "0059BBA3",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
       "x": 94486.41406,
       "y": 79843.6875
     },
     {
       "id": "0059BBB0",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Camper",
       "x": 72791.5,
       "y": 50133.56641
     },
     {
       "id": "0059BEA5",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": -113904.3047,
       "y": -4956.132324
     },
     {
       "id": "0059BF09",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -84676.35156,
       "y": -5271.361328
     },
     {
       "id": "0059BF24",
       "type": "DenizenScavengerMarker",
+      "label": "♂",
+      "sub": "Drunk",
       "x": -44982.92969,
       "y": 74910.08594
     },
     {
       "id": "0059C111",
       "type": "DenizenSettlerMarker",
+      "label": "♀",
+      "sub": "Camper",
       "x": 167439.1719,
       "y": 193720.875
     },
     {
       "id": "0059C11B",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Looter",
       "x": 148995.3125,
       "y": 199843.6406
     },
     {
       "id": "0059DAE3",
       "type": "DenizenRaiderMarker",
+      "label": "♀",
+      "sub": "Builder",
       "x": -149106.3594,
       "y": -55696.21875
     },
     {
       "id": "0059DAEC",
       "type": "DenizenRaiderMarker",
+      "label": "♂",
+      "sub": "Intimidator",
       "x": -170615.8594,
       "y": -52489.66016
     },
     {
       "id": "005A1C8F",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Builder",
       "x": -104739.5078,
       "y": 17482.43359
     },
     {
       "id": "005A27C2",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
       "x": -66706.63281,
       "y": 92939.26563
     },
     {
       "id": "005A2895",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
       "x": 40610.03125,
       "y": -54036.93359
     },
     {
       "id": "005B5E0E",
       "type": "DenizenSettlerMarker",
+      "label": "♂",
+      "sub": "Surveyor",
       "x": 167313.4531,
       "y": -140299.1719
     },
     {
       "id": "005D0080",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -156602,
       "y": -26470.73828
     },
     {
       "id": "005D0085",
       "type": "DenizenScavengerMarker",
+      "label": "♀",
+      "sub": "Surveyor",
       "x": -125580.25,
       "y": 17435.70117
     }

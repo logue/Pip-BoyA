@@ -25,7 +25,7 @@
       </v-fade-transition>
     </v-main>
 
-    <v-overlay :value="loading">
+    <v-overlay v-model="loading">
       <v-progress-circular indeterminate size="64" />
     </v-overlay>
 
@@ -57,7 +57,6 @@ export default {
     return {
       title: this.$t('title'),
       drawer: false,
-      loading: true,
       snackbar: false,
     };
   },
@@ -74,6 +73,11 @@ export default {
     progress() {
       return this.$store.getters.progress;
     },
+    loading() {
+      const loading = this.$store.getters.loading;
+      document.body.style.cursor = loading ? 'wait' : 'auto';
+      return loading;
+    },
   },
   watch: {
     '$i18n.locale'() {
@@ -85,11 +89,6 @@ export default {
       document.getElementsByName('description')[0].content = this.$t(
         'description'
       );
-    },
-    '$store.state.loading'() {
-      const loading = this.$store.getters.loading;
-      document.body.style.cursor = loading ? 'wait' : 'auto';
-      this.loading = loading;
     },
     '$store.getters.message'() {
       this.snackbar = true;

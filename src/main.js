@@ -15,6 +15,7 @@ import store from './store';
 import './plugins/analytics';
 import './plugins/axios';
 import './plugins/clipboard';
+import './plugins/forceNextTick';
 import './plugins/electron';
 import './plugins/vuelayers';
 import './plugins/worker';

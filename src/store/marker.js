@@ -10,9 +10,11 @@ export default {
     // Marker location object
     features: {},
     // Marker Style definition.
-    styles: {},
-    // Marker Types
+    styles: [],
+    // Marker Type and counts
     types: {},
+    // Marker Types array
+    items: {},
     // Marker color palette
     colorset: {},
     // Overlay tile image path
@@ -21,6 +23,7 @@ export default {
   getters: {
     features: (state) => (category) => state.features[category],
     types: (state) => (category) => state.types[category],
+    items: (state) => (category) => state.items[category],
     colorset: (state) => (category) => state.colorset[category],
     tileImage: (state) => (category) => state.tileImage[category],
     style: (state) => (type) => state.styles[type],
@@ -33,7 +36,11 @@ export default {
      */
     set(state, payload) {
       state.colorset[payload.category] = payload.colorset;
-      state.types[payload.category] = payload.types;
+
+      if (payload.types) {
+        state.types[payload.category] = payload.types;
+      }
+      state.items[payload.category] = payload.items;
       state.tileImage[payload.category] = payload.tileImage;
     },
     setFeatures(state, payload) {
@@ -45,6 +52,7 @@ export default {
      */
     setStyle(state) {
       state.styles = markerStyles();
+      console.log('setStyle');
     },
   },
   actions: {
@@ -106,10 +114,11 @@ export default {
             prev[cur] = (prev[cur] || 0) + 1;
             return prev;
           }, {});
+        payload.items = Object.keys(payload.types);
       } else {
         // タイルマーカーモード（マーカー画像が予め含まれている）
         payload.colorset = data.colorset || colorset.tileExplainColor;
-        payload.types = {...data.explains};
+        payload.items = data.explains;
       }
       payload.tileImage = data.tileImage || null;
       context.commit('set', payload);

@@ -4,7 +4,7 @@
       {{ $t('legend') }}
       <v-spacer />
       <v-checkbox
-        v-if="Object.keys(types)[0] !== '0'"
+        v-if="types"
         v-model="checkAll"
         color="gray"
         :title="$t('toggleMarkerSelect')"
@@ -27,9 +27,9 @@
       </v-tooltip>
     </v-card-title>
     <v-card-text v-if="!isShrinked" class="explain_body">
-      <ul v-if="Object.keys(types)[0] === '0'" class="explain_list">
+      <ul v-if="!types" class="explain_list">
         <li
-          v-for="(item, index) in types"
+          v-for="(item, index) in items"
           :key="index"
           :class="`explain_list_item explain_list_item_${colorset[index]}`"
         >
@@ -81,8 +81,6 @@ export default {
   data() {
     return {
       category: null,
-      // 項目
-      items: [],
       // 最大化／最小化
       isShrinked: false,
       // チェック済みの項目の配列
@@ -97,6 +95,9 @@ export default {
     types() {
       return this.$store.getters['marker/types'](this.category);
     },
+    items() {
+      return this.$store.getters['marker/items'](this.category);
+    },
     colorset() {
       return this.$store.getters['marker/colorset'](this.category);
     },
@@ -109,7 +110,7 @@ export default {
       // データ読み込み
       this.category = this.$route.params.category || null;
       // マーカーはすべて選択状態にする
-      this.checked = this.items = this.category ? Object.keys(this.types) : [];
+      this.checked = this.items;
       console.debug('explain init: ', this.category);
     },
   },

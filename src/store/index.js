@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import createPersistedState from 'vuex-persistedstate';
+import VuexPersistence from 'vuex-persist';
 
 import config from './config';
 import location from './location';
@@ -55,16 +55,16 @@ export default new Vuex.Store({
   },
   plugins: [
     // ブラウザを閉じても保存されるデータ
-    createPersistedState({
+    new VuexPersistence({
       key: 'pipBoyA',
       storage: window.localStorage,
-      paths: ['marker', 'config'],
-    }),
+      modules: ['marker', 'config'],
+    }).plugin,
     // ブラウザを閉じるまで保存されるデータ
-    createPersistedState({
+    new VuexPersistence({
       key: 'pipBoyA',
       storage: window.sessionStorage,
-      paths: ['location'],
-    }),
+      modules: ['location'],
+    }).plugin,
   ],
 });
