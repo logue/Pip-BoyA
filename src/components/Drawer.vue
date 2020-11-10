@@ -105,7 +105,36 @@ export default {
         {
           icon: 'mdi-alert-decagram',
           title: 'categories.encounters',
-          to: '/encounters',
+          items: [
+            {
+              title: 'categories.encounters-event',
+              to: '/encounters-event',
+            },
+            {
+              title: 'categories.encounters-animal',
+              to: '/encounters-animal',
+            },
+            {
+              title: 'categories.encounters-bot',
+              to: '/encounters-bot',
+            },
+            {
+              title: 'categories.encounters-critter',
+              to: '/encounters-critter',
+            },
+            {
+              title: 'categories.encounters-faction',
+              to: '/encounters-faction',
+            },
+            {
+              title: 'categories.encounters-insect',
+              to: '/encounters-insect',
+            },
+            {
+              title: 'categories.encounters-supermutant',
+              to: '/encounters-supermutant',
+            },
+          ],
         },
         {
           icon: 'mdi-nature-people',
@@ -143,40 +172,6 @@ export default {
             {
               title: 'categories.chems-drug',
               to: '/chems-drug',
-            },
-          ],
-        },
-        {
-          icon: 'mdi-space-invaders',
-          title: 'categories.lvl',
-          items: [
-            {
-              title: 'categories.lvl-animal',
-              to: '/lvl-animal',
-            },
-            {
-              title: 'categories.lvl-bot',
-              to: '/lvl-bot',
-            },
-            {
-              title: 'categories.lvl-critter',
-              to: 'lvl-critter',
-            },
-            {
-              title: 'categories.lvl-human',
-              to: 'lvl-human',
-            },
-            {
-              title: 'categories.lvl-insect',
-              to: 'lvl-insect',
-            },
-            {
-              title: 'categories.lvl-supermutant',
-              to: 'lvl-supermutant',
-            },
-            {
-              title: 'categories.lvl-rare',
-              to: 'lvl-rare',
             },
           ],
         },

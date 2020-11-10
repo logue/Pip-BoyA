@@ -1,0 +1,453 @@
+{
+  "markers": [
+    {
+      "id": "00224421",
+      "type": "EncFloaterFlamerMarker",
+      "x": 146093.5313,
+      "y": 35169.12891
+    },
+    {
+      "id": "00224422",
+      "type": "EncFloaterGnasherMarker",
+      "x": 145353.0625,
+      "y": 35399.33594
+    },
+    {
+      "id": "00290274",
+      "type": "EncSupermutantMarker",
+      "sub": "Suicider",
+      "x": 89502.57813,
+      "y": -56691.45313
+    },
+    {
+      "id": "00309236",
+      "type": "EncFloaterGnasherMarker",
+      "x": 164322.125,
+      "y": -18879.25195
+    },
+    {
+      "id": "00439900",
+      "type": "EncSupermutantMarker",
+      "sub": "Melee",
+      "x": 21671.56641,
+      "y": 78584.32031
+    },
+    {
+      "id": "00439901",
+      "type": "EncSupermutantMarker",
+      "sub": "Suicider",
+      "x": 19633.72656,
+      "y": 76945.60156
+    },
+    {
+      "id": "00439902",
+      "type": "EncSupermutantMarker",
+      "sub": "Rifle",
+      "x": 21761.60938,
+      "y": 75624.75
+    },
+    {
+      "id": "00592515",
+      "type": "EncFloaterGnasherMarker",
+      "x": -177687.3125,
+      "y": -136917.7656
+    },
+    {
+      "id": "00592516",
+      "type": "EncFloaterFlamerMarker",
+      "x": -179363.1406,
+      "y": -137792.3906
+    },
+    {
+      "id": "00592523",
+      "type": "EncFloaterGnasherMarker",
+      "x": -38857.01563,
+      "y": -26511.16797
+    },
+    {
+      "id": "00592524",
+      "type": "EncFloaterFlamerMarker",
+      "x": -39669.85938,
+      "y": -27100.45899
+    },
+    {
+      "id": "00594800",
+      "type": "EncFloaterFlamerMarker",
+      "x": -19656.89258,
+      "y": 190121.7188
+    },
+    {
+      "id": "00594801",
+      "type": "EncFloaterGnasherMarker",
+      "x": -19476.65234,
+      "y": 190116.7969
+    },
+    {
+      "id": "00594803",
+      "type": "EncFloaterFlamerMarker",
+      "x": -18297.83399,
+      "y": 188981.4844
+    },
+    {
+      "id": "00594980",
+      "type": "EncFloaterGnasherMarker",
+      "x": 50490.57422,
+      "y": -153521.7031
+    },
+    {
+      "id": "00594981",
+      "type": "EncFloaterFlamerMarker",
+      "x": 50491.82422,
+      "y": -155383.9375
+    },
+    {
+      "id": "00594990",
+      "type": "EncFloaterFlamerMarker",
+      "x": 51185.3125,
+      "y": -157433.6875
+    },
+    {
+      "id": "00594992",
+      "type": "EncFloaterGnasherMarker",
+      "x": 51165.45703,
+      "y": -157582.1094
+    },
+    {
+      "id": "0002D46A",
+      "type": "EncSupermutantMarker",
+      "sub": "Ranged",
+      "x": 4054.749512,
+      "y": 119620.8984
+    },
+    {
+      "id": "0002D4B6",
+      "type": "EncSupermutantMarker",
+      "sub": "Ranged",
+      "x": 3235.624268,
+      "y": 122703.1875
+    },
+    {
+      "id": "0002D58C",
+      "type": "EncSupermutantMarker",
+      "sub": "Rifle",
+      "x": 6797.064942,
+      "y": 121139.3594
+    },
+    {
+      "id": "00030F75",
+      "type": "EncFloaterFreezerMarker",
+      "x": -150111.1719,
+      "y": 164522.3125
+    },
+    {
+      "id": "0003103A",
+      "type": "EncFloaterGnasherMarker",
+      "x": -149791.0469,
+      "y": 164521.3906
+    },
+    {
+      "id": "0004B47A",
+      "type": "EncSupermutantMarker",
+      "sub": "Melee",
+      "x": 4268.635742,
+      "y": 121535.3203
+    },
+    {
+      "id": "0008F96C",
+      "type": "EncSupermutantMarker",
+      "sub": "Ranged",
+      "x": 6419.84961,
+      "y": 118909.8281
+    },
+    {
+      "id": "00222A14",
+      "type": "EncFloaterFreezerMarker",
+      "x": 146390.8594,
+      "y": 35246.77734
+    },
+    {
+      "id": "0030922C",
+      "type": "EncFloaterFreezerMarker",
+      "x": 163216.0313,
+      "y": -18472.20898
+    },
+    {
+      "id": "0030922D",
+      "type": "EncFloaterFlamerMarker",
+      "x": 162290.75,
+      "y": -18802.23242
+    },
+    {
+      "id": "0033BBA3",
+      "type": "EncFloaterGnasherMarker",
+      "x": -112840.2188,
+      "y": -132477.7813
+    },
+    {
+      "id": "0033BBA4",
+      "type": "EncFloaterFlamerMarker",
+      "x": -113389.4141,
+      "y": -132141.5781
+    },
+    {
+      "id": "0033BBA7",
+      "type": "EncFloaterFreezerMarker",
+      "x": -113537.3125,
+      "y": -132440.3594
+    },
+    {
+      "id": "0034E828",
+      "type": "EncFloaterFlamerMarker",
+      "x": 36276.24609,
+      "y": -65274.85156
+    },
+    {
+      "id": "0034E843",
+      "type": "EncFloaterGnasherMarker",
+      "x": 38455.83984,
+      "y": -65144.27734
+    },
+    {
+      "id": "00365BB9",
+      "type": "EncSupermutantMarker",
+      "sub": "Auto",
+      "x": 6379.29834,
+      "y": 121682.3906
+    },
+    {
+      "id": "00365BBA",
+      "type": "EncSupermutantMarker",
+      "sub": "Auto",
+      "x": 6520,
+      "y": 121504
+    },
+    {
+      "id": "00365CBD",
+      "type": "EncBehemothMarker",
+      "x": 30457.97852,
+      "y": -78051.46094
+    },
+    {
+      "id": "003BE064",
+      "type": "EncMutantHoundMarker",
+      "x": 4391.606445,
+      "y": 121739.2969
+    },
+    {
+      "id": "003BE065",
+      "type": "EncSupermutantMarker",
+      "sub": "Melee",
+      "x": 3555.717773,
+      "y": 121917.8828
+    },
+    {
+      "id": "004398FA",
+      "type": "EncSupermutantMarker",
+      "label": "👑",
+      "x": 21809.86133,
+      "y": 77978.69531
+    },
+    {
+      "id": "004398FF",
+      "type": "EncSupermutantMarker",
+      "sub": "Auto",
+      "x": 21829.35938,
+      "y": 78149.64844
+    },
+    {
+      "id": "0043990B",
+      "type": "EncSupermutantMarker",
+      "sub": "Granade",
+      "x": 20252.22656,
+      "y": 77664.38281
+    },
+    {
+      "id": "005918B6",
+      "type": "EncFloaterGnasherMarker",
+      "x": 13075.84277,
+      "y": -33191.67969
+    },
+    {
+      "id": "005918B7",
+      "type": "EncFloaterFlamerMarker",
+      "x": 12610.81348,
+      "y": -34453.58984
+    },
+    {
+      "id": "005918C8",
+      "type": "EncFloaterGnasherMarker",
+      "x": 172477.2656,
+      "y": -119506.7969
+    },
+    {
+      "id": "005918C9",
+      "type": "EncFloaterFlamerMarker",
+      "x": 172471.4063,
+      "y": -120655.125
+    },
+    {
+      "id": "00591D66",
+      "type": "EncFloaterGnasherMarker",
+      "x": 74373.4375,
+      "y": -94762.3125
+    },
+    {
+      "id": "00591D67",
+      "type": "EncFloaterFlamerMarker",
+      "x": 73708.49219,
+      "y": -96157.35938
+    },
+    {
+      "id": "00591D77",
+      "type": "EncFloaterGnasherMarker",
+      "x": -51660.74219,
+      "y": -34857.77734
+    },
+    {
+      "id": "00591D78",
+      "type": "EncFloaterFlamerMarker",
+      "x": -52548.92578,
+      "y": -36983.19141
+    },
+    {
+      "id": "00591D8C",
+      "type": "EncFloaterGnasherMarker",
+      "x": 93402.74219,
+      "y": -53231.70703
+    },
+    {
+      "id": "00591D8D",
+      "type": "EncFloaterFlamerMarker",
+      "x": 92507.51563,
+      "y": -54166.76953
+    },
+    {
+      "id": "00591DA4",
+      "type": "EncFloaterGnasherMarker",
+      "x": 179648.3438,
+      "y": -62480.32813
+    },
+    {
+      "id": "00591DA5",
+      "type": "EncFloaterFlamerMarker",
+      "x": 181209.8906,
+      "y": -63222.66016
+    },
+    {
+      "id": "00593C36",
+      "type": "EncFloaterFlamerMarker",
+      "x": 173728.125,
+      "y": -119789.8906
+    },
+    {
+      "id": "00593C37",
+      "type": "EncFloaterFreezerMarker",
+      "x": 173662.1094,
+      "y": -120033.4375
+    },
+    {
+      "id": "00593C3D",
+      "type": "EncFloaterGnasherMarker",
+      "x": 172045.9063,
+      "y": -117978.7891
+    },
+    {
+      "id": "00593C97",
+      "type": "EncFloaterFlamerMarker",
+      "x": 40690.35547,
+      "y": -64988.42188
+    },
+    {
+      "id": "00593C98",
+      "type": "EncFloaterFreezerMarker",
+      "x": 37688.07813,
+      "y": -63244.35938
+    },
+    {
+      "id": "00593C9A",
+      "type": "EncFloaterGnasherMarker",
+      "x": 41031.93359,
+      "y": -64030.67969
+    },
+    {
+      "id": "00593EFF",
+      "type": "EncFloaterFlamerMarker",
+      "x": 200191.7344,
+      "y": -94310.91406
+    },
+    {
+      "id": "00593F01",
+      "type": "EncFloaterGnasherMarker",
+      "x": 196944.5313,
+      "y": -95521.14063
+    },
+    {
+      "id": "00593F2B",
+      "type": "EncFloaterGnasherMarker",
+      "x": 201000.5156,
+      "y": -90819.64063
+    },
+    {
+      "id": "00593F2C",
+      "type": "EncFloaterFlamerMarker",
+      "x": 200171.9688,
+      "y": -91905.45313
+    },
+    {
+      "id": "0059487B",
+      "type": "EncFloaterGnasherMarker",
+      "x": 144688.5469,
+      "y": 38555.75781
+    },
+    {
+      "id": "0059487C",
+      "type": "EncFloaterFreezerMarker",
+      "x": 144536.7813,
+      "y": 38706.53125
+    },
+    {
+      "id": "0059487D",
+      "type": "EncFloaterFlamerMarker",
+      "x": 144658.2656,
+      "y": 38354.92969
+    },
+    {
+      "id": "005A0642",
+      "type": "EncFloaterGnasherMarker",
+      "x": 27032.66211,
+      "y": -128993.0156
+    },
+    {
+      "id": "005A0643",
+      "type": "EncFloaterFlamerMarker",
+      "x": 26026.22266,
+      "y": -131038.0078
+    },
+    {
+      "id": "005A2444",
+      "type": "EncMutantHoundMarker",
+      "x": 136419.2188,
+      "y": -138206.5625
+    },
+    {
+      "id": "005A2446",
+      "type": "EncSupermutantMarker",
+      "sub": "Rifle",
+      "x": 137802.5625,
+      "y": -138864.4219
+    },
+    {
+      "id": "005A2447",
+      "type": "EncMutantHoundMarker",
+      "x": 137850.3125,
+      "y": -139019.3594
+    },
+    {
+      "id": "005A245B",
+      "type": "EncSupermutantMarker",
+      "sub": "Rifle",
+      "x": 136405.5781,
+      "y": -137024.2188
+    }
+  ]
+}

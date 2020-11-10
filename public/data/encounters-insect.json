@@ -1,260 +1,301 @@
 {
   "markers": [
     {
+      "id": "003647C4",
+      "type": "EncBeeSwarmMarker",
+      "x": 195902.7813,
+      "y": 201775.7344
+    },
+    {
       "id": "004F4314",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -87111.96094,
       "y": 108800.9766
     },
     {
       "id": "004F4315",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -86989.3125,
       "y": 108790.7266
     },
     {
       "id": "004F4316",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -87069.02344,
       "y": 109040.3906
     },
     {
       "id": "004F4317",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -137479.9531,
       "y": 53552.02344
     },
     {
       "id": "004F4318",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -137475.5156,
       "y": 53419.79688
     },
     {
       "id": "004F4319",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -137587.6563,
       "y": 53490.11719
     },
     {
       "id": "004F4321",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -165389.0313,
       "y": 62728.04297
     },
     {
       "id": "004F4322",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -165576.5625,
       "y": 62710.63672
     },
     {
       "id": "004F4323",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -165469.5156,
       "y": 62568.03906
     },
     {
       "id": "004F4327",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -141105.2031,
       "y": -14003.66602
     },
     {
       "id": "004F4328",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -141134.8438,
       "y": -13871.73145
     },
     {
       "id": "004F4329",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -141221.8906,
       "y": -13953.35059
     },
     {
       "id": "004F4331",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -85479.71094,
       "y": -12348.67285
     },
     {
       "id": "004F4332",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -85620.71094,
       "y": -12352.4209
     },
     {
       "id": "004F4333",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -85594.11719,
       "y": -12429.89551
     },
     {
       "id": "004F4693",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -116508.9922,
       "y": 173707.2188
     },
     {
       "id": "004F4694",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -116359.875,
       "y": 173705.2656
     },
     {
       "id": "004F4695",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -116442.0938,
       "y": 173561.4688
     },
     {
       "id": "004F46A0",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -67288.39063,
       "y": 40519.40625
     },
     {
       "id": "004F46A1",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -67376.21094,
       "y": 40594.9375
     },
     {
       "id": "004F46A2",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -67439.24219,
       "y": 40523.51563
     },
     {
       "id": "004F46A6",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -96463.53125,
       "y": 7859.415039
     },
     {
       "id": "004F46A7",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -96584.13281,
       "y": 7863.911133
     },
     {
       "id": "004F46A8",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -96479.83594,
       "y": 7955.276856
     },
     {
       "id": "004F46B1",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -67531.15625,
       "y": 126829.9766
     },
     {
       "id": "004F46B2",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -67577.0625,
       "y": 126726.3984
     },
     {
       "id": "004F46B3",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -67684.42188,
       "y": 126832.9609
     },
     {
       "id": "004F46B7",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -40562.41797,
       "y": 92881.50781
     },
     {
       "id": "004F46B9",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -40562.41797,
       "y": 92747.49219
     },
     {
       "id": "004F46BA",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -40677.97266,
       "y": 92747.49219
     },
     {
       "id": "004F46C5",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -118277.3984,
       "y": 113079.7813
     },
     {
       "id": "004F46C6",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -118188.3672,
       "y": 113220.7109
     },
     {
       "id": "004F46C7",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -118345.375,
       "y": 113230.2266
     },
     {
       "id": "004F46CE",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -96993.25,
       "y": 67449.09375
     },
     {
       "id": "004F46CF",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -96848.88281,
       "y": 67266.67969
     },
     {
       "id": "004F46D0",
-      "type": "LvlBeeSwarmMarker",
+      "type": "EncBeeSwarmMarker",
       "x": -96776.03906,
       "y": 67398.13281
     },
     {
+      "id": "0009DA35",
+      "type": "EncBloatflyMarker",
+      "sub": "Black",
+      "x": 154858.3281,
+      "y": 127724.5
+    },
+    {
+      "id": "0009DA38",
+      "type": "EncBloatflyMarker",
+      "sub": "Black",
+      "x": 154502.1406,
+      "y": 127421.4844
+    },
+    {
+      "id": "0038E4F1",
+      "type": "EncBloatflyMarker",
+      "sub": "Black",
+      "x": 85028.01563,
+      "y": -102497.9922
+    },
+    {
+      "id": "00486605",
+      "type": "EncBloatflyMarker",
+      "sub": "Rotten",
+      "x": -110507.3906,
+      "y": -460.434143
+    },
+    {
+      "id": "00486606",
+      "type": "EncBloatflyMarker",
+      "sub": "Rotten",
+      "x": -110323.5,
+      "y": 173.833619
+    },
+    {
       "id": "00369BF6",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "x": 194813.5156,
       "y": 201945.5313
     },
     {
       "id": "00369BF8",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "x": 194386.625,
       "y": 201207.1406
     },
     {
       "id": "00369BF9",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "x": 195119.4844,
       "y": 201544.8906
     },
     {
       "id": "0038FF4B",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "x": 179465.1563,
       "y": 166568.3438
     },
     {
       "id": "0038FF4D",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "x": 177512.8281,
       "y": 167549.5781
     },
     {
       "id": "00390C6B",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "x": 176256.7188,
       "y": 165381.9531
     },
     {
       "id": "0038FF49",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "label": "N",
       "sub": "NoActorCap",
       "x": 177633.0781,
@@ -262,7 +303,7 @@
     },
     {
       "id": "0038FF4A",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "label": "N",
       "sub": "NoActorCap",
       "x": 178710.8438,
@@ -270,7 +311,7 @@
     },
     {
       "id": "0038FF4C",
-      "type": "LvlBloatflyMarker",
+      "type": "EncBloatflyMarker",
       "label": "N",
       "sub": "NoActorCap",
       "x": 178839.125,
@@ -278,133 +319,86 @@
     },
     {
       "id": "003532AE",
-      "type": "LvlBloodbugMarker",
+      "type": "EncBloodbugMarker",
       "x": -22705.06641,
       "y": -167215.5
     },
     {
       "id": "003532CB",
-      "type": "LvlBloodbugMarker",
+      "type": "EncBloodbugMarker",
       "x": -23941.77734,
       "y": -167561.3594
     },
     {
       "id": "003532D0",
-      "type": "LvlBloodbugMarker",
+      "type": "EncBloodbugMarker",
       "x": -23826.77344,
       "y": -167748.8594
     },
     {
       "id": "003532D1",
-      "type": "LvlBloodbugMarker",
+      "type": "EncBloodbugMarker",
       "x": -23723.41602,
       "y": -168048.6406
     },
     {
       "id": "003A4DEC",
-      "type": "LvlBloodbugMarker",
+      "type": "EncBloodbugMarker",
       "x": 168929.4531,
       "y": 125009.1719
     },
     {
       "id": "003A4DED",
-      "type": "LvlBloodbugMarker",
+      "type": "EncBloodbugMarker",
       "x": 168958.2031,
       "y": 124901.5625
     },
     {
       "id": "003A4DEE",
-      "type": "LvlBloodbugMarker",
+      "type": "EncBloodbugMarker",
       "x": 170729.6719,
       "y": 125306.0156
     },
     {
       "id": "003A4DEF",
-      "type": "LvlBloodbugMarker",
+      "type": "EncBloodbugMarker",
       "x": 170898.6875,
       "y": 124946.3828
     },
     {
+      "id": "0038CD23",
+      "type": "EncFireflyMarker",
+      "x": -73921,
+      "y": 73316.78906
+    },
+    {
+      "id": "0038E524",
+      "type": "EncHoneyBeastMarker",
+      "x": 85572.45313,
+      "y": -101843.7266
+    },
+    {
       "id": "0038FF46",
-      "type": "LvlHoneyBeastMarker",
+      "type": "EncHoneyBeastMarker",
       "x": 178863.0938,
       "y": 166555.25
     },
     {
       "id": "0038FF47",
-      "type": "LvlHoneyBeastMarker",
+      "type": "EncHoneyBeastMarker",
       "x": 178017.0469,
       "y": 166583.7031
     },
     {
-      "id": "002EFD17",
-      "type": "LvlGiantMarker",
-      "x": 162416.1563,
-      "y": -147539.5625
-    },
-    {
-      "id": "002EFD47",
-      "type": "LvlGiantMarker",
-      "x": 145072.3906,
-      "y": -156412.5
-    },
-    {
-      "id": "002FF477",
-      "type": "LvlGiantMarker",
-      "x": 193535.875,
-      "y": 16678.20703
-    },
-    {
-      "id": "003942B7",
-      "type": "LvlGiantMarker",
-      "x": 85584.82031,
-      "y": -103691.1094
-    },
-    {
-      "id": "00238B1D",
-      "type": "LvlGiantMarker",
-      "label": "👑",
-      "x": 116612,
-      "y": 113108
-    },
-    {
-      "id": "002B9E0C",
-      "type": "LvlGiantMarker",
-      "label": "👑",
-      "x": 187271.8438,
-      "y": -92492.23438
-    },
-    {
-      "id": "003D3B91",
-      "type": "LvlGiantMarker",
-      "label": "👑",
-      "x": -17696.98438,
-      "y": 179442.5625
-    },
-    {
-      "id": "0045011A",
-      "type": "LvlGiantMarker",
-      "label": "👑",
-      "x": 172415.5,
-      "y": 132993.4063
-    },
-    {
-      "id": "004541A0",
-      "type": "LvlGiantMarker",
-      "label": "👑",
-      "x": 162556.125,
-      "y": -27640.59375
-    },
-    {
-      "id": "00529DBE",
-      "type": "LvlGiantMarker",
-      "label": "👑",
-      "x": 143089.6875,
-      "y": -120767.3359
+      "id": "003CFC9E",
+      "type": "EncRadRoachMarker",
+      "label": "✨",
+      "x": -48242.82422,
+      "y": 147637.7656
     },
     {
       "id": "0058B698",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "label": "N",
       "sub": "NoActorCap",
       "x": 177265.5469,
@@ -412,7 +406,7 @@
     },
     {
       "id": "0058B6AC",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "label": "N",
       "sub": "NoActorCap",
       "x": 178211.2188,
@@ -420,7 +414,7 @@
     },
     {
       "id": "0058B6AE",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "label": "N",
       "sub": "NoActorCap",
       "x": 177533.2813,
@@ -428,1119 +422,1527 @@
     },
     {
       "id": "002413E0",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 105783.2031,
       "y": 153416.9688
     },
     {
       "id": "00308674",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 131842.5938,
       "y": 24600.99414
     },
     {
       "id": "00308768",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -31408.92774,
       "y": 194424.6719
     },
     {
       "id": "00308772",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -31522.24023,
       "y": 194581.5156
     },
     {
       "id": "00334120",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -184521.8281,
       "y": -75800.6875
     },
     {
       "id": "00334125",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -176328.9688,
       "y": -82026.26563
     },
     {
       "id": "00390092",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 145251.1563,
       "y": -34750.46484
     },
     {
       "id": "00390249",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 158556.7813,
       "y": -13007.71582
     },
     {
       "id": "00391062",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 137801.2344,
       "y": 2395.098145
     },
     {
       "id": "00391063",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 138174.8594,
       "y": 2024.728027
     },
     {
       "id": "00526275",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -190842.875,
       "y": -120120.9688
     },
     {
       "id": "00526284",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -187213.3906,
       "y": -124697.3203
     },
     {
       "id": "00334E04",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 184072.0625,
       "y": -99481.38281
     },
     {
       "id": "003086E4",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 88076.25,
       "y": -41409.22266
     },
     {
       "id": "003086E5",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 88254.82813,
       "y": -41108.98828
     },
     {
       "id": "00334E21",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -184714.9844,
       "y": -75359.10156
     },
     {
       "id": "00334E26",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -184860.1719,
       "y": -75401.38281
     },
     {
       "id": "0037E234",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 152307.7656,
       "y": 85396
     },
     {
       "id": "0037E265",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 131414.25,
       "y": -63548.61328
     },
     {
       "id": "0008E1CA",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -63629.84375,
       "y": -5853.960937
     },
     {
       "id": "0008E1CB",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -64344.89453,
       "y": -5994.738281
     },
     {
       "id": "0008E1E3",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -94973.90625,
       "y": 130576.3828
     },
     {
       "id": "0008E1E4",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -94743.04688,
       "y": 130078.625
     },
     {
       "id": "001B5978",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -74415.14063,
       "y": -151175.6875
     },
     {
       "id": "001F794B",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -12743.5,
       "y": -52894.04688
     },
     {
       "id": "001FABD5",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -12773.90137,
       "y": -52897.29297
     },
     {
       "id": "001FB0D8",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -12571.91406,
       "y": -52935.58984
     },
     {
       "id": "001FB0D9",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -12703.30664,
       "y": -53097.03125
     },
     {
       "id": "002413DF",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 105392.1484,
       "y": 153625.1094
     },
     {
       "id": "00243FFA",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 110967.8828,
       "y": -70088.85156
     },
     {
       "id": "00291D2C",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -18612.23438,
       "y": 82264.13281
     },
     {
       "id": "002B7F82",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -147513.1406,
       "y": 140632.9219
     },
     {
       "id": "002B7F87",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -144044,
       "y": 142053.0625
     },
     {
       "id": "002B85C1",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 52506.91016,
       "y": 55801.65625
     },
     {
       "id": "002B85C7",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 52878.38281,
       "y": 55188.65234
     },
     {
       "id": "002B85CB",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 52412.82422,
       "y": 55886.02344
     },
     {
       "id": "002B90A5",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -112750.0703,
       "y": -168028.0469
     },
     {
       "id": "002B90AA",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -115688.7266,
       "y": -168358.1875
     },
     {
       "id": "002B9129",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -36534.46484,
       "y": -155351.9219
     },
     {
       "id": "002B9137",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 68769.24219,
       "y": 102081.7656
     },
     {
       "id": "002CB355",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -41543.05078,
       "y": -90048.9375
     },
     {
       "id": "002F8A08",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 603.390441,
       "y": -153448
     },
     {
       "id": "002F8A13",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -1072,
       "y": -152880
     },
     {
       "id": "002F8A20",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 1336,
       "y": -152432
     },
     {
       "id": "002F8A32",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -56728,
       "y": 89984
     },
     {
       "id": "002F8A38",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -53324.83203,
       "y": 87585.17969
     },
     {
       "id": "0030867A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 132059.125,
       "y": 24297.30078
     },
     {
       "id": "003086DF",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 88041.35156,
       "y": -41073.48828
     },
     {
       "id": "0030876D",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -31785.19141,
       "y": 194746.3594
     },
     {
       "id": "00308B06",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 55264.77344,
       "y": -51339.08594
     },
     {
       "id": "00308BF1",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 45741.1875,
       "y": 24860.07227
     },
     {
       "id": "00308BF6",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 45656.98047,
       "y": 24799.54297
     },
     {
       "id": "00308BFB",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 45612.73438,
       "y": 24700.63867
     },
     {
       "id": "003096F1",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 182760,
       "y": 79992
     },
     {
       "id": "003096F6",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 184520,
       "y": 80072
     },
     {
       "id": "003097F3",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 50707.71875,
       "y": 27403.60938
     },
     {
       "id": "0033346A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 45681.47266,
       "y": 16712.45313
     },
     {
       "id": "0033412A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -176552.4844,
       "y": -81989.54688
     },
     {
       "id": "0033412F",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -176672.4063,
       "y": -82068.875
     },
     {
       "id": "00334DF5",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 182006.8125,
       "y": -100164.1016
     },
     {
       "id": "00334DFA",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 181993.1563,
       "y": -100158.4141
     },
     {
       "id": "00334DFF",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 183949.0156,
       "y": -99482.8125
     },
     {
       "id": "003453A8",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 165987.9219,
       "y": -83844.86719
     },
     {
       "id": "003453AD",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 165758.6406,
       "y": -84231.96875
     },
     {
       "id": "0034C937",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 161445.0313,
       "y": -40921.68359
     },
     {
       "id": "0034C938",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 161518.7656,
       "y": -41012.66797
     },
     {
       "id": "0034C939",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 161507.8125,
       "y": -41108.01563
     },
     {
       "id": "0034E8C1",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 179846.1094,
       "y": -87446.09375
     },
     {
       "id": "0034E8C6",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 179961.0938,
       "y": -87462.54688
     },
     {
       "id": "0034E8CB",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 183892.6875,
       "y": -100807.5469
     },
     {
       "id": "0037D05E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -67384,
       "y": 179712
     },
     {
       "id": "0037D060",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -67512,
       "y": 179712
     },
     {
       "id": "0037D061",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -67256,
       "y": 179712
     },
     {
       "id": "0037D06F",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -66784,
       "y": 183128
     },
     {
       "id": "0037D074",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -70792,
       "y": 178272
     },
     {
       "id": "0037D076",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -70920,
       "y": 178272
     },
     {
       "id": "0037D077",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -70664,
       "y": 178272
     },
     {
       "id": "0037D089",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -58647.16016,
       "y": 177782.2813
     },
     {
       "id": "0037D08B",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -58775.16016,
       "y": 177782.2813
     },
     {
       "id": "0037D08C",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -58519.16016,
       "y": 177782.2813
     },
     {
       "id": "0037E22E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 158360.625,
       "y": 87068.41406
     },
     {
       "id": "0037E25F",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 131511.75,
       "y": -63651.88281
     },
     {
       "id": "0037F7B1",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -124143.875,
       "y": -60121.25391
     },
     {
       "id": "0037F7B6",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -123836.8984,
       "y": -60644.66797
     },
     {
       "id": "0037F7BB",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -125462.7109,
       "y": -61411.08203
     },
     {
       "id": "0037F7C0",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -129409.0156,
       "y": -62735.77734
     },
     {
       "id": "0037F7C5",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -127032.4141,
       "y": -59389.63672
     },
     {
       "id": "0037F7CA",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -124686.1719,
       "y": -62697.96484
     },
     {
       "id": "0038B2EA",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -158292.5313,
       "y": 1354.403199
     },
     {
       "id": "0039024E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 145135.2969,
       "y": -35102.69922
     },
     {
       "id": "003902A8",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 143941.0156,
       "y": 121342.9922
     },
     {
       "id": "00391C79",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 33244.80859,
       "y": 33820.49609
     },
     {
       "id": "00391C7A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 33608.87891,
       "y": 33867.92188
     },
     {
       "id": "003BF101",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -123504,
       "y": 180920
     },
     {
       "id": "003BF103",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -123536,
       "y": 181056
     },
     {
       "id": "003BF104",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -123272,
       "y": 180912
     },
     {
       "id": "003C016F",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -131198.375,
       "y": -123522.8516
     },
     {
       "id": "003C7045",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -174902.7031,
       "y": 71753.91406
     },
     {
       "id": "003C704A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -174886.4219,
       "y": 71822.67969
     },
     {
       "id": "003C7055",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -174907.0938,
       "y": 71902.41406
     },
     {
       "id": "003C70E9",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 38997.76953,
       "y": 172774.9375
     },
     {
       "id": "003C70EE",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 39431.13281,
       "y": 172980.25
     },
     {
       "id": "003C70F8",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 65488.52734,
       "y": 195426.4688
     },
     {
       "id": "003C70FD",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 63508.48438,
       "y": 189972.6406
     },
     {
       "id": "003C7102",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 60693.65234,
       "y": 191457.3906
     },
     {
       "id": "003C7107",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 60919.40234,
       "y": 188904.9844
     },
     {
       "id": "003C7136",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -137785.0469,
       "y": -105259.5078
     },
     {
       "id": "003C713A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -137807.1094,
       "y": -105511.8906
     },
     {
       "id": "003C755E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -76682.63281,
       "y": 75477.17188
     },
     {
       "id": "003C7569",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -76082.09375,
       "y": 72262.67969
     },
     {
       "id": "003C7585",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -70243.125,
       "y": -47801.58594
     },
     {
       "id": "003C758A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -69407.90625,
       "y": -46743.75781
     },
     {
       "id": "003C7594",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -69600.78906,
       "y": -45142.65234
     },
     {
       "id": "003C9E99",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 87780.9375,
       "y": 133675.8125
     },
     {
       "id": "003C9E9E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 85619.20313,
       "y": 128530.7969
     },
     {
       "id": "003CD337",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 56154.80469,
       "y": 53974.28906
     },
     {
       "id": "003CD476",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -12676.75586,
       "y": -61805.8125
     },
     {
       "id": "003CE8B0",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 177976.8125,
       "y": -108123.5703
     },
     {
       "id": "003CE8B5",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 177603.5313,
       "y": -108399.9531
     },
     {
       "id": "003D02BC",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -125584.4688,
       "y": -13334.87793
     },
     {
       "id": "003D05B6",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -101123.1094,
       "y": 29167.24219
     },
     {
       "id": "003D05BB",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -101321.4766,
       "y": 25071.43164
     },
     {
       "id": "003D05C0",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -100990.6016,
       "y": 25459.85742
     },
     {
       "id": "003D0FE6",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -108380.4688,
       "y": 20385.01758
     },
     {
       "id": "003D0FEB",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -104171.1328,
       "y": 19928.1582
     },
     {
       "id": "003D3672",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 126544,
       "y": 132888
     },
     {
       "id": "003D367A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 139448,
       "y": 144464
     },
     {
       "id": "003D367F",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 139752,
       "y": 145008
     },
     {
       "id": "003D3684",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 140016,
       "y": 147024
     },
     {
       "id": "003D368E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 140352,
       "y": 151872
     },
     {
       "id": "003D3697",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 197192,
       "y": -66808
     },
     {
       "id": "003D369C",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 198704,
       "y": -68096
     },
     {
       "id": "003D36A1",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 203104,
       "y": -66176
     },
     {
       "id": "003D36A6",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 200650.9688,
       "y": -63677.45313
     },
     {
       "id": "003D36AB",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 194576,
       "y": -63336
     },
     {
       "id": "003D37A7",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 134280,
       "y": 149104
     },
     {
       "id": "003D37BF",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 203104,
       "y": -66176
     },
     {
       "id": "003D37C9",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 194576,
       "y": -63336
     },
     {
       "id": "003D3B0A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 174008.0469,
       "y": 61671.87891
     },
     {
       "id": "003D3B1B",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 176904.0469,
       "y": 64855.87891
     },
     {
       "id": "003D3B20",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 177448.0469,
       "y": 60999.87891
     },
     {
       "id": "003D4EB0",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 59773.72656,
       "y": 171742.1406
     },
     {
       "id": "003D7593",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 34021.50781,
       "y": 149122.6719
     },
     {
       "id": "003D7595",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 33589.82422,
       "y": 149291.0469
     },
     {
       "id": "003D7596",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 33958.67578,
       "y": 148464.8438
     },
     {
       "id": "003D75A5",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -16120.90039,
       "y": 169284.9844
     },
     {
       "id": "003D75A7",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -15691.7832,
       "y": 169696.125
     },
     {
       "id": "003D75A8",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -16292.5332,
       "y": 170023.9219
     },
     {
       "id": "003D75B2",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -16577.71094,
       "y": 169411.6094
     },
     {
       "id": "003DC83E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 97723.61719,
       "y": 144132
     },
     {
       "id": "003E14B3",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -160475.4219,
       "y": -5968.415039
     },
     {
       "id": "003E14BD",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -160509.9844,
       "y": -6081.19043
     },
     {
       "id": "003E14C2",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -160625.5156,
       "y": -6050.299805
     },
     {
       "id": "003E3C3D",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 50706.27734,
       "y": -40763.78516
     },
     {
       "id": "003E3C48",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 48966.84766,
       "y": -37120.73828
     },
     {
       "id": "003E3C4D",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 49061.60938,
       "y": -37400.87109
     },
     {
       "id": "003E3C4E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 49034.95313,
       "y": -37532.86328
     },
     {
       "id": "003E3C8A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -14440.25098,
       "y": 83705.25
     },
     {
       "id": "003E3CA8",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -15972.83691,
       "y": 83886.09375
     },
     {
       "id": "003E4025",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 114369.375,
       "y": 115864.4609
     },
     {
       "id": "004F49F0",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 6403.888184,
       "y": -65026.375
     },
     {
       "id": "0050AFAC",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -34572.07813,
       "y": -1244.879395
     },
     {
       "id": "0050B583",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -14435.07129,
       "y": 67645.19531
     },
     {
       "id": "0050B58A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -6791.374512,
       "y": 74054.25781
     },
     {
       "id": "0050B58F",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -7126.817871,
       "y": 73430.14844
     },
     {
       "id": "0050B595",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -7109.84082,
       "y": 73514.19531
     },
     {
       "id": "0050B596",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -14386.60742,
       "y": 74582.17969
     },
     {
       "id": "0050B5A2",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -7372.07373,
       "y": 94402.44531
     },
     {
       "id": "0051172E",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 99712.25781,
       "y": -58376.65234
     },
     {
       "id": "0052627A",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -183863.0313,
       "y": -120351.4453
     },
     {
       "id": "0052627F",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -184966.3281,
       "y": -122932.9453
     },
     {
       "id": "0052E59D",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 170903.6563,
       "y": -141421.875
     },
     {
       "id": "0052E5A2",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 170791.7813,
       "y": -141374.9063
     },
     {
       "id": "0052E5A7",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 171038.7188,
       "y": -141323.4375
     },
     {
       "id": "0058B69C",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 177558.6563,
       "y": 35849.63672
     },
     {
       "id": "0058B9EF",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 199732.8594,
       "y": 42429.28906
     },
     {
       "id": "0058B9F0",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": 199813.3594,
       "y": 41989.85156
     },
     {
       "id": "005A0559",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -55077.97656,
       "y": -149015.7031
     },
     {
       "id": "005A0560",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -55169.59766,
       "y": -149379.7656
     },
     {
       "id": "005A0561",
-      "type": "LvlRadRoachMarker",
+      "type": "EncRadRoachMarker",
       "x": -54667.39453,
       "y": -149031.3906
     },
     {
       "id": "003953DB",
-      "type": "LvlStingwingMarker",
+      "type": "EncStingwingMarker",
       "x": 169917.5156,
       "y": -22888
     },
     {
       "id": "003953DE",
-      "type": "LvlStingwingMarker",
+      "type": "EncStingwingMarker",
       "x": 169654.4844,
       "y": -22886.81641
     },
     {
       "id": "003D60D1",
-      "type": "LvlStingwingMarker",
+      "type": "EncStingwingMarker",
       "x": -15584.11426,
       "y": -71702.10156
     },
     {
       "id": "003D60D2",
-      "type": "LvlStingwingMarker",
+      "type": "EncStingwingMarker",
       "x": -14942.79492,
       "y": -71760.5625
     },
     {
       "id": "003D60D3",
-      "type": "LvlStingwingMarker",
+      "type": "EncStingwingMarker",
       "x": -15652.99316,
       "y": -72065
     },
     {
       "id": "00556DB5",
-      "type": "LvlStingwingMarker",
+      "type": "EncStingwingMarker",
       "x": 169779.5938,
       "y": -22882.79297
+    },
+    {
+      "id": "00390041",
+      "type": "EncTickMarker",
+      "x": 184661.3906,
+      "y": 156504.5156
+    },
+    {
+      "id": "00390098",
+      "type": "EncTickMarker",
+      "x": 184440.7813,
+      "y": 156485.5938
+    },
+    {
+      "id": "002460E7",
+      "type": "EncTickMarker",
+      "x": 67527.97656,
+      "y": -30133.42188
+    },
+    {
+      "id": "0033E129",
+      "type": "EncTickMarker",
+      "x": -14067.64453,
+      "y": -8255.423828
+    },
+    {
+      "id": "0037E239",
+      "type": "EncTickMarker",
+      "x": 155575.6875,
+      "y": 86560.89844
+    },
+    {
+      "id": "0037E240",
+      "type": "EncTickMarker",
+      "x": 160022.7969,
+      "y": 83880.59375
+    },
+    {
+      "id": "0037E242",
+      "type": "EncTickMarker",
+      "x": 159848.4531,
+      "y": 83878
+    },
+    {
+      "id": "0037E243",
+      "type": "EncTickMarker",
+      "x": 160233.4531,
+      "y": 83862.34375
+    },
+    {
+      "id": "0037E247",
+      "type": "EncTickMarker",
+      "x": 154343.6094,
+      "y": 90732.84375
+    },
+    {
+      "id": "0008E1D5",
+      "type": "EncTickMarker",
+      "x": -13559.20313,
+      "y": -161215.6094
+    },
+    {
+      "id": "0008E1D6",
+      "type": "EncTickMarker",
+      "x": -14180.5918,
+      "y": -161572.875
+    },
+    {
+      "id": "00140CD3",
+      "type": "EncTickMarker",
+      "x": 11146.20899,
+      "y": -171648.9531
+    },
+    {
+      "id": "00140CD4",
+      "type": "EncTickMarker",
+      "x": 11382.37109,
+      "y": -171330.0156
+    },
+    {
+      "id": "0014416F",
+      "type": "EncTickMarker",
+      "x": 10591.31738,
+      "y": -171697.9063
+    },
+    {
+      "id": "00144FE0",
+      "type": "EncTickMarker",
+      "x": 48192,
+      "y": 60336
+    },
+    {
+      "id": "00144FE1",
+      "type": "EncTickMarker",
+      "x": 47720,
+      "y": 60536
+    },
+    {
+      "id": "00144FE3",
+      "type": "EncTickMarker",
+      "x": 48520,
+      "y": 61064
+    },
+    {
+      "id": "0014C03F",
+      "type": "EncTickMarker",
+      "x": 9531.962891,
+      "y": -166100
+    },
+    {
+      "id": "0014C040",
+      "type": "EncTickMarker",
+      "x": 9610.668946,
+      "y": -165671.0156
+    },
+    {
+      "id": "0014C1A8",
+      "type": "EncTickMarker",
+      "x": 9180.243164,
+      "y": -165416.0625
+    },
+    {
+      "id": "002474F1",
+      "type": "EncTickMarker",
+      "x": 67699.375,
+      "y": -30256.37695
+    },
+    {
+      "id": "00289E6A",
+      "type": "EncTickMarker",
+      "x": -108690.9531,
+      "y": 84200.42188
+    },
+    {
+      "id": "00289E6B",
+      "type": "EncTickMarker",
+      "x": -109033.8281,
+      "y": 83801.73438
+    },
+    {
+      "id": "00289E6C",
+      "type": "EncTickMarker",
+      "x": -108924.4219,
+      "y": 84169.15625
+    },
+    {
+      "id": "00289E6D",
+      "type": "EncTickMarker",
+      "x": -108810.2031,
+      "y": 84292.17969
+    },
+    {
+      "id": "002CB373",
+      "type": "EncTickMarker",
+      "x": -31058.99414,
+      "y": -94500.89844
+    },
+    {
+      "id": "002CB374",
+      "type": "EncTickMarker",
+      "x": -31371.89258,
+      "y": -94605.74219
+    },
+    {
+      "id": "0036B1F3",
+      "type": "EncTickMarker",
+      "x": 207913.5156,
+      "y": -144565.4063
+    },
+    {
+      "id": "0036B1F5",
+      "type": "EncTickMarker",
+      "x": 207785.5156,
+      "y": -144565.4063
+    },
+    {
+      "id": "0036B1F6",
+      "type": "EncTickMarker",
+      "x": 208041.5156,
+      "y": -144565.4063
+    },
+    {
+      "id": "0036B205",
+      "type": "EncTickMarker",
+      "x": 147875.6563,
+      "y": -107686.6563
+    },
+    {
+      "id": "0036B207",
+      "type": "EncTickMarker",
+      "x": 147747.6563,
+      "y": -107686.6563
+    },
+    {
+      "id": "0037E23B",
+      "type": "EncTickMarker",
+      "x": 155461.625,
+      "y": 86407.45313
+    },
+    {
+      "id": "0037E23C",
+      "type": "EncTickMarker",
+      "x": 155720.375,
+      "y": 86723.5
+    },
+    {
+      "id": "0037E24A",
+      "type": "EncTickMarker",
+      "x": 154567.1875,
+      "y": 90723.92188
+    },
+    {
+      "id": "003B769C",
+      "type": "EncTickMarker",
+      "x": 201394.5313,
+      "y": -3644.555176
+    },
+    {
+      "id": "003B769F",
+      "type": "EncTickMarker",
+      "x": 201692.0781,
+      "y": -3610.910645
+    },
+    {
+      "id": "003C716F",
+      "type": "EncTickMarker",
+      "x": 42205.82813,
+      "y": -112324.8125
+    },
+    {
+      "id": "003C7171",
+      "type": "EncTickMarker",
+      "x": 42113.39063,
+      "y": -112168.6328
+    },
+    {
+      "id": "003C7172",
+      "type": "EncTickMarker",
+      "x": 42369.39063,
+      "y": -112168.6328
+    },
+    {
+      "id": "003D758B",
+      "type": "EncTickMarker",
+      "x": 160731.75,
+      "y": 126233.6563
+    },
+    {
+      "id": "003D758C",
+      "type": "EncTickMarker",
+      "x": 161115.7969,
+      "y": 126147.2891
+    },
+    {
+      "id": "003DC843",
+      "type": "EncTickMarker",
+      "x": 104298.2969,
+      "y": 140079.9063
+    },
+    {
+      "id": "003DC846",
+      "type": "EncTickMarker",
+      "x": 104649.8203,
+      "y": 140075.7344
+    },
+    {
+      "id": "003DDF25",
+      "type": "EncTickMarker",
+      "x": 79436.42188,
+      "y": 119218.625
+    },
+    {
+      "id": "003DDF27",
+      "type": "EncTickMarker",
+      "x": 78786.32813,
+      "y": 119567.2578
+    },
+    {
+      "id": "003DDF28",
+      "type": "EncTickMarker",
+      "x": 80027.69531,
+      "y": 119778.2422
+    },
+    {
+      "id": "003E0D4B",
+      "type": "EncTickMarker",
+      "x": 80926.3125,
+      "y": -56786.04688
+    },
+    {
+      "id": "003E0D4D",
+      "type": "EncTickMarker",
+      "x": 80798.3125,
+      "y": -56786.04688
+    },
+    {
+      "id": "003E0D59",
+      "type": "EncTickMarker",
+      "x": -21465.60547,
+      "y": -35310.35156
+    },
+    {
+      "id": "003E0D5C",
+      "type": "EncTickMarker",
+      "x": -20996.1582,
+      "y": -35103.3125
+    },
+    {
+      "id": "003E3C56",
+      "type": "EncTickMarker",
+      "x": 51540.11328,
+      "y": -33385.40625
+    },
+    {
+      "id": "003E3C58",
+      "type": "EncTickMarker",
+      "x": 51352.76563,
+      "y": -33414.85938
+    },
+    {
+      "id": "003E3C59",
+      "type": "EncTickMarker",
+      "x": 51755.44922,
+      "y": -33410.54688
+    },
+    {
+      "id": "004398C9",
+      "type": "EncTickMarker",
+      "x": 145438.7813,
+      "y": -19413.09766
+    },
+    {
+      "id": "004398CA",
+      "type": "EncTickMarker",
+      "x": 145303.6875,
+      "y": -19390.68555
+    },
+    {
+      "id": "004398CB",
+      "type": "EncTickMarker",
+      "x": 145175.7344,
+      "y": -19379.5332
+    },
+    {
+      "id": "004398CC",
+      "type": "EncTickMarker",
+      "x": 145576.6563,
+      "y": -19424.00977
+    },
+    {
+      "id": "004398CD",
+      "type": "EncTickMarker",
+      "x": 146398.0313,
+      "y": -19921.44336
+    },
+    {
+      "id": "004398CE",
+      "type": "EncTickMarker",
+      "x": 146171.8438,
+      "y": -19535.18555
+    },
+    {
+      "id": "004398CF",
+      "type": "EncTickMarker",
+      "x": 146008.375,
+      "y": -20636.22656
+    },
+    {
+      "id": "004398D0",
+      "type": "EncTickMarker",
+      "x": 145153.3906,
+      "y": -20658.64649
+    },
+    {
+      "id": "0050C2AF",
+      "type": "EncTickMarker",
+      "x": 111471.7656,
+      "y": 130209.9375
+    },
+    {
+      "id": "0050C2B1",
+      "type": "EncTickMarker",
+      "x": 111315.1719,
+      "y": 130349.1094
+    },
+    {
+      "id": "0050C2B2",
+      "type": "EncTickMarker",
+      "x": 111653.7188,
+      "y": 130238.3125
+    },
+    {
+      "id": "00587B7F",
+      "type": "EncTickMarker",
+      "x": -108755.2266,
+      "y": 84486.79688
+    },
+    {
+      "id": "00587B80",
+      "type": "EncTickMarker",
+      "x": -108675.625,
+      "y": 84575.70313
+    },
+    {
+      "id": "00587B81",
+      "type": "EncTickMarker",
+      "x": -108716.4609,
+      "y": 84523.28125
     }
   ]
 }

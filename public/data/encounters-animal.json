@@ -1,0 +1,1813 @@
+{
+  "markers": [
+    {
+      "id": "00333479",
+      "type": "EncMoleRatMarker",
+      "x": 51430.39063,
+      "y": 20831.86133
+    },
+    {
+      "id": "00430481",
+      "type": "EncMongrelMarker",
+      "sub": "Vicious",
+      "x": -101212.9453,
+      "y": 53449.05859
+    },
+    {
+      "id": "00430482",
+      "type": "EncMongrelMarker",
+      "sub": "Vicious",
+      "x": -101507.5781,
+      "y": 53355.73828
+    },
+    {
+      "id": "00439194",
+      "type": "EncMoleRatMarker",
+      "x": 132465.2344,
+      "y": -156628.75
+    },
+    {
+      "id": "00439196",
+      "type": "EncMoleRatMarker",
+      "x": 132285.0156,
+      "y": -156815.9688
+    },
+    {
+      "id": "00439928",
+      "type": "EncDeathclawMarker",
+      "x": 129083.7656,
+      "y": -91424.82813
+    },
+    {
+      "id": "00439934",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 115605.7891,
+      "y": -119920.1719
+    },
+    {
+      "id": "00439944",
+      "type": "EncYaoGuaiMarker",
+      "x": 194761.2813,
+      "y": -85320.17188
+    },
+    {
+      "id": "00450236",
+      "type": "EncMirelurkQueenMarker",
+      "x": 197569.6563,
+      "y": 185642.9375
+    },
+    {
+      "id": "00450286",
+      "type": "EncMirelurkQueenMarker",
+      "x": 158896.9063,
+      "y": 35745.90234
+    },
+    {
+      "id": "00450291",
+      "type": "EncWolfMarker",
+      "label": "F",
+      "sub": "Feral",
+      "x": 158614.8438,
+      "y": 36149.69141
+    },
+    {
+      "id": "00486600",
+      "type": "EncMongrelMarker",
+      "sub": "Vicious",
+      "x": -110268.7969,
+      "y": 0.703638
+    },
+    {
+      "id": "00552771",
+      "type": "EncWolfMarker",
+      "label": "S",
+      "sub": "Scorched",
+      "x": 64701.92969,
+      "y": -147323.2813
+    },
+    {
+      "id": "00552772",
+      "type": "EncWolfMarker",
+      "label": "S",
+      "sub": "Scorched",
+      "x": 64968.17969,
+      "y": -147280.2344
+    },
+    {
+      "id": "00595310",
+      "type": "EncMirelurkMarker",
+      "x": -187266.3906,
+      "y": -36680.98047
+    },
+    {
+      "id": "00595315",
+      "type": "EncMirelurkMarker",
+      "x": -189043.1875,
+      "y": -36562.75781
+    },
+    {
+      "id": "00595320",
+      "type": "EncMirelurkMarker",
+      "x": -182522.4531,
+      "y": -32028.50781
+    },
+    {
+      "id": "00598502",
+      "type": "EncMongrelMarker",
+      "sub": "Vicious",
+      "x": -132663.6875,
+      "y": 131866.4063
+    },
+    {
+      "id": "00598503",
+      "type": "EncMongrelMarker",
+      "sub": "Vicious",
+      "x": -132141.8594,
+      "y": 131838.625
+    },
+    {
+      "id": "00598504",
+      "type": "EncMongrelMarker",
+      "sub": "Vicious",
+      "x": -132649.6875,
+      "y": 131604.2813
+    },
+    {
+      "id": "00599738",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -129527.9688,
+      "y": 189375.4219
+    },
+    {
+      "id": "004391E9",
+      "type": "EncMongrelMarker",
+      "sub": "Feral",
+      "x": 152353,
+      "y": -180530.6563
+    },
+    {
+      "id": "00386E34",
+      "type": "EncYaoGuaiMarker",
+      "x": -99677.69531,
+      "y": 178405.5938
+    },
+    {
+      "id": "00432E58",
+      "type": "EncGraftonMarker",
+      "x": -83037.72656,
+      "y": -58862.42969
+    },
+    {
+      "id": "0000F6C2",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 132210.8906,
+      "y": 104070.1094
+    },
+    {
+      "id": "000638C1",
+      "type": "EncDeathclawMarker",
+      "x": -172843.3906,
+      "y": 133150.7031
+    },
+    {
+      "id": "0009CAC1",
+      "type": "EncRadStagMarker",
+      "x": 132125.4219,
+      "y": 104479.3125
+    },
+    {
+      "id": "0009D9D6",
+      "type": "EncYaoGuaiMarker",
+      "x": 136033.5313,
+      "y": 161987.4219
+    },
+    {
+      "id": "0009D9F6",
+      "type": "EncDeathclawMarker",
+      "x": 136157.3281,
+      "y": 162581.4844
+    },
+    {
+      "id": "0010E3D1",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 39619.69141,
+      "y": 91098.34375
+    },
+    {
+      "id": "0010E3D3",
+      "type": "EncMoleRatMarker",
+      "x": 39667.47656,
+      "y": 90404.65625
+    },
+    {
+      "id": "0010E3D5",
+      "type": "EncMoleRatMarker",
+      "label": "✨",
+      "x": 39797.22266,
+      "y": 91390.65625
+    },
+    {
+      "id": "001497AD",
+      "type": "EncMoleRatMarker",
+      "x": 46848,
+      "y": -19304
+    },
+    {
+      "id": "001497AE",
+      "type": "EncMoleRatMarker",
+      "x": 47371.53125,
+      "y": -19233.1582
+    },
+    {
+      "id": "001497AF",
+      "type": "EncMoleRatMarker",
+      "x": 47888,
+      "y": -18840
+    },
+    {
+      "id": "0014E942",
+      "type": "EncMoleRatMarker",
+      "x": 32101.72852,
+      "y": -37737.18359
+    },
+    {
+      "id": "0014E943",
+      "type": "EncMoleRatMarker",
+      "x": 32475.98047,
+      "y": -38620.85938
+    },
+    {
+      "id": "0014E944",
+      "type": "EncMoleRatMarker",
+      "x": 32700.30664,
+      "y": -37559.91797
+    },
+    {
+      "id": "0014E945",
+      "type": "EncMoleRatMarker",
+      "x": 32387.69922,
+      "y": -37870.60156
+    },
+    {
+      "id": "001A81D4",
+      "type": "EncMirelurkMarker",
+      "x": -13530.37988,
+      "y": -77952.8125
+    },
+    {
+      "id": "001A82C8",
+      "type": "EncMirelurkMarker",
+      "x": -13338.52246,
+      "y": -77700.96875
+    },
+    {
+      "id": "001A82CE",
+      "type": "EncMirelurkMarker",
+      "x": -14019.83594,
+      "y": -77769.25
+    },
+    {
+      "id": "001A8334",
+      "type": "EncMirelurkMarker",
+      "x": -13585.07422,
+      "y": -77809.46875
+    },
+    {
+      "id": "0028A431",
+      "type": "EncSnallygasterMarker",
+      "x": -102035.9688,
+      "y": -55982.58203
+    },
+    {
+      "id": "0028DCD9",
+      "type": "EncMoleRatMarker",
+      "x": -39251.25391,
+      "y": -58764.65234
+    },
+    {
+      "id": "0028DCDA",
+      "type": "EncMoleRatMarker",
+      "x": -39333.61719,
+      "y": -60299.09375
+    },
+    {
+      "id": "0028DCDB",
+      "type": "EncMoleRatMarker",
+      "x": -40349.13672,
+      "y": -59272.51953
+    },
+    {
+      "id": "0028EA46",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": -108132.4922,
+      "y": 58602.05859
+    },
+    {
+      "id": "002B9140",
+      "type": "EncMoleRatMarker",
+      "x": 72028.39063,
+      "y": 100446.5
+    },
+    {
+      "id": "002B9EF3",
+      "type": "EncMirelurkMarker",
+      "x": 197948.3906,
+      "y": 185112.6406
+    },
+    {
+      "id": "002B9EF4",
+      "type": "EncMirelurkMarker",
+      "x": 198390.5,
+      "y": 185003.0781
+    },
+    {
+      "id": "002B9EF5",
+      "type": "EncMirelurkMarker",
+      "x": 198208.3906,
+      "y": 184922.8594
+    },
+    {
+      "id": "002C3E0E",
+      "type": "EncMongrelMarker",
+      "sub": "Vicious",
+      "x": 65591,
+      "y": -90434.07813
+    },
+    {
+      "id": "002C5FC8",
+      "type": "EncGuardDogMarker",
+      "x": 179796.1563,
+      "y": 5832.992187
+    },
+    {
+      "id": "002CB356",
+      "type": "EncMoleRatMarker",
+      "x": -41871.88281,
+      "y": -88757.79688
+    },
+    {
+      "id": "002ED907",
+      "type": "EncRadRatMarker",
+      "x": -104599.2813,
+      "y": -70267.5
+    },
+    {
+      "id": "002EEFE8",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 168546.8906,
+      "y": 37200.78906
+    },
+    {
+      "id": "002EEFE9",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 169146.2969,
+      "y": 38560.70313
+    },
+    {
+      "id": "002F8A3D",
+      "type": "EncMoleRatMarker",
+      "x": -57658.67188,
+      "y": 93952.44531
+    },
+    {
+      "id": "002F8A42",
+      "type": "EncMoleRatMarker",
+      "x": -53122.07813,
+      "y": 89403.25781
+    },
+    {
+      "id": "003215A8",
+      "type": "EncMoleRatMarker",
+      "x": 101289.125,
+      "y": 73856.8125
+    },
+    {
+      "id": "003215B3",
+      "type": "EncMoleRatMarker",
+      "x": 11230.45996,
+      "y": 5429.782715
+    },
+    {
+      "id": "003215D2",
+      "type": "EncMoleRatMarker",
+      "x": 71952.42969,
+      "y": 159676.625
+    },
+    {
+      "id": "003215D4",
+      "type": "EncMoleRatMarker",
+      "x": 72132.91406,
+      "y": 159614.4063
+    },
+    {
+      "id": "003219AA",
+      "type": "EncMoleRatMarker",
+      "x": 51581.42969,
+      "y": 21237.55859
+    },
+    {
+      "id": "003219AF",
+      "type": "EncMoleRatMarker",
+      "x": 50937.74609,
+      "y": 20770.76172
+    },
+    {
+      "id": "0032E9A8",
+      "type": "EncMoleRatMarker",
+      "x": -133658.7031,
+      "y": -52889.62109
+    },
+    {
+      "id": "0032E9A9",
+      "type": "EncMoleRatMarker",
+      "x": -134495.5156,
+      "y": -52766.23047
+    },
+    {
+      "id": "0032E9AA",
+      "type": "EncMoleRatMarker",
+      "x": -133445.4688,
+      "y": -52609.56641
+    },
+    {
+      "id": "0035E0D8",
+      "type": "EncMongrelMarker",
+      "sub": "Alpha",
+      "x": 101136.9297,
+      "y": 74087.27344
+    },
+    {
+      "id": "0035E0DA",
+      "type": "EncMongrelMarker",
+      "sub": "Rabid",
+      "x": 101009.2969,
+      "y": 73624.39063
+    },
+    {
+      "id": "00360FAB",
+      "type": "EncMirelurkQueenMarker",
+      "x": 153404.5313,
+      "y": -163520.2188
+    },
+    {
+      "id": "0036A632",
+      "type": "EncMongrelMarker",
+      "sub": "Feral",
+      "x": 112645.9688,
+      "y": 161677.2969
+    },
+    {
+      "id": "0037777A",
+      "type": "EncMongrelMarker",
+      "x": 77277.0625,
+      "y": -47814.40625
+    },
+    {
+      "id": "0037777B",
+      "type": "EncMongrelMarker",
+      "x": 77492.73438,
+      "y": -47870.17969
+    },
+    {
+      "id": "0037777C",
+      "type": "EncMongrelMarker",
+      "x": 77446.73438,
+      "y": -47686.9375
+    },
+    {
+      "id": "003786D5",
+      "type": "EncYaoGuaiMarker",
+      "x": 67621.8125,
+      "y": -30459.19727
+    },
+    {
+      "id": "003786EE",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 67840.63281,
+      "y": -30156.05859
+    },
+    {
+      "id": "0037FAB1",
+      "type": "EncMirelurkQueenMarker",
+      "x": 158218.625,
+      "y": -109605.3828
+    },
+    {
+      "id": "003828A0",
+      "type": "EncMirelurkQueenMarker",
+      "x": 194745.4844,
+      "y": -120079.8594
+    },
+    {
+      "id": "00386D87",
+      "type": "EncDeathclawMarker",
+      "x": 172588.5781,
+      "y": -159092.75
+    },
+    {
+      "id": "00386D88",
+      "type": "EncYaoGuaiMarker",
+      "x": 173817.2344,
+      "y": -160289.5469
+    },
+    {
+      "id": "00386D89",
+      "type": "EncYaoGuaiMarker",
+      "x": 174128.1875,
+      "y": -159874.0781
+    },
+    {
+      "id": "00386DB5",
+      "type": "EncYaoGuaiMarker",
+      "x": 154729.2344,
+      "y": 182552.8594
+    },
+    {
+      "id": "00386DB6",
+      "type": "EncDeathclawMarker",
+      "x": 152026.3281,
+      "y": 182021.6719
+    },
+    {
+      "id": "00386DEE",
+      "type": "EncMongrelMarker",
+      "sub": "Vicious",
+      "x": 152710.3594,
+      "y": -66056.35156
+    },
+    {
+      "id": "00386DF0",
+      "type": "EncMongrelMarker",
+      "sub": "Feral",
+      "x": 152972.25,
+      "y": -65881.10938
+    },
+    {
+      "id": "00386DF5",
+      "type": "EncMegaSlothMarker",
+      "x": 151915.9531,
+      "y": -67499.41406
+    },
+    {
+      "id": "00386DF6",
+      "type": "EncMegaSlothMarker",
+      "x": 153384.7969,
+      "y": -65841.63281
+    },
+    {
+      "id": "00386E2A",
+      "type": "EncMirelurkMarker",
+      "sub": "Kill Craw",
+      "x": 57095.98047,
+      "y": -150998.1719
+    },
+    {
+      "id": "00386E2B",
+      "type": "EncMirelurkMarker",
+      "x": 57624.44922,
+      "y": -152501.3438
+    },
+    {
+      "id": "00386E2C",
+      "type": "EncMoleRatMarker",
+      "x": 58404.14844,
+      "y": -149907.7031
+    },
+    {
+      "id": "00386E2D",
+      "type": "EncMoleRatMarker",
+      "x": 58694.68359,
+      "y": -149914.7188
+    },
+    {
+      "id": "00386E2E",
+      "type": "EncMoleRatMarker",
+      "x": 57922.28516,
+      "y": -149186.2813
+    },
+    {
+      "id": "00386E5D",
+      "type": "EncDeathclawMarker",
+      "x": -120193.1328,
+      "y": -162767.9531
+    },
+    {
+      "id": "00386E5E",
+      "type": "EncDeathclawMarker",
+      "x": -122203.8984,
+      "y": -162450.6406
+    },
+    {
+      "id": "00386E8A",
+      "type": "EncWolfMarker",
+      "label": "G",
+      "sub": "Grey",
+      "x": 114187.6719,
+      "y": 124201.7188
+    },
+    {
+      "id": "00386E8B",
+      "type": "EncWolfMarker",
+      "label": "G",
+      "sub": "Grey",
+      "x": 114238.5391,
+      "y": 124757.1797
+    },
+    {
+      "id": "00386E8C",
+      "type": "EncWolfMarker",
+      "label": "G",
+      "sub": "Grey",
+      "x": 113724.2734,
+      "y": 124679.1172
+    },
+    {
+      "id": "00386ED9",
+      "type": "EncDeathclawMarker",
+      "x": 195315.7188,
+      "y": -166147.9531
+    },
+    {
+      "id": "00386EDA",
+      "type": "EncDeathclawMarker",
+      "x": 198491.8438,
+      "y": -165629.375
+    },
+    {
+      "id": "00386EDB",
+      "type": "EncMegaSlothMarker",
+      "sub": "Huge",
+      "x": 196245.9063,
+      "y": -166897.8906
+    },
+    {
+      "id": "00386EDC",
+      "type": "EncMongrelMarker",
+      "sub": "Feral",
+      "x": 196339.5469,
+      "y": -164351.3125
+    },
+    {
+      "id": "00386EDD",
+      "type": "EncMongrelMarker",
+      "sub": "Feral",
+      "x": 196138.9531,
+      "y": -163990.9688
+    },
+    {
+      "id": "00386F27",
+      "type": "EncYaoGuaiMarker",
+      "x": -38156.03906,
+      "y": -69093.57813
+    },
+    {
+      "id": "00386F56",
+      "type": "EncDeathclawMarker",
+      "x": 130972.4219,
+      "y": 74543.26563
+    },
+    {
+      "id": "0038E4D3",
+      "type": "EncMoleRatMarker",
+      "x": 84539.86719,
+      "y": -102567.6719
+    },
+    {
+      "id": "0038E565",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 85971.67188,
+      "y": -101357.7813
+    },
+    {
+      "id": "0038E566",
+      "type": "EncRadStagMarker",
+      "x": 85708.89063,
+      "y": -101232.8203
+    },
+    {
+      "id": "003954A8",
+      "type": "EncMirelurkMarker",
+      "x": 198163.2813,
+      "y": 185150.3906
+    },
+    {
+      "id": "003954B9",
+      "type": "EncAnglerMarker",
+      "x": 190692.5313,
+      "y": 173445.8906
+    },
+    {
+      "id": "003954BA",
+      "type": "EncAnglerMarker",
+      "x": 190948.2188,
+      "y": 173394.0625
+    },
+    {
+      "id": "003971C5",
+      "type": "EncRadStagMarker",
+      "label": "A",
+      "sub": "Albino",
+      "x": -12567.50391,
+      "y": -168410.7188
+    },
+    {
+      "id": "003971C6",
+      "type": "EncRadStagMarker",
+      "label": "A",
+      "sub": "Albino",
+      "x": -13186.24512,
+      "y": -168246.0313
+    },
+    {
+      "id": "003971C7",
+      "type": "EncRadStagMarker",
+      "label": "A",
+      "sub": "Albino",
+      "x": -11248.72656,
+      "y": -167292.6563
+    },
+    {
+      "id": "003971C8",
+      "type": "EncRadStagMarker",
+      "label": "A",
+      "sub": "Albino",
+      "x": -10904,
+      "y": -169112
+    },
+    {
+      "id": "003971C9",
+      "type": "EncRadStagMarker",
+      "label": "A",
+      "sub": "Albino",
+      "x": -12922.16016,
+      "y": -166195.7344
+    },
+    {
+      "id": "003971CA",
+      "type": "EncRadStagMarker",
+      "label": "A",
+      "sub": "Albino",
+      "x": -14198.52051,
+      "y": -167452.1719
+    },
+    {
+      "id": "0039DE48",
+      "type": "EncMoleRatMarker",
+      "x": 82032.61719,
+      "y": -110750.1094
+    },
+    {
+      "id": "0039DE4D",
+      "type": "EncMoleRatMarker",
+      "x": -3011.230224,
+      "y": -179477.3438
+    },
+    {
+      "id": "003A0BD6",
+      "type": "EncRadStagMarker",
+      "x": 12442.01758,
+      "y": -39802.86328
+    },
+    {
+      "id": "003A0BD7",
+      "type": "EncRadStagMarker",
+      "x": 12530.73438,
+      "y": -39871.03516
+    },
+    {
+      "id": "003AB962",
+      "type": "EncMirelurkQueenMarker",
+      "x": 169998.2656,
+      "y": -72542.98438
+    },
+    {
+      "id": "003B7715",
+      "type": "EncMoleRatMarker",
+      "x": -121944,
+      "y": 171640
+    },
+    {
+      "id": "003B7725",
+      "type": "EncMoleRatMarker",
+      "x": 120248.0938,
+      "y": -125752.0234
+    },
+    {
+      "id": "003C3F6F",
+      "type": "EncGraftonMarker",
+      "x": -65246.60547,
+      "y": 178882.7031
+    },
+    {
+      "id": "003C70F3",
+      "type": "EncMoleRatMarker",
+      "x": 41360.83203,
+      "y": 175246.1875
+    },
+    {
+      "id": "003C751E",
+      "type": "EncMirelurkMarker",
+      "x": 21525.08789,
+      "y": -105401.9531
+    },
+    {
+      "id": "003C751F",
+      "type": "EncMirelurkMarker",
+      "x": 21496.67578,
+      "y": -105035.5859
+    },
+    {
+      "id": "003C7520",
+      "type": "EncMirelurkMarker",
+      "x": 21354.36719,
+      "y": -105176.2813
+    },
+    {
+      "id": "003CD45B",
+      "type": "EncYaoGuaiMarker",
+      "x": -19511.64063,
+      "y": -79968.09375
+    },
+    {
+      "id": "003CE866",
+      "type": "EncMoleRatMarker",
+      "x": 173629.125,
+      "y": -122340.4219
+    },
+    {
+      "id": "003CE871",
+      "type": "EncMoleRatMarker",
+      "x": 182602.8125,
+      "y": -170760.8594
+    },
+    {
+      "id": "003CE899",
+      "type": "EncMoleRatMarker",
+      "x": 135987.2344,
+      "y": -96142.60156
+    },
+    {
+      "id": "003CE89E",
+      "type": "EncMoleRatMarker",
+      "x": 136149.4844,
+      "y": -96684.05469
+    },
+    {
+      "id": "003CE8BA",
+      "type": "EncMoleRatMarker",
+      "x": 180494.1406,
+      "y": -115646.3359
+    },
+    {
+      "id": "003CE8BB",
+      "type": "EncMoleRatMarker",
+      "x": 180261.3594,
+      "y": -115509.3203
+    },
+    {
+      "id": "003CE8BC",
+      "type": "EncMoleRatMarker",
+      "x": 180759.1719,
+      "y": -115486.7188
+    },
+    {
+      "id": "003CE8DE",
+      "type": "EncMoleRatMarker",
+      "x": 45897.13281,
+      "y": -132229.6719
+    },
+    {
+      "id": "003CE8DF",
+      "type": "EncMoleRatMarker",
+      "x": 45997.98438,
+      "y": -132346.9219
+    },
+    {
+      "id": "003CE8E0",
+      "type": "EncMoleRatMarker",
+      "x": 46027.39844,
+      "y": -132137.9063
+    },
+    {
+      "id": "003D0FF2",
+      "type": "EncMoleRatMarker",
+      "x": -108869.7578,
+      "y": 10079.50977
+    },
+    {
+      "id": "003D127F",
+      "type": "EncMirelurkMarker",
+      "x": -77566.96094,
+      "y": 13229.58008
+    },
+    {
+      "id": "003D1280",
+      "type": "EncMirelurkMarker",
+      "x": -75302.25781,
+      "y": 15065.15039
+    },
+    {
+      "id": "003D1281",
+      "type": "EncMirelurkMarker",
+      "x": -77558.41406,
+      "y": 13333.56055
+    },
+    {
+      "id": "003D1282",
+      "type": "EncMirelurkMarker",
+      "x": -79061.69531,
+      "y": 9565.746094
+    },
+    {
+      "id": "003D1283",
+      "type": "EncMirelurkMarker",
+      "x": -79879.94531,
+      "y": 9500.571289
+    },
+    {
+      "id": "003D36C2",
+      "type": "EncMoleRatMarker",
+      "x": -131544.2188,
+      "y": -26546.13672
+    },
+    {
+      "id": "003D36F7",
+      "type": "EncMoleRatMarker",
+      "x": -19416.22852,
+      "y": -106863.9531
+    },
+    {
+      "id": "003D36FC",
+      "type": "EncMoleRatMarker",
+      "x": -22560.23828,
+      "y": -111423.9531
+    },
+    {
+      "id": "003D37D6",
+      "type": "EncMoleRatMarker",
+      "x": -134640,
+      "y": -31824
+    },
+    {
+      "id": "003D37DB",
+      "type": "EncMoleRatMarker",
+      "x": -136136,
+      "y": -29104
+    },
+    {
+      "id": "003D380E",
+      "type": "EncMoleRatMarker",
+      "x": -19416.22852,
+      "y": -106863.9531
+    },
+    {
+      "id": "003D3813",
+      "type": "EncMoleRatMarker",
+      "x": -22560.23828,
+      "y": -111423.9531
+    },
+    {
+      "id": "003D73AB",
+      "type": "EncMoleRatMarker",
+      "x": 11145.61816,
+      "y": -54083.72656
+    },
+    {
+      "id": "003D73AC",
+      "type": "EncMoleRatMarker",
+      "x": 11289.46289,
+      "y": -53850.75781
+    },
+    {
+      "id": "003D73AD",
+      "type": "EncMoleRatMarker",
+      "x": 11445.55566,
+      "y": -54273.98438
+    },
+    {
+      "id": "003DB3DB",
+      "type": "EncBrahminMarker",
+      "x": -109939.7969,
+      "y": 15377.74121
+    },
+    {
+      "id": "003DB3DC",
+      "type": "EncBrahminMarker",
+      "x": -109241.7578,
+      "y": 15923.79688
+    },
+    {
+      "id": "003DB3DD",
+      "type": "EncBrahminMarker",
+      "x": -108671.0156,
+      "y": 14510.5498
+    },
+    {
+      "id": "003DB3DE",
+      "type": "EncBrahminMarker",
+      "x": -109602.8125,
+      "y": 13384.29004
+    },
+    {
+      "id": "003DB3DF",
+      "type": "EncBrahminMarker",
+      "x": -105909.0469,
+      "y": 24937.55664
+    },
+    {
+      "id": "003DB3E0",
+      "type": "EncBrahminMarker",
+      "x": -106556.3984,
+      "y": 24908.58008
+    },
+    {
+      "id": "003DB3E1",
+      "type": "EncBrahminMarker",
+      "x": -105664.5313,
+      "y": 19435.72656
+    },
+    {
+      "id": "003DB3E2",
+      "type": "EncBrahminMarker",
+      "x": -104414.1641,
+      "y": 20228.32813
+    },
+    {
+      "id": "003DB3E5",
+      "type": "EncBrahminMarker",
+      "x": -105993.2422,
+      "y": 25567.04492
+    },
+    {
+      "id": "003E0D65",
+      "type": "EncRadRatMarker",
+      "x": 92858.84375,
+      "y": 32745.43164
+    },
+    {
+      "id": "003E0D66",
+      "type": "EncRadRatMarker",
+      "x": 92600.5625,
+      "y": 32409.16602
+    },
+    {
+      "id": "003E0D67",
+      "type": "EncRadRatMarker",
+      "x": 93205.54688,
+      "y": 32359.91211
+    },
+    {
+      "id": "003E0D74",
+      "type": "EncMoleRatMarker",
+      "x": 153484.4219,
+      "y": 165396.0156
+    },
+    {
+      "id": "003E0D75",
+      "type": "EncMoleRatMarker",
+      "x": 152786.0781,
+      "y": 164978.5781
+    },
+    {
+      "id": "003E0D76",
+      "type": "EncMoleRatMarker",
+      "x": 154152.4844,
+      "y": 165568.8906
+    },
+    {
+      "id": "003E400C",
+      "type": "EncMoleRatMarker",
+      "x": 114201.8281,
+      "y": 113533.4063
+    },
+    {
+      "id": "0042C1B1",
+      "type": "EncMoleRatMarker",
+      "x": 139328,
+      "y": -164592
+    },
+    {
+      "id": "0042C1B2",
+      "type": "EncMoleRatMarker",
+      "x": 139496.1875,
+      "y": -165025.3438
+    },
+    {
+      "id": "0042C1EA",
+      "type": "EncMoleRatMarker",
+      "x": 138960,
+      "y": -164736
+    },
+    {
+      "id": "00432ECC",
+      "type": "EncSnallygasterMarker",
+      "x": -94088,
+      "y": -61816
+    },
+    {
+      "id": "00434D33",
+      "type": "EncYaoGuaiMarker",
+      "x": 166415.25,
+      "y": -106116.2031
+    },
+    {
+      "id": "004357A8",
+      "type": "EncMongrelMarker",
+      "x": -17569.33594,
+      "y": -40481.51953
+    },
+    {
+      "id": "004357AB",
+      "type": "EncMongrelMarker",
+      "x": -17375.95313,
+      "y": -40327.48828
+    },
+    {
+      "id": "004357AC",
+      "type": "EncMongrelMarker",
+      "x": -17561.16406,
+      "y": -40286.63672
+    },
+    {
+      "id": "004357AD",
+      "type": "EncMongrelMarker",
+      "x": -17393.07813,
+      "y": -40496.94922
+    },
+    {
+      "id": "004391B6",
+      "type": "EncDeathclawMarker",
+      "x": 197759.8906,
+      "y": -148219.4531
+    },
+    {
+      "id": "004391D0",
+      "type": "EncYaoGuaiMarker",
+      "x": 132186.2344,
+      "y": -179990.4531
+    },
+    {
+      "id": "004391EA",
+      "type": "EncMongrelMarker",
+      "sub": "Feral",
+      "x": 151786.75,
+      "y": -180376.7344
+    },
+    {
+      "id": "004398B0",
+      "type": "EncYaoGuaiMarker",
+      "x": 730.228882,
+      "y": -95232.80469
+    },
+    {
+      "id": "004398B1",
+      "type": "EncYaoGuaiMarker",
+      "x": -636.145752,
+      "y": -96083.13281
+    },
+    {
+      "id": "004398DB",
+      "type": "EncMongrelMarker",
+      "sub": "Alpha",
+      "x": -57881.19922,
+      "y": 160475.7344
+    },
+    {
+      "id": "004398DC",
+      "type": "EncMongrelMarker",
+      "x": -57987.62109,
+      "y": 160310.4219
+    },
+    {
+      "id": "004398DD",
+      "type": "EncMongrelMarker",
+      "x": -57806.96875,
+      "y": 160551.9531
+    },
+    {
+      "id": "004398DE",
+      "type": "EncMongrelMarker",
+      "x": -57668.10547,
+      "y": 160560.1563
+    },
+    {
+      "id": "004398DF",
+      "type": "EncMongrelMarker",
+      "x": -57768.33594,
+      "y": 160318.2031
+    },
+    {
+      "id": "0043CC44",
+      "type": "EncRadStagMarker",
+      "x": 43222.58594,
+      "y": 47060.32813
+    },
+    {
+      "id": "0043CC45",
+      "type": "EncRadStagMarker",
+      "label": "N",
+      "x": 42945.76172,
+      "y": 47006.71875
+    },
+    {
+      "id": "0043CC46",
+      "type": "EncRadStagMarker",
+      "label": "N",
+      "x": 43184.42578,
+      "y": 47604.71875
+    },
+    {
+      "id": "0043CC4F",
+      "type": "EncMoleRatMarker",
+      "x": 55131.28125,
+      "y": 33949.38281
+    },
+    {
+      "id": "0043CC50",
+      "type": "EncMoleRatMarker",
+      "x": 54365.71875,
+      "y": 34224.95703
+    },
+    {
+      "id": "0043CC51",
+      "type": "EncMoleRatMarker",
+      "x": 55056.74219,
+      "y": 33742.86328
+    },
+    {
+      "id": "0043CC52",
+      "type": "EncMoleRatMarker",
+      "label": "👑",
+      "x": 54687.92969,
+      "y": 34603.02734
+    },
+    {
+      "id": "0043CC56",
+      "type": "EncBrahminMarker",
+      "x": 64686.45703,
+      "y": 5651.012207
+    },
+    {
+      "id": "0043CC57",
+      "type": "EncBrahminMarker",
+      "x": 64349.76953,
+      "y": 5494.354004
+    },
+    {
+      "id": "0043CC58",
+      "type": "EncBrahminMarker",
+      "x": 64105.75391,
+      "y": 5606.027344
+    },
+    {
+      "id": "0043CC7C",
+      "type": "EncRadtoadMarker",
+      "x": 134440.4219,
+      "y": 47264.27344
+    },
+    {
+      "id": "0043CC7D",
+      "type": "EncRadtoadMarker",
+      "x": 135037.1406,
+      "y": 47639.82813
+    },
+    {
+      "id": "0043CC7E",
+      "type": "EncRadtoadMarker",
+      "x": 134852.7031,
+      "y": 46775.8125
+    },
+    {
+      "id": "0043CC89",
+      "type": "EncRadtoadMarker",
+      "x": 135088.5156,
+      "y": 46869.21875
+    },
+    {
+      "id": "0043CCA1",
+      "type": "EncMegaslothMarker",
+      "x": 130296.8672,
+      "y": 58520.32422
+    },
+    {
+      "id": "0043CCFC",
+      "type": "EncMongrelMarker",
+      "x": -93818.49219,
+      "y": 34095.64453
+    },
+    {
+      "id": "0043CCFD",
+      "type": "EncMongrelMarker",
+      "x": -93772.09375,
+      "y": 34149.98828
+    },
+    {
+      "id": "0043CCFE",
+      "type": "EncMongrelMarker",
+      "x": -93718.17188,
+      "y": 34198.21094
+    },
+    {
+      "id": "0045025B",
+      "type": "EncGulperMarker",
+      "x": 175647,
+      "y": 71376.20313
+    },
+    {
+      "id": "0045025C",
+      "type": "EncGulperMarker",
+      "x": 175811.9063,
+      "y": 71424.01563
+    },
+    {
+      "id": "0045026E",
+      "type": "EncMegaslothMarker",
+      "label": "❕",
+      "x": 164513.8281,
+      "y": 30895.09766
+    },
+    {
+      "id": "004502A4",
+      "type": "EncMegaslothMarker",
+      "label": "❕",
+      "x": 170346.3125,
+      "y": 15191.98535
+    },
+    {
+      "id": "004502A7",
+      "type": "EncMegaslothMarker",
+      "label": "❕",
+      "x": 170060.2813,
+      "y": 14874.59277
+    },
+    {
+      "id": "004502AC",
+      "type": "EncMegaslothMarker",
+      "label": "❕",
+      "x": 135874.5156,
+      "y": -7166.749512
+    },
+    {
+      "id": "004502BB",
+      "type": "EncMegaslothMarker",
+      "label": "❕",
+      "x": 175930.6094,
+      "y": -29692.56641
+    },
+    {
+      "id": "0046A034",
+      "type": "EncYaoGuaiMarker",
+      "x": 80433.60938,
+      "y": -13574.13281
+    },
+    {
+      "id": "0046D99A",
+      "type": "EncMongrelMarker",
+      "sub": "Albino",
+      "x": 123349.0313,
+      "y": -59647.21094
+    },
+    {
+      "id": "0048CC3B",
+      "type": "EncHermitCrabMarker",
+      "x": 179676.2969,
+      "y": 142241.7969
+    },
+    {
+      "id": "0048CC3F",
+      "type": "EncHermitCrabMarker",
+      "x": 183657.9844,
+      "y": 99673.07813
+    },
+    {
+      "id": "0048CC43",
+      "type": "EncHermitCrabMarker",
+      "x": 161973.5469,
+      "y": 17796.05664
+    },
+    {
+      "id": "0048CC47",
+      "type": "EncHermitCrabMarker",
+      "x": 178285.125,
+      "y": -12939.15039
+    },
+    {
+      "id": "0048CC4B",
+      "type": "EncHermitCrabMarker",
+      "x": 173627.5,
+      "y": -83393.86719
+    },
+    {
+      "id": "0048CC4F",
+      "type": "EncHermitCrabMarker",
+      "x": 167813.5469,
+      "y": -125822.5469
+    },
+    {
+      "id": "0048CC53",
+      "type": "EncHermitCrabMarker",
+      "x": 187499.9375,
+      "y": -113903.6719
+    },
+    {
+      "id": "0048CC55",
+      "type": "EncMegaslothMarker",
+      "label": "❕",
+      "x": 179528.3906,
+      "y": -42074.92578
+    },
+    {
+      "id": "0048CC5A",
+      "type": "EncMegaslothMarker",
+      "label": "❕",
+      "x": 177867.6719,
+      "y": -41982.64453
+    },
+    {
+      "id": "004E71AA",
+      "type": "EncMoleRatMarker",
+      "x": 94924.32031,
+      "y": 55109.44922
+    },
+    {
+      "id": "004E71AB",
+      "type": "EncMoleRatMarker",
+      "x": 94860.60156,
+      "y": 55115.46875
+    },
+    {
+      "id": "004E822E",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 271630.5313,
+      "y": 16722.53906
+    },
+    {
+      "id": "004E822F",
+      "type": "EncRadStagMarker",
+      "label": "♀",
+      "x": 272093.8438,
+      "y": 16770.30469
+    },
+    {
+      "id": "004EC263",
+      "type": "EncMirelurkMarker",
+      "x": 33907.54688,
+      "y": -121018.8672
+    },
+    {
+      "id": "004EC265",
+      "type": "EncMirelurkMarker",
+      "x": 31917.57227,
+      "y": -119709.2813
+    },
+    {
+      "id": "004EC267",
+      "type": "EncMirelurkMarker",
+      "x": 31670.2168,
+      "y": -120388.8828
+    },
+    {
+      "id": "004EC26A",
+      "type": "EncMirelurkQueenMarker",
+      "x": 34507.51953,
+      "y": -122422.6797
+    },
+    {
+      "id": "004EC26D",
+      "type": "EncMirelurkMarker",
+      "x": 36141.67188,
+      "y": -122447.2656
+    },
+    {
+      "id": "004EC26F",
+      "type": "EncMirelurkMarker",
+      "x": 34745.51172,
+      "y": -125299.5703
+    },
+    {
+      "id": "004EC271",
+      "type": "EncMirelurkMarker",
+      "x": 33798.32422,
+      "y": -123029.6094
+    },
+    {
+      "id": "004EC276",
+      "type": "EncMirelurkMarker",
+      "x": 37709.53125,
+      "y": -123870.4844
+    },
+    {
+      "id": "004EC277",
+      "type": "EncMirelurkMarker",
+      "x": 38341.09375,
+      "y": -123342.7578
+    },
+    {
+      "id": "004EC27E",
+      "type": "EncMirelurkMarker",
+      "x": 38622.35547,
+      "y": -122145.2813
+    },
+    {
+      "id": "004FD421",
+      "type": "EncGraftonMarker",
+      "x": -113705.9141,
+      "y": -44878.36328
+    },
+    {
+      "id": "0050B57C",
+      "type": "EncMoleRatMarker",
+      "x": 10110.38086,
+      "y": 92704.58594
+    },
+    {
+      "id": "0050BBC6",
+      "type": "EncRadStagMarker",
+      "x": -11637.48438,
+      "y": -48271.73047
+    },
+    {
+      "id": "0050DD33",
+      "type": "EncWolfMarker",
+      "x": -86763.26563,
+      "y": -76664.39063
+    },
+    {
+      "id": "0050DD34",
+      "type": "EncWolfMarker",
+      "x": -86928.42969,
+      "y": -76574.74219
+    },
+    {
+      "id": "0050DD35",
+      "type": "EncWolfMarker",
+      "x": -86774.6875,
+      "y": -76569.55469
+    },
+    {
+      "id": "0050DD36",
+      "type": "EncWolfMarker",
+      "x": -86922.30469,
+      "y": -76666.67188
+    },
+    {
+      "id": "0050E4A6",
+      "type": "EncDeathclawMarker",
+      "x": 18376.85156,
+      "y": 15263.04199
+    },
+    {
+      "id": "00520D0C",
+      "type": "EncMoleRatMarker",
+      "x": 37151.80469,
+      "y": 156328.0156
+    },
+    {
+      "id": "00520D0D",
+      "type": "EncMoleRatMarker",
+      "x": 36160.51953,
+      "y": 155697.0156
+    },
+    {
+      "id": "00520D0E",
+      "type": "EncMoleRatMarker",
+      "x": 36574.15625,
+      "y": 156140.9063
+    },
+    {
+      "id": "005368CB",
+      "type": "EncMoleRatMarker",
+      "x": 139095.3125,
+      "y": -160504.5938
+    },
+    {
+      "id": "005368D0",
+      "type": "EncMoleRatMarker",
+      "x": 139106.7969,
+      "y": -159390.0625
+    },
+    {
+      "id": "005368D1",
+      "type": "EncMoleRatMarker",
+      "x": 137572.4219,
+      "y": -159573.4375
+    },
+    {
+      "id": "0056F4C0",
+      "type": "EncBrahminMarker",
+      "x": 115411.6094,
+      "y": -149162.4375
+    },
+    {
+      "id": "0056F4C1",
+      "type": "EncBrahminMarker",
+      "x": 115152.3125,
+      "y": -149307.875
+    },
+    {
+      "id": "0056F4C2",
+      "type": "EncBrahminMarker",
+      "x": 115376.3828,
+      "y": -148718.6719
+    },
+    {
+      "id": "0057CF85",
+      "type": "EncMirelurkMarker",
+      "x": -190460.1406,
+      "y": -34902.76563
+    },
+    {
+      "id": "0058395E",
+      "type": "EncBrahminMarker",
+      "x": -45444.54297,
+      "y": -120178.7656
+    },
+    {
+      "id": "0058395F",
+      "type": "EncBrahminMarker",
+      "x": -46104.23828,
+      "y": -119550.6641
+    },
+    {
+      "id": "0059532A",
+      "type": "EncMirelurkMarker",
+      "x": -184503.7813,
+      "y": -30657.28906
+    },
+    {
+      "id": "005959F3",
+      "type": "EncMoleRatMarker",
+      "x": 139367.2656,
+      "y": -165333.25
+    },
+    {
+      "id": "005983DF",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -108077.6641,
+      "y": 58725.96094
+    },
+    {
+      "id": "005997C8",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -146625.7344,
+      "y": 121626.3516
+    },
+    {
+      "id": "0059A1F9",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -60935.79297,
+      "y": 206753.4219
+    },
+    {
+      "id": "0059A615",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -177542.5938,
+      "y": 73077.10938
+    },
+    {
+      "id": "0059A68B",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -41390.84375,
+      "y": 104074.0703
+    },
+    {
+      "id": "0059A6E3",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -100559.9141,
+      "y": 108488.2031
+    },
+    {
+      "id": "0059A788",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -5518.647461,
+      "y": 170152.6719
+    },
+    {
+      "id": "0059AB9D",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 206803.9063,
+      "y": 147312.3594
+    },
+    {
+      "id": "0059AE21",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 125256.2422,
+      "y": -113053.5547
+    },
+    {
+      "id": "0059AE41",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 157037.7188,
+      "y": -181509.1094
+    },
+    {
+      "id": "0059B203",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 159729.3438,
+      "y": 29180.29688
+    },
+    {
+      "id": "0059B20A",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 178506.2969,
+      "y": 99318.17969
+    },
+    {
+      "id": "0059B231",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 205061.0938,
+      "y": -49401.70313
+    },
+    {
+      "id": "0059B2A1",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 205935.0625,
+      "y": -100181.3672
+    },
+    {
+      "id": "0059B68A",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -156974.5313,
+      "y": -86616.28906
+    },
+    {
+      "id": "0059B77C",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -69310,
+      "y": -138255.5938
+    },
+    {
+      "id": "0059BE31",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -142498.7813,
+      "y": -41520
+    },
+    {
+      "id": "0059BE80",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -174799.3906,
+      "y": -9007.03125
+    },
+    {
+      "id": "0059BED8",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": -83924.11719,
+      "y": -15105.44141
+    },
+    {
+      "id": "0059C09E",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 117785.1641,
+      "y": 186726.5
+    },
+    {
+      "id": "0059C0BF",
+      "type": "EncMothmanMarker",
+      "label": "❕",
+      "x": 127647.7031,
+      "y": 207764.2188
+    },
+    {
+      "id": "0059F2D9",
+      "type": "EncDeathclawMarker",
+      "x": 85140.66406,
+      "y": -69449.625
+    },
+    {
+      "id": "005C44B1",
+      "type": "EncBrahminMarker",
+      "x": -173459.2969,
+      "y": -41620.24219
+    }
+  ]
+}

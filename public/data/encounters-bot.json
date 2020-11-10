@@ -1,0 +1,1422 @@
+{
+  "markers": [
+    {
+      "id": "00146821",
+      "type": "EncReaperBotMarker",
+      "x": -113840.125,
+      "y": 17405.05859
+    },
+    {
+      "id": "00146829",
+      "type": "EncReaperBotMarker",
+      "x": -113533.2422,
+      "y": 20253.99609
+    },
+    {
+      "id": "00146851",
+      "type": "EncReaperBotMarker",
+      "x": -74049.41406,
+      "y": 18914.7793
+    },
+    {
+      "id": "00180683",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 140937.4063,
+      "y": -137959.25
+    },
+    {
+      "id": "00187652",
+      "type": "EncProtectronMarker",
+      "sub": "Fireman",
+      "x": -61786.69141,
+      "y": -109139.0703
+    },
+    {
+      "id": "00350582",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 158915.8125,
+      "y": -139914.9688
+    },
+    {
+      "id": "00350589",
+      "type": "EncMrGutsyMarker",
+      "sub": "Watoga",
+      "x": 157298.3125,
+      "y": -140148.4844
+    },
+    {
+      "id": "00351967",
+      "type": "EncEyeBotMarker",
+      "sub": "Responder",
+      "x": -15281.16406,
+      "y": 103242.0781
+    },
+    {
+      "id": "00554269",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 127380.4766,
+      "y": 34347.03906
+    },
+    {
+      "id": "00591096",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 127797.4375,
+      "y": 34315.17578
+    },
+    {
+      "id": "00592983",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 130343.8125,
+      "y": 32889.03906
+    },
+    {
+      "id": "00599715",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": -116166.1953,
+      "y": 179852.125
+    },
+    {
+      "id": "00346E20",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 146467.7969,
+      "y": -132754.4844
+    },
+    {
+      "id": "00346E21",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 145424.8438,
+      "y": -133077.9063
+    },
+    {
+      "id": "00346E41",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 142181.6406,
+      "y": -134366.2969
+    },
+    {
+      "id": "00346E50",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 151241.0781,
+      "y": -145810.9219
+    },
+    {
+      "id": "00346E52",
+      "type": "EncMrGutsyMarker",
+      "sub": "Watoga",
+      "x": 151888,
+      "y": -145344
+    },
+    {
+      "id": "00346E53",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 144988.2656,
+      "y": -133517.5156
+    },
+    {
+      "id": "00346E60",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 134904.2031,
+      "y": -138388.9375
+    },
+    {
+      "id": "00346E61",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 136412.2344,
+      "y": -135020.5938
+    },
+    {
+      "id": "00346E62",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 138671.3594,
+      "y": -135001.6875
+    },
+    {
+      "id": "00346E66",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 141336,
+      "y": -132504
+    },
+    {
+      "id": "00346E70",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 135032,
+      "y": -145944
+    },
+    {
+      "id": "00346E72",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 144139.7344,
+      "y": -143654.0938
+    },
+    {
+      "id": "00346E74",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 147288,
+      "y": -143480
+    },
+    {
+      "id": "00346E78",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 157745.9375,
+      "y": -141017.0469
+    },
+    {
+      "id": "000369BA",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 139755.2188,
+      "y": -145907.2344
+    },
+    {
+      "id": "000369BE",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 141514.3125,
+      "y": -146756.7031
+    },
+    {
+      "id": "000369C2",
+      "type": "EncMrGutsyMarker",
+      "sub": "Watoga",
+      "x": 141522.4375,
+      "y": -144880.0625
+    },
+    {
+      "id": "000388F5",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 142458.4063,
+      "y": -146543.8438
+    },
+    {
+      "id": "00038A63",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 137408.4531,
+      "y": -144699.625
+    },
+    {
+      "id": "0014680A",
+      "type": "EncReaperBotMarker",
+      "x": -130238.4297,
+      "y": -4186.569824
+    },
+    {
+      "id": "0014680C",
+      "type": "EncReaperBotMarker",
+      "x": -129904.7188,
+      "y": -3984.286133
+    },
+    {
+      "id": "0014680E",
+      "type": "EncReaperBotMarker",
+      "x": -90711.35938,
+      "y": 37557.55469
+    },
+    {
+      "id": "0014681D",
+      "type": "EncReaperBotMarker",
+      "x": -101496.1875,
+      "y": 39974.52344
+    },
+    {
+      "id": "0014682B",
+      "type": "EncReaperBotMarker",
+      "x": -116913.7109,
+      "y": 21717.29102
+    },
+    {
+      "id": "0014682C",
+      "type": "EncReaperBotMarker",
+      "x": -113339.5078,
+      "y": 20463.47461
+    },
+    {
+      "id": "0014682D",
+      "type": "EncReaperBotMarker",
+      "x": -118855.1953,
+      "y": 19337.95898
+    },
+    {
+      "id": "0014682E",
+      "type": "EncReaperBotMarker",
+      "x": -118995.0469,
+      "y": 19137.33789
+    },
+    {
+      "id": "0014682F",
+      "type": "EncReaperBotMarker",
+      "x": -118218.2578,
+      "y": 16135.1543
+    },
+    {
+      "id": "0014683A",
+      "type": "EncReaperBotMarker",
+      "x": -117985.3672,
+      "y": 16258.44531
+    },
+    {
+      "id": "0014683B",
+      "type": "EncReaperBotMarker",
+      "x": -113896.2891,
+      "y": 17511.16602
+    },
+    {
+      "id": "0014683C",
+      "type": "EncReaperBotMarker",
+      "x": -113958.8828,
+      "y": 17647.99219
+    },
+    {
+      "id": "0014683D",
+      "type": "EncReaperBotMarker",
+      "x": -120967.7266,
+      "y": 17105.63086
+    },
+    {
+      "id": "0014684D",
+      "type": "EncReaperBotMarker",
+      "x": -130330.6094,
+      "y": 21915.62305
+    },
+    {
+      "id": "0014684E",
+      "type": "EncReaperBotMarker",
+      "x": -111620.6563,
+      "y": 39623.87891
+    },
+    {
+      "id": "0018EDDB",
+      "type": "EncMrGutsyMarker",
+      "sub": "Watoga",
+      "x": 140717.7344,
+      "y": -136901.9063
+    },
+    {
+      "id": "001FAEF3",
+      "type": "EncTurretMarker",
+      "label": "E",
+      "sub": "Enclave",
+      "x": 3027.012939,
+      "y": -68523.5625
+    },
+    {
+      "id": "002283FB",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 118774.2656,
+      "y": -14365.80078
+    },
+    {
+      "id": "0023AD3F",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 143881.0938,
+      "y": -141964.0625
+    },
+    {
+      "id": "002BF328",
+      "type": "EncEyeBotMarker",
+      "sub": "Responder",
+      "x": -13962.39551,
+      "y": 101746.5469
+    },
+    {
+      "id": "002CFE58",
+      "type": "EncTurretMarker",
+      "sub": "StandingCart",
+      "x": 90367.36719,
+      "y": -59183.54297
+    },
+    {
+      "id": "002CFE5D",
+      "type": "EncTurretMarker",
+      "sub": "StandingCart",
+      "x": 85993.46094,
+      "y": -60603.97656
+    },
+    {
+      "id": "002DF727",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -130518.4531,
+      "y": -39356.17578
+    },
+    {
+      "id": "002DF728",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -130416.1719,
+      "y": -41819.43359
+    },
+    {
+      "id": "002DF729",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -131102.4375,
+      "y": -42401.70313
+    },
+    {
+      "id": "002DF72A",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -133952.0313,
+      "y": -47927.56641
+    },
+    {
+      "id": "002DF72B",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -131364.25,
+      "y": -44470.34375
+    },
+    {
+      "id": "002DF72F",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -132030.6875,
+      "y": -45035.79297
+    },
+    {
+      "id": "002EF5EA",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 162239.6094,
+      "y": -3947.234375
+    },
+    {
+      "id": "002EF5EC",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 161262.75,
+      "y": -4401.016113
+    },
+    {
+      "id": "002EF5F1",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 160647.8438,
+      "y": -4815.143067
+    },
+    {
+      "id": "002EF5FF",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 162665.9844,
+      "y": -5693.909668
+    },
+    {
+      "id": "002EF601",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 162316.6406,
+      "y": -5917.207031
+    },
+    {
+      "id": "002F75FB",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 153987.0469,
+      "y": -137996.6563
+    },
+    {
+      "id": "002F7618",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 152785.8281,
+      "y": -137887.2813
+    },
+    {
+      "id": "002F7634",
+      "type": "EncMrGutsyMarker",
+      "sub": "Watoga",
+      "x": 151898.9844,
+      "y": -135250.7969
+    },
+    {
+      "id": "002F7635",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 150450.0156,
+      "y": -136270.1406
+    },
+    {
+      "id": "002F7636",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 152276.5781,
+      "y": -136253.9688
+    },
+    {
+      "id": "002F7637",
+      "type": "EncMrGutsyMarker",
+      "sub": "Watoga",
+      "x": 154057.5625,
+      "y": -136176.5625
+    },
+    {
+      "id": "002F763B",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 154536,
+      "y": -136824
+    },
+    {
+      "id": "002FFD81",
+      "type": "EncEyeBotMarker",
+      "x": 195537.9063,
+      "y": -69698.39844
+    },
+    {
+      "id": "0030B2F1",
+      "type": "EncMrHandyMarker",
+      "sub": "Arktos Pharma",
+      "x": -44081.71875,
+      "y": 49841.79297
+    },
+    {
+      "id": "0031BB8F",
+      "type": "EncEyeBotMarker",
+      "x": 199488,
+      "y": -65928
+    },
+    {
+      "id": "0031BB90",
+      "type": "EncSentryBotMarker",
+      "x": 197911.0625,
+      "y": -62547.29688
+    },
+    {
+      "id": "0031BB98",
+      "type": "EncEyeBotMarker",
+      "x": 195091.125,
+      "y": -60406.21484
+    },
+    {
+      "id": "0031BB9A",
+      "type": "EncMrGutsyMarker",
+      "x": 199360,
+      "y": -64016
+    },
+    {
+      "id": "0031BB9B",
+      "type": "EncProtectronMarker",
+      "sub": "Hostile",
+      "x": 202680,
+      "y": -67088
+    },
+    {
+      "id": "0031BB9C",
+      "type": "EncMrGutsyMarker",
+      "x": 201456,
+      "y": -67960
+    },
+    {
+      "id": "0031BBA0",
+      "type": "EncProtectronMarker",
+      "sub": "Hostile",
+      "x": 195392,
+      "y": -69440
+    },
+    {
+      "id": "0031BBA1",
+      "type": "EncMrGutsyMarker",
+      "x": 194408,
+      "y": -70488
+    },
+    {
+      "id": "0031BBA2",
+      "type": "EncProtectronMarker",
+      "sub": "HostileFast",
+      "x": 194568,
+      "y": -69656
+    },
+    {
+      "id": "0031BBA3",
+      "type": "EncProtectronMarker",
+      "sub": "Hostile",
+      "x": 199173.9375,
+      "y": -64504
+    },
+    {
+      "id": "0031BBA5",
+      "type": "EncProtectronMarker",
+      "sub": "HostileFast",
+      "x": 199296,
+      "y": -65016
+    },
+    {
+      "id": "00341AF8",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 146375.6094,
+      "y": -138543.6406
+    },
+    {
+      "id": "00341AFD",
+      "type": "EncMrGutsyMarker",
+      "sub": "Watoga",
+      "x": 146784.9531,
+      "y": -138394
+    },
+    {
+      "id": "00346E1C",
+      "type": "EncAssaultronMarker",
+      "sub": "Watoga",
+      "x": 139721.5156,
+      "y": -148950.375
+    },
+    {
+      "id": "00346E1D",
+      "type": "EncAssaultronMarker",
+      "sub": "Watoga",
+      "x": 135526.5313,
+      "y": -148932.2813
+    },
+    {
+      "id": "00346E1E",
+      "type": "EncAssaultronMarker",
+      "sub": "Watoga",
+      "x": 133497.1719,
+      "y": -140029.1094
+    },
+    {
+      "id": "00346E3F",
+      "type": "EncAssaultronMarker",
+      "sub": "Watoga",
+      "x": 147103.7344,
+      "y": -138399.0938
+    },
+    {
+      "id": "00346E4F",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 151184.9375,
+      "y": -146157.5313
+    },
+    {
+      "id": "00346E6B",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 136229.5313,
+      "y": -134941.7813
+    },
+    {
+      "id": "0034A18B",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 144592,
+      "y": -143800
+    },
+    {
+      "id": "0034A18D",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 147721.3438,
+      "y": -140960.4063
+    },
+    {
+      "id": "0034A18E",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 149753.9219,
+      "y": -141114.6719
+    },
+    {
+      "id": "0034A190",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 150808.5938,
+      "y": -137669.8125
+    },
+    {
+      "id": "0034A192",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 152171.3906,
+      "y": -136636.4688
+    },
+    {
+      "id": "0034A195",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 154166.3906,
+      "y": -142498.3906
+    },
+    {
+      "id": "0034A197",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 153325.1094,
+      "y": -142236.2656
+    },
+    {
+      "id": "0034A19E",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 134979.6406,
+      "y": -140413.2344
+    },
+    {
+      "id": "0034A1A4",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 134961.7656,
+      "y": -140824
+    },
+    {
+      "id": "0034A1A6",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 143626.3125,
+      "y": -143516.4219
+    },
+    {
+      "id": "0034A1A7",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 143822.9844,
+      "y": -138749.2344
+    },
+    {
+      "id": "0034A1BC",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 139638.5469,
+      "y": -148566.875
+    },
+    {
+      "id": "0034A1C1",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 141952,
+      "y": -148296
+    },
+    {
+      "id": "0034A1D7",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 146706.3438,
+      "y": -143775.7656
+    },
+    {
+      "id": "0034A1E0",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 153400,
+      "y": -142440
+    },
+    {
+      "id": "0034A225",
+      "type": "EncMrGutsyMarker",
+      "sub": "Watoga",
+      "x": 144900.2656,
+      "y": -138949.5156
+    },
+    {
+      "id": "0034A8DE",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 152264,
+      "y": -145608
+    },
+    {
+      "id": "0034A8DF",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 152544,
+      "y": -145664
+    },
+    {
+      "id": "0034ED0F",
+      "type": "EncAssaultronMarker",
+      "sub": "Watoga",
+      "x": 141416.7031,
+      "y": -148972.7188
+    },
+    {
+      "id": "0035059D",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 157992.6875,
+      "y": -143787.1094
+    },
+    {
+      "id": "003505A2",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 157690.5313,
+      "y": -141348.25
+    },
+    {
+      "id": "0035C5A9",
+      "type": "EncProtectronMarker",
+      "sub": "Responder",
+      "x": -13944.64746,
+      "y": 101983.7031
+    },
+    {
+      "id": "0036AC93",
+      "type": "EncTurretMarker",
+      "label": "R",
+      "sub": "Raider",
+      "x": 92705.58594,
+      "y": 98747.78906
+    },
+    {
+      "id": "0036AC94",
+      "type": "EncTurretMarker",
+      "label": "R",
+      "sub": "Raider",
+      "x": 91506.39063,
+      "y": 99455.76563
+    },
+    {
+      "id": "0037AEFF",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 135679.25,
+      "y": -96625.41406
+    },
+    {
+      "id": "0037AF02",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 135760,
+      "y": -96208
+    },
+    {
+      "id": "0037BE34",
+      "type": "EncProtectronMarker",
+      "sub": "Lumberjack",
+      "x": -110136.7813,
+      "y": 69169.92188
+    },
+    {
+      "id": "0037BE37",
+      "type": "EncProtectronMarker",
+      "sub": "Lumberjack",
+      "x": -106787.3672,
+      "y": 73988.39844
+    },
+    {
+      "id": "0037BE3A",
+      "type": "EncProtectronMarker",
+      "sub": "Lumberjack",
+      "x": -99956.67969,
+      "y": 71867.23438
+    },
+    {
+      "id": "0037BE3D",
+      "type": "EncProtectronMarker",
+      "sub": "Lumberjack",
+      "x": -107916.2813,
+      "y": 61130.60938
+    },
+    {
+      "id": "0037BE40",
+      "type": "EncProtectronMarker",
+      "sub": "Lumberjack",
+      "x": -106319.4922,
+      "y": 66783.13281
+    },
+    {
+      "id": "00387A35",
+      "type": "EncTurretMarker",
+      "sub": "BOS",
+      "x": 106475.875,
+      "y": -131935.75
+    },
+    {
+      "id": "003A90FC",
+      "type": "EncProtectronMarker",
+      "sub": "Responder",
+      "x": -20360.69141,
+      "y": 103555.5234
+    },
+    {
+      "id": "003AA66B",
+      "type": "EncProtectronMarker",
+      "sub": "Watcher",
+      "x": 149831.5625,
+      "y": -149678.1563
+    },
+    {
+      "id": "003AA66C",
+      "type": "EncProtectronMarker",
+      "sub": "Watcher",
+      "x": 149737.7031,
+      "y": -150031.0156
+    },
+    {
+      "id": "003AA66E",
+      "type": "EncProtectronMarker",
+      "sub": "Watcher",
+      "x": 149532.5,
+      "y": -149991.2031
+    },
+    {
+      "id": "003AA678",
+      "type": "EncProtectronMarker",
+      "sub": "Watcher",
+      "x": 149552.0781,
+      "y": -150636.0625
+    },
+    {
+      "id": "003B0721",
+      "type": "EncTurretMarker",
+      "label": "R",
+      "sub": "Raider",
+      "x": -71092.54688,
+      "y": -55634.38672
+    },
+    {
+      "id": "003B0C3F",
+      "type": "EncProtectronMarker",
+      "sub": "Watcher",
+      "x": 149522.4531,
+      "y": -148491.8594
+    },
+    {
+      "id": "003B81A8",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 141541.7031,
+      "y": -140894.1563
+    },
+    {
+      "id": "003B81A9",
+      "type": "EncEyeBotMarker",
+      "sub": "Watoga",
+      "x": 141336.5313,
+      "y": -140896.0938
+    },
+    {
+      "id": "003C01A7",
+      "type": "EncProtectronMarker",
+      "sub": "Responder",
+      "x": 193595.5625,
+      "y": 102378.3906
+    },
+    {
+      "id": "003C3EEB",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": 78820.86719,
+      "y": -161048.4375
+    },
+    {
+      "id": "003C3EED",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": 78087.14844,
+      "y": -161139.3281
+    },
+    {
+      "id": "003C3EEE",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": 78469.91406,
+      "y": -159937.3438
+    },
+    {
+      "id": "003C4C69",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -7000.576172,
+      "y": 34587.33203
+    },
+    {
+      "id": "003C4C6A",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -6580.188964,
+      "y": 35229.99609
+    },
+    {
+      "id": "003C4C6B",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -5622.090821,
+      "y": 34401.51953
+    },
+    {
+      "id": "003C4C6C",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -5856.999023,
+      "y": 34040.70313
+    },
+    {
+      "id": "003C55AD",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -45786.57422,
+      "y": -85492.24219
+    },
+    {
+      "id": "003C55AE",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -46477.88281,
+      "y": -85245.4375
+    },
+    {
+      "id": "003C55AF",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -46167.51172,
+      "y": -84391.10156
+    },
+    {
+      "id": "003C683A",
+      "type": "EncProtectronMarker",
+      "sub": "Responder",
+      "x": -112570.1484,
+      "y": 63437.65625
+    },
+    {
+      "id": "003C683B",
+      "type": "EncProtectronMarker",
+      "sub": "Responder",
+      "x": -112586.1172,
+      "y": 63558.19141
+    },
+    {
+      "id": "003C683C",
+      "type": "EncProtectronMarker",
+      "sub": "Responder",
+      "x": -106287.2813,
+      "y": 33841.21875
+    },
+    {
+      "id": "003C683D",
+      "type": "EncProtectronMarker",
+      "sub": "Responder",
+      "x": -106080.6875,
+      "y": 33671.52734
+    },
+    {
+      "id": "003C6845",
+      "type": "EncProtectronMarker",
+      "sub": "Responder",
+      "x": -105237.9844,
+      "y": 40319.86328
+    },
+    {
+      "id": "003CA03C",
+      "type": "EncProtectronMarker",
+      "sub": "RedRocket",
+      "x": 139180,
+      "y": 143288
+    },
+    {
+      "id": "003CA040",
+      "type": "EncProtectronMarker",
+      "sub": "RedRocket",
+      "x": 137492,
+      "y": 144388
+    },
+    {
+      "id": "003CA044",
+      "type": "EncProtectronMarker",
+      "sub": "RedRocket",
+      "x": 138776,
+      "y": 149940
+    },
+    {
+      "id": "003CA04E",
+      "type": "EncProtectronMarker",
+      "sub": "RedRocket",
+      "x": 142116,
+      "y": 152728
+    },
+    {
+      "id": "003CA055",
+      "type": "EncProtectronMarker",
+      "sub": "RedRocket",
+      "x": 132568,
+      "y": 150952
+    },
+    {
+      "id": "003D13F3",
+      "type": "EncMrHandyMarker",
+      "x": -171293.9688,
+      "y": -62289.27344
+    },
+    {
+      "id": "003DC40E",
+      "type": "EncAutoMinerMarker",
+      "x": 57261.73047,
+      "y": 110865.0234
+    },
+    {
+      "id": "003DC40F",
+      "type": "EncAutoMinerMarker",
+      "label": "A",
+      "x": 57473.29688,
+      "y": 111011.2656
+    },
+    {
+      "id": "003E242A",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": 104655.4453,
+      "y": 87886.39063
+    },
+    {
+      "id": "003E242B",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": 104923.2578,
+      "y": 87551.9375
+    },
+    {
+      "id": "003E243A",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": 105536.6484,
+      "y": 88798.00781
+    },
+    {
+      "id": "003E2554",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -132668.5781,
+      "y": -72033.03906
+    },
+    {
+      "id": "003E2556",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -133195.9531,
+      "y": -72540.65625
+    },
+    {
+      "id": "003E5B8B",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 161432.0938,
+      "y": 799.394165
+    },
+    {
+      "id": "003E5B8C",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 162245.8438,
+      "y": 824.143982
+    },
+    {
+      "id": "003E5B8D",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 159049.2656,
+      "y": -504.448212
+    },
+    {
+      "id": "003E5C89",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 162008.2969,
+      "y": -5696.654786
+    },
+    {
+      "id": "003E7C33",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 161655.875,
+      "y": 227.609146
+    },
+    {
+      "id": "0042730C",
+      "type": "EncEyeBotMarker",
+      "x": 22316.82813,
+      "y": -9365.342773
+    },
+    {
+      "id": "0042730D",
+      "type": "EncEyeBotMarker",
+      "x": 22269.07813,
+      "y": -9149.921875
+    },
+    {
+      "id": "00434EC2",
+      "type": "EncTurretMarker",
+      "sub": "Bubble",
+      "x": -131803.3906,
+      "y": -72541.78125
+    },
+    {
+      "id": "0043E6B3",
+      "type": "EncReaperBotMarker",
+      "x": -115597.8281,
+      "y": 17418.88281
+    },
+    {
+      "id": "004E2272",
+      "type": "EncReaperBotMarker",
+      "x": -118165.7891,
+      "y": 16265.71973
+    },
+    {
+      "id": "004E3C99",
+      "type": "EncReaperBotMarker",
+      "x": -128931.3672,
+      "y": -1937.550537
+    },
+    {
+      "id": "004E3C9A",
+      "type": "EncReaperBotMarker",
+      "x": -129027.9844,
+      "y": -1890.950195
+    },
+    {
+      "id": "004ED577",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 135901.9844,
+      "y": -143491.8594
+    },
+    {
+      "id": "004ED578",
+      "type": "EncProtectronMarker",
+      "sub": "Watoga",
+      "x": 137394.8281,
+      "y": -143900.6563
+    },
+    {
+      "id": "0050B352",
+      "type": "EncReaperBotMarker",
+      "x": -130018.3281,
+      "y": -2945.187012
+    },
+    {
+      "id": "0050B36A",
+      "type": "EncReaperBotMarker",
+      "x": -127533.6406,
+      "y": -8105.956055
+    },
+    {
+      "id": "0050B36E",
+      "type": "EncReaperBotMarker",
+      "x": -127663.3828,
+      "y": -8104.020508
+    },
+    {
+      "id": "0050D372",
+      "type": "EncEyeBotMarker",
+      "x": 23718.69141,
+      "y": -10410.84473
+    },
+    {
+      "id": "0050D37C",
+      "type": "EncEyeBotMarker",
+      "x": 21498.32813,
+      "y": -11400.95215
+    },
+    {
+      "id": "0052C6D8",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": 137646.7656,
+      "y": -42819.02734
+    },
+    {
+      "id": "00530B1F",
+      "type": "EncProtectronMarker",
+      "sub": "Police",
+      "x": -10037.04981,
+      "y": 90301.64844
+    },
+    {
+      "id": "00530B2D",
+      "type": "EncEyeBotMarker",
+      "sub": "Responder",
+      "x": -9854.401367,
+      "y": 90528.53125
+    },
+    {
+      "id": "00537A99",
+      "type": "EncTurretMarker",
+      "sub": "Tripod",
+      "x": -157595.3281,
+      "y": -53146.08594
+    },
+    {
+      "id": "0053C4A0",
+      "type": "EncLiberatorMarker",
+      "x": -117196.8281,
+      "y": 119717.5313
+    },
+    {
+      "id": "0053C4A1",
+      "type": "EncLiberatorMarker",
+      "x": -117115.3203,
+      "y": 119821.7031
+    },
+    {
+      "id": "0053C4A3",
+      "type": "EncLiberatorMarker",
+      "x": -117272.2734,
+      "y": 119451.9766
+    },
+    {
+      "id": "0055276B",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 65370.75391,
+      "y": -146558.7344
+    },
+    {
+      "id": "0055426A",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 127534.7422,
+      "y": 34302.53516
+    },
+    {
+      "id": "0055426B",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 125563.6016,
+      "y": 35245.1875
+    },
+    {
+      "id": "0056154F",
+      "type": "EncEyeBotMarker",
+      "x": -128948.3047,
+      "y": 182084.9219
+    },
+    {
+      "id": "0059AB7E",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 155657.9531,
+      "y": 14659.30176
+    },
+    {
+      "id": "0059AB8B",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 185659.7031,
+      "y": 110658.4375
+    },
+    {
+      "id": "0059AE78",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 158444.5,
+      "y": -90445.16406
+    },
+    {
+      "id": "0059B53D",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": -91581.19531,
+      "y": -118823.1641
+    },
+    {
+      "id": "0059B714",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": -83843.50781,
+      "y": -116779.6641
+    },
+    {
+      "id": "0059B723",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": -82716.36719,
+      "y": -116068.25
+    },
+    {
+      "id": "0059B805",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": -64227.06641,
+      "y": -97731.85156
+    },
+    {
+      "id": "0059BE16",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 4945.442383,
+      "y": -5191.223633
+    },
+    {
+      "id": "0059BEB5",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": -75415.78125,
+      "y": 3453.472412
+    },
+    {
+      "id": "005A0A07",
+      "type": "EncRobobrainMarker",
+      "x": 204910.9219,
+      "y": -60594.22266
+    },
+    {
+      "id": "005A0A14",
+      "type": "EncRobobrainMarker",
+      "x": 204746.2344,
+      "y": -60676.64453
+    },
+    {
+      "id": "005A0A15",
+      "type": "EncRobobrainMarker",
+      "x": 204707.7813,
+      "y": -60471.01563
+    },
+    {
+      "id": "005A659E",
+      "type": "EncTurretMarker",
+      "sub": "BOS",
+      "x": 79480.13281,
+      "y": 72508.44531
+    },
+    {
+      "id": "005C3DF3",
+      "type": "EncTurretMarker",
+      "label": "B",
+      "sub": "BloodEagle",
+      "x": 117912.1875,
+      "y": 7266.176758
+    }
+  ]
+}

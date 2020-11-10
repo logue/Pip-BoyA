@@ -1,0 +1,6063 @@
+{
+  "markers": [
+    {
+      "id": "005222E0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 197159.0625,
+      "y": -55003.45313
+    },
+    {
+      "id": "005222E1",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 197031.0625,
+      "y": -55003.45313
+    },
+    {
+      "id": "00433640",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -121713.3984,
+      "y": 137298.3125
+    },
+    {
+      "id": "00433641",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -121933.9766,
+      "y": 137364.7188
+    },
+    {
+      "id": "00433642",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -121729.2188,
+      "y": 137020.8125
+    },
+    {
+      "id": "00509325",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 51209.48438,
+      "y": -76255.5
+    },
+    {
+      "id": "00509326",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 51337.48438,
+      "y": -76383.5
+    },
+    {
+      "id": "00509327",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 51465.48438,
+      "y": -76255.5
+    },
+    {
+      "id": "00509333",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 59048.39844,
+      "y": -18439.48242
+    },
+    {
+      "id": "00509334",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 59176.39844,
+      "y": -18311.48242
+    },
+    {
+      "id": "00509335",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 59048.39844,
+      "y": -18311.48242
+    },
+    {
+      "id": "00509336",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 58920.39844,
+      "y": -18311.48242
+    },
+    {
+      "id": "00521636",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 115400,
+      "y": -164736
+    },
+    {
+      "id": "00521637",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 115528,
+      "y": -164608
+    },
+    {
+      "id": "00521638",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 115400,
+      "y": -164608
+    },
+    {
+      "id": "00521640",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133529.125,
+      "y": -170341.9531
+    },
+    {
+      "id": "00521641",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133657.125,
+      "y": -170213.9531
+    },
+    {
+      "id": "00521642",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133529.125,
+      "y": -170213.9531
+    },
+    {
+      "id": "00521643",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133401.125,
+      "y": -170213.9531
+    },
+    {
+      "id": "00521712",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 203000.2969,
+      "y": -87624.82813
+    },
+    {
+      "id": "00521713",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 202600.7969,
+      "y": -87840.28906
+    },
+    {
+      "id": "00521753",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 137341.2344,
+      "y": -80359.74219
+    },
+    {
+      "id": "00521754",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 137469.2344,
+      "y": -80231.74219
+    },
+    {
+      "id": "00521800",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 182416.0469,
+      "y": 182341.5469
+    },
+    {
+      "id": "00521818",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 198838.4844,
+      "y": 177681.7656
+    },
+    {
+      "id": "00521819",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 198955.4063,
+      "y": 177839.5938
+    },
+    {
+      "id": "00521823",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 186287.5156,
+      "y": 161489.4688
+    },
+    {
+      "id": "00521825",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 186287.5156,
+      "y": 161617.4688
+    },
+    {
+      "id": "00521826",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 186159.5156,
+      "y": 161617.4688
+    },
+    {
+      "id": "00521830",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 182817.0469,
+      "y": 148072.625
+    },
+    {
+      "id": "00521833",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 182945.0469,
+      "y": 148072.625
+    },
+    {
+      "id": "00521840",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 202917.7344,
+      "y": 133140.125
+    },
+    {
+      "id": "00521841",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 202789.7344,
+      "y": 133140.125
+    },
+    {
+      "id": "00521842",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 202661.7344,
+      "y": 133140.125
+    },
+    {
+      "id": "00521864",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 168223.2031,
+      "y": 113117.7344
+    },
+    {
+      "id": "00521865",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 168351.2031,
+      "y": 112989.7344
+    },
+    {
+      "id": "00521866",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 168479.2031,
+      "y": 113117.7344
+    },
+    {
+      "id": "00521867",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 168351.2031,
+      "y": 113117.7344
+    },
+    {
+      "id": "00521871",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 202896.3438,
+      "y": 104880.9766
+    },
+    {
+      "id": "00521872",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 203024.3438,
+      "y": 105008.9766
+    },
+    {
+      "id": "00521874",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 202768.3438,
+      "y": 105008.9766
+    },
+    {
+      "id": "00522247",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 190705.5938,
+      "y": 67558.57813
+    },
+    {
+      "id": "00522248",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 190833.5938,
+      "y": 67686.57813
+    },
+    {
+      "id": "00522249",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 190705.5938,
+      "y": 67686.57813
+    },
+    {
+      "id": "00522255",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 170065.875,
+      "y": 92289.16406
+    },
+    {
+      "id": "00522256",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 169937.875,
+      "y": 92289.16406
+    },
+    {
+      "id": "00522260",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 161915.7813,
+      "y": 63093.07031
+    },
+    {
+      "id": "00522261",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 161787.7813,
+      "y": 63093.07031
+    },
+    {
+      "id": "00522270",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 194424.4063,
+      "y": 30117.4707
+    },
+    {
+      "id": "00522271",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 194552.4063,
+      "y": 30245.4707
+    },
+    {
+      "id": "00522272",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 194424.4063,
+      "y": 30245.4707
+    },
+    {
+      "id": "00522273",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 194296.4063,
+      "y": 30245.4707
+    },
+    {
+      "id": "00522280",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 154099.4219,
+      "y": 55436.82813
+    },
+    {
+      "id": "00522281",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 153971.4219,
+      "y": 55436.82813
+    },
+    {
+      "id": "00522286",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 165651.8594,
+      "y": 55086.84375
+    },
+    {
+      "id": "00522287",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 165779.8594,
+      "y": 55086.84375
+    },
+    {
+      "id": "00522305",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 140886.4375,
+      "y": -9392.603515
+    },
+    {
+      "id": "00522306",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 140758.4375,
+      "y": -9392.603515
+    },
+    {
+      "id": "00522311",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 143389.8125,
+      "y": 17984.48828
+    },
+    {
+      "id": "00522312",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 143645.8125,
+      "y": 17984.48828
+    },
+    {
+      "id": "00522313",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 143517.8125,
+      "y": 17984.48828
+    },
+    {
+      "id": "00522318",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 137892.5625,
+      "y": 34503.95313
+    },
+    {
+      "id": "00522319",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 137764.5625,
+      "y": 34503.95313
+    },
+    {
+      "id": "00522331",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 145802.4844,
+      "y": 71421.36719
+    },
+    {
+      "id": "00522332",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 145674.4844,
+      "y": 71549.36719
+    },
+    {
+      "id": "00522435",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -62753.28125,
+      "y": -162609.5156
+    },
+    {
+      "id": "00522436",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -62625.28125,
+      "y": -162481.5156
+    },
+    {
+      "id": "00522437",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -62753.28125,
+      "y": -162481.5156
+    },
+    {
+      "id": "00522438",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -62881.28125,
+      "y": -162481.5156
+    },
+    {
+      "id": "00522440",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -71835.39844,
+      "y": -174508.8281
+    },
+    {
+      "id": "00522441",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -71707.39844,
+      "y": -174636.8281
+    },
+    {
+      "id": "00522442",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -71579.39844,
+      "y": -174508.8281
+    },
+    {
+      "id": "00522443",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -71690.76563,
+      "y": -174416.5781
+    },
+    {
+      "id": "00522450",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -79277.61719,
+      "y": -168090.75
+    },
+    {
+      "id": "00522520",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 86683.9375,
+      "y": 107657.1953
+    },
+    {
+      "id": "00522522",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 86555.9375,
+      "y": 107785.1953
+    },
+    {
+      "id": "00522523",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 86683.9375,
+      "y": 107785.1953
+    },
+    {
+      "id": "00522536",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 116725.6016,
+      "y": 60038.51172
+    },
+    {
+      "id": "00522548",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 84399.82813,
+      "y": 144954.2813
+    },
+    {
+      "id": "00522549",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 84566.46875,
+      "y": 145430.3906
+    },
+    {
+      "id": "00522555",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 116725.6016,
+      "y": 60166.51172
+    },
+    {
+      "id": "00522568",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 75415.55469,
+      "y": 139257.6406
+    },
+    {
+      "id": "00522569",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 75281.3125,
+      "y": 139379.0781
+    },
+    {
+      "id": "00522603",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 68182.01563,
+      "y": 106306.4688
+    },
+    {
+      "id": "00522604",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 68553.64063,
+      "y": 106218.3984
+    },
+    {
+      "id": "00522610",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 73041.9375,
+      "y": 114173.3203
+    },
+    {
+      "id": "00522633",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 71561.40625,
+      "y": 126868.4609
+    },
+    {
+      "id": "00522634",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 71689.40625,
+      "y": 126996.4609
+    },
+    {
+      "id": "00522645",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 67575.61719,
+      "y": 140871.75
+    },
+    {
+      "id": "00522646",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 67703.61719,
+      "y": 140871.75
+    },
+    {
+      "id": "00522902",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 150318.6406,
+      "y": 159092.7813
+    },
+    {
+      "id": "00522903",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 150446.6406,
+      "y": 159092.7813
+    },
+    {
+      "id": "00524000",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 125993.8203,
+      "y": 121060.4688
+    },
+    {
+      "id": "00524002",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 125865.8203,
+      "y": 121188.4688
+    },
+    {
+      "id": "00524003",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 125993.8203,
+      "y": 121188.4688
+    },
+    {
+      "id": "00524004",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 126121.8203,
+      "y": 121188.4688
+    },
+    {
+      "id": "00524024",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 131548.9688,
+      "y": 110690.3438
+    },
+    {
+      "id": "00524026",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 131548.9688,
+      "y": 110818.3438
+    },
+    {
+      "id": "00524027",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 131675.8125,
+      "y": 110817.8672
+    },
+    {
+      "id": "00528E03",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -33280.17969,
+      "y": -130178.2109
+    },
+    {
+      "id": "00528102",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 76701.26563,
+      "y": -77176.42188
+    },
+    {
+      "id": "00528103",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 76887.75781,
+      "y": -77562.28125
+    },
+    {
+      "id": "00528104",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 77015.75781,
+      "y": -77562.28125
+    },
+    {
+      "id": "00529426",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 99751.9375,
+      "y": 11040.37695
+    },
+    {
+      "id": "00529428",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 99879.9375,
+      "y": 11168.37793
+    },
+    {
+      "id": "00529429",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 99751.9375,
+      "y": 11168.37695
+    },
+    {
+      "id": "00529433",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 110518.7109,
+      "y": 19017.20117
+    },
+    {
+      "id": "00529434",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 110774.7109,
+      "y": 19017.20508
+    },
+    {
+      "id": "00529435",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 110646.7109,
+      "y": 19017.20313
+    },
+    {
+      "id": "00529489",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 67511.10156,
+      "y": 8757.251953
+    },
+    {
+      "id": "00529493",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 58088.61328,
+      "y": 12106.23047
+    },
+    {
+      "id": "00528E17",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -9573.243164,
+      "y": -120948.8906
+    },
+    {
+      "id": "00528E18",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -9445.243164,
+      "y": -121076.8906
+    },
+    {
+      "id": "00528E23",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -3355.222413,
+      "y": -132792.8281
+    },
+    {
+      "id": "00528E24",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -3227.222412,
+      "y": -132664.8281
+    },
+    {
+      "id": "00528E25",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -3358.542481,
+      "y": -132610.7031
+    },
+    {
+      "id": "00528E26",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -3483.222412,
+      "y": -132664.8281
+    },
+    {
+      "id": "00529E27",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 50474.67578,
+      "y": -93230.64844
+    },
+    {
+      "id": "00529E28",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 50602.67578,
+      "y": -93102.64844
+    },
+    {
+      "id": "00529E29",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 50474.67578,
+      "y": -93102.64844
+    },
+    {
+      "id": "00528E31",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -9496.311523,
+      "y": -144191.3594
+    },
+    {
+      "id": "00529E35",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 54907.5625,
+      "y": -105158.4922
+    },
+    {
+      "id": "00529E36",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 54779.5625,
+      "y": -105158.4922
+    },
+    {
+      "id": "00529E48",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 76480.16406,
+      "y": -141060.5313
+    },
+    {
+      "id": "00529E49",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 76480.16406,
+      "y": -140932.5313
+    },
+    {
+      "id": "00529E53",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 72520.55469,
+      "y": -150057.1406
+    },
+    {
+      "id": "00529E75",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 89480.35156,
+      "y": -102545.6719
+    },
+    {
+      "id": "00529E76",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 89608.35156,
+      "y": -102673.6719
+    },
+    {
+      "id": "00529E77",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 89736.35156,
+      "y": -102545.6719
+    },
+    {
+      "id": "00529E78",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 89608.35156,
+      "y": -102545.6719
+    },
+    {
+      "id": "00529E81",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 99714.45313,
+      "y": -114292.0781
+    },
+    {
+      "id": "00389E82",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 117188.3438,
+      "y": -59925.14453
+    },
+    {
+      "id": "00529E82",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 99842.45313,
+      "y": -114164.0781
+    },
+    {
+      "id": "00529E83",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 99714.45313,
+      "y": -114164.0781
+    },
+    {
+      "id": "00529E84",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 99586.45313,
+      "y": -114164.0781
+    },
+    {
+      "id": "00529E95",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 103500.9609,
+      "y": -95903.74219
+    },
+    {
+      "id": "00529E96",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 103700.0859,
+      "y": -96032.32813
+    },
+    {
+      "id": "000008AC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -76427.94531,
+      "y": 183403.4063
+    },
+    {
+      "id": "000008AD",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -76249.32813,
+      "y": 183430.875
+    },
+    {
+      "id": "000008AE",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -76264.36719,
+      "y": 183282.3281
+    },
+    {
+      "id": "0005A71E",
+      "type": "EncCritterBeaverMarker",
+      "x": 147931.8594,
+      "y": -93299.47656
+    },
+    {
+      "id": "0005A71F",
+      "type": "EncCritterBeaverMarker",
+      "x": 150297.6875,
+      "y": -93630.36719
+    },
+    {
+      "id": "0005A722",
+      "type": "EncCritterBeaverMarker",
+      "x": 151898.125,
+      "y": -93367.65625
+    },
+    {
+      "id": "0005A723",
+      "type": "EncCritterBeaverMarker",
+      "x": 150296,
+      "y": -94880
+    },
+    {
+      "id": "0005A724",
+      "type": "EncCritterBeaverMarker",
+      "x": 151176,
+      "y": -86816
+    },
+    {
+      "id": "0005A725",
+      "type": "EncCritterBeaverMarker",
+      "x": 150368,
+      "y": -86688
+    },
+    {
+      "id": "0018AF79",
+      "type": "EncCritterFireflyMarker",
+      "x": -62319.27344,
+      "y": 88837.90625
+    },
+    {
+      "id": "0018AFC4",
+      "type": "EncCritterFireflyMarker",
+      "x": -62240.58203,
+      "y": 88810.22656
+    },
+    {
+      "id": "0018AFCB",
+      "type": "EncCritterFireflyMarker",
+      "x": -62403.82031,
+      "y": 88846.9375
+    },
+    {
+      "id": "0018AFCD",
+      "type": "EncCritterFireflyMarker",
+      "x": -62147.88672,
+      "y": 88790.75781
+    },
+    {
+      "id": "0018AFCE",
+      "type": "EncCritterFireflyMarker",
+      "x": -62488.91406,
+      "y": 88854.60156
+    },
+    {
+      "id": "0018C7A3",
+      "type": "EncCritterFireflyMarker",
+      "x": -59818.42188,
+      "y": 82744.03906
+    },
+    {
+      "id": "0018C7A5",
+      "type": "EncCritterFireflyMarker",
+      "x": -59894.58984,
+      "y": 82710.00781
+    },
+    {
+      "id": "0018C7B2",
+      "type": "EncCritterFireflyMarker",
+      "x": -59750.8125,
+      "y": 82795.61719
+    },
+    {
+      "id": "0018C7B3",
+      "type": "EncCritterFireflyMarker",
+      "x": -59975.25391,
+      "y": 82660.38281
+    },
+    {
+      "id": "0018C7B4",
+      "type": "EncCritterFireflyMarker",
+      "x": -59683.8125,
+      "y": 82848.57031
+    },
+    {
+      "id": "0018C7F4",
+      "type": "EncCritterFireflyMarker",
+      "x": -59609.67578,
+      "y": 86686.16406
+    },
+    {
+      "id": "0018C7F5",
+      "type": "EncCritterFireflyMarker",
+      "x": -59581.11328,
+      "y": 86607.78906
+    },
+    {
+      "id": "0018C7F6",
+      "type": "EncCritterFireflyMarker",
+      "x": -59656.34766,
+      "y": 86757.24219
+    },
+    {
+      "id": "0018C7F7",
+      "type": "EncCritterFireflyMarker",
+      "x": -59537.32422,
+      "y": 86523.78906
+    },
+    {
+      "id": "0018C7F8",
+      "type": "EncCritterFireflyMarker",
+      "x": -59704.44922,
+      "y": 86827.84375
+    },
+    {
+      "id": "002B91B0",
+      "type": "EncCritterCatMarker",
+      "x": 174686.4063,
+      "y": 13322.49219
+    },
+    {
+      "id": "002B91B1",
+      "type": "EncCritterCatMarker",
+      "x": 174752.4375,
+      "y": 13313.41309
+    },
+    {
+      "id": "002B9FCB",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -112060.4453,
+      "y": 26662.98438
+    },
+    {
+      "id": "002DD19A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -112262.5781,
+      "y": 26650.7832
+    },
+    {
+      "id": "0031C8A0",
+      "type": "EncCritterOpossumMarker",
+      "x": -106124.8828,
+      "y": 18676.39649
+    },
+    {
+      "id": "0031C8A3",
+      "type": "EncCritterOpossumMarker",
+      "x": -106800.6797,
+      "y": 17230.59375
+    },
+    {
+      "id": "003337D6",
+      "type": "EncCritterOpossumMarker",
+      "x": -100750.875,
+      "y": 29567.64648
+    },
+    {
+      "id": "003382DD",
+      "type": "EncCritterBeaverMarker",
+      "x": 148748.6406,
+      "y": -95411.96875
+    },
+    {
+      "id": "00379FE4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 123934.2813,
+      "y": -95639.96875
+    },
+    {
+      "id": "0037AF09",
+      "type": "EncCritterBeaverMarker",
+      "x": 145776,
+      "y": -71536
+    },
+    {
+      "id": "0037AF0A",
+      "type": "EncCritterBeaverMarker",
+      "x": 145864,
+      "y": -71680
+    },
+    {
+      "id": "0037AF0B",
+      "type": "EncCritterBeaverMarker",
+      "x": 145976,
+      "y": -71816
+    },
+    {
+      "id": "00380B9E",
+      "type": "EncCritterBeaverMarker",
+      "x": 174453.7031,
+      "y": -176913.3594
+    },
+    {
+      "id": "00380B9F",
+      "type": "EncCritterBeaverMarker",
+      "x": 174557.9375,
+      "y": -177042.3594
+    },
+    {
+      "id": "00380BA0",
+      "type": "EncCritterBeaverMarker",
+      "x": 174217.5,
+      "y": -177004.6563
+    },
+    {
+      "id": "00380BB3",
+      "type": "EncCritterBeaverMarker",
+      "x": 166294.3281,
+      "y": -54271.37891
+    },
+    {
+      "id": "00380BB4",
+      "type": "EncCritterBeaverMarker",
+      "x": 166330.375,
+      "y": -54192.93359
+    },
+    {
+      "id": "00380BB5",
+      "type": "EncCritterBeaverMarker",
+      "x": 166510.625,
+      "y": -53637.10547
+    },
+    {
+      "id": "00380BB6",
+      "type": "EncCritterBeaverMarker",
+      "x": 166555.7813,
+      "y": -53557.17969
+    },
+    {
+      "id": "00380BC8",
+      "type": "EncCritterBeaverMarker",
+      "x": 162870.3281,
+      "y": -89337.92969
+    },
+    {
+      "id": "00380BC9",
+      "type": "EncCritterBeaverMarker",
+      "x": 162836.375,
+      "y": -89208.24219
+    },
+    {
+      "id": "00380BCA",
+      "type": "EncCritterBeaverMarker",
+      "x": 162380.0625,
+      "y": -90219.25
+    },
+    {
+      "id": "00380BCB",
+      "type": "EncCritterBeaverMarker",
+      "x": 162138.125,
+      "y": -90218.02344
+    },
+    {
+      "id": "00380BD6",
+      "type": "EncCritterBeaverMarker",
+      "x": 162358.1875,
+      "y": -136736.4844
+    },
+    {
+      "id": "00380BD7",
+      "type": "EncCritterBeaverMarker",
+      "x": 162559.7031,
+      "y": -136557.0938
+    },
+    {
+      "id": "00380BD8",
+      "type": "EncCritterBeaverMarker",
+      "x": 162315.1719,
+      "y": -136441.3281
+    },
+    {
+      "id": "00387D8C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -163511.5313,
+      "y": -71411.15625
+    },
+    {
+      "id": "00387D92",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -163009.8125,
+      "y": -70870.19531
+    },
+    {
+      "id": "00389E8B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 116921.2344,
+      "y": -60295.62109
+    },
+    {
+      "id": "0038C432",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -164317.125,
+      "y": -72020.625
+    },
+    {
+      "id": "00396C23",
+      "type": "EncCritterBeaverMarker",
+      "x": 167704.4688,
+      "y": -176647.3594
+    },
+    {
+      "id": "003A0BD9",
+      "type": "EncCritterSquirrelMarker",
+      "x": 6780.664551,
+      "y": -38149.40234
+    },
+    {
+      "id": "003A10A6",
+      "type": "EncCritterSquirrelMarker",
+      "x": 7925.770508,
+      "y": -44314.875
+    },
+    {
+      "id": "003CE883",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 130778.8594,
+      "y": -124061.75
+    },
+    {
+      "id": "003CE884",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 130936.3828,
+      "y": -123972.5234
+    },
+    {
+      "id": "003CE885",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 130813.0078,
+      "y": -123938.375
+    },
+    {
+      "id": "003CE886",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 130689.6328,
+      "y": -123904.2266
+    },
+    {
+      "id": "003D24C9",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 57962.53516,
+      "y": 12074.57715
+    },
+    {
+      "id": "003D61F8",
+      "type": "EncCritterSquirrelMarker",
+      "x": 12725.82715,
+      "y": -50787.83594
+    },
+    {
+      "id": "003D61F9",
+      "type": "EncCritterSquirrelMarker",
+      "x": 13466.16699,
+      "y": -50700.85156
+    },
+    {
+      "id": "003D63F9",
+      "type": "EncCritterRabbitMarker",
+      "x": 6443.112793,
+      "y": -61765.90625
+    },
+    {
+      "id": "003D7521",
+      "type": "EncCritterRabbitMarker",
+      "x": 7893.707519,
+      "y": -63631.95313
+    },
+    {
+      "id": "003D7522",
+      "type": "EncCritterSquirrelMarker",
+      "x": 8652.142578,
+      "y": -62133.73828
+    },
+    {
+      "id": "003E540C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111326.4922,
+      "y": 89478
+    },
+    {
+      "id": "003E540D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111327.4063,
+      "y": 89272.67188
+    },
+    {
+      "id": "003E540E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111329.5156,
+      "y": 89376.27344
+    },
+    {
+      "id": "003E5420",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -96713.85938,
+      "y": 92704.73438
+    },
+    {
+      "id": "003E5421",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -96841.85938,
+      "y": 92704.73438
+    },
+    {
+      "id": "003E542B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -101563.0391,
+      "y": 74542.08594
+    },
+    {
+      "id": "003E542C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -101307.0391,
+      "y": 74542.08594
+    },
+    {
+      "id": "003E542D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -101435.0391,
+      "y": 74542.08594
+    },
+    {
+      "id": "003E5439",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -94057.63281,
+      "y": 68420.51563
+    },
+    {
+      "id": "003E543A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -93904.42969,
+      "y": 68522.74219
+    },
+    {
+      "id": "003E543B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -93832.15625,
+      "y": 68598.28125
+    },
+    {
+      "id": "003E5449",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -97850.29688,
+      "y": 83493.89844
+    },
+    {
+      "id": "003E544B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -97594.29688,
+      "y": 83493.89844
+    },
+    {
+      "id": "003E5456",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -111442.3516,
+      "y": 69570.23438
+    },
+    {
+      "id": "003E5457",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -111314.3516,
+      "y": 69570.23438
+    },
+    {
+      "id": "003E5458",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -111186.3516,
+      "y": 69570.23438
+    },
+    {
+      "id": "003E5462",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -102442.9453,
+      "y": 62956.27344
+    },
+    {
+      "id": "003E5463",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -102186.9453,
+      "y": 62956.27344
+    },
+    {
+      "id": "003E5464",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -102314.9453,
+      "y": 62956.27344
+    },
+    {
+      "id": "003E5470",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -89660.91406,
+      "y": 56919.16797
+    },
+    {
+      "id": "003E5471",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -89404.91406,
+      "y": 56919.16797
+    },
+    {
+      "id": "003E5480",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -87340.14063,
+      "y": 49175.82031
+    },
+    {
+      "id": "003E5481",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -87212.14063,
+      "y": 49175.82031
+    },
+    {
+      "id": "003E5482",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -87084.14063,
+      "y": 49175.82031
+    },
+    {
+      "id": "003E5483",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -87212.14063,
+      "y": 49047.82031
+    },
+    {
+      "id": "003E5491",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -95700.42188,
+      "y": 48368.29688
+    },
+    {
+      "id": "003E5492",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -95444.42188,
+      "y": 48368.29688
+    },
+    {
+      "id": "003E549F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -94274.28125,
+      "y": 36876.125
+    },
+    {
+      "id": "003E54A0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -94402.28125,
+      "y": 37004.125
+    },
+    {
+      "id": "003E54A1",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -94146.28125,
+      "y": 37004.125
+    },
+    {
+      "id": "003E54B0",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -99121.55469,
+      "y": 37717.13672
+    },
+    {
+      "id": "003E54B1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -98993.55469,
+      "y": 37717.13672
+    },
+    {
+      "id": "003E54B2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -98865.55469,
+      "y": 37717.13672
+    },
+    {
+      "id": "003E54BF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -96120,
+      "y": 30224
+    },
+    {
+      "id": "003E54C0",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -95992,
+      "y": 30224
+    },
+    {
+      "id": "003E54C1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -95864,
+      "y": 30224
+    },
+    {
+      "id": "0043CC72",
+      "type": "EncCritterRabbitMarker",
+      "x": 82277.23438,
+      "y": 28659.26563
+    },
+    {
+      "id": "0043CC8F",
+      "type": "EncCritterBeaverMarker",
+      "x": 137395.75,
+      "y": -19840.03125
+    },
+    {
+      "id": "0043CC90",
+      "type": "EncCritterBeaverMarker",
+      "sub": "NoActorCap",
+      "x": 137305.6719,
+      "y": -19191.25195
+    },
+    {
+      "id": "0043CC91",
+      "type": "EncCritterBeaverMarker",
+      "sub": "NoActorCap",
+      "x": 137676.2656,
+      "y": -19437.75
+    },
+    {
+      "id": "0043CC92",
+      "type": "EncCritterBeaverMarker",
+      "sub": "NoActorCap",
+      "x": 136589.8906,
+      "y": -19538.95703
+    },
+    {
+      "id": "0043CCB1",
+      "type": "EncCritterFoxMarker",
+      "sub": "NoActorCap",
+      "x": 73642.75,
+      "y": -19677.55469
+    },
+    {
+      "id": "0043CCB2",
+      "type": "EncCritterFoxMarker",
+      "sub": "NoActorCap",
+      "x": 73328.34375,
+      "y": -19573.94531
+    },
+    {
+      "id": "0043CCB3",
+      "type": "EncCritterFoxMarker",
+      "sub": "NoActorCap",
+      "x": 73924.20313,
+      "y": -19675.33594
+    },
+    {
+      "id": "0043CCB4",
+      "type": "EncCritterFoxMarker",
+      "x": 73794.00781,
+      "y": -19346.08984
+    },
+    {
+      "id": "0043CCCC",
+      "type": "EncCritterOpossumMarker",
+      "sub": "NoActorCap",
+      "x": 9474.851562,
+      "y": 18296.80469
+    },
+    {
+      "id": "0043CCCD",
+      "type": "EncCritterOpossumMarker",
+      "sub": "NoActorCap",
+      "x": 9472.569336,
+      "y": 17890.79883
+    },
+    {
+      "id": "0043CCCE",
+      "type": "EncCritterOpossumMarker",
+      "x": 8697.941406,
+      "y": 18106.7793
+    },
+    {
+      "id": "0043CCCF",
+      "type": "EncCritterOpossumMarker",
+      "sub": "NoActorCap",
+      "x": 9760.929687,
+      "y": 17751.98438
+    },
+    {
+      "id": "0043CCD7",
+      "type": "EncCritterSquirrelMarker",
+      "sub": "NoActorCap",
+      "x": 19307.50977,
+      "y": 5776.895507
+    },
+    {
+      "id": "0043CCD8",
+      "type": "EncCritterSquirrelMarker",
+      "sub": "NoActorCap",
+      "x": 19244.77148,
+      "y": 5398.266113
+    },
+    {
+      "id": "0043CCD9",
+      "type": "EncCritterSquirrelMarker",
+      "sub": "NoActorCap",
+      "x": 19459.41016,
+      "y": 5569.438477
+    },
+    {
+      "id": "0043CCE4",
+      "type": "EncCritterCatMarker",
+      "sub": "NoActorCap",
+      "x": 34037.32031,
+      "y": -5546.71875
+    },
+    {
+      "id": "0043CCE5",
+      "type": "EncCritterCatMarker",
+      "sub": "NoActorCap",
+      "x": 34056.07813,
+      "y": -5634.948731
+    },
+    {
+      "id": "0043CCE6",
+      "type": "EncCritterCatMarker",
+      "x": 34087.88281,
+      "y": -5792.288086
+    },
+    {
+      "id": "0043CCE7",
+      "type": "EncCritterCatMarker",
+      "sub": "NoActorCap",
+      "x": 34070.93359,
+      "y": -5710.114258
+    },
+    {
+      "id": "004429B5",
+      "type": "EncCritterBeaverMarker",
+      "x": 21638.88672,
+      "y": 47575.26172
+    },
+    {
+      "id": "004429BC",
+      "type": "EncCritterBeaverMarker",
+      "x": 21753.79297,
+      "y": 47571.35156
+    },
+    {
+      "id": "004429BD",
+      "type": "EncCritterBeaverMarker",
+      "x": 21524.08399,
+      "y": 47570.09375
+    },
+    {
+      "id": "004E3E2D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -94550.4375,
+      "y": -155153.7813
+    },
+    {
+      "id": "004E3E2E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -94678.4375,
+      "y": -155025.7813
+    },
+    {
+      "id": "004E3E8D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -112838.2031,
+      "y": -96355.46875
+    },
+    {
+      "id": "004E3E8F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -112832.5625,
+      "y": -96757.32813
+    },
+    {
+      "id": "004E3E90",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -113045.7344,
+      "y": -96144.99219
+    },
+    {
+      "id": "004E3ECB",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -79869.70313,
+      "y": -120977.0078
+    },
+    {
+      "id": "004E3ECD",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -79997.70313,
+      "y": -120849.0078
+    },
+    {
+      "id": "004E3ECE",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -79869.70313,
+      "y": -120849.0078
+    },
+    {
+      "id": "004E3ED9",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -105070.4922,
+      "y": -109610.5938
+    },
+    {
+      "id": "004E3EDA",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -105198.4922,
+      "y": -109482.5938
+    },
+    {
+      "id": "004E3EDB",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -104942.4922,
+      "y": -109482.5938
+    },
+    {
+      "id": "004E3EDC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -105070.4922,
+      "y": -109482.5938
+    },
+    {
+      "id": "004E3EF3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111877.3828,
+      "y": -126983.8047
+    },
+    {
+      "id": "004E3EF4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111789.6016,
+      "y": -127174.0781
+    },
+    {
+      "id": "004E3EF5",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111533.6016,
+      "y": -127174.0781
+    },
+    {
+      "id": "004E3EF6",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111661.6016,
+      "y": -127174.0781
+    },
+    {
+      "id": "004E3F34",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -167723.2656,
+      "y": -124343.1875
+    },
+    {
+      "id": "004E3F35",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -167887.3906,
+      "y": -124266.8359
+    },
+    {
+      "id": "004E3F36",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -167646.9063,
+      "y": -124179.0469
+    },
+    {
+      "id": "004E3F37",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -167767.1563,
+      "y": -124222.9375
+    },
+    {
+      "id": "004E3F65",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -149046.6094,
+      "y": -106911.5313
+    },
+    {
+      "id": "004E3F67",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -149174.6094,
+      "y": -106783.5313
+    },
+    {
+      "id": "004E3F68",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -149046.6094,
+      "y": -106783.5313
+    },
+    {
+      "id": "004E3F69",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -148918.6094,
+      "y": -106783.5313
+    },
+    {
+      "id": "004E4A27",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -149739.0469,
+      "y": -172519.2344
+    },
+    {
+      "id": "004E4A28",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -149819.25,
+      "y": -172307.6094
+    },
+    {
+      "id": "004E4A29",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -149803.4375,
+      "y": -172416.6563
+    },
+    {
+      "id": "004E4A2A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -149676.2969,
+      "y": -172427.4688
+    },
+    {
+      "id": "004E4A4F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -129457.4453,
+      "y": -164579.7813
+    },
+    {
+      "id": "004E4A50",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -129585.4453,
+      "y": -164451.7813
+    },
+    {
+      "id": "004E4A51",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -129329.4453,
+      "y": -164451.7813
+    },
+    {
+      "id": "004E4A52",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -129457.4453,
+      "y": -164451.7813
+    },
+    {
+      "id": "004E4A73",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -108685.125,
+      "y": -177876.2813
+    },
+    {
+      "id": "004E4A74",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -108557.125,
+      "y": -177876.2813
+    },
+    {
+      "id": "004E4A75",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -108429.125,
+      "y": -177876.2813
+    },
+    {
+      "id": "004E4A8C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -94751.78906,
+      "y": -98090.39844
+    },
+    {
+      "id": "004E4A8D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -94879.78906,
+      "y": -98090.39844
+    },
+    {
+      "id": "004E4ACF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -153092.7813,
+      "y": -89232.96094
+    },
+    {
+      "id": "004E4AD0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -153220.7813,
+      "y": -89104.96094
+    },
+    {
+      "id": "004E4AD2",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -152964.7813,
+      "y": -89104.96094
+    },
+    {
+      "id": "004E4AD4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -153092.7813,
+      "y": -89104.96094
+    },
+    {
+      "id": "004E4B13",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -167238.4219,
+      "y": -81473.89063
+    },
+    {
+      "id": "004E4B15",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -167366.4219,
+      "y": -81345.89063
+    },
+    {
+      "id": "004E4B16",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -167238.4219,
+      "y": -81345.89063
+    },
+    {
+      "id": "004E4B17",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -167110.4219,
+      "y": -81345.89063
+    },
+    {
+      "id": "004E552A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -117242.5938,
+      "y": -113818.3203
+    },
+    {
+      "id": "004E552C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -117606.9609,
+      "y": -113549.9844
+    },
+    {
+      "id": "004E552D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -117400.7266,
+      "y": -113642.8906
+    },
+    {
+      "id": "004E55CC",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -161856.1563,
+      "y": 191802.6094
+    },
+    {
+      "id": "004E55CE",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -161895.4531,
+      "y": 192076.6563
+    },
+    {
+      "id": "004E55F7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -107833.0234,
+      "y": 192252.0469
+    },
+    {
+      "id": "004E55F8",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -107705.0234,
+      "y": 192252.0469
+    },
+    {
+      "id": "004E5614",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -110132.25,
+      "y": 141754.25
+    },
+    {
+      "id": "004E5615",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -110004.25,
+      "y": 141882.25
+    },
+    {
+      "id": "004E5616",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -110132.25,
+      "y": 141882.25
+    },
+    {
+      "id": "004E5617",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -110260.25,
+      "y": 141882.25
+    },
+    {
+      "id": "004E5625",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -90788.74219,
+      "y": 149710.25
+    },
+    {
+      "id": "004E5626",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -90532.74219,
+      "y": 149710.25
+    },
+    {
+      "id": "004E5627",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -90660.74219,
+      "y": 149710.25
+    },
+    {
+      "id": "004E5635",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -101091.7031,
+      "y": 130457.9219
+    },
+    {
+      "id": "004E5636",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -100963.7031,
+      "y": 130585.9219
+    },
+    {
+      "id": "004E5637",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -101219.7031,
+      "y": 130585.9219
+    },
+    {
+      "id": "004E564B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -115132.9531,
+      "y": 127766.5625
+    },
+    {
+      "id": "004E564C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -115004.9531,
+      "y": 127894.5625
+    },
+    {
+      "id": "004E564D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -115260.9531,
+      "y": 127894.5625
+    },
+    {
+      "id": "004E5659",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -112916.1172,
+      "y": 114487.1484
+    },
+    {
+      "id": "004E5671",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -60141.46094,
+      "y": 119776.2891
+    },
+    {
+      "id": "004E5672",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -60013.46094,
+      "y": 119904.2891
+    },
+    {
+      "id": "004E5673",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -60141.46094,
+      "y": 119904.2891
+    },
+    {
+      "id": "004E5674",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -60269.46094,
+      "y": 119904.2891
+    },
+    {
+      "id": "004E5680",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -66840.01563,
+      "y": 108429.0781
+    },
+    {
+      "id": "004E5681",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -66584.01563,
+      "y": 108429.0781
+    },
+    {
+      "id": "004E568E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -88477.71094,
+      "y": 111633.625
+    },
+    {
+      "id": "004E568F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -88349.71094,
+      "y": 111761.625
+    },
+    {
+      "id": "004E5690",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -88605.71094,
+      "y": 111761.625
+    },
+    {
+      "id": "004E569A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -69109.92969,
+      "y": 129990.9141
+    },
+    {
+      "id": "004E569B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -68853.92969,
+      "y": 129990.9141
+    },
+    {
+      "id": "004E56A6",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -34245.1875,
+      "y": 117362.1953
+    },
+    {
+      "id": "004E56A7",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -34501.1875,
+      "y": 117362.1953
+    },
+    {
+      "id": "004E56B2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -35058.35156,
+      "y": 101217.4688
+    },
+    {
+      "id": "004E56B3",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -34930.35156,
+      "y": 101089.4688
+    },
+    {
+      "id": "004E56B4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -34802.35156,
+      "y": 101217.4688
+    },
+    {
+      "id": "004E56C0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 17789.625,
+      "y": 105637.6484
+    },
+    {
+      "id": "004E56C1",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 17917.625,
+      "y": 105765.6484
+    },
+    {
+      "id": "004E56C2",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 17789.625,
+      "y": 105765.6484
+    },
+    {
+      "id": "004E56C3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 17661.625,
+      "y": 105765.6484
+    },
+    {
+      "id": "004E56CE",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -746.203125,
+      "y": 109529.9609
+    },
+    {
+      "id": "004E56CF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -618.203125,
+      "y": 109401.9609
+    },
+    {
+      "id": "004E56D0",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -490.203125,
+      "y": 109529.9609
+    },
+    {
+      "id": "004E56E5",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -147911.625,
+      "y": 87000.69531
+    },
+    {
+      "id": "004E56E6",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -147783.625,
+      "y": 87128.69531
+    },
+    {
+      "id": "004E56E7",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -148039.625,
+      "y": 87128.69531
+    },
+    {
+      "id": "004E56FE",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -145177.5781,
+      "y": 96595.53906
+    },
+    {
+      "id": "004E56FF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -144921.5781,
+      "y": 96595.53906
+    },
+    {
+      "id": "004E570B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -130512.3594,
+      "y": 81112.45313
+    },
+    {
+      "id": "004E570C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -130256.3594,
+      "y": 81112.45313
+    },
+    {
+      "id": "004E570D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -130274.5703,
+      "y": 80994.23438
+    },
+    {
+      "id": "004E572A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -155609.8281,
+      "y": 57690.80078
+    },
+    {
+      "id": "004E572B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -155481.8281,
+      "y": 57818.80078
+    },
+    {
+      "id": "004E572C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -155737.8281,
+      "y": 57818.80078
+    },
+    {
+      "id": "004E5737",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -160329.9375,
+      "y": 69352.96094
+    },
+    {
+      "id": "004E5738",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -160281.5,
+      "y": 69061.36719
+    },
+    {
+      "id": "004E5739",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -160193.5156,
+      "y": 69147.07031
+    },
+    {
+      "id": "004E573A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -160354.9688,
+      "y": 69136.46875
+    },
+    {
+      "id": "004E5744",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -149694.875,
+      "y": 64822.94922
+    },
+    {
+      "id": "004E5745",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -149566.875,
+      "y": 64950.94922
+    },
+    {
+      "id": "004E5746",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -149822.875,
+      "y": 64950.94922
+    },
+    {
+      "id": "004E5756",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -139090.3594,
+      "y": 63113.99219
+    },
+    {
+      "id": "004E5757",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -138962.3594,
+      "y": 63241.99219
+    },
+    {
+      "id": "004E5758",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -139218.3594,
+      "y": 63241.99219
+    },
+    {
+      "id": "004E5761",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -140192.875,
+      "y": 51886.57031
+    },
+    {
+      "id": "004E5762",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -139936.875,
+      "y": 51886.57031
+    },
+    {
+      "id": "004E577B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -61792.83203,
+      "y": 60359.04688
+    },
+    {
+      "id": "004E577C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -61775.36328,
+      "y": 60579.60938
+    },
+    {
+      "id": "004E577D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -61880.46094,
+      "y": 60455.22266
+    },
+    {
+      "id": "004E578B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -48414.86719,
+      "y": 74981.53906
+    },
+    {
+      "id": "004E578C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -48158.86719,
+      "y": 74981.53906
+    },
+    {
+      "id": "004E5799",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -27590.87891,
+      "y": 69872.07031
+    },
+    {
+      "id": "004E579A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -27462.87891,
+      "y": 70000.07031
+    },
+    {
+      "id": "004E579B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -27718.87891,
+      "y": 70000.07031
+    },
+    {
+      "id": "004E57C9",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -35010.52734,
+      "y": 64368.14844
+    },
+    {
+      "id": "004E57CA",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -34882.52734,
+      "y": 64240.14844
+    },
+    {
+      "id": "004E57CB",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -34754.52734,
+      "y": 64368.14844
+    },
+    {
+      "id": "004E57CC",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -34882.52734,
+      "y": 64368.14844
+    },
+    {
+      "id": "004E57D8",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -157.627198,
+      "y": 67523.28906
+    },
+    {
+      "id": "004E57D9",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 98.372803,
+      "y": 67523.28906
+    },
+    {
+      "id": "004E57E5",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -16.005859,
+      "y": 53160.19922
+    },
+    {
+      "id": "004E57E6",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 111.994141,
+      "y": 53288.19922
+    },
+    {
+      "id": "004E57E7",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -144.00586,
+      "y": 53288.19922
+    },
+    {
+      "id": "004E57F2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 13929.13379,
+      "y": 51938.33984
+    },
+    {
+      "id": "004E57F3",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14185.13379,
+      "y": 51938.33984
+    },
+    {
+      "id": "004E57FE",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 4562.813476,
+      "y": 78800.5625
+    },
+    {
+      "id": "004E57FF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 4818.813477,
+      "y": 78800.5625
+    },
+    {
+      "id": "004E5844",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 2460.720703,
+      "y": 29517.78516
+    },
+    {
+      "id": "004E5845",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 2588.720703,
+      "y": 29645.78516
+    },
+    {
+      "id": "004E5846",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 2460.720703,
+      "y": 29645.78516
+    },
+    {
+      "id": "004E5847",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 2332.720703,
+      "y": 29645.78516
+    },
+    {
+      "id": "004E5858",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -14444.76074,
+      "y": 41217.41797
+    },
+    {
+      "id": "004E5859",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -14316.76074,
+      "y": 41345.41797
+    },
+    {
+      "id": "004E585A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -14444.76074,
+      "y": 41345.41797
+    },
+    {
+      "id": "004E585B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -14572.76074,
+      "y": 41345.41797
+    },
+    {
+      "id": "004E5880",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -80655.88281,
+      "y": 21627.89453
+    },
+    {
+      "id": "004E5881",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -80527.88281,
+      "y": 21755.89453
+    },
+    {
+      "id": "004E5882",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -80655.88281,
+      "y": 21755.89453
+    },
+    {
+      "id": "004E5883",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -80783.88281,
+      "y": 21755.89453
+    },
+    {
+      "id": "004E588C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -80068.82031,
+      "y": 28729.23828
+    },
+    {
+      "id": "004E588D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -79940.82031,
+      "y": 28601.23828
+    },
+    {
+      "id": "004E588E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -79812.82031,
+      "y": 28729.23828
+    },
+    {
+      "id": "004E58B9",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -62476.26172,
+      "y": 44446.67578
+    },
+    {
+      "id": "004E58BA",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -62348.26172,
+      "y": 44318.67578
+    },
+    {
+      "id": "004E58BB",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -62220.26172,
+      "y": 44446.67578
+    },
+    {
+      "id": "004E58D3",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -143907.4219,
+      "y": 16821.17578
+    },
+    {
+      "id": "004E58D4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -143779.4219,
+      "y": 16693.17578
+    },
+    {
+      "id": "004E58D5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -143651.4219,
+      "y": 16821.17578
+    },
+    {
+      "id": "004E58E0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -133518.2031,
+      "y": 18027.25586
+    },
+    {
+      "id": "004E58E1",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -133390.2031,
+      "y": 18155.25586
+    },
+    {
+      "id": "004E58E2",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -133646.2031,
+      "y": 18155.25586
+    },
+    {
+      "id": "004E58F3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -126272.9609,
+      "y": 7076.808105
+    },
+    {
+      "id": "004E58F4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -126528.9609,
+      "y": 7076.808105
+    },
+    {
+      "id": "004E58FF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -125273.1172,
+      "y": 33582.92578
+    },
+    {
+      "id": "004E5900",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -125017.1172,
+      "y": 33582.92578
+    },
+    {
+      "id": "004E590C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -96561.21875,
+      "y": 20858.83789
+    },
+    {
+      "id": "004E590D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -96305.21875,
+      "y": 20858.83789
+    },
+    {
+      "id": "004E5917",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -90284.10938,
+      "y": 4547.64795
+    },
+    {
+      "id": "004E5918",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -90156.10938,
+      "y": 4675.647949
+    },
+    {
+      "id": "004E5919",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -90412.10938,
+      "y": 4675.647949
+    },
+    {
+      "id": "004E592B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -107818.8594,
+      "y": -8156.394043
+    },
+    {
+      "id": "004E592C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -107690.8594,
+      "y": -8028.394043
+    },
+    {
+      "id": "004E592D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -107946.8594,
+      "y": -8028.394043
+    },
+    {
+      "id": "004E5939",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -98627.47656,
+      "y": -14906.5625
+    },
+    {
+      "id": "004E593A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -98499.47656,
+      "y": -15034.5625
+    },
+    {
+      "id": "004E593B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -98371.47656,
+      "y": -14906.5625
+    },
+    {
+      "id": "004E593C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -98499.47656,
+      "y": -14906.5625
+    },
+    {
+      "id": "004E5956",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -142126.8438,
+      "y": -15635.24219
+    },
+    {
+      "id": "004E5957",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -141998.8438,
+      "y": -15507.24219
+    },
+    {
+      "id": "004E5958",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -142254.8438,
+      "y": -15507.24219
+    },
+    {
+      "id": "004E596E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -182485.8594,
+      "y": -35694.22266
+    },
+    {
+      "id": "004E596F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -182637.3281,
+      "y": -35323.65625
+    },
+    {
+      "id": "004E5970",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -182744.9531,
+      "y": -35439.82031
+    },
+    {
+      "id": "004E597D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -164012.7031,
+      "y": -34456.42188
+    },
+    {
+      "id": "004E597E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -163756.7031,
+      "y": -34456.42188
+    },
+    {
+      "id": "004E5987",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -158118.6563,
+      "y": -41009.39844
+    },
+    {
+      "id": "004E5988",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -157990.6563,
+      "y": -40881.39844
+    },
+    {
+      "id": "004E5989",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -158246.6563,
+      "y": -40881.39844
+    },
+    {
+      "id": "004E5996",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -154851.9688,
+      "y": -21144.62305
+    },
+    {
+      "id": "004E5997",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -154723.9688,
+      "y": -21016.62305
+    },
+    {
+      "id": "004E5998",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -154851.9688,
+      "y": -21016.62305
+    },
+    {
+      "id": "004E5999",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -154979.9688,
+      "y": -21016.62305
+    },
+    {
+      "id": "004E59A5",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -141655.8281,
+      "y": -36358.27734
+    },
+    {
+      "id": "004E59A6",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -141527.8281,
+      "y": -36230.27734
+    },
+    {
+      "id": "004E59A7",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -141783.8281,
+      "y": -36230.27734
+    },
+    {
+      "id": "004E59B4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -148195.4531,
+      "y": -40747.45313
+    },
+    {
+      "id": "004E59B5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -148067.4531,
+      "y": -40875.45313
+    },
+    {
+      "id": "004E59B6",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -147939.4531,
+      "y": -40747.45313
+    },
+    {
+      "id": "004E59B7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -148067.4531,
+      "y": -40747.45313
+    },
+    {
+      "id": "004E59C7",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -120000.6406,
+      "y": -22071.43359
+    },
+    {
+      "id": "004E59C8",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -119872.6406,
+      "y": -21943.43359
+    },
+    {
+      "id": "004E59C9",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -120128.6406,
+      "y": -21943.43359
+    },
+    {
+      "id": "004E59D6",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -110797.8047,
+      "y": -33349.26953
+    },
+    {
+      "id": "004E59D7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -110669.8047,
+      "y": -33477.26953
+    },
+    {
+      "id": "004E59D8",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -110541.8047,
+      "y": -33349.26953
+    },
+    {
+      "id": "004E59E9",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111232.6172,
+      "y": -20827.05859
+    },
+    {
+      "id": "004E59EA",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -111488.6172,
+      "y": -20827.05859
+    },
+    {
+      "id": "004E59F4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -149876.2813,
+      "y": -25270.83984
+    },
+    {
+      "id": "004E59F5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -149620.2813,
+      "y": -25270.83984
+    },
+    {
+      "id": "004E59FF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -99944.75,
+      "y": -32095.86719
+    },
+    {
+      "id": "004E5A00",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -99816.75,
+      "y": -31967.86719
+    },
+    {
+      "id": "004E5A01",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -100072.75,
+      "y": -31967.86719
+    },
+    {
+      "id": "004E5A0C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -75714.46094,
+      "y": -30720.54492
+    },
+    {
+      "id": "004E5A0D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -75458.46094,
+      "y": -30720.54492
+    },
+    {
+      "id": "004E5A17",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -79880.73438,
+      "y": -24911.30078
+    },
+    {
+      "id": "004E5A18",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -80136.73438,
+      "y": -24911.30078
+    },
+    {
+      "id": "004E5A23",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -87577.42188,
+      "y": -12349.66211
+    },
+    {
+      "id": "004E5A24",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -87449.42188,
+      "y": -12477.66211
+    },
+    {
+      "id": "004E5A25",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -87321.42188,
+      "y": -12349.66211
+    },
+    {
+      "id": "004E5A35",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -56972.21094,
+      "y": -30211.13672
+    },
+    {
+      "id": "004E5A36",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -56844.21094,
+      "y": -30083.13672
+    },
+    {
+      "id": "004E5A37",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -57100.21094,
+      "y": -30083.13672
+    },
+    {
+      "id": "004E5A45",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -52861.25781,
+      "y": -21749.38281
+    },
+    {
+      "id": "004E5A46",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -52733.25781,
+      "y": -21621.38281
+    },
+    {
+      "id": "004E5A47",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -52989.25781,
+      "y": -21621.38281
+    },
+    {
+      "id": "004E5A77",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -64893.14453,
+      "y": -60453.46484
+    },
+    {
+      "id": "004E5A78",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -64765.14453,
+      "y": -60581.46484
+    },
+    {
+      "id": "004E5A79",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -64637.14453,
+      "y": -60453.46484
+    },
+    {
+      "id": "004E5A85",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -47332.19531,
+      "y": -70689.55469
+    },
+    {
+      "id": "004E5A86",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -47588.19531,
+      "y": -70689.55469
+    },
+    {
+      "id": "004E5A91",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -48268.90625,
+      "y": -61633.48047
+    },
+    {
+      "id": "004E5A92",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -48140.90625,
+      "y": -61761.48047
+    },
+    {
+      "id": "004E5A93",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -48012.90625,
+      "y": -61633.48047
+    },
+    {
+      "id": "004E5AA0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -70304.77344,
+      "y": -80808.73438
+    },
+    {
+      "id": "004E5AA1",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -70176.77344,
+      "y": -80680.73438
+    },
+    {
+      "id": "004E5AA2",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -70304.77344,
+      "y": -80680.73438
+    },
+    {
+      "id": "004E5AA3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -70432.77344,
+      "y": -80680.73438
+    },
+    {
+      "id": "004E5AF2",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -173063.1406,
+      "y": -31864.10352
+    },
+    {
+      "id": "004E5AF3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -172935.1406,
+      "y": -31736.10352
+    },
+    {
+      "id": "004E5AF4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -173191.1406,
+      "y": -31736.10352
+    },
+    {
+      "id": "004EC24C",
+      "type": "EncCritterBeaverMarker",
+      "x": 148400,
+      "y": -95256
+    },
+    {
+      "id": "0050931A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 45570.85547,
+      "y": -74562.54688
+    },
+    {
+      "id": "0050931B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 45698.85547,
+      "y": -74434.54688
+    },
+    {
+      "id": "0050931C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 45442.85547,
+      "y": -74434.54688
+    },
+    {
+      "id": "0050BBFF",
+      "type": "EncCritterFrogMarker",
+      "x": -10527.14453,
+      "y": -55166.89063
+    },
+    {
+      "id": "0050BC00",
+      "type": "EncCritterFrogMarker",
+      "x": -10456.41992,
+      "y": -55273.57813
+    },
+    {
+      "id": "0050BC01",
+      "type": "EncCritterFrogMarker",
+      "x": -10385.69531,
+      "y": -55380.26563
+    },
+    {
+      "id": "0050BC02",
+      "type": "EncCritterFrogMarker",
+      "x": -10314.9707,
+      "y": -55486.95313
+    },
+    {
+      "id": "0050BC03",
+      "type": "EncCritterFrogMarker",
+      "x": -10244.24609,
+      "y": -55593.64063
+    },
+    {
+      "id": "00518BA3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 101306.9688,
+      "y": -119352.7188
+    },
+    {
+      "id": "00518BA4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 101434.9688,
+      "y": -119224.7188
+    },
+    {
+      "id": "00518BA5",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 101178.9688,
+      "y": -119224.7188
+    },
+    {
+      "id": "00518BB0",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -17760.39453,
+      "y": 117258.7109
+    },
+    {
+      "id": "00518BB1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -17632.39453,
+      "y": 117130.7109
+    },
+    {
+      "id": "00518BB2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -17504.39453,
+      "y": 117258.7109
+    },
+    {
+      "id": "0051A159",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -26822.08789,
+      "y": 140620.8125
+    },
+    {
+      "id": "0051A15B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -26694.08789,
+      "y": 140748.8125
+    },
+    {
+      "id": "0051A15D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -26862.03711,
+      "y": 140815.7188
+    },
+    {
+      "id": "0051A183",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -8783.420899,
+      "y": 142990.1094
+    },
+    {
+      "id": "0051A186",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -8527.420898,
+      "y": 142990.1094
+    },
+    {
+      "id": "0051A187",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -8646.970703,
+      "y": 143107.4531
+    },
+    {
+      "id": "0051A19C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -2297.137207,
+      "y": 147637.4688
+    },
+    {
+      "id": "0051A19E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -2169.137208,
+      "y": 147765.4688
+    },
+    {
+      "id": "0051A1AE",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14025.46191,
+      "y": 177269.6094
+    },
+    {
+      "id": "0051A1AF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14153.46191,
+      "y": 177141.6094
+    },
+    {
+      "id": "0051A1B0",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14281.46191,
+      "y": 177269.6094
+    },
+    {
+      "id": "0051A1B1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14168.3125,
+      "y": 177361.7344
+    },
+    {
+      "id": "0051A1B9",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 8535.760742,
+      "y": 167386.0313
+    },
+    {
+      "id": "0051A1BA",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 8663.760742,
+      "y": 167514.0313
+    },
+    {
+      "id": "0051A1BB",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 8407.760742,
+      "y": 167514.0313
+    },
+    {
+      "id": "0051A1CB",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 9692.041993,
+      "y": 162416.9375
+    },
+    {
+      "id": "0051A1CC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 9820.041992,
+      "y": 162544.9375
+    },
+    {
+      "id": "0051A1CD",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 9692.041993,
+      "y": 162544.9375
+    },
+    {
+      "id": "0051A1D4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 13975.44531,
+      "y": 168629.6563
+    },
+    {
+      "id": "0051A1D5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14103.44531,
+      "y": 168501.6563
+    },
+    {
+      "id": "0051A1D6",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14231.44531,
+      "y": 168629.6563
+    },
+    {
+      "id": "0051A1D7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14103.44531,
+      "y": 168629.6563
+    },
+    {
+      "id": "0051A1DF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 7414.935547,
+      "y": 156387.625
+    },
+    {
+      "id": "0051A1E3",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 7542.935547,
+      "y": 156259.625
+    },
+    {
+      "id": "0051A1E5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 7670.935547,
+      "y": 156387.625
+    },
+    {
+      "id": "0051A1E7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 7542.935547,
+      "y": 156387.625
+    },
+    {
+      "id": "0051A20F",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 33022.29297,
+      "y": 163924.4531
+    },
+    {
+      "id": "0051A211",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 33150.29297,
+      "y": 164052.4531
+    },
+    {
+      "id": "0051A217",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -67951.90625,
+      "y": 137431.3438
+    },
+    {
+      "id": "0051A218",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -67823.90625,
+      "y": 137303.3438
+    },
+    {
+      "id": "0051A219",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -67695.90625,
+      "y": 137431.3438
+    },
+    {
+      "id": "0051A221",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -64997.32422,
+      "y": 158303.9219
+    },
+    {
+      "id": "0051A222",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -64869.32422,
+      "y": 158431.9219
+    },
+    {
+      "id": "0051A223",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -64997.32422,
+      "y": 158431.9219
+    },
+    {
+      "id": "0051A224",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -65125.32422,
+      "y": 158431.9219
+    },
+    {
+      "id": "0051A267",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 20653.22266,
+      "y": 172726.9219
+    },
+    {
+      "id": "0051A268",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 20781.22266,
+      "y": 172598.9219
+    },
+    {
+      "id": "0051A269",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 20909.22266,
+      "y": 172726.9219
+    },
+    {
+      "id": "0051A26A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 20788.30664,
+      "y": 172787.2656
+    },
+    {
+      "id": "0051A299",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 6926.193848,
+      "y": 186808.7969
+    },
+    {
+      "id": "0051A29B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 7054.193847,
+      "y": 186936.7969
+    },
+    {
+      "id": "0051A29D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 6926.193848,
+      "y": 186936.7969
+    },
+    {
+      "id": "0051A32A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -42403.27344,
+      "y": 161128.6563
+    },
+    {
+      "id": "0051A32B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -42275.27344,
+      "y": 161256.6563
+    },
+    {
+      "id": "0051A32C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -42403.27344,
+      "y": 161256.6563
+    },
+    {
+      "id": "0051A334",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -37775.00391,
+      "y": 156986.8438
+    },
+    {
+      "id": "0051A335",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -37902.73828,
+      "y": 157115.7969
+    },
+    {
+      "id": "0051A33E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -39061.37891,
+      "y": 148467.1406
+    },
+    {
+      "id": "0051A33F",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -38933.37891,
+      "y": 148339.1406
+    },
+    {
+      "id": "0051A340",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -38805.37891,
+      "y": 148467.1406
+    },
+    {
+      "id": "0051A348",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -29786.11524,
+      "y": 146295.0781
+    },
+    {
+      "id": "0051A349",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -29599.27148,
+      "y": 146429.9531
+    },
+    {
+      "id": "0051A34A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -29786.11524,
+      "y": 146423.0781
+    },
+    {
+      "id": "0051A34B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -29914.11523,
+      "y": 146423.0781
+    },
+    {
+      "id": "0051A36B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -2124.378907,
+      "y": 173239.1719
+    },
+    {
+      "id": "0051A36C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -1996.378906,
+      "y": 173367.1719
+    },
+    {
+      "id": "0051A36D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -2124.378907,
+      "y": 173367.1719
+    },
+    {
+      "id": "0051A36E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -2252.378906,
+      "y": 173367.1719
+    },
+    {
+      "id": "0051A376",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -527.371827,
+      "y": 189937.6094
+    },
+    {
+      "id": "0051A377",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -399.371826,
+      "y": 189937.6094
+    },
+    {
+      "id": "0051A37E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -7317.291504,
+      "y": 184276.875
+    },
+    {
+      "id": "0051A37F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -7189.291504,
+      "y": 184404.875
+    },
+    {
+      "id": "0051A390",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -23295.79297,
+      "y": 184721.8906
+    },
+    {
+      "id": "0051A391",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -23187.75,
+      "y": 184921.0313
+    },
+    {
+      "id": "0051A392",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -23315.75,
+      "y": 184921.0313
+    },
+    {
+      "id": "0051A393",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -23449.89258,
+      "y": 184857.9531
+    },
+    {
+      "id": "0051A39B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -26356.43359,
+      "y": 177536.125
+    },
+    {
+      "id": "0051A39C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -26100.43359,
+      "y": 177536.125
+    },
+    {
+      "id": "0051A3A4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -35879.93359,
+      "y": 174285.1719
+    },
+    {
+      "id": "0051A3A5",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -35751.93359,
+      "y": 174413.1719
+    },
+    {
+      "id": "0051A3A6",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -35879.93359,
+      "y": 174413.1719
+    },
+    {
+      "id": "0051A3A7",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -36007.93359,
+      "y": 174413.1719
+    },
+    {
+      "id": "0051A3B0",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -44473.39453,
+      "y": 180981.6875
+    },
+    {
+      "id": "0051A3B1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -44345.39453,
+      "y": 180853.6875
+    },
+    {
+      "id": "0051A3B2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -44308.375,
+      "y": 181077.75
+    },
+    {
+      "id": "0051C60D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -70009.44531,
+      "y": 144619.4219
+    },
+    {
+      "id": "0051C60E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -69881.44531,
+      "y": 144747.4219
+    },
+    {
+      "id": "0051C60F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -70009.44531,
+      "y": 144747.4219
+    },
+    {
+      "id": "0051C610",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -70137.44531,
+      "y": 144747.4219
+    },
+    {
+      "id": "0051C618",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -67306.00781,
+      "y": 143642.6719
+    },
+    {
+      "id": "0051C619",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -67203.92969,
+      "y": 144018.5781
+    },
+    {
+      "id": "0051C61A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -67449.17969,
+      "y": 143950.8438
+    },
+    {
+      "id": "0051C621",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -68529.69531,
+      "y": 153493.1094
+    },
+    {
+      "id": "0051C622",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -68773.6875,
+      "y": 153534.375
+    },
+    {
+      "id": "0051C64D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -117232,
+      "y": 93000
+    },
+    {
+      "id": "0051C64E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -116960,
+      "y": 92600
+    },
+    {
+      "id": "0051C7EB",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 21616.33203,
+      "y": 191866.75
+    },
+    {
+      "id": "0051C7EC",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 21744.33203,
+      "y": 191738.75
+    },
+    {
+      "id": "0051C7FA",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 35153.47656,
+      "y": 199498.9531
+    },
+    {
+      "id": "0051C7FB",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 34948.51953,
+      "y": 199553.2969
+    },
+    {
+      "id": "0051C7FC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 34790.09766,
+      "y": 199509.4063
+    },
+    {
+      "id": "0051C807",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 40528.125,
+      "y": 193010.1094
+    },
+    {
+      "id": "0051C808",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 40268.55469,
+      "y": 193170.9844
+    },
+    {
+      "id": "0051C811",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 18004.71289,
+      "y": 199811.5
+    },
+    {
+      "id": "0051C812",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 17876.71289,
+      "y": 199811.5
+    },
+    {
+      "id": "0051C813",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 17748.71289,
+      "y": 199811.5
+    },
+    {
+      "id": "0051C81E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 10188.23926,
+      "y": 196624.6563
+    },
+    {
+      "id": "0051C820",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 10113.23828,
+      "y": 196834.5938
+    },
+    {
+      "id": "0051C82A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -2842.726563,
+      "y": 199842.6563
+    },
+    {
+      "id": "0051C82B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -2968.768311,
+      "y": 199952.8125
+    },
+    {
+      "id": "0051C82C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -3098.726562,
+      "y": 199842.6563
+    },
+    {
+      "id": "0051C83F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -18765.31836,
+      "y": 200888.4063
+    },
+    {
+      "id": "0051C840",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -18637.31836,
+      "y": 201016.4063
+    },
+    {
+      "id": "0051C841",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -18765.31836,
+      "y": 201016.4063
+    },
+    {
+      "id": "0051C842",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -18893.31836,
+      "y": 201016.4063
+    },
+    {
+      "id": "0051C84A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -44511.82031,
+      "y": 199435.6406
+    },
+    {
+      "id": "0051C84C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -44407.46484,
+      "y": 199678.3906
+    },
+    {
+      "id": "0051C84D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -44639.82031,
+      "y": 199563.6406
+    },
+    {
+      "id": "0051C854",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -46720,
+      "y": 190104
+    },
+    {
+      "id": "0051C855",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -46720,
+      "y": 189848
+    },
+    {
+      "id": "0051C856",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -46592,
+      "y": 189976
+    },
+    {
+      "id": "0051C857",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -46720,
+      "y": 189976
+    },
+    {
+      "id": "0051C85F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -53165.68359,
+      "y": 182232.7813
+    },
+    {
+      "id": "0051C860",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -53037.68359,
+      "y": 182360.7813
+    },
+    {
+      "id": "0051C861",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -53165.68359,
+      "y": 182360.7813
+    },
+    {
+      "id": "0051C862",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -53293.68359,
+      "y": 182360.7813
+    },
+    {
+      "id": "0051C872",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -82829.64063,
+      "y": 158046.5938
+    },
+    {
+      "id": "0051C873",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -82701.64063,
+      "y": 158174.5938
+    },
+    {
+      "id": "0051C874",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -82829.64063,
+      "y": 158174.5938
+    },
+    {
+      "id": "0051C875",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -82957.64063,
+      "y": 158174.5938
+    },
+    {
+      "id": "0051C87E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -76078.51563,
+      "y": 157084.1094
+    },
+    {
+      "id": "0051C87F",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -75950.51563,
+      "y": 157212.1094
+    },
+    {
+      "id": "0051C888",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 16746.73633,
+      "y": 120086.8438
+    },
+    {
+      "id": "0051C889",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 16874.73633,
+      "y": 120214.8438
+    },
+    {
+      "id": "0051C891",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14709.05664,
+      "y": 142580.5469
+    },
+    {
+      "id": "0051C892",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 14837.05664,
+      "y": 142452.5469
+    },
+    {
+      "id": "0051C89A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 13614.90137,
+      "y": 149786.7188
+    },
+    {
+      "id": "0051C89B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 13870.90137,
+      "y": 149786.7188
+    },
+    {
+      "id": "0051C8A3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 19212.33594,
+      "y": 156559.5625
+    },
+    {
+      "id": "0051C8A4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 19368.30273,
+      "y": 156743.25
+    },
+    {
+      "id": "0051C8A5",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 19084.33594,
+      "y": 156687.5625
+    },
+    {
+      "id": "0051C8AD",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 19709.12695,
+      "y": 162616.25
+    },
+    {
+      "id": "0051C8AE",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 19837.12695,
+      "y": 162744.25
+    },
+    {
+      "id": "0051C8AF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 19709.12695,
+      "y": 162744.25
+    },
+    {
+      "id": "00520CEC",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 24503.85938,
+      "y": -87166.9375
+    },
+    {
+      "id": "00520CED",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 24793.05273,
+      "y": -87695.67188
+    },
+    {
+      "id": "00520CEE",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 25114.18555,
+      "y": -87096.32813
+    },
+    {
+      "id": "00520CEF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 24887.39453,
+      "y": -87049.94531
+    },
+    {
+      "id": "0052164B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 141455.9688,
+      "y": -173316.5469
+    },
+    {
+      "id": "0052164C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 141583.9688,
+      "y": -173188.5469
+    },
+    {
+      "id": "0052168C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 189027.1719,
+      "y": -173850.2813
+    },
+    {
+      "id": "0052168E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 189125.9063,
+      "y": -173716.4531
+    },
+    {
+      "id": "0052168F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 188899.1719,
+      "y": -173722.2813
+    },
+    {
+      "id": "005216BE",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 197069.9219,
+      "y": -142241.1406
+    },
+    {
+      "id": "005216BF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 197197.9219,
+      "y": -142369.1406
+    },
+    {
+      "id": "005216C1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 197197.9219,
+      "y": -142241.1406
+    },
+    {
+      "id": "005216D7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 177260.0781,
+      "y": -121367.8984
+    },
+    {
+      "id": "005216D8",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 177388.0781,
+      "y": -121495.8984
+    },
+    {
+      "id": "005216DA",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 177388.0781,
+      "y": -121367.8984
+    },
+    {
+      "id": "005216FA",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 183770.0781,
+      "y": -108257.0078
+    },
+    {
+      "id": "005216FB",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 183513.8125,
+      "y": -108243.7266
+    },
+    {
+      "id": "0052175E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 129087.0703,
+      "y": -76665.3125
+    },
+    {
+      "id": "005217A3",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 116160,
+      "y": -137248
+    },
+    {
+      "id": "005217A4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 116288,
+      "y": -137376
+    },
+    {
+      "id": "005217A5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 116416,
+      "y": -137248
+    },
+    {
+      "id": "005217A6",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 116288,
+      "y": -137248
+    },
+    {
+      "id": "005217AF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 122511.5234,
+      "y": -149891.0469
+    },
+    {
+      "id": "005217B0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 122383.5234,
+      "y": -149891.0469
+    },
+    {
+      "id": "005217BB",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 125239.2188,
+      "y": -159050.6875
+    },
+    {
+      "id": "005217C8",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 136373.2188,
+      "y": -112456.5391
+    },
+    {
+      "id": "005217C9",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 136250.8125,
+      "y": -112381.3516
+    },
+    {
+      "id": "005217CA",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 136117.2188,
+      "y": -112456.5391
+    },
+    {
+      "id": "005217D2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 144923.3281,
+      "y": -111897.7891
+    },
+    {
+      "id": "005217D3",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 145051.3281,
+      "y": -112025.7891
+    },
+    {
+      "id": "005217D5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 145051.3281,
+      "y": -111897.7891
+    },
+    {
+      "id": "005217FD",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 182544.0469,
+      "y": 182213.5469
+    },
+    {
+      "id": "005217FE",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 182672.0469,
+      "y": 182341.5469
+    },
+    {
+      "id": "005217FF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 182531.8438,
+      "y": 182438.5469
+    },
+    {
+      "id": "0052181A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 198834.7031,
+      "y": 177906.7031
+    },
+    {
+      "id": "0052183F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 202789.7344,
+      "y": 133012.125
+    },
+    {
+      "id": "0052185A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 178218.7813,
+      "y": 132842.9219
+    },
+    {
+      "id": "0052185B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 178090.7813,
+      "y": 132842.9219
+    },
+    {
+      "id": "0052225F",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 161659.7813,
+      "y": 63093.07031
+    },
+    {
+      "id": "0052227F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 154227.4219,
+      "y": 55436.82813
+    },
+    {
+      "id": "0052229D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 194654.7656,
+      "y": 5859.126953
+    },
+    {
+      "id": "0052229E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 194782.7656,
+      "y": 5987.126953
+    },
+    {
+      "id": "0052229F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 194654.7656,
+      "y": 5987.126953
+    },
+    {
+      "id": "005222A0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 194526.7656,
+      "y": 5987.126953
+    },
+    {
+      "id": "005222AB",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 168569.3125,
+      "y": -11953.61816
+    },
+    {
+      "id": "005222AC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 168569.3125,
+      "y": -11825.61816
+    },
+    {
+      "id": "005222AD",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 168441.3125,
+      "y": -11825.61816
+    },
+    {
+      "id": "005222CA",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 178130.6875,
+      "y": -22706.19141
+    },
+    {
+      "id": "005222CB",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 178058.125,
+      "y": -22859.07227
+    },
+    {
+      "id": "005222CC",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 177976.4531,
+      "y": -22711.66016
+    },
+    {
+      "id": "005222D1",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 186014.8594,
+      "y": -35355.32031
+    },
+    {
+      "id": "005222D2",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 186142.8594,
+      "y": -35227.32031
+    },
+    {
+      "id": "005222D3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 186014.8594,
+      "y": -35227.32031
+    },
+    {
+      "id": "005222D4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 185886.8594,
+      "y": -35227.32031
+    },
+    {
+      "id": "005222D9",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 202905.5781,
+      "y": -34934.16406
+    },
+    {
+      "id": "005222DA",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 203194.4375,
+      "y": -34944.66797
+    },
+    {
+      "id": "005222DF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 197031.0625,
+      "y": -55131.45313
+    },
+    {
+      "id": "0052242A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -56360.54297,
+      "y": -171830.6563
+    },
+    {
+      "id": "0052242B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -56232.54297,
+      "y": -171702.6563
+    },
+    {
+      "id": "0052242C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -56360.54297,
+      "y": -171702.6563
+    },
+    {
+      "id": "0052242D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -56488.54297,
+      "y": -171702.6563
+    },
+    {
+      "id": "0052244F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -79149.61719,
+      "y": -168090.75
+    },
+    {
+      "id": "005224BA",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 46690.41016,
+      "y": -173217.2344
+    },
+    {
+      "id": "005224BC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 46643.79688,
+      "y": -173024.2344
+    },
+    {
+      "id": "0052252A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 94280.71875,
+      "y": 125355.2734
+    },
+    {
+      "id": "0052252B",
+      "type": "EncCritterBeaverMarker",
+      "x": 94152.71875,
+      "y": 125483.2734
+    },
+    {
+      "id": "0052252C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 94408.71875,
+      "y": 125483.2734
+    },
+    {
+      "id": "0052252D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 94280.71875,
+      "y": 125483.2734
+    },
+    {
+      "id": "0052254A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 84151.82813,
+      "y": 145385.3281
+    },
+    {
+      "id": "0052256A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 75537,
+      "y": 139391.8906
+    },
+    {
+      "id": "0052256B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 75409.15625,
+      "y": 139385.4844
+    },
+    {
+      "id": "0052257C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 60509.33203,
+      "y": 150379.8906
+    },
+    {
+      "id": "0052257E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 60381.33203,
+      "y": 150507.8906
+    },
+    {
+      "id": "0052257F",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 60509.33203,
+      "y": 150507.8906
+    },
+    {
+      "id": "005225A8",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 86700.33594,
+      "y": 88351.29688
+    },
+    {
+      "id": "005225A9",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 86572.33594,
+      "y": 88479.29688
+    },
+    {
+      "id": "005225AA",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 86700.33594,
+      "y": 88479.29688
+    },
+    {
+      "id": "005225B7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 93589.53906,
+      "y": 74501.80469
+    },
+    {
+      "id": "005225B9",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 93461.53906,
+      "y": 74629.80469
+    },
+    {
+      "id": "005225BA",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 93589.53906,
+      "y": 74629.80469
+    },
+    {
+      "id": "005225BB",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 93717.53906,
+      "y": 74629.80469
+    },
+    {
+      "id": "005225D1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 98368.875,
+      "y": 61317.16016
+    },
+    {
+      "id": "005225D3",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 98240.875,
+      "y": 61445.16016
+    },
+    {
+      "id": "005225D4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 98253.42188,
+      "y": 61615.46484
+    },
+    {
+      "id": "005225D5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 98575.77344,
+      "y": 61273.08984
+    },
+    {
+      "id": "0052260D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 72913.9375,
+      "y": 114045.3203
+    },
+    {
+      "id": "0052260F",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 72913.9375,
+      "y": 114173.3203
+    },
+    {
+      "id": "0052263C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 66524.59375,
+      "y": 119598.8047
+    },
+    {
+      "id": "0052263E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 66396.59375,
+      "y": 119726.8047
+    },
+    {
+      "id": "0052263F",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 66652.59375,
+      "y": 119726.8047
+    },
+    {
+      "id": "005228A3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 113160.2578,
+      "y": 72137.78906
+    },
+    {
+      "id": "005228A4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 113162.9219,
+      "y": 72318.79688
+    },
+    {
+      "id": "005228A6",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 113252.0938,
+      "y": 72226.97656
+    },
+    {
+      "id": "005228B0",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 108202.5938,
+      "y": 56365.22656
+    },
+    {
+      "id": "005228B2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 108074.5938,
+      "y": 56493.22656
+    },
+    {
+      "id": "005228B3",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 108202.5938,
+      "y": 56493.22656
+    },
+    {
+      "id": "005228B4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 108330.5938,
+      "y": 56493.22656
+    },
+    {
+      "id": "005228BE",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 110780.9297,
+      "y": 48562.65234
+    },
+    {
+      "id": "005228BF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 110652.9297,
+      "y": 48690.65234
+    },
+    {
+      "id": "005228C1",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 110780.9297,
+      "y": 48690.65234
+    },
+    {
+      "id": "005228CA",
+      "type": "EncCritterFrogMarker",
+      "x": 118452.9609,
+      "y": 50019.22656
+    },
+    {
+      "id": "005228CC",
+      "type": "EncCritterFrogMarker",
+      "sub": "NoActorCap",
+      "x": 118324.9609,
+      "y": 50147.22656
+    },
+    {
+      "id": "005228CD",
+      "type": "EncCritterFrogMarker",
+      "sub": "NoActorCap",
+      "x": 118452.9609,
+      "y": 50147.22656
+    },
+    {
+      "id": "005228CE",
+      "type": "EncCritterFrogMarker",
+      "sub": "NoActorCap",
+      "x": 118580.9609,
+      "y": 50147.22656
+    },
+    {
+      "id": "00523F42",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 148310.0625,
+      "y": 170925.5781
+    },
+    {
+      "id": "00523F43",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 148182.0625,
+      "y": 171053.5781
+    },
+    {
+      "id": "00523F44",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 148438.0625,
+      "y": 171053.5781
+    },
+    {
+      "id": "00523F45",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 148310.0625,
+      "y": 171053.5781
+    },
+    {
+      "id": "00523F50",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 131206.3438,
+      "y": 188708.9375
+    },
+    {
+      "id": "00523F51",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 131334.3438,
+      "y": 188708.9375
+    },
+    {
+      "id": "00523F67",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 137407.0625,
+      "y": 172843.75
+    },
+    {
+      "id": "00523F68",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 137058.7031,
+      "y": 172962.2813
+    },
+    {
+      "id": "00523F69",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 137535.0625,
+      "y": 172971.75
+    },
+    {
+      "id": "00523F6A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 137435.4844,
+      "y": 173163
+    },
+    {
+      "id": "00523F84",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133428.4531,
+      "y": 202362.3125
+    },
+    {
+      "id": "00523F85",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133300.4531,
+      "y": 202490.3125
+    },
+    {
+      "id": "00523F86",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133428.4531,
+      "y": 202490.3125
+    },
+    {
+      "id": "00523F9D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 148667.1563,
+      "y": 200303.9375
+    },
+    {
+      "id": "00523F9E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 148587.5781,
+      "y": 200376.7031
+    },
+    {
+      "id": "00523F9F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 149328.4375,
+      "y": 200368.0938
+    },
+    {
+      "id": "00523FA2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 167377.8438,
+      "y": 193681.7188
+    },
+    {
+      "id": "00523FA4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 167111.8281,
+      "y": 193905.6563
+    },
+    {
+      "id": "00523FA5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 167377.8438,
+      "y": 193809.7188
+    },
+    {
+      "id": "00523FA6",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 167505.8438,
+      "y": 193809.7188
+    },
+    {
+      "id": "00523FC2",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 178855.375,
+      "y": 201112.2031
+    },
+    {
+      "id": "00523FC3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 178727.375,
+      "y": 201240.2031
+    },
+    {
+      "id": "00523FC4",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 178983.375,
+      "y": 201240.2031
+    },
+    {
+      "id": "00523FC5",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 178855.375,
+      "y": 201240.2031
+    },
+    {
+      "id": "00523FEC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 165275.9375,
+      "y": 204441.8281
+    },
+    {
+      "id": "00523FED",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 165099.0781,
+      "y": 204403.2813
+    },
+    {
+      "id": "00523FEE",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 165237.4063,
+      "y": 204618.7031
+    },
+    {
+      "id": "00523FEF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 165168.25,
+      "y": 204510.9844
+    },
+    {
+      "id": "0052401B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 136300.8594,
+      "y": 131731.3438
+    },
+    {
+      "id": "0052401C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 136172.8594,
+      "y": 131731.3438
+    },
+    {
+      "id": "0052404D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133055.8125,
+      "y": 96188.65625
+    },
+    {
+      "id": "0052404E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133197.6563,
+      "y": 96412.82813
+    },
+    {
+      "id": "0052404F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 133055.8125,
+      "y": 96316.65625
+    },
+    {
+      "id": "00526C78",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -54662.55078,
+      "y": -132612.3281
+    },
+    {
+      "id": "00526C79",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -54790.55078,
+      "y": -132484.3281
+    },
+    {
+      "id": "00526C7A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -54534.55078,
+      "y": -132484.3281
+    },
+    {
+      "id": "00526C7B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -54662.55078,
+      "y": -132484.3281
+    },
+    {
+      "id": "005280C4",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 38052.54297,
+      "y": -81016.40625
+    },
+    {
+      "id": "005280C6",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 37924.54297,
+      "y": -80888.40625
+    },
+    {
+      "id": "005280C7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 38052.54297,
+      "y": -80888.40625
+    },
+    {
+      "id": "00528BBD",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 27914.14063,
+      "y": 31479.96484
+    },
+    {
+      "id": "00528BBF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 27911.16797,
+      "y": 31655.38281
+    },
+    {
+      "id": "00528BF5",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 69806.14844,
+      "y": 81599.86719
+    },
+    {
+      "id": "00528BF7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 69678.14844,
+      "y": 81727.86719
+    },
+    {
+      "id": "00528BF8",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 69806.14844,
+      "y": 81727.86719
+    },
+    {
+      "id": "00528D15",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 43628.86328,
+      "y": -158074.6719
+    },
+    {
+      "id": "00528D16",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 43756.86328,
+      "y": -158202.6719
+    },
+    {
+      "id": "00528D17",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 43884.86328,
+      "y": -158074.6719
+    },
+    {
+      "id": "00528D18",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 43756.86328,
+      "y": -158074.6719
+    },
+    {
+      "id": "00528D20",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 45996.51172,
+      "y": -145071.8594
+    },
+    {
+      "id": "00528D21",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 45868.51172,
+      "y": -145071.8594
+    },
+    {
+      "id": "00528D29",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 31082.72852,
+      "y": -149333.3594
+    },
+    {
+      "id": "00528D2A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 31167.80859,
+      "y": -149120.9844
+    },
+    {
+      "id": "00528D2B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 30951.76563,
+      "y": -149143.6875
+    },
+    {
+      "id": "00528D34",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 22018.88281,
+      "y": -146221.625
+    },
+    {
+      "id": "00528D35",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 22264.35352,
+      "y": -146241.4063
+    },
+    {
+      "id": "00528D3E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 22074.95313,
+      "y": -157725.5
+    },
+    {
+      "id": "00528D47",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 22444.41211,
+      "y": -166866.7969
+    },
+    {
+      "id": "00528D48",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 22700.41211,
+      "y": -166866.7969
+    },
+    {
+      "id": "00528D49",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 22586.63477,
+      "y": -166793.9219
+    },
+    {
+      "id": "00528D79",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 31691.5332,
+      "y": -107462.4063
+    },
+    {
+      "id": "00528D7A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 31819.5332,
+      "y": -107590.4063
+    },
+    {
+      "id": "00528D85",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 23648.60938,
+      "y": -113695.5391
+    },
+    {
+      "id": "00528D86",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 23776.60938,
+      "y": -113567.5391
+    },
+    {
+      "id": "00528D91",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 51140.77344,
+      "y": -134580.1719
+    },
+    {
+      "id": "00528D92",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 51268.77344,
+      "y": -134452.1719
+    },
+    {
+      "id": "00528D93",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 51140.77344,
+      "y": -134452.1719
+    },
+    {
+      "id": "00528D94",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 51012.77344,
+      "y": -134452.1719
+    },
+    {
+      "id": "00528D9E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 65108.875,
+      "y": -141205.3281
+    },
+    {
+      "id": "00528D9F",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 65236.875,
+      "y": -141333.3281
+    },
+    {
+      "id": "00528DA0",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 65364.875,
+      "y": -141205.3281
+    },
+    {
+      "id": "00528DA1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 65236.875,
+      "y": -141205.3281
+    },
+    {
+      "id": "00528DAB",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 43758.8125,
+      "y": -153576.9531
+    },
+    {
+      "id": "00528DAC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 43630.8125,
+      "y": -153576.9531
+    },
+    {
+      "id": "00528DAD",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 43502.8125,
+      "y": -153576.9531
+    },
+    {
+      "id": "00528DB9",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 22826.86523,
+      "y": -125193.7031
+    },
+    {
+      "id": "00528DC1",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 17981.11328,
+      "y": -132975.7656
+    },
+    {
+      "id": "00528DC2",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 18109.11328,
+      "y": -133103.7656
+    },
+    {
+      "id": "00528DCF",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 5269.196289,
+      "y": -145042.5469
+    },
+    {
+      "id": "00528DD9",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -16874.24023,
+      "y": -141319.0313
+    },
+    {
+      "id": "00528DDC",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -17002.24023,
+      "y": -141191.0313
+    },
+    {
+      "id": "00528DE6",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -27088,
+      "y": -146616
+    },
+    {
+      "id": "00528DE9",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": -26960,
+      "y": -146616
+    },
+    {
+      "id": "00528DF3",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -34921.83203,
+      "y": -140980.4531
+    },
+    {
+      "id": "00528DF6",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -35049.83203,
+      "y": -140852.4531
+    },
+    {
+      "id": "00528E0B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -23561.37695,
+      "y": -123429.7344
+    },
+    {
+      "id": "00528E0C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": -23433.37695,
+      "y": -123301.7344
+    },
+    {
+      "id": "005293EF",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 92060.53125,
+      "y": 28172.65625
+    },
+    {
+      "id": "005293F0",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 91971.00781,
+      "y": 28196.53125
+    },
+    {
+      "id": "0052940C",
+      "type": "EncCritterRabbitMarker",
+      "sub": "NoActorCap",
+      "x": 82338.22656,
+      "y": 28523.69141
+    },
+    {
+      "id": "0052940E",
+      "type": "EncCritterRabbitMarker",
+      "sub": "NoActorCap",
+      "x": 82485.89063,
+      "y": 28570.45117
+    },
+    {
+      "id": "0052940F",
+      "type": "EncCritterRabbitMarker",
+      "sub": "NoActorCap",
+      "x": 82613.89063,
+      "y": 28570.45117
+    },
+    {
+      "id": "0052941A",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 97865.21094,
+      "y": 22248.03711
+    },
+    {
+      "id": "0052941C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 97737.21094,
+      "y": 22376.03711
+    },
+    {
+      "id": "0052941D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 97865.21094,
+      "y": 22376.03711
+    },
+    {
+      "id": "0052941E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 97993.21094,
+      "y": 22376.03711
+    },
+    {
+      "id": "0052948A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 67635.02344,
+      "y": 8650.219726
+    },
+    {
+      "id": "0052948B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 67639.10156,
+      "y": 8885.25293
+    },
+    {
+      "id": "00529E2A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 50346.67578,
+      "y": -93102.64844
+    },
+    {
+      "id": "00529E4A",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 76352.16406,
+      "y": -140932.5313
+    },
+    {
+      "id": "00529E5B",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 84470.875,
+      "y": -130953.75
+    },
+    {
+      "id": "00529E5C",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 84598.875,
+      "y": -131081.75
+    },
+    {
+      "id": "00529E5D",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 84726.875,
+      "y": -130953.75
+    },
+    {
+      "id": "00529E5E",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 84598.875,
+      "y": -130953.75
+    },
+    {
+      "id": "00529E6B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 75558.75781,
+      "y": -109901.9844
+    },
+    {
+      "id": "00529E6C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 75430.75781,
+      "y": -109773.9844
+    },
+    {
+      "id": "00529E8D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 100878.0234,
+      "y": -104972.6641
+    },
+    {
+      "id": "00529E9E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 100381.25,
+      "y": -84537.17969
+    },
+    {
+      "id": "00529E9F",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 100109.6484,
+      "y": -84537.17969
+    },
+    {
+      "id": "00529EA8",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 17053.98438,
+      "y": -79534.67188
+    },
+    {
+      "id": "00529ED1",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 16925.98438,
+      "y": -79406.67188
+    },
+    {
+      "id": "0052D6C7",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 189552,
+      "y": 54496
+    },
+    {
+      "id": "0052D6C8",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 189808,
+      "y": 54496
+    },
+    {
+      "id": "0052D6C9",
+      "type": "EncCritterMarker",
+      "label": "B",
+      "x": 189680,
+      "y": 54496
+    },
+    {
+      "id": "005725D3",
+      "type": "EncCritterSquirrelMarker",
+      "x": -97369.85156,
+      "y": -115455.6875
+    },
+    {
+      "id": "005725F4",
+      "type": "EncCritterChickenMarker",
+      "x": -97377.82031,
+      "y": -115436.0313
+    },
+    {
+      "id": "005725F5",
+      "type": "EncCritterChickenMarker",
+      "x": -97168.05469,
+      "y": -115102.9531
+    },
+    {
+      "id": "00589A4C",
+      "type": "EncCritterBeaverMarker",
+      "x": 162105.6875,
+      "y": -135867.7813
+    },
+    {
+      "id": "00589A4D",
+      "type": "EncCritterBeaverMarker",
+      "x": 162048.9531,
+      "y": -135963.9375
+    },
+    {
+      "id": "00589A4E",
+      "type": "EncCritterBeaverMarker",
+      "sub": "NoActorCap",
+      "x": 162166.0781,
+      "y": -135969.6563
+    },
+    {
+      "id": "0059D63B",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 83009.65625,
+      "y": -70148.07813
+    },
+    {
+      "id": "0059D63C",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 82965.86719,
+      "y": -70025.41406
+    },
+    {
+      "id": "0059D63D",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 83174.13281,
+      "y": -70057.19531
+    },
+    {
+      "id": "0059D63E",
+      "type": "EncCritterMarker",
+      "label": "A",
+      "x": 83148.71875,
+      "y": -69940.11719
+    }
+  ]
+}
