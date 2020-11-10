@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import {getUri} from '@/assets/utility.js';
 /**
  * Get location uri dialog.
  */
@@ -39,16 +38,12 @@ export default {
   data() {
     return {
       dialog: false,
-      uri: null,
     };
   },
-  mounted() {
-    this.$store.subscribe((mutation, state) => {
-      if (mutation.type === 'location/setLocation') {
-        // URLを更新
-        this.uri = getUri(this.$store.state.location, this.$router);
-      }
-    });
+  computed: {
+    uri() {
+      return this.$store.getters['location/uri'](this.$router);
+    },
   },
   methods: {
     // ウィンドウを開いたとき

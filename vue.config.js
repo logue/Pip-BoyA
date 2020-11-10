@@ -1,7 +1,8 @@
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-  transpileDependencies: ['vuetify'],
+  transpileDependencies: ['vuex-persist', 'vuetify'],
+  lintOnSave: process.env.NODE_ENV !== 'production',
 
   configureWebpack: {
     optimization: {

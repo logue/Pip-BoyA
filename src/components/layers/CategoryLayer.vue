@@ -120,15 +120,7 @@ export default {
         return 2;
       }
 
-      await this.$store.dispatch('setProgress', 10);
-      await this.$forceNextTick();
-      console.debug('set category:', this.category);
-      // キャッシュのマーカーを確認
-      if (!this.$store.getters['marker/types'](this.category)) {
-        this.$store.dispatch('marker/getCategory', this.category);
-      }
-
-      await this.$store.dispatch('setProgress', 30);
+      await this.$store.dispatch('setProgress', 20);
       await this.$forceNextTick();
       // マーカーを登録
       this.features = this.$store.getters['marker/features'](this.category);

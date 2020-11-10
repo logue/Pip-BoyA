@@ -9,7 +9,7 @@
         color="gray"
         :title="$t('toggleMarkerSelect')"
         :indeterminate="indeterminate"
-        @click="setSelection"
+        @click="toggleCheckAll"
       />
       <v-tooltip top>
         <template #activator="{on, attrs}">
@@ -80,50 +80,61 @@ export default {
   emits: ['changed'],
   data() {
     return {
-      category: null,
       // 最大化／最小化
       isShrinked: false,
       // チェック済みの項目の配列
       checked: [],
       // 全選択／解除チェックボックスのチェック
       checkAll: true,
-      // 全選択／解除チェックボックスの中間状態フラグ
-      indeterminate: false,
     };
   },
   computed: {
+    // current category
+    category() {
+      return this.$route.params.category || null;
+    },
+    // marker type and count
     types() {
       return this.$store.getters['marker/types'](this.category);
     },
+    // marker types
     items() {
       return this.$store.getters['marker/items'](this.category);
     },
+    // marker color
     colorset() {
       return this.$store.getters['marker/colorset'](this.category);
+    },
+    // 全選択／解除チェックボックスの中間状態フラグ
+    indeterminate() {
+      return (
+        this.checked.length !== 0 && this.items.length !== this.checked.length
+      );
     },
   },
   watch: {
     /**
-     * When Page transition
+     * Category
      */
-    '$route.params.category'() {
-      // データ読み込み
-      this.category = this.$route.params.category || null;
+    category() {
+      console.debug('explain init: ', this.category, this.items);
       // マーカーはすべて選択状態にする
       this.checked = this.items;
-      console.debug('explain init: ', this.category);
     },
   },
   methods: {
-    // マーカー表示／非表示
+    /**
+     * Toggle Marker visibility by Marker type.
+     */
     toggleMarker() {
-      // console.log(this.selected);
+      // if all checkbox is checked, change checkAll checkbox.
       this.checkAll = this.items.length === this.checked.length;
-      this.indeterminate =
-        this.checked.length !== 0 && this.items.length !== this.checked.length;
       this.$emit('changed', this.checked);
     },
-    setSelection(action) {
+    /**
+     * Toggle CheckAll checkbox/
+     */
+    toggleCheckAll() {
       if (this.checkAll) {
         // Select all CheckBox
         this.items.forEach((key) => {

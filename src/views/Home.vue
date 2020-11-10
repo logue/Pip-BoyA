@@ -30,11 +30,7 @@
       <!-- Map markers -->
       <location-layer ref="locationLayer" />
       <!-- Category map layer -->
-      <category-layer
-        ref="categoryLayer"
-        :category="$route.params.category"
-        @ready="onCategoryLayerReady"
-      />
+      <category-layer ref="categoryLayer" :category="$route.params.category" />
       <!-- Blast Zone -->
       <!--vl-feature>
         <vl-geom-circle
@@ -101,7 +97,6 @@ import PinchRotate from 'ol/interaction/PinchRotate';
 import {createStringXY} from 'ol/coordinate';
 
 import config from '@/assets/map.config.js';
-import {hexToRgb} from '@/assets/utility.js';
 
 import BaseLayer from '@/components/layers/BaseLayer.vue';
 import CategoryLayer from '@/components/layers/CategoryLayer.vue';
@@ -137,6 +132,25 @@ export default {
       blastZoneColorSet: colors.red,
     };
   },
+  computed: {
+    category() {
+      return this.$route.params.category || null;
+    },
+  },
+  watch: {
+    /**
+     * When Page transition
+     */
+    category() {
+      console.debug('set category:', this.category);
+      if (
+        this.category &&
+        !this.$store.getters['marker/types'](this.category)
+      ) {
+        this.$store.dispatch('marker/getCategory', this.category);
+      }
+    },
+  },
   mounted() {
     // Load location from QueryString.
     this.center = [
@@ -148,7 +162,6 @@ export default {
   methods: {
     // マップが読み込まれたとき
     onMapMounted() {
-      this.$store.dispatch('setLoading', true);
       const map = this.$refs.map.$map;
       // now ol.Map instance is ready and we can work with it directly
       map.getControls().extend([
@@ -168,8 +181,6 @@ export default {
         return interaction instanceof PinchRotate;
       })[0];
       pinchRotateInteraction.setActive(false);
-
-      this.$store.dispatch('setLoading', false);
     },
     // マップ移動開始時
     onMoveStart() {
@@ -179,7 +190,7 @@ export default {
     onMoveEnd(e) {
       this.isMoving = false;
       // グローバル変数の座標を更新
-      this.$store.commit('location/setLocation', {
+      this.$store.dispatch('location/set', {
         x: this.center[0] | 0,
         y: this.center[1] | 0,
         z: this.zoom | 0,
@@ -232,18 +243,10 @@ export default {
       const features = this.$refs.selectInteraction.getFeatures();
       console.info(features);
     },
-    // カテゴリレイヤーの描画が完了したとき
-    onCategoryLayerReady() {
-      console.log('redraw');
-      this.$refs.explainPopup.update();
-    },
     // 凡例のチェックボックスが変化した時
     onMarkerSelectChanged(selected) {
       // console.log(selected);
       this.$refs.categoryLayer.isVisible = selected;
-    },
-    hexToRgb(hex) {
-      return hexToRgb(hex);
     },
   },
 };
