@@ -195,7 +195,7 @@ export default {
 
       const colorset = this.$store.getters['marker/colorset'](this.category);
       // Get color index from type
-      const index = items.indexOf(type);
+      const index = Object.values(items).indexOf(type);
 
       // Apply marker color
       const style = this.$store.getters['marker/style'](colorset[index]);
