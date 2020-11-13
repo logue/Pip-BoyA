@@ -132,25 +132,6 @@ export default {
       blastZoneColorSet: colors.red,
     };
   },
-  computed: {
-    category() {
-      return this.$route.params.category || null;
-    },
-  },
-  watch: {
-    /**
-     * When Page transition
-     */
-    category() {
-      console.debug('set category:', this.category);
-      if (
-        this.category &&
-        !this.$store.getters['marker/types'](this.category)
-      ) {
-        this.$store.dispatch('marker/getCategory', this.category);
-      }
-    },
-  },
   mounted() {
     // Load location from QueryString.
     this.center = [

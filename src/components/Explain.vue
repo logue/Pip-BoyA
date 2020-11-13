@@ -1,75 +1,77 @@
 <template>
-  <v-card v-if="category" shaped dark class="explain">
-    <v-card-title class="explain_title">
-      {{ $t('legend') }}
-      <v-spacer />
-      <v-checkbox
-        v-if="types"
-        v-model="checkAll"
-        color="gray"
-        :title="$t('toggleMarkerSelect')"
-        :indeterminate="indeterminate"
-        @click="toggleCheckAll"
-      />
-      <v-tooltip top>
-        <template #activator="{on, attrs}">
-          <v-btn
-            icon
-            v-bind="attrs"
-            @click="isShrinked = !isShrinked"
-            v-on="on"
+  <v-scale-transition>
+    <v-card v-if="category" shaped dark class="explain">
+      <v-card-title class="explain_title">
+        {{ $t('legend') }}
+        <v-spacer />
+        <v-checkbox
+          v-if="types"
+          v-model="checkAll"
+          color="gray"
+          :title="$t('toggleMarkerSelect')"
+          :indeterminate="indeterminate"
+          @click="toggleCheckAll"
+        />
+        <v-tooltip top>
+          <template #activator="{on, attrs}">
+            <v-btn
+              icon
+              v-bind="attrs"
+              @click="isShrinked = !isShrinked"
+              v-on="on"
+            >
+              <v-icon v-if="!isShrinked">mdi-window-minimize</v-icon>
+              <v-icon v-else>mdi-window-maximize</v-icon>
+            </v-btn>
+          </template>
+          <span>{{ $t('toggleShrink') }}</span>
+        </v-tooltip>
+      </v-card-title>
+      <v-card-text v-if="!isShrinked" class="explain_body">
+        <ul v-if="!types" class="explain_list">
+          <li
+            v-for="(item, index) in items"
+            :key="index"
+            :class="`explain_list_item explain_list_item_${colorset[index]}`"
           >
-            <v-icon v-if="!isShrinked">mdi-window-minimize</v-icon>
-            <v-icon v-else>mdi-window-maximize</v-icon>
-          </v-btn>
-        </template>
-        <span>{{ $t('toggleShrink') }}</span>
-      </v-tooltip>
-    </v-card-title>
-    <v-card-text v-if="!isShrinked" class="explain_body">
-      <ul v-if="!types" class="explain_list">
-        <li
-          v-for="(item, index) in items"
-          :key="index"
-          :class="`explain_list_item explain_list_item_${colorset[index]}`"
-        >
-          ◆ {{ $t(item) }}
-        </li>
-      </ul>
-      <ul v-else class="explain_list explain_check_list">
-        <li
-          v-for="(value, key, index) in types"
-          :key="index"
-          class="explain_list_item explain_list_checkbox"
-        >
-          <v-checkbox
-            v-model="checked"
-            :color="colorset[index]"
-            :value="key"
-            dense
-            hide-details
-            class="sm"
-            @change="toggleMarker"
+            ◆ {{ $t(item) }}
+          </li>
+        </ul>
+        <ul v-else class="explain_list explain_check_list">
+          <li
+            v-for="(value, key, index) in types"
+            :key="index"
+            class="explain_list_item explain_list_checkbox"
           >
-            <template #label>
-              <v-badge
-                inline
-                :label="key"
-                :content="value"
-                :color="colorset[index]"
-                :class="`explain_list_item_label ${colorset[index]}--text text--lighten-2`"
-              >
-                {{ $t(`markers.${key}`) }}
-              </v-badge>
-            </template>
-          </v-checkbox>
-        </li>
-      </ul>
-      <!--p v-if="$t('annotations.' + $route.params.category)">
+            <v-checkbox
+              v-model="checked"
+              :color="colorset[index]"
+              :value="key"
+              dense
+              hide-details
+              class="sm"
+              @change="toggleMarker"
+            >
+              <template #label>
+                <v-badge
+                  inline
+                  :label="key"
+                  :content="value"
+                  :color="colorset[index]"
+                  :class="`explain_list_item_label ${colorset[index]}--text text--lighten-2`"
+                >
+                  {{ $t(`markers.${key}`) }}
+                </v-badge>
+              </template>
+            </v-checkbox>
+          </li>
+        </ul>
+        <!--p v-if="$t('annotations.' + $route.params.category)">
         {{ $t('annotations.' + $route.params.category) }}
       </p-->
-    </v-card-text>
-  </v-card>
+      </v-card-text>
+    </v-card>
+  </v-scale-transition>
 </template>
 
 <script>
@@ -80,6 +82,12 @@ export default {
   emits: ['changed'],
   data() {
     return {
+      // marker type and count
+      types: {},
+      // marker types
+      items: [],
+      // marker color
+      colorset: [],
       // 最大化／最小化
       isShrinked: false,
       // チェック済みの項目の配列
@@ -93,18 +101,6 @@ export default {
     category() {
       return this.$route.params.category || null;
     },
-    // marker type and count
-    types() {
-      return this.$store.getters['marker/types'](this.category);
-    },
-    // marker types
-    items() {
-      return this.$store.getters['marker/items'](this.category);
-    },
-    // marker color
-    colorset() {
-      return this.$store.getters['marker/colorset'](this.category);
-    },
     // 全選択／解除チェックボックスの中間状態フラグ
     indeterminate() {
       return (
@@ -117,9 +113,13 @@ export default {
      * Category
      */
     category() {
-      console.debug('explain init: ', this.category, this.items);
+      this.types = this.$store.getters['marker/types'](this.category);
+      this.items = this.$store.getters['marker/items'](this.category);
+      this.colorset = this.$store.getters['marker/colorset'](this.category);
       // マーカーはすべて選択状態にする
       this.checked = this.items;
+
+      console.debug('explain ready: ', this.category, this.items);
     },
   },
   methods: {

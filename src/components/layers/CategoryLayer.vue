@@ -59,15 +59,18 @@ export default {
       return this.$store.getters['location/zoom'];
     },
     category() {
-      return this.$route.params.category;
+      return this.$route.params.category || null;
     },
   },
   watch: {
     /**
      * When Page transition
-     * @param {*} to new route
      */
-    $route(to) {
+    async category() {
+      console.debug('set category:', this.category);
+      if (this.category) {
+        await this.$store.dispatch('marker/getCategory', this.category);
+      }
       this.init();
     },
     /**

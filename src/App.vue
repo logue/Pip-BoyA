@@ -29,7 +29,12 @@
       <v-progress-circular indeterminate size="64" />
     </v-overlay>
 
-    <v-snackbar v-model="snackbar" timeout="5000" top>
+    <v-snackbar
+      v-model="snackbar"
+      timeout="5000"
+      transition="scroll-y-transition"
+      top
+    >
       {{ snackbarText }}
       <template #action="{attrs}">
         <v-btn color="primary" text v-bind="attrs" @click="snackbar = false">
