@@ -41,6 +41,9 @@ export function convertCoordinates(
       if (cur.label) {
         acc[cur.id].label = cur.label;
       }
+      if (cur.sub) {
+        acc[cur.id].sub = cur.sub;
+      }
       return acc;
     }, {})
   );
@@ -77,6 +80,7 @@ export function convertGeoJson(
         properties: {
           id: cur.id,
           name: cur.name || undefined,
+          sub: cur.sub || undefined,
           type: cur.type,
           label: cur.label || undefined,
           x: x | 0,

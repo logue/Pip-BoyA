@@ -89,6 +89,8 @@ export default {
           new Set(data.markers.map((item) => item.type))
         ).sort();
 
+        console.debug(types);
+
         if (types.length > colors.length) {
           throw new Error(`Too many marker types. less than ${colors.length}`);
         }

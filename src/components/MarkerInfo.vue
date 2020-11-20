@@ -29,6 +29,13 @@
                 ({{ marker.label }})
               </span>
             </v-card-title>
+            <v-card-title v-else>
+              {{ $t(`markers.${marker.type}`) }}
+              <span v-if="marker.sub">&nbsp;-&nbsp;{{ marker.sub }}</span>
+              <span v-if="marker.label" class="grey--text">
+                ({{ marker.label }})
+              </span>
+            </v-card-title>
             <v-card-subtitle v-if="marker.name && $i18n.locale !== 'en'">
               {{ $t(`locations.${marker.name}`, 'en') }}
             </v-card-subtitle>

@@ -1,5 +1,5 @@
 <template>
-  <v-scale-transition>
+  <v-expand-transition>
     <v-card v-if="category && !loading" shaped dark class="explain">
       <v-card-title class="explain_title">
         {{ $t('legend') }}
@@ -27,51 +27,53 @@
           <span>{{ $t('toggleShrink') }}</span>
         </v-tooltip>
       </v-card-title>
-      <v-card-text v-if="!isShrinked" class="explain_body">
-        <ul v-if="!types" class="explain_list">
-          <li
-            v-for="(item, index) in items"
-            :key="index"
-            :class="`explain_list_item explain_list_item_${colorset[index]}`"
-          >
-            ◆ {{ $t(item) }}
-          </li>
-        </ul>
-        <ul v-else class="explain_list explain_check_list">
-          <li
-            v-for="(value, key, index) in types"
-            :key="index"
-            class="explain_list_item explain_list_checkbox"
-          >
-            <v-checkbox
-              v-model="checked"
-              :color="colorset[index]"
-              :value="key"
-              dense
-              hide-details
-              class="sm"
-              @change="toggleMarker"
+      <v-scale-transition>
+        <v-card-text v-if="!isShrinked" class="explain_body">
+          <ul v-if="!types" class="explain_list">
+            <li
+              v-for="(item, index) in items"
+              :key="index"
+              :class="`explain_list_item explain_list_item_${colorset[index]}`"
             >
-              <template #label>
-                <v-badge
-                  inline
-                  :label="key"
-                  :content="value"
-                  :color="colorset[index]"
-                  :class="`explain_list_item_label ${colorset[index]}--text text--lighten-2`"
-                >
-                  {{ $t(`markers.${key}`) }}
-                </v-badge>
-              </template>
-            </v-checkbox>
-          </li>
-        </ul>
-        <!--p v-if="$t('annotations.' + $route.params.category)">
+              ◆ {{ $t(item) }}
+            </li>
+          </ul>
+          <ul v-else class="explain_list explain_check_list">
+            <li
+              v-for="(value, key, index) in types"
+              :key="index"
+              class="explain_list_item explain_list_checkbox"
+            >
+              <v-checkbox
+                v-model="checked"
+                :color="colorset[index]"
+                :value="key"
+                dense
+                hide-details
+                class="sm"
+                @change="toggleMarker"
+              >
+                <template #label>
+                  <v-badge
+                    inline
+                    :label="key"
+                    :content="value"
+                    :color="colorset[index]"
+                    :class="`explain_list_item_label ${colorset[index]}--text text--lighten-2`"
+                  >
+                    {{ $t(`markers.${key}`) }}
+                  </v-badge>
+                </template>
+              </v-checkbox>
+            </li>
+          </ul>
+          <!--p v-if="$t('annotations.' + $route.params.category)">
         {{ $t('annotations.' + $route.params.category) }}
       </p-->
-      </v-card-text>
+        </v-card-text>
+      </v-scale-transition>
     </v-card>
-  </v-scale-transition>
+  </v-expand-transition>
 </template>
 
 <script>
