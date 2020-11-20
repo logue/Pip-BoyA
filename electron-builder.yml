@@ -1,1 +1,12 @@
-appId: "dev.logue.pip-boya"
+appId:
+  "dev.logue.pip-boya"
+compression :
+  maximum
+win:
+  target:
+    nsis
+nsis:
+  oneClick:
+    false
+  allowToChangeInstallationDirectory:
+    true
