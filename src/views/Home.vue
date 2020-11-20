@@ -8,7 +8,7 @@
       }`"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
-      :renderer="$store.getters['config/webgl'] ? 'webgl' : 'canvas'"
+      :renderer="renderer"
       :max-extent="config.extent"
       @mounted="onMapMounted"
       @pointermove="onMapPointerMove"
@@ -30,7 +30,7 @@
       <!-- Map markers -->
       <location-layer ref="locationLayer" />
       <!-- Category map layer -->
-      <category-layer ref="categoryLayer" :category="$route.params.category" />
+      <category-layer ref="categoryLayer" />
       <!-- Blast Zone -->
       <!--vl-feature>
         <vl-geom-circle
@@ -131,6 +131,11 @@ export default {
       coordinatesBlastZone: [0, 0],
       blastZoneColorSet: colors.red,
     };
+  },
+  computed: {
+    renderer() {
+      return this.$store.getters['config/webgl'] ? 'webgl' : 'canvas';
+    },
   },
   mounted() {
     // Load location from QueryString.

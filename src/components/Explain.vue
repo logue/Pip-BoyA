@@ -1,6 +1,6 @@
 <template>
   <v-scale-transition>
-    <v-card v-if="category" shaped dark class="explain">
+    <v-card v-if="category && !loading" shaped dark class="explain">
       <v-card-title class="explain_title">
         {{ $t('legend') }}
         <v-spacer />
@@ -97,9 +97,12 @@ export default {
     };
   },
   computed: {
+    loading() {
+      return this.$store.getters.loading;
+    },
     // current category
     category() {
-      return this.$route.params.category || null;
+      return this.$route.params.category;
     },
     // 全選択／解除チェックボックスの中間状態フラグ
     indeterminate() {
@@ -112,12 +115,14 @@ export default {
     /**
      * Category
      */
-    category() {
-      this.types = this.$store.getters['marker/types'](this.category);
-      this.items = this.$store.getters['marker/items'](this.category);
-      this.colorset = this.$store.getters['marker/colorset'](this.category);
-      // マーカーはすべて選択状態にする
-      this.checked = this.items;
+    loading() {
+      if (this.category) {
+        this.types = this.$store.getters['marker/types'](this.category);
+        this.items = this.$store.getters['marker/items'](this.category);
+        this.colorset = this.$store.getters['marker/colorset'](this.category);
+        // マーカーはすべて選択状態にする
+        this.checked = this.items;
+      }
 
       console.debug('explain ready: ', this.category, this.items);
     },
