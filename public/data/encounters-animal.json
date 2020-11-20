@@ -339,12 +339,6 @@
       "y": -90434.07813
     },
     {
-      "id": "002C5FC8",
-      "type": "EncGuardDogMarker",
-      "x": 179796.1563,
-      "y": 5832.992187
-    },
-    {
       "id": "002CB356",
       "type": "EncMoleRatMarker",
       "x": -41871.88281,
@@ -552,13 +546,13 @@
     },
     {
       "id": "00386DF5",
-      "type": "EncMegaSlothMarker",
+      "type": "EncMegaslothMarker",
       "x": 151915.9531,
       "y": -67499.41406
     },
     {
       "id": "00386DF6",
-      "type": "EncMegaSlothMarker",
+      "type": "EncMegaslothMarker",
       "x": 153384.7969,
       "y": -65841.63281
     },
@@ -643,7 +637,7 @@
     },
     {
       "id": "00386EDB",
-      "type": "EncMegaSlothMarker",
+      "type": "EncMegaslothMarker",
       "sub": "Huge",
       "x": 196245.9063,
       "y": -166897.8906
