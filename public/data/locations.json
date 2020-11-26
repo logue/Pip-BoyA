@@ -325,7 +325,7 @@
     {
       "id": "000616AC",
       "name": "LocToxicTheCraterLocation",
-      "type": "CraterMarker",
+      "type": "SkullRingMarker",
       "x": 26680.75586,
       "y": 198624.5313
     },
@@ -745,7 +745,7 @@
     {
       "id": "00096AA6",
       "name": "LocMountainsObservatoryLocation",
-      "type": "ObservatoryMarker",
+      "type": "BoSMarker",
       "x": 79507.64844,
       "y": 73912.53906
     },
@@ -989,8 +989,8 @@
     },
     {
       "id": "0009A6C7",
-      "name": "LocSwampTreehouseVillageLocation",
-      "type": "TownRuinsMarker",
+      "name": "LocSwampTheRetreatLocation",
+      "type": "SettlementMarker",
       "x": 162312.7031,
       "y": 45172.33594
     },
@@ -1024,7 +1024,7 @@
     },
     {
       "id": "000B1051",
-      "name": "76CharGen05Location",
+      "name": "SheltersLocation_Crater",
       "type": "Vault76Marker",
       "x": -103762.8828,
       "y": 94019.17969
@@ -1815,7 +1815,7 @@
     },
     {
       "id": "00356C18",
-      "name": "LocForestCampAdamsLocation",
+      "name": "SubForestCampAdamsLocation",
       "type": "CabinMarker",
       "x": -153315.4531,
       "y": -30863.43945
@@ -1892,7 +1892,7 @@
     },
     {
       "id": "0036E865",
-      "name": "LocForestGauleyMineLocation",
+      "name": "LocForestGauleyMineExitLocation",
       "type": "CaveMarker",
       "x": -58605.36328,
       "y": 62688.30469
@@ -2374,8 +2374,8 @@
     },
     {
       "id": "003B771F",
-      "name": "LocSwampHawkesRefugeLocation",
-      "type": "CaveMarker",
+      "name": "LocSwampDaggersDenLocation",
+      "type": "BloodEaglesMarker",
       "x": 119103.9844,
       "y": 7828.036621
     },
@@ -2703,7 +2703,7 @@
     },
     {
       "id": "0058F015",
-      "name": "LocCranberryWatogaBasementLocation",
+      "name": "LocCranberryWatogaLocation",
       "type": "SewerMarker",
       "x": 152462.5469,
       "y": -141432.1563
@@ -2724,10 +2724,24 @@
     },
     {
       "id": "0059D06D",
-      "name": "LocSwampBerkeleySpringsBloodyFranksLocation",
+      "name": "LocSwampBerkeleySpringsRaiderCampLocation",
       "type": "BloodEaglesMarker",
       "x": 130069.9219,
       "y": 33912.72656
+    },
+    {
+      "id": "005E5641",
+      "name": "LocSubToxicValleyMakeshiftVaultLocation",
+      "type": "CaveMarker",
+      "x": -83329.14844,
+      "y": 160207.5938
+    },
+    {
+      "id": "005E9578",
+      "name": "Vault51ExteriorLocation",
+      "type": "Vault51Marker",
+      "x": -125273.2266,
+      "y": 202332.3594
     }
   ]
 }
