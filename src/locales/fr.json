@@ -145,7 +145,7 @@
     "LocToxicPhilippiBattlefieldCemeteryLocation": "Cimetiere militaire de Philippi",
     "LocForestNewRiverGorgeResortLocation": "Complexe de New River Gorge",
     "LocMountainsPalaceoftheWindingPathLocation": "Palais du Layon venteux",
-    "LocMountainsObservatoryLocation": "Observatoire d'ATLAS",
+    "LocMountainsObservatoryLocation": "Fort Atlas",
     "LocForestOrwellOrchardsLocation": "Vergers d'Orwell",
     "LocForestBoltonGreensLocation": "Bolton Greens",
     "LocForestPointPleasantLocation": "Point Pleasant",
@@ -180,12 +180,12 @@
     "LocWhitespringTheWhitespringResortLocation": "Complexe de Whitespring",
     "LocWhitespringTheWhitespringBunkerLocation": "Le bunker de Whitespring",
     "LocWhitespringTheWhitespringGolfLocation": "Club de golf de Whitespring",
-    "LocSwampTreehouseVillageLocation": "Village de cabanes",
+    "LocSwampTheRetreatLocation": "La Retraite",
     "LocForestTylerCountyFairgroundsLocation": "Champ de foire du Comte de Tyler",
     "LocForestLookoutTower02Location": "Poste d'observation de Kanawha-nord",
     "LocForestGilmanLumberLocation": "Scierie de Gilman",
     "Vault94ExteriorLocation": "Abri?94",
-    "76CharGen05Location": "Abri?76",
+    "SheltersLocation_Crater": "Abri?76",
     "Vault96ExteriorLocation": "Abri?96",
     "LocToxicWavyWillardsWaterparkLocation": "Parc aquatique de Wavy Willard",
     "LocMTRWelchLocation": "Welch",
@@ -426,6 +426,8 @@
     "LocCranberryWatogaLocation__1": "Souterrains de Watoga",
     "LocSwampSacramentLocation": "Sacrement",
     "LocMountainsLousMineLocation": "Mine de Carleton",
-    "LocSwampBerkeleySpringsRaiderCampLocation": "Bloody Frank's"
+    "LocSwampBerkeleySpringsRaiderCampLocation": "Bloody Frank's",
+    "LocSubToxicValleyMakeshiftVaultLocation": "Abri de fortune",
+    "Vault51ExteriorLocation": "Abri?51"
   }
 }

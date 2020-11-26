@@ -145,7 +145,7 @@
     "LocToxicPhilippiBattlefieldCemeteryLocation": "Cimitero Militare di Philippi",
     "LocForestNewRiverGorgeResortLocation": "Resort di New River Gorge",
     "LocMountainsPalaceoftheWindingPathLocation": "Palazzo della Strada Ventosa",
-    "LocMountainsObservatoryLocation": "Osservatorio ATLAS",
+    "LocMountainsObservatoryLocation": "Fort Atlas",
     "LocForestOrwellOrchardsLocation": "Frutteti Orwell",
     "LocForestBoltonGreensLocation": "Bolton Greens",
     "LocForestPointPleasantLocation": "Point Pleasant",
@@ -180,12 +180,12 @@
     "LocWhitespringTheWhitespringResortLocation": "Whitespring Resort",
     "LocWhitespringTheWhitespringBunkerLocation": "Bunker di Whitespring",
     "LocWhitespringTheWhitespringGolfLocation": "Whitespring Golf Club",
-    "LocSwampTreehouseVillageLocation": "Villaggio Treehouse",
+    "LocSwampTheRetreatLocation": "Il Ritiro",
     "LocForestTylerCountyFairgroundsLocation": "Fiera di Tyler County",
     "LocForestLookoutTower02Location": "Punto d'osservazione di Kanawha - Nord",
     "LocForestGilmanLumberLocation": "Segheria di Gilman",
     "Vault94ExteriorLocation": "Vault 94",
-    "76CharGen05Location": "Vault 76",
+    "SheltersLocation_Crater": "Vault 76",
     "Vault96ExteriorLocation": "Vault 96",
     "LocToxicWavyWillardsWaterparkLocation": "Parco Acquatico di Wavy Willard",
     "LocMTRWelchLocation": "Welch",
@@ -225,7 +225,7 @@
     "LocMTRMotherlode03Location": "Sito di prova Hornwright #03",
     "LocForestNewRiverGorgeBridgeWestLocation": "Ponte di New River Gorge - Ovest",
     "LocForestNewRiverGorgeBridgeEastLocation": "Ponte di New River Gorge - Est",
-    "LocSwampValleyGalleriaLocation": "Centro commerciale Valley Galleria",
+    "LocSwampValleyGalleriaLocation": "Valley Galleria",
     "LocMTRMineFire03Location": "Condotto minerario abbandonato 3",
     "LocMTRMineFire01Location": "Condotto minerario abbandonato 1",
     "LocMTRMotherlode04Location": "Sito di prova Hornwright #04",
@@ -426,6 +426,8 @@
     "LocCranberryWatogaLocation__1": "Sotterranei di Watoga",
     "LocSwampSacramentLocation": "Sacramento",
     "LocMountainsLousMineLocation": "Miniera Carleton",
-    "LocSwampBerkeleySpringsRaiderCampLocation": "Frank Sanguinario"
+    "LocSwampBerkeleySpringsRaiderCampLocation": "Frank Sanguinario",
+    "LocSubToxicValleyMakeshiftVaultLocation": "Vault improvvisato",
+    "Vault51ExteriorLocation": "Vault 51"
   }
 }

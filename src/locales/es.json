@@ -145,7 +145,7 @@
     "LocToxicPhilippiBattlefieldCemeteryLocation": "Cementerio del campo de batalla de Philippi",
     "LocForestNewRiverGorgeResortLocation": "Hotel de New River Gorge",
     "LocMountainsPalaceoftheWindingPathLocation": "Palacio del Camino Sinuoso",
-    "LocMountainsObservatoryLocation": "Observatorio ATLAS",
+    "LocMountainsObservatoryLocation": "Fuerte Atlas",
     "LocForestOrwellOrchardsLocation": "Orwell Orchards",
     "LocForestBoltonGreensLocation": "Bolton Greens",
     "LocForestPointPleasantLocation": "Point Pleasant",
@@ -180,12 +180,12 @@
     "LocWhitespringTheWhitespringResortLocation": "Hotel Whitespring",
     "LocWhitespringTheWhitespringBunkerLocation": "Bunker del Whitespring",
     "LocWhitespringTheWhitespringGolfLocation": "Club de golf del Whitespring",
-    "LocSwampTreehouseVillageLocation": "Aldea de la casa del arbol",
+    "LocSwampTheRetreatLocation": "El Retiro",
     "LocForestTylerCountyFairgroundsLocation": "Feria del condado de Tyler",
     "LocForestLookoutTower02Location": "Puesto vigia de Kanawha septentrional",
     "LocForestGilmanLumberLocation": "Serreria de Gilman",
     "Vault94ExteriorLocation": "Refugio 94",
-    "76CharGen05Location": "Refugio 76",
+    "SheltersLocation_Crater": "Refugio 76",
     "Vault96ExteriorLocation": "Refugio 96",
     "LocToxicWavyWillardsWaterparkLocation": "Parque acuatico de Wavy Willard",
     "LocMTRWelchLocation": "Welch",
@@ -426,6 +426,8 @@
     "LocCranberryWatogaLocation__1": "Subterraneos de Watoga",
     "LocSwampSacramentLocation": "Sacramento",
     "LocMountainsLousMineLocation": "Mina de Carleton",
-    "LocSwampBerkeleySpringsRaiderCampLocation": "Puto Frank"
+    "LocSwampBerkeleySpringsRaiderCampLocation": "Puto Frank",
+    "LocSubToxicValleyMakeshiftVaultLocation": "Refugio improvisado",
+    "Vault51ExteriorLocation": "Refugio 51"
   }
 }

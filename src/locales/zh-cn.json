@@ -145,7 +145,7 @@
     "LocToxicPhilippiBattlefieldCemeteryLocation": "菲利皮??公墓",
     "LocForestNewRiverGorgeResortLocation": "新河畔戈赫度假村",
     "LocMountainsPalaceoftheWindingPathLocation": "通幽之殿",
-    "LocMountainsObservatoryLocation": "阿特拉斯??站",
+    "LocMountainsObservatoryLocation": "阿特拉斯要塞",
     "LocForestOrwellOrchardsLocation": "奥??果?",
     "LocForestBoltonGreensLocation": "波????",
     "LocForestPointPleasantLocation": "波因特普莱森特",
@@ -180,12 +180,12 @@
     "LocWhitespringTheWhitespringResortLocation": "白泉度假村",
     "LocWhitespringTheWhitespringBunkerLocation": "白泉地堡",
     "LocWhitespringTheWhitespringGolfLocation": "白泉高?夫??部",
-    "LocSwampTreehouseVillageLocation": "?屋村",
+    "LocSwampTheRetreatLocation": "撤退",
     "LocForestTylerCountyFairgroundsLocation": "泰勒郡游??",
     "LocForestLookoutTower02Location": "北??瓦?望台",
     "LocForestGilmanLumberLocation": "吉?曼?木厂",
     "Vault94ExteriorLocation": "94号避?所",
-    "76CharGen05Location": "76号避?所",
+    "SheltersLocation_Crater": "76号避?所",
     "Vault96ExteriorLocation": "96号避?所",
     "LocToxicWavyWillardsWaterparkLocation": "?拉德水上??",
     "LocMTRWelchLocation": "威?契",
@@ -426,6 +426,8 @@
     "LocCranberryWatogaLocation__1": "瓦托加地下",
     "LocSwampSacramentLocation": "?礼",
     "LocMountainsLousMineLocation": "????井",
-    "LocSwampBerkeleySpringsRaiderCampLocation": "血腥的弗?克"
+    "LocSwampBerkeleySpringsRaiderCampLocation": "血腥的弗?克",
+    "LocSubToxicValleyMakeshiftVaultLocation": "??避?所",
+    "Vault51ExteriorLocation": "51号避?所"
   }
 }

@@ -145,7 +145,7 @@
     "LocToxicPhilippiBattlefieldCemeteryLocation": "Cemiterio de Guerra de Philippi",
     "LocForestNewRiverGorgeResortLocation": "Resort do Novo Rio Gorge",
     "LocMountainsPalaceoftheWindingPathLocation": "Palacio do Caminho Sinuoso",
-    "LocMountainsObservatoryLocation": "Observatorio ATLAS",
+    "LocMountainsObservatoryLocation": "Forte Atlas",
     "LocForestOrwellOrchardsLocation": "Pomares Orwell",
     "LocForestBoltonGreensLocation": "Bolton Greens",
     "LocForestPointPleasantLocation": "Point Pleasant",
@@ -180,12 +180,12 @@
     "LocWhitespringTheWhitespringResortLocation": "Resort de Whitespring",
     "LocWhitespringTheWhitespringBunkerLocation": "O Bunker Whitespring",
     "LocWhitespringTheWhitespringGolfLocation": "Clube de Golfe de Whitespring",
-    "LocSwampTreehouseVillageLocation": "Vilarejo de Casas na Arvore",
+    "LocSwampTheRetreatLocation": "O Retiro",
     "LocForestTylerCountyFairgroundsLocation": "Parque do Distrito de Tyler",
     "LocForestLookoutTower02Location": "Vigia Norte de Kanawha",
     "LocForestGilmanLumberLocation": "Serraria Gilman",
     "Vault94ExteriorLocation": "Refugio 94",
-    "76CharGen05Location": "Refugio 76",
+    "SheltersLocation_Crater": "Refugio 76",
     "Vault96ExteriorLocation": "Refugio 96",
     "LocToxicWavyWillardsWaterparkLocation": "Parque Aquatico de Ondas Willard",
     "LocMTRWelchLocation": "Welch",
@@ -261,7 +261,7 @@
     "LocSwampCrashedPlaneLocation": "Aviao Acidentado",
     "LocSwampSamBlackwellBunkerLocation": "Lixao Abandonado",
     "LocToxicToxicDriedLakebedLocation": "Leito Seco e Toxico do Lago",
-    "LocSwampTanagraTownLocation": "Cidade de Tanagra",
+    "LocSwampTanagraTownLocation": "Cidade Tanagra",
     "LocCranberryGlassedCavernLocation": "Caverna Envidracada",
     "LocMTRUnfinishedMansionLocation": "Mansao Inacabada",
     "LocSwampBigBsRestStopLocation": "Parada do Bezao",
@@ -426,6 +426,8 @@
     "LocCranberryWatogaLocation__1": "Subterraneo de Watoga",
     "LocSwampSacramentLocation": "Sacramento",
     "LocMountainsLousMineLocation": "Mina Carleton",
-    "LocSwampBerkeleySpringsRaiderCampLocation": "Frank Sangrento"
+    "LocSwampBerkeleySpringsRaiderCampLocation": "Frank Sangrento",
+    "LocSubToxicValleyMakeshiftVaultLocation": "Refugio Improvisado",
+    "Vault51ExteriorLocation": "Refugio 51"
   }
 }

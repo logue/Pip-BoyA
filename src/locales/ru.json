@@ -145,7 +145,7 @@
     "LocToxicPhilippiBattlefieldCemeteryLocation": "Военное кладбище Филипп",
     "LocForestNewRiverGorgeResortLocation": "Курорт \"Ущелье Нью-ривер",
     "LocMountainsPalaceoftheWindingPathLocation": "Дворец Извилистого Пути",
-    "LocMountainsObservatoryLocation": "Обсерватория АТЛАС",
+    "LocMountainsObservatoryLocation": "Форт-Атлас",
     "LocForestOrwellOrchardsLocation": "Сады Оруэллов",
     "LocForestBoltonGreensLocation": "Болтон-Гринс",
     "LocForestPointPleasantLocation": "Пойнт-Плезант",
@@ -180,12 +180,12 @@
     "LocWhitespringTheWhitespringResortLocation": "Курорт \"Уайтспринг",
     "LocWhitespringTheWhitespringBunkerLocation": "Бункер \"Уайтспринг",
     "LocWhitespringTheWhitespringGolfLocation": "Гольф-клуб Уайтспринга",
-    "LocSwampTreehouseVillageLocation": "Деревня домиков на дереве",
+    "LocSwampTheRetreatLocation": "Приют",
     "LocForestTylerCountyFairgroundsLocation": "Ярмарка округа Тайлер",
     "LocForestLookoutTower02Location": "Вышка в северной Канове",
     "LocForestGilmanLumberLocation": "Лесопилка \"Гилмен",
     "Vault94ExteriorLocation": "Убежище 94",
-    "76CharGen05Location": "Убежище 76",
+    "SheltersLocation_Crater": "Убежище 76",
     "Vault96ExteriorLocation": "Убежище 96",
     "LocToxicWavyWillardsWaterparkLocation": "Аквапарк \"Уэйви Уиллард",
     "LocMTRWelchLocation": "Уэлч",
@@ -265,7 +265,7 @@
     "LocCranberryGlassedCavernLocation": "Стеклянная пещера",
     "LocMTRUnfinishedMansionLocation": "Недостроенный особняк",
     "LocSwampBigBsRestStopLocation": "Зона отдыха \"Большой Би",
-    "LocSwampKMAXTransmissionLocation": "Радиопередача KMAX",
+    "LocSwampKMAXTransmissionLocation": "Радиостанция KMAX",
     "LocSwampSouthernBelleMotelLocation": "Мотель \"Южная красавица",
     "LocForestPortsidePubLocation": "Портовый паб",
     "LocSwampBraxsonsQualityMedicalSuppliesLocation": "Качественные медикаменты Брексона",
@@ -426,6 +426,8 @@
     "LocCranberryWatogaLocation__1": "Подземка Ватоги",
     "LocSwampSacramentLocation": "Святые дары",
     "LocMountainsLousMineLocation": "Шахта Карлтона",
-    "LocSwampBerkeleySpringsRaiderCampLocation": "Кровавый Фрэнк"
+    "LocSwampBerkeleySpringsRaiderCampLocation": "Кровавый Фрэнк",
+    "LocSubToxicValleyMakeshiftVaultLocation": "Самодельное Убежище",
+    "Vault51ExteriorLocation": "Убежище 51"
   }
 }
