@@ -1,0 +1,21 @@
+module.exports = {
+  platform: process.platform,
+  port: process.env.PORT ? process.env.PORT : 3000,
+  title: 'PipBoyA',
+  languages: [
+    'de',
+    'en',
+    'es',
+    'fr',
+    'it',
+    'ja',
+    'ko',
+    'pl',
+    'pt',
+    'ru',
+    'zh-cn',
+    'zh-tw',
+  ],
+  fallbackLng: 'en',
+  namespace: 'translation',
+};

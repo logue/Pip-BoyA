@@ -31,7 +31,7 @@ export default {
   mutations: {
     /**
      * save to state category location data.
-     * @param {Vuex.State} state Vuex State
+     * @param {Vuex.Store} state Vuex State
      * @param {object} payload data
      */
     set(state, payload) {
@@ -48,7 +48,7 @@ export default {
     },
     /**
      * save to marker style set.
-     * @param {Vuex.State} state Vuex State
+     * @param {Vuex.Store} state Vuex State
      */
     setStyle(state) {
       state.styles = markerStyles();
@@ -58,14 +58,14 @@ export default {
   actions: {
     /**
      * Init style set
-     * @param {Vuex.State} context Context
+     * @param {Vuex.Store} context Context
      */
     init(context) {
       context.commit('setStyle');
     },
     /**
      * Set category location data.
-     * @param {Vuex.State} context Context
+     * @param {Vuex.Store} context Context
      * @param {String} category Category
      */
     async getCategory(context, category) {

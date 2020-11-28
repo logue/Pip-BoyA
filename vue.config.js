@@ -44,6 +44,7 @@ module.exports = {
       enableInSFC: true,
     },
     electronBuilder: {
+      preload: 'src/preload.js',
       nodeIntegration: true,
       chainWebpackRendererProcess: (config) => {
         // Chain webpack config for electron renderer process only

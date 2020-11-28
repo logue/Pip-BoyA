@@ -4,7 +4,7 @@ import {Style, Icon, Text, Fill, Stroke} from 'ol/style';
 import {convertGeoJson} from '@/assets/utility.js';
 
 /**
- * Map Marker location store
+ * Map location Marker store
  */
 export default {
   namespaced: true,
@@ -30,7 +30,7 @@ export default {
     },
     /**
      * save style to state.
-     * @param {Vuex.State} state Vuex State
+     * @param {Vuex.Store} state Vuex State
      * @param {Array} types data
      */
     setStyles(state, types) {

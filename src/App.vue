@@ -94,6 +94,10 @@ export default {
       document.getElementsByName('description')[0].content = this.$t(
         'description'
       );
+      if (process.env.IS_ELECTRON) {
+        const app = require('electron');
+        app.ipcRenderer.sendSync('setLocale', this.$i18n.locale);
+      }
     },
     '$store.getters.message'() {
       this.snackbar = true;
