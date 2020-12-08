@@ -6,11 +6,11 @@
           {{ $t('getUri') }}
         </v-card-title>
         <v-card-text>
-          <v-text-field v-model="uri" label="URI" readonly />
+          <v-text-field :value="uri" label="URI" readonly />
         </v-card-text>
         <v-card-actions>
           <v-spacer />
-          <v-btn text color="secondary" @click="close">
+          <v-btn text color="secondary" @click="dialog = false">
             <v-icon left>mdi-close</v-icon>
             {{ $t('close') }}
           </v-btn>

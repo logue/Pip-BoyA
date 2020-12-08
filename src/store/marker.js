@@ -21,54 +21,59 @@ export default {
     tileImage: {},
   },
   getters: {
-    features: (state) => (category) => state.features[category],
-    types: (state) => (category) => state.types[category],
-    items: (state) => (category) => state.items[category],
-    colorset: (state) => (category) => state.colorset[category],
-    tileImage: (state) => (category) => state.tileImage[category],
-    style: (state) => (type) => state.styles[type],
+    features: (s) => (category) => s.features[category],
+    types: (s) => (category) => s.types[category],
+    items: (s) => (category) => s.items[category],
+    colorset: (s) => (category) => s.colorset[category],
+    tileImage: (s) => (category) => s.tileImage[category],
+    style: (s) => (type) => s.styles[type],
   },
   mutations: {
     /**
      * save to state category location data.
-     * @param {Vuex.Store} state Vuex State
+     * @param {Vuex.Store} s Store
      * @param {object} payload data
      */
-    set(state, payload) {
-      state.colorset[payload.category] = payload.colorset;
+    set(s, payload) {
+      s.colorset[payload.category] = payload.colorset;
 
       if (payload.types) {
-        state.types[payload.category] = payload.types;
+        s.types[payload.category] = payload.types;
       }
-      state.items[payload.category] = payload.items;
-      state.tileImage[payload.category] = payload.tileImage;
+      s.items[payload.category] = payload.items;
+      s.tileImage[payload.category] = payload.tileImage;
     },
-    setFeatures(state, payload) {
-      state.features[payload.category] = convertGeoJson(payload.features);
+    /**
+     * save features.
+     * @param {Vuex.Store} s Store
+     * @param {object} payload Marker data
+     */
+    setFeatures(s, payload) {
+      s.features[payload.category] = convertGeoJson(payload.features);
     },
     /**
      * save to marker style set.
-     * @param {Vuex.Store} state Vuex State
+     * @param {Vuex.Store} s Store
      */
-    setStyle(state) {
-      state.styles = markerStyles();
-      console.log('setStyle');
+    setStyle(s) {
+      s.styles = markerStyles();
     },
   },
   actions: {
     /**
      * Init style set
-     * @param {Vuex.Store} context Context
+     * @param {Vuex.ActionContext} context Context
      */
     init(context) {
       context.commit('setStyle');
     },
     /**
      * Set category location data.
-     * @param {Vuex.Store} context Context
+     * @param {Vuex.ActionContext} context Context
      * @param {String} category Category
      */
     async getCategory(context, category) {
+      // Fetch category marker data.
       const data = await axios.get(`/data/${category}.json`).then(
         (res) => res.data,
         () => ''

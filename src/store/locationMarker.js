@@ -70,7 +70,7 @@ export default {
   actions: {
     /**
      * Set location data.
-     * @param {Vuex.State} context Context
+     * @param {Vuex.ActionContext} context Context
      */
     async init(context) {
       const data = await axios
