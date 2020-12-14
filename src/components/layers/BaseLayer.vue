@@ -18,6 +18,8 @@
  */
 import config from '@/assets/map.config.js';
 
+const MAPS = ['military', 'base', 'realistic'];
+
 export default {
   data() {
     return {
@@ -32,10 +34,8 @@ export default {
   mounted() {
     this.$store.subscribe((mutation, state) => {
       if (mutation.type === 'config/toggleMap') {
-        // 軍用マップ切り替え
-        this.url = `/img/tiles/${
-          state.config.isMilitary ? 'military' : 'base'
-        }/{z}/{x}/{y}.webp`;
+        // マップ切り替え
+        this.url = `/img/tiles/${MAPS[state.config.map]}/{z}/{x}/{y}.webp`;
 
         const sourceLayer = this.$refs.baseLayerSource;
 

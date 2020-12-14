@@ -5,7 +5,7 @@ export default {
   namespaced: true,
   state: {
     // Military Map mode
-    isMilitary: false,
+    map: 0,
     // Display Location marker
     displayLocation: true,
     // Dark Theme mode
@@ -31,7 +31,10 @@ export default {
   },
   mutations: {
     toggleMap(s) {
-      s.isMilitary = !s.isMilitary;
+      s.map++;
+      if (s.map >= 3) {
+        s.map = 0;
+      }
     },
     toggleLocationMarker(s) {
       s.displayLocation = !s.displayLocation;

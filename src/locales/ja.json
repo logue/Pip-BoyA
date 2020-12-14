@@ -8,7 +8,7 @@
   "toggleWebGl": "描画モードをCanvasとWebGLで切り替え（実験中）",
   "atomic4peace": "核ミサイルを打ったときの影響範囲",
   "toggleDarkMode": "ダークモードとライトモードを切り替え",
-  "toggleMap": "マップを通常版と軍用版で切り替え",
+  "toggleMap": "マップを通常、軍用、リアリスティックで切り替え",
   "toggleMarkerSelect": "マーカーの表示／非表示切り替え",
   "toggleShrink": "最大化／最小化",
   "zoom": "縮尺",

@@ -19,7 +19,7 @@
               @click.prevent="openNewWin"
             >
               <v-icon left>mdi-open-in-new</v-icon>
-              Nexus Mod
+              Nexus Mods
             </v-btn>
             <v-btn
               v-if="isElectron"
@@ -116,6 +116,15 @@
                 fo76edit-scripts
               </a>
               - for export and convert game data.
+            </li>
+            <li>
+              <a
+                href="https://www.nexusmods.com/fallout76/mods/783"
+                @click.prevent="openNewWin"
+              >
+                Realistic World Map
+              </a>
+              - by Fabledx
             </li>
           </ul>
         </section>

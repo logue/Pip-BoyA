@@ -4,7 +4,8 @@ compression :
   maximum
 win:
   target:
-    nsis
+    - nsis
+    - 7z
 nsis:
   oneClick:
     false

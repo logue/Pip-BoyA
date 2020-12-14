@@ -61,10 +61,11 @@
             v-on="on"
             @click="$store.commit('config/toggleMap')"
           >
-            <v-icon v-if="$store.state.config.isMilitary">
-              mdi-map-outline
+            <v-icon v-if="$store.state.config.map === 2">mdi-map</v-icon>
+            <v-icon v-else-if="$store.state.config.map === 1">
+              mdi-map-legend
             </v-icon>
-            <v-icon v-else>mdi-map-legend</v-icon>
+            <v-icon v-else>mdi-map-outline</v-icon>
           </v-btn>
         </template>
         <span>{{ $t('toggleMap') }}</span>
@@ -132,7 +133,10 @@
           <!-- Toggle Map -->
           <v-list-item @click="$store.commit('config/toggleMap')">
             <v-list-item-icon>
-              <v-icon v-if="!$store.state.config.isMilitary">mdi-map</v-icon>
+              <v-icon v-if="$store.state.config.map === 2">mdi-map</v-icon>
+              <v-icon v-else-if="$store.state.config.map === 1">
+                mdi-map-legend
+              </v-icon>
               <v-icon v-else>mdi-map-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>{{ $t('toggleMap') }}</v-list-item-title>
