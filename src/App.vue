@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 <template>
   <v-app class="pip-boya">
     <v-navigation-drawer v-model="drawer" app left>
@@ -36,7 +37,7 @@
       top
     >
       {{ snackbarText }}
-      <template #action="{attrs}">
+      <template #action="{ attrs }">
         <v-btn color="primary" text v-bind="attrs" @click="snackbar = false">
           {{ $t('close') }}
         </v-btn>
@@ -45,7 +46,8 @@
   </v-app>
 </template>
 
-<script>
+<script lang="ts">
+import { Component, Vue, Watch } from 'vue-property-decorator';
 import Drawer from '@/components/Drawer.vue';
 import AppBar from '@/components/AppBar.vue';
 
@@ -53,66 +55,80 @@ import AppBar from '@/components/AppBar.vue';
  * App
  * @vuese
  */
-export default {
+@Component({
   components: {
     d: Drawer,
     appbar: AppBar,
   },
-  data() {
-    return {
-      title: this.$t('title'),
-      drawer: false,
-      snackbar: false,
-    };
-  },
-  computed: {
-    '$vuetify.theme.dark'() {
-      return this.$store.getters['config/themeDark'];
-    },
-    '$i18n.locale'() {
-      return this.$store.getters['config/locale'];
-    },
-    snackbarText() {
-      return this.$store.getters.message;
-    },
-    progress() {
-      return this.$store.getters.progress;
-    },
-    loading() {
-      const loading = this.$store.getters.loading;
-      document.body.style.cursor = loading ? 'wait' : 'auto';
-      return loading;
-    },
-  },
-  watch: {
-    '$i18n.locale'() {
-      const title = this.$t('title');
-      this.title = document.title = process.env.IS_ELECTRON
-        ? title.replace(/Web/g, 'Electron')
-        : title;
-      document.documentElement.lang = this.$i18n.locale;
-      document.getElementsByName('description')[0].content = this.$t(
-        'description'
-      );
-      if (process.env.IS_ELECTRON) {
-        const app = require('electron');
-        app.ipcRenderer.sendSync('setLocale', this.$i18n.locale);
-      }
-    },
-    '$store.getters.message'() {
-      this.snackbar = true;
-    },
-    $route() {
-      this.snackbar = false;
-    },
-  },
-  mounted() {
-    // 設定を反映
-    this.$vuetify.theme.dark = this.$store.getters['config/themeDark'];
-    this.$i18n.locale = this.$store.getters['config/locale'];
+})
+export default class App extends Vue {
+  /** window title */
+  private title: string = this.$t('title');
+  /** drawer menu visibility */
+  private drawer = false;
+  /** snackbar visibility */
+  private snackbar = false;
+  /** theme dark mode */
+  private get '$vuetify.theme.dark'(): boolean {
+    return this.$store.getters['ConfigModule/toggleTheme'];
+  }
+  /** current locale */
+  private get '$i18n.locale'(): string {
+    return this.$store.getters['ConfigModule/locale'];
+  }
+  /** snackbar text */
+  private get snackbarText(): string {
+    return this.$store.getters.message;
+  }
+  /** progress percentage */
+  private get progress(): number {
+    return this.$store.getters.progress;
+  }
+  /** loading overlay */
+  private get loading(): boolean {
+    const loading = this.$store.getters.loading;
+    document.body.style.cursor = loading ? 'wait' : 'auto';
+    return loading;
+  }
+  /** locale changer */
+  @Watch('$i18n.locale')
+  private onLocaleChanged(): void {
+    // change title bar text
+    const title = this.$t('title');
+    const locale = this.$i18n.locale;
+    this.title = document.title = process.env.IS_ELECTRON
+      ? title.replace(/Web/g, 'Electron')
+      : title;
+    // change language
+    document.documentElement.lang = locale;
+    // change description
+    document
+      .getElementsByName('description')
+      .item(0)
+      .setAttribute('content', this.$t('description'));
+
+    // change electron runtime locale (not works!)
+    if (process.env.IS_ELECTRON) {
+      this.$electron.ipcRenderer.sendSync('setLocale', locale);
+    }
+  }
+  /** Modify snackbar text */
+  @Watch('$store.getters.message')
+  private onSnackbarTextChanged(): void {
+    this.snackbar = true;
+  }
+  /** when route change, hide snackbar */
+  @Watch('$route')
+  private onRouteChanged(): void {
+    this.snackbar = false;
+  }
+  /** run once. */
+  private mounted() {
+    this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
+    this.$i18n.locale = this.$store.getters['ConfigModule/locale'];
     document.title = this.title;
-  },
-};
+  }
+}
 </script>
 
 <style lang="scss">

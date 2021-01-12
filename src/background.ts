@@ -2,31 +2,29 @@
  * Fallout Pip-boy Application (Pip-BoyA／Pip坊や) for Electron
  *
  * @author    Logue <logue@hotmail.co.jp>
- * @version   0.0.1
- * @copyright 2020 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
+ * @version   0.5.0
+ * @copyright 2020-2021 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
  * @license   MIT
  */
+import { app, protocol, BrowserWindow, ipcMain } from 'electron';
+import { createProtocol } from 'vue-cli-plugin-electron-builder/lib';
+import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer';
 
-'use strict';
-
-import {app, protocol, BrowserWindow, ipcMain} from 'electron';
-import {createProtocol} from 'vue-cli-plugin-electron-builder/lib';
-import installExtension, {VUEJS_DEVTOOLS} from 'electron-devtools-installer';
-const isDevelopment = process.env.NODE_ENV !== 'production';
+const isDevelopment: boolean = process.env.NODE_ENV !== 'production';
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let win;
+let win: BrowserWindow | undefined;
 
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([
-  {scheme: 'app', privileges: {secure: true, standard: true}},
+  { scheme: 'app', privileges: { secure: true, standard: true } },
 ]);
 
 /**
  * Create Window
  */
-function createWindow() {
+function createWindow(): void {
   // Create the browser window.
   win = new BrowserWindow({
     width: 800,
@@ -34,7 +32,8 @@ function createWindow() {
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
-      nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
+      nodeIntegration: (process.env
+        .ELECTRON_NODE_INTEGRATION as unknown) as boolean,
     },
   });
 
@@ -85,14 +84,14 @@ app.on('ready', async () => {
   createWindow();
 });
 
-process.on('unhandledRejection', (error) => {
+process.on('unhandledRejection', error => {
   console.error(error);
 });
 
 // Exit cleanly on request from parent process in development mode.
 if (isDevelopment) {
   if (process.platform === 'win32') {
-    process.on('message', (data) => {
+    process.on('message', data => {
       if (data === 'graceful-exit') {
         app.quit();
       }
@@ -105,7 +104,7 @@ if (isDevelopment) {
 }
 
 // i18n
-ipcMain.on('setLocale', (event, locale) => {
+ipcMain.on('setLocale', (event, locale: string) => {
   app.commandLine.appendSwitch('lang', locale);
   event.returnValue = app.getLocale();
 });

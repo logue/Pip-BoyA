@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-dialog
-      v-if="marker"
+      v-if="info"
       v-model="dialog"
       max-width="640"
       light
@@ -11,54 +11,54 @@
         <div class="d-flex">
           <v-avatar
             v-if="
-              (marker.name && marker.name.match(/^Loc/)) ||
-              marker.type === 'WaypointMarker'
+              (info.name && info.name.match(/^Loc/)) ||
+                info.type === 'WaypointMarker'
             "
             size="128"
             tile
             class="m-3"
-            :title="marker.type"
+            :title="info.type"
           >
-            <v-img :src="`/img/marker/${marker.type}.svg`" />
+            <v-img :src="`/img/marker/${info.type}.svg`" />
           </v-avatar>
           <div class="flex-fill">
-            <v-card-title v-if="marker.name">
-              {{ $t(`locations.${marker.name}`) }}
+            <v-card-title v-if="info.name">
+              {{ $t(`locations.${info.name}`) }}
               &nbsp;
-              <span v-if="marker.label" class="grey--text">
-                ({{ marker.label }})
+              <span v-if="info.label" class="grey--text">
+                ({{ info.label }})
               </span>
             </v-card-title>
             <v-card-title v-else>
-              {{ $t(`markers.${marker.type}`) }}
-              <span v-if="marker.sub">&nbsp;-&nbsp;{{ marker.sub }}</span>
-              <span v-if="marker.label" class="grey--text">
-                ({{ marker.label }})
+              {{ $t(`markers.${info.type}`) }}
+              <span v-if="info.sub">&nbsp;-&nbsp;{{ info.sub }}</span>
+              <span v-if="info.label" class="grey--text">
+                ({{ info.label }})
               </span>
             </v-card-title>
-            <v-card-subtitle v-if="marker.name && $i18n.locale !== 'en'">
-              {{ $t(`locations.${marker.name}`, 'en') }}
+            <v-card-subtitle v-if="info.name && $i18n.locale !== 'en'">
+              {{ $t(`locations.${info.name}`, 'en') }}
             </v-card-subtitle>
             <v-card-text>
               <v-simple-table>
                 <tbody>
-                  <tr v-if="marker.id">
+                  <tr v-if="info.id">
                     <th scope="col">ID</th>
-                    <td>{{ marker.id }}</td>
+                    <td>{{ info.id }}</td>
                   </tr>
-                  <tr v-if="marker.name">
+                  <tr v-if="info.name">
                     <th scope="col">Name</th>
-                    <td>{{ marker.name }}</td>
+                    <td>{{ info.name }}</td>
                   </tr>
-                  <tr v-if="marker.type">
+                  <tr v-if="info.type">
                     <th scope="col">Type</th>
-                    <td>{{ marker.type }}</td>
+                    <td>{{ info.type }}</td>
                   </tr>
                   <tr>
-                    <th scope="col">Coordination</th>
+                    <th scope="col">{{ $t('coordinate') }}</th>
                     <td>
-                      {{ marker.realX }}, {{ marker.realY }}
-                      <small>({{ marker.x }}, {{ marker.y }})</small>
+                      {{ info.realX }}, {{ info.realY }}
+                      <small>({{ info.x }}, {{ info.y }})</small>
                     </td>
                   </tr>
                 </tbody>
@@ -68,12 +68,12 @@
         </div>
         <v-card-actions>
           <v-btn
-            v-if="marker.name"
+            v-if="info.name"
             text
             color="green"
             :href="
               'https://fallout.fandom.com/wiki/' +
-              $t(`locations.${marker.name}`, 'en')
+                $t(`locations.${info.name}`, 'en')
             "
             @click.prevent="openNewWin"
           >
@@ -81,12 +81,12 @@
             NukaPedia
           </v-btn>
           <v-btn
-            v-if="marker.name"
+            v-if="info.name"
             text
             color="blue-grey"
             :href="
               'https://game-dictionary.net/fo76/word/' +
-              $t(`locations.${marker.name}`, 'ja')
+                $t(`locations.${info.name}`, 'ja')
             "
             @click.prevent="openNewWin"
           >
@@ -111,80 +111,65 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-    <v-snackbar v-model="snackbar" timeout="2000">
-      {{ snackbarText }}
-      <template #action="{attrs}">
-        <v-btn color="blue" text v-bind="attrs" @click="snackbar = false">
-          {{ $t('close') }}
-        </v-btn>
-      </template>
-    </v-snackbar>
   </div>
 </template>
 
-<script>
-import {getUri} from '@/assets/utility.js';
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import { getUri, openWindow } from '@/assets/Utility';
+import { MarkerProperties } from '@/types/markerData';
 
 /**
  * Marker detail window comportent.
  */
-export default {
-  data() {
-    return {
-      dialog: false,
-      snackbar: false,
-      snackbarText: null,
-      uri: null,
-      marker: {
-        id: 0,
-        type: null,
-        name: null,
-        realX: 0,
-        realY: 0,
-        x: 0,
-        y: 0,
-      },
-    };
-  },
-  methods: {
-    open(feature) {
-      if (!feature) {
-        return;
-      }
-      this.marker = feature.values_;
-      this.uri = getUri(
-        {x: this.marker.x, y: this.marker.y, z: 4},
-        this.$router
-      );
-      this.dialog = true;
-    },
-    close() {
-      this.dialog = false;
-    },
-    onCopy(e) {
-      this.dialog = false;
-      this.snackbarText = this.$t('copy-success');
-      this.snackbar = true;
-    },
-    onError(e) {
-      this.dialog = false;
-      this.snackbarText = this.$t('copy-failure');
-      this.snackbar = true;
-    },
-    openNewWin(e) {
-      // TODO: ディレクティブで指定できるように
+@Component
+export default class MarkerInfo extends Vue {
+  /** Marker Infomation dialog visibility */
+  private dialog = false;
 
-      // 現在のリンクを取得
-      const href = e.currentTarget.href;
-      if (process.env.IS_ELECTRON) {
-        // Electronの場合ブラウザを起動して開く
-        this.$electron.shell.openExternal(href);
-      } else {
-        // ブラウザの場合、通常の新しい画面
-        window.open(href);
-      }
-      return false;
-    },
-  },
-};
+  /** Marker Infomation */
+  private info: MarkerProperties = {
+    id: '0',
+    type: undefined,
+    name: undefined,
+    realX: 0,
+    realY: 0,
+    x: 0,
+    y: 0,
+  };
+
+  /** Permalink */
+  private uri: string | null = null;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types
+  public open(feature: any): void {
+    if (!feature) {
+      return;
+    }
+    this.info = feature.values_;
+    this.uri = getUri({ x: this.info.x, y: this.info.y, z: 4 }, this.$router);
+    this.dialog = true;
+  }
+  /** Close Dialog */
+  public close(): void {
+    this.dialog = false;
+  }
+  /** When Copy to clipboard */
+  public onCopy(): void {
+    this.dialog = false;
+    this.$store.dispatch('setMessage', this.$t('copy-success'));
+  }
+  /** When Failure to copy clipboard */
+  public onError(): void {
+    this.dialog = false;
+    this.$store.dispatch('setMessage', this.$t('copy-failure'));
+  }
+  /** Open External Window */
+  public openNewWin(
+    e: MouseEvent & { currentTarget: HTMLAnchorElement }
+  ): boolean {
+    openWindow(e.currentTarget.href, this);
+    return false;
+  }
+}
 </script>

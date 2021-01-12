@@ -30,40 +30,37 @@
   </span>
 </template>
 
-<script>
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
 /**
  * Get location uri dialog.
  */
-export default {
-  data() {
-    return {
-      dialog: false,
-    };
-  },
-  computed: {
-    uri() {
-      return this.$store.getters['location/uri'](this.$router);
-    },
-  },
-  methods: {
-    // ウィンドウを開いたとき
-    open() {
-      this.dialog = true;
-    },
-    // ウィンドウを閉じる
-    close() {
-      this.dialog = false;
-    },
-    // クリップボードにコピー
-    onCopy(e) {
-      this.dialog = false;
-      this.$store.dispatch('setMessage', this.$t('copy-success'));
-    },
-    // クリップボードにコピーできなかったとき
-    onError(e) {
-      this.dialog = false;
-      this.$store.dispatch('setMessage', this.$t('copy-failure'));
-    },
-  },
-};
+@Component
+export default class GetLink extends Vue {
+  /** Dialog visibility */
+  private dialog = false;
+
+  private get uri(): string {
+    return this.$store.getters['MapLocationModule/uri'](this.$router);
+  }
+
+  /** dialog open */
+  public open(): void {
+    this.dialog = true;
+  }
+  /** dialog close */
+  public close(): void {
+    this.dialog = false;
+  }
+  /** When Copy to clipboard */
+  public onCopy(): void {
+    this.dialog = false;
+    this.$store.dispatch('setMessage', this.$t('copy-success'));
+  }
+  /** When Failure to copy clipboard */
+  public onError(): void {
+    this.dialog = false;
+    this.$store.dispatch('setMessage', this.$t('copy-failure'));
+  }
+}
 </script>

@@ -1,3 +1,4 @@
+/* eslint-disable */
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
@@ -6,36 +7,25 @@ module.exports = {
 
   configureWebpack: {
     optimization: {
+      splitChunks: {
+        minSize: 10000,
+        maxSize: 250000,
+      },
       minimize: process.env.NODE_ENV === 'production',
       minimizer: [
         new TerserPlugin({
           terserOptions: {
             ascii_only: true,
-            compress: {
-              drop_console: true,
-            },
+            compress: { drop_console: true },
             mangle: true,
             ecma: 6,
             sourceMap: false,
-            output: {
-              comments: false,
-              beautify: false,
-            },
+            output: { comments: false, beautify: false },
           },
         }),
       ],
     },
   },
-
-  chainWebpack: (config) => {
-    config.module
-      .rule('worker-loader')
-      .test(/\.worker\.js$/i)
-      .use('worker-loader')
-      .loader('worker-loader')
-      .end();
-  },
-
   pluginOptions: {
     i18n: {
       locale: 'en',
@@ -44,12 +34,12 @@ module.exports = {
       enableInSFC: true,
     },
     electronBuilder: {
-      preload: 'src/preload.js',
+      preload: 'src/preload.ts',
       nodeIntegration: true,
-      chainWebpackRendererProcess: (config) => {
+      chainWebpackRendererProcess: config => {
         // Chain webpack config for electron renderer process only
         // The following example will set IS_ELECTRON to true in your app
-        config.plugin('define').tap((args) => {
+        config.plugin('define').tap(args => {
           args[0].IS_ELECTRON = true;
           return args;
         });
@@ -64,5 +54,7 @@ module.exports = {
         },
       },
     },
+    lintStyleOnBuild: false,
+    stylelint: {},
   },
 };

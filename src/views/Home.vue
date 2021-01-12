@@ -3,13 +3,11 @@
     <!-- Map Container -->
     <vl-map
       ref="map"
-      :class="`map-viewer_map${isMoving ? ' is_move' : ''}${
-        currentPosition ? ' is_hover' : ''
-      }`"
+      :class="mapClass"
       :load-tiles-while-animating="true"
       :load-tiles-while-interacting="true"
       :renderer="renderer"
-      :max-extent="config.extent"
+      :max-extent="extent"
       @mounted="onMapMounted"
       @pointermove="onMapPointerMove"
       @movestart="onMoveStart"
@@ -18,15 +16,15 @@
       <vl-view
         ref="view"
         :zoom.sync="zoom"
-        :center.sync="center"
+        :center="center"
         :rotation.sync="rotation"
-        :projection="config.projection"
-        :resolutions="config.resolutions"
-        :extent="config.extent"
+        :projection.sync="projection"
+        :resolutions.sync="resolutions"
+        :extent="extent"
       />
 
       <!-- Base map layers -->
-      <base-layer ref="baseLayer" :opacity="1" />
+      <base-layer ref="baseLayer" />
       <!-- Map markers -->
       <location-layer ref="locationLayer" />
       <!-- Category map layer -->
@@ -64,7 +62,7 @@
     </vl-map>
     <!-- opacity slider -->
     <v-tooltip bottom>
-      <template #activator="{on, attrs}">
+      <template #activator="{ on, attrs }">
         <v-slider
           v-model="$refs.baseLayer.opacity"
           step="0.1"
@@ -82,29 +80,41 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 /**
  * Map Viewer and Explains Component
  */
+import { Component, Vue, Watch } from 'vue-property-decorator';
 import colors from 'vuetify/lib/util/colors';
-
+// openlayers
+import Feature from 'ol/Feature';
 import FullScreen from 'ol/control/FullScreen';
-import OverviewMap from 'ol/control/OverviewMap';
-import ZoomSlider from 'ol/control/ZoomSlider';
+import Interaction from 'ol/interaction/Interaction';
+import Map from 'ol/Map';
+import MapBrowserEvent from 'ol/MapBrowserEvent';
 import MousePosition from 'ol/control/MousePosition';
+import OverviewMap from 'ol/control/OverviewMap';
 import PinchRotate from 'ol/interaction/PinchRotate';
-
-import {createStringXY} from 'ol/coordinate';
-
-import config from '@/assets/map.config.js';
-
+import Point from 'ol/geom/Point';
+import Select from 'ol/interaction/Select';
+import ZoomSlider from 'ol/control/ZoomSlider';
+import { Coordinate, createStringXY } from 'ol/coordinate';
+import { Extent, getCenter } from 'ol/extent';
+import { Pixel } from 'ol/pixel';
+import { ProjectionLike } from 'ol/proj';
+// component
+import define from '@/assets/MapDefinition';
 import BaseLayer from '@/components/layers/BaseLayer.vue';
 import CategoryLayer from '@/components/layers/CategoryLayer.vue';
+import Explain from '@/components/Explain.vue';
 import LocationLayer from '@/components/layers/LocationLayer.vue';
 import MarkerInfo from '@/components/MarkerInfo.vue';
-import Explain from '@/components/Explain.vue';
 
-export default {
+/**
+ * Home
+ */
+@Component({
+  name: 'Home',
   components: {
     'marker-info': MarkerInfo,
     'base-layer': BaseLayer,
@@ -112,130 +122,163 @@ export default {
     'location-layer': LocationLayer,
     explain: Explain,
   },
-  data() {
-    return {
-      config: config,
-      // View
-      zoom: 1,
-      center: config.center,
-      rotation: 0,
-      opacity: 1,
-      hitFeature: null,
-      // detect map move
-      isMoving: false,
-      // Tooltip
-      currentPosition: undefined,
-      currentName: undefined,
-      showMarkerTooltip: false,
-      // Blast zone
-      coordinatesBlastZone: [0, 0],
-      blastZoneColorSet: colors.red,
-    };
-  },
-  computed: {
-    renderer() {
-      return this.$store.getters['config/webgl'] ? 'webgl' : 'canvas';
-    },
-  },
-  mounted() {
+})
+export default class Home extends Vue {
+  // View
+  private zoom = 1;
+  private center: Coordinate = getCenter(define.extent);
+  private rotation = 0;
+  private opacity = 1;
+  private projection: ProjectionLike = define.projection;
+  private resolutions: number[] = define.resolutions;
+  private extent: Extent = define.extent;
+  private hitFeature?: Feature;
+  // detect map move
+  private isMoving = false;
+  // Tooltip
+  private currentPosition: Coordinate = [0, 0];
+  private currentName?: string;
+  private showMarkerTooltip = false;
+  // Blast zone
+  private coordinatesBlastZone: Coordinate = [0, 0];
+  private blastZoneColorSet = colors.red;
+
+  /** Map class */
+  private get mapClass(): string {
+    return (
+      'map-viewer_map' +
+      (this.isMoving ? ' is_move' : '') +
+      (this.currentPosition !== [0, 0] ? ' is_hover' : '')
+    );
+  }
+
+  /** Map Rendering mode */
+  private get renderer(): string {
+    return this.$store.getters['ConfigModule/webgl'] ? 'webgl' : 'canvas';
+  }
+
+  /** Theme Dark mode */
+  private get themeDark(): boolean {
+    return this.$store.getters['ConfigModule/themeDark'];
+  }
+
+  @Watch('themeDark')
+  onThemeChanged(): void {
+    console.log('theme changed');
+    this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
+  }
+
+  private beforeCreate(): void {
     // Load location from QueryString.
-    this.center = [
-      (this.$route.query.x || config.center[0]) | 0,
-      (this.$route.query.y || config.center[1]) | 0,
-    ];
-    this.zoom = (this.$route.query.z || 1) | 0;
-  },
-  methods: {
-    // マップが読み込まれたとき
-    onMapMounted() {
-      const map = this.$refs.map.$map;
-      // now ol.Map instance is ready and we can work with it directly
-      map.getControls().extend([
-        new MousePosition({
-          coordinateFormat: createStringXY(0),
-        }),
-        new FullScreen(),
-        new OverviewMap({
-          collapsed: true,
-          collapsible: true,
-        }),
-        new ZoomSlider(),
-      ]);
-      // Disable rotate function.
-      const interactions = map.getInteractions().getArray();
-      const pinchRotateInteraction = interactions.filter((interaction) => {
+    const query = this.$route.query as { [key: string]: string };
+    if (query.x && query.y) {
+      this.center = [parseInt(query.x), parseInt(query.y)];
+      this.zoom = parseInt(query.z);
+    }
+  }
+
+  private onMapMounted(): void {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    const map: Map = (this.$refs.map.$map as unknown) as Map;
+    // now ol.Map instance is ready and we can work with it directly
+    map.getControls().extend([
+      new MousePosition({
+        coordinateFormat: createStringXY(0),
+      }),
+      new FullScreen(),
+      new OverviewMap({
+        collapsed: true,
+        collapsible: true,
+      }),
+      new ZoomSlider(),
+    ]);
+    // Disable rotate function.
+    const interactions: Interaction[] = map.getInteractions().getArray();
+    const pinchRotateInteraction = interactions.filter(
+      (interaction: Interaction) => {
         return interaction instanceof PinchRotate;
-      })[0];
-      pinchRotateInteraction.setActive(false);
-    },
-    // マップ移動開始時
-    onMoveStart() {
-      this.isMoving = true;
-    },
-    // マップ移動終了時
-    onMoveEnd(e) {
-      this.isMoving = false;
-      // グローバル変数の座標を更新
-      this.$store.dispatch('location/set', {
-        x: this.center[0] | 0,
-        y: this.center[1] | 0,
-        z: this.zoom | 0,
-      });
-    },
-    // ポインタ移動時
-    onMapPointerMove(arr) {
-      const map = this.$refs.map;
-      this.hitFeature = map.forEachFeatureAtPixel(
-        arr.pixel,
-        (feature) => feature
-      );
-
-      if (this.hitFeature) {
-        // クリックされたマーカーのプロパティの値を取得
-        const name =
-          this.hitFeature.get('name') || this.hitFeature.values_.name || null;
-        const type =
-          this.hitFeature.get('type') || this.hitFeature.values_.type || null;
-        const label =
-          this.hitFeature.get('label') || this.hitFeature.values_.label || null;
-
-        // ツールチップの描画位置を取得
-        this.currentPosition = this.hitFeature.getGeometry().getCoordinates();
-
-        // ツールチップの内容を更新
-        this.currentName = name
-          ? this.$t(`locations.${name}`)
-          : this.$t(`markers.${type}`);
-        if (label) {
-          this.currentName += ` (${label})`;
-        }
-
-        this.showMarkerTooltip = true;
-      } else {
-        // nullを代入してツールチップを隠す
-        this.currentPosition = this.currentName = undefined;
-        this.showMarkerTooltip = false;
       }
-    },
-    // 初期位置に戻る
-    resetLocation() {
-      this.center = [this.$route.query.x, this.$route.query.y];
-      this.zoom = this.$route.query.zoom;
-    },
-    // マーカーをクリックしたときの処理
-    onSelect(e) {
-      this.$refs.markerInfo.open(e);
-      // TODO: マーカーの選択を解除
-      const features = this.$refs.selectInteraction.getFeatures();
-      console.info(features);
-    },
-    // 凡例のチェックボックスが変化した時
-    onMarkerSelectChanged(selected) {
-      // console.log(selected);
-      this.$refs.categoryLayer.isVisible = selected;
-    },
-  },
-};
+    )[0];
+    pinchRotateInteraction.setActive(false);
+  }
+  // マップ移動開始時
+  private onMoveStart(): void {
+    this.isMoving = true;
+  }
+  // マップ移動終了時
+  private onMoveEnd(): void {
+    this.isMoving = false;
+    // グローバル変数の座標を更新
+    this.$store.dispatch('MapLocationModule/set', {
+      x: this.center[0],
+      y: this.center[1],
+      z: this.zoom,
+    });
+  }
+  // ポインタ移動時
+  private onMapPointerMove(e: MapBrowserEvent): void {
+    const map: Map = (this.$refs.map as unknown) as Map;
+    // current pixel coordination
+    const pixel: Pixel = e.pixel;
+
+    this.hitFeature = map.forEachFeatureAtPixel(
+      pixel,
+      (feature: Feature) => feature
+    );
+
+    if (!this.hitFeature) {
+      // When mouse leave from any features
+      this.showMarkerTooltip = false;
+      return;
+    }
+
+    // クリックされたマーカーのプロパティの値を取得
+    const name = this.hitFeature.get('name');
+    const type = this.hitFeature.get('type');
+    const label = this.hitFeature.get('label');
+
+    // ツールチップの描画位置を取得
+    const point: Point = this.hitFeature.getGeometry() as Point;
+    this.currentPosition = point.getCoordinates();
+
+    // ツールチップの内容を更新
+    this.currentName = name
+      ? this.$t(`locations.${name}`)
+      : this.$t(`markers.${type}`);
+    if (label) {
+      this.currentName += ` (${label})`;
+    }
+
+    this.showMarkerTooltip = true;
+  }
+
+  // 初期位置に戻る
+  public resetLocation(): void {
+    const query = this.$route.query as { [key: string]: string };
+    this.center = [parseInt(query.x), parseInt(query.y)];
+    this.zoom = parseInt(query.zoom);
+  }
+
+  // マーカーをクリックしたときの処理
+  public onSelect(e: Feature): void {
+    const markerInfo: MarkerInfo = this.$refs.markerInfo as MarkerInfo;
+    markerInfo.open(e);
+    // TODO: マーカーの選択を解除
+    const interaction: Select = (this.$refs
+      .selectInteraction as unknown) as Select;
+    const features = interaction.getFeatures();
+    console.info(features);
+  }
+
+  // 凡例のチェックボックスが変化した時
+  public onMarkerSelectChanged(selected: boolean[]): void {
+    // console.log(selected);
+    const categoryLayer: CategoryLayer = this.$refs
+      .categoryLayer as CategoryLayer;
+    categoryLayer.isVisible = selected;
+  }
+}
 </script>
 
 <style lang="scss">
@@ -259,6 +302,7 @@ $crosshairs-length: 1.5rem;
   height: 100%;
   top: 0;
   bottom: 0;
+
   .map-viewer {
     width: inherit;
     height: inherit;
@@ -272,8 +316,8 @@ $crosshairs-length: 1.5rem;
     }
 
     &_map {
-      > :after,
-      > :before {
+      > ::after,
+      > ::before {
         position: absolute;
         transition-property: opacity;
         transition-duration: 0.25s;
@@ -284,18 +328,21 @@ $crosshairs-length: 1.5rem;
         opacity: 1;
         z-index: 0;
       }
-      > :before {
-        top: calc(50% - #{$crosshairs-width / 2});
-        left: calc(50% - #{$crosshairs-length / 2});
+
+      > ::before {
+        top: calc(50% - #{$crosshairs-width} / 2);
+        left: calc(50% - #{$crosshairs-length} / 2);
         width: $crosshairs-length;
         height: $crosshairs-width;
       }
-      > :after {
-        top: calc(50% - #{$crosshairs-length / 2});
-        left: calc(50% - #{$crosshairs-width / 2});
+
+      > ::after {
+        top: calc(50% - #{$crosshairs-length} / 2);
+        left: calc(50% - #{$crosshairs-width} / 2);
         width: $crosshairs-width;
         height: $crosshairs-length;
       }
+
       &_tooltip {
         transition: $primary-transition;
         white-space: nowrap !important;
@@ -303,8 +350,8 @@ $crosshairs-length: 1.5rem;
       }
       // ドラッグ中はクロスヘアーを薄くする
       &.is_move {
-        > :after,
-        > :before {
+        > ::after,
+        > ::before {
           opacity: 0.5;
         }
       }
@@ -321,19 +368,24 @@ $crosshairs-length: 1.5rem;
     .map-viewer {
       background-color: map-get($grey, 'lighten-1');
     }
+
     .ol-control {
       transition: $primary-transition;
       background-color: rgba(map-get($grey, 'lighten-2'), 0.5);
+
       button {
         background-color: rgba(map-get($blue, 'darken-3'), 0.5);
       }
     }
+
     .ol-control:hover {
       background-color: rgba(map-get($grey, 'lighten-2'), 0.7);
+
       button:hover {
         background-color: map-get($blue, 'darken-3');
       }
     }
+
     .ol-overviewmap .ol-overviewmap-map {
       border-color: map-get($blue, 'darken-3');
     }
@@ -345,19 +397,24 @@ $crosshairs-length: 1.5rem;
     .map-viewer {
       background-color: map-get($grey, 'darken-4');
     }
+
     .ol-control {
       transition: $primary-transition;
       background-color: rgba(map-get($grey, 'darken-3'), 0.5);
+
       button {
         background-color: rgba(map-get($blue, 'base'), 0.5);
       }
     }
+
     .ol-control:hover {
       background-color: rgba(map-get($grey, 'darken-3'), 0.7);
+
       button:hover {
         background-color: map-get($blue, 'darken-3');
       }
     }
+
     .ol-overviewmap .ol-overviewmap-map {
       border-color: map-get($blue, 'lighten-4');
     }

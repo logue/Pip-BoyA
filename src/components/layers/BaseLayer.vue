@@ -4,51 +4,51 @@
     <vl-source-xyz
       ref="baseLayerSource"
       :url="url"
-      :projection="config.projection"
-      :min-zoom="config.minZoom"
-      :max-zoom="config.maxZoom"
-      :tile-pixe-ratio="config.tilePixelRatio"
+      :projection="define.projection"
+      :min-zoom="define.minZoom"
+      :max-zoom="define.maxZoom"
+      :max-resolution="define.mapMaxResolution"
+      :tile-pixe-ratio="define.tilePixelRatio"
     />
   </vl-layer-tile>
 </template>
 
-<script>
+<script lang="ts">
+import { Component, Vue, Watch } from 'vue-property-decorator';
+import Tile from 'ol/layer/Tile';
+import { MapDefinition, MapTypes } from '@/types/map';
+import define from '@/assets/MapDefinition';
+import Source from 'ol/source/Source';
+import XYZ from 'ol/source/XYZ';
+
 /**
  * Base tile layer.
  */
-import config from '@/assets/map.config.js';
-
-const MAPS = ['military', 'base', 'realistic'];
-
-export default {
-  data() {
-    return {
-      // 透過度
-      opacity: 1,
-      // マップ設定
-      config: config,
-      // 画像のパス
-      url: '/img/tiles/base/{z}/{x}/{y}.webp',
-    };
-  },
-  mounted() {
-    this.$store.subscribe((mutation, state) => {
-      if (mutation.type === 'config/toggleMap') {
-        // マップ切り替え
-        this.url = `/img/tiles/${MAPS[state.config.map]}/{z}/{x}/{y}.webp`;
-
-        const sourceLayer = this.$refs.baseLayerSource;
-
-        if (sourceLayer) {
-          const source = sourceLayer.$source;
-          // キャッシュを削除
-          source.tileCache.expireCache({});
-          source.tileCache.clear();
-          // リフレッシュ
-          source.refresh();
-        }
-      }
-    });
-  },
-};
+@Component
+export default class BaseLayer extends Vue {
+  /** Map Opacity */
+  private opacity = 1;
+  /** Map definition */
+  private define: MapDefinition = define;
+  /** Tile image url pattern */
+  private get url() {
+    const type: number = this.$store.getters['ConfigModule/mapType'];
+    return `/img/tiles/${MapTypes[type]}/{z}/{x}/{y}.webp`;
+  }
+  @Watch('url')
+  private onMapChanged() {
+    console.log('onMapChanged');
+    const baseLayer: Tile = (this.$refs.baseLayer as unknown) as Tile;
+    const source: Source = baseLayer.getSource();
+    (source as XYZ).setUrl(this.url);
+    source.refresh();
+    /*
+    if (source) {
+      // キャッシュを削除
+      source.tileCache.expireCache({});
+      source.tileCache.clear();
+    }
+    */
+  }
+}
 </script>

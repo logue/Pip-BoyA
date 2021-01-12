@@ -1,19 +1,20 @@
 import Vue from 'vue';
-import VueAnalytics, {set} from 'vue-analytics';
-import router from '../router';
+import VueAnalytics, { set } from 'vue-analytics';
+import router from '@/router';
+import { Route } from 'vue-router';
 
 Vue.use(VueAnalytics, {
   id: 'UA-11445748-24',
   router,
-  // debug: {
-  //   enabled: true,
-  //   trace: true // help you find problems
-  // },
+  debug: {
+    enabled: false,
+    trace: false, // help you find problems
+  },
   fields: {
     cookieDomain: 'none', // no domain
   },
   autoTracking: {
-    pageviewTemplate(route) {
+    pageviewTemplate(route: Route) {
       // allow custom page titles in the router meta
       return {
         page: route.params.category || route.name,
@@ -24,5 +25,5 @@ Vue.use(VueAnalytics, {
   },
 });
 set('allowAdFeatures', false); // no ads
-set('checkProtocolTask', null); // ignore electron protocols
-set('checkStorageTask', null); // ignore electrons cache solution, assume it works
+set('checkProtocolTask', true); // ignore electron protocols
+set('checkStorageTask', true); // ignore electrons cache solution, assume it works

@@ -1,7 +1,12 @@
 <template>
-  <v-dialog v-model="dialog" max-width="800" light @keydown.esc="close">
+  <v-dialog
+    v-model="dialog"
+    max-width="800"
+    light
+    @keydown.esc="dialog = false"
+  >
     <v-card>
-      <v-card-title>{{ $t('about', {appname: $t('title')}) }}</v-card-title>
+      <v-card-title>{{ $t('about', { appname: $t('title') }) }}</v-card-title>
       <v-card-text>
         <v-banner>
           <nl2br tag="p" :text="$t('description')" />
@@ -143,7 +148,7 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer />
-        <v-btn text color="secondary" @click="close">
+        <v-btn text color="secondary" @click="dialog = false">
           <v-icon left>mdi-close</v-icon>
           {{ $t('close') }}
         </v-btn>
@@ -152,43 +157,34 @@
   </v-dialog>
 </template>
 
-<script>
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import Gravatar from 'vue-gravatar';
+import Nl2br from 'vue-nl2br';
+import { openWindow } from '@/assets/Utility';
+
 /**
  * About dialog
  */
-import Gravatar from 'vue-gravatar';
-import Nl2br from 'vue-nl2br';
-
-export default {
+@Component({
   components: {
     'v-gavatar': Gravatar,
     nl2br: Nl2br,
   },
-  data() {
-    return {
-      dialog: false,
-      isElectron: false,
-    };
-  },
-  mounted() {
-    this.isElectron = process.env.IS_ELECTRON;
-  },
-  methods: {
-    open() {
-      this.dialog = true;
-    },
-    close() {
-      this.dialog = false;
-    },
-    openNewWin(e) {
-      const href = e.currentTarget.href;
-      if (this.isElectron) {
-        this.$electron.shell.openExternal(href);
-      } else {
-        window.open(href);
-      }
-      return false;
-    },
-  },
-};
+})
+export default class About extends Vue {
+  /** Dialog visibility */
+  private dialog = false;
+  /** Open Dialog */
+  public open(): void {
+    this.dialog = true;
+  }
+  /** Open External Window */
+  public openNewWin(
+    e: MouseEvent & { currentTarget: HTMLAnchorElement }
+  ): boolean {
+    openWindow(e.currentTarget.href, this);
+    return false;
+  }
+}
 </script>

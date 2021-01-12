@@ -1,48 +1,43 @@
-# Pip-BoyA (Pip-Boy Application) a.k.a. Mappalachia for Web
+# Vue GTS Starter
 
-Fallout76 Map site. (or Standalone Application)
+[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
-https://fo76.logue.be/
+This is a [Vue](https://vuejs.org) starter project that complies with [Google TypeScript Style](https://github.com/google/gts). Compatible with [Vue CLI](https://cli.vuejs.org/).
 
-Thread (English):
-https://www.reddit.com/r/fo76/comments/i3zsw7/mappalachia_for_web/
-
-TRANSLATOR WANTED!
+You can also add [Bootstrap-vue](https://bootstrap-vue.org/), [Vuetify](https://vuetifyjs.com/), etc. to this project.
 
 ## Project setup
-```
+
+```sh
 npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
+
+```sh
 npm run serve
 ```
 
 ### Compiles and minifies for production
-```
+
+```sh
 npm run build
 ```
 
 ### Lints and fixes files
-```
+
+```sh
 npm run lint
 ```
 
-### Export missing translation report.
-```
-npm run i18n:report
-```
+### Gts commands
 
-### Compiles and hot-reloads for Electron development
-```
-npm run electron:serve
-```
+If you want to execute gts directly, prefix `gts:` as shown below. However, it doesn't make much sense because you can do the same with the above command.
 
-### Compiles and minifies and export Electron production
-```
-npm run electron:build
-```
+* `gts:lint`: Lints and checks for formatting problems.
+* `gts:fix`: Automatically fixes formatting and linting problems (if possible).
+* `gts:clean`: Removes output files.
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).

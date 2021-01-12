@@ -4,16 +4,16 @@
     <div class="d-none d-sm-flex d-sm-none d-md-flex">
       <!-- About -->
       <v-tooltip bottom>
-        <template #activator="{on, attrs}">
+        <template #activator="{ on, attrs }">
           <v-btn icon v-bind="attrs" v-on="on" @click="$refs.about.open()">
             <v-icon>mdi-information-outline</v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('about', {appname: $t('title')}) }}</span>
+        <span>{{ $t('about', { appname: $t('title') }) }}</span>
       </v-tooltip>
       <!-- Get Link -->
       <v-tooltip bottom>
-        <template #activator="{on, attrs}">
+        <template #activator="{ on, attrs }">
           <v-btn icon v-bind="attrs" v-on="on" @click="$refs.getLink.open()">
             <v-icon>mdi-share-variant</v-icon>
           </v-btn>
@@ -22,14 +22,14 @@
       </v-tooltip>
       <!-- Toggle Location Marker -->
       <v-tooltip bottom>
-        <template #activator="{on, attrs}">
+        <template #activator="{ on, attrs }">
           <v-btn
             icon
             v-bind="attrs"
             v-on="on"
-            @click="$store.commit('config/toggleLocationMarker')"
+            @click="$store.dispatch('ConfigModule/toggleLocationMarker')"
           >
-            <v-icon v-if="$store.state.config.displayLocation">
+            <v-icon v-if="$store.getters['ConfigModule/displayLocation']">
               mdi-map-marker-outline
             </v-icon>
             <v-icon v-else>mdi-map-marker-off-outline</v-icon>
@@ -39,14 +39,16 @@
       </v-tooltip>
       <!-- Toggle WebGL -->
       <v-tooltip bottom>
-        <template #activator="{on, attrs}">
+        <template #activator="{ on, attrs }">
           <v-btn
             icon
             v-bind="attrs"
             v-on="on"
-            @click="$store.commit('config/toggleWebGl')"
+            @click="$store.dispatch('ConfigModule/toggleWebGl')"
           >
-            <v-icon v-if="$store.state.config.webgl">mdi-cube-outline</v-icon>
+            <v-icon v-if="$store.getters['ConfigModule/webgl']">
+              mdi-cube-outline
+            </v-icon>
             <v-icon v-else>mdi-cube-off-outline</v-icon>
           </v-btn>
         </template>
@@ -54,15 +56,17 @@
       </v-tooltip>
       <!-- Toggle Map -->
       <v-tooltip bottom>
-        <template #activator="{on, attrs}">
+        <template #activator="{ on, attrs }">
           <v-btn
             icon
             v-bind="attrs"
             v-on="on"
-            @click="$store.commit('config/toggleMap')"
+            @click="$store.dispatch('ConfigModule/toggleMap')"
           >
-            <v-icon v-if="$store.state.config.map === 2">mdi-map</v-icon>
-            <v-icon v-else-if="$store.state.config.map === 1">
+            <v-icon v-if="$store.getters['ConfigModule/mapType'] === 2">
+              mdi-map
+            </v-icon>
+            <v-icon v-else-if="$store.getters['ConfigModule/mapType'] === 1">
               mdi-map-legend
             </v-icon>
             <v-icon v-else>mdi-map-outline</v-icon>
@@ -72,12 +76,12 @@
       </v-tooltip>
       <!-- Toggle Dark mode -->
       <v-tooltip bottom>
-        <template #activator="{on, attrs}">
+        <template #activator="{ on, attrs }">
           <v-btn
             icon
             v-bind="attrs"
             v-on="on"
-            @click="$store.commit('config/toggleTheme')"
+            @click="$store.dispatch('ConfigModule/toggleTheme')"
           >
             <v-icon>mdi-invert-colors</v-icon>
           </v-btn>
@@ -90,7 +94,7 @@
     <div class="d-flex d-sm-none">
       <!-- Small window mode -->
       <v-menu offset-y>
-        <template #activator="{on, attrs}">
+        <template #activator="{ on, attrs }">
           <v-btn icon v-bind="attrs" v-on="on">
             <v-icon>mdi-dots-vertical</v-icon>
           </v-btn>
@@ -102,7 +106,7 @@
               <v-icon>mdi-information-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
-              {{ $t('about', {appname: $t('title')}) }}
+              {{ $t('about', { appname: $t('title') }) }}
             </v-list-item-title>
           </v-list-item>
           <v-divider />
@@ -113,9 +117,11 @@
             </v-list-item-icon>
             <v-list-item-title>{{ $t('getUri') }}</v-list-item-title>
           </v-list-item>
-          <v-list-item @click="$store.commit('config/toggleLocationMarker')">
+          <v-list-item
+            @click="$store.dispatch('ConfigModule/toggleLocationMarker')"
+          >
             <v-list-item-icon>
-              <v-icon v-if="$store.state.config.displayLocation">
+              <v-icon v-if="$store.getters['ConfigModule/displayLocation']">
                 mdi-map-marker-outline
               </v-icon>
               <v-icon v-else>mdi-map-marker-off-outline</v-icon>
@@ -123,18 +129,22 @@
             <v-list-item-title>{{ $t('toggleLocation') }}</v-list-item-title>
           </v-list-item>
           <!-- Toggle WebGL -->
-          <v-list-item @click="$store.commit('config/toggleWebGl')">
+          <v-list-item @click="$store.dispatch('ConfigModule/toggleWebGl')">
             <v-list-item-icon>
-              <v-icon v-if="$store.state.config.webgl">mdi-cube-outline</v-icon>
+              <v-icon v-if="$store.getters['ConfigModule/webgl']">
+                mdi-cube-outline
+              </v-icon>
               <v-icon v-else>mdi-cube-off-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>{{ $t('toggleWebGl') }}</v-list-item-title>
           </v-list-item>
           <!-- Toggle Map -->
-          <v-list-item @click="$store.commit('config/toggleMap')">
+          <v-list-item @click="$store.dispatch('ConfigModule/toggleMap')">
             <v-list-item-icon>
-              <v-icon v-if="$store.state.config.map === 2">mdi-map</v-icon>
-              <v-icon v-else-if="$store.state.config.map === 1">
+              <v-icon v-if="$store.getters['ConfigModule/mapType'] === 2">
+                mdi-map
+              </v-icon>
+              <v-icon v-else-if="$store.getters['ConfigModule/mapType'] === 1">
                 mdi-map-legend
               </v-icon>
               <v-icon v-else>mdi-map-outline</v-icon>
@@ -142,7 +152,7 @@
             <v-list-item-title>{{ $t('toggleMap') }}</v-list-item-title>
           </v-list-item>
           <!-- Toggle Dark mode -->
-          <v-list-item @click="$store.commit('config/toggleTheme')">
+          <v-list-item @click="$store.dispatch('ConfigModule/toggleTheme')">
             <v-list-item-icon>
               <v-icon>mdi-invert-colors</v-icon>
             </v-list-item-icon>
@@ -159,35 +169,20 @@
   </div>
 </template>
 
-<script>
-/**
- * Application Bar.
- */
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
 import About from '@/components/About.vue';
 import GetLink from '@/components/GetLink.vue';
 import LocaleChanger from '@/components/LocaleChanger.vue';
-export default {
+/**
+ * Application Bar.
+ */
+@Component({
   components: {
     about: About,
     'get-link': GetLink,
     'locale-changer': LocaleChanger,
   },
-  computed: {
-    '$vuetify.theme.dark'() {
-      return this.$store.state.config.themeDark;
-    },
-  },
-  mounted() {
-    this.$store.subscribe((mutation, state) => {
-      switch (mutation.type) {
-        case 'config/toggleTheme':
-          this.$vuetify.theme.dark = state.config.themeDark;
-          break;
-        case 'config/setLocale':
-          this.$i18n.locale = state.config.locale;
-          break;
-      }
-    });
-  },
-};
+})
+export default class AppBar extends Vue {}
 </script>

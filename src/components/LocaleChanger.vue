@@ -1,9 +1,9 @@
 <template>
   <v-menu offset-y>
-    <template #activator="{on: menu, attrs}">
+    <template #activator="{ on: menu, attrs }">
       <v-tooltip bottom>
-        <template #activator="{on: tooltip}">
-          <v-btn icon v-bind="attrs" v-on="{...tooltip, ...menu}">
+        <template #activator="{ on: tooltip }">
+          <v-btn icon v-bind="attrs" v-on="{ ...tooltip, ...menu }">
             <v-icon>mdi-translate</v-icon>
           </v-btn>
         </template>
@@ -29,43 +29,44 @@
   </v-menu>
 </template>
 
-<script>
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
 import CountryFlag from 'vue-country-flag';
 
-export default {
-  name: 'LocaleChanger',
+/**
+ * Language selector
+ */
+@Component({
   components: {
     CountryFlag,
   },
-  data() {
-    return {
-      languages: {
-        de: 'de',
-        en: 'gb',
-        es: 'es',
-        fr: 'fr',
-        it: 'it',
-        ja: 'jp',
-        ko: 'kr',
-        pl: 'pl',
-        pt: 'pt',
-        ru: 'ru',
-        'zh-cn': 'cn',
-        'zh-tw': 'tw',
-      },
-    };
-  },
-  methods: {
-    changeLocale(locale) {
-      this.$i18n.locale = locale;
-      this.$store.commit('config/setLocale', locale);
-      this.$store.commit(
-        'setMessage',
-        this.$t('locale-changed', {locale: this.$t(`locales.${locale}`)})
-      );
-    },
-  },
-};
+})
+export default class LocaleChanger extends Vue {
+  private readonly languages = {
+    de: 'de',
+    en: 'gb',
+    es: 'es',
+    fr: 'fr',
+    it: 'it',
+    ja: 'jp',
+    ko: 'kr',
+    pl: 'pl',
+    pt: 'pt',
+    ru: 'ru',
+    'zh-cn': 'cn',
+    'zh-tw': 'tw',
+  };
+
+  /** Change locale */
+  public changeLocale(locale: string): void {
+    this.$i18n.locale = locale;
+    this.$store.commit('ConfigModule/setLocale', locale);
+    this.$store.commit(
+      'setMessage',
+      this.$t('locale-changed', { locale: this.$t(`locales.${locale}`) })
+    );
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -73,6 +74,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+
   > span {
     display: block;
   }

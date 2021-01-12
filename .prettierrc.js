@@ -1,9 +1,7 @@
-/** prettier設定. */
+/* eslint-disable */
 module.exports = {
+  ...require('./node_modules/gts/.prettierrc.json'),
   htmlWhitespaceSensitivity: 'ignore',
-  semi: true,
-  singleQuote: true,
-  trailingComma: 'es5',
-  bracketSpacing: false,
+  bracketSpacing: true,
   printWidth: 80,
 };
