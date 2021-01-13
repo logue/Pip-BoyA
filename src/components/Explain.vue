@@ -1,6 +1,6 @@
 <template>
   <v-expand-transition>
-    <v-card v-if="category && types" shaped dark class="explain">
+    <v-card v-if="category && types && !loading" shaped dark class="explain">
       <v-card-title class="explain_title">
         {{ $t('legend') }}
         <v-spacer />
@@ -27,9 +27,9 @@
           <span>{{ $t('toggleShrink') }}</span>
         </v-tooltip>
       </v-card-title>
-      <v-scale-transition>
+      <v-expand-transition>
         <v-card-text v-if="!isShrinked" class="explain_body">
-          <ul v-if="!counts" class="explain_list">
+          <ul v-if="colorset[0] !== 'red'" class="explain_list">
             <li
               v-for="(type, index) in types"
               :key="index"
@@ -57,7 +57,7 @@
                   <v-badge
                     inline
                     :label="type"
-                    :content="counts[type]"
+                    :content="count(type)"
                     :color="colorset[index]"
                     :class="
                       `explain_list_item_label ${colorset[index]}--text text--lighten-2`
@@ -73,7 +73,7 @@
         {{ $t('annotations.' + $route.params.category) }}
       </p-->
         </v-card-text>
-      </v-scale-transition>
+      </v-expand-transition>
     </v-card>
   </v-expand-transition>
 </template>
@@ -97,6 +97,7 @@ export default class Explain extends Vue {
   private checked: string[] = [];
   // Check All/Uncheck all
   private checkAll = true;
+
   // Check loading
   private get loading(): boolean {
     return this.$store.getters.loading;
@@ -111,6 +112,10 @@ export default class Explain extends Vue {
       this.checked.length !== 0 && this.types.length !== this.checked.length
     );
   }
+  private get count(): { [key: string]: number } {
+    return this.$store.getters['CategoryMarkerModule/count'];
+  }
+
   /**
    * Category
    */
@@ -129,16 +134,13 @@ export default class Explain extends Vue {
     this.types = this.$store.getters['CategoryMarkerModule/types'](
       this.category
     );
-    this.counts = this.$store.getters['CategoryMarkerModule/counts'](
-      this.category
-    );
     this.colorset = this.$store.getters['CategoryMarkerModule/colorset'](
       this.category
     );
     // マーカーはすべて選択状態にする
     this.checked = this.types;
 
-    console.debug('explain ready: ', this.category, this.counts);
+    // console.debug('explain ready: ', this.category);
   }
   /**
    * Toggle Marker visibility by Marker type.

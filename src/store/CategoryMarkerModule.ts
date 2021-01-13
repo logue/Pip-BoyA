@@ -11,15 +11,10 @@ import {
 } from 'vuex';
 import axios from 'axios';
 import { Feature, Point } from 'geojson';
-import Style from 'ol/style/Style';
 import { RootState } from '.';
 import { Marker, MarkerJsonData, MarkerProperties } from '@/types/markerData';
 import convertGeoJson from '@/assets/ConvertGeoJson';
-import {
-  getMarkerStyles,
-  markerColors,
-  tileExplainColors,
-} from '@/assets/MarkerStyle';
+import { markerColors, tileExplainColors } from '@/assets/MarkerStyle';
 
 // Marker State
 export interface CategoryMarkerState {
@@ -27,8 +22,8 @@ export interface CategoryMarkerState {
   features: { [key: string]: Feature<Point, MarkerProperties>[] };
   // Marker Types array
   types: { [key: string]: string[] };
-  // Marker Type and counts
-  counts: { [key: string]: { [key: string]: number } };
+  // Marker count by Type
+  count: { [key: string]: number };
   // Marker color palette
   colorset: { [key: string]: string[] };
   // Overlay tile image path
@@ -46,7 +41,7 @@ const state: CategoryMarkerState = {
   // Marker Types
   types: {},
   // Marker Types counts
-  counts: {},
+  count: {},
   // Marker color palette
   colorset: {},
   // Overlay tile image path
@@ -58,8 +53,7 @@ const getters: GetterTree<CategoryMarkerState, RootState> = {
   features: s => (category: string): Feature<Point, MarkerProperties>[] =>
     s.features[category],
   types: s => (category: string): string[] => s.types[category],
-  counts: s => (category: string): { [key: string]: number } =>
-    s.counts[category],
+  count: s => (type: string): number => s.count[type],
   colorset: s => (category: string): string[] => s.colorset[category],
   tileImage: s => (category: string): string | undefined =>
     s.tileImage[category],
@@ -89,7 +83,6 @@ const mutations: MutationTree<CategoryMarkerState> = {
    * @param payload marker color set array
    */
   setColorset(s, payload: CategoryPayload<string[]>) {
-    console.log(payload.value);
     s.colorset[payload.type] = payload.value;
   },
   /**
@@ -105,9 +98,8 @@ const mutations: MutationTree<CategoryMarkerState> = {
    * @param s Store
    * @param payload Markar type and count array
    */
-  setCounts(s, payload: CategoryPayload<{ [key: string]: number }>) {
-    console.log(payload.value);
-    s.counts[payload.type] = payload.value;
+  setCount(s, payload: CategoryPayload<number>) {
+    s.count[payload.type] = payload.value;
   },
 };
 
@@ -170,16 +162,19 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
       context.commit('setColorset', { type: category, value: colorset });
 
       // Associative array of marker names and their numbers
-      context.commit('setCounts', {
-        type: category,
-        value: itemTypes.reduce(
-          (acc: { [key: string]: number }, cur: string) => {
-            acc[cur] = acc[cur] ? ++acc[cur] : 1;
-            return acc;
-          },
-          {}
-        ),
-      });
+      const counts: { [key: string]: number } = itemTypes.reduce(
+        (acc: { [key: string]: number }, cur: string) => {
+          acc[cur] = acc[cur] ? ++acc[cur] : 1;
+          return acc;
+        },
+        {}
+      );
+      for (const entry in counts) {
+        context.commit('setCount', {
+          type: entry,
+          value: counts[entry],
+        });
+      }
     } else {
       // タイルマーカーモード（マーカー画像が予め含まれている）
       context.commit('setColorset', {

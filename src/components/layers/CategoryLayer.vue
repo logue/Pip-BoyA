@@ -93,6 +93,9 @@ export default class CategoryLayer extends Vue {
    */
   @Watch('zoom')
   private onZoomChanged() {
+    if (!this.category) {
+      return;
+    }
     this.redraw();
   }
   /** When dom ready */
