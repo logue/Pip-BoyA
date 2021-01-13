@@ -68,6 +68,7 @@ export default class App extends Vue {
   private drawer = false;
   /** snackbar visibility */
   private snackbar = false;
+
   /** theme dark mode */
   private get '$vuetify.theme.dark'(): boolean {
     return this.$store.getters['ConfigModule/toggleTheme'];
@@ -89,6 +90,17 @@ export default class App extends Vue {
     const loading = this.$store.getters.loading;
     document.body.style.cursor = loading ? 'wait' : 'auto';
     return loading;
+  }
+  /** Toggle Theme Dark/Light mode */
+  private get themeDark(): boolean {
+    return this.$store.getters['ConfigModule/themeDark'];
+  }
+
+  /** Theme Changer */
+  @Watch('themeDark')
+  private onThemeChanged(): void {
+    console.log('theme changed');
+    this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
   }
   /** locale changer */
   @Watch('$i18n.locale')
@@ -122,6 +134,7 @@ export default class App extends Vue {
   private onRouteChanged(): void {
     this.snackbar = false;
   }
+
   /** run once. */
   private mounted() {
     this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];

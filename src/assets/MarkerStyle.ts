@@ -57,13 +57,18 @@ export function getMarkerStyles(): { [key: string]: Style } {
   return Object.freeze(styles);
 }
 
+// Cache Marker Color Style
+const colorStyleCache: { [key: string]: Style } = {};
 /**
  * Get Marker Style by color
  * @param color Material Color
  */
 export function getMarkerStyle(color: string): Style {
   const colorSet = colors[toCamelCase(color)];
-  return new Style({
+  if (colorStyleCache[color]) {
+    return colorStyleCache[color];
+  }
+  colorStyleCache[color] = new Style({
     fill: new Fill({
       color: `rgba(${hexToRgb(colorSet.accent1 || colorSet.lighten5)},0.3)`,
     }),
@@ -100,14 +105,20 @@ export function getMarkerStyle(color: string): Style {
       text: '',
     }),
   });
+  return colorStyleCache[color];
 }
 
+// Cache Icon Marker Style
+const iconStyleCache: { [key: string]: Style } = {};
 /**
  * Get Icon Marker Style by Marker Type.
  * @param type Marker Type
  */
 export function getMarkerIconStyle(type: string): Style {
-  return new Style({
+  if (iconStyleCache[type]) {
+    return iconStyleCache[type];
+  }
+  iconStyleCache[type] = new Style({
     // Icon
     image: new Icon({
       anchor: [0.5, type === 'WaypointMarker' ? 0.9 : 0.5],
@@ -134,4 +145,5 @@ export function getMarkerIconStyle(type: string): Style {
       text: '',
     }),
   });
+  return iconStyleCache[type];
 }

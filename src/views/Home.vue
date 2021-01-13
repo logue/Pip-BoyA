@@ -143,6 +143,10 @@ export default class Home extends Vue {
   private coordinatesBlastZone: Coordinate = [0, 0];
   private blastZoneColorSet = colors.red;
 
+  // current category
+  private get category(): string | undefined {
+    return this.$route.params.category;
+  }
   /** Map class */
   private get mapClass(): string {
     return (
@@ -151,23 +155,22 @@ export default class Home extends Vue {
       (this.currentPosition !== [0, 0] ? ' is_hover' : '')
     );
   }
-
   /** Map Rendering mode */
   private get renderer(): string {
     return this.$store.getters['ConfigModule/webgl'] ? 'webgl' : 'canvas';
   }
 
-  /** Theme Dark mode */
-  private get themeDark(): boolean {
-    return this.$store.getters['ConfigModule/themeDark'];
+  /**
+   * When Page transition
+   */
+  @Watch('category')
+  private onCategoryChanged() {
+    this.loadData();
   }
 
-  @Watch('themeDark')
-  onThemeChanged(): void {
-    console.log('theme changed');
-    this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
-  }
-
+  /**
+   * Before Create (for query access)
+   */
   private beforeCreate(): void {
     // Load location from QueryString.
     const query = this.$route.query as { [key: string]: string };
@@ -176,7 +179,16 @@ export default class Home extends Vue {
       this.zoom = parseInt(query.z);
     }
   }
+  /**
+   * Mounted (for load Category Marker)
+   */
+  private mounted(): void {
+    this.loadData();
+  }
 
+  /**
+   * Customize Map UI.
+   */
   private onMapMounted(): void {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
@@ -202,21 +214,27 @@ export default class Home extends Vue {
     )[0];
     pinchRotateInteraction.setActive(false);
   }
-  // マップ移動開始時
+  /**
+   * When move map
+   */
   private onMoveStart(): void {
     this.isMoving = true;
   }
-  // マップ移動終了時
+  /**
+   * Whem move end map
+   */
   private onMoveEnd(): void {
     this.isMoving = false;
-    // グローバル変数の座標を更新
+    // Store current coordinate
     this.$store.dispatch('MapLocationModule/set', {
       x: this.center[0],
       y: this.center[1],
       z: this.zoom,
     });
   }
-  // ポインタ移動時
+  /**
+   * When pointer move
+   */
   private onMapPointerMove(e: MapBrowserEvent): void {
     const map: Map = (this.$refs.map as unknown) as Map;
     // current pixel coordination
@@ -252,15 +270,30 @@ export default class Home extends Vue {
 
     this.showMarkerTooltip = true;
   }
-
-  // 初期位置に戻る
+  /**
+   * Load category data
+   */
+  private async loadData(): Promise<void> {
+    console.debug('set category:', this.category);
+    if (this.category) {
+      await this.$store.dispatch(
+        'CategoryMarkerModule/getCategory',
+        this.category
+      );
+    }
+  }
+  /**
+   * Reset initial location. (unmounted)
+   */
   public resetLocation(): void {
     const query = this.$route.query as { [key: string]: string };
     this.center = [parseInt(query.x), parseInt(query.y)];
     this.zoom = parseInt(query.zoom);
   }
 
-  // マーカーをクリックしたときの処理
+  /**
+   * When Interact marker
+   */
   public onSelect(e: Feature): void {
     const markerInfo: MarkerInfo = this.$refs.markerInfo as MarkerInfo;
     markerInfo.open(e);

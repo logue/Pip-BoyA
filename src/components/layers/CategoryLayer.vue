@@ -1,10 +1,6 @@
 <template>
-  <vl-layer-group ref="categoryLayer">
-    <vl-layer-tile
-      v-if="$route.params.category"
-      ref="categoryTileLayer"
-      :z-index="10"
-    >
+  <vl-layer-group v-if="category" ref="categoryLayer">
+    <vl-layer-tile ref="categoryTileLayer" :z-index="10">
       <!-- tile based marker mode -->
       <vl-source-xyz
         v-if="tileImage"
@@ -70,13 +66,6 @@ export default class CategoryLayer extends Vue {
    */
   @Watch('category')
   private async onCategoryChanged() {
-    console.debug('set category:', this.category);
-    if (this.category) {
-      await this.$store.dispatch(
-        'CategoryMarkerModule/getCategory',
-        this.category
-      );
-    }
     this.init();
   }
   /**
@@ -220,11 +209,6 @@ export default class CategoryLayer extends Vue {
     const index = Object.values(types).indexOf(type);
 
     // Apply marker color
-    /*
-    const style: Style = this.$store.getters['CategoryMarkerModule/style'](
-      colorset[index]
-    );
-    */
     const style: Style = getMarkerStyle(colorset[index]);
     // Map zoom
     const scale: number = map.getView().getResolutionForZoom(2) / resolution;

@@ -16,6 +16,8 @@ import Map from 'ol/Map';
 import VectorLayer from 'ol/layer/Vector';
 import Style from 'ol/style/Style';
 import { FeatureLike } from 'ol/Feature';
+import { getMarkerIconStyle } from '@/assets/MarkerStyle';
+import Source from 'ol/source/Source';
 /**
  * Location Marker (Icon marker)
  */
@@ -71,10 +73,7 @@ export default class LocationLayer extends Vue {
       const scale: number = map.getView().getResolutionForZoom(2) / resolution;
 
       // スタイル定義を取得
-      const style: Style = this.$store.getters['LocationMarkerModule/style'](
-        type
-      );
-      // const style: Style = getMarkerIconStyle(type);
+      const style: Style = getMarkerIconStyle(type);
 
       // リサイズ
       style.getImage().setScale(scale < 1 ? scale : 1);
@@ -85,8 +84,8 @@ export default class LocationLayer extends Vue {
       return style;
     });
 
-    // const source: Source = (this.$refs.vectorSource as unknown) as Source;
-    // source.refresh();
+    const source: Source = (this.$refs.vectorSource as unknown) as Source;
+    source.refresh();
   }
 }
 </script>

@@ -25,8 +25,6 @@ import {
 export interface CategoryMarkerState {
   // Marker location object
   features: { [key: string]: Feature<Point, MarkerProperties>[] };
-  // Marker Style definition.
-  styles: { [key: string]: Style };
   // Marker Types array
   types: { [key: string]: string[] };
   // Marker Type and counts
@@ -45,8 +43,6 @@ interface CategoryPayload<T> extends Payload {
 const state: CategoryMarkerState = {
   // Marker location object
   features: {},
-  // Marker Style definition.
-  styles: getMarkerStyles(),
   // Marker Types
   types: {},
   // Marker Types counts
@@ -67,7 +63,6 @@ const getters: GetterTree<CategoryMarkerState, RootState> = {
   colorset: s => (category: string): string[] => s.colorset[category],
   tileImage: s => (category: string): string | undefined =>
     s.tileImage[category],
-  style: s => (type: string): Style => s.styles[type],
 };
 
 // Mutation

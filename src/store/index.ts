@@ -75,8 +75,6 @@ const store: StoreOptions<RootState> = {
   plugins: [
     // ブラウザを閉じても保存されるデータ
     new VuexPersistence({
-      strictMode: true,
-      asyncStorage: false,
       key: 'pipBoyA',
       storage: window.localStorage,
       modules: ['ConfigModule', 'LocationMarkerModule', 'CategoryMarkerModule'],

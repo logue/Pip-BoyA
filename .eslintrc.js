@@ -12,6 +12,7 @@ module.exports = {
     '@vue/prettier/@typescript-eslint',
     './node_modules/gts',
   ],
+  plugins: ['vue', 'vuetify'],
   parserOptions: {
     ecmaVersion: 2020,
   },

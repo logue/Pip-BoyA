@@ -1,6 +1,6 @@
 <template>
   <v-expand-transition>
-    <v-card v-if="category && types.length !== 0" shaped dark class="explain">
+    <v-card v-if="category && types" shaped dark class="explain">
       <v-card-title class="explain_title">
         {{ $t('legend') }}
         <v-spacer />
@@ -117,12 +117,14 @@ export default class Explain extends Vue {
   @Watch('loading')
   private onLoading(): void {
     // Reset
-    // this.types = this.colorset = this.checked = [];
-    // this.counts = {};
+    this.types = this.colorset = this.checked = [];
+    this.counts = {};
 
     if (!this.category) {
       return;
     }
+
+    this.$forceNextTick();
 
     this.types = this.$store.getters['CategoryMarkerModule/types'](
       this.category

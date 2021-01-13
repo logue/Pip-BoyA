@@ -9,7 +9,7 @@ const loadLocaleMessages = (): LocaleMessages => {
     true,
     /[A-Za-z0-9-_,\s]+\.json$/i
   );
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
   const messages: LocaleMessages = {};
   locales.keys().forEach(key => {
     const matched = key.match(/([A-Za-z0-9-_]+)\./i);
