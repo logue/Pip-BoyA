@@ -109,6 +109,7 @@ import CategoryLayer from '@/components/layers/CategoryLayer.vue';
 import Explain from '@/components/Explain.vue';
 import LocationLayer from '@/components/layers/LocationLayer.vue';
 import MarkerInfo from '@/components/MarkerInfo.vue';
+import { MarkerProperties } from '@/types/markerData';
 
 /**
  * Home
@@ -125,7 +126,6 @@ import MarkerInfo from '@/components/MarkerInfo.vue';
 })
 export default class Home extends Vue {
   // View
-  private zoom = 1;
   private center: Coordinate = getCenter(define.extent);
   private rotation = 0;
   private opacity = 1;
@@ -136,14 +136,28 @@ export default class Home extends Vue {
   // detect map move
   private isMoving = false;
   // Tooltip
-  private currentPosition: Coordinate = [0, 0];
   private currentName?: string;
   private showMarkerTooltip = false;
   // Blast zone
   private coordinatesBlastZone: Coordinate = [0, 0];
   private blastZoneColorSet = colors.red;
 
-  // current category
+  /** Current zoom */
+  private get zoom(): number {
+    return this.$store.getters['MapLocationModule/zoom'];
+  }
+  private set zoom(zoom: number) {
+    this.$store.dispatch('MapLocationModule/setZoom', zoom);
+  }
+  /** Current location */
+  private get currentPosition(): Coordinate {
+    return this.$store.getters['MapLocationModule/coordinate'];
+  }
+  private set currentPosition(coordinate: Coordinate) {
+    this.$store.dispatch('MapLocationModule/setCoordinate', coordinate);
+  }
+
+  /* current category */
   private get category(): string | undefined {
     return this.$route.params.category;
   }
@@ -252,20 +266,18 @@ export default class Home extends Vue {
     }
 
     // クリックされたマーカーのプロパティの値を取得
-    const name = this.hitFeature.get('name');
-    const type = this.hitFeature.get('type');
-    const label = this.hitFeature.get('label');
+    const prop: MarkerProperties = this.hitFeature.getProperties() as MarkerProperties;
 
     // ツールチップの描画位置を取得
     const point: Point = this.hitFeature.getGeometry() as Point;
     this.currentPosition = point.getCoordinates();
 
     // ツールチップの内容を更新
-    this.currentName = name
-      ? this.$t(`locations.${name}`)
-      : this.$t(`markers.${type}`);
-    if (label) {
-      this.currentName += ` (${label})`;
+    this.currentName = prop.name
+      ? this.$t(`locations.${prop.name}`)
+      : this.$t(`markers.${prop.type}`);
+    if (prop.label) {
+      this.currentName += ` (${prop.label})`;
     }
 
     this.showMarkerTooltip = true;

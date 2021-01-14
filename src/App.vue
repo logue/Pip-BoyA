@@ -87,9 +87,7 @@ export default class App extends Vue {
   }
   /** loading overlay */
   private get loading(): boolean {
-    const loading = this.$store.getters.loading;
-    document.body.style.cursor = loading ? 'wait' : 'auto';
-    return loading;
+    return this.$store.getters.loading;
   }
   /** Toggle Theme Dark/Light mode */
   private get themeDark(): boolean {
@@ -99,7 +97,7 @@ export default class App extends Vue {
   /** Theme Changer */
   @Watch('themeDark')
   private onThemeChanged(): void {
-    console.log('theme changed');
+    // console.log('theme changed');
     this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
   }
   /** locale changer */
@@ -133,6 +131,20 @@ export default class App extends Vue {
   @Watch('$route')
   private onRouteChanged(): void {
     this.snackbar = false;
+  }
+  /** when loading */
+  @Watch('loading')
+  private onLoading(): void {
+    // change cursor
+    document.body.style.cursor = this.loading ? 'wait' : 'auto';
+    // hide drawer menu while loading.
+    const drawer: boolean = this.drawer;
+    if (this.loading) {
+      this.drawer = false;
+    } else {
+      this.drawer = drawer;
+    }
+    this.$forceNextTick();
   }
 
   /** run once. */

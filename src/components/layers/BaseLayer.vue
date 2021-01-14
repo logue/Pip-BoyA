@@ -30,11 +30,13 @@ export default class BaseLayer extends Vue {
   private opacity = 1;
   /** Map definition */
   private define: MapDefinition = define;
+
   /** Tile image url pattern */
   private get url() {
     const type: number = this.$store.getters['ConfigModule/mapType'];
     return `/img/tiles/${MapTypes[type]}/{z}/{x}/{y}.webp`;
   }
+
   @Watch('url')
   private onMapChanged() {
     console.log('onMapChanged');
