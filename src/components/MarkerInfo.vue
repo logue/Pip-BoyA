@@ -31,7 +31,10 @@
             </v-card-title>
             <v-card-title v-else>
               {{ $t(`markers.${info.type}`) }}
-              <span v-if="info.sub">&nbsp;-&nbsp;{{ info.sub }}</span>
+              <span v-if="info.sub">
+                <v-icon>mdi-circle-small</v-icon>
+                {{ info.sub }}
+              </span>
               <span v-if="info.label" class="grey--text">
                 ({{ info.label }})
               </span>
@@ -39,33 +42,34 @@
             <v-card-subtitle v-if="info.name && $i18n.locale !== 'en'">
               {{ $t(`locations.${info.name}`, 'en') }}
             </v-card-subtitle>
-            <v-card-text>
-              <v-simple-table>
-                <tbody>
-                  <tr v-if="info.id">
-                    <th scope="col">ID</th>
-                    <td>{{ info.id }}</td>
-                  </tr>
-                  <tr v-if="info.name">
-                    <th scope="col">Name</th>
-                    <td>{{ info.name }}</td>
-                  </tr>
-                  <tr v-if="info.type">
-                    <th scope="col">Type</th>
-                    <td>{{ info.type }}</td>
-                  </tr>
-                  <tr>
-                    <th scope="col">{{ $t('coordinate') }}</th>
-                    <td>
-                      {{ info.realX }}, {{ info.realY }}
-                      <small>({{ info.x }}, {{ info.y }})</small>
-                    </td>
-                  </tr>
-                </tbody>
-              </v-simple-table>
-            </v-card-text>
           </div>
         </div>
+        <v-card-text>
+          <v-simple-table>
+            <tbody>
+              <tr v-if="info.id">
+                <th scope="col">ID</th>
+                <td>{{ info.id }}</td>
+              </tr>
+              <tr v-if="info.name">
+                <th scope="col">{{ $t('name') }}</th>
+                <td>{{ info.name }}</td>
+              </tr>
+              <tr v-if="info.type">
+                <th scope="col">{{ $t('type') }}</th>
+                <td>{{ info.type }}</td>
+              </tr>
+              <tr>
+                <th scope="col">{{ $t('coordinate') }}</th>
+                <td>
+                  {{ info.realX }}, {{ info.realY }}
+                  <br />
+                  <small>({{ info.x }}, {{ info.y }})</small>
+                </td>
+              </tr>
+            </tbody>
+          </v-simple-table>
+        </v-card-text>
         <v-card-actions>
           <v-btn
             v-if="info.name"
@@ -73,7 +77,7 @@
             color="green"
             :href="
               'https://fallout.fandom.com/wiki/' +
-                $t(`locations.${info.name}`, 'en')
+                encodeURIComponent($t(`locations.${info.name}`, 'en'))
             "
             @click.prevent="openNewWin"
           >
@@ -86,7 +90,7 @@
             color="blue-grey"
             :href="
               'https://game-dictionary.net/fo76/word/' +
-                $t(`locations.${info.name}`, 'ja')
+                encodeURIComponent($t(`locations.${info.name}`, 'ja'))
             "
             @click.prevent="openNewWin"
           >

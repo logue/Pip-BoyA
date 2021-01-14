@@ -1,6 +1,8 @@
 {
   "description": "Diese Site ist eine Site, auf der Sie die Karte von Appalachia mit einem Gefühl wie Google Maps sehen können. \n Die ursprüngliche Mappalachia wurde von u/AHeroicLlamas Projekt Redit erstellt.\nVielleicht ist die Übersetzung falsch. Auf der Suche nach einem Mitarbeiter!",
   "getUri": "Holen Sie sich einen Link für diesen Ort",
+  "name": "Name",
+  "type": "Art",
   "coordinate": "Koordinaten",
   "rotation": "Drehung",
   "title": "Mappalachia für Web",

@@ -1,6 +1,8 @@
 {
   "description": "Este site é um site onde você pode ver mapas dos Apalaches com uma sensação de Google Maps.\nO Mappalachia original foi criado pelo projeto de Redit u/AHeroicLlama.",
   "getUri": "Obtenha um link para este local",
+  "name": "Nome",
+  "type": "Tipo",
   "coordinate": "coordinate",
   "rotation": "rotação",
   "title": "Mappalachia for Web",

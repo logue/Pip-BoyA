@@ -1,5 +1,11 @@
 import Vue from 'vue';
-import Vuex, { ActionTree, GetterTree, MutationTree, StoreOptions } from 'vuex';
+import Vuex, {
+  ActionContext,
+  ActionTree,
+  GetterTree,
+  MutationTree,
+  StoreOptions,
+} from 'vuex';
 import VuexPersistence from 'vuex-persist';
 
 import ConfigModule from './ConfigModule';
@@ -48,13 +54,13 @@ const mutations: MutationTree<RootState> = {
 
 // Action
 const actions: ActionTree<RootState, RootState> = {
-  setLoading(context, display = false) {
+  setLoading(context: ActionContext<RootState, RootState>, display = false) {
     context.commit('setLoading', display);
   },
-  setProgress(context, progress = 0) {
+  setProgress(context: ActionContext<RootState, RootState>, progress = 0) {
     context.commit('setProgress', progress);
   },
-  setMessage(context, message = null) {
+  setMessage(context: ActionContext<RootState, RootState>, message = null) {
     context.commit('setMessage', message);
   },
 };

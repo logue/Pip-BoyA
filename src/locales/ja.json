@@ -1,6 +1,8 @@
 {
   "description": "このサイトは、GoogleMapsのような操作感でアパラチアのマップを見ることができるサイトです。\nオリジナルのMappalachiaは、Reditのu/AHeroicLlama氏のプロジェクトによって作られました。",
   "getUri": "この場所のリンクを取得する",
+  "name": "名前",
+  "type": "種別",
   "coordinate": "座標",
   "rotation": "回転",
   "title": "Mappalachia for Web",

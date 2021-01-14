@@ -1,6 +1,8 @@
 {
   "description": "該站點是您可以看到阿巴拉契亞地圖（例如Google Maps）的站點。\nu/Reddit上的HeroicLlama的原始Mappalachia項目。\n也許翻譯是錯誤的。 請幫我翻譯！",
   "getUri": "獲取此位置的URI。",
+  "name": "名稱",
+  "type": "類型",
   "coordinate": "坐標",
   "rotation": "迴轉",
   "title": "Mappalachia for Web",

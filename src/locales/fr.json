@@ -1,6 +1,8 @@
 {
   "description": "Ce site est un site où vous pouvez voir la carte des Appalaches avec le fonctionnement ressemblant à Google Maps. \nLa Mappalachia originale a été créée par le projet u/AHeroicLlama de Redit.\nPeut-être que la traduction est fausse. À la recherche d'un collaborateur!",
   "getUri": "Obtenez un lien pour cet emplacement.",
+  "name": "Nom",
+  "type": "Type",
   "coordinate": "Coordonner",
   "rotation": "Rotation",
   "title": "Mappalachia pour le Web",

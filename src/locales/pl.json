@@ -1,6 +1,8 @@
 {
   "description": "Ta strona to strona, na której możesz zobaczyć mapę Appalachów z wrażeniem Google Maps.\nOryginalna Mappalachia została stworzona przez projekt Redit u/AHeroicLlama.\nMoże tłumaczenie jest błędne. Szukam współpracownika!",
   "getUri": "Uzyskaj link do tej lokalizacji",
+  "name": "Nazwa",
+  "type": "Rodzaj",
   "coordinate": "Współrzędne",
   "rotation": "Rotacja",
   "title": "Mappalachia dla sieci Web",

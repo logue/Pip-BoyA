@@ -1,6 +1,8 @@
 {
   "description": "이 사이트는 GoogleMaps 같은 조작감으로 애팔 래 치아의지도를 볼 수있는 사이트입니다.\n원래 Mappalachia는 Redit의 u/AHeroicLlama 씨의 프로젝트에 의해 만들어졌습니다.",
   "getUri": "이 곳의 링크를 얻을",
+  "name": "이름",
+  "type": "유형",
   "coordinate": "좌표",
   "rotation": "회전",
   "title": "Mappalachia for Web",

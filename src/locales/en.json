@@ -1,6 +1,8 @@
 {
   "description": "This site is a site where you can see the Appalachian map like Google Maps.\nThe original Mappalachia project by u/AHeroicLlama on Reddit.",
   "getUri": "Get URI for this location.",
+  "name": "Name",
+  "type": "Type",
   "coordinate": "Coordinate",
   "rotation": "Rotation",
   "title": "Mappalachia for Web",
