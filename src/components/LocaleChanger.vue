@@ -32,7 +32,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import CountryFlag from 'vue-country-flag';
-
+import { languages } from '@/assets/Utility';
 /**
  * Language selector
  */
@@ -42,24 +42,14 @@ import CountryFlag from 'vue-country-flag';
   },
 })
 export default class LocaleChanger extends Vue {
-  private readonly languages = {
-    de: 'de',
-    en: 'gb',
-    es: 'es',
-    fr: 'fr',
-    it: 'it',
-    ja: 'jp',
-    ko: 'kr',
-    pl: 'pl',
-    pt: 'pt',
-    ru: 'ru',
-    'zh-cn': 'cn',
-    'zh-tw': 'tw',
-  };
+  private readonly languages = languages;
 
   /** Change locale */
   public changeLocale(locale: string): void {
     this.$i18n.locale = locale;
+    if (process.env.IS_ELECTRON) {
+      this.$electron.ipcRenderer.send('setLocale', locale);
+    }
     this.$store.commit('ConfigModule/setLocale', locale);
     this.$store.commit(
       'setMessage',

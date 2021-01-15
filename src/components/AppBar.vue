@@ -15,7 +15,7 @@
       <v-tooltip bottom>
         <template #activator="{ on, attrs }">
           <v-btn icon v-bind="attrs" v-on="on" @click="$refs.getLink.open()">
-            <v-icon>mdi-share-variant</v-icon>
+            <v-icon>mdi-share-variant-outline</v-icon>
           </v-btn>
         </template>
         <span>{{ $t('getUri') }}</span>
@@ -113,7 +113,7 @@
           <!-- Get Link -->
           <v-list-item @click="$refs.getLink.open()">
             <v-list-item-icon>
-              <v-icon>mdi-share-variant</v-icon>
+              <v-icon>mdi-share-variant-outline</v-icon>
             </v-list-item-icon>
             <v-list-item-title>{{ $t('getUri') }}</v-list-item-title>
           </v-list-item>

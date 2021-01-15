@@ -21,6 +21,7 @@
   "copy": "複製",
   "copy-success": "到該位置的URI已復製到剪貼板。",
   "copy-failure": "複製失敗。",
+  "check": "檢查",
   "locale": "語言切換",
   "locale-changed": "語言設置已切換為{locale}。",
   "category": "類別",

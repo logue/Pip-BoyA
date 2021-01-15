@@ -48,7 +48,7 @@ const getters: GetterTree<MapLocationState, RootState> = {
     });
 
     return process.env.IS_ELECTRON
-      ? uri.href.replace('/app:/./#', 'https://fo76.logue.be')
+      ? uri.href.replace(/^(?:.+)?#/gm, 'https://fo76.logue.be')
       : location.origin + uri.href;
   },
   // get current coordinate

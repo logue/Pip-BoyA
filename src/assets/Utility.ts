@@ -61,25 +61,6 @@ export function valuesOf(obj: any): { [key: string]: any } {
 }
 
 /**
- * Get location uri.
- *
- * @param loc Current location
- * @param $router Vue Router Object
- * @return
- */
-export function getUri(loc: CurrentMapLocation, $router: VueRouter): string {
-  // URLを更新
-  const url = $router.resolve({
-    query: { x: loc.x.toString(), y: loc.y.toString(), z: loc.z.toString() },
-  });
-
-  // console.debug(url);
-  return process.env.IS_ELECTRON
-    ? url.href.replace('/app:/./#', 'https://fo76.logue.be')
-    : location.origin + url.href;
-}
-
-/**
  * Open External Window.
  * @param href link href
  */

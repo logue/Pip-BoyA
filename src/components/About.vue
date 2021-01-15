@@ -136,7 +136,7 @@
         <section class="my-3">
           <h2 class="mb-3">Legal Notice</h2>
           <p class="mx-3 my-3">
-            Fallout® 76 Wastelanders © 2020 Bethesda Softworks LLC, a ZeniMax
+            Fallout® 76 Wastelanders © 2021 Bethesda Softworks LLC, a ZeniMax
             Media company. Bethesda, Bethesda Softworks, Bethesda Game Studios,
             ZeniMax, Pip-Boy, Vault-Tec and related logos are registered
             trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or
@@ -176,7 +176,7 @@ export default class About extends Vue {
   /** Dialog visibility */
   private dialog = false;
   /** Electron */
-  private isElectron = process.env.IS_ELECTRON ? true : false;
+  private isElectron = process.env.IS_ELECTRON ?? false;
 
   /** Open Dialog */
   public open(): void {

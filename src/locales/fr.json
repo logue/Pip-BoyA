@@ -23,7 +23,8 @@
   "copy-failure": "Impossible de copier.",
   "locale": "Changement de langue",
   "locale-changed": "Le paramètre de langue est passé à {locale}.",
-  "category": "catégorie",
+  "check": "Vérifier",
+  "category": "Catégorie",
   "category-changed": "Passé à la carte {category}.",
   "all": "Tout sélectionner",
   "locales": {

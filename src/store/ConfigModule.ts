@@ -72,8 +72,8 @@ const mutations: MutationTree<ConfigState> = {
   toggleExplain(s) {
     s.expandExplain = !s.expandExplain;
   },
-  setLocale(s, locale) {
-    s.locale = locale || 'en';
+  setLocale(s, locale: string) {
+    s.locale = locale;
   },
 };
 
@@ -127,7 +127,7 @@ const actions: ActionTree<ConfigState, RootState> = {
    * @param context Vuex Context
    * @param locale locale code
    */
-  setLocale(context: ActionContext<ConfigState, RootState>, locale: string) {
+  setLocale(context: ActionContext<ConfigState, RootState>, locale = 'en') {
     context.commit('setLocale', locale);
   },
 };

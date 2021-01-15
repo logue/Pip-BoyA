@@ -21,6 +21,7 @@
   "copy": "복사",
   "copy-success": "이 위치에 URI를 클립 보드에 복사했습니다.",
   "copy-failure": "복사 할 수 없습니다.",
+  "check": "검사",
   "locale": "언어 전환",
   "locale-changed": "언어 설정은 {locale}로 전환했습니다.",
   "category": "카테고리",

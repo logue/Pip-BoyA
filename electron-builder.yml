@@ -1,6 +1,6 @@
 appId:
   "dev.logue.pip-boya"
-compression :
+compression:
   maximum
 win:
   target:

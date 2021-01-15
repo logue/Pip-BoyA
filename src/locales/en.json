@@ -21,6 +21,7 @@
   "copy": "Copy",
   "copy-success": "The URI to this location was copied to the clipboard.",
   "copy-failure": "Copy is failure.",
+  "check": "Check",
   "locale": "Change Locale",
   "locale-changed": "The language setting has been switched to {locale}.",
   "category": "category",

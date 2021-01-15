@@ -143,6 +143,18 @@ export default class App extends Vue {
       this.drawer = false;
     } else {
       this.drawer = drawer;
+      if (process.env.IS_ELECTRON) {
+        // hide progress when finish loading.
+        this.$electron.ipcRenderer.send('setProgress', 0);
+      }
+    }
+    this.$forceNextTick();
+  }
+
+  @Watch('progress')
+  private onProgressChanged() {
+    if (process.env.IS_ELECTRON) {
+      this.$electron.ipcRenderer.send('setProgress', this.progress);
     }
     this.$forceNextTick();
   }

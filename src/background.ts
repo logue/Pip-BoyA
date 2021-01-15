@@ -2,29 +2,32 @@
  * Fallout Pip-boy Application (Pip-BoyA／Pip坊や) for Electron
  *
  * @author    Logue <logue@hotmail.co.jp>
- * @version   0.5.0
+ * @version   0.5.0-beta
  * @copyright 2020-2021 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
  * @license   MIT
  */
-import { app, protocol, BrowserWindow, ipcMain } from 'electron';
+
+'use strict';
+
+import { app, protocol, BrowserWindow, ipcMain, Menu } from 'electron';
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib';
 import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer';
+import { IpcMainEvent } from 'electron/main';
+const isDevelopment = process.env.NODE_ENV !== 'production';
 
-const isDevelopment: boolean = process.env.NODE_ENV !== 'production';
-
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
-let win: BrowserWindow | undefined;
+let win: BrowserWindow;
 
 // Scheme must be registered before the app is ready
 protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } },
 ]);
 
-/**
- * Create Window
- */
-function createWindow(): void {
+if (app.isPackaged) {
+  // Removing the menu bar from the window.
+  Menu.setApplicationMenu(null);
+}
+
+async function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
     width: 800,
@@ -39,17 +42,13 @@ function createWindow(): void {
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     // Load the url of the dev server if in development mode
-    win.loadURL(process.env.WEBPACK_DEV_SERVER_URL);
+    await win.loadURL(process.env.WEBPACK_DEV_SERVER_URL);
     if (!process.env.IS_TEST) win.webContents.openDevTools();
   } else {
     createProtocol('app');
     // Load the index.html when not in development
     win.loadURL('app://./index.html');
   }
-
-  win.on('closed', () => {
-    win = null;
-  });
 }
 
 // Quit when all windows are closed.
@@ -64,9 +63,7 @@ app.on('window-all-closed', () => {
 app.on('activate', () => {
   // On macOS it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
-  if (win === null) {
-    createWindow();
-  }
+  if (BrowserWindow.getAllWindows().length === 0) createWindow();
 });
 
 // This method will be called when Electron has finished
@@ -84,10 +81,6 @@ app.on('ready', async () => {
   createWindow();
 });
 
-process.on('unhandledRejection', error => {
-  console.error(error);
-});
-
 // Exit cleanly on request from parent process in development mode.
 if (isDevelopment) {
   if (process.platform === 'win32') {
@@ -103,8 +96,15 @@ if (isDevelopment) {
   }
 }
 
+// Event handling
 // i18n
-ipcMain.on('setLocale', (event, locale: string) => {
+ipcMain.on('setLocale', (event: IpcMainEvent, locale: string) => {
   app.commandLine.appendSwitch('lang', locale);
   event.returnValue = app.getLocale();
+});
+
+// Tray icon progressbar
+ipcMain.on('setProgress', (event: IpcMainEvent, value: number) => {
+  win.setProgressBar(value * 0.01);
+  event.returnValue = value;
 });

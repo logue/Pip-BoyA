@@ -21,9 +21,10 @@
   "copy": "Copia",
   "copy-success": "Copia l'URI in questa posizione negli appunti.",
   "copy-failure": "Non poteva copiare.",
+  "check": "Controlla",
   "locale": "Cambio lingua",
   "locale-changed": "L'impostazione della lingua è stata cambiata in {locale}.",
-  "category": "categoria",
+  "category": "Categoria",
   "category-changed": "Switched to {category} map.",
   "all": "Seleziona tutto",
   "locales": {
