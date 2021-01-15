@@ -102,13 +102,7 @@
             <v-icon left>mdi-close</v-icon>
             {{ $t('close') }}
           </v-btn>
-          <v-btn
-            v-clipboard:copy="uri"
-            v-clipboard:success="onCopy"
-            v-clipboard:error="onError"
-            text
-            color="primary"
-          >
+          <v-btn text color="primary" @click="copy()">
             <v-icon left>mdi-clipboard-arrow-down</v-icon>
             {{ $t('copy') }}
           </v-btn>
@@ -120,7 +114,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { getUri, openWindow } from '@/assets/Utility';
+import { openWindow } from '@/assets/Utility';
 import { MarkerProperties } from '@/types/markerData';
 
 /**
@@ -143,30 +137,38 @@ export default class MarkerInfo extends Vue {
   };
 
   /** Permalink */
-  private uri: string | null = null;
+  private get uri() {
+    const uri = this.$router.resolve({
+      query: {
+        x: (this.info.x | 0).toString(),
+        y: (this.info.y | 0).toString(),
+      },
+    });
+    return process.env.IS_ELECTRON
+      ? uri.href.replace(/^(?:.+)?#/gm, 'https://fo76.logue.be')
+      : location.origin + uri.href;
+  }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types
-  public open(feature: any): void {
-    if (!feature) {
+  public open(info: MarkerProperties): void {
+    if (!info) {
       return;
     }
-    this.info = feature.values_;
-    this.uri = getUri({ x: this.info.x, y: this.info.y, z: 4 }, this.$router);
+    this.info = info;
     this.dialog = true;
   }
   /** Close Dialog */
   public close(): void {
     this.dialog = false;
   }
-  /** When Copy to clipboard */
-  public onCopy(): void {
+  /** copy */
+  public copy(): void {
+    if (process.env.IS_ELECTRON) {
+      this.$electron.clipboard.writeText(this.uri);
+    } else {
+      navigator.clipboard.writeText(this.uri);
+    }
     this.dialog = false;
     this.$store.dispatch('setMessage', this.$t('copy-success'));
-  }
-  /** When Failure to copy clipboard */
-  public onError(): void {
-    this.dialog = false;
-    this.$store.dispatch('setMessage', this.$t('copy-failure'));
   }
   /** Open External Window */
   public openNewWin(

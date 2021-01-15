@@ -1,6 +1,3 @@
-import VueRouter from 'vue-router';
-import { CurrentMapLocation } from '@/types/map';
-
 /**
  * Country icon mapping
  */

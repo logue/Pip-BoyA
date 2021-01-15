@@ -106,9 +106,6 @@ export default class CategoryLayer extends Vue {
    * Initialize category markers.
    */
   public async init(): Promise<void> {
-    if (!this.category) {
-      return;
-    }
     await this.$store.dispatch('setLoading', true);
     await this.$forceNextTick();
     // タイトルを変更
@@ -121,6 +118,7 @@ export default class CategoryLayer extends Vue {
       document.title = title;
       this.features = [];
       this.$store.dispatch('setLoading', false);
+      return;
     }
 
     await this.$store.dispatch('setProgress', 20);

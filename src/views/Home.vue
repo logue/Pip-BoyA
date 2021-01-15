@@ -96,7 +96,6 @@ import MousePosition from 'ol/control/MousePosition';
 import OverviewMap from 'ol/control/OverviewMap';
 import PinchRotate from 'ol/interaction/PinchRotate';
 import Point from 'ol/geom/Point';
-import Select from 'ol/interaction/Select';
 import ZoomSlider from 'ol/control/ZoomSlider';
 import { Coordinate, createStringXY } from 'ol/coordinate';
 import { Extent, getCenter } from 'ol/extent';
@@ -309,13 +308,10 @@ export default class Home extends Vue {
    * When Interact marker
    */
   public onSelect(e: Feature): void {
+    // Get MarkerProperties from selected feature
     const markerInfo: MarkerInfo = this.$refs.markerInfo as MarkerInfo;
-    markerInfo.open(e);
+    markerInfo.open(e.getProperties() as MarkerProperties);
     // TODO: マーカーの選択を解除
-    const interaction: Select = (this.$refs
-      .selectInteraction as unknown) as Select;
-    const features = interaction.getFeatures();
-    console.info(features);
   }
 
   // 凡例のチェックボックスが変化した時
