@@ -48,12 +48,13 @@ export default class LocationLayer extends Vue {
     this.redraw();
   }
 
-  private beforeCreate(): void {
-    this.$store.dispatch('LocationMarkerModule/init');
+  @Watch('features')
+  private onFeaturesChanged(): void {
+    this.redraw();
   }
 
-  private mounted(): void {
-    this.redraw();
+  private beforeCreate(): void {
+    this.$store.dispatch('LocationMarkerModule/init');
   }
 
   /** Redraw Marker Icon */

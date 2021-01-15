@@ -35,24 +35,29 @@ const getters: GetterTree<MapLocationState, RootState> = {
   zoom: (s): number => s.zoom,
   // Get uri of current location.
   uri: s => ($router: VueRouter): string => {
+    // Query Parameters
+    const query: { [key: string]: string } = {
+      x: (s.coordinate[0] | 0).toString(),
+      y: (s.coordinate[1] | 0).toString(),
+      z: s.zoom.toString(),
+      // t: s.type.toString(),
+    };
+
     const uri = $router.resolve({
-      query: {
-        x: s.coordinate[0].toString(),
-        y: s.coordinate[0].toString(),
-        z: s.zoom.toString(),
-        t: s.type.toString(),
-      },
+      query: query,
     });
 
     return process.env.IS_ELECTRON
       ? uri.href.replace('/app:/./#', 'https://fo76.logue.be')
       : location.origin + uri.href;
   },
+  // get current coordinate
+  coordinate: (s): Coordinate => s.coordinate,
 };
 
 // Mutation
 const mutations: MutationTree<MapLocationState> = {
-  setCoodinate(s, coordinate: Coordinate) {
+  setCoordinate(s, coordinate: Coordinate) {
     s.coordinate = coordinate;
   },
   setZoom(s, zoom: number) {
@@ -70,11 +75,11 @@ const actions: ActionTree<MapLocationState, RootState> = {
    * @param context Vuex Context
    * @param coordinate current coordinate
    */
-  setCoodinate(
+  setCoordinate(
     context: ActionContext<MapLocationState, RootState>,
     coordinate: Coordinate
   ) {
-    context.commit('setCoodinate', coordinate);
+    context.commit('setCoordinate', coordinate);
   },
   /**
    * Store map zoom

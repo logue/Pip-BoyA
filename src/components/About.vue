@@ -175,6 +175,9 @@ import { openWindow } from '@/assets/Utility';
 export default class About extends Vue {
   /** Dialog visibility */
   private dialog = false;
+  /** Electron */
+  private isElectron = process.env.IS_ELECTRON ? true : false;
+
   /** Open Dialog */
   public open(): void {
     this.dialog = true;

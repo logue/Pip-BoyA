@@ -16,7 +16,7 @@
       <vl-view
         ref="view"
         :zoom.sync="zoom"
-        :center="center"
+        :center.sync="currentPosition"
         :rotation.sync="rotation"
         :projection.sync="projection"
         :resolutions.sync="resolutions"
@@ -49,7 +49,7 @@
         v-if="showMarkerTooltip"
         ref="tooltipOverlay"
         :auto-pan="true"
-        :position="currentPosition"
+        :position="position"
         :offset="[10, 10]"
       >
         <span class="v-tooltip__content map-viewer_map_tooltip">
@@ -126,7 +126,6 @@ import { MarkerProperties } from '@/types/markerData';
 })
 export default class Home extends Vue {
   // View
-  private center: Coordinate = getCenter(define.extent);
   private rotation = 0;
   private opacity = 1;
   private projection: ProjectionLike = define.projection;
@@ -136,6 +135,7 @@ export default class Home extends Vue {
   // detect map move
   private isMoving = false;
   // Tooltip
+  private position: Coordinate = [0, 0];
   private currentName?: string;
   private showMarkerTooltip = false;
   // Blast zone
@@ -189,8 +189,15 @@ export default class Home extends Vue {
     // Load location from QueryString.
     const query = this.$route.query as { [key: string]: string };
     if (query.x && query.y) {
-      this.center = [parseInt(query.x), parseInt(query.y)];
+      this.currentPosition = [parseInt(query.x), parseInt(query.y)];
+    } else {
+      this.currentPosition = getCenter(define.extent);
+    }
+    if (query.z) {
       this.zoom = parseInt(query.z);
+    }
+    if (query.type) {
+      this.$store.dispatch('ConfigModule/setMap', query.type);
     }
   }
   /**
@@ -240,11 +247,6 @@ export default class Home extends Vue {
   private onMoveEnd(): void {
     this.isMoving = false;
     // Store current coordinate
-    this.$store.dispatch('MapLocationModule/set', {
-      x: this.center[0],
-      y: this.center[1],
-      z: this.zoom,
-    });
   }
   /**
    * When pointer move
@@ -270,7 +272,7 @@ export default class Home extends Vue {
 
     // ツールチップの描画位置を取得
     const point: Point = this.hitFeature.getGeometry() as Point;
-    this.currentPosition = point.getCoordinates();
+    this.position = point.getFlatCoordinates();
 
     // ツールチップの内容を更新
     this.currentName = prop.name
@@ -299,7 +301,7 @@ export default class Home extends Vue {
    */
   public resetLocation(): void {
     const query = this.$route.query as { [key: string]: string };
-    this.center = [parseInt(query.x), parseInt(query.y)];
+    this.currentPosition = [parseInt(query.x), parseInt(query.y)];
     this.zoom = parseInt(query.zoom);
   }
 

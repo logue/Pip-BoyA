@@ -51,6 +51,9 @@ const getters: GetterTree<ConfigState, RootState> = {
 
 // Mutation
 const mutations: MutationTree<ConfigState> = {
+  setMap(s, type: MapTypes) {
+    s.mapType = type;
+  },
   toggleMap(s) {
     s.mapType++;
     if (s.mapType >= 3) {
@@ -77,7 +80,15 @@ const mutations: MutationTree<ConfigState> = {
 // Action
 const actions: ActionTree<ConfigState, RootState> = {
   /**
-   * Map switcher
+   * Map changer
+   * @param type MapType
+   * @param context Vuex Context
+   */
+  setMap(context: ActionContext<ConfigState, RootState>, type: MapTypes) {
+    context.commit('setMap', type);
+  },
+  /**
+   * Toggle Map type
    * @param context Vuex Context
    */
   toggleMap(context: ActionContext<ConfigState, RootState>) {

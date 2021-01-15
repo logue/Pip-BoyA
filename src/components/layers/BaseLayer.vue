@@ -37,9 +37,10 @@ export default class BaseLayer extends Vue {
     return `/img/tiles/${MapTypes[type]}/{z}/{x}/{y}.webp`;
   }
 
+  /** When map type changed */
   @Watch('url')
   private onMapChanged() {
-    console.log('onMapChanged');
+    // console.log('onMapChanged');
     const baseLayer: Tile = (this.$refs.baseLayer as unknown) as Tile;
     const source: Source = baseLayer.getSource();
     (source as XYZ).setUrl(this.url);

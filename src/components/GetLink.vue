@@ -40,6 +40,7 @@ export default class GetLink extends Vue {
   /** Dialog visibility */
   private dialog = false;
 
+  /** current location uri */
   private get uri(): string {
     return this.$store.getters['MapLocationModule/uri'](this.$router);
   }
