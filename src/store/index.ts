@@ -12,6 +12,7 @@ import ConfigModule from './ConfigModule';
 import MapLocationModule from './MapLocationModule';
 import LocationMarkerModule from './LocationMarkerModule';
 import CategoryMarkerModule from './CategoryMarkerModule';
+import CheckModule from './CheckModule';
 
 Vue.use(Vuex);
 
@@ -77,6 +78,7 @@ const store: StoreOptions<RootState> = {
     LocationMarkerModule,
     MapLocationModule,
     CategoryMarkerModule,
+    CheckModule,
   },
   plugins: [
     // ブラウザを閉じても保存されるデータ
@@ -89,7 +91,7 @@ const store: StoreOptions<RootState> = {
     new VuexPersistence({
       key: 'pipBoyA',
       storage: window.sessionStorage,
-      modules: ['MapLocationModule'],
+      modules: ['MapLocationModule', 'CheckModule'],
     }).plugin,
   ],
 };

@@ -76,7 +76,7 @@
       <span>{{ $t('opacity') }}</span>
     </v-tooltip>
     <marker-info ref="markerInfo" />
-    <explain ref="explainPopup" @changed="onMarkerSelectChanged" />
+    <explain ref="explainPopup" />
   </div>
 </template>
 
@@ -312,14 +312,6 @@ export default class Home extends Vue {
     const markerInfo: MarkerInfo = this.$refs.markerInfo as MarkerInfo;
     markerInfo.open(e.getProperties() as MarkerProperties);
     // TODO: マーカーの選択を解除
-  }
-
-  // 凡例のチェックボックスが変化した時
-  public onMarkerSelectChanged(selected: boolean[]): void {
-    // console.log(selected);
-    const categoryLayer: CategoryLayer = this.$refs
-      .categoryLayer as CategoryLayer;
-    categoryLayer.isVisible = selected;
   }
 }
 </script>
