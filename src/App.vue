@@ -89,6 +89,10 @@ export default class App extends Vue {
   private get loading(): boolean {
     return this.$store.getters.loading;
   }
+  /** Error Message */
+  private get error(): boolean {
+    return this.$store.getters.error;
+  }
   /** Toggle Theme Dark/Light mode */
   private get themeDark(): boolean {
     return this.$store.getters['ConfigModule/themeDark'];
@@ -157,6 +161,11 @@ export default class App extends Vue {
       this.$electron.ipcRenderer.send('setProgress', this.progress);
     }
     this.$forceNextTick();
+  }
+
+  @Watch('error')
+  private onError() {
+    this.$router.push({ name: 'Error' });
   }
 
   /** run once. */

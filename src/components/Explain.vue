@@ -78,7 +78,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Watch } from 'vue-property-decorator';
+import { Component, Vue } from 'vue-property-decorator';
+import { ActionPayload } from 'vuex';
 /**
  * Explain component
  */
@@ -110,43 +111,42 @@ export default class Explain extends Vue {
   private set checked(checked: string[]) {
     this.$store.dispatch('CheckModule/setChecked', checked);
   }
-
   // indeterminate Flag
   private get indeterminate(): boolean {
     return (
       this.checked.length !== 0 && this.types.length !== this.checked.length
     );
   }
+  // Marker count
   private get count(): { [key: string]: number } {
     return this.$store.getters['CategoryMarkerModule/count'];
   }
 
-  /**
-   * Category
-   */
-  @Watch('loading')
-  private onLoading(): void {
-    // Reset
-    this.types = this.colorset = this.checked = [];
-    this.counts = {};
+  // Mounted
+  private mounted() {
+    this.$store.subscribeAction((action: ActionPayload) => {
+      // Register category changes
+      if (action.type === 'CategoryMarkerModule/setCategory') {
+        // Reset
+        this.types = this.colorset = this.checked = [];
+        this.counts = {};
 
-    if (!this.category) {
-      return;
-    }
+        if (!this.category) {
+          return;
+        }
 
-    this.$forceNextTick();
-
-    this.types = this.$store.getters['CategoryMarkerModule/types'](
-      this.category
-    );
-    this.colorset = this.$store.getters['CategoryMarkerModule/colorset'](
-      this.category
-    );
-    // マーカーはすべて選択状態にする
-    this.checked = this.types;
-
-    // console.debug('explain ready: ', this.category);
+        this.types = this.$store.getters['CategoryMarkerModule/types'](
+          this.category
+        );
+        this.colorset = this.$store.getters['CategoryMarkerModule/colorset'](
+          this.category
+        );
+        // マーカーはすべて選択状態にする
+        this.checked = this.types;
+      }
+    });
   }
+
   /**
    * Toggle Marker visibility by Marker type.
    */

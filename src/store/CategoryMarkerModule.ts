@@ -121,7 +121,7 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
     // Fetch category marker data.
     const data: MarkerJsonData = await axios.get(`/data/${category}.json`).then(
       res => res.data,
-      error => console.error(error)
+      error => context.dispatch('setError', error, { root: true })
     );
     if (data.markers) {
       // convert Fo76 marker location to geo json object

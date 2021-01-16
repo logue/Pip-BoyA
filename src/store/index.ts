@@ -23,6 +23,8 @@ export interface RootState {
   progress: number;
   // SnackBar Text
   message?: string;
+  // Error Message
+  error?: string;
 }
 
 // State
@@ -30,6 +32,7 @@ const state: RootState = {
   loading: false,
   progress: 0,
   message: null,
+  error: null,
 };
 
 // Getters
@@ -37,6 +40,7 @@ const getters: GetterTree<RootState, RootState> = {
   loading: (s): boolean => s.loading,
   progress: (s): number => s.progress,
   message: (s): string | null => s.message,
+  error: (s): string => s.error,
 };
 
 // Mutation
@@ -51,6 +55,9 @@ const mutations: MutationTree<RootState> = {
   setMessage(s, message?: string) {
     s.message = message;
   },
+  setError(s, error: string) {
+    s.error = error;
+  },
 };
 
 // Action
@@ -63,6 +70,9 @@ const actions: ActionTree<RootState, RootState> = {
   },
   setMessage(context: ActionContext<RootState, RootState>, message = null) {
     context.commit('setMessage', message);
+  },
+  setError(context: ActionContext<RootState, RootState>, error = null) {
+    context.commit('setError', error);
   },
 };
 

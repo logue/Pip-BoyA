@@ -1,9 +1,10 @@
 import Vue from 'vue';
 import VueRouter, { Route, RouteConfig } from 'vue-router';
+import { Position } from 'vue-router/types/router';
 import goTo from 'vuetify/lib/services/goto';
 
 import Home from '@/views/Home.vue';
-import { Position } from 'vue-router/types/router';
+import ErrorPage from '@/views/Error.vue';
 
 Vue.use(VueRouter);
 
@@ -17,6 +18,11 @@ const routes: RouteConfig[] = [
     path: '/:category',
     name: 'Category',
     component: Home,
+  },
+  {
+    path: '*',
+    name: 'Error',
+    component: ErrorPage,
   },
 ];
 

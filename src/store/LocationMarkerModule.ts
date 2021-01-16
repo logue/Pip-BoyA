@@ -55,7 +55,7 @@ const actions: ActionTree<LocationMarkerState, RootState> = {
     const data: MarkerJsonData = await axios
       .get('/data/locations.json')
       .then(ret => ret.data)
-      .catch(err => console.error(err));
+      .catch(error => context.dispatch('setError', error, { root: true }));
 
     // Store Marker locations.
     context.commit('setFeatures', data.markers);

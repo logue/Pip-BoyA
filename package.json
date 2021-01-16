@@ -1,6 +1,6 @@
 {
   "name": "pip-boya",
-  "version": "0.5.0-beta",
+  "version": "0.6.0-beta",
   "private": true,
   "description": "Fallout76 Pip-boy Application",
   "author": {
@@ -64,7 +64,7 @@
     "electron": "^11.2.0",
     "electron-builder": "^22.9.1",
     "electron-devtools-installer": "^3.1.1",
-    "eslint": "^7.17.0",
+    "eslint": "^7.18.0",
     "eslint-config-vuetify": "^0.6.1",
     "eslint-plugin-vue": "^7.4.1",
     "fontsource-noto-sans-jp": "^3.1.5",
