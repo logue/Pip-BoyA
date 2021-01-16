@@ -50,9 +50,6 @@ export default class CategoryLayer extends Vue {
   // Marker Visibility
   private checked: string[];
 
-  private key = 0;
-  private distance = 40;
-
   // Zoom
   private get zoom(): number {
     return this.$store.getters['MapLocationModule/zoom'];
@@ -61,35 +58,96 @@ export default class CategoryLayer extends Vue {
   private get category(): string | undefined {
     return this.$route.params.category;
   }
+
   /**
    * When Page transition
    */
   @Watch('category')
   private async onCategoryChanged() {
-    this.init();
-  }
-  /**
-   * When marker changed.
-   */
-  @Watch('featues')
-  private onFeaturesChanged() {
-    this.key++;
-    this.redraw();
-  }
-  /**
-   * When change map scale
-   */
-  @Watch('zoom')
-  private onZoomChanged() {
-    if (!this.category) {
-      return;
+    await this.$store.dispatch('setLoading', true);
+    // タイトルを変更
+    const title = process.env.IS_ELECTRON
+      ? this.$t('title').replace(/Web/g, 'Electron')
+      : this.$t('title');
+    await this.$store.dispatch('setProgress', 10);
+    await this.$forceNextTick();
+
+    if (this.category) {
+      console.debug('set category:', this.category);
+      await this.$store.dispatch(
+        'CategoryMarkerModule/setCategory',
+        this.category
+      );
+      document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
+      await this.$store.dispatch('setProgress', 20);
+      await this.$forceNextTick();
+
+      this.features = this.$store.getters['CategoryMarkerModule/features'](
+        this.category
+      );
+      await this.$store.dispatch('setProgress', 40);
+      await this.$forceNextTick();
+
+      // Get types
+      this.types = this.$store.getters['CategoryMarkerModule/types'](
+        this.category
+      );
+      await this.$store.dispatch('setProgress', 60);
+      await this.$forceNextTick();
+
+      // Get tile image
+      this.tileImage = this.$store.getters['CategoryMarkerModule/tileImage'](
+        this.category
+      );
+      await this.$store.dispatch('setProgress', 80);
+      await this.$forceNextTick();
+
+      // Marker Colorset
+      this.colorset = this.$store.getters['CategoryMarkerModule/colorset'](
+        this.category
+      );
+      await this.$store.dispatch('setProgress', 90);
+      await this.$forceNextTick();
+      this.redraw();
+    } else {
+      document.title = title;
+      this.features = [];
     }
+    await this.$store.dispatch('setProgress', 100);
+    await this.$forceNextTick();
+
+    // 切り替え完了のメッセージを出力
+    if (this.category) {
+      this.$store.dispatch(
+        'setMessage',
+        this.$t('category-changed', {
+          category: this.$t(`categories.${this.category}`),
+        })
+      );
+    }
+    this.$store.dispatch('setLoading', false);
+  }
+
+  @Watch('tileImage')
+  private onTileImageChanged() {
+    const source: Source = (this.$refs
+      .categoryLayerSource as unknown) as Source;
+
+    // 新しい画像レイヤを指定
+    if (source) {
+      (source as XYZ).setUrl('/img/markerTile/' + this.tileImage);
+      // リフレッシュ
+      source.refresh();
+    }
+  }
+
+  @Watch('features')
+  private onFeaturesChanged() {
     this.redraw();
   }
 
   /** When dom ready */
   private mounted() {
-    this.init();
     this.$store.subscribe((mutation: MutationPayload) => {
       // Watch explain checked items.
       if (mutation.type === 'CheckModule/set') {
@@ -97,114 +155,33 @@ export default class CategoryLayer extends Vue {
         this.redraw();
       }
     });
+    this.onCategoryChanged();
   }
-  /**
-   * Initialize category markers.
-   */
-  public async init(): Promise<void> {
-    await this.$store.dispatch('setLoading', true);
 
-    await this.$forceNextTick();
-    // タイトルを変更
-    const title = process.env.IS_ELECTRON
-      ? this.$t('title').replace(/Web/g, 'Electron')
-      : this.$t('title');
-
-    if (!this.category) {
-      // カテゴリ別のページでない場合、表示中のマーカーを削除して終了
-      document.title = title;
-      this.features = [];
-      this.$store.dispatch('setLoading', false);
-      return;
-    }
-
-    await this.$store.dispatch('setProgress', 20);
-    await this.$forceNextTick();
-    // マーカーを登録
-    this.features = this.$store.getters['CategoryMarkerModule/features'](
-      this.category
-    );
-
-    await this.$store.dispatch('setProgress', 50);
-    await this.$forceNextTick();
-    if (this.features) {
-      // 種別を登録
-      this.types = this.checked = this.$store.getters[
-        'CategoryMarkerModule/types'
-      ](this.category);
-      this.$store.dispatch('CheckModule/setChecked', this.types);
-    }
-    // 画像タイルレイヤ
-    this.tileImage = this.$store.getters['CategoryMarkerModule/tileImage'](
-      this.category
-    );
-    // タイトルを書き換える
-    document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
-
-    await this.$store.dispatch('setProgress', 70);
-    await this.$forceNextTick();
-    // ローディングオーバーレイを閉じる
-    await this.$store.dispatch('setLoading', false);
-    await this.$forceNextTick();
-
-    // 切り替え完了のメッセージを出力
-    this.$store.dispatch(
-      'setMessage',
-      this.$t('category-changed', {
-        category: this.$t(`categories.${this.category}`),
-      })
-    );
-  }
-  /**
-   * Redraw map markers and map tiles.
-   */
   public redraw(): void {
-    // vl-layer-vector
     const markerLayer: VectorLayer = (this.$refs
       .markerLayer as unknown) as VectorLayer;
-    //const tileLayer: TileLayer = (this.$refs
-    //  .categoryTileLayer as unknown) as TileLayer;
-
-    if (this.tileImage) {
-      const source: Source = (this.$refs
-        .categoryLayerSource as unknown) as Source;
-
-      // 新しい画像レイヤを指定
-      if (source) {
-        (source as XYZ).setUrl('/img/markerTile/' + this.tileImage);
-        // リフレッシュ
-        source.refresh();
-      }
-    }
-    if (this.features) {
-      markerLayer.setStyle((features: FeatureLike, resolution: number) =>
-        this.setStyle(features, resolution)
-      );
-    }
+    markerLayer.setStyle((features: FeatureLike, resolution: number) =>
+      this.setStyle(features, resolution)
+    );
   }
+
   /**
    * Apply Marker style.
    * @param feature Marker
    * @param resolution Map zoom
    */
-  public setStyle(feature: FeatureLike, resolution: number): Style {
+  private setStyle(feature: FeatureLike, resolution: number): Style {
     // vl-map
     const map: Map = (this.$parent as unknown) as Map;
     // Get Marker type
     const type = feature.get('type');
     // Get all type list.
-    const types = this.$store.getters['CategoryMarkerModule/types'](
-      this.category
-    );
-    // Marker Colorset
-    const colorset = this.$store.getters['CategoryMarkerModule/colorset'](
-      this.category
-    );
     // Get color index from type
-    const index = Object.values(types).indexOf(type);
+    const index = Object.values(this.types).indexOf(type);
 
     // Apply marker color
-    const style: Style = getMarkerStyle(colorset[index]);
+    const style: Style = getMarkerStyle(this.colorset[index]);
     // Map zoom
     const scale: number = map.getView().getResolutionForZoom(2) / resolution;
     // Get Marker Properties

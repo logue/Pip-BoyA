@@ -84,7 +84,7 @@
 /**
  * Map Viewer and Explains Component
  */
-import { Component, Vue, Watch } from 'vue-property-decorator';
+import { Component, Vue } from 'vue-property-decorator';
 import colors from 'vuetify/lib/util/colors';
 // openlayers
 import Feature from 'ol/Feature';
@@ -155,7 +155,6 @@ export default class Home extends Vue {
   private set currentPosition(coordinate: Coordinate) {
     this.$store.dispatch('MapLocationModule/setCoordinate', coordinate);
   }
-
   /* current category */
   private get category(): string | undefined {
     return this.$route.params.category;
@@ -171,14 +170,6 @@ export default class Home extends Vue {
   /** Map Rendering mode */
   private get renderer(): string {
     return this.$store.getters['ConfigModule/webgl'] ? 'webgl' : 'canvas';
-  }
-
-  /**
-   * When Page transition
-   */
-  @Watch('category')
-  private onCategoryChanged() {
-    this.loadData();
   }
 
   /**
@@ -198,12 +189,6 @@ export default class Home extends Vue {
     if (query.type) {
       this.$store.dispatch('ConfigModule/setMap', query.type);
     }
-  }
-  /**
-   * Mounted (for load Category Marker)
-   */
-  private mounted(): void {
-    this.loadData();
   }
 
   /**
@@ -283,18 +268,7 @@ export default class Home extends Vue {
 
     this.showMarkerTooltip = true;
   }
-  /**
-   * Load category data
-   */
-  private async loadData(): Promise<void> {
-    console.debug('set category:', this.category);
-    if (this.category) {
-      await this.$store.dispatch(
-        'CategoryMarkerModule/getCategory',
-        this.category
-      );
-    }
-  }
+
   /**
    * Reset initial location. (unmounted)
    */

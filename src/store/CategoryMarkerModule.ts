@@ -110,7 +110,7 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
    * @param context Context
    * @param category Category
    */
-  async getCategory(
+  async setCategory(
     context: ActionContext<CategoryMarkerState, RootState>,
     category: string
   ) {
