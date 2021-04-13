@@ -291,6 +291,7 @@ export default class Home extends Vue {
 </script>
 
 <style lang="scss">
+/* stylelint-disable no-descending-specificity */
 @import '~vuetify/src/styles/styles.sass';
 
 // クロスヘアーの色
@@ -373,60 +374,56 @@ $crosshairs-length: 1.5rem;
 }
 
 .theme--light {
-  .map-container {
-    .map-viewer {
-      background-color: map-get($grey, 'lighten-1');
-    }
+  .map-viewer {
+    background-color: map-get($grey, 'lighten-1');
+  }
 
-    .ol-control {
-      transition: $primary-transition;
-      background-color: rgba(map-get($grey, 'lighten-2'), 0.5);
+  .ol-control {
+    transition: $primary-transition;
+    background-color: rgba(map-get($grey, 'lighten-2'), 0.5);
 
-      button {
-        background-color: rgba(map-get($blue, 'darken-3'), 0.5);
-      }
-    }
+    button {
+      background-color: rgba(map-get($blue, 'darken-3'), 0.5);
 
-    .ol-control:hover {
-      background-color: rgba(map-get($grey, 'lighten-2'), 0.7);
-
-      button:hover {
+      &:hover {
         background-color: map-get($blue, 'darken-3');
       }
     }
 
-    .ol-overviewmap .ol-overviewmap-map {
-      border-color: map-get($blue, 'darken-3');
+    &:hover {
+      background-color: rgba(map-get($grey, 'lighten-2'), 0.7);
     }
+  }
+
+  .ol-overviewmap .ol-overviewmap-map {
+    border-color: map-get($blue, 'darken-3');
   }
 }
 
 .theme--dark {
-  .map-container {
-    .map-viewer {
-      background-color: map-get($grey, 'darken-4');
-    }
+  .map-viewer {
+    background-color: map-get($grey, 'darken-4');
+  }
 
-    .ol-control {
-      transition: $primary-transition;
-      background-color: rgba(map-get($grey, 'darken-3'), 0.5);
+  .ol-control {
+    transition: $primary-transition;
+    background-color: rgba(map-get($grey, 'darken-3'), 0.5);
 
-      button {
-        background-color: rgba(map-get($blue, 'base'), 0.5);
-      }
-    }
+    button {
+      background-color: rgba(map-get($blue, 'base'), 0.5);
 
-    .ol-control:hover {
-      background-color: rgba(map-get($grey, 'darken-3'), 0.7);
-
-      button:hover {
+      &:hover {
         background-color: map-get($blue, 'darken-3');
       }
     }
 
-    .ol-overviewmap .ol-overviewmap-map {
-      border-color: map-get($blue, 'lighten-4');
+    &:hover {
+      background-color: rgba(map-get($grey, 'darken-3'), 0.7);
     }
+  }
+
+  .ol-overviewmap .ol-overviewmap-map {
+    border-color: map-get($blue, 'lighten-4');
   }
 }
 </style>

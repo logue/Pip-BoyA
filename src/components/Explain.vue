@@ -58,9 +58,7 @@
                     :label="type"
                     :content="count(type)"
                     :color="colorset[index]"
-                    :class="
-                      `explain_list_item_label ${colorset[index]}--text text--lighten-2`
-                    "
+                    :class="`explain_list_item_label ${colorset[index]}--text text--lighten-2`"
                   >
                     {{ $t(`markers.${type}`) }}
                   </v-badge>

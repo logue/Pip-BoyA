@@ -12,7 +12,7 @@
           <v-avatar
             v-if="
               (info.name && info.name.match(/^Loc/)) ||
-                info.type === 'WaypointMarker'
+              info.type === 'WaypointMarker'
             "
             size="128"
             tile
@@ -77,7 +77,7 @@
             color="green"
             :href="
               'https://fallout.fandom.com/wiki/' +
-                encodeURIComponent($t(`locations.${info.name}`, 'en'))
+              encodeURIComponent($t(`locations.${info.name}`, 'en'))
             "
             @click.prevent="openNewWin"
           >
@@ -90,7 +90,7 @@
             color="blue-grey"
             :href="
               'https://game-dictionary.net/fo76/word/' +
-                encodeURIComponent($t(`locations.${info.name}`, 'ja'))
+              encodeURIComponent($t(`locations.${info.name}`, 'ja'))
             "
             @click.prevent="openNewWin"
           >
@@ -137,7 +137,7 @@ export default class MarkerInfo extends Vue {
   };
 
   /** Permalink */
-  private get uri() {
+  private get uri(): string {
     const uri = this.$router.resolve({
       query: {
         x: (this.info.x | 0).toString(),
