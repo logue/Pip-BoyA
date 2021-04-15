@@ -39,16 +39,9 @@ import { MutationPayload } from 'vuex';
 export default class CategoryLayer extends Vue {
   /** Map definition */
   private define: MapDefinition = define;
-  // Markers
-  private features: FeatureLike[] = [];
-  // types
-  private types: string[];
-  // Color Configure
-  private colorset: string[];
-  // use marker tile
-  private tileImage?: string = null;
+
   // Marker Visibility
-  private checked: string[];
+  private checked: string[] = [];
 
   // Zoom
   private get zoom(): number {
@@ -57,6 +50,21 @@ export default class CategoryLayer extends Vue {
   // current category
   private get category(): string | undefined {
     return this.$route.params.category;
+  }
+  // Markers
+  private get features() {
+    return this.$store.getters['CategoryMarkerModule/features'](this.category);
+  }
+  private get types() {
+    return this.$store.getters['CategoryMarkerModule/types'](this.category);
+  }
+  // use marker tile
+  private get tileImage() {
+    return this.$store.getters['CategoryMarkerModule/tileImage'](this.category);
+  }
+  // Marker Colorset
+  private get colorset() {
+    return this.$store.getters['CategoryMarkerModule/colorset'](this.category);
   }
 
   /**
@@ -79,40 +87,11 @@ export default class CategoryLayer extends Vue {
         this.category
       );
       document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
-      await this.$store.dispatch('setProgress', 20);
-      await this.$forceNextTick();
-
-      this.features = this.$store.getters['CategoryMarkerModule/features'](
-        this.category
-      );
-      await this.$store.dispatch('setProgress', 40);
-      await this.$forceNextTick();
-
-      // Get types
-      this.types = this.$store.getters['CategoryMarkerModule/types'](
-        this.category
-      );
-      await this.$store.dispatch('setProgress', 60);
-      await this.$forceNextTick();
-
-      // Get tile image
-      this.tileImage = this.$store.getters['CategoryMarkerModule/tileImage'](
-        this.category
-      );
-      await this.$store.dispatch('setProgress', 80);
-      await this.$forceNextTick();
-
-      // Marker Colorset
-      this.colorset = this.$store.getters['CategoryMarkerModule/colorset'](
-        this.category
-      );
-      await this.$store.dispatch('setProgress', 90);
-      await this.$forceNextTick();
       this.redraw();
     } else {
       document.title = title;
-      this.features = [];
     }
+
     await this.$store.dispatch('setProgress', 100);
     await this.$forceNextTick();
 
@@ -148,10 +127,11 @@ export default class CategoryLayer extends Vue {
 
   /** When dom ready */
   private mounted() {
-    this.$store.subscribe((mutation: MutationPayload) => {
+    this.$store.subscribe(async (mutation: MutationPayload) => {
       // Watch explain checked items.
       if (mutation.type === 'CheckModule/set') {
         this.checked = this.$store.getters['CheckModule/checked'];
+        await this.$forceNextTick();
         this.redraw();
       }
     });
@@ -161,9 +141,11 @@ export default class CategoryLayer extends Vue {
   public redraw(): void {
     const markerLayer: VectorLayer = (this.$refs
       .markerLayer as unknown) as VectorLayer;
-    markerLayer.setStyle((features: FeatureLike, resolution: number) =>
-      this.setStyle(features, resolution)
-    );
+    if (!markerLayer) return;
+    markerLayer.setStyle((feature: FeatureLike, resolution: number) => {
+      // console.log(feature);
+      return this.setStyle(feature, resolution);
+    });
   }
 
   /**
@@ -193,6 +175,8 @@ export default class CategoryLayer extends Vue {
     // apply label text
     style.getText().setText(label && scale >= 1 ? label : '');
 
+    style.getImage().setScale(scale < 1 ? scale : 1);
+
     // Toggle display
     if (!this.checked.includes(type)) {
       // Invisible
@@ -201,8 +185,6 @@ export default class CategoryLayer extends Vue {
     } else {
       style.getImage().setOpacity(1);
     }
-
-    style.getImage().setScale(scale < 1 ? scale : 1);
 
     return style;
   }

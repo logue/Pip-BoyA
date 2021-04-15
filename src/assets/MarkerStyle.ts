@@ -64,7 +64,9 @@ const colorStyleCache: { [key: string]: Style } = {};
  * @param color Material Color
  */
 export function getMarkerStyle(color: string): Style {
-  const colorSet = colors[toCamelCase(color)];
+  let c = toCamelCase(color);
+  if (!c) c = color = 'blue';
+  const colorSet = colors[c];
   if (colorStyleCache[color]) {
     return colorStyleCache[color];
   }

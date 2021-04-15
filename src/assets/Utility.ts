@@ -44,6 +44,7 @@ export function hexToRgb(hex: string): number[] {
  * @return camelCase String
  */
 export function toCamelCase(s: string): string {
+  if (!s) return '';
   return s.replace(/-./g, x => x.toUpperCase()[1]);
 }
 
