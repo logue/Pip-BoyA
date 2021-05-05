@@ -30,7 +30,6 @@ import { MapDefinition } from '@/types/map';
 import { MarkerProperties } from '@/types/markerData';
 import define from '@/assets/MapDefinition';
 import { getMarkerStyle } from '@/assets/MarkerStyle';
-import { MutationPayload } from 'vuex';
 /**
  * Category Marker
  * (Tile based marker and coordinate based marker.)
@@ -40,20 +39,14 @@ export default class CategoryLayer extends Vue {
   /** Map definition */
   private define: MapDefinition = define;
 
-  // Marker Visibility
-  private checked: string[] = [];
-
-  // Zoom
-  private get zoom(): number {
-    return this.$store.getters['MapLocationModule/zoom'];
-  }
-  // current category
-  private get category(): string | undefined {
-    return this.$route.params.category;
-  }
   // Markers
   private get features() {
     return this.$store.getters['CategoryMarkerModule/features'](this.category);
+  }
+
+  // current category
+  private get category(): string | undefined {
+    return this.$route.params.category;
   }
   private get types() {
     return this.$store.getters['CategoryMarkerModule/types'](this.category);
@@ -66,45 +59,45 @@ export default class CategoryLayer extends Vue {
   private get colorset() {
     return this.$store.getters['CategoryMarkerModule/colorset'](this.category);
   }
+  // Marker Visibility
+  private get checked() {
+    return this.$store.getters['CheckModule/checked'];
+  }
 
   /**
    * When Page transition
    */
   @Watch('category')
   private async onCategoryChanged() {
-    await this.$store.dispatch('setLoading', true);
+    this.$store.dispatch('setLoading', true);
     // タイトルを変更
     const title = process.env.IS_ELECTRON
       ? this.$t('title').replace(/Web/g, 'Electron')
       : this.$t('title');
-    await this.$store.dispatch('setProgress', 10);
+    this.$store.dispatch('setProgress', null);
     await this.$forceNextTick();
 
-    if (this.category) {
-      console.debug('set category:', this.category);
-      await this.$store.dispatch(
-        'CategoryMarkerModule/setCategory',
-        this.category
-      );
-      document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
-      this.redraw();
-    } else {
+    if (!this.category) {
       document.title = title;
+      this.$store.dispatch('setLoading', false);
+      await this.$forceNextTick();
+      return;
     }
 
-    await this.$store.dispatch('setProgress', 100);
+    console.debug('set category:', this.category);
+    this.$store.dispatch('CategoryMarkerModule/setCategory', this.category);
     await this.$forceNextTick();
-
+    document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
     // 切り替え完了のメッセージを出力
-    if (this.category) {
-      this.$store.dispatch(
-        'setMessage',
-        this.$t('category-changed', {
-          category: this.$t(`categories.${this.category}`),
-        })
-      );
-    }
+    this.$store.dispatch(
+      'setMessage',
+      this.$t('category-changed', {
+        category: this.$t(`categories.${this.category}`),
+      })
+    );
+    this.redraw();
     this.$store.dispatch('setLoading', false);
+    await this.$forceNextTick();
   }
 
   @Watch('tileImage')
@@ -119,74 +112,60 @@ export default class CategoryLayer extends Vue {
       source.refresh();
     }
   }
+  1;
 
-  @Watch('features')
-  private onFeaturesChanged() {
+  @Watch('checked')
+  private onCheckChanged() {
     this.redraw();
   }
 
-  /** When dom ready */
-  private mounted() {
-    this.$store.subscribe(async (mutation: MutationPayload) => {
-      // Watch explain checked items.
-      if (mutation.type === 'CheckModule/set') {
-        this.checked = this.$store.getters['CheckModule/checked'];
-        await this.$forceNextTick();
-        this.redraw();
-      }
-    });
-    this.onCategoryChanged();
-  }
-
-  public redraw(): void {
-    const markerLayer: VectorLayer = (this.$refs
-      .markerLayer as unknown) as VectorLayer;
-    if (!markerLayer) return;
-    markerLayer.setStyle((feature: FeatureLike, resolution: number) => {
-      // console.log(feature);
-      return this.setStyle(feature, resolution);
-    });
+  private updated(): void {
+    this.redraw();
   }
 
   /**
-   * Apply Marker style.
-   * @param feature Marker
-   * @param resolution Map zoom
+   * Redraw markers
    */
-  private setStyle(feature: FeatureLike, resolution: number): Style {
-    // vl-map
-    const map: Map = (this.$parent as unknown) as Map;
-    // Get Marker type
-    const type = feature.get('type');
-    // Get all type list.
-    // Get color index from type
-    const index = Object.values(this.types).indexOf(type);
+  private redraw(): void {
+    const markerLayer: VectorLayer = (this.$refs
+      .markerLayer as unknown) as VectorLayer;
+    if (!markerLayer) return;
 
-    // Apply marker color
-    const style: Style = getMarkerStyle(this.colorset[index]);
-    // Map zoom
-    const scale: number = map.getView().getResolutionForZoom(2) / resolution;
-    // Get Marker Properties
-    const props: MarkerProperties = feature.getProperties() as MarkerProperties;
+    markerLayer.setStyle((feature: FeatureLike, resolution: number) => {
+      // vl-map
+      const map: Map = (this.$parent as unknown) as Map;
+      // Get Marker type
+      const type = feature.get('type');
+      // Get all type list.
+      // Get color index from type
+      const index = Object.values(this.types).indexOf(type);
 
-    // Add label to marker
-    const label = props.label ? props.label.toString() : '';
+      // Apply marker color
+      const style: Style = getMarkerStyle(this.colorset[index]);
+      // Map zoom
+      const scale: number = map.getView().getResolutionForZoom(2) / resolution;
 
-    // apply label text
-    style.getText().setText(label && scale >= 1 ? label : '');
+      // Toggle display
+      if (!this.checked.includes(type)) {
+        // Invisible
+        style.getText().setText('');
+        style.getImage().setOpacity(0);
+      } else {
+        // Get Marker Properties
+        const props: MarkerProperties = feature.getProperties() as MarkerProperties;
 
-    style.getImage().setScale(scale < 1 ? scale : 1);
+        // Add label to marker
+        const label = props.label ? props.label.toString() : '';
 
-    // Toggle display
-    if (!this.checked.includes(type)) {
-      // Invisible
-      style.getImage().setOpacity(0);
-      style.getText().setText('');
-    } else {
-      style.getImage().setOpacity(1);
-    }
+        // apply label text
+        style.getText().setText(label && scale >= 1 ? label : '');
+        style.getImage().setOpacity(1);
+      }
 
-    return style;
+      style.getImage().setScale(scale < 1 ? scale : 1);
+
+      return style;
+    });
   }
 }
 </script>
