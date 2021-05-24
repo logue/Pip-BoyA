@@ -197,7 +197,7 @@ export default class Home extends Vue {
   private onMapMounted(): void {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    const map: Map = (this.$refs.map.$map as unknown) as Map;
+    const map: Map = this.$refs.map.$map as unknown as Map;
     // now ol.Map instance is ready and we can work with it directly
     map.getControls().extend([
       new MousePosition({
@@ -236,7 +236,7 @@ export default class Home extends Vue {
    * When pointer move
    */
   private onMapPointerMove(e: MapBrowserEvent): void {
-    const map: Map = (this.$refs.map as unknown) as Map;
+    const map: Map = this.$refs.map as unknown as Map;
     // current pixel coordination
     const pixel: Pixel = e.pixel;
 
@@ -252,7 +252,8 @@ export default class Home extends Vue {
     }
 
     // クリックされたマーカーのプロパティの値を取得
-    const prop: MarkerProperties = this.hitFeature.getProperties() as MarkerProperties;
+    const prop: MarkerProperties =
+      this.hitFeature.getProperties() as MarkerProperties;
 
     // ツールチップの描画位置を取得
     const point: Point = this.hitFeature.getGeometry() as Point;

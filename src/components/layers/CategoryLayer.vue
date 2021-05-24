@@ -102,8 +102,7 @@ export default class CategoryLayer extends Vue {
 
   @Watch('tileImage')
   private onTileImageChanged() {
-    const source: Source = (this.$refs
-      .categoryLayerSource as unknown) as Source;
+    const source: Source = this.$refs.categoryLayerSource as unknown as Source;
 
     // 新しい画像レイヤを指定
     if (source) {
@@ -127,13 +126,13 @@ export default class CategoryLayer extends Vue {
    * Redraw markers
    */
   private redraw(): void {
-    const markerLayer: VectorLayer = (this.$refs
-      .markerLayer as unknown) as VectorLayer;
+    const markerLayer: VectorLayer = this.$refs
+      .markerLayer as unknown as VectorLayer;
     if (!markerLayer) return;
 
     markerLayer.setStyle((feature: FeatureLike, resolution: number) => {
       // vl-map
-      const map: Map = (this.$parent as unknown) as Map;
+      const map: Map = this.$parent as unknown as Map;
       // Get Marker type
       const type = feature.get('type');
       // Get all type list.
@@ -152,7 +151,8 @@ export default class CategoryLayer extends Vue {
         style.getImage().setOpacity(0);
       } else {
         // Get Marker Properties
-        const props: MarkerProperties = feature.getProperties() as MarkerProperties;
+        const props: MarkerProperties =
+          feature.getProperties() as MarkerProperties;
 
         // Add label to marker
         const label = props.label ? props.label.toString() : '';

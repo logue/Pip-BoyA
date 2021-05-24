@@ -63,12 +63,12 @@ export default class LocationLayer extends Vue {
   /** Redraw Marker Icon */
   public redraw(): void {
     // vl-layer-vector
-    const locationLayer: VectorLayer = (this.$refs
-      .locationLayer as unknown) as VectorLayer;
+    const locationLayer: VectorLayer = this.$refs
+      .locationLayer as unknown as VectorLayer;
     // マーカーのスタイルを設定
     locationLayer.setStyle((feature: FeatureLike, resolution: number) => {
       // vl-map
-      const map: Map = (this.$parent as unknown) as Map;
+      const map: Map = this.$parent as unknown as Map;
       // マーカーのタイプをアイコンにする
       const type: string = feature.get('type');
       // 注釈（現在のところ、地割れ地点のギリシア文字のみ）

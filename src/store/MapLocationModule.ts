@@ -34,23 +34,25 @@ const getters: GetterTree<MapLocationState, RootState> = {
   // Get zoom.
   zoom: (s): number => s.zoom,
   // Get uri of current location.
-  uri: s => ($router: VueRouter): string => {
-    // Query Parameters
-    const query: { [key: string]: string } = {
-      x: (s.coordinate[0] | 0).toString(),
-      y: (s.coordinate[1] | 0).toString(),
-      z: s.zoom.toString(),
-      // t: s.type.toString(),
-    };
+  uri:
+    s =>
+    ($router: VueRouter): string => {
+      // Query Parameters
+      const query: { [key: string]: string } = {
+        x: (s.coordinate[0] | 0).toString(),
+        y: (s.coordinate[1] | 0).toString(),
+        z: s.zoom.toString(),
+        // t: s.type.toString(),
+      };
 
-    const uri = $router.resolve({
-      query: query,
-    });
+      const uri = $router.resolve({
+        query: query,
+      });
 
-    return process.env.IS_ELECTRON
-      ? uri.href.replace(/^(?:.+)?#/gm, 'https://fo76.logue.be')
-      : location.origin + uri.href;
-  },
+      return process.env.IS_ELECTRON
+        ? uri.href.replace(/^(?:.+)?#/gm, 'https://fo76.logue.be')
+        : location.origin + uri.href;
+    },
   // get current coordinate
   coordinate: (s): Coordinate => s.coordinate,
 };

@@ -50,13 +50,26 @@ const state: CategoryMarkerState = {
 
 // Getters
 const getters: GetterTree<CategoryMarkerState, RootState> = {
-  features: s => (category: string): Feature<Point, MarkerProperties>[] =>
-    s.features[category],
-  types: s => (category: string): string[] => s.types[category],
-  count: s => (type: string): number => s.count[type],
-  colorset: s => (category: string): string[] => s.colorset[category],
-  tileImage: s => (category: string): string | undefined =>
-    s.tileImage[category],
+  features:
+    s =>
+    (category: string): Feature<Point, MarkerProperties>[] =>
+      s.features[category],
+  types:
+    s =>
+    (category: string): string[] =>
+      s.types[category],
+  count:
+    s =>
+    (type: string): number =>
+      s.count[type],
+  colorset:
+    s =>
+    (category: string): string[] =>
+      s.colorset[category],
+  tileImage:
+    s =>
+    (category: string): string | undefined =>
+      s.tileImage[category],
 };
 
 // Mutation
