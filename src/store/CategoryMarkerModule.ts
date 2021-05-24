@@ -30,8 +30,9 @@ export interface CategoryMarkerState {
   tileImage?: { [key: string]: string };
 }
 
-interface CategoryPayload<T> extends Payload {
-  value: T;
+interface DataPayload extends Payload {
+  category: string;
+  data: MarkerJsonData;
 }
 
 // Default value
@@ -79,40 +80,62 @@ const mutations: MutationTree<CategoryMarkerState> = {
    * @param s Store
    * @param payload Marker GeoJson Data
    */
-  setFeatures(s, payload: CategoryPayload<Feature<Point, MarkerProperties>[]>) {
-    s.features[payload.type] = payload.value;
-  },
-  /**
-   * Store marker types.
-   * @param s Store
-   * @param payload marker type array
-   */
-  setTypes(s, payload: CategoryPayload<string[]>) {
-    s.types[payload.type] = payload.value;
-  },
-  /**
-   * Store marker color set
-   * @param s Store
-   * @param payload marker color set array
-   */
-  setColorset(s, payload: CategoryPayload<string[]>) {
-    s.colorset[payload.type] = payload.value;
-  },
-  /**
-   * Store tile image
-   * @param s Store
-   * @param payload tile image url
-   */
-  setTileImage(s, payload: CategoryPayload<string>) {
-    s.tileImage[payload.type] = payload.value;
-  },
-  /**
-   * Store Marker counts
-   * @param s Store
-   * @param payload Markar type and count array
-   */
-  setCount(s, payload: CategoryPayload<number>) {
-    s.count[payload.type] = payload.value;
+  storeData(s, payload: DataPayload) {
+    const data = payload.data;
+    if (payload.data.markers) {
+      // convert Fo76 marker location to geo json object
+      s.features[payload.category] = convertGeoJson(data.markers);
+
+      // Get marker types.
+      const itemTypes: string[] = data.markers
+        .filter((item: Marker): item is Required<Marker> => Boolean(item.type))
+        .map(item => item.type);
+
+      // Array Unique
+      const types: string[] = Array.from([...new Set(itemTypes)]).sort();
+      s.types[payload.category] = types;
+
+      // Reduce color palette.
+      const colors: string[] = data.colorset || markerColors;
+      const colorset: string[] = [];
+      let colorsCount: number = colors.length;
+      if (types.length > colorsCount) {
+        throw new Error(`Too many marker types. less than ${colors.length}`);
+      }
+      if (colors.length === markerColors.length) {
+        // * Ignore Brown and Blue-gray and Gray
+        colorsCount = colorsCount - 3;
+      }
+      for (const type of types) {
+        let index: number = types.indexOf(type);
+
+        if (colorsCount / types.length > 2) {
+          // If there are not enough markers, the colors should be varied.
+          index = Math.floor(index * (colorsCount / types.length));
+        }
+        colorset.push(colors[index]);
+      }
+      s.colorset[payload.category] = colorset;
+
+      // Associative array of marker names and their numbers
+      const counts: { [key: string]: number } = itemTypes.reduce(
+        (acc: { [key: string]: number }, cur: string) => {
+          acc[cur] = acc[cur] ? ++acc[cur] : 1;
+          return acc;
+        },
+        {}
+      );
+      for (const entry in counts) {
+        s.count[entry] = counts[entry];
+      }
+    } else {
+      // タイルマーカーモード（マーカー画像が予め含まれている）
+      s.colorset[payload.category] = data.colorset || tileExplainColors;
+      s.types[payload.category] = data.explains;
+    }
+    if (data.tileImage) {
+      s.tileImage[payload.category] = data.tileImage;
+    }
   },
 };
 
@@ -136,68 +159,8 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
       res => res.data,
       error => context.dispatch('setError', error, { root: true })
     );
-    if (data.markers) {
-      // convert Fo76 marker location to geo json object
-      context.commit('setFeatures', {
-        type: category,
-        value: convertGeoJson(data.markers),
-      });
-
-      // Get marker types.
-      const itemTypes: string[] = data.markers
-        .filter((item: Marker): item is Required<Marker> => Boolean(item.type))
-        .map(item => item.type);
-
-      // Array Unique
-      const types: string[] = Array.from([...new Set(itemTypes)]).sort();
-      context.commit('setTypes', { type: category, value: types });
-
-      // Reduce color palette.
-      const colors: string[] = data.colorset || markerColors;
-      const colorset: string[] = [];
-      let colorsCount: number = colors.length;
-      if (types.length > colorsCount) {
-        throw new Error(`Too many marker types. less than ${colors.length}`);
-      }
-      if (colors.length === markerColors.length) {
-        // * Ignore Brown and Blue-gray and Gray
-        colorsCount = colorsCount - 3;
-      }
-      for (const type of types) {
-        let index: number = types.indexOf(type);
-
-        if (colorsCount / types.length > 2) {
-          // If there are not enough markers, the colors should be varied.
-          index = Math.floor(index * (colorsCount / types.length));
-        }
-        colorset.push(colors[index]);
-      }
-      context.commit('setColorset', { type: category, value: colorset });
-
-      // Associative array of marker names and their numbers
-      const counts: { [key: string]: number } = itemTypes.reduce(
-        (acc: { [key: string]: number }, cur: string) => {
-          acc[cur] = acc[cur] ? ++acc[cur] : 1;
-          return acc;
-        },
-        {}
-      );
-      for (const entry in counts) {
-        context.commit('setCount', {
-          type: entry,
-          value: counts[entry],
-        });
-      }
-    } else {
-      // タイルマーカーモード（マーカー画像が予め含まれている）
-      context.commit('setColorset', {
-        type: category,
-        value: data.colorset || tileExplainColors,
-      });
-      context.commit('setTypes', { type: category, value: data.explains });
-    }
-    if (data.tileImage) {
-      context.commit('setTileImage', { type: category, value: data.tileImage });
+    if (data) {
+      context.commit('storeData', { category: category, data: data });
     }
   },
 };
