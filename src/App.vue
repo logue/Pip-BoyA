@@ -174,6 +174,23 @@ export default class App extends Vue {
     this.$i18n.locale = this.$store.getters['ConfigModule/locale'];
     document.title = this.title;
   }
+
+  /*
+  private throttledYield = throttle => {
+    let lastYield: number = new Date().getUTCSeconds();
+    return async () => {
+      const now: number = new Date().getUTCSeconds();
+      if (now - lastYield >= throttle) {
+        lastYield = now;
+        await this.sleep();
+      }
+    };
+  };
+  private sleep = (): Promise<void> =>
+    new Promise(resolve => {
+      requestAnimationFrame(resolve);
+    });
+  */
 }
 </script>
 

@@ -52,11 +52,11 @@ export default class LocationLayer extends Vue {
     this.redraw();
   }
 
-  private async created(): Promise<void> {
+  private async beforeCreate(): Promise<void> {
     await this.$store.dispatch('LocationMarkerModule/init');
   }
 
-  private updated() {
+  private mounted() {
     this.redraw();
   }
 
