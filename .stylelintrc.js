@@ -1,16 +1,22 @@
 module.exports = {
   root: true,
-  plugins: ['stylelint-scss'],
-  extends: ['stylelint-config-standard'],
+  extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
+  plugin: ['stylelint-scss'],
   rules: {
-    indentation: 2,
     'at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['function', 'if', 'each', 'include', 'mixin', 'return'],
+        ignoreAtRules: [
+          'function',
+          'if',
+          'for',
+          'each',
+          'include',
+          'mixin',
+          'content',
+          'return',
+        ],
       },
     ],
-    'scss/at-rule-no-unknown': true,
-    'function-calc-no-invalid': null,
   },
 };

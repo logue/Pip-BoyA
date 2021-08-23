@@ -27,7 +27,7 @@ export interface CategoryMarkerState {
   // Marker color palette
   colorset: { [key: string]: string[] };
   // Overlay tile image path
-  tileImage?: { [key: string]: string };
+  tileImage: { [key: string]: string };
 }
 
 interface DataPayload extends Payload {
@@ -131,9 +131,9 @@ const mutations: MutationTree<CategoryMarkerState> = {
     } else {
       // タイルマーカーモード（マーカー画像が予め含まれている）
       s.colorset[payload.category] = data.colorset || tileExplainColors;
-      s.types[payload.category] = data.explains;
+      s.types[payload.category] = data.explains || [];
     }
-    if (data.tileImage) {
+    if (typeof data.tileImage !== 'undefined') {
       s.tileImage[payload.category] = data.tileImage;
     }
   },

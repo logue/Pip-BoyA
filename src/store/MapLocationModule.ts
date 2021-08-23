@@ -25,8 +25,10 @@ export interface MapLocationState {
 // Default value
 const state: MapLocationState = {
   coordinate: getCenter(define.extent),
-  zoom: 1,
-  type: 1,
+  zoom: process.env.DEFAULT_ZOOM ? parseInt(process.env.DEFAULT_ZOOM) : 1,
+  type: process.env.DEFAULT_MAPTYPE
+    ? parseInt(process.env.DEFAULT_MAPTYPE)
+    : MapTypes.base,
 };
 
 // Getters
@@ -50,7 +52,10 @@ const getters: GetterTree<MapLocationState, RootState> = {
       });
 
       return process.env.IS_ELECTRON
-        ? uri.href.replace(/^(?:.+)?#/gm, 'https://fo76.logue.be')
+        ? uri.href.replace(
+            /^(?:.+)?#/gm,
+            (process.env.BASE_URI || 'https://fo76.logue.be') + '/'
+          )
         : location.origin + uri.href;
     },
   // get current coordinate

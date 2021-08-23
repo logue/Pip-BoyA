@@ -15,11 +15,11 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
-import Tile from 'ol/layer/Tile';
 import { MapDefinition, MapTypes } from '@/types/map';
 import define from '@/assets/MapDefinition';
-import Source from 'ol/source/Source';
 import XYZ from 'ol/source/XYZ';
+import TileLayer from 'ol/layer/Tile';
+import TileSource from 'ol/source/Tile';
 
 /**
  * Base tile layer.
@@ -41,8 +41,9 @@ export default class BaseLayer extends Vue {
   @Watch('url')
   private onMapChanged() {
     // console.log('onMapChanged');
-    const baseLayer: Tile = this.$refs.baseLayer as unknown as Tile;
-    const source: Source = baseLayer.getSource();
+    const baseLayer: TileLayer<TileSource> = this.$refs
+      .baseLayer as unknown as TileLayer<TileSource>;
+    const source: TileSource = baseLayer.getSource();
     (source as XYZ).setUrl(this.url);
     source.refresh();
     /*

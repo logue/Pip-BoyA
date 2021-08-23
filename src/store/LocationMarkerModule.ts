@@ -13,7 +13,6 @@ import { Feature, Point } from 'geojson';
 import convertGeoJson from '@/assets/ConvertGeoJson';
 import { Marker, MarkerProperties, MarkerJsonData } from '@/types/markerData';
 import { RootState } from '.';
-
 export interface LocationMarkerState {
   // Marker location object
   features: Feature<Point, MarkerProperties>[];
@@ -54,8 +53,10 @@ const actions: ActionTree<LocationMarkerState, RootState> = {
     }
     const data: MarkerJsonData = await axios
       .get('/data/locations.json')
-      .then(ret => ret.data)
-      .catch(error => context.dispatch('setError', error, { root: true }));
+      .then((ret: { data: any }) => ret.data)
+      .catch((error: any) =>
+        context.dispatch('setError', error, { root: true })
+      );
 
     // Store Marker locations.
     context.commit('setFeatures', data.markers);

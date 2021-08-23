@@ -17,6 +17,8 @@ import VectorLayer from 'ol/layer/Vector';
 import Style from 'ol/style/Style';
 import { FeatureLike } from 'ol/Feature';
 import { getMarkerIconStyle } from '@/assets/MarkerStyle';
+import VectorSource from 'ol/source/Vector';
+import Geometry from 'ol/geom/Geometry';
 /**
  * Location Marker (Icon marker)
  */
@@ -56,15 +58,19 @@ export default class LocationLayer extends Vue {
     await this.$store.dispatch('LocationMarkerModule/init');
   }
 
-  private mounted() {
-    this.redraw();
+  private created(): void {
+    const source: VectorSource<Geometry> = this.$refs
+      .vectorSource as unknown as VectorSource<Geometry>;
+
+    console.log(source);
+    // source.refresh();
   }
 
   /** Redraw Marker Icon */
   public redraw(): void {
     // vl-layer-vector
-    const locationLayer: VectorLayer = this.$refs
-      .locationLayer as unknown as VectorLayer;
+    const locationLayer: VectorLayer<VectorSource<Geometry>> = this.$refs
+      .locationLayer as unknown as VectorLayer<VectorSource<Geometry>>;
     // マーカーのスタイルを設定
     locationLayer.setStyle((feature: FeatureLike, resolution: number) => {
       // vl-map

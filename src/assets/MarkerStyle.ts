@@ -1,7 +1,8 @@
-import colors from 'vuetify/lib/util/colors';
 import { Style, Circle, Text, Fill, Stroke, Icon } from 'ol/style';
 import IconAnchorUnits from 'ol/style/IconAnchorUnits';
 import { toCamelCase, hexToRgb } from './Utility';
+import colors from 'vuetify/src/util/colors';
+import { Color } from 'vuetify/lib/util/colors';
 
 // tile mode colorset
 export const tileExplainColors: string[] = [
@@ -63,14 +64,14 @@ const colorStyleCache: { [key: string]: Style } = {};
  * Get Marker Style by color
  * @param color Material Color
  */
-export function getMarkerStyle(color: string): Style {
-  let c = toCamelCase(color);
-  if (!c) c = color = 'blue';
-  const colorSet = colors[c];
-  if (colorStyleCache[color]) {
-    return colorStyleCache[color];
+export function getMarkerStyle(colorName: string): Style {
+  let c = toCamelCase(colorName);
+  if (!c) c = colorName = 'blue';
+  const colorSet: Color = colors[c];
+  if (colorStyleCache[colorName]) {
+    return colorStyleCache[colorName];
   }
-  colorStyleCache[color] = new Style({
+  colorStyleCache[colorName] = new Style({
     fill: new Fill({
       color: `rgba(${hexToRgb(colorSet.accent1 || colorSet.lighten5)},0.3)`,
     }),
@@ -107,7 +108,7 @@ export function getMarkerStyle(color: string): Style {
       text: '',
     }),
   });
-  return colorStyleCache[color];
+  return colorStyleCache[colorName];
 }
 
 // Cache Icon Marker Style

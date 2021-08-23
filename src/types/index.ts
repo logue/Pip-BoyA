@@ -6,7 +6,7 @@ import VueRouter from 'vue-router';
 import { Store } from 'vuex';
 
 // Vueのオーバーライド
-declare module 'vue/types/vue' {
+declare module 'vue' {
   interface ComponentCustomProperties {
     $store: Store<RootState>;
     $router: VueRouter;

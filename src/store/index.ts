@@ -22,9 +22,9 @@ export interface RootState {
   // ProgressBar Percentage
   progress: number;
   // SnackBar Text
-  message?: string;
+  message: string | null;
   // Error Message
-  error?: string;
+  error: string | null;
 }
 
 // State
@@ -40,7 +40,7 @@ const getters: GetterTree<RootState, RootState> = {
   loading: (s): boolean => s.loading,
   progress: (s): number => s.progress,
   message: (s): string | null => s.message,
-  error: (s): string => s.error,
+  error: (s): string | null => s.error,
 };
 
 // Mutation
@@ -52,7 +52,7 @@ const mutations: MutationTree<RootState> = {
     s.progress = progress;
     s.loading = true;
   },
-  setMessage(s, message?: string) {
+  setMessage(s, message: string) {
     s.message = message;
   },
   setError(s, error: string) {

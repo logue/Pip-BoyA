@@ -1,5 +1,10 @@
-/* eslint-disable */
-const TerserPlugin = require('terser-webpack-plugin');
+/** Vuetify向けvue設定 */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+//const TerserPlugin = require('terser-webpack-plugin');
+
+/**
+ * @type {import('@vue/cli-service').ProjectOptions}
+ */
 module.exports = {
   transpileDependencies: ['vuex-persist', 'vuetify'],
   lintOnSave: process.env.NODE_ENV !== 'production',
@@ -11,6 +16,7 @@ module.exports = {
         maxSize: 250000,
       },
       minimize: process.env.NODE_ENV === 'production',
+      /*
       minimizer: [
         new TerserPlugin({
           terserOptions: {
@@ -23,6 +29,7 @@ module.exports = {
           },
         }),
       ],
+      */
     },
   },
   pluginOptions: {
@@ -34,8 +41,8 @@ module.exports = {
     },
     electronBuilder: {
       preload: 'src/preload.ts',
-      disableMainProcessTypescript: false, // Manually disable typescript plugin for main process. Enable if you want to use regular js for the main process (src/background.js by default).
-      mainProcessTypeChecking: false, // Manually enable type checking during webpck bundling for background file.
+      disableMainProcessTypescript: false,
+      mainProcessTypeChecking: false,
       nodeIntegration: true,
       chainWebpackRendererProcess: config => {
         // Chain webpack config for electron renderer process only
