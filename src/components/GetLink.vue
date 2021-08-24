@@ -30,7 +30,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { openWindow } from '@/assets/Utility';
+import { copy, openWindow } from '@/assets/Utility';
 /**
  * Get location uri dialog.
  */
@@ -57,16 +57,12 @@ export default class GetLink extends Vue {
   }
   /** Link to current location */
   public go(): void {
-    openWindow(this.uri, this);
+    openWindow(this.uri);
   }
 
   /** copy */
   public copy(): void {
-    if (this.isElectron) {
-      this.$electron.clipboard.writeText(this.uri);
-    } else {
-      navigator.clipboard.writeText(this.uri);
-    }
+    copy(this.uri);
     this.dialog = false;
     this.$store.dispatch('setMessage', this.$t('copy-success'));
   }

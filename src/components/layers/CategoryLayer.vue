@@ -30,8 +30,7 @@ import { MapDefinition } from '@/types/map';
 import { MarkerProperties } from '@/types/markerData';
 import define from '@/assets/MapDefinition';
 import { getMarkerStyle } from '@/assets/MarkerStyle';
-import VectorSource from 'ol/source/Vector';
-import Geometry from 'ol/geom/Geometry';
+
 /**
  * Category Marker
  * (Tile based marker and coordinate based marker.)
@@ -127,8 +126,8 @@ export default class CategoryLayer extends Vue {
    * Redraw markers
    */
   private redraw(): void {
-    const markerLayer: VectorLayer<VectorSource<Geometry>> = this.$refs
-      .markerLayer as unknown as VectorLayer<VectorSource<Geometry>>;
+    const markerLayer: VectorLayer = this.$refs
+      .markerLayer as unknown as VectorLayer;
     if (!markerLayer) return;
 
     markerLayer.setStyle((feature: FeatureLike, resolution: number) => {

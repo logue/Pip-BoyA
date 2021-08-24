@@ -62,11 +62,25 @@ export function valuesOf(obj: any): { [key: string]: any } {
  * Open External Window.
  * @param href link href
  */
-export function openWindow(href: string, vue: Vue): void {
+export function openWindow(href: string): void {
   if (process.env.IS_ELECTRON) {
+    const { shell } = require('electron');
     // Open browser
-    vue.$electron.shell.openExternal(href);
+    shell.openExternal(href);
   } else {
     window.open(href);
+  }
+}
+
+/**
+ * Copy to Clipboard
+ * @param text copy to text
+ */
+export function copy(text: string): void {
+  if (process.env.IS_ELECTRON) {
+    const { clipboard } = require('electron');
+    clipboard.writeText(text);
+  } else {
+    navigator.clipboard.writeText(text);
   }
 }

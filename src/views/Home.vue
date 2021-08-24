@@ -87,7 +87,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 import colors from 'vuetify/lib/util/colors';
 // openlayers
-import Feature from 'ol/Feature';
+import { FeatureLike } from 'ol/Feature';
 import FullScreen from 'ol/control/FullScreen';
 import Interaction from 'ol/interaction/Interaction';
 import Map from 'ol/Map';
@@ -130,7 +130,7 @@ export default class Home extends Vue {
   private projection: ProjectionLike = define.projection;
   private resolutions: number[] = define.resolutions;
   private extent: Extent = define.extent;
-  private hitFeature?: Feature<Point>;
+  private hitFeature?: FeatureLike;
   // detect map move
   private isMoving = false;
   // Tooltip
@@ -235,7 +235,7 @@ export default class Home extends Vue {
   /**
    * When pointer move
    */
-  private onMapPointerMove(e: MapBrowserEvent<UIEvent>): void {
+  private onMapPointerMove(e: MapBrowserEvent): void {
     const map: Map = this.$refs.map as unknown as Map;
     // current pixel coordination
     const pixel: Pixel = e.pixel;
@@ -243,7 +243,7 @@ export default class Home extends Vue {
     this.hitFeature = map.forEachFeatureAtPixel(
       pixel,
       feature => feature
-    ) as Feature<Point>;
+    ) as FeatureLike;
 
     if (!this.hitFeature) {
       // When mouse leave from any features
@@ -282,7 +282,7 @@ export default class Home extends Vue {
   /**
    * When Interact marker
    */
-  public onSelect(e: Feature<Point>): void {
+  public onSelect(e: FeatureLike): void {
     // Get MarkerProperties from selected feature
     const markerInfo: MarkerInfo = this.$refs.markerInfo as MarkerInfo;
     markerInfo.open(e.getProperties() as MarkerProperties);

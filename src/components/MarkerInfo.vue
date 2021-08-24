@@ -114,7 +114,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { openWindow } from '@/assets/Utility';
+import { copy, openWindow } from '@/assets/Utility';
 import { MarkerProperties } from '@/types/markerData';
 
 /**
@@ -162,19 +162,14 @@ export default class MarkerInfo extends Vue {
   }
   /** copy */
   public copy(): void {
-    if (process.env.IS_ELECTRON) {
-      this.$electron.clipboard.writeText(this.uri);
-    } else {
-      navigator.clipboard.writeText(this.uri);
-    }
-    this.dialog = false;
+    copy(this.uri);
     this.$store.dispatch('setMessage', this.$t('copy-success'));
   }
   /** Open External Window */
   public openNewWin(
     e: MouseEvent & { currentTarget: HTMLAnchorElement }
   ): boolean {
-    openWindow(e.currentTarget.href, this);
+    openWindow(e.currentTarget.href);
     return false;
   }
 }

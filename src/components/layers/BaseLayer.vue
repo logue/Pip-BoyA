@@ -41,8 +41,7 @@ export default class BaseLayer extends Vue {
   @Watch('url')
   private onMapChanged() {
     // console.log('onMapChanged');
-    const baseLayer: TileLayer<TileSource> = this.$refs
-      .baseLayer as unknown as TileLayer<TileSource>;
+    const baseLayer: TileLayer = this.$refs.baseLayer as unknown as TileLayer;
     const source: TileSource = baseLayer.getSource();
     (source as XYZ).setUrl(this.url);
     source.refresh();

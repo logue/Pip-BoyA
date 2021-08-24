@@ -122,9 +122,9 @@ export default class App extends Vue {
       .setAttribute('content', this.$t('description'));
 
     // change electron runtime locale (not works!)
-    if (process.env.IS_ELECTRON) {
-      this.$electron.ipcRenderer.sendSync('setLocale', locale);
-    }
+    // if (process.env.IS_ELECTRON) {
+    //   this.$electron.ipcRenderer.sendSync('setLocale', locale);
+    // }
   }
   /** Modify snackbar text */
   @Watch('$store.getters.message')

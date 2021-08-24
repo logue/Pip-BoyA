@@ -2,7 +2,7 @@
  * Fallout Pip-boy Application (Pip-BoyA／Pip坊や) for Electron
  *
  * @author    Logue <logue@hotmail.co.jp>
- * @version   0.6.0-beta
+ * @version   0.6.2-beta
  * @copyright 2020-2021 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
  * @license   MIT
  */
@@ -35,8 +35,8 @@ async function createWindow() {
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
-      nodeIntegration: process.env
-        .ELECTRON_NODE_INTEGRATION as unknown as boolean,
+      nodeIntegration: true,
+      contextIsolation: false,
     },
   });
 
