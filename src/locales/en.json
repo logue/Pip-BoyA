@@ -431,7 +431,9 @@
     "LocMountainsLousMineLocation": "Carleton Mine",
     "LocSwampBerkeleySpringsRaiderCampLocation": "Bloody Frank's",
     "LocSubToxicValleyMakeshiftVaultLocation": "Makeshift Vault",
-    "Vault51ExteriorLocation": "Vault 51"
+    "Vault51ExteriorLocation": "Vault 51",
+    "LocMountainsMetalDomeLocation": "Metal Dome",
+    "LocSwampHarpersFerryDungeonExtLocation": "Harpers Ferry Tunnel"
   },
   "categories": {
     "home": "Home",

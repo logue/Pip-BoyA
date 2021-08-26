@@ -2742,6 +2742,20 @@
       "type": "Vault51Marker",
       "x": -125273.2266,
       "y": 202332.3594
+    },
+    {
+      "id": "005FB020",
+      "name": "LocMountainsMetalDomeLocation",
+      "type": "RaiderSettlementMarker",
+      "x": 70720,
+      "y": 100496
+    },
+    {
+      "id": "0060D59C",
+      "name": "LocSwampHarpersFerryDungeonExtLocation",
+      "type": "TrainTrackMark",
+      "x": 183554.4688,
+      "y": 2929.396241
     }
   ]
 }

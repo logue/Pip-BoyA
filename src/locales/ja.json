@@ -431,7 +431,9 @@
     "LocMountainsLousMineLocation": "カールトン鉱山",
     "LocSwampBerkeleySpringsRaiderCampLocation": "ブラッディ・フランクズ",
     "LocSubToxicValleyMakeshiftVaultLocation": "簡易Vault",
-    "Vault51ExteriorLocation": "Vault 51"
+    "Vault51ExteriorLocation": "Vault 51",
+    "LocMountainsMetalDomeLocation": "メタルドーム",
+    "LocSwampHarpersFerryDungeonExtLocation": "ハーパーズ・フェリーのトンネル"
   },
   "categories": {
     "home": "ホーム",
