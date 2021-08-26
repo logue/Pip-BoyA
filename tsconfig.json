@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
+    "strict": false,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
@@ -13,9 +13,13 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "outDir": "dist_electron",
     "types": [
       "node",
       "webpack-env"
+    ],
+    "typeRoots": [
+      "src/types/*",
     ],
     "paths": {
       "@/*": [

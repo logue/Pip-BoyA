@@ -62,7 +62,7 @@ module.exports = {
         },
       },
     },
-    lintStyleOnBuild: false,
+    lintStyleOnBuild: true,
     stylelint: {},
   },
 };

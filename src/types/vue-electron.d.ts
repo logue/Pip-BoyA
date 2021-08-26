@@ -1,4 +1,6 @@
 // Vue Electron type definition
+declare module 'vue-electron';
+
 import {
   Clipboard,
   CrashReporter,

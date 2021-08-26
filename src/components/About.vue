@@ -7,9 +7,11 @@
   >
     <v-card>
       <v-card-title>{{ $t('about', { appname: $t('title') }) }}</v-card-title>
+      <v-card-subtitle>
+        <nl2br tag="p" :text="$t('description')" />
+      </v-card-subtitle>
       <v-card-text>
         <v-banner>
-          <nl2br tag="p" :text="$t('description')" />
           <template #actions>
             <v-btn
               href="https://github.com/logue/Pip-BoyA"
@@ -175,8 +177,6 @@ import { openWindow } from '@/assets/Utility';
 export default class About extends Vue {
   /** Dialog visibility */
   private dialog = false;
-  /** Electron */
-  private isElectron = process.env.IS_ELECTRON ?? false;
 
   /** Open Dialog */
   public open(): void {
@@ -186,7 +186,7 @@ export default class About extends Vue {
   public openNewWin(
     e: MouseEvent & { currentTarget: HTMLAnchorElement }
   ): boolean {
-    openWindow(e.currentTarget.href, this);
+    openWindow(e.currentTarget.href);
     return false;
   }
 }

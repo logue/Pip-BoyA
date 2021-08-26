@@ -203,7 +203,10 @@ export default class Home extends Vue {
       new MousePosition({
         coordinateFormat: createStringXY(0),
       }),
-      new FullScreen(),
+      new FullScreen({
+        // Set the target DOM to be displayed in full screen as the root of Vue.
+        source: 'app',
+      }),
       new OverviewMap({
         collapsed: true,
         collapsible: true,

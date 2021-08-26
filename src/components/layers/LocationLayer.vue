@@ -15,7 +15,7 @@ import { Component, Vue, Watch } from 'vue-property-decorator';
 import Map from 'ol/Map';
 import VectorLayer from 'ol/layer/Vector';
 import Style from 'ol/style/Style';
-import { FeatureLike } from 'ol/Feature';
+import Feature, { FeatureLike } from 'ol/Feature';
 import { getMarkerIconStyle } from '@/assets/MarkerStyle';
 import VectorSource from 'ol/source/Vector';
 /**
@@ -24,7 +24,7 @@ import VectorSource from 'ol/source/Vector';
 @Component
 export default class LocationLayer extends Vue {
   /** Location Markers */
-  private get features(): FeatureLike[] {
+  private get features(): Feature[] {
     return this.$store.getters['LocationMarkerModule/features'];
   }
   /** Location Marker Visibility */
@@ -58,18 +58,28 @@ export default class LocationLayer extends Vue {
   }
 
   private created(): void {
-    const source: VectorSource = this.$refs
+    const vectorSource: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;
 
-    console.log(source);
-    // source.refresh();
+    if (vectorSource) {
+      vectorSource.clear(true);
+      vectorSource.addFeatures(this.features);
+    }
+    this.redraw();
   }
 
   /** Redraw Marker Icon */
   public redraw(): void {
     // vl-layer-vector
-    const locationLayer: VectorLayer = this.$refs
-      .locationLayer as unknown as VectorLayer;
+    const locationLayer = this.$refs.locationLayer as unknown as VectorLayer;
+
+    if (!locationLayer) {
+      return;
+    }
+
+    const source: VectorSource = this.$refs
+      .vectorSource as unknown as VectorSource;
+
     // マーカーのスタイルを設定
     locationLayer.setStyle((feature: FeatureLike, resolution: number) => {
       // vl-map
@@ -93,8 +103,7 @@ export default class LocationLayer extends Vue {
       return style;
     });
 
-    // const source: Source = (this.$refs.vectorSource as unknown) as Source;
-    // source.refresh();
+    source.refresh();
   }
 }
 </script>

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter, { Route, RouteConfig } from 'vue-router';
-import { Position, PositionResult } from 'vue-router/types/router';
+import { Position } from 'vue-router/types/router';
 import goTo from 'vuetify/lib/services/goto';
 
 import Home from '@/views/Home.vue';
@@ -29,11 +29,11 @@ const routes: RouteConfig[] = [
 const router: VueRouter = new VueRouter({
   mode: process.env.IS_ELECTRON ? 'hash' : 'history',
   base: process.env.BASE_URL,
-  scrollBehavior: (
+  scrollBehavior: async (
     to: Route,
     from: Route,
     savedPosition: void | Position
-  ): PositionResult | Promise<PositionResult> | undefined | null => {
+  ) => {
     let scrollTo: number | string = 0;
 
     if (to.hash) {
@@ -42,7 +42,7 @@ const router: VueRouter = new VueRouter({
       scrollTo = savedPosition.y;
     }
 
-    return goTo(scrollTo);
+    return { x: 0, y: await goTo(scrollTo) };
   },
   routes,
 });

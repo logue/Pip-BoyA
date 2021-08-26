@@ -13,7 +13,12 @@
     </vl-layer-tile>
     <!-- location based marker mode -->
     <vl-layer-vector ref="markerLayer" :z-index="15">
-      <vl-source-vector :features="features" />
+      <vl-source-vector
+        ref="vectorSource"
+        :features="features"
+        :update-while-animating="true"
+        :update-while-interacting="true"
+      />
     </vl-layer-vector>
   </vl-layer-group>
 </template>
@@ -30,6 +35,7 @@ import { MapDefinition } from '@/types/map';
 import { MarkerProperties } from '@/types/markerData';
 import define from '@/assets/MapDefinition';
 import { getMarkerStyle } from '@/assets/MarkerStyle';
+import VectorSource from 'ol/source/Vector';
 
 /**
  * Category Marker
@@ -128,7 +134,13 @@ export default class CategoryLayer extends Vue {
   private redraw(): void {
     const markerLayer: VectorLayer = this.$refs
       .markerLayer as unknown as VectorLayer;
-    if (!markerLayer) return;
+
+    if (!markerLayer) {
+      return;
+    }
+
+    const source: VectorSource = this.$refs
+      .vectorSource as unknown as VectorSource;
 
     markerLayer.setStyle((feature: FeatureLike, resolution: number) => {
       // vl-map
@@ -166,6 +178,8 @@ export default class CategoryLayer extends Vue {
 
       return style;
     });
+
+    source.refresh();
   }
 }
 </script>
