@@ -2,7 +2,7 @@
  * Fallout Pip-boy Application (Pip-BoyA／Pip坊や) for Electron
  *
  * @author    Logue <logue@hotmail.co.jp>
- * @version   0.6.2-beta
+ * @version   0.6.3-beta
  * @copyright 2020-2021 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
  * @license   MIT
  */

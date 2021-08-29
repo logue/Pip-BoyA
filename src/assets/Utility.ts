@@ -84,3 +84,22 @@ export function copy(text: string): void {
     navigator.clipboard.writeText(text);
   }
 }
+
+/**
+ * Set execution frequency
+ * @param throttle Execution frequency (ms)
+ */
+export function throttledYield(throttle = 24) {
+  let lastYield: number = new Date().getUTCSeconds();
+  const sleep = () =>
+    new Promise(resolve => {
+      requestAnimationFrame(resolve);
+    });
+  return async () => {
+    const now: number = new Date().getUTCSeconds();
+    if (now - lastYield >= throttle) {
+      lastYield = now;
+      await sleep();
+    }
+  };
+}

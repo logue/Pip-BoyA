@@ -50,6 +50,7 @@
 import { Component, Vue, Watch } from 'vue-property-decorator';
 import Drawer from '@/components/Drawer.vue';
 import AppBar from '@/components/AppBar.vue';
+import { throttledYield } from './assets/Utility';
 
 /**
  * App
@@ -68,6 +69,8 @@ export default class App extends Vue {
   private drawer = false;
   /** snackbar visibility */
   private snackbar = false;
+
+  private myYield = throttledYield();
 
   /** theme dark mode */
   private get '$vuetify.theme.dark'(): boolean {
@@ -138,7 +141,7 @@ export default class App extends Vue {
   }
   /** when loading */
   @Watch('loading')
-  private onLoading(): void {
+  private async onLoading() {
     // change cursor
     document.body.style.cursor = this.loading ? 'wait' : 'auto';
     // hide drawer menu while loading.
@@ -152,15 +155,15 @@ export default class App extends Vue {
         this.$electron.ipcRenderer.send('setProgress', 0);
       }
     }
-    this.$forceNextTick();
+    await this.myYield();
   }
 
   @Watch('progress')
-  private onProgressChanged() {
+  private async onProgressChanged() {
     if (process.env.IS_ELECTRON) {
       this.$electron.ipcRenderer.send('setProgress', this.progress);
     }
-    this.$forceNextTick();
+    await this.myYield();
   }
 
   @Watch('error')
@@ -174,23 +177,6 @@ export default class App extends Vue {
     this.$i18n.locale = this.$store.getters['ConfigModule/locale'];
     document.title = this.title;
   }
-
-  /*
-  private throttledYield = throttle => {
-    let lastYield: number = new Date().getUTCSeconds();
-    return async () => {
-      const now: number = new Date().getUTCSeconds();
-      if (now - lastYield >= throttle) {
-        lastYield = now;
-        await this.sleep();
-      }
-    };
-  };
-  private sleep = (): Promise<void> =>
-    new Promise(resolve => {
-      requestAnimationFrame(resolve);
-    });
-  */
 }
 </script>
 

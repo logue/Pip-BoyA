@@ -1,4 +1,6 @@
 import Vue from 'vue';
-const VueElectron = require('vue-electron');
 
-Vue.use(VueElectron);
+if (process.env.IS_ELECTRON) {
+  const VueElectron = require('vue-electron');
+  Vue.use(VueElectron);
+}
