@@ -8,9 +8,11 @@
     <v-card>
       <v-card-title>{{ $t('about', { appname: $t('title') }) }}</v-card-title>
       <v-card-subtitle>
-        <nl2br tag="p" :text="$t('description')" />
+        ver.{{ meta.version }}
+        <small left>(Build: {{ meta.date }})</small>
       </v-card-subtitle>
       <v-card-text>
+        <nl2br tag="p" :text="$t('description')" />
         <v-banner>
           <template #actions>
             <v-btn
@@ -164,7 +166,7 @@ import { Component, Vue } from 'vue-property-decorator';
 import Gravatar from 'vue-gravatar';
 import Nl2br from 'vue-nl2br';
 import { openWindow } from '@/helpers/Utility';
-
+import Meta from '@/Meta';
 /**
  * About dialog
  */
@@ -177,6 +179,8 @@ import { openWindow } from '@/helpers/Utility';
 export default class About extends Vue {
   /** Dialog visibility */
   private dialog = false;
+
+  private meta = Meta;
 
   /** Open Dialog */
   public open(): void {

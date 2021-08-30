@@ -51,6 +51,8 @@ export default class CategoryLayer extends Vue {
   private mapConfig: MapDefinition = define;
   private myYield = throttledYield(30);
 
+  private features = [];
+
   // current category
   private get category(): string | undefined {
     return this.$route.params.category;
@@ -122,10 +124,13 @@ export default class CategoryLayer extends Vue {
     await Vue.nextTick();
 
     if (this.$store.getters['CategoryMarkerModule/features'](this.category)) {
-      // 算出プロパティでは、VueLayersへfeaturesを流し込む処理が正常に動かないので、手動で代入
-      source.addFeatures(
-        this.$store.getters['CategoryMarkerModule/features'](this.category)
+      this.features = this.$store.getters['CategoryMarkerModule/features'](
+        this.category
       );
+      // 算出プロパティでは、VueLayersへfeaturesを流し込む処理が正常に動かないので、手動で代入
+      source.addFeatures(this.features);
+    } else {
+      this.features = [];
     }
 
     document.title = this.$t(`categories.${this.category}`) + ' - ' + title;

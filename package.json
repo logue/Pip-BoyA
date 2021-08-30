@@ -1,6 +1,6 @@
 {
   "name": "pip-boya",
-  "version": "0.6.2-beta",
+  "version": "0.6.2",
   "private": true,
   "description": "Fallout76 Pip-boy Application",
   "author": {
