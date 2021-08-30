@@ -32,7 +32,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import CountryFlag from 'vue-country-flag';
-import { languages } from '@/assets/Utility';
+import { languages } from '@/helpers/Utility';
 /**
  * Language selector
  */

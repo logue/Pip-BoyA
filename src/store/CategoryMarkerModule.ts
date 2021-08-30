@@ -13,8 +13,8 @@ import axios from 'axios';
 import { Feature, Point } from 'geojson';
 import { RootState } from '.';
 import { Marker, MarkerJsonData, MarkerProperties } from '@/types/markerData';
-import convertGeoJson from '@/assets/ConvertGeoJson';
-import { markerColors, tileExplainColors } from '@/assets/MarkerStyle';
+import convertGeoJson from '@/helpers/ConvertGeoJson';
+import { markerColors, tileExplainColors } from '@/helpers/MarkerStyle';
 
 // Marker State
 export interface CategoryMarkerState {
@@ -80,7 +80,8 @@ const mutations: MutationTree<CategoryMarkerState> = {
    * @param s Store
    * @param payload Marker GeoJson Data
    */
-  storeData(s, payload: DataPayload) {
+  async storeData(s, payload: DataPayload) {
+    console.log('mutation');
     const data = payload.data;
     if (payload.data.markers) {
       // convert Fo76 marker location to geo json object
@@ -150,8 +151,10 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
     context: ActionContext<CategoryMarkerState, RootState>,
     category: string
   ) {
-    if (context.state.features[category]) {
-      return;
+    if (context.state.types[category] !== void 0) {
+      // すでにデータが保存されていた場合は何もしない
+      console.log(`${category} is already loaded. skip.`);
+      return false;
     }
 
     // Fetch category marker data.
@@ -159,9 +162,12 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
       res => res.data,
       error => context.dispatch('setError', error, { root: true })
     );
-    if (data) {
-      context.commit('storeData', { category: category, data: data });
+    if (!data) {
+      return true;
     }
+    console.log(`commit ${category}`);
+    context.commit('storeData', { category: category, data: data });
+    return true;
   },
 };
 

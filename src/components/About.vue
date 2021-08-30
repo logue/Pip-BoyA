@@ -163,7 +163,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 import Gravatar from 'vue-gravatar';
 import Nl2br from 'vue-nl2br';
-import { openWindow } from '@/assets/Utility';
+import { openWindow } from '@/helpers/Utility';
 
 /**
  * About dialog

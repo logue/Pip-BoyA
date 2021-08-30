@@ -4,11 +4,11 @@
     <vl-source-xyz
       ref="baseLayerSource"
       :url="url"
-      :projection="define.projection"
-      :min-zoom="define.minZoom"
-      :max-zoom="define.maxZoom"
-      :max-resolution="define.mapMaxResolution"
-      :tile-pixe-ratio="define.tilePixelRatio"
+      :projection="config.projection"
+      :min-zoom="config.minZoom"
+      :max-zoom="config.maxZoom"
+      :max-resolution="config.mapMaxResolution"
+      :tile-pixe-ratio="config.tilePixelRatio"
     />
   </vl-layer-tile>
 </template>
@@ -16,7 +16,7 @@
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
 import { MapDefinition, MapTypes } from '@/types/map';
-import define from '@/assets/MapDefinition';
+import config from '@/helpers/MapDefinition';
 import XYZ from 'ol/source/XYZ';
 import TileLayer from 'ol/layer/Tile';
 import TileSource from 'ol/source/Tile';
@@ -29,7 +29,7 @@ export default class BaseLayer extends Vue {
   /** Map Opacity */
   private opacity = 1;
   /** Map definition */
-  private define: MapDefinition = define;
+  private config: MapDefinition = config;
 
   /** Tile image url pattern */
   private get url() {
@@ -40,18 +40,10 @@ export default class BaseLayer extends Vue {
   /** When map type changed */
   @Watch('url')
   private onMapChanged() {
-    // console.log('onMapChanged');
     const baseLayer: TileLayer = this.$refs.baseLayer as unknown as TileLayer;
     const source: TileSource = baseLayer.getSource();
     (source as XYZ).setUrl(this.url);
     source.refresh();
-    /*
-    if (source) {
-      // キャッシュを削除
-      source.tileCache.expireCache({});
-      source.tileCache.clear();
-    }
-    */
   }
 }
 </script>

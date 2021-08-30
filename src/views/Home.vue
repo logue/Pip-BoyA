@@ -102,7 +102,7 @@ import { Extent, getCenter } from 'ol/extent';
 import { Pixel } from 'ol/pixel';
 import { ProjectionLike } from 'ol/proj';
 // component
-import define from '@/assets/MapDefinition';
+import define from '@/helpers/MapDefinition';
 import BaseLayer from '@/components/layers/BaseLayer.vue';
 import CategoryLayer from '@/components/layers/CategoryLayer.vue';
 import Explain from '@/components/Explain.vue';

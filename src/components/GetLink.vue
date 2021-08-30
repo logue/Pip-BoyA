@@ -30,7 +30,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { copy, openWindow } from '@/assets/Utility';
+import { copy, openWindow } from '@/helpers/Utility';
 /**
  * Get location uri dialog.
  */

@@ -10,7 +10,7 @@ import {
 } from 'vuex';
 import axios from 'axios';
 import { Feature, Point } from 'geojson';
-import convertGeoJson from '@/assets/ConvertGeoJson';
+import convertGeoJson from '@/helpers/ConvertGeoJson';
 import { Marker, MarkerProperties, MarkerJsonData } from '@/types/markerData';
 import { RootState } from '.';
 export interface LocationMarkerState {

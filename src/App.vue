@@ -50,7 +50,7 @@
 import { Component, Vue, Watch } from 'vue-property-decorator';
 import Drawer from '@/components/Drawer.vue';
 import AppBar from '@/components/AppBar.vue';
-import { throttledYield } from './assets/Utility';
+import { throttledYield } from './helpers/Utility';
 
 /**
  * App

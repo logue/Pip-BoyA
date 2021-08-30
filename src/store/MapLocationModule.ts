@@ -9,7 +9,7 @@ import {
   MutationTree,
 } from 'vuex';
 import VueRouter from 'vue-router';
-import define from '@/assets/MapDefinition';
+import define from '@/helpers/MapDefinition';
 import { RootState } from '.';
 import { MapTypes } from '@/types/map';
 import { Coordinate } from 'ol/coordinate';
