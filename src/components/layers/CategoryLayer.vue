@@ -3,19 +3,23 @@
     <vl-layer-tile ref="categoryTileLayer" :z-index="10">
       <!-- tile based marker mode -->
       <vl-source-xyz
-        v-if="tileImage"
-        :url="'/img/markerTile/' + tileImage"
-        :projection="define.projection"
-        :min-zoom="define.minZoom"
-        :max-zoom="define.maxZoom"
-        :tile-pixe-ratio="define.tilePixelRatio"
+        v-if="$store.getters['CategoryMarkerModule/tileImage'](category) !== ''"
+        ref="tileSource"
+        :url="
+          '/img/markerTile/' +
+          $store.getters['CategoryMarkerModule/tileImage'](category)
+        "
+        :projection="mapConfig.projection"
+        :min-zoom="mapConfig.minZoom"
+        :max-zoom="mapConfig.maxZoom"
+        :tile-pixe-ratio="mapConfig.tilePixelRatio"
       />
     </vl-layer-tile>
     <!-- location based marker mode -->
     <vl-layer-vector ref="markerLayer" :z-index="15">
       <vl-source-vector
         ref="vectorSource"
-        :features="features"
+        :features="$store.getters['CategoryMarkerModule/features'](category)"
         :update-while-animating="true"
         :update-while-interacting="true"
       />
@@ -29,7 +33,6 @@ import { FeatureLike } from 'ol/Feature';
 import VectorLayer from 'ol/layer/Vector';
 import Map from 'ol/Map';
 import { Style } from 'ol/style';
-import Source from 'ol/source/Source';
 import XYZ from 'ol/source/XYZ';
 import { MapDefinition } from '@/types/map';
 import { MarkerProperties } from '@/types/markerData';
@@ -45,24 +48,15 @@ import { throttledYield } from '@/helpers/Utility';
 @Component
 export default class CategoryLayer extends Vue {
   /** Map definition */
-  private define: MapDefinition = define;
+  private mapConfig: MapDefinition = define;
   private myYield = throttledYield(30);
 
   // current category
   private get category(): string | undefined {
     return this.$route.params.category;
   }
-
-  // Markers
-  private get features() {
-    return this.$store.getters['CategoryMarkerModule/features'](this.category);
-  }
   private get types() {
     return this.$store.getters['CategoryMarkerModule/types'](this.category);
-  }
-  // use marker tile
-  private get tileImage() {
-    return this.$store.getters['CategoryMarkerModule/tileImage'](this.category);
   }
   // Marker Colorset
   private get colorset() {
@@ -119,7 +113,7 @@ export default class CategoryLayer extends Vue {
     await this.$store
       .dispatch('CategoryMarkerModule/setCategory', this.category)
       .then(args => {
-        console.log('require reload:', args);
+        console.log(`load ${this.category}, require reload: ${args}`);
         if (args) {
           return this.onCategoryChanged();
         }
@@ -143,18 +137,31 @@ export default class CategoryLayer extends Vue {
         category: this.$t(`categories.${this.category}`),
       })
     );
+    await Vue.nextTick();
+
+    this.onTileImageChanged();
+    this.redraw();
     await this.$store.dispatch('setLoading', false);
   }
 
-  @Watch('tileImage')
-  private onTileImageChanged() {
-    const source: Source = this.$refs.categoryLayerSource as unknown as Source;
+  private async onTileImageChanged() {
+    await Vue.nextTick();
+    const tileSource: XYZ = this.$refs.tileSource as unknown as XYZ;
 
-    // 新しい画像レイヤを指定
-    if (source) {
-      (source as XYZ).setUrl('/img/markerTile/' + this.tileImage);
+    const tile = this.$store.getters['CategoryMarkerModule/tileImage'](
+      this.category
+    );
+
+    if (tileSource && tile) {
+      // 新しい画像レイヤを指定
+      try {
+        tileSource.setUrl('/img/markerTile/' + tile);
+      } catch (e) {
+        // throuh
+      }
+
       // リフレッシュ
-      source.refresh();
+      tileSource.refresh();
     }
   }
 
@@ -216,6 +223,7 @@ export default class CategoryLayer extends Vue {
     });
 
     source.refresh();
+    await Vue.nextTick();
   }
 }
 </script>

@@ -7,6 +7,7 @@ import Vuex, {
   StoreOptions,
 } from 'vuex';
 import VuexPersistence from 'vuex-persist';
+import createPersistedState from 'vuex-persist-indexeddb';
 
 import ConfigModule from './ConfigModule';
 import MapLocationModule from './MapLocationModule';
@@ -95,7 +96,7 @@ const store: StoreOptions<RootState> = {
     new VuexPersistence({
       key: 'pipBoyA',
       storage: window.localStorage,
-      modules: ['ConfigModule', 'LocationMarkerModule', 'CategoryMarkerModule'],
+      modules: ['ConfigModule', 'LocationMarkerModule'],
     }).plugin,
     // ブラウザを閉じるまで保存されるデータ
     new VuexPersistence({
@@ -103,6 +104,10 @@ const store: StoreOptions<RootState> = {
       storage: window.sessionStorage,
       modules: ['MapLocationModule', 'CheckModule'],
     }).plugin,
+    createPersistedState({
+      key: 'PipBoyA',
+      paths: ['CategoryMarkerModule'],
+    }),
   ],
 };
 

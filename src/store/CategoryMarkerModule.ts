@@ -81,7 +81,8 @@ const mutations: MutationTree<CategoryMarkerState> = {
    * @param payload Marker GeoJson Data
    */
   async storeData(s, payload: DataPayload) {
-    console.log('mutation');
+    console.debug(`mutation: ${payload.category}`);
+
     const data = payload.data;
     if (payload.data.markers) {
       // convert Fo76 marker location to geo json object
@@ -152,7 +153,7 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
   ) {
     if (context.state.types[category] !== void 0) {
       // すでにデータが保存されていた場合は何もしない
-      console.log(`${category} is already loaded. skip.`);
+      console.debug(`${category} is already loaded. skip.`);
       return false;
     }
 
@@ -164,7 +165,7 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
     if (!data) {
       return true;
     }
-    console.log(`commit ${category}`);
+    console.debug(`commit ${category}`);
     context.commit('storeData', { category: category, data: data });
     return true;
   },

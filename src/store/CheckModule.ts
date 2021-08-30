@@ -1,5 +1,5 @@
 /**
- * Check store
+ * Marker visibility checkbox control module.
  */
 import {
   ActionContext,
