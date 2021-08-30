@@ -33,9 +33,10 @@ import Source from 'ol/source/Source';
 import XYZ from 'ol/source/XYZ';
 import { MapDefinition } from '@/types/map';
 import { MarkerProperties } from '@/types/markerData';
-import define from '@/assets/MapDefinition';
-import { getMarkerStyle } from '@/assets/MarkerStyle';
+import define from '@/helpers/MapDefinition';
+import { getMarkerStyle } from '@/helpers/MarkerStyle';
 import VectorSource from 'ol/source/Vector';
+import { throttledYield } from '@/helpers/Utility';
 
 /**
  * Category Marker
@@ -45,15 +46,16 @@ import VectorSource from 'ol/source/Vector';
 export default class CategoryLayer extends Vue {
   /** Map definition */
   private define: MapDefinition = define;
-
-  // Markers
-  private get features() {
-    return this.$store.getters['CategoryMarkerModule/features'](this.category);
-  }
+  private myYield = throttledYield(30);
 
   // current category
   private get category(): string | undefined {
     return this.$route.params.category;
+  }
+
+  // Markers
+  private get features() {
+    return this.$store.getters['CategoryMarkerModule/features'](this.category);
   }
   private get types() {
     return this.$store.getters['CategoryMarkerModule/types'](this.category);
@@ -66,9 +68,19 @@ export default class CategoryLayer extends Vue {
   private get colorset() {
     return this.$store.getters['CategoryMarkerModule/colorset'](this.category);
   }
+
   // Marker Visibility
   private get checked() {
     return this.$store.getters['CheckModule/checked'];
+  }
+
+  mounted(): void {
+    this.$store.watch(
+      (state, getters) => getters['CategoryMarkerModule/features'],
+      (newValue, oldValue) => {
+        console.log('features changed! %s => %s', oldValue, newValue);
+      }
+    );
   }
 
   /**
@@ -76,35 +88,62 @@ export default class CategoryLayer extends Vue {
    */
   @Watch('category')
   private async onCategoryChanged() {
-    this.$store.dispatch('setLoading', true);
+    await this.$store.dispatch('setLoading', true);
+
+    // this.$refsがundefinedになるのでVue.nextTick();で確実に読み込まれる状態にする。
+    await Vue.nextTick();
+    const source: VectorSource = this.$refs
+      .vectorSource as unknown as VectorSource;
+
     // タイトルを変更
     const title = process.env.IS_ELECTRON
       ? this.$t('title').replace(/Web/g, 'Electron')
       : this.$t('title');
-    this.$store.dispatch('setProgress', null);
-    await this.$forceNextTick();
+    await this.$store.dispatch('setProgress', null);
 
     if (!this.category) {
+      // カテゴリレイヤーを使わないとき
       document.title = title;
-      this.$store.dispatch('setLoading', false);
-      await this.$forceNextTick();
+      await this.$store.dispatch('setLoading', false);
       return;
+    } else {
+      if (source) {
+        // 既存のマーカーを削除
+        source.clear();
+      }
     }
 
     console.debug('set category:', this.category);
-    this.$store.dispatch('CategoryMarkerModule/setCategory', this.category);
-    await this.$forceNextTick();
+
+    // データ読み込み
+    await this.$store
+      .dispatch('CategoryMarkerModule/setCategory', this.category)
+      .then(args => {
+        console.log('require reload:', args);
+        if (args) {
+          return this.onCategoryChanged();
+        }
+      });
+
+    await Vue.nextTick();
+
+    if (this.$store.getters['CategoryMarkerModule/features'](this.category)) {
+      // 算出プロパティでは、VueLayersへfeaturesを流し込む処理が正常に動かないので、手動で代入
+      source.addFeatures(
+        this.$store.getters['CategoryMarkerModule/features'](this.category)
+      );
+    }
+
     document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
+
     // 切り替え完了のメッセージを出力
-    this.$store.dispatch(
+    await this.$store.dispatch(
       'setMessage',
       this.$t('category-changed', {
         category: this.$t(`categories.${this.category}`),
       })
     );
-    this.redraw();
-    this.$store.dispatch('setLoading', false);
-    await this.$forceNextTick();
+    await this.$store.dispatch('setLoading', false);
   }
 
   @Watch('tileImage')
@@ -124,23 +163,21 @@ export default class CategoryLayer extends Vue {
     this.redraw();
   }
 
-  private updated(): void {
-    this.redraw();
-  }
-
   /**
    * Redraw markers
    */
-  private redraw(): void {
+  @Watch('features')
+  private async redraw() {
+    await Vue.nextTick();
     const markerLayer: VectorLayer = this.$refs
       .markerLayer as unknown as VectorLayer;
+
+    const source: VectorSource = this.$refs
+      .vectorSource as unknown as VectorSource;
 
     if (!markerLayer) {
       return;
     }
-
-    const source: VectorSource = this.$refs
-      .vectorSource as unknown as VectorSource;
 
     markerLayer.setStyle((feature: FeatureLike, resolution: number) => {
       // vl-map
@@ -148,7 +185,6 @@ export default class CategoryLayer extends Vue {
       // Get Marker type
       const type = feature.get('type');
       // Get all type list.
-      // Get color index from type
       const index = Object.values(this.types).indexOf(type);
 
       // Apply marker color

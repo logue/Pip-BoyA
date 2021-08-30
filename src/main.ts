@@ -13,7 +13,6 @@ import router from './router';
 import store from './store';
 
 import './plugins/analytics';
-import './plugins/axios';
 import './plugins/forceNextTick';
 import './plugins/vuelayers';
 import './plugins/vue-electron';

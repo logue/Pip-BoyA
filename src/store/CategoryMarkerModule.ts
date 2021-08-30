@@ -134,9 +134,8 @@ const mutations: MutationTree<CategoryMarkerState> = {
       s.colorset[payload.category] = data.colorset || tileExplainColors;
       s.types[payload.category] = data.explains || [];
     }
-    if (typeof data.tileImage !== 'undefined') {
-      s.tileImage[payload.category] = data.tileImage;
-    }
+
+    s.tileImage[payload.category] = data.tileImage ? data.tileImage : '';
   },
 };
 
