@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 <template>
   <v-app class="pip-boya">
     <v-navigation-drawer v-model="drawer" app left>
@@ -50,7 +49,6 @@
 import { Component, Vue, Watch } from 'vue-property-decorator';
 import Drawer from '@/components/Drawer.vue';
 import AppBar from '@/components/AppBar.vue';
-import { throttledYield } from './helpers/Utility';
 
 /**
  * App
@@ -70,8 +68,6 @@ export default class App extends Vue {
   /** snackbar visibility */
   private snackbar = false;
 
-  private myYield = throttledYield();
-
   /** theme dark mode */
   private get '$vuetify.theme.dark'(): boolean {
     return this.$store.getters['ConfigModule/toggleTheme'];
@@ -88,9 +84,15 @@ export default class App extends Vue {
   private get progress(): number {
     return this.$store.getters.progress;
   }
+  private set progress(value: number) {
+    this.$store.dispatch('setProgress', value);
+  }
   /** loading overlay */
   private get loading(): boolean {
     return this.$store.getters.loading;
+  }
+  private set loading(value: boolean) {
+    this.$store.dispatch('setLoading', value);
   }
   /** Error Message */
   private get error(): boolean {
@@ -104,7 +106,6 @@ export default class App extends Vue {
   /** Theme Changer */
   @Watch('themeDark')
   private onThemeChanged(): void {
-    // console.log('theme changed');
     this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
   }
   /** locale changer */
@@ -134,6 +135,7 @@ export default class App extends Vue {
   private onSnackbarTextChanged(): void {
     this.snackbar = true;
   }
+
   /** when route change, hide snackbar */
   @Watch('$route')
   private onRouteChanged(): void {
@@ -141,29 +143,21 @@ export default class App extends Vue {
   }
   /** when loading */
   @Watch('loading')
-  private async onLoading() {
+  private onLoading() {
+    console.log('loading:', this.loading);
     // change cursor
     document.body.style.cursor = this.loading ? 'wait' : 'auto';
-    // hide drawer menu while loading.
-    const drawer: boolean = this.drawer;
-    if (this.loading) {
-      this.drawer = false;
-    } else {
-      this.drawer = drawer;
-      if (process.env.IS_ELECTRON) {
-        // hide progress when finish loading.
-        this.$electron.ipcRenderer.send('setProgress', 0);
-      }
+    if (process.env.IS_ELECTRON) {
+      // hide progress when finish loading.
+      this.$electron.ipcRenderer.send('setProgress', 0);
     }
-    await this.myYield();
   }
 
   @Watch('progress')
-  private async onProgressChanged() {
+  private onProgressChanged() {
     if (process.env.IS_ELECTRON) {
       this.$electron.ipcRenderer.send('setProgress', this.progress);
     }
-    await this.myYield();
   }
 
   @Watch('error')
@@ -192,7 +186,7 @@ body,
 
 ::-webkit-scrollbar {
   width: 0.75rem;
-  background-color: rgba(map-get($grey, 'lighten-1'), 1);
+  background-color: rgba(map-get($grey, 'lighten-2'), 1);
 }
 
 ::-webkit-scrollbar-thumb {

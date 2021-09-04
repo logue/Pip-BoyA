@@ -9,7 +9,7 @@
             <v-icon>mdi-information-outline</v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('about', { appname: $t('title') }) }}</span>
+        {{ $t('about', { appname: $t('title') }) }}
       </v-tooltip>
       <!-- Get Link -->
       <v-tooltip bottom>
@@ -18,7 +18,7 @@
             <v-icon>mdi-share-variant-outline</v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('getUri') }}</span>
+        {{ $t('getUri') }}
       </v-tooltip>
       <!-- Toggle Location Marker -->
       <v-tooltip bottom>
@@ -35,7 +35,7 @@
             <v-icon v-else>mdi-map-marker-off-outline</v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('toggleLocation') }}</span>
+        {{ $t('toggleLocation') }}
       </v-tooltip>
       <!-- Toggle WebGL -->
       <v-tooltip bottom>
@@ -52,7 +52,7 @@
             <v-icon v-else>mdi-cube-off-outline</v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('toggleWebGl') }}</span>
+        {{ $t('toggleWebGl') }}
       </v-tooltip>
       <!-- Toggle Map -->
       <v-tooltip bottom>
@@ -72,7 +72,7 @@
             <v-icon v-else>mdi-map-outline</v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('toggleMap') }}</span>
+        {{ $t('toggleMap') }}
       </v-tooltip>
       <!-- Toggle Dark mode -->
       <v-tooltip bottom>
@@ -86,7 +86,7 @@
             <v-icon>mdi-invert-colors</v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('toggleDarkMode') }}</span>
+        {{ $t('toggleDarkMode') }}
       </v-tooltip>
       <!-- Locale Menu -->
       <locale-changer />

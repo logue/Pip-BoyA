@@ -1,18 +1,24 @@
 <template>
-  <v-dialog
-    v-model="dialog"
-    max-width="800"
-    light
-    @keydown.esc="dialog = false"
-  >
+  <v-dialog v-model="dialog" max-width="800" @keydown.esc="dialog = false">
     <v-card>
-      <v-card-title>{{ $t('about', { appname: $t('title') }) }}</v-card-title>
+      <v-card-title>
+        {{ $t('about', { appname: $t('title') }) }}
+        <v-spacer />
+        <v-tooltip top>
+          <template #activator="{ on, attrs }">
+            <v-btn icon v-bind="attrs" v-on="on" @click="dialog = false">
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+          </template>
+          {{ $t('close') }}
+        </v-tooltip>
+      </v-card-title>
       <v-card-subtitle>
         ver.{{ meta.version }}
         <small left>(Build: {{ meta.date }})</small>
       </v-card-subtitle>
       <v-card-text>
-        <nl2br tag="p" :text="$t('description')" />
+        <p class="body1"><nl2br tag="p" :text="$t('description')" /></p>
         <v-banner>
           <template #actions>
             <v-btn
@@ -23,7 +29,7 @@
               Visit Project site
             </v-btn>
             <v-btn
-              color="yellow"
+              color="primary"
               href="https://www.nexusmods.com/fallout76/mods/697"
               @click.prevent="openNewWin"
             >
@@ -32,7 +38,7 @@
             </v-btn>
             <v-btn
               v-if="isElectron"
-              color="amber"
+              color="secondary"
               href="https://fo76.logue.be/"
               @click.prevent="openNewWin"
             >
@@ -42,11 +48,15 @@
           </template>
         </v-banner>
         <section class="my-3">
-          <h2 class="mb-3">Author</h2>
+          <h2 class="mb-3 subtitle-1">Author</h2>
           <v-card width="480" class="mx-3 my3">
             <div class="d-flex">
               <v-avatar class="ml-0 mt-0" size="128" tile>
-                <v-gavatar email="logue@hotmail.co.jp" :size="128" />
+                <v-gavatar
+                  protocol="https"
+                  email="logue@hotmail.co.jp"
+                  :size="128"
+                />
               </v-avatar>
               <div>
                 <v-card-title>Logue</v-card-title>
@@ -106,7 +116,7 @@
           </v-card>
         </section>
         <section class="my-3">
-          <h2 class="mb-3">Acknowledgement</h2>
+          <h2 class="mb-3 subtitle-1">Acknowledgement</h2>
           <ul>
             <li>
               <a
@@ -138,8 +148,8 @@
           </ul>
         </section>
         <section class="my-3">
-          <h2 class="mb-3">Legal Notice</h2>
-          <p class="mx-3 my-3">
+          <h2 class="mb-3 subtitle-1">Legal Notice</h2>
+          <p class="mx-3 my-3 body-2">
             Fallout® 76 Wastelanders © 2021 Bethesda Softworks LLC, a ZeniMax
             Media company. Bethesda, Bethesda Softworks, Bethesda Game Studios,
             ZeniMax, Pip-Boy, Vault-Tec and related logos are registered
@@ -150,13 +160,6 @@
           </p>
         </section>
       </v-card-text>
-      <v-card-actions>
-        <v-spacer />
-        <v-btn text color="secondary" @click="dialog = false">
-          <v-icon left>mdi-close</v-icon>
-          {{ $t('close') }}
-        </v-btn>
-      </v-card-actions>
     </v-card>
   </v-dialog>
 </template>
@@ -179,9 +182,12 @@ import Meta from '@/Meta';
 export default class About extends Vue {
   /** Dialog visibility */
   private dialog = false;
-
+  /** Build information etc */
   private meta = Meta;
-
+  /** electron */
+  private get isElectron() {
+    return process.env.IS_ELECTRON;
+  }
   /** Open Dialog */
   public open(): void {
     this.dialog = true;

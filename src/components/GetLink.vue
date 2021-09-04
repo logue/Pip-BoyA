@@ -1,31 +1,40 @@
 <template>
-  <span>
-    <v-dialog v-model="dialog" max-width="580" light @keydown.esc="close">
-      <v-card>
-        <v-card-title>
-          {{ $t('getUri') }}
-        </v-card-title>
-        <v-card-text>
-          <v-text-field :value="uri" label="URI" readonly />
-        </v-card-text>
-        <v-card-actions>
-          <v-btn text color="info" @click="go">
-            <v-icon left>mdi-open-in-new</v-icon>
-            {{ $t('check') }}
-          </v-btn>
-          <v-spacer />
-          <v-btn text color="secondary" @click="dialog = false">
-            <v-icon left>mdi-close</v-icon>
-            {{ $t('close') }}
-          </v-btn>
-          <v-btn text color="primary" @click="copy()">
-            <v-icon left>mdi-clipboard-arrow-down</v-icon>
-            {{ $t('copy') }}
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-  </span>
+  <v-dialog v-model="dialog" max-width="580" @keydown.esc="close">
+    <v-card>
+      <v-card-title>
+        {{ $t('getUri') }}
+        <v-spacer />
+        <v-tooltip top>
+          <template #activator="{ on, attrs }">
+            <v-btn icon v-bind="attrs" v-on="on" @click="dialog = false">
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+          </template>
+          <span>{{ $t('close') }}</span>
+        </v-tooltip>
+      </v-card-title>
+      <v-card-text>
+        <v-text-field :value="uri" label="URI" readonly @click:append="copy">
+          <template #append>
+            <v-tooltip bottom>
+              <template #activator="{ on }">
+                <v-btn icon x-small v-on="on" @click="copy()">
+                  <v-icon>mdi-content-copy</v-icon>
+                </v-btn>
+              </template>
+              {{ $t('copy') }}
+            </v-tooltip>
+          </template>
+          <template #append-outer>
+            <v-btn depressed color="info" v-on="on" @click="go()">
+              <v-icon left>mdi-open-in-new</v-icon>
+              {{ $t('check') }}
+            </v-btn>
+          </template>
+        </v-text-field>
+      </v-card-text>
+    </v-card>
+  </v-dialog>
 </template>
 
 <script lang="ts">
@@ -36,9 +45,6 @@ import { copy, openWindow } from '@/helpers/Utility';
  */
 @Component
 export default class GetLink extends Vue {
-  /** is electron */
-  private isElectron = process.env.IS_ELECTRON ?? false;
-
   /** Dialog visibility */
   private dialog = false;
 
@@ -63,8 +69,9 @@ export default class GetLink extends Vue {
   /** copy */
   public copy(): void {
     copy(this.uri);
-    this.dialog = false;
     this.$store.dispatch('setMessage', this.$t('copy-success'));
+    this.$forceNextTick();
+    this.dialog = false;
   }
 }
 </script>

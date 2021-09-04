@@ -158,10 +158,12 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
     }
 
     // Fetch category marker data.
-    const data: MarkerJsonData = await axios.get(`/data/${category}.json`).then(
-      res => res.data,
-      error => context.dispatch('setError', error, { root: true })
-    );
+    const data: MarkerJsonData = await axios
+      .get(`${process.env.DATA_URI || '/data/'}${category}.json`)
+      .then(
+        res => res.data,
+        error => context.dispatch('setError', error, { root: true })
+      );
     if (!data) {
       return true;
     }

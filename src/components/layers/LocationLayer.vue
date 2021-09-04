@@ -54,10 +54,13 @@ export default class LocationLayer extends Vue {
   }
 
   private async beforeCreate(): Promise<void> {
+    await this.$store.dispatch('setLoading', true);
+    await this.$forceNextTick();
     await this.$store.dispatch('LocationMarkerModule/init');
   }
 
-  private created(): void {
+  private async created() {
+    await Vue.nextTick();
     const vectorSource: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;
 
@@ -66,10 +69,8 @@ export default class LocationLayer extends Vue {
       vectorSource.addFeatures(this.features);
     }
     this.redraw();
-  }
-
-  private updated(): void {
-    this.redraw();
+    await this.$store.dispatch('setLoading', false);
+    await this.$forceNextTick();
   }
 
   /** Redraw Marker Icon */

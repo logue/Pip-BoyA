@@ -91,10 +91,6 @@ export function copy(text: string): void {
  */
 export function throttledYield(throttle = 24) {
   let lastYield: number = new Date().getUTCSeconds();
-  const sleep = () =>
-    new Promise(resolve => {
-      requestAnimationFrame(resolve);
-    });
   return async () => {
     const now: number = new Date().getUTCSeconds();
     if (now - lastYield >= throttle) {
@@ -102,4 +98,14 @@ export function throttledYield(throttle = 24) {
       await sleep();
     }
   };
+}
+
+/**
+ * 待機処理.
+ * @returns ?
+ */
+export function sleep() {
+  return new Promise(resolve => {
+    requestAnimationFrame(resolve);
+  });
 }

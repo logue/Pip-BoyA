@@ -24,7 +24,7 @@
               <v-icon v-else>mdi-window-maximize</v-icon>
             </v-btn>
           </template>
-          <span>{{ $t('toggleShrink') }}</span>
+          {{ $t('toggleShrink') }}
         </v-tooltip>
       </v-card-title>
       <v-expand-transition>

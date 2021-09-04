@@ -70,24 +70,16 @@ export default class CategoryLayer extends Vue {
     return this.$store.getters['CheckModule/checked'];
   }
 
-  mounted(): void {
-    this.$store.watch(
-      (state, getters) => getters['CategoryMarkerModule/features'],
-      (newValue, oldValue) => {
-        console.log('features changed! %s => %s', oldValue, newValue);
-      }
-    );
-  }
-
   /**
    * When Page transition
    */
   @Watch('category')
   private async onCategoryChanged() {
     await this.$store.dispatch('setLoading', true);
+    await this.$forceNextTick();
 
     // this.$refsがundefinedになるのでVue.nextTick();で確実に読み込まれる状態にする。
-    await Vue.nextTick();
+    await this.$nextTick();
     const source: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;
 
@@ -96,6 +88,7 @@ export default class CategoryLayer extends Vue {
       ? this.$t('title').replace(/Web/g, 'Electron')
       : this.$t('title');
     await this.$store.dispatch('setProgress', null);
+    await this.$forceNextTick();
 
     if (!this.category) {
       // カテゴリレイヤーを使わないとき
@@ -108,6 +101,7 @@ export default class CategoryLayer extends Vue {
         source.clear();
       }
     }
+    await this.$forceNextTick();
 
     console.debug('set category:', this.category);
 
@@ -121,7 +115,7 @@ export default class CategoryLayer extends Vue {
         }
       });
 
-    await Vue.nextTick();
+    await this.$nextTick();
 
     if (this.$store.getters['CategoryMarkerModule/features'](this.category)) {
       this.features = this.$store.getters['CategoryMarkerModule/features'](
@@ -132,6 +126,7 @@ export default class CategoryLayer extends Vue {
     } else {
       this.features = [];
     }
+    await this.$forceNextTick();
 
     document.title = this.$t(`categories.${this.category}`) + ' - ' + title;
 
@@ -142,15 +137,16 @@ export default class CategoryLayer extends Vue {
         category: this.$t(`categories.${this.category}`),
       })
     );
-    await Vue.nextTick();
+    await this.$nextTick();
 
     this.onTileImageChanged();
     this.redraw();
+    await this.$forceNextTick();
     await this.$store.dispatch('setLoading', false);
   }
 
   private async onTileImageChanged() {
-    await Vue.nextTick();
+    await this.$nextTick();
     const tileSource: XYZ = this.$refs.tileSource as unknown as XYZ;
 
     const tile = this.$store.getters['CategoryMarkerModule/tileImage'](
@@ -160,7 +156,9 @@ export default class CategoryLayer extends Vue {
     if (tileSource && tile) {
       // 新しい画像レイヤを指定
       try {
-        tileSource.setUrl('/img/markerTile/' + tile);
+        tileSource.setUrl(
+          `${process.env.IMAGE_URI || '/img/'}/markerTile/${tile}`
+        );
       } catch (e) {
         // throuh
       }
@@ -180,7 +178,7 @@ export default class CategoryLayer extends Vue {
    */
   @Watch('features')
   private async redraw() {
-    await Vue.nextTick();
+    await this.$nextTick();
     const markerLayer: VectorLayer = this.$refs
       .markerLayer as unknown as VectorLayer;
 
@@ -228,7 +226,7 @@ export default class CategoryLayer extends Vue {
     });
 
     source.refresh();
-    await Vue.nextTick();
+    await this.$nextTick();
   }
 }
 </script>

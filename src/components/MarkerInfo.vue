@@ -1,115 +1,111 @@
 <template>
-  <div>
-    <v-dialog
-      v-if="info"
-      v-model="dialog"
-      max-width="640"
-      light
-      @keydown.esc="close"
-    >
-      <v-card>
-        <div class="d-flex">
-          <v-avatar
-            v-if="
-              (info.name && info.name.match(/^Loc/)) ||
-              info.type === 'WaypointMarker'
-            "
-            size="128"
-            tile
-            class="m-3"
-            :title="info.type"
-          >
-            <v-img :src="`/img/marker/${info.type}.svg`" />
-          </v-avatar>
-          <div class="flex-fill">
-            <v-card-title v-if="info.name">
-              {{ $t(`locations.${info.name}`) }}
-              &nbsp;
-              <span v-if="info.label" class="grey--text">
-                ({{ info.label }})
-              </span>
-            </v-card-title>
-            <v-card-title v-else>
-              {{ $t(`markers.${info.type}`) }}
-              <span v-if="info.sub">
-                <v-icon>mdi-circle-small</v-icon>
-                {{ info.sub }}
-              </span>
-              <span v-if="info.label" class="grey--text">
-                ({{ info.label }})
-              </span>
-            </v-card-title>
-            <v-card-subtitle v-if="info.name && $i18n.locale !== 'en'">
-              {{ $t(`locations.${info.name}`, 'en') }}
-            </v-card-subtitle>
-          </div>
+  <v-dialog v-if="info" v-model="dialog" max-width="640" @keydown.esc="close">
+    <v-card>
+      <div class="d-flex">
+        <v-avatar
+          v-if="
+            (info.name && info.name.match(/^Loc/)) ||
+            info.type === 'WaypointMarker'
+          "
+          size="128"
+          tile
+          class="m-3"
+          :title="info.type"
+        >
+          <v-img :src="getMarkerIcon(info.type)" />
+        </v-avatar>
+        <div class="flex-fill">
+          <v-card-title v-if="info.name">
+            {{ $t(`locations.${info.name}`) }}
+            &nbsp;
+            <span v-if="info.label" class="grey--text">({{ info.label }})</span>
+            <v-spacer />
+            <v-btn icon tooltip="close" @click="close">
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+          </v-card-title>
+          <v-card-title v-else>
+            {{ $t(`markers.${info.type}`) }}
+            <span v-if="info.sub">
+              <v-icon>mdi-circle-small</v-icon>
+              {{ info.sub }}
+            </span>
+            <span v-if="info.label" class="grey--text">({{ info.label }})</span>
+            <v-spacer />
+            <v-btn icon @click="dialog = false">
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+          </v-card-title>
+          <v-card-subtitle v-if="info.name && $i18n.locale !== 'en'">
+            {{ $t(`locations.${info.name}`, 'en') }}
+          </v-card-subtitle>
         </div>
-        <v-card-text>
-          <v-simple-table>
-            <tbody>
-              <tr v-if="info.id">
-                <th scope="col">ID</th>
-                <td>{{ info.id }}</td>
-              </tr>
-              <tr v-if="info.name">
-                <th scope="col">{{ $t('name') }}</th>
-                <td>{{ info.name }}</td>
-              </tr>
-              <tr v-if="info.type">
-                <th scope="col">{{ $t('type') }}</th>
-                <td>{{ info.type }}</td>
-              </tr>
-              <tr>
-                <th scope="col">{{ $t('coordinate') }}</th>
-                <td>
-                  {{ info.realX }}, {{ info.realY }}
-                  <br />
-                  <small>({{ info.x }}, {{ info.y }})</small>
-                </td>
-              </tr>
-            </tbody>
-          </v-simple-table>
-        </v-card-text>
-        <v-card-actions>
-          <v-btn
-            v-if="info.name"
-            text
-            color="green"
-            :href="
-              'https://fallout.fandom.com/wiki/' +
-              encodeURIComponent($t(`locations.${info.name}`, 'en'))
-            "
-            @click.prevent="openNewWin"
-          >
-            <v-icon left>mdi-message-cog</v-icon>
-            NukaPedia
-          </v-btn>
-          <v-btn
-            v-if="info.name"
-            text
-            color="blue-grey"
-            :href="
-              'https://game-dictionary.net/fo76/word/' +
-              encodeURIComponent($t(`locations.${info.name}`, 'ja'))
-            "
-            @click.prevent="openNewWin"
-          >
-            <v-icon left>mdi-cog-box</v-icon>
-            Fallout76大辞典
-          </v-btn>
-          <v-spacer />
-          <v-btn text color="secondary" @click="close">
-            <v-icon left>mdi-close</v-icon>
-            {{ $t('close') }}
-          </v-btn>
-          <v-btn text color="primary" @click="copy()">
-            <v-icon left>mdi-clipboard-arrow-down</v-icon>
-            {{ $t('copy') }}
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-  </div>
+      </div>
+      <v-card-text>
+        <v-simple-table>
+          <tbody>
+            <tr v-if="info.id">
+              <th scope="col">ID</th>
+              <td>{{ info.id }}</td>
+            </tr>
+            <tr v-if="info.name">
+              <th scope="col">{{ $t('name') }}</th>
+              <td>{{ info.name }}</td>
+            </tr>
+            <tr v-if="info.type">
+              <th scope="col">{{ $t('type') }}</th>
+              <td>{{ info.type }}</td>
+            </tr>
+            <tr>
+              <th scope="col">{{ $t('coordinate') }}</th>
+              <td>
+                {{ info.realX }}, {{ info.realY }}
+                <br />
+                <small>({{ info.x }}, {{ info.y }})</small>
+              </td>
+            </tr>
+          </tbody>
+        </v-simple-table>
+      </v-card-text>
+      <v-card-actions>
+        <v-btn
+          v-if="info.name"
+          text
+          color="green"
+          :href="
+            'https://fallout.fandom.com/wiki/' +
+            encodeURIComponent($t(`locations.${info.name}`, 'en'))
+          "
+          @click.prevent="openNewWin"
+        >
+          <v-icon left>mdi-message-cog</v-icon>
+          NukaPedia
+        </v-btn>
+        <v-btn
+          v-if="info.name"
+          text
+          color="blue-grey"
+          :href="
+            'https://game-dictionary.net/fo76/word/' +
+            encodeURIComponent($t(`locations.${info.name}`, 'ja'))
+          "
+          @click.prevent="openNewWin"
+        >
+          <v-icon left>mdi-cog-box</v-icon>
+          Fallout76大辞典
+        </v-btn>
+        <v-spacer />
+        <v-btn text color="secondary" @click="close">
+          <v-icon left>mdi-close</v-icon>
+          {{ $t('close') }}
+        </v-btn>
+        <v-btn text color="primary" @click="copy()">
+          <v-icon left>mdi-clipboard-arrow-down</v-icon>
+          {{ $t('copy') }}
+        </v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-dialog>
 </template>
 
 <script lang="ts">
@@ -147,6 +143,14 @@ export default class MarkerInfo extends Vue {
     return process.env.IS_ELECTRON
       ? uri.href.replace(/^(?:.+)?#/gm, 'https://fo76.logue.be')
       : location.origin + uri.href;
+  }
+
+  /**
+   * マーカーアイコンを取得
+   * @param type マーカーの種類
+   */
+  private getMarkerIcon(type: string): string {
+    return `${process.env.IMAGE_URI || '/img/'}/marker/${type}.svg`;
   }
 
   public open(info: MarkerProperties): void {

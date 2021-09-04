@@ -34,7 +34,9 @@ export default class BaseLayer extends Vue {
   /** Tile image url pattern */
   private get url() {
     const type: number = this.$store.getters['ConfigModule/mapType'];
-    return `/img/tiles/${MapTypes[type]}/{z}/{x}/{y}.webp`;
+    return `${process.env.IMAGE_URI || '/img/'}/tiles/${
+      MapTypes[type]
+    }/{z}/{x}/{y}.webp`;
   }
 
   /** When map type changed */

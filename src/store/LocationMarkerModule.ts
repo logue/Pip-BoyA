@@ -52,7 +52,7 @@ const actions: ActionTree<LocationMarkerState, RootState> = {
       return;
     }
     const data: MarkerJsonData = await axios
-      .get('/data/locations.json')
+      .get(`${process.env.DATA_URI || '/data/'}locations.json`)
       .then((ret: { data: MarkerJsonData }) => ret.data)
       .catch((error: unknown) =>
         context.dispatch('setError', error, { root: true })

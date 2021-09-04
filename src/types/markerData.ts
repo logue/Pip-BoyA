@@ -21,13 +21,15 @@ export interface Marker {
   label?: string;
   // sub information
   sub?: string;
+  // icon
+  icon?: string;
   // X coordination
   x: number;
   // Y coordination
   y: number;
 }
 
-// MarkerData
+// for Marker Information
 export interface MarkerProperties extends Marker {
   // Real X coordination
   realX: number;
