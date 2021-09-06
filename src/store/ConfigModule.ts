@@ -1,7 +1,7 @@
 /**
  * Config store
  */
-import { MapTypes } from '@/types/map';
+import { MapTypes } from '@/interfaces/MapTypesEnum';
 import {
   ActionContext,
   ActionTree,

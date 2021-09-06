@@ -37,9 +37,7 @@
           :radius="160"
         />
         <vl-style-box>
-          <vl-style-fill
-            :color="`rgba(${hexToRgb(blastZoneColorSet.accent1)},0.3)`"
-          />
+          <vl-style-fill :color="blastZoneFillColor" />
           <vl-style-stroke :color="blastZoneColorSet.accent4" />
         </vl-style-box>
       </vl-feature-->
@@ -87,28 +85,26 @@
 import { Component, Vue } from 'vue-property-decorator';
 import colors from 'vuetify/lib/util/colors';
 // openlayers
-import { FeatureLike } from 'ol/Feature';
-import FullScreen from 'ol/control/FullScreen';
-import Interaction from 'ol/interaction/Interaction';
-import Map from 'ol/Map';
-import MapBrowserEvent from 'ol/MapBrowserEvent';
-import MousePosition from 'ol/control/MousePosition';
-import OverviewMap from 'ol/control/OverviewMap';
-import PinchRotate from 'ol/interaction/PinchRotate';
-import Point from 'ol/geom/Point';
-import ZoomSlider from 'ol/control/ZoomSlider';
+import { FullScreen, MousePosition, OverviewMap, ZoomSlider } from 'ol/control';
 import { Coordinate, createStringXY } from 'ol/coordinate';
 import { Extent, getCenter } from 'ol/extent';
+import { FeatureLike } from 'ol/Feature';
+import { Interaction, PinchRotate } from 'ol/interaction';
+import Map from 'ol/Map';
+import MapBrowserEvent from 'ol/MapBrowserEvent';
 import { Pixel } from 'ol/pixel';
 import { ProjectionLike } from 'ol/proj';
+import Point from 'ol/geom/Point';
 // component
-import define from '@/helpers/MapDefinition';
 import BaseLayer from '@/components/layers/BaseLayer.vue';
 import CategoryLayer from '@/components/layers/CategoryLayer.vue';
 import Explain from '@/components/Explain.vue';
 import LocationLayer from '@/components/layers/LocationLayer.vue';
 import MarkerInfo from '@/components/MarkerInfo.vue';
-import { MarkerProperties } from '@/types/markerData';
+import { MarkerProperties } from '@/interfaces/MarkerProperties';
+// Helpers
+import MapConfig from '@/helpers/MapConfig';
+import { hexToRgb } from '@/helpers/Utility';
 
 /**
  * Home
@@ -127,9 +123,9 @@ export default class Home extends Vue {
   // View
   private rotation = 0;
   private opacity = 1;
-  private projection: ProjectionLike = define.projection;
-  private resolutions: number[] = define.resolutions;
-  private extent: Extent = define.extent;
+  private projection: ProjectionLike = MapConfig.projection;
+  private resolutions: number[] = MapConfig.resolutions;
+  private extent: Extent = MapConfig.extent;
   private hitFeature?: FeatureLike;
   // detect map move
   private isMoving = false;
@@ -140,6 +136,7 @@ export default class Home extends Vue {
   // Blast zone
   private coordinatesBlastZone: Coordinate = [0, 0];
   private blastZoneColorSet = colors.red;
+  private blastZoneFillColor;
 
   /** Current zoom */
   private get zoom(): number {
@@ -181,7 +178,7 @@ export default class Home extends Vue {
     if (query.x && query.y) {
       this.currentPosition = [parseInt(query.x), parseInt(query.y)];
     } else {
-      this.currentPosition = getCenter(define.extent);
+      this.currentPosition = getCenter(MapConfig.extent);
     }
     if (query.z) {
       this.zoom = parseInt(query.z);
@@ -189,6 +186,7 @@ export default class Home extends Vue {
     if (query.type) {
       this.$store.dispatch('ConfigModule/setMap', query.type);
     }
+    this.blastZoneFillColor = `rgba(${hexToRgb(colors.red.accent1)},0.3)`;
   }
 
   /**

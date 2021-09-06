@@ -5,10 +5,7 @@
       <vl-source-xyz
         v-if="$store.getters['CategoryMarkerModule/tileImage'](category) !== ''"
         ref="tileSource"
-        :url="
-          '/img/markerTile/' +
-          $store.getters['CategoryMarkerModule/tileImage'](category)
-        "
+        :url="tileImageUrl"
         :projection="mapConfig.projection"
         :min-zoom="mapConfig.minZoom"
         :max-zoom="mapConfig.maxZoom"
@@ -29,18 +26,20 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
+
 import { FeatureLike } from 'ol/Feature';
-import VectorLayer from 'ol/layer/Vector';
+
 import Map from 'ol/Map';
 import { Style } from 'ol/style';
-import XYZ from 'ol/source/XYZ';
-import { MapDefinition } from '@/types/map';
-import { MarkerProperties } from '@/types/markerData';
-import define from '@/helpers/MapDefinition';
-import { getMarkerStyle } from '@/helpers/MarkerStyle';
+import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
-import { throttledYield } from '@/helpers/Utility';
+import { XYZ } from 'ol/source';
 
+import { throttledYield } from '@/helpers/Utility';
+import { MapDefinition } from '@/interfaces/MapDefinition';
+import { MarkerProperties } from '@/interfaces/MarkerProperties';
+import MapConfig from '@/helpers/MapConfig';
+import { getMarkerStyle } from '@/helpers/MarkerStyle';
 /**
  * Category Marker
  * (Tile based marker and coordinate based marker.)
@@ -48,24 +47,30 @@ import { throttledYield } from '@/helpers/Utility';
 @Component
 export default class CategoryLayer extends Vue {
   /** Map definition */
-  private mapConfig: MapDefinition = define;
+  private mapConfig: MapDefinition = MapConfig;
   private myYield = throttledYield(30);
 
   private features = [];
 
-  // current category
+  /** current category */
   private get category(): string | undefined {
     return this.$route.params.category;
   }
+  /** Marker Types */
   private get types() {
     return this.$store.getters['CategoryMarkerModule/types'](this.category);
   }
-  // Marker Colorset
+  /** Marker Colorset */
   private get colorset() {
     return this.$store.getters['CategoryMarkerModule/colorset'](this.category);
   }
-
-  // Marker Visibility
+  /** Tile Image */
+  private get tileImageUrl() {
+    return `${process.env.IMG_URI || '/img/'}markerTile/${this.$store.getters[
+      'CategoryMarkerModule/tileImage'
+    ](this.category)}`;
+  }
+  /** Marker Visibility */
   private get checked() {
     return this.$store.getters['CheckModule/checked'];
   }
@@ -145,6 +150,7 @@ export default class CategoryLayer extends Vue {
     await this.$store.dispatch('setLoading', false);
   }
 
+  @Watch('tileImageUrl')
   private async onTileImageChanged() {
     await this.$nextTick();
     const tileSource: XYZ = this.$refs.tileSource as unknown as XYZ;
@@ -226,7 +232,6 @@ export default class CategoryLayer extends Vue {
     });
 
     source.refresh();
-    await this.$nextTick();
   }
 }
 </script>

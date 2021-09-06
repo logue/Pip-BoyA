@@ -3,11 +3,11 @@
  *
  * ref: https://jsfiddle.net/kay99yor/
  */
-import { MapDefinition } from '@/types/map';
 import { addProjection } from 'ol/proj';
 import { Extent } from 'ol/extent';
 import Projection from 'ol/proj/Projection';
 import TileGrid from 'ol/tilegrid/TileGrid';
+import { MapDefinition } from '@/interfaces/MapDefinition';
 
 // The value output by MapTiler is used as is.
 const mapExtent: Extent = [0.0, -4096.0, 4096.0, 0.0];

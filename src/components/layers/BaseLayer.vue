@@ -15,8 +15,9 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
-import { MapDefinition, MapTypes } from '@/types/map';
-import config from '@/helpers/MapDefinition';
+import { MapDefinition } from '@/interfaces/MapDefinition';
+import { MapTypes } from '@/interfaces/MapTypesEnum';
+import config from '@/helpers/MapConfig';
 import XYZ from 'ol/source/XYZ';
 import TileLayer from 'ol/layer/Tile';
 import TileSource from 'ol/source/Tile';

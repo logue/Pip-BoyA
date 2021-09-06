@@ -1,8 +1,9 @@
-import config from './MapDefinition';
-import { Marker, MarkerProperties } from '@/types/markerData';
+import config from './MapConfig';
 import { Feature, Point } from 'geojson';
 import { getCenter } from 'ol/extent';
 import { Coordinate } from 'ol/coordinate';
+import { MarkerProperties } from '@/interfaces/MarkerProperties';
+import { Marker } from '@/interfaces/Marker';
 
 // Fallout76 coordinates to pixel coordinates pixel rate.
 const COORDINATES_REDUCTION_RATE = 142; // WTF?

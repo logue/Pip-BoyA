@@ -9,11 +9,11 @@ import {
   MutationTree,
 } from 'vuex';
 import VueRouter from 'vue-router';
-import define from '@/helpers/MapDefinition';
 import { RootState } from '.';
-import { MapTypes } from '@/types/map';
 import { Coordinate } from 'ol/coordinate';
 import { getCenter } from 'ol/extent';
+import { MapTypes } from '@/interfaces/MapTypesEnum';
+import MapConfig from '@/helpers/MapConfig';
 
 // Map Location State
 export interface MapLocationState {
@@ -24,7 +24,7 @@ export interface MapLocationState {
 
 // Default value
 const state: MapLocationState = {
-  coordinate: getCenter(define.extent),
+  coordinate: getCenter(MapConfig.extent),
   zoom: process.env.DEFAULT_ZOOM ? parseInt(process.env.DEFAULT_ZOOM) : 1,
   type: process.env.DEFAULT_MAPTYPE
     ? parseInt(process.env.DEFAULT_MAPTYPE)

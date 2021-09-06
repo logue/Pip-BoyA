@@ -48,11 +48,6 @@ export default class LocationLayer extends Vue {
     this.redraw();
   }
 
-  @Watch('features')
-  private onFeaturesChanged(): void {
-    this.redraw();
-  }
-
   private async beforeCreate(): Promise<void> {
     await this.$store.dispatch('setLoading', true);
     await this.$forceNextTick();
@@ -74,6 +69,7 @@ export default class LocationLayer extends Vue {
   }
 
   /** Redraw Marker Icon */
+  @Watch('features')
   public async redraw(): Promise<void> {
     await Vue.nextTick();
     // vl-layer-vector

@@ -12,15 +12,3 @@ export interface MapDefinition {
   tileGrid: TileGrid;
   tilePixelRatio: number;
 }
-
-export enum MapTypes {
-  'military',
-  'base',
-  'realistic',
-}
-
-export interface CurrentMapLocation {
-  x: number;
-  y: number;
-  z: number;
-}

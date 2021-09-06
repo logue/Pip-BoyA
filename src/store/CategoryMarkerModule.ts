@@ -12,9 +12,11 @@ import {
 import axios from 'axios';
 import { Feature, Point } from 'geojson';
 import { RootState } from '.';
-import { Marker, MarkerJsonData, MarkerProperties } from '@/types/markerData';
 import convertGeoJson from '@/helpers/ConvertGeoJson';
 import { markerColors, tileExplainColors } from '@/helpers/MarkerStyle';
+import { MarkerProperties } from '@/interfaces/MarkerProperties';
+import { MarkerJsonData } from '@/interfaces/MarkerJsonData';
+import { Marker } from '@/interfaces/Marker';
 
 // Marker State
 export interface CategoryMarkerState {

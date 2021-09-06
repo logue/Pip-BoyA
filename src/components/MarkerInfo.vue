@@ -32,9 +32,14 @@
             </span>
             <span v-if="info.label" class="grey--text">({{ info.label }})</span>
             <v-spacer />
-            <v-btn icon @click="dialog = false">
-              <v-icon>mdi-close</v-icon>
-            </v-btn>
+            <v-tooltip top>
+              <template #activator="{ on, attrs }">
+                <v-btn icon v-bind="attrs" v-on="on" @click="dialog = false">
+                  <v-icon>mdi-close</v-icon>
+                </v-btn>
+              </template>
+              {{ $t('close') }}
+            </v-tooltip>
           </v-card-title>
           <v-card-subtitle v-if="info.name && $i18n.locale !== 'en'">
             {{ $t(`locations.${info.name}`, 'en') }}
@@ -95,10 +100,6 @@
           Fallout76大辞典
         </v-btn>
         <v-spacer />
-        <v-btn text color="secondary" @click="close">
-          <v-icon left>mdi-close</v-icon>
-          {{ $t('close') }}
-        </v-btn>
         <v-btn text color="primary" @click="copy()">
           <v-icon left>mdi-clipboard-arrow-down</v-icon>
           {{ $t('copy') }}
@@ -111,7 +112,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { copy, openWindow } from '@/helpers/Utility';
-import { MarkerProperties } from '@/types/markerData';
+import { MarkerProperties } from '@/interfaces/MarkerProperties';
 
 /**
  * Marker detail window comportent.

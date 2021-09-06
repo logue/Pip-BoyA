@@ -10,7 +10,7 @@
               <v-icon>mdi-close</v-icon>
             </v-btn>
           </template>
-          <span>{{ $t('close') }}</span>
+          {{ $t('close') }}
         </v-tooltip>
       </v-card-title>
       <v-card-text>

@@ -11,8 +11,11 @@ import {
 import axios from 'axios';
 import { Feature, Point } from 'geojson';
 import convertGeoJson from '@/helpers/ConvertGeoJson';
-import { Marker, MarkerProperties, MarkerJsonData } from '@/types/markerData';
 import { RootState } from '.';
+import { MarkerProperties } from '@/interfaces/MarkerProperties';
+import { Marker } from '@/interfaces/Marker';
+import { MarkerJsonData } from '@/interfaces/MarkerJsonData';
+
 export interface LocationMarkerState {
   // Marker location object
   features: Feature<Point, MarkerProperties>[];

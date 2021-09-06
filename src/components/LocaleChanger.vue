@@ -7,7 +7,7 @@
             <v-icon>mdi-translate</v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('locale') }}</span>
+        {{ $t('locale') }}
       </v-tooltip>
     </template>
     <v-list dense>
@@ -21,7 +21,7 @@
         >
           <v-list-item-title class="locale-item">
             <country-flag :country="value" size="small" />
-            <span>{{ $t(`locales.${key}`) }}</span>
+            {{ $t(`locales.${key}`) }}
           </v-list-item-title>
         </v-list-item>
       </v-list-item-group>
