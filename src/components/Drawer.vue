@@ -1,21 +1,21 @@
 <template>
   <v-list dense>
     <v-list-item link to="/">
-      <v-list-item-action>
+      <v-list-item-icon>
         <v-icon>mdi-home</v-icon>
-      </v-list-item-action>
+      </v-list-item-icon>
       <v-list-item-content>
-        <v-list-item-title>{{ $t('categories.home') }}</v-list-item-title>
+        <v-list-item-title v-text="$t('categories.home')" />
       </v-list-item-content>
     </v-list-item>
     <v-divider />
     <div v-for="item in items" :key="item.title">
       <v-list-item v-if="!item.items" :to="item.to" :disabled="!item.to">
-        <v-list-item-action>
+        <v-list-item-icon v-if="item.icon">
           <v-icon>{{ item.icon }}</v-icon>
-        </v-list-item-action>
+        </v-list-item-icon>
         <v-list-item-content>
-          <v-list-item-title>{{ $t(item.title) }}</v-list-item-title>
+          <v-list-item-title v-text="$t(item.title)" />
         </v-list-item-content>
       </v-list-item>
       <v-list-group
@@ -26,9 +26,7 @@
       >
         <template #activator>
           <v-list-item-content>
-            <v-list-item-title>
-              {{ $t(item.title) }}
-            </v-list-item-title>
+            <v-list-item-title v-text="$t(item.title)" />
           </v-list-item-content>
         </template>
 
@@ -39,8 +37,11 @@
           :disabled="!subItem.to"
           link
         >
+          <v-list-item-icon v-if="subItem.icon">
+            <v-icon>{{ subItem.icon }}</v-icon>
+          </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-title>{{ $t(subItem.title) }}</v-list-item-title>
+            <v-list-item-title v-text="$t(subItem.title)" />
           </v-list-item-content>
         </v-list-item>
       </v-list-group>

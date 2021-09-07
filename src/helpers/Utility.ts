@@ -104,8 +104,28 @@ export function throttledYield(throttle = 24) {
  * 待機処理.
  * @returns ?
  */
-export function sleep() {
+export function sleep(): Promise<unknown> {
   return new Promise(resolve => {
     requestAnimationFrame(resolve);
+  });
+}
+
+/**
+ * DOMContentLoadedが発生するのを待機する（確実にJavaScriptが実行されるようにする）
+ */
+export async function waitForReadystate(): Promise<void> {
+  // DOMが読み込み済みの場合は実行しない
+  if (document.readyState === 'interactive') return;
+
+  await new Promise(resolve => {
+    const cb = (): void => {
+      // ブラウザのアニメーション実行
+      window.requestAnimationFrame(resolve);
+      // 登録したイベントの解除
+      window.removeEventListener('DOMContentLoaded', cb);
+    };
+
+    // レンダリング完了時に、ブラウザのアニメーションを実行する関数を登録
+    window.addEventListener('DOMContentLoaded', cb);
   });
 }

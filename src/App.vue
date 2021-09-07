@@ -49,6 +49,7 @@
 import { Component, Vue, Watch } from 'vue-property-decorator';
 import Drawer from '@/components/Drawer.vue';
 import AppBar from '@/components/AppBar.vue';
+import { waitForReadystate } from '@/helpers/Utility';
 
 /**
  * App
@@ -166,7 +167,8 @@ export default class App extends Vue {
   }
 
   /** run once. */
-  private mounted() {
+  private async mounted() {
+    await waitForReadystate();
     this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
     this.$i18n.locale = this.$store.getters['ConfigModule/locale'];
     document.title = this.title;
