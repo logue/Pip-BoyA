@@ -64,6 +64,10 @@ export default class Drawer extends Vue {
           to: '/flora-abundant',
         },
         {
+          title: 'categories.flora-nuts',
+          to: '/flora-nuts',
+        },
+        {
           title: 'categories.flora-fungus',
           to: '/flora-fungus',
         },
@@ -74,6 +78,10 @@ export default class Drawer extends Vue {
         {
           title: 'categories.flora-water',
           to: '/flora-water',
+        },
+        {
+          title: 'categories.flora-cure',
+          to: '/flora-cure',
         },
       ],
     },

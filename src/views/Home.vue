@@ -46,7 +46,7 @@
       <vl-overlay
         v-if="showMarkerTooltip"
         ref="tooltipOverlay"
-        :auto-pan="true"
+        :auto-pan="false"
         :position="position"
         :offset="[10, 10]"
       >

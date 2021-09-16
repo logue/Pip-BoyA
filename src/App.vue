@@ -145,7 +145,7 @@ export default class App extends Vue {
   /** when loading */
   @Watch('loading')
   private onLoading() {
-    console.log('loading:', this.loading);
+    // console.log('loading:', this.loading);
     // change cursor
     document.body.style.cursor = this.loading ? 'wait' : 'auto';
     if (process.env.IS_ELECTRON) {

@@ -43,10 +43,6 @@ export default class LocationLayer extends Vue {
       this.redraw();
     }
   }
-  @Watch('zoom')
-  private onZoomChanged(): void {
-    this.redraw();
-  }
 
   private async beforeCreate(): Promise<void> {
     await this.$store.dispatch('setLoading', true);
@@ -54,26 +50,39 @@ export default class LocationLayer extends Vue {
     await this.$store.dispatch('LocationMarkerModule/init');
   }
 
-  private async created() {
-    await Vue.nextTick();
-    const vectorSource: VectorSource = this.$refs
-      .vectorSource as unknown as VectorSource;
-
-    if (vectorSource) {
-      vectorSource.clear(true);
-      vectorSource.addFeatures(this.features);
-    }
-    this.redraw();
+  private async created(): Promise<void> {
+    this.reset();
     await this.$store.dispatch('setLoading', false);
     await this.$forceNextTick();
   }
 
+  private async reset() {
+    const vectorSource: VectorSource = this.$refs
+      .vectorSource as unknown as VectorSource;
+
+    await Vue.nextTick();
+    if (!vectorSource) {
+      this.reset();
+      return;
+    }
+
+    vectorSource.clear(true);
+    vectorSource.addFeatures(this.features);
+  }
+
   /** Redraw Marker Icon */
   @Watch('features')
-  public async redraw(): Promise<void> {
-    await Vue.nextTick();
+  private async redraw(): Promise<void> {
+    console.log('reload location layer.');
+    await this.$nextTick();
     // vl-layer-vector
     const locationLayer = this.$refs.locationLayer as unknown as VectorLayer;
+
+    if (!locationLayer) {
+      // コンポーネントが呼び出せる状態になるまでリロード
+      this.redraw();
+      return;
+    }
 
     const source: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;
