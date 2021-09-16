@@ -197,20 +197,6 @@ export default class Drawer extends Vue {
       title: 'categories.caps-pin',
       to: '/caps-pin',
     },
-    {
-      title: 'categories.nw',
-      icon: 'mdi-nuke',
-      items: [
-        {
-          title: 'categories.nw-misc',
-          to: '/nw-misc',
-        },
-        {
-          title: 'categories.nw-loot',
-          to: '/nw-loot',
-        },
-      ],
-    },
   ];
 }
 </script>
