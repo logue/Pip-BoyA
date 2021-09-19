@@ -83,7 +83,7 @@ const mutations: MutationTree<CategoryMarkerState> = {
    * @param payload Marker GeoJson Data
    */
   async storeData(s, payload: DataPayload) {
-    // console.debug(`mutation: ${payload.category}`);
+    console.debug(`CategoryMarkerModule: Mutation: ${payload.category}`);
 
     const data = payload.data;
     if (payload.data.markers) {
@@ -104,7 +104,9 @@ const mutations: MutationTree<CategoryMarkerState> = {
       const colorset: string[] = [];
       let colorsCount: number = colors.length;
       if (types.length > colorsCount) {
-        throw new Error(`Too many marker types. less than ${colors.length}`);
+        throw new Error(
+          `CategoryMarkerModule: Too many marker types. less than ${colors.length}. (${types.length} found.)`
+        );
       }
       if (colors.length === markerColors.length) {
         // * Ignore Brown and Blue-gray and Gray
@@ -155,7 +157,9 @@ const actions: ActionTree<CategoryMarkerState, RootState> = {
   ) {
     if (context.state.types[category] !== void 0) {
       // すでにデータが保存されていた場合は何もしない
-      // console.debug(`${category} is already loaded. skip.`);
+      console.debug(
+        `CategoryMarkerModule: ${category} is already loaded. skip.`
+      );
       return false;
     }
 

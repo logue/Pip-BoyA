@@ -172,7 +172,7 @@ export default class Drawer extends Vue {
       to: '/workbench',
     },
     {
-      icon: 'mdi-pharmacy',
+      icon: 'mdi-pill',
       title: 'categories.chems',
       items: [
         {

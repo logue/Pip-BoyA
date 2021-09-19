@@ -1,9 +1,8 @@
 <template>
-  <vl-layer-group v-if="category" ref="categoryLayer">
+  <vl-layer-group ref="categoryLayer">
     <vl-layer-tile ref="categoryTileLayer" :z-index="10">
       <!-- tile based marker mode -->
       <vl-source-xyz
-        v-if="$store.getters['CategoryMarkerModule/tileImage'](category) !== ''"
         ref="tileSource"
         :url="tileImageUrl"
         :projection="mapConfig.projection"
@@ -16,7 +15,7 @@
     <vl-layer-vector ref="markerLayer" :z-index="15">
       <vl-source-vector
         ref="vectorSource"
-        :features="$store.getters['CategoryMarkerModule/features'](category)"
+        :features="features"
         :update-while-animating="true"
         :update-while-interacting="true"
       />
@@ -35,7 +34,6 @@ import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
 import { XYZ } from 'ol/source';
 
-import { throttledYield } from '@/helpers/Utility';
 import { MapDefinition } from '@/interfaces/MapDefinition';
 import { MarkerProperties } from '@/interfaces/MarkerProperties';
 import MapConfig from '@/helpers/MapConfig';
@@ -48,8 +46,8 @@ import { getMarkerStyle } from '@/helpers/MarkerStyle';
 export default class CategoryLayer extends Vue {
   /** Map definition */
   private mapConfig: MapDefinition = MapConfig;
-  private myYield = throttledYield(30);
 
+  /** Markers */
   private features = [];
 
   /** current category */
@@ -81,40 +79,37 @@ export default class CategoryLayer extends Vue {
   @Watch('category')
   private async onCategoryChanged() {
     await this.$store.dispatch('setLoading', true);
+    await this.$store.dispatch('setProgress', null);
     await this.$forceNextTick();
-
-    // this.$refsがundefinedになるのでVue.nextTick();で確実に読み込まれる状態にする。
-    await this.$nextTick();
-    const source: VectorSource = this.$refs
-      .vectorSource as unknown as VectorSource;
 
     // タイトルを変更
     const title = process.env.IS_ELECTRON
       ? this.$t('title').replace(/Web/g, 'Electron')
       : this.$t('title');
-    await this.$store.dispatch('setProgress', null);
-    await this.$forceNextTick();
 
     if (!this.category) {
       // カテゴリレイヤーを使わないとき
       document.title = title;
       await this.$store.dispatch('setLoading', false);
       return;
-    } else {
-      if (source) {
-        // 既存のマーカーを削除
-        source.clear();
-      }
     }
-    await this.$forceNextTick();
 
-    console.debug('set category:', this.category);
+    // this.$refsがundefinedになるのでVue.nextTick();で確実に読み込まれる状態にする。
+    await this.$nextTick();
+    const source: VectorSource = this.$refs
+      .vectorSource as unknown as VectorSource;
+    // 既存のマーカーを削除
+    source.clear();
+
+    console.debug('CategoryLayer: ', this.category);
 
     // データ読み込み
     await this.$store
       .dispatch('CategoryMarkerModule/setCategory', this.category)
       .then(args => {
-        console.log(`load ${this.category}, require reload: ${args}`);
+        console.log(
+          `CategoryLayer: load ${this.category}, require reload: ${args}`
+        );
         if (args) {
           return this.onCategoryChanged();
         }
@@ -150,16 +145,22 @@ export default class CategoryLayer extends Vue {
     await this.$store.dispatch('setLoading', false);
   }
 
+  /** Tile Iamge Mode */
   @Watch('tileImageUrl')
   private async onTileImageChanged() {
     await this.$nextTick();
     const tileSource: XYZ = this.$refs.tileSource as unknown as XYZ;
 
+    if (!tileSource) {
+      this.onTileImageChanged();
+      return;
+    }
+
     const tile = this.$store.getters['CategoryMarkerModule/tileImage'](
       this.category
     );
 
-    if (tileSource && tile) {
+    if (tile) {
       // 新しい画像レイヤを指定
       try {
         tileSource.setUrl(
@@ -168,10 +169,9 @@ export default class CategoryLayer extends Vue {
       } catch (e) {
         // throuh
       }
-
-      // リフレッシュ
-      tileSource.refresh();
     }
+    // リフレッシュ
+    tileSource.refresh();
   }
 
   @Watch('checked')

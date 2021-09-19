@@ -50,24 +50,14 @@ export default class LocationLayer extends Vue {
     await this.$store.dispatch('LocationMarkerModule/init');
   }
 
-  private async created(): Promise<void> {
-    this.reset();
-    await this.$store.dispatch('setLoading', false);
-    await this.$forceNextTick();
-  }
-
-  private async reset() {
+  private async mounted(): Promise<void> {
     const vectorSource: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;
 
-    await Vue.nextTick();
-    if (!vectorSource) {
-      this.reset();
-      return;
-    }
-
     vectorSource.clear(true);
     vectorSource.addFeatures(this.features);
+    await this.$store.dispatch('setLoading', false);
+    await this.$forceNextTick();
   }
 
   /** Redraw Marker Icon */
@@ -83,9 +73,6 @@ export default class LocationLayer extends Vue {
       this.redraw();
       return;
     }
-
-    const source: VectorSource = this.$refs
-      .vectorSource as unknown as VectorSource;
 
     // マーカーのスタイルを設定
     locationLayer.setStyle((feature: FeatureLike, resolution: number) => {
@@ -109,8 +96,6 @@ export default class LocationLayer extends Vue {
 
       return style;
     });
-
-    source.refresh();
   }
 }
 </script>
