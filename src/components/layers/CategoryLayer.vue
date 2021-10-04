@@ -87,19 +87,19 @@ export default class CategoryLayer extends Vue {
       ? this.$t('title').replace(/Web/g, 'Electron')
       : this.$t('title');
 
-    if (!this.category) {
-      // カテゴリレイヤーを使わないとき
-      document.title = title;
-      await this.$store.dispatch('setLoading', false);
-      return;
-    }
-
     // this.$refsがundefinedになるのでVue.nextTick();で確実に読み込まれる状態にする。
     await this.$nextTick();
     const source: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;
     // 既存のマーカーを削除
     source.clear();
+
+    if (!this.category) {
+      // カテゴリレイヤーを使わないとき
+      document.title = title;
+      await this.$store.dispatch('setLoading', false);
+      return;
+    }
 
     console.debug('CategoryLayer: ', this.category);
 
@@ -108,7 +108,9 @@ export default class CategoryLayer extends Vue {
       .dispatch('CategoryMarkerModule/setCategory', this.category)
       .then(args => {
         console.log(
-          `CategoryLayer: load ${this.category}, require reload: ${args}`
+          `CategoryLayer: load ${this.category}, require reload: ${
+            args ? 'Yes' : 'No'
+          }`
         );
         if (args) {
           return this.onCategoryChanged();
