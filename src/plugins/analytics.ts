@@ -5,7 +5,16 @@ import router from '@/router';
 Vue.use(
   VueGtag,
   {
-    id: process.env.GOOGLE_ANALYTICS_CODE || 'UA-11445748-24',
+    config: {
+      id: process.env.GOOGLE_ANALYTICS_CODE || 'UA-11445748-24',
+    },
+    pageTrackerTemplate(to) {
+      return {
+        page_title: document.title,
+        page_path: to.path,
+      };
+    },
+    pageTrackerScreenviewEnabled: true,
   },
   router
 );
