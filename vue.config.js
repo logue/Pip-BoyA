@@ -32,26 +32,36 @@ export default meta;
 module.exports = {
   transpileDependencies: ['vuex-persist', 'vuetify'],
   lintOnSave: process.env.NODE_ENV !== 'production',
-
+  productionSourceMap: process.env.NODE_ENV !== 'production',
   configureWebpack: {
+    output: {
+      hashFunction: 'xxhash64',
+    },
+    resolve: {
+      fallback: {
+        path: false,
+        fs: false,
+        crypto: false,
+        stream: false,
+      },
+    },
     optimization: {
-      runtimeChunk: 'single',
+      minimize: process.env.NODE_ENV === 'production',
       splitChunks: {
-        name: 'vendor',
-        chunks: 'initial',
         minSize: 100000,
         maxSize: 250000,
       },
-      minimize: process.env.NODE_ENV === 'production',
       minimizer: [
         new TerserPlugin({
           terserOptions: {
-            ascii_only: true,
-            compress: { drop_console: true },
-            mangle: true,
             ecma: 2020,
-            sourceMap: false,
-            output: { comments: false, beautify: false },
+            parse: {},
+            compress: { drop_console: true },
+            mangle: true, // Note `mangle.properties` is `false` by default.
+            module: true,
+            parallel: true,
+            extractComments: 'all',
+            output: { comments: false, beautify: true },
           },
         }),
       ],
@@ -78,6 +88,7 @@ module.exports = {
       chainWebpackRendererProcess: config => {
         // Chain webpack config for electron renderer process only
         // The following example will set IS_ELECTRON to true in your app
+        config.output.hashFunction = 'xxhash64';
         config.plugin('define').tap(args => {
           args[0].IS_ELECTRON = true;
           return args;

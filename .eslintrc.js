@@ -13,7 +13,7 @@ module.exports = {
     'plugin:vue/essential',
     'eslint:recommended',
     '@vue/typescript',
-    './node_modules/gts'
+    './node_modules/gts',
   ],
   plugins: ['vue', '@typescript-eslint/eslint-plugin', 'eslint-plugin-tsdoc'],
   parserOptions: {
