@@ -1,6 +1,6 @@
 /** Vuetify向けvue設定 */
 
-// eslint-disable-next-line node/no-extraneous-require
+/* eslint-disable */
 const webpack = require('webpack');
 const path = require('path');
 const fs = require('fs');

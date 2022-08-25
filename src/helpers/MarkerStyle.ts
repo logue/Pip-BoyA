@@ -2,7 +2,7 @@ import { Style, Circle, Text, Fill, Stroke, Icon } from 'ol/style';
 import IconAnchorUnits from 'ol/style/IconAnchorUnits';
 import { toCamelCase, hexToRgb } from './Utility';
 import colors from 'vuetify/src/util/colors';
-import { Color } from 'vuetify/lib/util/colors';
+import type { Color } from 'vuetify/lib/util/colors';
 
 // tile mode colorset
 export const tileExplainColors: string[] = [
@@ -62,7 +62,8 @@ export function getMarkerStyles(): { [key: string]: Style } {
 const colorStyleCache: { [key: string]: Style } = {};
 /**
  * Get Marker Style by color
- * @param color Material Color
+ *
+ * @param colorName - Material Color
  */
 export function getMarkerStyle(colorName: string): Style {
   let c = toCamelCase(colorName);
@@ -115,6 +116,7 @@ export function getMarkerStyle(colorName: string): Style {
 const iconStyleCache: { [key: string]: Style } = {};
 /**
  * Get Icon Marker Style by Marker Type.
+ *
  * @param type Marker Type
  */
 export function getMarkerIconStyle(type: string): Style {

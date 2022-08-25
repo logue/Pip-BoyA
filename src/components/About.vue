@@ -48,7 +48,7 @@
           </template>
         </v-banner>
         <section class="my-3">
-          <h2 class="mb-3 subtitle-1">Author</h2>
+          <h2 class="mb-3 text-subtitle-1">Author</h2>
           <v-card width="480" class="mx-3 my3">
             <div class="d-flex">
               <v-avatar class="ml-0 mt-0" size="128" tile>
@@ -116,12 +116,12 @@
           </v-card>
         </section>
         <section class="my-3">
-          <h2 class="mb-3 subtitle-1">Acknowledgement</h2>
+          <h2 class="mb-3 text-subtitle-1">Acknowledgement</h2>
           <ul>
             <li>
               <a
                 href="https://www.reddit.com/r/fo76/comments/bmwpx9"
-                @click.prevent="openNewWin"
+                target="_blank"
               >
                 Mappalachia
               </a>
@@ -130,7 +130,7 @@
             <li>
               <a
                 href="https://github.com/dan-parker/fo76edit-scripts"
-                @click.prevent="openNewWin"
+                target="_blank"
               >
                 fo76edit-scripts
               </a>
@@ -139,7 +139,7 @@
             <li>
               <a
                 href="https://www.nexusmods.com/fallout76/mods/783"
-                @click.prevent="openNewWin"
+                target="_blank"
               >
                 Realistic World Map
               </a>
@@ -148,9 +148,9 @@
           </ul>
         </section>
         <section class="my-3">
-          <h2 class="mb-3 subtitle-1">Legal Notice</h2>
-          <p class="mx-3 my-3 body-2">
-            Fallout® 76 Wastelanders © 2021 Bethesda Softworks LLC, a ZeniMax
+          <h2 class="mb-3 text-subtitle-1">Legal Notice</h2>
+          <p class="mx-3 my-3 text-body-2">
+            Fallout® 76 Wastelanders © 2022 Bethesda Softworks LLC, a ZeniMax
             Media company. Bethesda, Bethesda Softworks, Bethesda Game Studios,
             ZeniMax, Pip-Boy, Vault-Tec and related logos are registered
             trademarks or trademarks of ZeniMax Media Inc. in the U.S. and/or
@@ -167,25 +167,24 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import Gravatar from 'vue-gravatar';
-import Nl2br from 'vue-nl2br';
 import { openWindow } from '@/helpers/Utility';
 import Meta from '@/Meta';
-/**
- * About dialog
- */
+
 @Component({
   components: {
     'v-gavatar': Gravatar,
-    nl2br: Nl2br,
   },
 })
+/**
+ * About dialog
+ */
 export default class About extends Vue {
   /** Dialog visibility */
-  private dialog = false;
+  dialog = false;
   /** Build information etc */
-  private meta = Meta;
+  meta = Meta;
   /** electron */
-  private get isElectron() {
+  get isElectron() {
     return process.env.IS_ELECTRON;
   }
   /** Open Dialog */
@@ -193,11 +192,8 @@ export default class About extends Vue {
     this.dialog = true;
   }
   /** Open External Window */
-  public openNewWin(
-    e: MouseEvent & { currentTarget: HTMLAnchorElement }
-  ): boolean {
+  public openNewWin(e: MouseEvent & { currentTarget: HTMLAnchorElement }) {
     openWindow(e.currentTarget.href);
-    return false;
   }
 }
 </script>

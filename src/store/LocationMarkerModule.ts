@@ -1,7 +1,7 @@
 /**
  * Location Marker Module
  */
-import {
+import type {
   ActionTree,
   ActionContext,
   GetterTree,
@@ -9,12 +9,12 @@ import {
   Module,
 } from 'vuex';
 import axios from 'axios';
-import { Feature, Point } from 'geojson';
+import type { Feature, Point } from 'geojson';
 import convertGeoJson from '@/helpers/ConvertGeoJson';
-import { RootState } from '.';
-import { MarkerProperties } from '@/interfaces/MarkerProperties';
-import { Marker } from '@/interfaces/Marker';
-import { MarkerJsonData } from '@/interfaces/MarkerJsonData';
+import type { RootState } from '.';
+import type { MarkerProperties } from '@/interfaces/MarkerProperties';
+import type { Marker } from '@/interfaces/Marker';
+import type { MarkerJsonData } from '@/interfaces/MarkerJsonData';
 
 export interface LocationMarkerState {
   // Marker location object
@@ -36,6 +36,7 @@ const getters: GetterTree<LocationMarkerState, RootState> = {
 const mutations: MutationTree<LocationMarkerState> = {
   /**
    * save location data to state.
+   *
    * @param s Vuex State
    * @param markers data
    */
@@ -48,6 +49,7 @@ const mutations: MutationTree<LocationMarkerState> = {
 const actions: ActionTree<LocationMarkerState, RootState> = {
   /**
    * Set location data.
+   *
    * @param context Context
    */
   async init(context: ActionContext<LocationMarkerState, RootState>) {

@@ -4,23 +4,19 @@
  * ref: https://jsfiddle.net/kay99yor/
  */
 import { addProjection } from 'ol/proj';
-import { Extent } from 'ol/extent';
+import type { Extent } from 'ol/extent';
 import Projection from 'ol/proj/Projection';
 import TileGrid from 'ol/tilegrid/TileGrid';
-import { MapDefinition } from '@/interfaces/MapDefinition';
+import type { MapDefinition } from '@/interfaces/MapDefinition';
+import Units from 'ol/proj/Units';
 
 // The value output by MapTiler is used as is.
 const mapExtent: Extent = [0.0, -4096.0, 4096.0, 0.0];
-const mapMinZoom = 1;
-const mapMaxZoom = 5;
-const mapMaxResolution = 0.5;
+const mapMinZoom = 0;
+const mapMaxZoom = 4;
+const mapMaxResolution = 64;
 const tileExtent: Extent = [0.0, -4096.0, 4096.0, 0.0];
-
-// Do not change below lines.
-const mapResolutions: number[] = [];
-for (let z = mapMinZoom; z <= mapMaxZoom; z++) {
-  mapResolutions.push(Math.pow(2, mapMaxZoom - z) * mapMaxResolution);
-}
+const mapResolutions = [16, 8, 4, 2, 1];
 
 const mapTileGrid: TileGrid = new TileGrid({
   extent: tileExtent,
@@ -29,9 +25,9 @@ const mapTileGrid: TileGrid = new TileGrid({
 });
 
 const customProj: Projection = new Projection({
-  code: 'ZOOMIFY',
-  units: 'pixels',
-  extent: tileExtent,
+  code: 'raster',
+  units: Units.TILE_PIXELS,
+  extent: mapExtent,
 });
 addProjection(customProj);
 

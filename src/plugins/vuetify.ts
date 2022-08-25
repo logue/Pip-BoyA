@@ -20,7 +20,6 @@ import {
 
 import '@fontsource/noto-sans-jp';
 import '@mdi/font/scss/materialdesignicons.scss';
-import { VuetifyParsedTheme } from 'vuetify/types/services/theme';
 
 Vue.use(Vuetify);
 
@@ -32,9 +31,8 @@ export default new Vuetify({
   theme: {
     options: {
       themeCache: {
-        get: (key: VuetifyParsedTheme) =>
-          localStorage.getItem(key as unknown as string),
-        set: (key: VuetifyParsedTheme, value: string) =>
+        get: key => localStorage.getItem(key as unknown as string),
+        set: (key, value: string) =>
           localStorage.setItem(key as unknown as string, value),
       },
     },

@@ -19,10 +19,12 @@
           mandatory
           @click="changeLocale(key)"
         >
-          <v-list-item-title class="locale-item">
+          <v-list-item-icon>
             <country-flag :country="value" size="small" />
-            {{ $t(`locales.${key}`) }}
-          </v-list-item-title>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t(`locales.${key}`) }}</v-list-item-title>
+          </v-list-item-content>
         </v-list-item>
       </v-list-item-group>
     </v-list>
@@ -33,14 +35,15 @@
 import { Component, Vue } from 'vue-property-decorator';
 import CountryFlag from 'vue-country-flag';
 import { languages } from '@/helpers/Utility';
-/**
- * Language selector
- */
+
 @Component({
   components: {
     CountryFlag,
   },
 })
+/**
+ * Language selector
+ */
 export default class LocaleChanger extends Vue {
   private readonly languages = languages;
 

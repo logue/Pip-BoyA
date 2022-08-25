@@ -1,14 +1,14 @@
 /**
  * Marker visibility checkbox control module.
  */
-import {
+import type {
   ActionContext,
   ActionTree,
   GetterTree,
   Module,
   MutationTree,
 } from 'vuex';
-import { RootState } from '.';
+import type { RootState } from '.';
 
 /** Explain State */
 export interface CheckState {
@@ -37,6 +37,7 @@ const mutations: MutationTree<CheckState> = {
 const actions: ActionTree<CheckState, RootState> = {
   /**
    * set checked items.
+   *
    * @param context Vuex Context
    * @param checked checked
    */

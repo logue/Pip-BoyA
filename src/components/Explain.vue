@@ -78,50 +78,51 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { ActionPayload } from 'vuex';
+
+@Component
 /**
  * Explain component
  */
-@Component
 export default class Explain extends Vue {
   // marker type and count
-  private types: string[] = [];
+  types: string[] = [];
   // marker types
-  private counts: { [key: string]: number } = {};
+  counts: { [key: string]: number } = {};
   // marker color
-  private colorset: string[] = [];
+  colorset: string[] = [];
   // Maximize/Minimize
-  private isShrinked = false;
+  isShrinked = false;
   // Check All/Uncheck all
-  private checkAll = true;
+  checkAll = true;
 
   // Check loading
-  private get loading(): boolean {
+  get loading(): boolean {
     return this.$store.getters.loading;
   }
   // current category
-  private get category(): string {
+  get category(): string {
     return this.$route.params.category;
   }
   // Checked
-  private get checked(): string[] {
+  get checked(): string[] {
     return this.$store.getters['CheckModule/checked'];
   }
-  private set checked(checked: string[]) {
+  set checked(checked: string[]) {
     this.$store.dispatch('CheckModule/setChecked', checked);
   }
   // indeterminate Flag
-  private get indeterminate(): boolean {
+  get indeterminate(): boolean {
     return (
       this.checked.length !== 0 && this.types.length !== this.checked.length
     );
   }
   // Marker count
-  private get count(): { [key: string]: number } {
+  get count(): { [key: string]: number } {
     return this.$store.getters['CategoryMarkerModule/count'];
   }
 
   // Mounted
-  private mounted() {
+  mounted() {
     this.$store.subscribeAction((action: ActionPayload) => {
       // Register category changes
       if (action.type === 'CategoryMarkerModule/setCategory') {
@@ -148,14 +149,14 @@ export default class Explain extends Vue {
   /**
    * Toggle Marker visibility by Marker type.
    */
-  public toggleMarker(): void {
+  toggleMarker(): void {
     // if all checkbox is checked, change checkAll checkbox.
     this.checkAll = this.types.length === this.checked.length;
   }
   /**
    * Toggle CheckAll checkbox/
    */
-  public toggleCheckAll(): void {
+  toggleCheckAll(): void {
     if (this.checkAll) {
       // Select all CheckBox
       this.checked = this.types;

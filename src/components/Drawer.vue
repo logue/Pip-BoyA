@@ -5,7 +5,7 @@
         <v-icon>mdi-home</v-icon>
       </v-list-item-icon>
       <v-list-item-content>
-        <v-list-item-title v-text="$t('categories.home')" />
+        <v-list-item-title>{{ $t('categories.home') }}</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
     <v-divider />
@@ -15,7 +15,7 @@
           <v-icon>{{ item.icon }}</v-icon>
         </v-list-item-icon>
         <v-list-item-content>
-          <v-list-item-title v-text="$t(item.title)" />
+          <v-list-item-title>{{ $t(item.title) }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
       <v-list-group
@@ -26,7 +26,7 @@
       >
         <template #activator>
           <v-list-item-content>
-            <v-list-item-title v-text="$t(item.title)" />
+            <v-list-item-title>{{ $t(item.title) }}</v-list-item-title>
           </v-list-item-content>
         </template>
 
@@ -41,7 +41,7 @@
             <v-icon>{{ subItem.icon }}</v-icon>
           </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-title v-text="$t(subItem.title)" />
+            <v-list-item-title>{{ $t(subItem.title) }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list-group>
@@ -53,6 +53,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component
+/** Drawer Menu */
 export default class Drawer extends Vue {
   readonly items = [
     {

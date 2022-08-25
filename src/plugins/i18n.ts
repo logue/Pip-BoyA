@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import VueI18n, { LocaleMessages } from 'vue-i18n';
+import VueI18n, { type LocaleMessages } from 'vue-i18n';
 Vue.use(VueI18n);
 
 // 言語ファイル読み込み

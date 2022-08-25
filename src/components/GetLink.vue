@@ -26,7 +26,7 @@
             </v-tooltip>
           </template>
           <template #append-outer>
-            <v-btn depressed color="info" v-on="on" @click="go()">
+            <v-btn depressed color="info" @click="go()">
               <v-icon left>mdi-open-in-new</v-icon>
               {{ $t('check') }}
             </v-btn>
@@ -40,34 +40,35 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { copy, openWindow } from '@/helpers/Utility';
+
+@Component
 /**
  * Get location uri dialog.
  */
-@Component
 export default class GetLink extends Vue {
   /** Dialog visibility */
-  private dialog = false;
+  dialog = false;
 
   /** current location uri */
-  private get uri(): string {
+  get uri(): string {
     return this.$store.getters['MapLocationModule/uri'](this.$router);
   }
 
   /** dialog open */
-  public open(): void {
+  open(): void {
     this.dialog = true;
   }
   /** dialog close */
-  public close(): void {
+  close(): void {
     this.dialog = false;
   }
   /** Link to current location */
-  public go(): void {
+  go(): void {
     openWindow(this.uri);
   }
 
   /** copy */
-  public copy(): void {
+  copy(): void {
     copy(this.uri);
     this.$store.dispatch('setMessage', this.$t('copy-success'));
     this.$forceNextTick();

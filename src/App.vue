@@ -51,67 +51,66 @@ import Drawer from '@/components/Drawer.vue';
 import AppBar from '@/components/AppBar.vue';
 import { waitForReadystate } from '@/helpers/Utility';
 
-/**
- * App
- * @vuese
- */
 @Component({
   components: {
     d: Drawer,
     appbar: AppBar,
   },
 })
+/**
+ * App
+ */
 export default class App extends Vue {
   /** window title */
-  private title: string = this.$t('title');
+  title: string = this.$t('title');
   /** drawer menu visibility */
-  private drawer = false;
+  drawer = false;
   /** snackbar visibility */
-  private snackbar = false;
+  snackbar = false;
 
   /** theme dark mode */
-  private get '$vuetify.theme.dark'(): boolean {
+  get '$vuetify.theme.dark'(): boolean {
     return this.$store.getters['ConfigModule/toggleTheme'];
   }
   /** current locale */
-  private get '$i18n.locale'(): string {
+  get '$i18n.locale'(): string {
     return this.$store.getters['ConfigModule/locale'];
   }
   /** snackbar text */
-  private get snackbarText(): string {
+  get snackbarText(): string {
     return this.$store.getters.message;
   }
   /** progress percentage */
-  private get progress(): number {
+  get progress(): number {
     return this.$store.getters.progress;
   }
-  private set progress(value: number) {
+  set progress(value: number) {
     this.$store.dispatch('setProgress', value);
   }
   /** loading overlay */
-  private get loading(): boolean {
+  get loading(): boolean {
     return this.$store.getters.loading;
   }
-  private set loading(value: boolean) {
+  set loading(value: boolean) {
     this.$store.dispatch('setLoading', value);
   }
   /** Error Message */
-  private get error(): boolean {
+  get error(): boolean {
     return this.$store.getters.error;
   }
   /** Toggle Theme Dark/Light mode */
-  private get themeDark(): boolean {
+  get themeDark(): boolean {
     return this.$store.getters['ConfigModule/themeDark'];
   }
 
   /** Theme Changer */
   @Watch('themeDark')
-  private onThemeChanged(): void {
+  onThemeChanged(): void {
     this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
   }
   /** locale changer */
   @Watch('$i18n.locale')
-  private onLocaleChanged(): void {
+  onLocaleChanged(): void {
     // change title bar text
     const title = this.$t('title');
     const locale = this.$i18n.locale;
@@ -133,18 +132,18 @@ export default class App extends Vue {
   }
   /** Modify snackbar text */
   @Watch('$store.getters.message')
-  private onSnackbarTextChanged(): void {
+  onSnackbarTextChanged(): void {
     this.snackbar = true;
   }
 
   /** when route change, hide snackbar */
   @Watch('$route')
-  private onRouteChanged(): void {
+  onRouteChanged(): void {
     this.snackbar = false;
   }
   /** when loading */
   @Watch('loading')
-  private onLoading() {
+  onLoading() {
     // console.log('loading:', this.loading);
     // change cursor
     document.body.style.cursor = this.loading ? 'wait' : 'auto';
@@ -155,19 +154,19 @@ export default class App extends Vue {
   }
 
   @Watch('progress')
-  private onProgressChanged() {
+  onProgressChanged() {
     if (process.env.IS_ELECTRON) {
       this.$electron.ipcRenderer.send('setProgress', this.progress);
     }
   }
 
   @Watch('error')
-  private onError() {
+  onError() {
     this.$router.push({ name: 'Error' });
   }
 
   /** run once. */
-  private async mounted() {
+  async mounted() {
     await waitForReadystate();
     this.$vuetify.theme.dark = this.$store.getters['ConfigModule/themeDark'];
     this.$i18n.locale = this.$store.getters['ConfigModule/locale'];

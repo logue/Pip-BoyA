@@ -4,3 +4,5 @@
 dist/
 coverage/
 public/assets/
+components.d.ts
+

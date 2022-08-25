@@ -1,4 +1,4 @@
-import { Marker } from './Marker';
+import type { Marker } from './Marker';
 
 /** Marker Information */
 export interface MarkerProperties extends Marker {

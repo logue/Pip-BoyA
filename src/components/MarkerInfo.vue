@@ -4,7 +4,7 @@
       <div class="d-flex">
         <v-avatar
           v-if="
-            (info.name && info.name.match(/^Loc/)) ||
+            (info.type && info.name && info.name.match(/^Loc/)) ||
             info.type === 'WaypointMarker'
           "
           size="128"
@@ -114,16 +114,16 @@ import { Component, Vue } from 'vue-property-decorator';
 import { copy, openWindow } from '@/helpers/Utility';
 import { MarkerProperties } from '@/interfaces/MarkerProperties';
 
+@Component
 /**
  * Marker detail window comportent.
  */
-@Component
 export default class MarkerInfo extends Vue {
   /** Marker Infomation dialog visibility */
-  private dialog = false;
+  dialog = false;
 
   /** Marker Infomation */
-  private info: MarkerProperties = {
+  info: MarkerProperties = {
     id: '0',
     type: undefined,
     name: undefined,
@@ -134,7 +134,7 @@ export default class MarkerInfo extends Vue {
   };
 
   /** Permalink */
-  private get uri(): string {
+  get uri(): string {
     const uri = this.$router.resolve({
       query: {
         x: (this.info.x | 0).toString(),
@@ -148,13 +148,14 @@ export default class MarkerInfo extends Vue {
 
   /**
    * マーカーアイコンを取得
+   *
    * @param type マーカーの種類
    */
-  private getMarkerIcon(type: string): string {
+  getMarkerIcon(type: string): string {
     return `${process.env.IMAGE_URI || '/img/'}/marker/${type}.svg`;
   }
 
-  public open(info: MarkerProperties): void {
+  open(info: MarkerProperties): void {
     if (!info) {
       return;
     }
@@ -162,18 +163,16 @@ export default class MarkerInfo extends Vue {
     this.dialog = true;
   }
   /** Close Dialog */
-  public close(): void {
+  close(): void {
     this.dialog = false;
   }
   /** copy */
-  public copy(): void {
+  copy(): void {
     copy(this.uri);
     this.$store.dispatch('setMessage', this.$t('copy-success'));
   }
   /** Open External Window */
-  public openNewWin(
-    e: MouseEvent & { currentTarget: HTMLAnchorElement }
-  ): boolean {
+  openNewWin(e: MouseEvent & { currentTarget: HTMLAnchorElement }): boolean {
     openWindow(e.currentTarget.href);
     return false;
   }

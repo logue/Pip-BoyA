@@ -9,7 +9,6 @@
       :renderer="renderer"
       :max-extent="extent"
       @mounted="onMapMounted"
-      @pointermove="onMapPointerMove"
       @movestart="onMoveStart"
       @moveend="onMoveEnd"
     >
@@ -59,7 +58,7 @@
       <vl-interaction-select ref="selectInteraction" hover @select="onSelect" />
     </vl-map>
     <!-- opacity slider -->
-    <v-tooltip bottom>
+    <!--v-tooltip bottom>
       <template #activator="{ on, attrs }">
         <v-slider
           v-model="$refs.baseLayer.opacity"
@@ -72,7 +71,7 @@
         />
       </template>
       <span>{{ $t('opacity') }}</span>
-    </v-tooltip>
+    </v-tooltip-->
     <marker-info ref="markerInfo" />
     <explain ref="explainPopup" />
   </div>
@@ -95,6 +94,7 @@ import MapBrowserEvent from 'ol/MapBrowserEvent';
 import { Pixel } from 'ol/pixel';
 import { ProjectionLike } from 'ol/proj';
 import Point from 'ol/geom/Point';
+
 // component
 import BaseLayer from '@/components/layers/BaseLayer.vue';
 import CategoryLayer from '@/components/layers/CategoryLayer.vue';
@@ -102,13 +102,11 @@ import Explain from '@/components/Explain.vue';
 import LocationLayer from '@/components/layers/LocationLayer.vue';
 import MarkerInfo from '@/components/MarkerInfo.vue';
 import { MarkerProperties } from '@/interfaces/MarkerProperties';
+
 // Helpers
 import MapConfig from '@/helpers/MapConfig';
 import { hexToRgb } from '@/helpers/Utility';
 
-/**
- * Home
- */
 @Component({
   name: 'Home',
   components: {
@@ -119,45 +117,48 @@ import { hexToRgb } from '@/helpers/Utility';
     explain: Explain,
   },
 })
+/**
+ * Home
+ */
 export default class Home extends Vue {
   // View
-  private rotation = 0;
-  private opacity = 1;
-  private projection: ProjectionLike = MapConfig.projection;
-  private resolutions: number[] = MapConfig.resolutions;
-  private extent: Extent = MapConfig.extent;
-  private hitFeature?: FeatureLike;
+  rotation = 0;
+  opacity = 1;
+  projection: ProjectionLike = MapConfig.projection;
+  resolutions: number[] = MapConfig.resolutions;
+  extent: Extent = MapConfig.extent;
+  hitFeature?: FeatureLike;
   // detect map move
-  private isMoving = false;
+  isMoving = false;
   // Tooltip
-  private position: Coordinate = [0, 0];
-  private currentName?: string;
-  private showMarkerTooltip = false;
+  position: Coordinate = [0, 0];
+  currentName?: string;
+  showMarkerTooltip = false;
   // Blast zone
-  private coordinatesBlastZone: Coordinate = [0, 0];
-  private blastZoneColorSet = colors.red;
-  private blastZoneFillColor;
+  coordinatesBlastZone: Coordinate = [0, 0];
+  blastZoneColorSet = colors.red;
+  blastZoneFillColor;
 
   /** Current zoom */
-  private get zoom(): number {
+  get zoom(): number {
     return this.$store.getters['MapLocationModule/zoom'];
   }
-  private set zoom(zoom: number) {
+  set zoom(zoom: number) {
     this.$store.dispatch('MapLocationModule/setZoom', zoom);
   }
   /** Current location */
-  private get currentPosition(): Coordinate {
+  get currentPosition(): Coordinate {
     return this.$store.getters['MapLocationModule/coordinate'];
   }
-  private set currentPosition(coordinate: Coordinate) {
+  set currentPosition(coordinate: Coordinate) {
     this.$store.dispatch('MapLocationModule/setCoordinate', coordinate);
   }
   /* current category */
-  private get category(): string | undefined {
+  get category(): string | undefined {
     return this.$route.params.category;
   }
   /** Map class */
-  private get mapClass(): string {
+  get mapClass(): string {
     return (
       'map-viewer_map' +
       (this.isMoving ? ' is_move' : '') +
@@ -165,14 +166,14 @@ export default class Home extends Vue {
     );
   }
   /** Map Rendering mode */
-  private get renderer(): string {
+  get renderer(): string {
     return this.$store.getters['ConfigModule/webgl'] ? 'webgl' : 'canvas';
   }
 
   /**
    * Before Create (for query access)
    */
-  private beforeCreate(): void {
+  beforeCreate(): void {
     // Load location from QueryString.
     const query = this.$route.query as { [key: string]: string };
     if (query.x && query.y) {
@@ -192,7 +193,7 @@ export default class Home extends Vue {
   /**
    * Customize Map UI.
    */
-  private onMapMounted(): void {
+  onMapMounted(): void {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     const map: Map = this.$refs.map.$map as unknown as Map;
@@ -223,20 +224,20 @@ export default class Home extends Vue {
   /**
    * When move map
    */
-  private onMoveStart(): void {
+  onMoveStart(): void {
     this.isMoving = true;
   }
   /**
    * Whem move end map
    */
-  private onMoveEnd(): void {
+  onMoveEnd(): void {
     this.isMoving = false;
     // Store current coordinate
   }
   /**
    * When pointer move
    */
-  private onMapPointerMove(e: MapBrowserEvent): void {
+  private onMapPointerMove(e: MapBrowserEvent<MouseEvent>): void {
     const map: Map = this.$refs.map as unknown as Map;
     // current pixel coordination
     const pixel: Pixel = e.pixel;
@@ -274,7 +275,7 @@ export default class Home extends Vue {
   /**
    * Reset initial location. (unmounted)
    */
-  public resetLocation(): void {
+  resetLocation(): void {
     const query = this.$route.query as { [key: string]: string };
     this.currentPosition = [parseInt(query.x), parseInt(query.y)];
     this.zoom = parseInt(query.zoom);
@@ -283,7 +284,7 @@ export default class Home extends Vue {
   /**
    * When Interact marker
    */
-  public onSelect(e: FeatureLike): void {
+  onSelect(e: FeatureLike): void {
     // Get MarkerProperties from selected feature
     const markerInfo: MarkerInfo = this.$refs.markerInfo as MarkerInfo;
     markerInfo.open(e.getProperties() as MarkerProperties);

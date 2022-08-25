@@ -2,8 +2,8 @@
  * Fallout Pip-boy Application (Pip-BoyA／Pip坊や) for Electron
  *
  * @author    Logue <logue@hotmail.co.jp>
- * @version   0.6.3-beta
- * @copyright 2020-2021 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
+ * @version   0.7.0
+ * @copyright 2020-2022 Masashi Yoshikawa <https://logue.dev/> All rights reserved.
  * @license   MIT
  */
 
@@ -12,7 +12,7 @@
 import { app, protocol, BrowserWindow, ipcMain, Menu } from 'electron';
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib';
 import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer';
-import { IpcMainEvent } from 'electron/main';
+import type { IpcMainEvent } from 'electron/main';
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
 let win: BrowserWindow;
@@ -27,6 +27,9 @@ if (app.isPackaged) {
   Menu.setApplicationMenu(null);
 }
 
+/**
+ *
+ */
 async function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
@@ -75,7 +78,7 @@ app.on('ready', async () => {
     try {
       await installExtension(VUEJS_DEVTOOLS);
     } catch (e) {
-      console.error('Vue Devtools failed to install:', e.toString());
+      console.error('Vue Devtools failed to install:', e);
     }
   }
   createWindow();

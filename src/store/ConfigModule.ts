@@ -1,20 +1,22 @@
 /**
  * Config store
  */
-import { MapTypes } from '@/interfaces/MapTypesEnum';
-import {
+import type {
   ActionContext,
   ActionTree,
   GetterTree,
   Module,
   MutationTree,
 } from 'vuex';
-import { RootState } from '.';
+import type { RootState } from '.';
+import type { MapType } from '@/interfaces/MapType';
+
+import MapTypes from '@/interfaces/MapType';
 
 /** Config State */
 export interface ConfigState {
   // Map Type
-  mapType: MapTypes;
+  mapType: MapType;
   // Display Location marker
   displayLocation: boolean;
   // Dark Theme mode
@@ -29,7 +31,7 @@ export interface ConfigState {
 
 /** Default state value */
 const state: ConfigState = {
-  mapType: 1,
+  mapType: MapTypes.BASE,
   displayLocation: true,
   themeDark: window.matchMedia('(prefers-color-scheme: dark)').matches,
   webgl: false,
@@ -41,7 +43,7 @@ const state: ConfigState = {
 
 // Getters
 const getters: GetterTree<ConfigState, RootState> = {
-  mapType: (s): MapTypes => s.mapType,
+  mapType: (s): MapType => s.mapType,
   displayLocation: (s): boolean => s.displayLocation,
   themeDark: (s): boolean => s.themeDark,
   webgl: (s): boolean => s.webgl,
@@ -51,13 +53,20 @@ const getters: GetterTree<ConfigState, RootState> = {
 
 // Mutation
 const mutations: MutationTree<ConfigState> = {
-  setMap(s, type: MapTypes) {
+  setMap(s, type: MapType) {
     s.mapType = type;
   },
   toggleMap(s) {
-    s.mapType++;
-    if (s.mapType >= 3) {
-      s.mapType = 0;
+    switch (s.mapType) {
+      case 'base':
+        s.mapType = 'military';
+        break;
+      case 'military':
+        s.mapType = 'realistic';
+        break;
+      default:
+        s.mapType = 'base';
+        break;
     }
   },
   toggleLocationMarker(s) {
@@ -81,51 +90,58 @@ const mutations: MutationTree<ConfigState> = {
 const actions: ActionTree<ConfigState, RootState> = {
   /**
    * Map changer
-   * @param type MapType
-   * @param context Vuex Context
+   *
+   * @param type - MapType
+   * @param context - Vuex Context
    */
-  setMap(context: ActionContext<ConfigState, RootState>, type: MapTypes) {
+  setMap(context: ActionContext<ConfigState, RootState>, type: MapType) {
     context.commit('setMap', type);
   },
   /**
    * Toggle Map type
-   * @param context Vuex Context
+   *
+   * @param context - Vuex Context
    */
   toggleMap(context: ActionContext<ConfigState, RootState>) {
     context.commit('toggleMap');
   },
   /**
    * Show/Hide Location Marker.
-   * @param context Vuex Context
+   *
+   * @param context - Vuex Context
    */
   toggleLocationMarker(context: ActionContext<ConfigState, RootState>) {
     context.commit('toggleLocationMarker');
   },
   /**
    * Switch Dark/Light mode.
-   * @param context Vuex Context
+   *
+   * @param context - Vuex Context
    */
   toggleTheme(context: ActionContext<ConfigState, RootState>) {
     context.commit('toggleTheme');
   },
   /**
    * Toggle WebGL/Canvas mode
-   * @param context Vuex Context
+   *
+   * @param context - Vuex Context
    */
   toggleWebGl(context: ActionContext<ConfigState, RootState>) {
     context.commit('toggleWebGl');
   },
   /**
    * Shrink/Expand Explain window.
-   * @param context Vuex Context
+   *
+   * @param context - Vuex Context
    */
   toggleExplain(context: ActionContext<ConfigState, RootState>) {
     context.commit('toggleExplain');
   },
   /**
    * Change locale.
-   * @param context Vuex Context
-   * @param locale locale code
+   *
+   * @param context - Vuex Context
+   * @param locale - locale code
    */
   setLocale(context: ActionContext<ConfigState, RootState>, locale = 'en') {
     context.commit('setLocale', locale);

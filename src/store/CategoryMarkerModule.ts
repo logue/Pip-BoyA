@@ -1,7 +1,7 @@
 /**
  * Category Marker Module
  */
-import {
+import type {
   ActionContext,
   ActionTree,
   GetterTree,
@@ -10,13 +10,13 @@ import {
   Payload,
 } from 'vuex';
 import axios from 'axios';
-import { Feature, Point } from 'geojson';
-import { RootState } from '.';
+import type { Feature, Point } from 'geojson';
+import type { RootState } from '.';
 import convertGeoJson from '@/helpers/ConvertGeoJson';
 import { markerColors, tileExplainColors } from '@/helpers/MarkerStyle';
-import { MarkerProperties } from '@/interfaces/MarkerProperties';
-import { MarkerJsonData } from '@/interfaces/MarkerJsonData';
-import { Marker } from '@/interfaces/Marker';
+import type { MarkerProperties } from '@/interfaces/MarkerProperties';
+import type { MarkerJsonData } from '@/interfaces/MarkerJsonData';
+import type { Marker } from '@/interfaces/Marker';
 
 // Marker State
 export interface CategoryMarkerState {
@@ -79,6 +79,7 @@ const getters: GetterTree<CategoryMarkerState, RootState> = {
 const mutations: MutationTree<CategoryMarkerState> = {
   /**
    * save features.
+   *
    * @param s Store
    * @param payload Marker GeoJson Data
    */
@@ -132,6 +133,7 @@ const mutations: MutationTree<CategoryMarkerState> = {
         {}
       );
       for (const entry in counts) {
+        if (!{}.hasOwnProperty.call(counts, entry)) continue;
         s.count[entry] = counts[entry];
       }
     } else {
@@ -148,6 +150,7 @@ const mutations: MutationTree<CategoryMarkerState> = {
 const actions: ActionTree<CategoryMarkerState, RootState> = {
   /**
    * Set category location data.
+   *
    * @param context Context
    * @param category Category
    */

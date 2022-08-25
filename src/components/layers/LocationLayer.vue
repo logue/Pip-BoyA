@@ -18,39 +18,40 @@ import Style from 'ol/style/Style';
 import Feature, { FeatureLike } from 'ol/Feature';
 import { getMarkerIconStyle } from '@/helpers/MarkerStyle';
 import VectorSource from 'ol/source/Vector';
+
+@Component
 /**
  * Location Marker (Icon marker)
  */
-@Component
 export default class LocationLayer extends Vue {
   /** Location Markers */
-  private get features(): Feature[] {
+  get features(): Feature[] {
     return this.$store.getters['LocationMarkerModule/features'];
   }
   /** Location Marker Visibility */
-  private get visibility(): boolean {
+  get visibility(): boolean {
     return this.$store.getters['ConfigModule/displayLocation'];
   }
   /** Zoom */
-  private get zoom(): number {
+  get zoom(): number {
     return this.$store.getters['MapLocationModule/zoom'];
   }
 
   @Watch('visibility')
-  private onVisibilityChanged(value: boolean): void {
+  onVisibilityChanged(value: boolean): void {
     if (value) {
       // 表示するときのみこの処理を動かす
       this.redraw();
     }
   }
 
-  private async beforeCreate(): Promise<void> {
+  async beforeCreate(): Promise<void> {
     await this.$store.dispatch('setLoading', true);
     await this.$forceNextTick();
     await this.$store.dispatch('LocationMarkerModule/init');
   }
 
-  private async mounted(): Promise<void> {
+  async mounted(): Promise<void> {
     const vectorSource: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;
 
@@ -66,7 +67,8 @@ export default class LocationLayer extends Vue {
     console.log('reload location layer.');
     await this.$nextTick();
     // vl-layer-vector
-    const locationLayer = this.$refs.locationLayer as unknown as VectorLayer;
+    const locationLayer = this.$refs
+      .locationLayer as unknown as VectorLayer<VectorSource>;
 
     if (!locationLayer) {
       // コンポーネントが呼び出せる状態になるまでリロード

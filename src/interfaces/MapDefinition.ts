@@ -1,5 +1,5 @@
-import { Extent } from 'ol/extent';
-import TileGrid from 'ol/tilegrid/TileGrid';
+import type { Extent } from 'ol/extent';
+import type TileGrid from 'ol/tilegrid/TileGrid';
 
 /** Map Configure Structure */
 export interface MapDefinition {

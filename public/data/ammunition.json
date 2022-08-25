@@ -1,0 +1,8620 @@
+{
+  "markers": [
+    {
+      "id": "003C5D43",
+      "type": "AmmoCombatRifleMarker",
+      "x": 28850.419922,
+      "y": 21933.933594
+    },
+    {
+      "id": "003C5D13",
+      "type": "AmmoCombatRifleMarker",
+      "x": 28895.449219,
+      "y": 21948.203125
+    },
+    {
+      "id": "0034EF6D",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 15945.196289,
+      "y": 667.507751
+    },
+    {
+      "id": "003C2938",
+      "type": "Ammo38CaliberMarker",
+      "x": 12636.920898,
+      "y": 52730.585938
+    },
+    {
+      "id": "003C2939",
+      "type": "Ammo10mmMarker",
+      "x": 12707.900391,
+      "y": 52737.265625
+    },
+    {
+      "id": "003C293A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 12755.94043,
+      "y": 52644.222656
+    },
+    {
+      "id": "004F79BF",
+      "type": "Ammo38CaliberMarker",
+      "x": 14043.682618,
+      "y": 47521.449219
+    },
+    {
+      "id": "003C290A",
+      "type": "AmmoCombatRifleMarker",
+      "x": 12209.138672,
+      "y": 59081.644531
+    },
+    {
+      "id": "003C290B",
+      "type": "AmmoCombatRifleMarker",
+      "x": 12208.325195,
+      "y": 59086.054688
+    },
+    {
+      "id": "003C290E",
+      "type": "Ammo45CaliberMarker",
+      "x": 11496.256836,
+      "y": 59590.21875
+    },
+    {
+      "id": "003C2912",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 12058.950196,
+      "y": 58992.980469
+    },
+    {
+      "id": "003C2921",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 12260.579102,
+      "y": 59875.046875
+    },
+    {
+      "id": "003C2922",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 12257.556641,
+      "y": 59872.917969
+    },
+    {
+      "id": "003C292D",
+      "type": "AmmoLasergunMarker",
+      "x": 10825.929688,
+      "y": 58839.988281
+    },
+    {
+      "id": "003C292E",
+      "type": "AmmoLasergunMarker",
+      "x": 9918.694336,
+      "y": 57619.582032
+    },
+    {
+      "id": "00315AE5",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 10972.374023,
+      "y": 57925.640625
+    },
+    {
+      "id": "00315AE7",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 10771.691406,
+      "y": 58007.878907
+    },
+    {
+      "id": "00315AE8",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 10792.175781,
+      "y": 58029.894531
+    },
+    {
+      "id": "00315AFB",
+      "type": "Ammo44Marker",
+      "x": 10606.74414,
+      "y": 58331.332032
+    },
+    {
+      "id": "00315B01",
+      "type": "AmmoFlareMarker",
+      "x": 10599.790039,
+      "y": 57933.960938
+    },
+    {
+      "id": "003C2934",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 8921.520507,
+      "y": 54512.875
+    },
+    {
+      "id": "003C293F",
+      "type": "Ammo44Marker",
+      "x": 4127.959473,
+      "y": 52565.125
+    },
+    {
+      "id": "0048A037",
+      "type": "AmmoAny_SameMarker",
+      "x": 1325.376587,
+      "y": 51811.6875
+    },
+    {
+      "id": "0039774C",
+      "type": "Ammo44Marker",
+      "x": 28869.869141,
+      "y": 87296.8125
+    },
+    {
+      "id": "0039774D",
+      "type": "Ammo44Marker",
+      "x": 28853.402344,
+      "y": 87308.851563
+    },
+    {
+      "id": "00528C28",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 20925.794922,
+      "y": 77708.078125
+    },
+    {
+      "id": "00528C2A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 20874.621093,
+      "y": 77699.21875
+    },
+    {
+      "id": "00320412",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 25974.746093,
+      "y": 100258.289063
+    },
+    {
+      "id": "00320411",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 25978.855468,
+      "y": 100515.828125
+    },
+    {
+      "id": "0032040E",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 25636.076172,
+      "y": 100505.921875
+    },
+    {
+      "id": "0034D961",
+      "type": "Ammo10mmMarker",
+      "x": 19632.599609,
+      "y": 129260.679688
+    },
+    {
+      "id": "0034D96D",
+      "type": "AmmoAny_SameMarker",
+      "x": 19693.605468,
+      "y": 128774.554688
+    },
+    {
+      "id": "003DC520",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 4770.133789,
+      "y": 119896.0625
+    },
+    {
+      "id": "003D0BAD",
+      "type": "AmmoShotgunMarker",
+      "x": 51278.195313,
+      "y": 17219.056641
+    },
+    {
+      "id": "0032C962",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 46720.429687,
+      "y": 24758.037109
+    },
+    {
+      "id": "0032C960",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 46726.246094,
+      "y": 24711.689454
+    },
+    {
+      "id": "004F87C7",
+      "type": "AmmoAny_SameMarker",
+      "x": 45822.730468,
+      "y": 16683.894531
+    },
+    {
+      "id": "0039CFE8",
+      "type": "AmmoAny_SameMarker",
+      "x": 45848.914062,
+      "y": 16716.365235
+    },
+    {
+      "id": "0039CFE9",
+      "type": "AmmoAny_SameMarker",
+      "x": 45820.679687,
+      "y": 16709.369141
+    },
+    {
+      "id": "0039CFEB",
+      "type": "AmmoAny_SameMarker",
+      "x": 45898.875,
+      "y": 16586.986328
+    },
+    {
+      "id": "0039CFEF",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 45645.773438,
+      "y": 16565.787109
+    },
+    {
+      "id": "0031E289",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 45881.515625,
+      "y": 16429.501954
+    },
+    {
+      "id": "0031E288",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 45909.75,
+      "y": 16436.498047
+    },
+    {
+      "id": "004E9F4B",
+      "type": "Ammo10mmMarker",
+      "x": 46853.816407,
+      "y": 13203.265625
+    },
+    {
+      "id": "005737CD",
+      "type": "AmmoAny_SameMarker",
+      "x": 44962.316406,
+      "y": 16400.757813
+    },
+    {
+      "id": "004F87C9",
+      "type": "AmmoAny_SameMarker",
+      "x": 44920.609375,
+      "y": 16416.38086
+    },
+    {
+      "id": "004F87C8",
+      "type": "AmmoAny_SameMarker",
+      "x": 44938.402344,
+      "y": 16431.957032
+    },
+    {
+      "id": "005737CC",
+      "type": "AmmoAny_SameMarker",
+      "x": 44933.898438,
+      "y": 16363.824219
+    },
+    {
+      "id": "003AED28",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 42683.269531,
+      "y": 5763.473632
+    },
+    {
+      "id": "003AED29",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 42680.9375,
+      "y": 5753.484375
+    },
+    {
+      "id": "003AED2B",
+      "type": "Ammo10mmMarker",
+      "x": 42696.644531,
+      "y": 5977.828613
+    },
+    {
+      "id": "003AED2E",
+      "type": "Ammo44Marker",
+      "x": 43206.296875,
+      "y": 6055.319825
+    },
+    {
+      "id": "003AED2F",
+      "type": "Ammo44Marker",
+      "x": 44158.472657,
+      "y": 7561.74707
+    },
+    {
+      "id": "003AED30",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 43973.15625,
+      "y": 7479.067383
+    },
+    {
+      "id": "004F9967",
+      "type": "AmmoAny_SameMarker",
+      "x": 63678.542969,
+      "y": 34084.933594
+    },
+    {
+      "id": "004F9968",
+      "type": "AmmoAny_SameMarker",
+      "x": 63640.375,
+      "y": 34118.535156
+    },
+    {
+      "id": "003AFE76",
+      "type": "Ammo38CaliberMarker",
+      "x": 58286.515625,
+      "y": 58836.207031
+    },
+    {
+      "id": "003AFE5D",
+      "type": "Ammo45CaliberMarker",
+      "x": 55887.269531,
+      "y": 54097.464843
+    },
+    {
+      "id": "003AFE5E",
+      "type": "Ammo45CaliberMarker",
+      "x": 55887.757813,
+      "y": 54097.265625
+    },
+    {
+      "id": "0052580F",
+      "type": "Ammo44Marker",
+      "x": 54738.5,
+      "y": 42545.269532
+    },
+    {
+      "id": "00110CFD",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 54226.9375,
+      "y": 34329.191406
+    },
+    {
+      "id": "00110CDA",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 54225.773437,
+      "y": 34317.984375
+    },
+    {
+      "id": "00110C8F",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 54232.335937,
+      "y": 34353.011718
+    },
+    {
+      "id": "004F8E2D",
+      "type": "AmmoAny_SameMarker",
+      "x": 51999.226563,
+      "y": 55426.085937
+    },
+    {
+      "id": "004F8E2E",
+      "type": "AmmoAny_SameMarker",
+      "x": 51980.863281,
+      "y": 55438.765625
+    },
+    {
+      "id": "003AFE5C",
+      "type": "AmmoFlareMarker",
+      "x": 52189.617187,
+      "y": 53301.570312
+    },
+    {
+      "id": "003AFE5B",
+      "type": "Ammo10mmMarker",
+      "x": 52481.023437,
+      "y": 53053.503906
+    },
+    {
+      "id": "00386C3D",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 39443.003906,
+      "y": 36381.6875
+    },
+    {
+      "id": "004FB2FE",
+      "type": "AmmoAny_SameMarker",
+      "x": 34168.253907,
+      "y": 58905.296875
+    },
+    {
+      "id": "003D8175",
+      "type": "AmmoAny_SameMarker",
+      "x": 53435.289062,
+      "y": 88447.921875
+    },
+    {
+      "id": "003D8176",
+      "type": "AmmoAny_SameMarker",
+      "x": 53417.503906,
+      "y": 88365.03125
+    },
+    {
+      "id": "003C22F6",
+      "type": "Ammo44Marker",
+      "x": 53251.796875,
+      "y": 89207.664063
+    },
+    {
+      "id": "003C22F7",
+      "type": "Ammo44Marker",
+      "x": 53278.105468,
+      "y": 89191.960938
+    },
+    {
+      "id": "003C22F8",
+      "type": "Ammo44Marker",
+      "x": 53304.28125,
+      "y": 89181.625
+    },
+    {
+      "id": "003C22FD",
+      "type": "Ammo38CaliberMarker",
+      "x": 53299.601562,
+      "y": 89174.234375
+    },
+    {
+      "id": "003C22FE",
+      "type": "Ammo38CaliberMarker",
+      "x": 53272.847656,
+      "y": 89194.921875
+    },
+    {
+      "id": "00345A1A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 57137.132813,
+      "y": 86693.648437
+    },
+    {
+      "id": "003C711A",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 55938.421875,
+      "y": 82041.28125
+    },
+    {
+      "id": "003C22FA",
+      "type": "AmmoCombatRifleMarker",
+      "x": 53215.679688,
+      "y": 89222.726563
+    },
+    {
+      "id": "003C22FB",
+      "type": "AmmoCombatRifleMarker",
+      "x": 53187.152344,
+      "y": 89231.523438
+    },
+    {
+      "id": "003C22FC",
+      "type": "AmmoCombatRifleMarker",
+      "x": 53152.429688,
+      "y": 89252.320313
+    },
+    {
+      "id": "003C2300",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 53208.707032,
+      "y": 89217.375
+    },
+    {
+      "id": "003C2301",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 53181.160157,
+      "y": 89238.039063
+    },
+    {
+      "id": "003C2AE1",
+      "type": "AmmoCombatRifleMarker",
+      "x": 52598.644531,
+      "y": 80871.867188
+    },
+    {
+      "id": "003C2AE3",
+      "type": "AmmoCombatRifleMarker",
+      "x": 52582.476562,
+      "y": 80909.914063
+    },
+    {
+      "id": "00345A18",
+      "type": "Ammo38CaliberMarker",
+      "x": 52593.621094,
+      "y": 81196.28125
+    },
+    {
+      "id": "004FC326",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 64424.160156,
+      "y": 114849.484375
+    },
+    {
+      "id": "003890E4",
+      "type": "AmmoAny_SameMarker",
+      "x": 56894.75,
+      "y": 104152.53125
+    },
+    {
+      "id": "003890E5",
+      "type": "AmmoAny_SameMarker",
+      "x": 56868.050781,
+      "y": 104164.015625
+    },
+    {
+      "id": "0032002B",
+      "type": "AmmoCombatRifleMarker",
+      "x": 51810.113281,
+      "y": 104934.71875
+    },
+    {
+      "id": "00529404",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 92431.101563,
+      "y": 28031.523437
+    },
+    {
+      "id": "00529405",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 92453.570313,
+      "y": 28047.333984
+    },
+    {
+      "id": "0038DD1B",
+      "type": "AmmoMissileMarker",
+      "x": 75741.898438,
+      "y": 17498.826172
+    },
+    {
+      "id": "003AD65F",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 70833.320312,
+      "y": 26043.203125
+    },
+    {
+      "id": "003AD660",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 70843.078125,
+      "y": 26059.382812
+    },
+    {
+      "id": "003AD64E",
+      "type": "Ammo10mmMarker",
+      "x": 69223.6875,
+      "y": 24305.669922
+    },
+    {
+      "id": "003AD650",
+      "type": "Ammo10mmMarker",
+      "x": 69224.554687,
+      "y": 24305.435547
+    },
+    {
+      "id": "003AD657",
+      "type": "Ammo44Marker",
+      "x": 69581.03125,
+      "y": 24473.68164
+    },
+    {
+      "id": "003AD659",
+      "type": "Ammo45CaliberMarker",
+      "x": 69506.289063,
+      "y": 24471.892578
+    },
+    {
+      "id": "003AD65B",
+      "type": "Ammo45CaliberMarker",
+      "x": 69509,
+      "y": 24470.841797
+    },
+    {
+      "id": "003AD65C",
+      "type": "Ammo45CaliberMarker",
+      "x": 69498.992188,
+      "y": 24459.072265
+    },
+    {
+      "id": "003AD661",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 69209.632812,
+      "y": 23742.255859
+    },
+    {
+      "id": "003AC55E",
+      "type": "Ammo45CaliberMarker",
+      "x": 85118.328125,
+      "y": 49622.226563
+    },
+    {
+      "id": "003AC55F",
+      "type": "Ammo45CaliberMarker",
+      "x": 85000.1875,
+      "y": 49450.175781
+    },
+    {
+      "id": "003AC563",
+      "type": "Ammo45CaliberMarker",
+      "x": 85118.914062,
+      "y": 49633.878907
+    },
+    {
+      "id": "003D1DE6",
+      "type": "AmmoHarpoonGunMarker",
+      "x": 69062.765625,
+      "y": 75924.765625
+    },
+    {
+      "id": "003D1DE7",
+      "type": "AmmoHarpoonGunMarker",
+      "x": 69076.007813,
+      "y": 75925.539062
+    },
+    {
+      "id": "003EAECA",
+      "type": "AmmoAny_SameMarker",
+      "x": 86582.65625,
+      "y": 129287.695313
+    },
+    {
+      "id": "003EAEFA",
+      "type": "AmmoAny_SameMarker",
+      "x": 86144.007813,
+      "y": 130272.59375
+    },
+    {
+      "id": "00355D4F",
+      "type": "AmmoAny_SameMarker",
+      "x": 86452.171875,
+      "y": 130272.820312
+    },
+    {
+      "id": "00355D5F",
+      "type": "AmmoAny_SameMarker",
+      "x": 86668.507812,
+      "y": 129371.007812
+    },
+    {
+      "id": "00355D6F",
+      "type": "AmmoAny_SameMarker",
+      "x": 86217.984375,
+      "y": 129821.0625
+    },
+    {
+      "id": "003DC820",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 85124.59375,
+      "y": 129021
+    },
+    {
+      "id": "00355D37",
+      "type": "AmmoAny_SameMarker",
+      "x": 85125.460937,
+      "y": 128599.625
+    },
+    {
+      "id": "00355D39",
+      "type": "AmmoAny_SameMarker",
+      "x": 85342.617188,
+      "y": 128624.132812
+    },
+    {
+      "id": "00355D60",
+      "type": "AmmoAny_SameMarker",
+      "x": 85717.359375,
+      "y": 129152.789063
+    },
+    {
+      "id": "00355D8B",
+      "type": "AmmoAny_SameMarker",
+      "x": 83467.484375,
+      "y": 130076.757813
+    },
+    {
+      "id": "0052261C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 73214.84375,
+      "y": 114220.507813
+    },
+    {
+      "id": "0052261D",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 73207.992187,
+      "y": 114247.570313
+    },
+    {
+      "id": "00522630",
+      "type": "AmmoAny_SameMarker",
+      "x": 69330.679688,
+      "y": 115077.890625
+    },
+    {
+      "id": "00522631",
+      "type": "AmmoAny_SameMarker",
+      "x": 69324.023438,
+      "y": 115093.179687
+    },
+    {
+      "id": "003A874D",
+      "type": "AmmoCombatRifleMarker",
+      "x": 68877.210937,
+      "y": 102079.007812
+    },
+    {
+      "id": "003A874E",
+      "type": "AmmoCombatRifleMarker",
+      "x": 68940.585938,
+      "y": 101860.6875
+    },
+    {
+      "id": "003A874F",
+      "type": "AmmoCombatRifleMarker",
+      "x": 68930.601563,
+      "y": 101828.859375
+    },
+    {
+      "id": "004396E2",
+      "type": "AmmoAny_SameMarker",
+      "x": 127216.71875,
+      "y": 26137.289062
+    },
+    {
+      "id": "004396E3",
+      "type": "AmmoAny_SameMarker",
+      "x": 127175.75,
+      "y": 26093.851562
+    },
+    {
+      "id": "004FCC34",
+      "type": "AmmoAny_SameMarker",
+      "x": 127896.804687,
+      "y": 27801.994141
+    },
+    {
+      "id": "004FCC35",
+      "type": "AmmoAny_SameMarker",
+      "x": 127875.265625,
+      "y": 27813.896485
+    },
+    {
+      "id": "003AC586",
+      "type": "Ammo44Marker",
+      "x": 115242.265625,
+      "y": 41290.152344
+    },
+    {
+      "id": "003AC57D",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 115133.570312,
+      "y": 39306.847656
+    },
+    {
+      "id": "003AC580",
+      "type": "Ammo45CaliberMarker",
+      "x": 115133.90625,
+      "y": 39304.296875
+    },
+    {
+      "id": "003B2E08",
+      "type": "AmmoFlareMarker",
+      "x": 100282.625,
+      "y": 35858.78125
+    },
+    {
+      "id": "003958AD",
+      "type": "AmmoAny_SameMarker",
+      "x": 114886.484375,
+      "y": 92713.59375
+    },
+    {
+      "id": "003958AE",
+      "type": "AmmoAny_SameMarker",
+      "x": 114849.859375,
+      "y": 92728.328125
+    },
+    {
+      "id": "0043BC60",
+      "type": "AmmoAny_SameMarker",
+      "x": 107553.976562,
+      "y": 94709.265625
+    },
+    {
+      "id": "003619D5",
+      "type": "AmmoAny_SameMarker",
+      "x": 107534.304688,
+      "y": 94721.242188
+    },
+    {
+      "id": "0036199B",
+      "type": "AmmoAny_SameMarker",
+      "x": 103949.789063,
+      "y": 95341.445312
+    },
+    {
+      "id": "003619A2",
+      "type": "AmmoAny_SameMarker",
+      "x": 104187.679688,
+      "y": 95079.5
+    },
+    {
+      "id": "003619F0",
+      "type": "AmmoAny_SameMarker",
+      "x": 104487.140625,
+      "y": 96988.101562
+    },
+    {
+      "id": "003619F3",
+      "type": "AmmoAny_SameMarker",
+      "x": 104211.578125,
+      "y": 97103.695313
+    },
+    {
+      "id": "003619F7",
+      "type": "AmmoAny_SameMarker",
+      "x": 103647.757812,
+      "y": 97123.414063
+    },
+    {
+      "id": "003619B0",
+      "type": "AmmoAny_SameMarker",
+      "x": 103582.382812,
+      "y": 94087.234375
+    },
+    {
+      "id": "003619B1",
+      "type": "AmmoAny_SameMarker",
+      "x": 103628.6875,
+      "y": 94124.21875
+    },
+    {
+      "id": "003619DD",
+      "type": "AmmoAny_SameMarker",
+      "x": 105777.804688,
+      "y": 93998.796875
+    },
+    {
+      "id": "00308709",
+      "type": "AmmoFusionCoreMarker",
+      "x": 105100.15625,
+      "y": 88117.679688
+    },
+    {
+      "id": "00450C8A",
+      "type": "AmmoCrossbowMarker",
+      "x": 98934,
+      "y": 94788.125
+    },
+    {
+      "id": "00450C8B",
+      "type": "AmmoCrossbowMarker",
+      "x": 98930.96875,
+      "y": 94779.804688
+    },
+    {
+      "id": "00450C8C",
+      "type": "AmmoCrossbowMarker",
+      "x": 98934.890625,
+      "y": 94817.9375
+    },
+    {
+      "id": "00386FD8",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 99021.648438,
+      "y": 94834.039063
+    },
+    {
+      "id": "003619BB",
+      "type": "AmmoAny_SameMarker",
+      "x": 99165.171875,
+      "y": 95044.765625
+    },
+    {
+      "id": "003619BC",
+      "type": "AmmoAny_SameMarker",
+      "x": 99162.703125,
+      "y": 95081.984375
+    },
+    {
+      "id": "003619BD",
+      "type": "AmmoAny_SameMarker",
+      "x": 99182.4375,
+      "y": 95031.429687
+    },
+    {
+      "id": "003619D1",
+      "type": "AmmoAny_SameMarker",
+      "x": 100809.601562,
+      "y": 98290.867188
+    },
+    {
+      "id": "00594743",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 107280.710937,
+      "y": 107774.195313
+    },
+    {
+      "id": "00594744",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 107268.25,
+      "y": 107762.289063
+    },
+    {
+      "id": "00594745",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 107316.304687,
+      "y": 107759.648438
+    },
+    {
+      "id": "0050CD56",
+      "type": "AmmoAny_SameMarker",
+      "x": 100801.023438,
+      "y": 98331.515625
+    },
+    {
+      "id": "0034D954",
+      "type": "AmmoAny_SameMarker",
+      "x": 21324.757812,
+      "y": 133150.140625
+    },
+    {
+      "id": "0034D958",
+      "type": "AmmoAny_SameMarker",
+      "x": 21019.107422,
+      "y": 131512.15625
+    },
+    {
+      "id": "0034D97D",
+      "type": "AmmoAny_SameMarker",
+      "x": 21049.50586,
+      "y": 132863.8125
+    },
+    {
+      "id": "0034D980",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 16544.021484,
+      "y": 133548.625
+    },
+    {
+      "id": "0038C02F",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 15891.958984,
+      "y": 133081.515625
+    },
+    {
+      "id": "0034D991",
+      "type": "AmmoAny_SameMarker",
+      "x": 15519.71582,
+      "y": 133853.5625
+    },
+    {
+      "id": "0034D993",
+      "type": "AmmoMissileMarker",
+      "x": 15525.536133,
+      "y": 134146.859375
+    },
+    {
+      "id": "0034D9A0",
+      "type": "AmmoAny_SameMarker",
+      "x": 15964.580078,
+      "y": 133689.796875
+    },
+    {
+      "id": "0034D9A1",
+      "type": "AmmoAny_SameMarker",
+      "x": 15966.90625,
+      "y": 134407.75
+    },
+    {
+      "id": "00116009",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 9340.199218,
+      "y": 140784.296875
+    },
+    {
+      "id": "0035E483",
+      "type": "Ammo44Marker",
+      "x": 11958.984375,
+      "y": 131880.828125
+    },
+    {
+      "id": "0035E484",
+      "type": "Ammo44Marker",
+      "x": 11835.611328,
+      "y": 131882.921875
+    },
+    {
+      "id": "0035E485",
+      "type": "Ammo44Marker",
+      "x": 12122.424804,
+      "y": 132050.875
+    },
+    {
+      "id": "003DF894",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 3567.083496,
+      "y": 140681.8125
+    },
+    {
+      "id": "003EABE5",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 7185.38916,
+      "y": 174090.9375
+    },
+    {
+      "id": "003EAC2F",
+      "type": "AmmoAny_SameMarker",
+      "x": 7895.496582,
+      "y": 173749.125
+    },
+    {
+      "id": "003EAC31",
+      "type": "AmmoCombatRifleMarker",
+      "x": 7553.845703,
+      "y": 173697.265625
+    },
+    {
+      "id": "003B2F2A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 7261.320313,
+      "y": 174374.921875
+    },
+    {
+      "id": "00365E7D",
+      "type": "Ammo38CaliberMarker",
+      "x": 55895.375,
+      "y": 158626.078125
+    },
+    {
+      "id": "00365E7E",
+      "type": "AmmoCrossbowMarker",
+      "x": 55870.222656,
+      "y": 158570.859375
+    },
+    {
+      "id": "00365E7F",
+      "type": "AmmoCrossbowMarker",
+      "x": 55863.238281,
+      "y": 158560.296875
+    },
+    {
+      "id": "00365E77",
+      "type": "AmmoCrossbowMarker",
+      "x": 56592.375,
+      "y": 158109.171875
+    },
+    {
+      "id": "00365E80",
+      "type": "AmmoCrossbowMarker",
+      "x": 56615.121094,
+      "y": 158128.5
+    },
+    {
+      "id": "00365E81",
+      "type": "AmmoCrossbowMarker",
+      "x": 56930.273437,
+      "y": 158373.796875
+    },
+    {
+      "id": "003C29C8",
+      "type": "AmmoAny_SameMarker",
+      "x": 61961.578125,
+      "y": 194515.53125
+    },
+    {
+      "id": "003C29C9",
+      "type": "AmmoAny_SameMarker",
+      "x": 61939.84375,
+      "y": 194494.28125
+    },
+    {
+      "id": "003C29CA",
+      "type": "AmmoAny_SameMarker",
+      "x": 65456.953125,
+      "y": 195288.9375
+    },
+    {
+      "id": "003C29CB",
+      "type": "AmmoAny_SameMarker",
+      "x": 65490.019532,
+      "y": 195324.6875
+    },
+    {
+      "id": "003C29CC",
+      "type": "AmmoAny_SameMarker",
+      "x": 65468.8125,
+      "y": 196560.96875
+    },
+    {
+      "id": "003DA4B9",
+      "type": "Ammo50CalBallMarker",
+      "x": 63349.277344,
+      "y": 190097.625
+    },
+    {
+      "id": "003DA4BA",
+      "type": "Ammo50CalBallMarker",
+      "x": 63323.695312,
+      "y": 190081.21875
+    },
+    {
+      "id": "00336B5B",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 57971.949219,
+      "y": 193729.65625
+    },
+    {
+      "id": "003DA4B7",
+      "type": "Ammo50CalBallMarker",
+      "x": 61395.542969,
+      "y": 191712.0625
+    },
+    {
+      "id": "003DA4B8",
+      "type": "Ammo50CalBallMarker",
+      "x": 61392.5625,
+      "y": 191684.171875
+    },
+    {
+      "id": "003DA4BD",
+      "type": "Ammo50CalBallMarker",
+      "x": 60879.789062,
+      "y": 189039.953125
+    },
+    {
+      "id": "003DA4BE",
+      "type": "Ammo50CalBallMarker",
+      "x": 60929.394531,
+      "y": 189079.375
+    },
+    {
+      "id": "003C29C6",
+      "type": "Ammo44Marker",
+      "x": 60670.976563,
+      "y": 192190.390625
+    },
+    {
+      "id": "003C29C7",
+      "type": "Ammo10mmMarker",
+      "x": 60699.484375,
+      "y": 192189.390625
+    },
+    {
+      "id": "00336B5E",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 61238.363281,
+      "y": 191406.609375
+    },
+    {
+      "id": "00365E3D",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 58041.144531,
+      "y": 172145.21875
+    },
+    {
+      "id": "003D400E",
+      "type": "AmmoFusionCoreMarker",
+      "x": 58212.558594,
+      "y": 169137.5
+    },
+    {
+      "id": "003DA4B5",
+      "type": "Ammo50CalBallMarker",
+      "x": 55948.226563,
+      "y": 193800.578125
+    },
+    {
+      "id": "003C29BD",
+      "type": "Ammo50CalBallMarker",
+      "x": 56089.484375,
+      "y": 193633.140625
+    },
+    {
+      "id": "003C29BE",
+      "type": "Ammo50CalBallMarker",
+      "x": 56111.792968,
+      "y": 193624.53125
+    },
+    {
+      "id": "003C29BF",
+      "type": "Ammo50CalBallMarker",
+      "x": 56412.570313,
+      "y": 193814.609375
+    },
+    {
+      "id": "003C29C0",
+      "type": "Ammo50CalBallMarker",
+      "x": 56418.238282,
+      "y": 193838.015625
+    },
+    {
+      "id": "003C30A0",
+      "type": "Ammo50CalBallMarker",
+      "x": 57156.222657,
+      "y": 188794.6875
+    },
+    {
+      "id": "003C29CE",
+      "type": "AmmoAny_SameMarker",
+      "x": 56778.960938,
+      "y": 188957.0625
+    },
+    {
+      "id": "0051A5F2",
+      "type": "Ammo50CalBallMarker",
+      "x": 39961.636719,
+      "y": 172512.25
+    },
+    {
+      "id": "0051A5F3",
+      "type": "Ammo50CalBallMarker",
+      "x": 39960.546875,
+      "y": 172486.359375
+    },
+    {
+      "id": "003DA4BF",
+      "type": "Ammo50CalBallMarker",
+      "x": 39187.558594,
+      "y": 172577.90625
+    },
+    {
+      "id": "003DA4C0",
+      "type": "Ammo50CalBallMarker",
+      "x": 39196.015625,
+      "y": 172557.65625
+    },
+    {
+      "id": "003DA4C3",
+      "type": "Ammo50CalBallMarker",
+      "x": 39952,
+      "y": 172646
+    },
+    {
+      "id": "003DA4C4",
+      "type": "Ammo50CalBallMarker",
+      "x": 39964.6875,
+      "y": 172996.125
+    },
+    {
+      "id": "003DA4C5",
+      "type": "Ammo50CalBallMarker",
+      "x": 39951.308594,
+      "y": 172916.5625
+    },
+    {
+      "id": "00355DAB",
+      "type": "AmmoAny_SameMarker",
+      "x": 97701.773437,
+      "y": 144517.75
+    },
+    {
+      "id": "00355DAD",
+      "type": "AmmoAny_SameMarker",
+      "x": 97440.835938,
+      "y": 144488.15625
+    },
+    {
+      "id": "00355D72",
+      "type": "AmmoAny_SameMarker",
+      "x": 85882.570312,
+      "y": 131412.453125
+    },
+    {
+      "id": "00355D73",
+      "type": "AmmoAny_SameMarker",
+      "x": 85179.507813,
+      "y": 131432.8125
+    },
+    {
+      "id": "004F78FC",
+      "type": "AmmoFlamerMarker",
+      "x": 67811.640625,
+      "y": 157868.015625
+    },
+    {
+      "id": "00394C05",
+      "type": "Ammo38CaliberMarker",
+      "x": 73074.132813,
+      "y": 180402.5625
+    },
+    {
+      "id": "00394C07",
+      "type": "Ammo38CaliberMarker",
+      "x": 73076.0625,
+      "y": 180431
+    },
+    {
+      "id": "00394C0B",
+      "type": "Ammo38CaliberMarker",
+      "x": 70091.234375,
+      "y": 184133.28125
+    },
+    {
+      "id": "003C29CD",
+      "type": "AmmoAny_SameMarker",
+      "x": 65670.195312,
+      "y": 196413.625
+    },
+    {
+      "id": "00394C18",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 68588.96875,
+      "y": 186162.5625
+    },
+    {
+      "id": "0035680A",
+      "type": "AmmoAny_SameMarker",
+      "x": 96978.742187,
+      "y": 198534.390625
+    },
+    {
+      "id": "0059A8ED",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 129312.210938,
+      "y": 158017.15625
+    },
+    {
+      "id": "0059A8EE",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 129329.101562,
+      "y": 158022.90625
+    },
+    {
+      "id": "00390C5A",
+      "type": "AmmoAny_SameMarker",
+      "x": 123285.59375,
+      "y": 136639.9375
+    },
+    {
+      "id": "00390C5B",
+      "type": "AmmoFlareMarker",
+      "x": 123391.234375,
+      "y": 136616.46875
+    },
+    {
+      "id": "003C3B97",
+      "type": "AmmoAny_SameMarker",
+      "x": 121771.273438,
+      "y": 133441.21875
+    },
+    {
+      "id": "00342C2E",
+      "type": "AmmoAny_SameMarker",
+      "x": 116073.09375,
+      "y": 160385.484375
+    },
+    {
+      "id": "0035DA5C",
+      "type": "AmmoAny_SameMarker",
+      "x": 115266.023438,
+      "y": 135365.3125
+    },
+    {
+      "id": "0035DA62",
+      "type": "AmmoAny_SameMarker",
+      "x": 115255.203125,
+      "y": 135377.3125
+    },
+    {
+      "id": "004FCC4F",
+      "type": "AmmoAny_SameMarker",
+      "x": 111444.976563,
+      "y": 180391.578125
+    },
+    {
+      "id": "004FCC50",
+      "type": "AmmoAny_SameMarker",
+      "x": 111474.921875,
+      "y": 180522.71875
+    },
+    {
+      "id": "004FCC51",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 111440.289063,
+      "y": 180410.015625
+    },
+    {
+      "id": "004FCC55",
+      "type": "AmmoAny_SameMarker",
+      "x": 110895.421875,
+      "y": 183400.46875
+    },
+    {
+      "id": "003071D9",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 111429.328125,
+      "y": 180390.90625
+    },
+    {
+      "id": "00342C87",
+      "type": "AmmoAny_SameMarker",
+      "x": 112148.640625,
+      "y": 182543.703125
+    },
+    {
+      "id": "00357B1B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 103882.976563,
+      "y": 194185.546875
+    },
+    {
+      "id": "00357B1E",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 103837.46875,
+      "y": 194499.4375
+    },
+    {
+      "id": "00357B20",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 103720.984375,
+      "y": 194445.734375
+    },
+    {
+      "id": "003DEF44",
+      "type": "AmmoShotgunMarker",
+      "x": 5781.254882,
+      "y": -133686.65625
+    },
+    {
+      "id": "003DEF45",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 6307.937012,
+      "y": -135486.125
+    },
+    {
+      "id": "002F8A25",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 738.502075,
+      "y": -152235.484375
+    },
+    {
+      "id": "0052CB0C",
+      "type": "AmmoAny_SameMarker",
+      "x": 65443.257813,
+      "y": -145613.59375
+    },
+    {
+      "id": "0052CB0D",
+      "type": "AmmoAny_SameMarker",
+      "x": 65430.328125,
+      "y": -145621.03125
+    },
+    {
+      "id": "00379182",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 74091.023438,
+      "y": -180187.609375
+    },
+    {
+      "id": "00379194",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 73897.125,
+      "y": -180473.109375
+    },
+    {
+      "id": "003A8CAA",
+      "type": "AmmoAny_SameMarker",
+      "x": 73742.015625,
+      "y": -143666.953125
+    },
+    {
+      "id": "003A8CE4",
+      "type": "AmmoAny_SameMarker",
+      "x": 73747.820313,
+      "y": -143653.53125
+    },
+    {
+      "id": "004E71C3",
+      "type": "AmmoFusionCoreMarker",
+      "x": 73630.359375,
+      "y": -143954.890625
+    },
+    {
+      "id": "003A8CA8",
+      "type": "AmmoAny_SameMarker",
+      "x": 73638.640625,
+      "y": -143965.84375
+    },
+    {
+      "id": "0052CB07",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 65681.046875,
+      "y": -146297.0625
+    },
+    {
+      "id": "00437305",
+      "type": "AmmoAny_SameMarker",
+      "x": 122951.828125,
+      "y": -170832.078125
+    },
+    {
+      "id": "004F7CDF",
+      "type": "AmmoAny_SameMarker",
+      "x": 121795.523437,
+      "y": -164019.140625
+    },
+    {
+      "id": "003D384E",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 122304.890625,
+      "y": -164560.03125
+    },
+    {
+      "id": "003D384F",
+      "type": "AmmoFusionCoreMarker",
+      "x": 122110.757813,
+      "y": -165653.109375
+    },
+    {
+      "id": "003CE8DA",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 116153.546875,
+      "y": -174031.984375
+    },
+    {
+      "id": "003710F8",
+      "type": "AmmoCombatRifleMarker",
+      "x": 116003.085937,
+      "y": -174146.515625
+    },
+    {
+      "id": "003710FA",
+      "type": "AmmoFusionCoreMarker",
+      "x": 115728.90625,
+      "y": -174158.578125
+    },
+    {
+      "id": "00371100",
+      "type": "AmmoCombatRifleMarker",
+      "x": 115605.765625,
+      "y": -174157.703125
+    },
+    {
+      "id": "003D3AB4",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 109386.890625,
+      "y": -172971.34375
+    },
+    {
+      "id": "003ADEBA",
+      "type": "AmmoCombatRifleMarker",
+      "x": 109983.398437,
+      "y": -172491.703125
+    },
+    {
+      "id": "0051E4A3",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 124631.898437,
+      "y": -135780.625
+    },
+    {
+      "id": "0051E4A4",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 124646.476562,
+      "y": -135776.125
+    },
+    {
+      "id": "003432BB",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 113680.460938,
+      "y": -148448.28125
+    },
+    {
+      "id": "003432BD",
+      "type": "AmmoCombatRifleMarker",
+      "x": 113779.59375,
+      "y": -148452.859375
+    },
+    {
+      "id": "003432C3",
+      "type": "AmmoMissileMarker",
+      "x": 112537.617188,
+      "y": -149143.140625
+    },
+    {
+      "id": "003432C4",
+      "type": "AmmoMissileMarker",
+      "x": 112568.507813,
+      "y": -149141.90625
+    },
+    {
+      "id": "003432C5",
+      "type": "AmmoMissileMarker",
+      "x": 112595.21875,
+      "y": -149147.125
+    },
+    {
+      "id": "003432C6",
+      "type": "AmmoCombatRifleMarker",
+      "x": 112538.640625,
+      "y": -149139.265625
+    },
+    {
+      "id": "003432C7",
+      "type": "AmmoCombatRifleMarker",
+      "x": 112559.664063,
+      "y": -149141.140625
+    },
+    {
+      "id": "003432C8",
+      "type": "AmmoCombatRifleMarker",
+      "x": 112586.320313,
+      "y": -149146.96875
+    },
+    {
+      "id": "003432C9",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 112535.671875,
+      "y": -149136.6875
+    },
+    {
+      "id": "003432CA",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 112564.3125,
+      "y": -149141.84375
+    },
+    {
+      "id": "003432CB",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 112586.757813,
+      "y": -149144.59375
+    },
+    {
+      "id": "003432CC",
+      "type": "AmmoCombatRifleMarker",
+      "x": 112607.320313,
+      "y": -149148.46875
+    },
+    {
+      "id": "00392B12",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 103830.203125,
+      "y": -136809.390625
+    },
+    {
+      "id": "003C5E3F",
+      "type": "AmmoAny_SameMarker",
+      "x": 8496.095704,
+      "y": -99718.179687
+    },
+    {
+      "id": "003C5E40",
+      "type": "AmmoAny_SameMarker",
+      "x": 8525.486328,
+      "y": -99712.4375
+    },
+    {
+      "id": "003C5E43",
+      "type": "AmmoAny_SameMarker",
+      "x": 8361.009766,
+      "y": -99216.851563
+    },
+    {
+      "id": "003C5E45",
+      "type": "AmmoAny_SameMarker",
+      "x": 8338.910156,
+      "y": -99230.125
+    },
+    {
+      "id": "003C5E4E",
+      "type": "AmmoAny_SameMarker",
+      "x": 8558.504882,
+      "y": -98988.8125
+    },
+    {
+      "id": "004F7907",
+      "type": "AmmoShotgunMarker",
+      "x": 8242.532226,
+      "y": -129684.945313
+    },
+    {
+      "id": "003C5E74",
+      "type": "AmmoShotgunMarker",
+      "x": 7198.324707,
+      "y": -99204.632813
+    },
+    {
+      "id": "003A674B",
+      "type": "AmmoFlareMarker",
+      "x": 7180.100098,
+      "y": -99252.265625
+    },
+    {
+      "id": "003A674C",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 7137.283691,
+      "y": -98719.015625
+    },
+    {
+      "id": "003A674D",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 7141.390137,
+      "y": -98665.734375
+    },
+    {
+      "id": "004F996F",
+      "type": "AmmoAny_SameMarker",
+      "x": 29775.183594,
+      "y": -75825.359375
+    },
+    {
+      "id": "00349673",
+      "type": "AmmoAny_SameMarker",
+      "x": 24693.933594,
+      "y": -70899.164063
+    },
+    {
+      "id": "0036FD91",
+      "type": "AmmoAny_SameMarker",
+      "x": 3303.90625,
+      "y": -68260.382813
+    },
+    {
+      "id": "0059B97B",
+      "type": "AmmoFusionCoreMarker",
+      "x": 1449.935791,
+      "y": -86506.171875
+    },
+    {
+      "id": "004E1751",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 28255.886719,
+      "y": -44228.828125
+    },
+    {
+      "id": "003419E0",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 28378.771484,
+      "y": -43728.410157
+    },
+    {
+      "id": "00004180",
+      "type": "AmmoCombatRifleMarker",
+      "x": 28529.982422,
+      "y": -44091.738282
+    },
+    {
+      "id": "003419C0",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 28671.84961,
+      "y": -45479.144531
+    },
+    {
+      "id": "003419BF",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 28640.017578,
+      "y": -45475.933594
+    },
+    {
+      "id": "00582104",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 21417.878906,
+      "y": -48445.90625
+    },
+    {
+      "id": "002C5F1D",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 13300.147461,
+      "y": -46900.992188
+    },
+    {
+      "id": "001A342A",
+      "type": "AmmoAny_SameMarker",
+      "x": 13297.780273,
+      "y": -46871.195313
+    },
+    {
+      "id": "0050BDBF",
+      "type": "AmmoAny_SameMarker",
+      "x": 4667.67334,
+      "y": -47303.929688
+    },
+    {
+      "id": "0050BC85",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 4569.446289,
+      "y": -58169.550781
+    },
+    {
+      "id": "0050BC86",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 4551.3125,
+      "y": -58155.066406
+    },
+    {
+      "id": "0036FD9D",
+      "type": "AmmoAny_SameMarker",
+      "x": 5105.016113,
+      "y": -64134.128906
+    },
+    {
+      "id": "003D1EE1",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 390.926331,
+      "y": -33711.363281
+    },
+    {
+      "id": "003D1EE2",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 376.221893,
+      "y": -33692.957031
+    },
+    {
+      "id": "003D185C",
+      "type": "AmmoAny_SameMarker",
+      "x": 2359.519287,
+      "y": -35541.414062
+    },
+    {
+      "id": "003D185D",
+      "type": "AmmoAny_SameMarker",
+      "x": 2363.00708,
+      "y": -35529.84375
+    },
+    {
+      "id": "0050BD69",
+      "type": "AmmoAny_SameMarker",
+      "x": 1213.68042,
+      "y": -44161.242188
+    },
+    {
+      "id": "0050BD6A",
+      "type": "AmmoAny_SameMarker",
+      "x": 1224.256836,
+      "y": -44160.46875
+    },
+    {
+      "id": "0050BD6B",
+      "type": "AmmoAny_SameMarker",
+      "x": 1214.986206,
+      "y": -44374.191406
+    },
+    {
+      "id": "003AD692",
+      "type": "Ammo45CaliberMarker",
+      "x": 21079.222656,
+      "y": -7325.778809
+    },
+    {
+      "id": "003AD693",
+      "type": "Ammo45CaliberMarker",
+      "x": 21057.578125,
+      "y": -7321.089356
+    },
+    {
+      "id": "0039F207",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 8498.740235,
+      "y": -22463.25
+    },
+    {
+      "id": "0039F208",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 8477.916016,
+      "y": -22460.529297
+    },
+    {
+      "id": "0034599F",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 12174.742187,
+      "y": -20589.986328
+    },
+    {
+      "id": "003459A0",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 12261.320312,
+      "y": -20569.488281
+    },
+    {
+      "id": "0050C8B5",
+      "type": "AmmoAny_SameMarker",
+      "x": 44377.855469,
+      "y": -121126.875
+    },
+    {
+      "id": "003D1053",
+      "type": "Ammo44Marker",
+      "x": 56134.0625,
+      "y": -68703.648438
+    },
+    {
+      "id": "003D1054",
+      "type": "Ammo44Marker",
+      "x": 56134.0625,
+      "y": -68703.648438
+    },
+    {
+      "id": "0034E88B",
+      "type": "AmmoAny_SameMarker",
+      "x": 36333.84375,
+      "y": -65914.265625
+    },
+    {
+      "id": "0034E88D",
+      "type": "AmmoAny_SameMarker",
+      "x": 35964.507812,
+      "y": -65744.765625
+    },
+    {
+      "id": "0059B930",
+      "type": "AmmoAny_SameMarker",
+      "x": 56127.652343,
+      "y": -61815.332031
+    },
+    {
+      "id": "003E3C72",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 50795.535156,
+      "y": -40778.867187
+    },
+    {
+      "id": "004530B1",
+      "type": "AmmoCrossbowMarker",
+      "x": 45773.449218,
+      "y": -39260.492188
+    },
+    {
+      "id": "004530B2",
+      "type": "AmmoCrossbowMarker",
+      "x": 45746.113282,
+      "y": -39266.199219
+    },
+    {
+      "id": "004530B3",
+      "type": "AmmoCrossbowMarker",
+      "x": 45779.675781,
+      "y": -39261.226563
+    },
+    {
+      "id": "004530B4",
+      "type": "AmmoCrossbowMarker",
+      "x": 45586.058594,
+      "y": -39354.722657
+    },
+    {
+      "id": "004530B5",
+      "type": "AmmoCrossbowMarker",
+      "x": 45550.652344,
+      "y": -39355.027344
+    },
+    {
+      "id": "00450C92",
+      "type": "AmmoCrossbowMarker",
+      "x": 47113.679687,
+      "y": -39820.523437
+    },
+    {
+      "id": "00450C93",
+      "type": "AmmoCrossbowMarker",
+      "x": 47111.535156,
+      "y": -39812.417968
+    },
+    {
+      "id": "003E1312",
+      "type": "AmmoAny_SameMarker",
+      "x": 44408.269531,
+      "y": -39255.578125
+    },
+    {
+      "id": "003E1313",
+      "type": "AmmoAny_SameMarker",
+      "x": 44425.066406,
+      "y": -39273.480469
+    },
+    {
+      "id": "0034E894",
+      "type": "AmmoAny_SameMarker",
+      "x": 40986.476563,
+      "y": -62784.207031
+    },
+    {
+      "id": "0055AC62",
+      "type": "AmmoAny_SameMarker",
+      "x": 40257.023437,
+      "y": -64130.871094
+    },
+    {
+      "id": "0034E886",
+      "type": "AmmoAny_SameMarker",
+      "x": 36717.515625,
+      "y": -65312.421875
+    },
+    {
+      "id": "003AF14F",
+      "type": "Ammo45CaliberMarker",
+      "x": 42234.679687,
+      "y": -8920.177734
+    },
+    {
+      "id": "003B2E34",
+      "type": "AmmoCombatRifleMarker",
+      "x": 33887.613281,
+      "y": -5304.791504
+    },
+    {
+      "id": "003B2E3A",
+      "type": "AmmoCombatRifleMarker",
+      "x": 33914.28125,
+      "y": -5379.47998
+    },
+    {
+      "id": "003B2E3C",
+      "type": "AmmoCombatRifleMarker",
+      "x": 33915.925781,
+      "y": -5382.274414
+    },
+    {
+      "id": "003D5DC3",
+      "type": "Ammo44Marker",
+      "x": 83377.632812,
+      "y": -127282.429688
+    },
+    {
+      "id": "003A8910",
+      "type": "AmmoCombatRifleMarker",
+      "x": 90484.210938,
+      "y": -80002.648437
+    },
+    {
+      "id": "00345A06",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 78990.773438,
+      "y": -87922.742187
+    },
+    {
+      "id": "00437BAB",
+      "type": "AmmoAny_SameMarker",
+      "x": 69193.921875,
+      "y": -95010.585937
+    },
+    {
+      "id": "0036FDF6",
+      "type": "AmmoAny_SameMarker",
+      "x": 92277.96875,
+      "y": -58553.226562
+    },
+    {
+      "id": "0036FDF9",
+      "type": "AmmoAny_SameMarker",
+      "x": 92279.882812,
+      "y": -58572.582031
+    },
+    {
+      "id": "00342C57",
+      "type": "AmmoAny_SameMarker",
+      "x": 88039.609375,
+      "y": -42393.335938
+    },
+    {
+      "id": "0036FDEC",
+      "type": "AmmoAny_SameMarker",
+      "x": 88467.375,
+      "y": -56519.660156
+    },
+    {
+      "id": "0036FDED",
+      "type": "AmmoAny_SameMarker",
+      "x": 88475.71875,
+      "y": -56501.929687
+    },
+    {
+      "id": "0036FDFC",
+      "type": "AmmoAny_SameMarker",
+      "x": 85043.3125,
+      "y": -61198.546875
+    },
+    {
+      "id": "0036FDFD",
+      "type": "AmmoAny_SameMarker",
+      "x": 85002.195312,
+      "y": -61129.988282
+    },
+    {
+      "id": "003786E5",
+      "type": "AmmoCrossbowMarker",
+      "x": 67717.679687,
+      "y": -30395.041015
+    },
+    {
+      "id": "003786DF",
+      "type": "AmmoCrossbowMarker",
+      "x": 67696.296875,
+      "y": -30404.392578
+    },
+    {
+      "id": "003786E4",
+      "type": "AmmoCrossbowMarker",
+      "x": 67672.507812,
+      "y": -30390.15625
+    },
+    {
+      "id": "003786E1",
+      "type": "AmmoCrossbowMarker",
+      "x": 67645.882812,
+      "y": -30427.091797
+    },
+    {
+      "id": "003786E0",
+      "type": "AmmoCrossbowMarker",
+      "x": 67636.742187,
+      "y": -30402.570312
+    },
+    {
+      "id": "003786E2",
+      "type": "AmmoCrossbowMarker",
+      "x": 67632.867187,
+      "y": -30426.197265
+    },
+    {
+      "id": "003786E3",
+      "type": "AmmoCrossbowMarker",
+      "x": 67597.140625,
+      "y": -30444.773437
+    },
+    {
+      "id": "003786F1",
+      "type": "AmmoCrossbowMarker",
+      "x": 67828.171875,
+      "y": -30193.355469
+    },
+    {
+      "id": "003B95DF",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 120428.671875,
+      "y": -125669.796875
+    },
+    {
+      "id": "0036A0A8",
+      "type": "AmmoAny_SameMarker",
+      "x": 119292.0625,
+      "y": -128874.054688
+    },
+    {
+      "id": "003CE880",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 118596.921875,
+      "y": -80967.265625
+    },
+    {
+      "id": "00369B49",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 114698.203125,
+      "y": -86093.328125
+    },
+    {
+      "id": "00369B4A",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 114705.507812,
+      "y": -86071.617188
+    },
+    {
+      "id": "00450C94",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 110809.398437,
+      "y": -69573.710937
+    },
+    {
+      "id": "00450C95",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 110824.742187,
+      "y": -69574.484375
+    },
+    {
+      "id": "001A1E80",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 128169.203125,
+      "y": -64402.527343
+    },
+    {
+      "id": "0050D608",
+      "type": "AmmoAny_SameMarker",
+      "x": 99587.429688,
+      "y": -58469.144531
+    },
+    {
+      "id": "00511737",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 99739.453125,
+      "y": -59552.1875
+    },
+    {
+      "id": "003957B4",
+      "type": "AmmoAny_SameMarker",
+      "x": 99841.617188,
+      "y": -58428.363281
+    },
+    {
+      "id": "003957B5",
+      "type": "AmmoAny_SameMarker",
+      "x": 99859.414063,
+      "y": -58445.121093
+    },
+    {
+      "id": "003957B6",
+      "type": "AmmoFusionCoreMarker",
+      "x": 99828.828125,
+      "y": -58303.359375
+    },
+    {
+      "id": "003957E3",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 100602.507812,
+      "y": -59032.585938
+    },
+    {
+      "id": "003957E4",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 100599.625,
+      "y": -58992.0625
+    },
+    {
+      "id": "003957E5",
+      "type": "AmmoAny_SameMarker",
+      "x": 99033.882813,
+      "y": -58276.566406
+    },
+    {
+      "id": "00312264",
+      "type": "AmmoCombatRifleMarker",
+      "x": 116625.40625,
+      "y": -12902.045898
+    },
+    {
+      "id": "00312266",
+      "type": "AmmoCombatRifleMarker",
+      "x": 116610.6875,
+      "y": -12907.373046
+    },
+    {
+      "id": "0030010E",
+      "type": "Ammo10mmMarker",
+      "x": 118301.304687,
+      "y": -16683.001953
+    },
+    {
+      "id": "0030017F",
+      "type": "AmmoAny_SameMarker",
+      "x": 118138.585938,
+      "y": -16409.455079
+    },
+    {
+      "id": "004F995C",
+      "type": "AmmoAny_SameMarker",
+      "x": 99379.382812,
+      "y": -25816.578125
+    },
+    {
+      "id": "004F995D",
+      "type": "AmmoAny_SameMarker",
+      "x": 99361.804687,
+      "y": -25808.240235
+    },
+    {
+      "id": "003E5D01",
+      "type": "Ammo38CaliberMarker",
+      "x": 161001.609375,
+      "y": 6300.993652
+    },
+    {
+      "id": "003E5D17",
+      "type": "Ammo45CaliberMarker",
+      "x": 160310.09375,
+      "y": 5838.738281
+    },
+    {
+      "id": "003E5D1A",
+      "type": "Ammo45CaliberMarker",
+      "x": 160250.109375,
+      "y": 5805.857422
+    },
+    {
+      "id": "003E5D1E",
+      "type": "Ammo45CaliberMarker",
+      "x": 160275.859375,
+      "y": 5787.103027
+    },
+    {
+      "id": "003E5D21",
+      "type": "AmmoFlareMarker",
+      "x": 162707.90625,
+      "y": 3852.24292
+    },
+    {
+      "id": "003E5D24",
+      "type": "AmmoFlareMarker",
+      "x": 163794.484375,
+      "y": 2656.421631
+    },
+    {
+      "id": "003E5D78",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 158955.140625,
+      "y": 2819.803223
+    },
+    {
+      "id": "003E5D81",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 159085.59375,
+      "y": 2922.667237
+    },
+    {
+      "id": "003E5DDB",
+      "type": "Ammo10mmMarker",
+      "x": 156424.78125,
+      "y": 1986.059814
+    },
+    {
+      "id": "003E5DDC",
+      "type": "Ammo10mmMarker",
+      "x": 156430.34375,
+      "y": 1993.584717
+    },
+    {
+      "id": "00111BEB",
+      "type": "Ammo44Marker",
+      "x": 140891.4375,
+      "y": 22231.615235
+    },
+    {
+      "id": "00111BD2",
+      "type": "Ammo44Marker",
+      "x": 140901.421875,
+      "y": 22250.6875
+    },
+    {
+      "id": "00490315",
+      "type": "Ammo10mmMarker",
+      "x": 135387.5,
+      "y": 21419.535156
+    },
+    {
+      "id": "00126BA7",
+      "type": "Ammo38CaliberMarker",
+      "x": 135424.359375,
+      "y": 21369.824219
+    },
+    {
+      "id": "00126BA8",
+      "type": "Ammo10mmMarker",
+      "x": 135376.953125,
+      "y": 21430.748047
+    },
+    {
+      "id": "001961EB",
+      "type": "AmmoAny_SameMarker",
+      "x": 138404.625,
+      "y": 2365.153809
+    },
+    {
+      "id": "001961EC",
+      "type": "AmmoAny_SameMarker",
+      "x": 137814.1875,
+      "y": 2410.299072
+    },
+    {
+      "id": "00196315",
+      "type": "AmmoAny_SameMarker",
+      "x": 138021.734375,
+      "y": 1733.190308
+    },
+    {
+      "id": "001A9716",
+      "type": "AmmoAny_SameMarker",
+      "x": 137577.5625,
+      "y": 2334.559326
+    },
+    {
+      "id": "00268D1F",
+      "type": "AmmoAny_SameMarker",
+      "x": 137581.53125,
+      "y": 2551.159913
+    },
+    {
+      "id": "003E4DC7",
+      "type": "Ammo44Marker",
+      "x": 162197.171875,
+      "y": 45529.289062
+    },
+    {
+      "id": "003E4D99",
+      "type": "AmmoFusionCore_Dmg50Marker",
+      "x": 162117.375,
+      "y": 45497.671875
+    },
+    {
+      "id": "003E4D9A",
+      "type": "AmmoCombatRifleMarker",
+      "x": 162120.328125,
+      "y": 45513.082031
+    },
+    {
+      "id": "003E4D9B",
+      "type": "AmmoCombatRifleMarker",
+      "x": 162119.859375,
+      "y": 45497.554687
+    },
+    {
+      "id": "003E4E34",
+      "type": "AmmoFlareMarker",
+      "x": 161427,
+      "y": 43528.980469
+    },
+    {
+      "id": "003A72CE",
+      "type": "AmmoLevergunMarker",
+      "x": 162032.453125,
+      "y": 43615.65625
+    },
+    {
+      "id": "003A72CF",
+      "type": "AmmoCrossbowMarker",
+      "x": 161992.78125,
+      "y": 43615.8125
+    },
+    {
+      "id": "003A72DA",
+      "type": "AmmoFlareMarker",
+      "x": 161433.3125,
+      "y": 43541.367187
+    },
+    {
+      "id": "004F8DED",
+      "type": "AmmoAny_SameMarker",
+      "x": 158414.09375,
+      "y": 49022.960937
+    },
+    {
+      "id": "003E20AB",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 158408.453125,
+      "y": 86919.640625
+    },
+    {
+      "id": "003E20AC",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 158414.46875,
+      "y": 86947.171875
+    },
+    {
+      "id": "0036BEF2",
+      "type": "AmmoAny_SameMarker",
+      "x": 151727.328125,
+      "y": 85043.4375
+    },
+    {
+      "id": "0036BEF3",
+      "type": "AmmoAny_SameMarker",
+      "x": 151856.40625,
+      "y": 85018.0625
+    },
+    {
+      "id": "0036BEFD",
+      "type": "AmmoAny_SameMarker",
+      "x": 152366.40625,
+      "y": 85158.484375
+    },
+    {
+      "id": "0036BEFE",
+      "type": "AmmoAny_SameMarker",
+      "x": 152365.359375,
+      "y": 85189.460938
+    },
+    {
+      "id": "003E5533",
+      "type": "AmmoAny_SameMarker",
+      "x": 151265.96875,
+      "y": 84805.796875
+    },
+    {
+      "id": "0036BEF4",
+      "type": "AmmoAny_SameMarker",
+      "x": 151529.109375,
+      "y": 85591.835938
+    },
+    {
+      "id": "0036BEF5",
+      "type": "AmmoAny_SameMarker",
+      "x": 151502.1875,
+      "y": 85541.992187
+    },
+    {
+      "id": "003C6276",
+      "type": "AmmoShotgunMarker",
+      "x": 139485.125,
+      "y": 111857.15625
+    },
+    {
+      "id": "00520D06",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 132293.578125,
+      "y": 103982.125
+    },
+    {
+      "id": "00520D07",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 132283.171875,
+      "y": 103982.960937
+    },
+    {
+      "id": "004FB0DE",
+      "type": "AmmoAny_SameMarker",
+      "x": 193321.296875,
+      "y": 13352.731445
+    },
+    {
+      "id": "004FB0DF",
+      "type": "AmmoAny_SameMarker",
+      "x": 193331.5,
+      "y": 13377.425781
+    },
+    {
+      "id": "004F8F51",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 193310.28125,
+      "y": 14648.620117
+    },
+    {
+      "id": "0014882C",
+      "type": "AmmoAny_SameMarker",
+      "x": 196366.03125,
+      "y": 14393.202149
+    },
+    {
+      "id": "0014882D",
+      "type": "AmmoAny_SameMarker",
+      "x": 196351.59375,
+      "y": 14372.620117
+    },
+    {
+      "id": "003472EA",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 194763.671875,
+      "y": 14998.092773
+    },
+    {
+      "id": "003472B9",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 195924.8125,
+      "y": 14455.663086
+    },
+    {
+      "id": "003472B1",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 193722.875,
+      "y": 14332.750977
+    },
+    {
+      "id": "003447F6",
+      "type": "AmmoFlareMarker",
+      "x": 193329.09375,
+      "y": 14673.575195
+    },
+    {
+      "id": "003447C5",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 193351.140625,
+      "y": 14737.837891
+    },
+    {
+      "id": "00347362",
+      "type": "Ammo44Marker",
+      "x": 189889.453125,
+      "y": 15921.661133
+    },
+    {
+      "id": "0034730A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 188669,
+      "y": 14861.666015
+    },
+    {
+      "id": "003E5CD4",
+      "type": "AmmoCombatRifleMarker",
+      "x": 169198.109375,
+      "y": 4871.545899
+    },
+    {
+      "id": "003E5CD8",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 169176.3125,
+      "y": 4843.775391
+    },
+    {
+      "id": "003E5CC1",
+      "type": "Ammo10mmMarker",
+      "x": 168004.8125,
+      "y": 3570.289307
+    },
+    {
+      "id": "0042F6CC",
+      "type": "Ammo50CalBallMarker",
+      "x": 168015.5,
+      "y": 544.185181
+    },
+    {
+      "id": "0042F6CD",
+      "type": "Ammo50CalBallMarker",
+      "x": 168008.03125,
+      "y": 536.300232
+    },
+    {
+      "id": "0042F6CE",
+      "type": "Ammo50CalBallMarker",
+      "x": 168016.65625,
+      "y": 527.658264
+    },
+    {
+      "id": "0042F6CF",
+      "type": "Ammo50CalBallMarker",
+      "x": 168068.15625,
+      "y": 497.227387
+    },
+    {
+      "id": "0042F6D0",
+      "type": "Ammo50CalBallMarker",
+      "x": 168067.34375,
+      "y": 478.171204
+    },
+    {
+      "id": "0042F6D1",
+      "type": "Ammo50CalBallMarker",
+      "x": 168055.234375,
+      "y": 487.843964
+    },
+    {
+      "id": "003E5B7D",
+      "type": "Ammo50CalBallMarker",
+      "x": 168016.390625,
+      "y": 536.970459
+    },
+    {
+      "id": "003E5B7E",
+      "type": "Ammo50CalBallMarker",
+      "x": 168067.921875,
+      "y": 488.662598
+    },
+    {
+      "id": "0042F6F0",
+      "type": "AmmoAny_SameMarker",
+      "x": 166241.359375,
+      "y": 7480.239258
+    },
+    {
+      "id": "0042F6F1",
+      "type": "AmmoAny_SameMarker",
+      "x": 166215.8125,
+      "y": 7261.410157
+    },
+    {
+      "id": "0042F6DB",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 166708.984375,
+      "y": 1997.904175
+    },
+    {
+      "id": "0042F6E9",
+      "type": "AmmoAny_SameMarker",
+      "x": 165977.125,
+      "y": 2588.432373
+    },
+    {
+      "id": "0042F6EA",
+      "type": "AmmoAny_SameMarker",
+      "x": 165962.28125,
+      "y": 2578.902343
+    },
+    {
+      "id": "003E5CA4",
+      "type": "Ammo38CaliberMarker",
+      "x": 165923.40625,
+      "y": 2018.803467
+    },
+    {
+      "id": "003E5CAA",
+      "type": "Ammo44Marker",
+      "x": 165389.09375,
+      "y": 1589.787109
+    },
+    {
+      "id": "003E5CDB",
+      "type": "AmmoMissileMarker",
+      "x": 167586.53125,
+      "y": 3617.868408
+    },
+    {
+      "id": "003E5CDF",
+      "type": "AmmoMissileMarker",
+      "x": 167674.0625,
+      "y": 3565.866699
+    },
+    {
+      "id": "003E5CE6",
+      "type": "AmmoMissileMarker",
+      "x": 167550.625,
+      "y": 3601.316406
+    },
+    {
+      "id": "003E5CEC",
+      "type": "Ammo38CaliberMarker",
+      "x": 165276.171875,
+      "y": 1864.779175
+    },
+    {
+      "id": "003E5CEF",
+      "type": "Ammo38CaliberMarker",
+      "x": 165280.171875,
+      "y": 1867.689697
+    },
+    {
+      "id": "003E5E01",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 164773.25,
+      "y": 1657.328247
+    },
+    {
+      "id": "003E5E02",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 164806.8125,
+      "y": 1659.436279
+    },
+    {
+      "id": "003356C0",
+      "type": "Ammo44Marker",
+      "x": 164051.03125,
+      "y": 2877.921875
+    },
+    {
+      "id": "003314D4",
+      "type": "AmmoAny_SameMarker",
+      "x": 178723.140625,
+      "y": 61758.476562
+    },
+    {
+      "id": "003314D6",
+      "type": "AmmoFusionCore_Dmg50Marker",
+      "x": 176860.53125,
+      "y": 58682.089844
+    },
+    {
+      "id": "003314D7",
+      "type": "AmmoFlareMarker",
+      "x": 178188.5625,
+      "y": 59693.066406
+    },
+    {
+      "id": "004F8E22",
+      "type": "AmmoAny_SameMarker",
+      "x": 176746.265625,
+      "y": 44790.359375
+    },
+    {
+      "id": "004F8E23",
+      "type": "AmmoAny_SameMarker",
+      "x": 176762.109375,
+      "y": 44772.609375
+    },
+    {
+      "id": "003DA468",
+      "type": "AmmoCombatRifleMarker",
+      "x": 173924.609375,
+      "y": 64624.351563
+    },
+    {
+      "id": "003DA469",
+      "type": "AmmoCombatRifleMarker",
+      "x": 173948.546875,
+      "y": 64642.671875
+    },
+    {
+      "id": "003DA46A",
+      "type": "AmmoCombatRifleMarker",
+      "x": 173925.75,
+      "y": 64659.902344
+    },
+    {
+      "id": "003314CD",
+      "type": "Ammo10mmMarker",
+      "x": 172923.859375,
+      "y": 65328.980469
+    },
+    {
+      "id": "0039E7E1",
+      "type": "Ammo44Marker",
+      "x": 176089.265625,
+      "y": 58431.703125
+    },
+    {
+      "id": "003E4D47",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 164280.0625,
+      "y": 44120.363282
+    },
+    {
+      "id": "003E4D48",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 164279.203125,
+      "y": 44136.496094
+    },
+    {
+      "id": "003518A6",
+      "type": "AmmoAny_SameMarker",
+      "x": 188727.421875,
+      "y": 96224.726562
+    },
+    {
+      "id": "005A2AAC",
+      "type": "Ammo44Marker",
+      "x": 187191.265625,
+      "y": 95555.28125
+    },
+    {
+      "id": "0037BE68",
+      "type": "AmmoFusionCoreMarker",
+      "x": 183228.75,
+      "y": 85934.625
+    },
+    {
+      "id": "003096EB",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 182387.921875,
+      "y": 79349.8125
+    },
+    {
+      "id": "003B75A7",
+      "type": "AmmoMissileMarker",
+      "x": 183398.40625,
+      "y": 78266.9375
+    },
+    {
+      "id": "003B75A8",
+      "type": "AmmoMissileMarker",
+      "x": 183418.53125,
+      "y": 78296.453125
+    },
+    {
+      "id": "003A888E",
+      "type": "AmmoGaussRifleMarker",
+      "x": 182475.171875,
+      "y": 80019.265625
+    },
+    {
+      "id": "003520BC",
+      "type": "AmmoMissileMarker",
+      "x": 182574.28125,
+      "y": 80248.703125
+    },
+    {
+      "id": "003518AC",
+      "type": "AmmoLasergunMarker",
+      "x": 195731.328125,
+      "y": 103526.335938
+    },
+    {
+      "id": "00351808",
+      "type": "AmmoMissileMarker",
+      "x": 190143.078125,
+      "y": 102725.90625
+    },
+    {
+      "id": "003A4DDB",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 171087.34375,
+      "y": 125107.203125
+    },
+    {
+      "id": "003A4DDC",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 171076.9375,
+      "y": 125128.585937
+    },
+    {
+      "id": "003518E7",
+      "type": "AmmoAny_SameMarker",
+      "x": 197444.875,
+      "y": 98605.265625
+    },
+    {
+      "id": "003518EB",
+      "type": "AmmoAny_SameMarker",
+      "x": 197177.734375,
+      "y": 99060.695313
+    },
+    {
+      "id": "004E3501",
+      "type": "AmmoMinigunMarker",
+      "x": 141392.0625,
+      "y": 151826.265625
+    },
+    {
+      "id": "004E3502",
+      "type": "AmmoMinigunMarker",
+      "x": 141403.84375,
+      "y": 151805.40625
+    },
+    {
+      "id": "004E3503",
+      "type": "AmmoMinigunMarker",
+      "x": 141406.25,
+      "y": 151819.4375
+    },
+    {
+      "id": "0050FBC8",
+      "type": "AmmoAny_SameMarker",
+      "x": 139452.453125,
+      "y": 142779.1875
+    },
+    {
+      "id": "0051CBA6",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 136274.515625,
+      "y": 161898.75
+    },
+    {
+      "id": "0051CBA7",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 136292.21875,
+      "y": 161921.828125
+    },
+    {
+      "id": "004E34FC",
+      "type": "AmmoLasergunMarker",
+      "x": 137955.25,
+      "y": 151580.078125
+    },
+    {
+      "id": "004E34E7",
+      "type": "Ammo44Marker",
+      "x": 135717.375,
+      "y": 148873.9375
+    },
+    {
+      "id": "004E34F2",
+      "type": "AmmoShotgunMarker",
+      "x": 135887.265625,
+      "y": 149841.421875
+    },
+    {
+      "id": "004E34F3",
+      "type": "AmmoShotgunMarker",
+      "x": 135886.015625,
+      "y": 149856.25
+    },
+    {
+      "id": "00342727",
+      "type": "Ammo44Marker",
+      "x": 139176.375,
+      "y": 142388.828125
+    },
+    {
+      "id": "0050FBC7",
+      "type": "AmmoAny_SameMarker",
+      "x": 134806.265625,
+      "y": 149175.578125
+    },
+    {
+      "id": "004F998A",
+      "type": "Ammo10mmMarker",
+      "x": 148835.046875,
+      "y": 200188.234375
+    },
+    {
+      "id": "004F9989",
+      "type": "Ammo44Marker",
+      "x": 149146.09375,
+      "y": 200147.59375
+    },
+    {
+      "id": "004F998F",
+      "type": "AmmoLasergunMarker",
+      "x": 149084.15625,
+      "y": 200015.75
+    },
+    {
+      "id": "00393128",
+      "type": "Ammo38CaliberMarker",
+      "x": 144006.09375,
+      "y": 200426.46875
+    },
+    {
+      "id": "003D10AD",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 172635.703125,
+      "y": 131391.21875
+    },
+    {
+      "id": "003A6FC0",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 190894.359375,
+      "y": 182927.5
+    },
+    {
+      "id": "003A6FC1",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 190942.453125,
+      "y": 182922.203125
+    },
+    {
+      "id": "003A6FC2",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 190929.625,
+      "y": 182862.609375
+    },
+    {
+      "id": "003675A9",
+      "type": "Ammo10mmMarker",
+      "x": 194889.65625,
+      "y": 200894.078125
+    },
+    {
+      "id": "003675AA",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 194928.375,
+      "y": 201141.734375
+    },
+    {
+      "id": "0035EBD5",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 155653.390625,
+      "y": -160423.609375
+    },
+    {
+      "id": "0035059A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 150876.484375,
+      "y": -137413
+    },
+    {
+      "id": "0034ED1A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 146685.4375,
+      "y": -132127.96875
+    },
+    {
+      "id": "0034ED1D",
+      "type": "AmmoCombatRifleMarker",
+      "x": 146986.3125,
+      "y": -131925.3125
+    },
+    {
+      "id": "0034E3F0",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 145539.140625,
+      "y": -139247.65625
+    },
+    {
+      "id": "003C7531",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 142139.203125,
+      "y": -135439.546875
+    },
+    {
+      "id": "003505AC",
+      "type": "AmmoMissileMarker",
+      "x": 141578.640625,
+      "y": -137521.046875
+    },
+    {
+      "id": "003459D5",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 142296.703125,
+      "y": -135322.421875
+    },
+    {
+      "id": "003459D6",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 142327.734375,
+      "y": -135328.859375
+    },
+    {
+      "id": "003459D7",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 142350.6875,
+      "y": -135288.65625
+    },
+    {
+      "id": "002B859D",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 141442.765625,
+      "y": -141034.515625
+    },
+    {
+      "id": "0035A91E",
+      "type": "AmmoAny_SameMarker",
+      "x": 140956.390625,
+      "y": -141184.03125
+    },
+    {
+      "id": "0035A921",
+      "type": "AmmoAny_SameMarker",
+      "x": 141233.328125,
+      "y": -140148.578125
+    },
+    {
+      "id": "0035A922",
+      "type": "AmmoAny_SameMarker",
+      "x": 141217.53125,
+      "y": -140129.328125
+    },
+    {
+      "id": "0035A92C",
+      "type": "AmmoCombatRifleMarker",
+      "x": 141559.75,
+      "y": -142267.28125
+    },
+    {
+      "id": "0035A92D",
+      "type": "AmmoCombatRifleMarker",
+      "x": 141587.578125,
+      "y": -142282.21875
+    },
+    {
+      "id": "0035A92E",
+      "type": "AmmoCombatRifleMarker",
+      "x": 141677.28125,
+      "y": -142261.96875
+    },
+    {
+      "id": "002B85A0",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 136854.28125,
+      "y": -141970.9375
+    },
+    {
+      "id": "003B5CB0",
+      "type": "AmmoLasergunMarker",
+      "x": 136547.5,
+      "y": -141375
+    },
+    {
+      "id": "003B5CB1",
+      "type": "AmmoLasergunMarker",
+      "x": 136604.3125,
+      "y": -141638.84375
+    },
+    {
+      "id": "003B5CB2",
+      "type": "AmmoLasergunMarker",
+      "x": 136790.453125,
+      "y": -141964.921875
+    },
+    {
+      "id": "003B5CB3",
+      "type": "AmmoLasergunMarker",
+      "x": 136826.015625,
+      "y": -141963.671875
+    },
+    {
+      "id": "0035A93F",
+      "type": "AmmoAny_SameMarker",
+      "x": 138375.0625,
+      "y": -141024.0625
+    },
+    {
+      "id": "0035A940",
+      "type": "AmmoAny_SameMarker",
+      "x": 138396.125,
+      "y": -141043.21875
+    },
+    {
+      "id": "0035A967",
+      "type": "AmmoAny_SameMarker",
+      "x": 138280.640625,
+      "y": -141521.140625
+    },
+    {
+      "id": "0034A218",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 137431.203125,
+      "y": -151007.71875
+    },
+    {
+      "id": "0051E4BB",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 177029.03125,
+      "y": -167019.59375
+    },
+    {
+      "id": "003AEDF0",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 166664.6875,
+      "y": -178289.1875
+    },
+    {
+      "id": "003DC560",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 190962.734375,
+      "y": -156918.28125
+    },
+    {
+      "id": "003EA77B",
+      "type": "AmmoFusionCoreMarker",
+      "x": 190937.53125,
+      "y": -157017.46875
+    },
+    {
+      "id": "00315B53",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 180644.390625,
+      "y": -141431.15625
+    },
+    {
+      "id": "00315B54",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 180652.921875,
+      "y": -141476.875
+    },
+    {
+      "id": "004DDC8F",
+      "type": "AmmoAny_SameMarker",
+      "x": 176986.125,
+      "y": -141084.125
+    },
+    {
+      "id": "004DDC90",
+      "type": "AmmoAny_SameMarker",
+      "x": 177297.828125,
+      "y": -140943.84375
+    },
+    {
+      "id": "00315BA4",
+      "type": "Ammo44Marker",
+      "x": 179152.375,
+      "y": -141775.109375
+    },
+    {
+      "id": "004EADDF",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 179142.171875,
+      "y": -147403.25
+    },
+    {
+      "id": "004EADE0",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 179169.328125,
+      "y": -147440.828125
+    },
+    {
+      "id": "00315B90",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 178249.90625,
+      "y": -143726.28125
+    },
+    {
+      "id": "004DDB45",
+      "type": "AmmoFlamerMarker",
+      "x": 172942.875,
+      "y": -139166.875
+    },
+    {
+      "id": "004DDB46",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 173051.65625,
+      "y": -139035.703125
+    },
+    {
+      "id": "004DDB47",
+      "type": "AmmoShotgunMarker",
+      "x": 172954.375,
+      "y": -139032.359375
+    },
+    {
+      "id": "004DDB22",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 175361.25,
+      "y": -146137.96875
+    },
+    {
+      "id": "004DDCAA",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 175362.015625,
+      "y": -144893.890625
+    },
+    {
+      "id": "00315B3E",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 175359.1875,
+      "y": -144891.0625
+    },
+    {
+      "id": "00315B37",
+      "type": "AmmoCombatRifleMarker",
+      "x": 173751.59375,
+      "y": -146108.171875
+    },
+    {
+      "id": "00315B1E",
+      "type": "AmmoCombatRifleMarker",
+      "x": 173754.25,
+      "y": -146107.828125
+    },
+    {
+      "id": "0051E4B4",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 174463.03125,
+      "y": -153455.96875
+    },
+    {
+      "id": "0050D3E1",
+      "type": "Ammo10mmMarker",
+      "x": 171293.71875,
+      "y": -141545.15625
+    },
+    {
+      "id": "004F8503",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 167339.421875,
+      "y": -140103.75
+    },
+    {
+      "id": "003D387C",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 202605,
+      "y": -169305.359375
+    },
+    {
+      "id": "003D387D",
+      "type": "AmmoFusionCore_Dmg50Marker",
+      "x": 202558.859375,
+      "y": -169657.125
+    },
+    {
+      "id": "0036CDB4",
+      "type": "Ammo44Marker",
+      "x": 201748.296875,
+      "y": -169672.296875
+    },
+    {
+      "id": "0036CDBE",
+      "type": "AmmoFlareMarker",
+      "x": 202514.5,
+      "y": -169608.203125
+    },
+    {
+      "id": "0036CDD1",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 201546.109375,
+      "y": -169432.921875
+    },
+    {
+      "id": "0036CDD2",
+      "type": "Ammo10mmMarker",
+      "x": 201539.28125,
+      "y": -169376.609375
+    },
+    {
+      "id": "0036CDD3",
+      "type": "Ammo10mmMarker",
+      "x": 202147.359375,
+      "y": -169270.796875
+    },
+    {
+      "id": "00355BF8",
+      "type": "AmmoFlareMarker",
+      "x": 200961.53125,
+      "y": -161587.171875
+    },
+    {
+      "id": "003DFFE5",
+      "type": "AmmoLasergunMarker",
+      "x": 200582.5,
+      "y": -161701.0625
+    },
+    {
+      "id": "00362185",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 200463.578125,
+      "y": -163298.453125
+    },
+    {
+      "id": "0051E4AF",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 157058.015625,
+      "y": -101621.734375
+    },
+    {
+      "id": "00537719",
+      "type": "Ammo10mmMarker",
+      "x": 142674.40625,
+      "y": -100251.242188
+    },
+    {
+      "id": "0053771A",
+      "type": "AmmoShotgunMarker",
+      "x": 142657.03125,
+      "y": -100260.671875
+    },
+    {
+      "id": "00537781",
+      "type": "AmmoShotgunMarker",
+      "x": 140307.1875,
+      "y": -105099.257813
+    },
+    {
+      "id": "00537784",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 140406.578125,
+      "y": -105350.054687
+    },
+    {
+      "id": "00537785",
+      "type": "AmmoMissileMarker",
+      "x": 140419.703125,
+      "y": -105350.609375
+    },
+    {
+      "id": "0053628A",
+      "type": "Ammo38CaliberMarker",
+      "x": 141211,
+      "y": -104982.265625
+    },
+    {
+      "id": "0053628B",
+      "type": "Ammo45CaliberMarker",
+      "x": 141198.125,
+      "y": -104975.492188
+    },
+    {
+      "id": "0053628C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 142028.984375,
+      "y": -103100.5625
+    },
+    {
+      "id": "0053628D",
+      "type": "Ammo10mmMarker",
+      "x": 142018.125,
+      "y": -103105.867188
+    },
+    {
+      "id": "0053628E",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 140707.640625,
+      "y": -103176.671875
+    },
+    {
+      "id": "005362AD",
+      "type": "AmmoShotgunMarker",
+      "x": 139600.625,
+      "y": -103168.875
+    },
+    {
+      "id": "005362B0",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 140049.265625,
+      "y": -102742.992188
+    },
+    {
+      "id": "005362BC",
+      "type": "AmmoShotgunMarker",
+      "x": 141882.984375,
+      "y": -103091.234375
+    },
+    {
+      "id": "003DC565",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 140725.75,
+      "y": -108919.070312
+    },
+    {
+      "id": "005377A0",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 137230.296875,
+      "y": -101437.984375
+    },
+    {
+      "id": "005377A1",
+      "type": "AmmoShotgunMarker",
+      "x": 137224.515625,
+      "y": -101424.242188
+    },
+    {
+      "id": "0055F578",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 137556.15625,
+      "y": -102559.460937
+    },
+    {
+      "id": "0050C8B2",
+      "type": "AmmoAny_SameMarker",
+      "x": 148747.4375,
+      "y": -90530.507812
+    },
+    {
+      "id": "0050C8B3",
+      "type": "AmmoAny_SameMarker",
+      "x": 148736.03125,
+      "y": -90536.421875
+    },
+    {
+      "id": "0043A07B",
+      "type": "AmmoFusionCore_Dmg50Marker",
+      "x": 144377.703125,
+      "y": -87352.695312
+    },
+    {
+      "id": "003E8587",
+      "type": "AmmoAny_SameMarker",
+      "x": 159817.953125,
+      "y": -38277.054687
+    },
+    {
+      "id": "0016425D",
+      "type": "AmmoMissileMarker",
+      "x": 161267.140625,
+      "y": -40422.316406
+    },
+    {
+      "id": "00164268",
+      "type": "AmmoMissileMarker",
+      "x": 161275.84375,
+      "y": -40431.769531
+    },
+    {
+      "id": "0034C935",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 161813.453125,
+      "y": -41244.460938
+    },
+    {
+      "id": "0016226E",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 158654.609375,
+      "y": -35163.789062
+    },
+    {
+      "id": "0016321D",
+      "type": "AmmoAny_SameMarker",
+      "x": 158496.703125,
+      "y": -35439.140625
+    },
+    {
+      "id": "00163233",
+      "type": "AmmoAny_SameMarker",
+      "x": 158424.765625,
+      "y": -35563.652344
+    },
+    {
+      "id": "001641D6",
+      "type": "AmmoAny_SameMarker",
+      "x": 158639.65625,
+      "y": -35209.40625
+    },
+    {
+      "id": "003E8589",
+      "type": "AmmoAny_SameMarker",
+      "x": 159612.53125,
+      "y": -38163.683594
+    },
+    {
+      "id": "003D3A9E",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 141409.5625,
+      "y": -59789.578125
+    },
+    {
+      "id": "0036C2A5",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 141863.390625,
+      "y": -61756.035156
+    },
+    {
+      "id": "0036C2A6",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 141842.453125,
+      "y": -61772.65625
+    },
+    {
+      "id": "0052C6CB",
+      "type": "AmmoFusionCoreMarker",
+      "x": 137758.609375,
+      "y": -42771.878906
+    },
+    {
+      "id": "0042F693",
+      "type": "AmmoAny_SameMarker",
+      "x": 162126.46875,
+      "y": -3687.77417
+    },
+    {
+      "id": "0042F694",
+      "type": "AmmoAny_SameMarker",
+      "x": 162130.40625,
+      "y": -3715.429688
+    },
+    {
+      "id": "0042F695",
+      "type": "AmmoAny_SameMarker",
+      "x": 161996.59375,
+      "y": -3843.265869
+    },
+    {
+      "id": "0042F696",
+      "type": "AmmoAny_SameMarker",
+      "x": 162022.671875,
+      "y": -3850.548828
+    },
+    {
+      "id": "0042F697",
+      "type": "AmmoAny_SameMarker",
+      "x": 161878.109375,
+      "y": -3898.354492
+    },
+    {
+      "id": "0042F698",
+      "type": "AmmoAny_SameMarker",
+      "x": 161883.171875,
+      "y": -3920.936035
+    },
+    {
+      "id": "0042F69A",
+      "type": "AmmoAny_SameMarker",
+      "x": 162159.703125,
+      "y": -3726.579834
+    },
+    {
+      "id": "0050DF3F",
+      "type": "AmmoAny_SameMarker",
+      "x": 162982.234375,
+      "y": -5474.853027
+    },
+    {
+      "id": "0042F6A2",
+      "type": "AmmoAny_SameMarker",
+      "x": 162091.046875,
+      "y": -6087.546387
+    },
+    {
+      "id": "0042F6B9",
+      "type": "AmmoAny_SameMarker",
+      "x": 163031.90625,
+      "y": -5596.393555
+    },
+    {
+      "id": "0042F6BA",
+      "type": "AmmoAny_SameMarker",
+      "x": 163040.484375,
+      "y": -5607.850586
+    },
+    {
+      "id": "0042F6C5",
+      "type": "AmmoAny_SameMarker",
+      "x": 162668.84375,
+      "y": -5840.112304
+    },
+    {
+      "id": "0042F6C6",
+      "type": "AmmoAny_SameMarker",
+      "x": 162687,
+      "y": -5836.416015
+    },
+    {
+      "id": "0042F6C7",
+      "type": "AmmoAny_SameMarker",
+      "x": 162620.8125,
+      "y": -5793.440429
+    },
+    {
+      "id": "0042F6C9",
+      "type": "AmmoAny_SameMarker",
+      "x": 162517.4375,
+      "y": -5954.707031
+    },
+    {
+      "id": "003E7BE7",
+      "type": "AmmoFlareMarker",
+      "x": 163120.359375,
+      "y": -5421.10498
+    },
+    {
+      "id": "003E7BEC",
+      "type": "AmmoCombatRifleMarker",
+      "x": 162925.546875,
+      "y": -5898.265625
+    },
+    {
+      "id": "003E7BEE",
+      "type": "AmmoCombatRifleMarker",
+      "x": 162807.875,
+      "y": -5891.915039
+    },
+    {
+      "id": "0052F89E",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 162766.546875,
+      "y": -17344.044922
+    },
+    {
+      "id": "0052F89F",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 162839.375,
+      "y": -17365.335937
+    },
+    {
+      "id": "0052F9E6",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 162719.75,
+      "y": -17777.757812
+    },
+    {
+      "id": "0052F9E8",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 162727.609375,
+      "y": -17790.025391
+    },
+    {
+      "id": "0039C2E8",
+      "type": "Ammo45CaliberMarker",
+      "x": 162545.71875,
+      "y": -27565.847656
+    },
+    {
+      "id": "0039C2F7",
+      "type": "Ammo45CaliberMarker",
+      "x": 162562.34375,
+      "y": -27559.822265
+    },
+    {
+      "id": "0039C302",
+      "type": "Ammo45CaliberMarker",
+      "x": 162376.0625,
+      "y": -27226.751953
+    },
+    {
+      "id": "0039C305",
+      "type": "Ammo45CaliberMarker",
+      "x": 162523.078125,
+      "y": -27325.353516
+    },
+    {
+      "id": "0039C306",
+      "type": "Ammo45CaliberMarker",
+      "x": 162588.734375,
+      "y": -26854.236328
+    },
+    {
+      "id": "0039C309",
+      "type": "Ammo45CaliberMarker",
+      "x": 162371.015625,
+      "y": -26418.4375
+    },
+    {
+      "id": "0039C32A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 162371.53125,
+      "y": -26419.796875
+    },
+    {
+      "id": "0039C32C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 162440,
+      "y": -26344.179687
+    },
+    {
+      "id": "0042F66F",
+      "type": "AmmoAny_SameMarker",
+      "x": 158340.484375,
+      "y": -1037.434326
+    },
+    {
+      "id": "0042F670",
+      "type": "AmmoAny_SameMarker",
+      "x": 158843.65625,
+      "y": -1224.396973
+    },
+    {
+      "id": "0042F671",
+      "type": "AmmoAny_SameMarker",
+      "x": 158670.765625,
+      "y": -1590.028687
+    },
+    {
+      "id": "0042F672",
+      "type": "AmmoAny_SameMarker",
+      "x": 158041.890625,
+      "y": -1100.132568
+    },
+    {
+      "id": "0042F673",
+      "type": "AmmoAny_SameMarker",
+      "x": 157958.296875,
+      "y": -1386.915283
+    },
+    {
+      "id": "0042F674",
+      "type": "AmmoAny_SameMarker",
+      "x": 157377.625,
+      "y": -1426.689331
+    },
+    {
+      "id": "002B791C",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 145626.5625,
+      "y": -19827.445313
+    },
+    {
+      "id": "0052D188",
+      "type": "AmmoFusionCoreMarker",
+      "x": 145597.21875,
+      "y": -19824.429688
+    },
+    {
+      "id": "0052D18D",
+      "type": "AmmoGaussRifleMarker",
+      "x": 145459.328125,
+      "y": -19813.519531
+    },
+    {
+      "id": "00369B9A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 143438.1875,
+      "y": -26518.550781
+    },
+    {
+      "id": "00369B9B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 143408.953125,
+      "y": -26551.863281
+    },
+    {
+      "id": "00369B9C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 143467.296875,
+      "y": -26547.871094
+    },
+    {
+      "id": "003DC559",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 195665.28125,
+      "y": -104887.359375
+    },
+    {
+      "id": "003459F9",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 194191.6875,
+      "y": -116917.054688
+    },
+    {
+      "id": "0035E72F",
+      "type": "Ammo38CaliberMarker",
+      "x": 181632.09375,
+      "y": -104624.40625
+    },
+    {
+      "id": "004FB12C",
+      "type": "AmmoAny_SameMarker",
+      "x": 176251.265625,
+      "y": -109020.984375
+    },
+    {
+      "id": "0037D5D5",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 177871.265625,
+      "y": -108361.953125
+    },
+    {
+      "id": "00435684",
+      "type": "AmmoAny_SameMarker",
+      "x": 173949.234375,
+      "y": -119454.0625
+    },
+    {
+      "id": "00435685",
+      "type": "AmmoAny_SameMarker",
+      "x": 173987.859375,
+      "y": -119463.984375
+    },
+    {
+      "id": "00397038",
+      "type": "AmmoCombatRifleMarker",
+      "x": 194379.09375,
+      "y": -86512.976563
+    },
+    {
+      "id": "0039703C",
+      "type": "AmmoCombatRifleMarker",
+      "x": 194377.984375,
+      "y": -86481.554688
+    },
+    {
+      "id": "004FB0FD",
+      "type": "AmmoAny_SameMarker",
+      "x": 190759.3125,
+      "y": -93318.234375
+    },
+    {
+      "id": "003A4034",
+      "type": "Ammo44Marker",
+      "x": 190770.109375,
+      "y": -93089.03125
+    },
+    {
+      "id": "003A4035",
+      "type": "Ammo44Marker",
+      "x": 190770.859375,
+      "y": -93079.234375
+    },
+    {
+      "id": "003A4004",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 190330.3125,
+      "y": -95354.507812
+    },
+    {
+      "id": "003A4005",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 190328.046875,
+      "y": -95353.289062
+    },
+    {
+      "id": "003A4006",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 190326.859375,
+      "y": -95354.414062
+    },
+    {
+      "id": "003DB00F",
+      "type": "Ammo10mmMarker",
+      "x": 185277.390625,
+      "y": -89217.289063
+    },
+    {
+      "id": "003DB010",
+      "type": "Ammo10mmMarker",
+      "x": 185296.34375,
+      "y": -89211.726563
+    },
+    {
+      "id": "003DB011",
+      "type": "Ammo10mmMarker",
+      "x": 185591.671875,
+      "y": -89417.898437
+    },
+    {
+      "id": "003DB012",
+      "type": "Ammo38CaliberMarker",
+      "x": 185694.9375,
+      "y": -89275.632813
+    },
+    {
+      "id": "0031A5E6",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 185748.734375,
+      "y": -89275.1875
+    },
+    {
+      "id": "0031A5F5",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 185577.359375,
+      "y": -91110.484375
+    },
+    {
+      "id": "0050D4D4",
+      "type": "AmmoShotgunMarker",
+      "x": 183961.984375,
+      "y": -87769.296875
+    },
+    {
+      "id": "0031A5F9",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 184166.6875,
+      "y": -88050.085938
+    },
+    {
+      "id": "0031BAF7",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 184290.078125,
+      "y": -87531.328125
+    },
+    {
+      "id": "0050D46D",
+      "type": "AmmoCombatRifleMarker",
+      "x": 180659.046875,
+      "y": -93841.15625
+    },
+    {
+      "id": "0050D46E",
+      "type": "AmmoCombatRifleMarker",
+      "x": 180659.03125,
+      "y": -93841.148437
+    },
+    {
+      "id": "0050D46F",
+      "type": "AmmoCombatRifleMarker",
+      "x": 180665.078125,
+      "y": -93839.8125
+    },
+    {
+      "id": "003DB09F",
+      "type": "AmmoAny_SameMarker",
+      "x": 180349.828125,
+      "y": -93622.492188
+    },
+    {
+      "id": "003DB0A0",
+      "type": "AmmoAny_SameMarker",
+      "x": 180393.453125,
+      "y": -93607.085938
+    },
+    {
+      "id": "003DB0A2",
+      "type": "AmmoAny_SameMarker",
+      "x": 180381.5625,
+      "y": -93923.414063
+    },
+    {
+      "id": "003DB0A4",
+      "type": "AmmoAny_SameMarker",
+      "x": 180337.9375,
+      "y": -93938.820313
+    },
+    {
+      "id": "003DB0AA",
+      "type": "AmmoAny_SameMarker",
+      "x": 180787.71875,
+      "y": -93634.117188
+    },
+    {
+      "id": "003DB0AB",
+      "type": "AmmoAny_SameMarker",
+      "x": 180781.171875,
+      "y": -93613.367188
+    },
+    {
+      "id": "003DB0AC",
+      "type": "AmmoAny_SameMarker",
+      "x": 180768.890625,
+      "y": -93599.921875
+    },
+    {
+      "id": "003DB0AD",
+      "type": "AmmoAny_SameMarker",
+      "x": 180801.265625,
+      "y": -93592.8125
+    },
+    {
+      "id": "003DB0B2",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 180781.328125,
+      "y": -93626.59375
+    },
+    {
+      "id": "0031A5F6",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 180585.03125,
+      "y": -92958.09375
+    },
+    {
+      "id": "0031A5E2",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 182190.234375,
+      "y": -93951.734375
+    },
+    {
+      "id": "0031A5E1",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 182787.53125,
+      "y": -94125.421875
+    },
+    {
+      "id": "0031A5BA",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 180886.0625,
+      "y": -93245.476563
+    },
+    {
+      "id": "003DB016",
+      "type": "Ammo38CaliberMarker",
+      "x": 183277.140625,
+      "y": -94446.984375
+    },
+    {
+      "id": "003DB017",
+      "type": "Ammo38CaliberMarker",
+      "x": 183352.671875,
+      "y": -94724.578125
+    },
+    {
+      "id": "003DB023",
+      "type": "Ammo38CaliberMarker",
+      "x": 183237.9375,
+      "y": -94887.0625
+    },
+    {
+      "id": "003DB038",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 183905.15625,
+      "y": -95566.632813
+    },
+    {
+      "id": "003A4654",
+      "type": "Ammo50CalMarker",
+      "x": 181883.65625,
+      "y": -95494.765625
+    },
+    {
+      "id": "003A4655",
+      "type": "Ammo50CalMarker",
+      "x": 181802.15625,
+      "y": -95476.5625
+    },
+    {
+      "id": "003A4656",
+      "type": "Ammo50CalMarker",
+      "x": 181818.609375,
+      "y": -94740.984375
+    },
+    {
+      "id": "003A4657",
+      "type": "Ammo50CalMarker",
+      "x": 181739.921875,
+      "y": -94825.679688
+    },
+    {
+      "id": "003A4658",
+      "type": "Ammo50CalMarker",
+      "x": 181761.1875,
+      "y": -94799.703125
+    },
+    {
+      "id": "0031A5EB",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 181790.859375,
+      "y": -95508.023438
+    },
+    {
+      "id": "0031A5EA",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 181777,
+      "y": -95452.671875
+    },
+    {
+      "id": "0031A5E9",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 184274.5,
+      "y": -97323.921875
+    },
+    {
+      "id": "0031A5E7",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 183972.859375,
+      "y": -97440.539063
+    },
+    {
+      "id": "003DB043",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 176415.1875,
+      "y": -94069.054687
+    },
+    {
+      "id": "003DB044",
+      "type": "AmmoSubmachineGunMarker",
+      "x": 176417.515625,
+      "y": -93989.492188
+    },
+    {
+      "id": "003DB045",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 177837.96875,
+      "y": -93364
+    },
+    {
+      "id": "003DB046",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 177785.40625,
+      "y": -93362.304687
+    },
+    {
+      "id": "0031A5F8",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 177646.0625,
+      "y": -96086.359375
+    },
+    {
+      "id": "0031A5F7",
+      "type": "AmmoAssaultrifleMarker",
+      "x": 179048.640625,
+      "y": -97446.632813
+    },
+    {
+      "id": "0031A5ED",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 177618.484375,
+      "y": -96010.171875
+    },
+    {
+      "id": "0031A5EC",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 179744.46875,
+      "y": -96485.78125
+    },
+    {
+      "id": "0031A5E3",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 177762.078125,
+      "y": -97344.820312
+    },
+    {
+      "id": "003DB395",
+      "type": "AmmoShotgunMarker",
+      "x": 174024.609375,
+      "y": -94998.765625
+    },
+    {
+      "id": "0031A5EF",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 174360.703125,
+      "y": -94380.804688
+    },
+    {
+      "id": "0031A5EE",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 174028.203125,
+      "y": -94994.273437
+    },
+    {
+      "id": "0031A5E4",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 174507.109375,
+      "y": -95594.070313
+    },
+    {
+      "id": "00450C8E",
+      "type": "AmmoCrossbowMarker",
+      "x": 166083.078125,
+      "y": -84153.257813
+    },
+    {
+      "id": "00450C8F",
+      "type": "AmmoCrossbowMarker",
+      "x": 166088.59375,
+      "y": -84091.554688
+    },
+    {
+      "id": "00450C90",
+      "type": "AmmoCrossbowMarker",
+      "x": 166087.90625,
+      "y": -84093.789063
+    },
+    {
+      "id": "003453BD",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 166097.515625,
+      "y": -84283.695312
+    },
+    {
+      "id": "0036B47F",
+      "type": "AmmoAny_SameMarker",
+      "x": 165522.5625,
+      "y": -84132.71875
+    },
+    {
+      "id": "0036B482",
+      "type": "AmmoAny_SameMarker",
+      "x": 165949.28125,
+      "y": -83525.617187
+    },
+    {
+      "id": "0036B489",
+      "type": "AmmoAny_SameMarker",
+      "x": 166103.921875,
+      "y": -83747.046875
+    },
+    {
+      "id": "0036B48B",
+      "type": "AmmoAny_SameMarker",
+      "x": 165738.765625,
+      "y": -83691.765625
+    },
+    {
+      "id": "0036B491",
+      "type": "AmmoAny_SameMarker",
+      "x": 165852.46875,
+      "y": -83671.21875
+    },
+    {
+      "id": "0018EDB2",
+      "type": "AmmoFusionCoreMarker",
+      "x": 180624,
+      "y": -60144
+    },
+    {
+      "id": "0018DD78",
+      "type": "AmmoAny_SameMarker",
+      "x": 180600,
+      "y": -59680
+    },
+    {
+      "id": "0018DCC7",
+      "type": "AmmoAny_SameMarker",
+      "x": 180600,
+      "y": -60064
+    },
+    {
+      "id": "0018DCC5",
+      "type": "AmmoAny_SameMarker",
+      "x": 180376,
+      "y": -59864
+    },
+    {
+      "id": "0018DC64",
+      "type": "AmmoAny_SameMarker",
+      "x": 180232,
+      "y": -59888
+    },
+    {
+      "id": "0018DCA2",
+      "type": "AmmoAny_SameMarker",
+      "x": 180184,
+      "y": -59856
+    },
+    {
+      "id": "00530D4F",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 172701.953125,
+      "y": -34827.78125
+    },
+    {
+      "id": "00530D50",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 172705.15625,
+      "y": -34841.363281
+    },
+    {
+      "id": "00530D51",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 172700.734375,
+      "y": -34856.394531
+    },
+    {
+      "id": "003D3AA7",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": 165185.078125,
+      "y": -55617.894532
+    },
+    {
+      "id": "0036C2B7",
+      "type": "Ammo10mmMarker",
+      "x": 165364.625,
+      "y": -55404.683594
+    },
+    {
+      "id": "0036C2B8",
+      "type": "Ammo10mmMarker",
+      "x": 165342.578125,
+      "y": -55391.230469
+    },
+    {
+      "id": "0036C2D7",
+      "type": "AmmoCombatShotgunMarker",
+      "x": 165474.921875,
+      "y": -57064.285156
+    },
+    {
+      "id": "0054E0F4",
+      "type": "AmmoAny_SameMarker",
+      "x": 193234.90625,
+      "y": -8736.905273
+    },
+    {
+      "id": "00525D9D",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 188161.9375,
+      "y": -50.211113
+    },
+    {
+      "id": "004F7CFA",
+      "type": "AmmoAny_SameMarker",
+      "x": 198824.546875,
+      "y": -97156.492188
+    },
+    {
+      "id": "005A0ADA",
+      "type": "AmmoMinigunMarker",
+      "x": 205253.78125,
+      "y": -60298.765625
+    },
+    {
+      "id": "005555E1",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 201245.53125,
+      "y": -38379.742187
+    },
+    {
+      "id": "00393E0C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": 201232.75,
+      "y": -38384.183594
+    },
+    {
+      "id": "005678F4",
+      "type": "AmmoFusionCoreMarker",
+      "x": 199208.734375,
+      "y": -35710.175781
+    },
+    {
+      "id": "0011195E",
+      "type": "AmmoCombatRifleMarker",
+      "x": 196679.40625,
+      "y": -30939.919922
+    },
+    {
+      "id": "001118D2",
+      "type": "AmmoCombatRifleMarker",
+      "x": 196694.15625,
+      "y": -30944.21875
+    },
+    {
+      "id": "001117F8",
+      "type": "AmmoCombatRifleMarker",
+      "x": 196672.8125,
+      "y": -30929.931641
+    },
+    {
+      "id": "003B84E1",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -172006.859375,
+      "y": 79952.828125
+    },
+    {
+      "id": "003B84E3",
+      "type": "Ammo38CaliberMarker",
+      "x": -172013.890625,
+      "y": 79945.898437
+    },
+    {
+      "id": "004FCBFE",
+      "type": "AmmoAny_SameMarker",
+      "x": -173233.671875,
+      "y": 79006.460938
+    },
+    {
+      "id": "004FCBFF",
+      "type": "AmmoAny_SameMarker",
+      "x": -173191.75,
+      "y": 79012.664063
+    },
+    {
+      "id": "003B84DF",
+      "type": "Ammo38CaliberMarker",
+      "x": -172591.453125,
+      "y": 80773.734375
+    },
+    {
+      "id": "003B84E0",
+      "type": "Ammo38CaliberMarker",
+      "x": -172577.09375,
+      "y": 80787.34375
+    },
+    {
+      "id": "003C706B",
+      "type": "AmmoAny_SameMarker",
+      "x": -175456.90625,
+      "y": 73664.117187
+    },
+    {
+      "id": "003C706C",
+      "type": "AmmoAny_SameMarker",
+      "x": -175470.234375,
+      "y": 73651.523437
+    },
+    {
+      "id": "004FCBF5",
+      "type": "AmmoAny_SameMarker",
+      "x": -179248.8125,
+      "y": 73970.335937
+    },
+    {
+      "id": "004FCBF6",
+      "type": "AmmoAny_SameMarker",
+      "x": -179227.796875,
+      "y": 73975.8125
+    },
+    {
+      "id": "0032EAD3",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -177034.265625,
+      "y": 75419.015625
+    },
+    {
+      "id": "0032EAD4",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -176980.21875,
+      "y": 75024.71875
+    },
+    {
+      "id": "0032EAD5",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -177057.546875,
+      "y": 74920.640625
+    },
+    {
+      "id": "0032EAD6",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -177342.703125,
+      "y": 75411.265625
+    },
+    {
+      "id": "0032EB09",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -178962.625,
+      "y": 74414.71875
+    },
+    {
+      "id": "0032EB0A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -178964.125,
+      "y": 74415.578125
+    },
+    {
+      "id": "0032EB0B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -178926.828125,
+      "y": 74423.734375
+    },
+    {
+      "id": "004FCBFA",
+      "type": "AmmoAny_SameMarker",
+      "x": -177332.578125,
+      "y": 71196.53125
+    },
+    {
+      "id": "0045202B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -136939.59375,
+      "y": 26231.710938
+    },
+    {
+      "id": "00599A03",
+      "type": "AmmoShotgunMarker",
+      "x": -160904.015625,
+      "y": 4010.008301
+    },
+    {
+      "id": "00599A04",
+      "type": "AmmoShotgunMarker",
+      "x": -160917.84375,
+      "y": 4011.926758
+    },
+    {
+      "id": "0020AF32",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -133477.46875,
+      "y": 96160.40625
+    },
+    {
+      "id": "004DF880",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -154044.140625,
+      "y": 79365.195313
+    },
+    {
+      "id": "0031D938",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -154050.109375,
+      "y": 79243.96875
+    },
+    {
+      "id": "0042525B",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -163738.671875,
+      "y": 95215.15625
+    },
+    {
+      "id": "00425261",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -163718.4375,
+      "y": 95278.664062
+    },
+    {
+      "id": "00425267",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -163776.125,
+      "y": 95244.828125
+    },
+    {
+      "id": "0050E526",
+      "type": "AmmoAny_SameMarker",
+      "x": -161085.90625,
+      "y": 92913.21875
+    },
+    {
+      "id": "003A94FA",
+      "type": "Ammo44Marker",
+      "x": -153948.296875,
+      "y": 125943.75
+    },
+    {
+      "id": "0043A076",
+      "type": "AmmoFusionCoreMarker",
+      "x": -153457.03125,
+      "y": 107987.046875
+    },
+    {
+      "id": "003EEBED",
+      "type": "AmmoGaussRifleMarker",
+      "x": -157539.6875,
+      "y": 115245.296875
+    },
+    {
+      "id": "003EEBF1",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": -157640.46875,
+      "y": 115664.304688
+    },
+    {
+      "id": "0043567F",
+      "type": "AmmoShotgunMarker",
+      "x": -161421.625,
+      "y": 108566.882813
+    },
+    {
+      "id": "00435680",
+      "type": "AmmoShotgunMarker",
+      "x": -161417.296875,
+      "y": 108591.007813
+    },
+    {
+      "id": "003202CB",
+      "type": "AmmoCombatRifleMarker",
+      "x": -173302.34375,
+      "y": 134050.71875
+    },
+    {
+      "id": "003202CA",
+      "type": "AmmoCombatRifleMarker",
+      "x": -173413.25,
+      "y": 134233.109375
+    },
+    {
+      "id": "003202C7",
+      "type": "AmmoCombatRifleMarker",
+      "x": -173448.890625,
+      "y": 134137.046875
+    },
+    {
+      "id": "00452C4A",
+      "type": "Ammo38CaliberMarker",
+      "x": -165299.859375,
+      "y": 189937.859375
+    },
+    {
+      "id": "0042CEF9",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -168930,
+      "y": 194426.765625
+    },
+    {
+      "id": "0042CEFA",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -168919.578125,
+      "y": 194430.328125
+    },
+    {
+      "id": "003D0258",
+      "type": "AmmoFusionCore_Dmg50Marker",
+      "x": -169094.453125,
+      "y": 193477.125
+    },
+    {
+      "id": "003D027A",
+      "type": "AmmoLasergunMarker",
+      "x": -169035.375,
+      "y": 194684.484375
+    },
+    {
+      "id": "003D027B",
+      "type": "AmmoLasergunMarker",
+      "x": -169028.734375,
+      "y": 194678.375
+    },
+    {
+      "id": "00538CB9",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -168841.46875,
+      "y": 189280.078125
+    },
+    {
+      "id": "00538CB8",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -168829.484375,
+      "y": 189280.078125
+    },
+    {
+      "id": "003D0C82",
+      "type": "AmmoShotgunMarker",
+      "x": -169083.296875,
+      "y": 190455.53125
+    },
+    {
+      "id": "003D0C84",
+      "type": "AmmoShotgunMarker",
+      "x": -169084.546875,
+      "y": 190470.359375
+    },
+    {
+      "id": "003CBA23",
+      "type": "Ammo50CalBallMarker",
+      "x": -169353.84375,
+      "y": 189148.078125
+    },
+    {
+      "id": "003CBA24",
+      "type": "Ammo50CalBallMarker",
+      "x": -169340.46875,
+      "y": 189227.640625
+    },
+    {
+      "id": "00547122",
+      "type": "AmmoShotgunMarker",
+      "x": -170684.671875,
+      "y": 196794.015625
+    },
+    {
+      "id": "00547123",
+      "type": "AmmoShotgunMarker",
+      "x": -170685.015625,
+      "y": 196827.359375
+    },
+    {
+      "id": "002B856D",
+      "type": "Ammo45CaliberMarker",
+      "x": -146608.328125,
+      "y": 143789.1875
+    },
+    {
+      "id": "002B856E",
+      "type": "Ammo45CaliberMarker",
+      "x": -146584.46875,
+      "y": 143782.859375
+    },
+    {
+      "id": "0035789E",
+      "type": "AmmoAny_SameMarker",
+      "x": -144653.421875,
+      "y": 141321.640625
+    },
+    {
+      "id": "0050CD58",
+      "type": "AmmoAny_SameMarker",
+      "x": -158230.5,
+      "y": 135605.859375
+    },
+    {
+      "id": "003578CF",
+      "type": "AmmoAny_SameMarker",
+      "x": -156626.6875,
+      "y": 135634.625
+    },
+    {
+      "id": "003578D7",
+      "type": "AmmoAny_SameMarker",
+      "x": -158278.140625,
+      "y": 135614.953125
+    },
+    {
+      "id": "00342B1A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -140010.640625,
+      "y": 175380.78125
+    },
+    {
+      "id": "003A950F",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -150216.6875,
+      "y": 165326.3125
+    },
+    {
+      "id": "003A9525",
+      "type": "Ammo10mmMarker",
+      "x": -150881.1875,
+      "y": 164840.734375
+    },
+    {
+      "id": "00450C88",
+      "type": "Ammo10mmMarker",
+      "x": -153133.765625,
+      "y": 187257.546875
+    },
+    {
+      "id": "003E18F9",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": -179800.671875,
+      "y": -137198.109375
+    },
+    {
+      "id": "0050AB23",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -180044.921875,
+      "y": -137829.484375
+    },
+    {
+      "id": "0035F6A9",
+      "type": "AmmoAny_SameMarker",
+      "x": -180478,
+      "y": -135784.21875
+    },
+    {
+      "id": "0035F6AA",
+      "type": "AmmoAny_SameMarker",
+      "x": -181075.640625,
+      "y": -135203.859375
+    },
+    {
+      "id": "003A342D",
+      "type": "AmmoAny_SameMarker",
+      "x": -153855.125,
+      "y": -166465.03125
+    },
+    {
+      "id": "003A0799",
+      "type": "AmmoLasergunMarker",
+      "x": -154217.921875,
+      "y": -166053.890625
+    },
+    {
+      "id": "003A079A",
+      "type": "AmmoLasergunMarker",
+      "x": -154224.671875,
+      "y": -166065.703125
+    },
+    {
+      "id": "003CB05B",
+      "type": "AmmoFusionCoreMarker",
+      "x": -142960.84375,
+      "y": -146244.328125
+    },
+    {
+      "id": "003E8ECE",
+      "type": "AmmoFlareMarker",
+      "x": -142966.953125,
+      "y": -145931.0625
+    },
+    {
+      "id": "003E8ECF",
+      "type": "AmmoShotgunMarker",
+      "x": -142926.03125,
+      "y": -146472.515625
+    },
+    {
+      "id": "003D662B",
+      "type": "AmmoAny_SameMarker",
+      "x": -151501.3125,
+      "y": -136094.65625
+    },
+    {
+      "id": "003D662C",
+      "type": "AmmoAny_SameMarker",
+      "x": -151529.453125,
+      "y": -136316.25
+    },
+    {
+      "id": "003D662D",
+      "type": "AmmoAny_SameMarker",
+      "x": -151621.890625,
+      "y": -136178.578125
+    },
+    {
+      "id": "003CB071",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": -160331.859375,
+      "y": -152498.84375
+    },
+    {
+      "id": "003E8114",
+      "type": "AmmoAny_SameMarker",
+      "x": -171274.796875,
+      "y": -113853.179688
+    },
+    {
+      "id": "003E8100",
+      "type": "AmmoAny_SameMarker",
+      "x": -170563.4375,
+      "y": -114386.390625
+    },
+    {
+      "id": "003E8177",
+      "type": "AmmoCombatRifleMarker",
+      "x": -170498.0625,
+      "y": -113742.679688
+    },
+    {
+      "id": "00343253",
+      "type": "Ammo38CaliberMarker",
+      "x": -187139.1875,
+      "y": -123959.289062
+    },
+    {
+      "id": "00387D7E",
+      "type": "AmmoAny_SameMarker",
+      "x": -164328.796875,
+      "y": -72203.867188
+    },
+    {
+      "id": "00132168",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -166571.71875,
+      "y": -86942.179687
+    },
+    {
+      "id": "003BFFEA",
+      "type": "Ammo45CaliberMarker",
+      "x": -176748.421875,
+      "y": -75785.3125
+    },
+    {
+      "id": "003BFFEE",
+      "type": "Ammo45CaliberMarker",
+      "x": -176899.34375,
+      "y": -75836.46875
+    },
+    {
+      "id": "00188DAC",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -179909.328125,
+      "y": -75059.140625
+    },
+    {
+      "id": "00188DAB",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -179921.5625,
+      "y": -74859.570313
+    },
+    {
+      "id": "00188DAA",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -179930.765625,
+      "y": -74806.40625
+    },
+    {
+      "id": "003B8515",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -177332.890625,
+      "y": -81754.132813
+    },
+    {
+      "id": "00188D8A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -177333.515625,
+      "y": -81725.023438
+    },
+    {
+      "id": "00188DA7",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -177336.84375,
+      "y": -81737.3125
+    },
+    {
+      "id": "0010D6B3",
+      "type": "Ammo45CaliberMarker",
+      "x": -178936.953125,
+      "y": -83025.570312
+    },
+    {
+      "id": "00188DB8",
+      "type": "AmmoLasergunMarker",
+      "x": -180524.046875,
+      "y": -76246.414062
+    },
+    {
+      "id": "00188DB9",
+      "type": "AmmoLasergunMarker",
+      "x": -181289.140625,
+      "y": -80102.476563
+    },
+    {
+      "id": "00188E3C",
+      "type": "Ammo44Marker",
+      "x": -182416.84375,
+      "y": -79959.203125
+    },
+    {
+      "id": "003DB250",
+      "type": "Ammo44Marker",
+      "x": -174079.859375,
+      "y": -42940.824219
+    },
+    {
+      "id": "003DB251",
+      "type": "Ammo44Marker",
+      "x": -174080.484375,
+      "y": -42940.855469
+    },
+    {
+      "id": "003DB252",
+      "type": "Ammo44Marker",
+      "x": -174068.03125,
+      "y": -42937.007813
+    },
+    {
+      "id": "003DB260",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -173701.421875,
+      "y": -43471.925781
+    },
+    {
+      "id": "003DC95B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -165202.90625,
+      "y": -7896.501465
+    },
+    {
+      "id": "003DC95C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -165182.5625,
+      "y": -7909.599121
+    },
+    {
+      "id": "003CB050",
+      "type": "AmmoCombatRifleMarker",
+      "x": -174031.671875,
+      "y": -29790.525391
+    },
+    {
+      "id": "003CB051",
+      "type": "AmmoCombatRifleMarker",
+      "x": -174037.34375,
+      "y": -29810.490235
+    },
+    {
+      "id": "003CB052",
+      "type": "AmmoCombatRifleMarker",
+      "x": -174010.515625,
+      "y": -29799.544922
+    },
+    {
+      "id": "0035A848",
+      "type": "AmmoMissileMarker",
+      "x": -133885.015625,
+      "y": -107935.351562
+    },
+    {
+      "id": "0035A849",
+      "type": "AmmoMissileMarker",
+      "x": -133858.484375,
+      "y": -107941.304687
+    },
+    {
+      "id": "0052B34C",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -134237.609375,
+      "y": -126029.570313
+    },
+    {
+      "id": "0052B350",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -134139.796875,
+      "y": -126646.992187
+    },
+    {
+      "id": "0052B356",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -134088.75,
+      "y": -126111.742188
+    },
+    {
+      "id": "0035A866",
+      "type": "AmmoFusionCoreMarker",
+      "x": -135738.953125,
+      "y": -102590.195313
+    },
+    {
+      "id": "003C016A",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": -136621.03125,
+      "y": -121984.625
+    },
+    {
+      "id": "004F997F",
+      "type": "AmmoAny_SameMarker",
+      "x": -138920.265625,
+      "y": -123472.492187
+    },
+    {
+      "id": "0043A07A",
+      "type": "AmmoFusionCore_Dmg50Marker",
+      "x": -146373.109375,
+      "y": -95239.960938
+    },
+    {
+      "id": "00387567",
+      "type": "AmmoAny_SameMarker",
+      "x": -154692.78125,
+      "y": -68932.203125
+    },
+    {
+      "id": "00387568",
+      "type": "AmmoAny_SameMarker",
+      "x": -154712.5625,
+      "y": -68908.265625
+    },
+    {
+      "id": "00153286",
+      "type": "AmmoGaussRifleMarker",
+      "x": -160869.8125,
+      "y": -81830.390625
+    },
+    {
+      "id": "00217B7D",
+      "type": "Ammo44Marker",
+      "x": -160859.53125,
+      "y": -81996.335938
+    },
+    {
+      "id": "0015455E",
+      "type": "AmmoFlareMarker",
+      "x": -161093.109375,
+      "y": -81996.601563
+    },
+    {
+      "id": "0036FF8A",
+      "type": "AmmoAny_SameMarker",
+      "x": -132246.34375,
+      "y": -36626.242188
+    },
+    {
+      "id": "0036FF8B",
+      "type": "AmmoAny_SameMarker",
+      "x": -132266.890625,
+      "y": -36626.792969
+    },
+    {
+      "id": "0036FFA5",
+      "type": "AmmoAny_SameMarker",
+      "x": -131658.53125,
+      "y": -39492.339843
+    },
+    {
+      "id": "0036FFA6",
+      "type": "AmmoAny_SameMarker",
+      "x": -131659.890625,
+      "y": -39479.269531
+    },
+    {
+      "id": "0036FF9C",
+      "type": "AmmoAny_SameMarker",
+      "x": -131979.15625,
+      "y": -44862.511719
+    },
+    {
+      "id": "0036FF9D",
+      "type": "AmmoAny_SameMarker",
+      "x": -132060.328125,
+      "y": -44891.933594
+    },
+    {
+      "id": "003BAA09",
+      "type": "AmmoAny_SameMarker",
+      "x": -135380.859375,
+      "y": -44949.9375
+    },
+    {
+      "id": "003BAA07",
+      "type": "AmmoAny_SameMarker",
+      "x": -135420.03125,
+      "y": -45031.179687
+    },
+    {
+      "id": "003E5103",
+      "type": "AmmoCombatRifleMarker",
+      "x": -150789.90625,
+      "y": -35100.558593
+    },
+    {
+      "id": "00356B75",
+      "type": "AmmoAny_SameMarker",
+      "x": -158127.21875,
+      "y": -40445.792969
+    },
+    {
+      "id": "003BB0DC",
+      "type": "AmmoShotgunMarker",
+      "x": -131391.59375,
+      "y": -27043.773438
+    },
+    {
+      "id": "003BB0CC",
+      "type": "AmmoAny_SameMarker",
+      "x": -132692.953125,
+      "y": -29604.068359
+    },
+    {
+      "id": "00320291",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -151954.609375,
+      "y": -31132.878906
+    },
+    {
+      "id": "003DC958",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -159431.984375,
+      "y": -1998.28418
+    },
+    {
+      "id": "003DC959",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -159457.515625,
+      "y": -2014.120483
+    },
+    {
+      "id": "003DC95A",
+      "type": "AmmoFlareMarker",
+      "x": -159348.3125,
+      "y": -1893.1781
+    },
+    {
+      "id": "003DC967",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -161534.15625,
+      "y": -7024.916015
+    },
+    {
+      "id": "003DC96A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -161583.953125,
+      "y": -6977.816406
+    },
+    {
+      "id": "003DC96C",
+      "type": "Ammo38CaliberMarker",
+      "x": -161737.5,
+      "y": -6785.548828
+    },
+    {
+      "id": "003DC96E",
+      "type": "Ammo10mmMarker",
+      "x": -161724.84375,
+      "y": -6803.55127
+    },
+    {
+      "id": "003EA8FB",
+      "type": "AmmoFlareMarker",
+      "x": -99844.429688,
+      "y": 779.103394
+    },
+    {
+      "id": "003EA981",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -104809.421875,
+      "y": 25469.613282
+    },
+    {
+      "id": "003BFE3C",
+      "type": "Ammo10mmMarker",
+      "x": -106871.242187,
+      "y": 20545.041015
+    },
+    {
+      "id": "004865FB",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -107577.390625,
+      "y": 1198.935303
+    },
+    {
+      "id": "004865FC",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -107565.90625,
+      "y": 1188.629639
+    },
+    {
+      "id": "004FC3B0",
+      "type": "AmmoAny_SameMarker",
+      "x": -123108.257812,
+      "y": 18714.298828
+    },
+    {
+      "id": "003E5059",
+      "type": "AmmoAny_SameMarker",
+      "x": -103706.539062,
+      "y": 48104.3125
+    },
+    {
+      "id": "003E505A",
+      "type": "AmmoShotgunMarker",
+      "x": -103506.0625,
+      "y": 47938.179688
+    },
+    {
+      "id": "003E5069",
+      "type": "Ammo50CalMarker",
+      "x": -104627.351563,
+      "y": 47187.210938
+    },
+    {
+      "id": "003CFCFF",
+      "type": "AmmoAny_SameMarker",
+      "x": -113764.421875,
+      "y": 44834.828125
+    },
+    {
+      "id": "00308714",
+      "type": "AmmoFusionCoreMarker",
+      "x": -119384.835938,
+      "y": 37451.285156
+    },
+    {
+      "id": "00181985",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -102376.695313,
+      "y": 69581.890625
+    },
+    {
+      "id": "00181984",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -102354.351563,
+      "y": 69554.742187
+    },
+    {
+      "id": "00181983",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -102372.585938,
+      "y": 69608.734375
+    },
+    {
+      "id": "0007071E",
+      "type": "Ammo38CaliberMarker",
+      "x": -109232.460937,
+      "y": 94299.71875
+    },
+    {
+      "id": "004FB0ED",
+      "type": "AmmoAny_SameMarker",
+      "x": -121015.210937,
+      "y": 74264.710937
+    },
+    {
+      "id": "004FB0EE",
+      "type": "AmmoAny_SameMarker",
+      "x": -120993.84375,
+      "y": 74257.570313
+    },
+    {
+      "id": "003860B1",
+      "type": "AmmoFlareMarker",
+      "x": -100545.8125,
+      "y": 130097.039063
+    },
+    {
+      "id": "00553749",
+      "type": "AmmoShotgunMarker",
+      "x": -99503.21875,
+      "y": 125465.382812
+    },
+    {
+      "id": "003B2E2D",
+      "type": "Ammo38CaliberMarker",
+      "x": -99939.5625,
+      "y": 101206.757812
+    },
+    {
+      "id": "003B2E2F",
+      "type": "Ammo45CaliberMarker",
+      "x": -100443.023437,
+      "y": 101310.132812
+    },
+    {
+      "id": "003B2E30",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -100271.507813,
+      "y": 101143.257813
+    },
+    {
+      "id": "0033E11A",
+      "type": "AmmoFlareMarker",
+      "x": -69749.679688,
+      "y": 7729.529785
+    },
+    {
+      "id": "0033E11B",
+      "type": "AmmoFlareMarker",
+      "x": -69739.234375,
+      "y": 7718.521485
+    },
+    {
+      "id": "0033E11C",
+      "type": "AmmoFlareMarker",
+      "x": -69759.28125,
+      "y": 7728.202148
+    },
+    {
+      "id": "004FCC3E",
+      "type": "AmmoAny_SameMarker",
+      "x": -77829.085938,
+      "y": 15866.625977
+    },
+    {
+      "id": "003E7D32",
+      "type": "AmmoFlareMarker",
+      "x": -79278.820313,
+      "y": 9506.043945
+    },
+    {
+      "id": "004865F6",
+      "type": "Ammo10mmMarker",
+      "x": -95248.398438,
+      "y": 9868.188476
+    },
+    {
+      "id": "003CB2A4",
+      "type": "Ammo44Marker",
+      "x": -66243.085938,
+      "y": 46152.363281
+    },
+    {
+      "id": "003CB2A5",
+      "type": "Ammo44Marker",
+      "x": -66254.992188,
+      "y": 46156.429687
+    },
+    {
+      "id": "0043BB5B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -74761.4375,
+      "y": 45684.765625
+    },
+    {
+      "id": "004FCC11",
+      "type": "AmmoAny_SameMarker",
+      "x": -96700.742188,
+      "y": 60752.957032
+    },
+    {
+      "id": "0037019D",
+      "type": "AmmoAny_SameMarker",
+      "x": -76126.5625,
+      "y": 72135.890625
+    },
+    {
+      "id": "003DC47E",
+      "type": "Ammo44Marker",
+      "x": -84267.992187,
+      "y": 93277.046875
+    },
+    {
+      "id": "003DC47F",
+      "type": "Ammo44Marker",
+      "x": -84280.945312,
+      "y": 93273.789063
+    },
+    {
+      "id": "00387B83",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -84302.929687,
+      "y": 93857.414062
+    },
+    {
+      "id": "00387B84",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -84321.9375,
+      "y": 93830.867187
+    },
+    {
+      "id": "0031FA3E",
+      "type": "AmmoAny_SameMarker",
+      "x": -73846.78125,
+      "y": 114190.914063
+    },
+    {
+      "id": "0031FA39",
+      "type": "AmmoAny_SameMarker",
+      "x": -74305.40625,
+      "y": 113575.398437
+    },
+    {
+      "id": "0054F1E9",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -55098.941406,
+      "y": 26549.332031
+    },
+    {
+      "id": "0054F1EA",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -55100.367188,
+      "y": 26564.669922
+    },
+    {
+      "id": "0054F1EB",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -55112.464844,
+      "y": 26557.513672
+    },
+    {
+      "id": "0054F1ED",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -55160.464844,
+      "y": 26549.130859
+    },
+    {
+      "id": "0054ED36",
+      "type": "AmmoAny_SameMarker",
+      "x": -56349.9375,
+      "y": 26397.708984
+    },
+    {
+      "id": "003BA6CC",
+      "type": "AmmoGaussRifleMarker",
+      "x": -58042.683593,
+      "y": 29920.291015
+    },
+    {
+      "id": "003BA6CD",
+      "type": "AmmoGaussRifleMarker",
+      "x": -58043.320312,
+      "y": 29910.873046
+    },
+    {
+      "id": "003BA6CE",
+      "type": "AmmoGaussRifleMarker",
+      "x": -58038.183593,
+      "y": 29928.59375
+    },
+    {
+      "id": "003BA696",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -58834.476562,
+      "y": 27529.347656
+    },
+    {
+      "id": "003177E9",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -60560.359375,
+      "y": 25573.46875
+    },
+    {
+      "id": "003177E8",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -60573.257812,
+      "y": 25620.447265
+    },
+    {
+      "id": "003177E7",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -60581.527344,
+      "y": 25631.816406
+    },
+    {
+      "id": "003177E6",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -60566.398437,
+      "y": 25634.707031
+    },
+    {
+      "id": "003BA6A0",
+      "type": "Ammo44Marker",
+      "x": -58674.820313,
+      "y": 21748.753906
+    },
+    {
+      "id": "003BA6B9",
+      "type": "AmmoAny_SameMarker",
+      "x": -63298.136719,
+      "y": 24600.386719
+    },
+    {
+      "id": "003BA6BA",
+      "type": "AmmoAny_SameMarker",
+      "x": -63558.742188,
+      "y": 24884.617187
+    },
+    {
+      "id": "003BA6B6",
+      "type": "AmmoAny_SameMarker",
+      "x": -63412.785156,
+      "y": 24378.416015
+    },
+    {
+      "id": "003B60DE",
+      "type": "AmmoLasergunMarker",
+      "x": -35322.398438,
+      "y": 35952.785156
+    },
+    {
+      "id": "003B60DF",
+      "type": "AmmoLasergunMarker",
+      "x": -35315.167969,
+      "y": 35944.074219
+    },
+    {
+      "id": "003B60E2",
+      "type": "AmmoFlareMarker",
+      "x": -35284.625,
+      "y": 35948.824219
+    },
+    {
+      "id": "004ED53D",
+      "type": "Ammo50CalBallMarker",
+      "x": -38686.015625,
+      "y": 37535.457031
+    },
+    {
+      "id": "004ED53F",
+      "type": "Ammo50CalBallMarker",
+      "x": -38688.347656,
+      "y": 37530.433594
+    },
+    {
+      "id": "004ED541",
+      "type": "Ammo50CalBallMarker",
+      "x": -38692.417968,
+      "y": 37523.886718
+    },
+    {
+      "id": "004ED543",
+      "type": "Ammo50CalBallMarker",
+      "x": -38683.191406,
+      "y": 37526.023437
+    },
+    {
+      "id": "00210894",
+      "type": "Ammo10mmMarker",
+      "x": -43550.144531,
+      "y": 49901.597656
+    },
+    {
+      "id": "00210881",
+      "type": "Ammo10mmMarker",
+      "x": -43567.035156,
+      "y": 49901.347656
+    },
+    {
+      "id": "0034D921",
+      "type": "AmmoAny_SameMarker",
+      "x": -41392.976562,
+      "y": 50979.292968
+    },
+    {
+      "id": "0034D934",
+      "type": "AmmoAny_SameMarker",
+      "x": -42952.195313,
+      "y": 51766.308593
+    },
+    {
+      "id": "0034D936",
+      "type": "AmmoAny_SameMarker",
+      "x": -41715.785157,
+      "y": 50646.546875
+    },
+    {
+      "id": "0034D93A",
+      "type": "AmmoFlareMarker",
+      "x": -44743.25,
+      "y": 49366.496093
+    },
+    {
+      "id": "00346DEC",
+      "type": "AmmoAny_SameMarker",
+      "x": -41812.136718,
+      "y": 51385.925781
+    },
+    {
+      "id": "00346DED",
+      "type": "AmmoFusionCoreMarker",
+      "x": -44013.910156,
+      "y": 52057.363282
+    },
+    {
+      "id": "00346DFC",
+      "type": "AmmoAny_SameMarker",
+      "x": -43696.816407,
+      "y": 51893.21875
+    },
+    {
+      "id": "00346DFE",
+      "type": "AmmoAny_SameMarker",
+      "x": -43717.078125,
+      "y": 51798.5625
+    },
+    {
+      "id": "0034229C",
+      "type": "AmmoAny_SameMarker",
+      "x": -42599.984375,
+      "y": 50310.847656
+    },
+    {
+      "id": "004ED4F3",
+      "type": "AmmoAny_SameMarker",
+      "x": -42060.023438,
+      "y": 37549.675781
+    },
+    {
+      "id": "004ED4F5",
+      "type": "AmmoAny_SameMarker",
+      "x": -42279.457031,
+      "y": 37582.886719
+    },
+    {
+      "id": "004ED4F8",
+      "type": "AmmoAny_SameMarker",
+      "x": -41811.429687,
+      "y": 37648.746094
+    },
+    {
+      "id": "003B628D",
+      "type": "AmmoShotgunMarker",
+      "x": -42177.027344,
+      "y": 36077.878906
+    },
+    {
+      "id": "00345A23",
+      "type": "AmmoCombatRifleMarker",
+      "x": -33109.710937,
+      "y": 90256.539062
+    },
+    {
+      "id": "003BE7F3",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -55330.847656,
+      "y": 92631.6875
+    },
+    {
+      "id": "003BE7F4",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -55328.117187,
+      "y": 92589.335937
+    },
+    {
+      "id": "003BE7CC",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -53569.699219,
+      "y": 89888.398437
+    },
+    {
+      "id": "003A7343",
+      "type": "AmmoShotgunMarker",
+      "x": -56397.984375,
+      "y": 89860.21875
+    },
+    {
+      "id": "004FDEA4",
+      "type": "AmmoAny_SameMarker",
+      "x": -58363.386719,
+      "y": 94100.710937
+    },
+    {
+      "id": "004FDEA5",
+      "type": "AmmoAny_SameMarker",
+      "x": -58348.730469,
+      "y": 94112.914062
+    },
+    {
+      "id": "004FA79C",
+      "type": "AmmoAny_SameMarker",
+      "x": -60053.351562,
+      "y": 83177.90625
+    },
+    {
+      "id": "003B3709",
+      "type": "AmmoAny_SameMarker",
+      "x": -33415.101563,
+      "y": 126999.390625
+    },
+    {
+      "id": "003B370B",
+      "type": "AmmoAny_SameMarker",
+      "x": -33445.308594,
+      "y": 126989.414062
+    },
+    {
+      "id": "004E2788",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -55276.816406,
+      "y": 111426.039063
+    },
+    {
+      "id": "004E278D",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -56110.65625,
+      "y": 113832.421875
+    },
+    {
+      "id": "004E278F",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -54515.15625,
+      "y": 107840.84375
+    },
+    {
+      "id": "003C3E23",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -818.763855,
+      "y": 18019.875
+    },
+    {
+      "id": "003AF0F2",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -19748.083984,
+      "y": 30985.03125
+    },
+    {
+      "id": "0042FF56",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -20948.611328,
+      "y": 30022.298828
+    },
+    {
+      "id": "0042FF57",
+      "type": "AmmoAny_SameMarker",
+      "x": -21085.605469,
+      "y": 29796.033203
+    },
+    {
+      "id": "003AF0EA",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -20972.070312,
+      "y": 29791.785156
+    },
+    {
+      "id": "003AF0ED",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -21343.308594,
+      "y": 29674.667969
+    },
+    {
+      "id": "003AF0EF",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -21604.287109,
+      "y": 29766.121094
+    },
+    {
+      "id": "003AF0F0",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -21653.8125,
+      "y": 29331.855469
+    },
+    {
+      "id": "003AF0F1",
+      "type": "AmmoCombatRifleMarker",
+      "x": -21667.43164,
+      "y": 29338.005859
+    },
+    {
+      "id": "00324CBB",
+      "type": "AmmoAny_SameMarker",
+      "x": -20838.867187,
+      "y": 29966.162109
+    },
+    {
+      "id": "00324CBA",
+      "type": "AmmoAny_SameMarker",
+      "x": -21032.394531,
+      "y": 29688.910156
+    },
+    {
+      "id": "00324CB4",
+      "type": "Ammo38CaliberMarker",
+      "x": -21039.796875,
+      "y": 29668.597656
+    },
+    {
+      "id": "00324CB0",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -20911.923828,
+      "y": 29854.671875
+    },
+    {
+      "id": "00324CAD",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -20973.634766,
+      "y": 29792.927735
+    },
+    {
+      "id": "00324CAB",
+      "type": "Ammo10mmMarker",
+      "x": -21152.734375,
+      "y": 29718.148438
+    },
+    {
+      "id": "0033822F",
+      "type": "Ammo10mmMarker",
+      "x": -6680.645508,
+      "y": 34945.820313
+    },
+    {
+      "id": "004F87D5",
+      "type": "AmmoAny_SameMarker",
+      "x": -11198.243164,
+      "y": 50843.5
+    },
+    {
+      "id": "003B06FD",
+      "type": "AmmoAny_SameMarker",
+      "x": -8849.404297,
+      "y": 50986.277343
+    },
+    {
+      "id": "003BE05E",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -22848.96289,
+      "y": 50405.210938
+    },
+    {
+      "id": "003C47F3",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -29769.677735,
+      "y": 34363.070312
+    },
+    {
+      "id": "005188BF",
+      "type": "AmmoShotgunMarker",
+      "x": -3655.296875,
+      "y": 94916.882812
+    },
+    {
+      "id": "005188C0",
+      "type": "AmmoLasergunMarker",
+      "x": -3573.68457,
+      "y": 94933.257812
+    },
+    {
+      "id": "005188CF",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -2986.051757,
+      "y": 95177.585938
+    },
+    {
+      "id": "004E5DD0",
+      "type": "Ammo50CalMarker",
+      "x": -3247.144531,
+      "y": 91872.320312
+    },
+    {
+      "id": "004E5DD1",
+      "type": "AmmoCombatRifleMarker",
+      "x": -3263.677735,
+      "y": 91897.492188
+    },
+    {
+      "id": "004E5DD2",
+      "type": "Ammo10mmMarker",
+      "x": -3275.492676,
+      "y": 91870.304687
+    },
+    {
+      "id": "004E20AC",
+      "type": "AmmoShotgunMarker",
+      "x": -962.27533,
+      "y": 86049.140625
+    },
+    {
+      "id": "004E20AD",
+      "type": "AmmoCombatRifleMarker",
+      "x": -1020.038024,
+      "y": 86171.695312
+    },
+    {
+      "id": "004E20AE",
+      "type": "AmmoAny_SameMarker",
+      "x": -1048.20227,
+      "y": 86060.226563
+    },
+    {
+      "id": "004E20B1",
+      "type": "Ammo38CaliberMarker",
+      "x": -4057.375244,
+      "y": 88592.164062
+    },
+    {
+      "id": "00453108",
+      "type": "AmmoAny_SameMarker",
+      "x": -1733.153321,
+      "y": 81982.757812
+    },
+    {
+      "id": "0045310A",
+      "type": "AmmoAny_SameMarker",
+      "x": -1769.442505,
+      "y": 81960.851562
+    },
+    {
+      "id": "00453109",
+      "type": "AmmoAny_SameMarker",
+      "x": -1731.178101,
+      "y": 81939.382812
+    },
+    {
+      "id": "004E1FA3",
+      "type": "Ammo10mmMarker",
+      "x": -2880.515625,
+      "y": 83067.921875
+    },
+    {
+      "id": "004E1FA4",
+      "type": "Ammo38CaliberMarker",
+      "x": -2850.555908,
+      "y": 82994.640625
+    },
+    {
+      "id": "004E1FA6",
+      "type": "AmmoAny_SameMarker",
+      "x": -2860.233643,
+      "y": 82996.265625
+    },
+    {
+      "id": "004E1FA8",
+      "type": "AmmoShotgunMarker",
+      "x": -2868.715332,
+      "y": 83021.421875
+    },
+    {
+      "id": "0045310B",
+      "type": "AmmoMissileMarker",
+      "x": -856.708008,
+      "y": 82613.953125
+    },
+    {
+      "id": "00453107",
+      "type": "AmmoAny_SameMarker",
+      "x": -3955.086182,
+      "y": 80331.804687
+    },
+    {
+      "id": "004531B6",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -1062.218872,
+      "y": 81381.945313
+    },
+    {
+      "id": "004E848E",
+      "type": "AmmoShotgunMarker",
+      "x": -8172.233398,
+      "y": 95218.679688
+    },
+    {
+      "id": "003DCA6D",
+      "type": "AmmoAny_SameMarker",
+      "x": -7087.922363,
+      "y": 96488.726562
+    },
+    {
+      "id": "003DCA6F",
+      "type": "AmmoAny_SameMarker",
+      "x": -6265.370117,
+      "y": 94926.359375
+    },
+    {
+      "id": "003DCA16",
+      "type": "AmmoCombatRifleMarker",
+      "x": -5067.876953,
+      "y": 91713.078125
+    },
+    {
+      "id": "0032D448",
+      "type": "Ammo10mmMarker",
+      "x": -6630.054687,
+      "y": 91300.320312
+    },
+    {
+      "id": "004E20AF",
+      "type": "Ammo10mmMarker",
+      "x": -4624.1333,
+      "y": 88664.335937
+    },
+    {
+      "id": "004E20B0",
+      "type": "AmmoAny_SameMarker",
+      "x": -4808.611328,
+      "y": 89151.804688
+    },
+    {
+      "id": "0032D441",
+      "type": "AmmoFlareMarker",
+      "x": -6770.982422,
+      "y": 88654.757812
+    },
+    {
+      "id": "0032D440",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -6771.257324,
+      "y": 88661.109375
+    },
+    {
+      "id": "0032D43F",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -6772.388184,
+      "y": 88692.867187
+    },
+    {
+      "id": "0032D43B",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -6922.707032,
+      "y": 88716.007812
+    },
+    {
+      "id": "0032D43A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -6943.072753,
+      "y": 88708.015625
+    },
+    {
+      "id": "003E42B6",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -6115.463868,
+      "y": 74641.320313
+    },
+    {
+      "id": "003E42B7",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -6040,
+      "y": 74649.070313
+    },
+    {
+      "id": "003E42C6",
+      "type": "AmmoAny_SameMarker",
+      "x": -4961.574707,
+      "y": 76123.164063
+    },
+    {
+      "id": "002C934E",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -8359.445313,
+      "y": 94881.625
+    },
+    {
+      "id": "004E5DA0",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -10991.746094,
+      "y": 94293.21875
+    },
+    {
+      "id": "00329BD9",
+      "type": "Ammo10mmMarker",
+      "x": -9030.571289,
+      "y": 96910.28125
+    },
+    {
+      "id": "00329BDA",
+      "type": "Ammo10mmMarker",
+      "x": -9073.674805,
+      "y": 96934.296875
+    },
+    {
+      "id": "00329BE0",
+      "type": "AmmoMinigunMarker",
+      "x": -8865.860352,
+      "y": 95205.375
+    },
+    {
+      "id": "00329BE1",
+      "type": "AmmoMinigunMarker",
+      "x": -8838.625,
+      "y": 95204.578125
+    },
+    {
+      "id": "003BB016",
+      "type": "Ammo10mmMarker",
+      "x": -9167.594727,
+      "y": 93218.703125
+    },
+    {
+      "id": "004EA9DD",
+      "type": "Ammo38CaliberMarker",
+      "x": -11258.53125,
+      "y": 74662.875
+    },
+    {
+      "id": "004EA9DE",
+      "type": "Ammo10mmMarker",
+      "x": -11259.148438,
+      "y": 74763.601562
+    },
+    {
+      "id": "004EA9DF",
+      "type": "Ammo44Marker",
+      "x": -11262.56836,
+      "y": 74865.632813
+    },
+    {
+      "id": "004EA9E0",
+      "type": "Ammo45CaliberMarker",
+      "x": -11257.651368,
+      "y": 74737.289062
+    },
+    {
+      "id": "004EA9E1",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -11258.364258,
+      "y": 74663.96875
+    },
+    {
+      "id": "0032D45A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -8954.464843,
+      "y": 74852.398437
+    },
+    {
+      "id": "0032D459",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -8960.572265,
+      "y": 74828.273437
+    },
+    {
+      "id": "004E3410",
+      "type": "Ammo38CaliberMarker",
+      "x": -13519.59961,
+      "y": 97293.484375
+    },
+    {
+      "id": "003C0FA7",
+      "type": "Ammo38CaliberMarker",
+      "x": -12628.834961,
+      "y": 92180.710937
+    },
+    {
+      "id": "003C0FA8",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -13567.678711,
+      "y": 91292.242188
+    },
+    {
+      "id": "00329C04",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -13575.514649,
+      "y": 93389.195312
+    },
+    {
+      "id": "00329C03",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -13578.730469,
+      "y": 93419.257812
+    },
+    {
+      "id": "00329C02",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -13557.102539,
+      "y": 93413.570312
+    },
+    {
+      "id": "0033C923",
+      "type": "AmmoAny_SameMarker",
+      "x": -16348.918946,
+      "y": 86251.40625
+    },
+    {
+      "id": "0033C90F",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -14672.651367,
+      "y": 83898.796875
+    },
+    {
+      "id": "0033C910",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -14693.945313,
+      "y": 83900.070312
+    },
+    {
+      "id": "0033C91D",
+      "type": "AmmoAny_SameMarker",
+      "x": -15924.56836,
+      "y": 84808.023438
+    },
+    {
+      "id": "0033C91E",
+      "type": "AmmoAny_SameMarker",
+      "x": -15925.611328,
+      "y": 84667.335937
+    },
+    {
+      "id": "0033C934",
+      "type": "AmmoAny_SameMarker",
+      "x": -15523.365235,
+      "y": 83340.0625
+    },
+    {
+      "id": "0033C937",
+      "type": "AmmoAny_SameMarker",
+      "x": -15832.992187,
+      "y": 83403.828125
+    },
+    {
+      "id": "0032D458",
+      "type": "Ammo38CaliberMarker",
+      "x": -15034.180664,
+      "y": 77631.398438
+    },
+    {
+      "id": "0032D457",
+      "type": "Ammo38CaliberMarker",
+      "x": -15031.8125,
+      "y": 77600.101562
+    },
+    {
+      "id": "0032D456",
+      "type": "Ammo38CaliberMarker",
+      "x": -15005.113281,
+      "y": 77593.585937
+    },
+    {
+      "id": "00324F28",
+      "type": "AmmoFlareMarker",
+      "x": -14806.469727,
+      "y": 77272.351563
+    },
+    {
+      "id": "0033C925",
+      "type": "AmmoAny_SameMarker",
+      "x": -16954.9375,
+      "y": 86336.742187
+    },
+    {
+      "id": "0033C926",
+      "type": "AmmoAny_SameMarker",
+      "x": -16919.568359,
+      "y": 86335.125
+    },
+    {
+      "id": "00379B65",
+      "type": "AmmoFlareMarker",
+      "x": -23539.365235,
+      "y": 91295.929687
+    },
+    {
+      "id": "00342777",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -21262.455078,
+      "y": 88336.554688
+    },
+    {
+      "id": "00342711",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -21232.669921,
+      "y": 88353.195313
+    },
+    {
+      "id": "0034261D",
+      "type": "Ammo10mmMarker",
+      "x": -21439.544922,
+      "y": 88508.929688
+    },
+    {
+      "id": "00535D0D",
+      "type": "AmmoCombatRifleMarker",
+      "x": -20910.519531,
+      "y": 81772.34375
+    },
+    {
+      "id": "00530897",
+      "type": "AmmoCombatRifleMarker",
+      "x": -20932.429687,
+      "y": 81793.1875
+    },
+    {
+      "id": "003B189C",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -31370.421875,
+      "y": 92490.695312
+    },
+    {
+      "id": "003B18C4",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -29825.623047,
+      "y": 90670.15625
+    },
+    {
+      "id": "003B18C5",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -29855.765625,
+      "y": 90664.539062
+    },
+    {
+      "id": "003B18C6",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -29839.820313,
+      "y": 90636.234375
+    },
+    {
+      "id": "00345A22",
+      "type": "Ammo38CaliberMarker",
+      "x": -32364.068359,
+      "y": 89861
+    },
+    {
+      "id": "003C6090",
+      "type": "Ammo45CaliberMarker",
+      "x": -2221.030273,
+      "y": 98413.492188
+    },
+    {
+      "id": "003C609C",
+      "type": "AmmoShotgunMarker",
+      "x": -1171.693115,
+      "y": 101078.875
+    },
+    {
+      "id": "003C604D",
+      "type": "Ammo50CalMarker",
+      "x": -6606.333007,
+      "y": 102328.648438
+    },
+    {
+      "id": "0055758E",
+      "type": "Ammo38CaliberMarker",
+      "x": -11038.599609,
+      "y": 102844.953125
+    },
+    {
+      "id": "0055758F",
+      "type": "Ammo38CaliberMarker",
+      "x": -11021.952148,
+      "y": 102855.640625
+    },
+    {
+      "id": "0033B0D2",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -8454.374024,
+      "y": 106000.140625
+    },
+    {
+      "id": "005577F2",
+      "type": "Ammo10mmMarker",
+      "x": -14762.622071,
+      "y": 103915.117188
+    },
+    {
+      "id": "005577F3",
+      "type": "Ammo10mmMarker",
+      "x": -14758.892578,
+      "y": 103929.703125
+    },
+    {
+      "id": "005577F4",
+      "type": "Ammo10mmMarker",
+      "x": -14748.404297,
+      "y": 103920.554688
+    },
+    {
+      "id": "00346DD1",
+      "type": "AmmoLasergunMarker",
+      "x": -13643.617188,
+      "y": 100867.601562
+    },
+    {
+      "id": "00346DBE",
+      "type": "AmmoCombatRifleMarker",
+      "x": -16483.263671,
+      "y": 99667.265625
+    },
+    {
+      "id": "003CC055",
+      "type": "AmmoAny_SameMarker",
+      "x": -25884.15625,
+      "y": 129294.984375
+    },
+    {
+      "id": "0036FFE3",
+      "type": "AmmoAny_SameMarker",
+      "x": -28177.009766,
+      "y": 130072.101563
+    },
+    {
+      "id": "0036FFE6",
+      "type": "AmmoAny_SameMarker",
+      "x": -28104.798828,
+      "y": 129580.273438
+    },
+    {
+      "id": "003B3723",
+      "type": "AmmoAny_SameMarker",
+      "x": -30557.236328,
+      "y": 129961.007813
+    },
+    {
+      "id": "0036FFE0",
+      "type": "AmmoAny_SameMarker",
+      "x": -31570.513672,
+      "y": 130482.34375
+    },
+    {
+      "id": "0036FFE1",
+      "type": "AmmoAny_SameMarker",
+      "x": -31555.951172,
+      "y": 130483.40625
+    },
+    {
+      "id": "003B07DE",
+      "type": "AmmoAny_SameMarker",
+      "x": -28863.496094,
+      "y": 124291.3125
+    },
+    {
+      "id": "003DFF4A",
+      "type": "AmmoAny_SameMarker",
+      "x": -29885.625,
+      "y": 101404.492188
+    },
+    {
+      "id": "00208FF1",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -129541.960938,
+      "y": 157707.828125
+    },
+    {
+      "id": "003B8171",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -122378.90625,
+      "y": 178063.609375
+    },
+    {
+      "id": "003B817C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -122126.117188,
+      "y": 180033.71875
+    },
+    {
+      "id": "003BAC51",
+      "type": "AmmoShotgunMarker",
+      "x": -121963.25,
+      "y": 172018.484375
+    },
+    {
+      "id": "004E8821",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -123953.976562,
+      "y": 178670.046875
+    },
+    {
+      "id": "004E8822",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -123981.8125,
+      "y": 178697.40625
+    },
+    {
+      "id": "003BAC5B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -122893.367188,
+      "y": 178085.296875
+    },
+    {
+      "id": "004ECE1E",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -69659.289062,
+      "y": 148692.34375
+    },
+    {
+      "id": "003AD5F3",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -92295.976563,
+      "y": 160764.296875
+    },
+    {
+      "id": "003AD5F6",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -92229.757812,
+      "y": 160861.375
+    },
+    {
+      "id": "003AD5F8",
+      "type": "Ammo44Marker",
+      "x": -91856.09375,
+      "y": 161144.578125
+    },
+    {
+      "id": "003AD5FA",
+      "type": "Ammo44Marker",
+      "x": -91881.132812,
+      "y": 161183.84375
+    },
+    {
+      "id": "0031D793",
+      "type": "AmmoCrossbowMarker",
+      "x": -90690.507812,
+      "y": 196114.6875
+    },
+    {
+      "id": "0031D794",
+      "type": "AmmoCrossbowMarker",
+      "x": -90686.421875,
+      "y": 196114.875
+    },
+    {
+      "id": "0031D795",
+      "type": "AmmoCrossbowMarker",
+      "x": -90672.5,
+      "y": 196098.15625
+    },
+    {
+      "id": "0031D796",
+      "type": "AmmoCrossbowMarker",
+      "x": -90739.101563,
+      "y": 196073.09375
+    },
+    {
+      "id": "003E190E",
+      "type": "AmmoFusionCoreMarker",
+      "x": -93201.976563,
+      "y": 183817.921875
+    },
+    {
+      "id": "0038A28C",
+      "type": "Ammo44Marker",
+      "x": -93061.445312,
+      "y": 183774.234375
+    },
+    {
+      "id": "0038A291",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -91617.328125,
+      "y": 183130.78125
+    },
+    {
+      "id": "00501FBA",
+      "type": "AmmoAny_SameMarker",
+      "x": -92268.234375,
+      "y": 204765.1875
+    },
+    {
+      "id": "00501FBB",
+      "type": "AmmoAny_SameMarker",
+      "x": -92298.585938,
+      "y": 204745.25
+    },
+    {
+      "id": "004F8DF4",
+      "type": "AmmoAny_SameMarker",
+      "x": -44920.796875,
+      "y": 150796.625
+    },
+    {
+      "id": "004F8DF5",
+      "type": "AmmoAny_SameMarker",
+      "x": -44938.898438,
+      "y": 150798.8125
+    },
+    {
+      "id": "003C5313",
+      "type": "AmmoFusionCoreMarker",
+      "x": -43755.425782,
+      "y": 151128.4375
+    },
+    {
+      "id": "003C5314",
+      "type": "AmmoLasergunMarker",
+      "x": -43793.527343,
+      "y": 151135.875
+    },
+    {
+      "id": "003B9905",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -49119.347656,
+      "y": 158659.75
+    },
+    {
+      "id": "003B9903",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -49151.464844,
+      "y": 158651.0625
+    },
+    {
+      "id": "0049232E",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -47370.992187,
+      "y": 154056.40625
+    },
+    {
+      "id": "0049232F",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -47351.769531,
+      "y": 154058.046875
+    },
+    {
+      "id": "003C5C2E",
+      "type": "AmmoMissileMarker",
+      "x": -49022.273437,
+      "y": 148059.171875
+    },
+    {
+      "id": "003C5C2F",
+      "type": "AmmoMissileMarker",
+      "x": -48971.6875,
+      "y": 148090.34375
+    },
+    {
+      "id": "00314D86",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -48530.527343,
+      "y": 147744.375
+    },
+    {
+      "id": "00314D87",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -48518.941407,
+      "y": 147718.328125
+    },
+    {
+      "id": "00314DF0",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -47030.234375,
+      "y": 150402.6875
+    },
+    {
+      "id": "003B9904",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -49171.191406,
+      "y": 158665.78125
+    },
+    {
+      "id": "00319561",
+      "type": "AmmoMissileMarker",
+      "x": -49748.386718,
+      "y": 157703.890625
+    },
+    {
+      "id": "00319555",
+      "type": "AmmoFlareMarker",
+      "x": -49712.925781,
+      "y": 152123.203125
+    },
+    {
+      "id": "00319554",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -49681.546875,
+      "y": 152127.890625
+    },
+    {
+      "id": "00319553",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -49658.46875,
+      "y": 152133.421875
+    },
+    {
+      "id": "00314DA1",
+      "type": "Ammo44Marker",
+      "x": -49451.875,
+      "y": 151900.65625
+    },
+    {
+      "id": "003B25D1",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -51940.914063,
+      "y": 149345.8125
+    },
+    {
+      "id": "003B25D2",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -51943.238281,
+      "y": 149312.875
+    },
+    {
+      "id": "00314D78",
+      "type": "Ammo44Marker",
+      "x": -53023.699219,
+      "y": 149147.0625
+    },
+    {
+      "id": "00314D79",
+      "type": "Ammo44Marker",
+      "x": -53023.289062,
+      "y": 149176.578125
+    },
+    {
+      "id": "00314D7A",
+      "type": "AmmoMissileMarker",
+      "x": -52991.367187,
+      "y": 149252.765625
+    },
+    {
+      "id": "00314D82",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -51029.429687,
+      "y": 149654.640625
+    },
+    {
+      "id": "00314D9F",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -49285.90625,
+      "y": 150242.34375
+    },
+    {
+      "id": "00314D4E",
+      "type": "AmmoAny_SameMarker",
+      "x": -53225.40625,
+      "y": 146671.484375
+    },
+    {
+      "id": "00314D4F",
+      "type": "AmmoAny_SameMarker",
+      "x": -53206.75,
+      "y": 146682.59375
+    },
+    {
+      "id": "00314D6A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -52317.863281,
+      "y": 146965.578125
+    },
+    {
+      "id": "003B5548",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -55071.628906,
+      "y": 144737.734375
+    },
+    {
+      "id": "003B5549",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -55017.226562,
+      "y": 144733.71875
+    },
+    {
+      "id": "003B554A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -54984.046875,
+      "y": 144752.140625
+    },
+    {
+      "id": "00319571",
+      "type": "AmmoFlareMarker",
+      "x": -53537.058594,
+      "y": 138575.265625
+    },
+    {
+      "id": "0031956F",
+      "type": "Ammo44Marker",
+      "x": -53746.101562,
+      "y": 138826.546875
+    },
+    {
+      "id": "0031956E",
+      "type": "Ammo44Marker",
+      "x": -53739.941406,
+      "y": 138859.671875
+    },
+    {
+      "id": "0031956C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -53759.613281,
+      "y": 138827.203125
+    },
+    {
+      "id": "0031956B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -53763.046875,
+      "y": 138799.59375
+    },
+    {
+      "id": "00390F8A",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -58228.832031,
+      "y": 160815.90625
+    },
+    {
+      "id": "00390F8E",
+      "type": "Ammo44Marker",
+      "x": -58029.613281,
+      "y": 160425.234375
+    },
+    {
+      "id": "00000869",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -37680.472656,
+      "y": 180716.109375
+    },
+    {
+      "id": "0000086A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -37726.167969,
+      "y": 180350.828125
+    },
+    {
+      "id": "0000086B",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -37159.003906,
+      "y": 180414.75
+    },
+    {
+      "id": "0038BFD2",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -2723.798096,
+      "y": 140323.625
+    },
+    {
+      "id": "0038BFD3",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -2707.512939,
+      "y": 140321.78125
+    },
+    {
+      "id": "003CFD12",
+      "type": "AmmoCrossbowMarker",
+      "x": -292.390686,
+      "y": 135503.359375
+    },
+    {
+      "id": "003CFD13",
+      "type": "AmmoCrossbowMarker",
+      "x": -297.371185,
+      "y": 135501.703125
+    },
+    {
+      "id": "003CFD14",
+      "type": "AmmoCrossbowMarker",
+      "x": -306.923157,
+      "y": 135500.046875
+    },
+    {
+      "id": "00390F20",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -12999.162109,
+      "y": 148251.25
+    },
+    {
+      "id": "00390F21",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -13008.496094,
+      "y": 148241.25
+    },
+    {
+      "id": "00390F23",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -12997.727539,
+      "y": 148255.640625
+    },
+    {
+      "id": "00390F24",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -13385.555664,
+      "y": 148416.9375
+    },
+    {
+      "id": "003BCBAF",
+      "type": "AmmoAny_SameMarker",
+      "x": -24198.599609,
+      "y": 162963.96875
+    },
+    {
+      "id": "003EAC74",
+      "type": "AmmoShotgunMarker",
+      "x": -32423.457031,
+      "y": 154673.703125
+    },
+    {
+      "id": "003AF11E",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -11973.878906,
+      "y": 172364.96875
+    },
+    {
+      "id": "00332661",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -14669.074219,
+      "y": 175901.984375
+    },
+    {
+      "id": "00332662",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -14669.474609,
+      "y": 175892
+    },
+    {
+      "id": "00332663",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -14669.489258,
+      "y": 175897.71875
+    },
+    {
+      "id": "00334DEC",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -16438.0625,
+      "y": 176305.65625
+    },
+    {
+      "id": "00334DED",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -16455.433593,
+      "y": 176305.640625
+    },
+    {
+      "id": "003346C1",
+      "type": "AmmoCombatRifleMarker",
+      "x": -17534.742188,
+      "y": 172997.6875
+    },
+    {
+      "id": "003346C2",
+      "type": "AmmoCombatRifleMarker",
+      "x": -17528.699219,
+      "y": 173012.640625
+    },
+    {
+      "id": "003346C3",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -17455.886719,
+      "y": 173006.8125
+    },
+    {
+      "id": "0033E03E",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -18154.050781,
+      "y": 173491.40625
+    },
+    {
+      "id": "0052B565",
+      "type": "AmmoShotgunMarker",
+      "x": -24310.074219,
+      "y": 168601.609375
+    },
+    {
+      "id": "0052B55F",
+      "type": "AmmoShotgunMarker",
+      "x": -24357.291016,
+      "y": 168580.84375
+    },
+    {
+      "id": "00486724",
+      "type": "AmmoAny_SameMarker",
+      "x": -21487.439453,
+      "y": 165052.265625
+    },
+    {
+      "id": "00486725",
+      "type": "AmmoAny_SameMarker",
+      "x": -21501.269532,
+      "y": 165033.640625
+    },
+    {
+      "id": "00486726",
+      "type": "AmmoAny_SameMarker",
+      "x": -21486.816406,
+      "y": 164991.359375
+    },
+    {
+      "id": "003BF550",
+      "type": "Ammo44Marker",
+      "x": -22424.613281,
+      "y": 167082.046875
+    },
+    {
+      "id": "003BCBE5",
+      "type": "AmmoAny_SameMarker",
+      "x": -22631.404297,
+      "y": 165540.34375
+    },
+    {
+      "id": "003BCBE7",
+      "type": "Ammo10mmMarker",
+      "x": -22622.642578,
+      "y": 165602.234375
+    },
+    {
+      "id": "003BCBE0",
+      "type": "Ammo10mmMarker",
+      "x": -24377.923828,
+      "y": 164837.640625
+    },
+    {
+      "id": "003BCBE4",
+      "type": "Ammo10mmMarker",
+      "x": -23962.183594,
+      "y": 167233.46875
+    },
+    {
+      "id": "00346B1C",
+      "type": "AmmoAny_SameMarker",
+      "x": -21347.128906,
+      "y": 165217.25
+    },
+    {
+      "id": "00346B65",
+      "type": "Ammo44Marker",
+      "x": -22011.351562,
+      "y": 165223.8125
+    },
+    {
+      "id": "00346B67",
+      "type": "AmmoAny_SameMarker",
+      "x": -21961.160157,
+      "y": 165217.625
+    },
+    {
+      "id": "00346B68",
+      "type": "AmmoAny_SameMarker",
+      "x": -21824.369141,
+      "y": 165218.53125
+    },
+    {
+      "id": "00346B6A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -21876.408203,
+      "y": 165225.421875
+    },
+    {
+      "id": "00346B6F",
+      "type": "Ammo10mmMarker",
+      "x": -21904.857422,
+      "y": 165586.09375
+    },
+    {
+      "id": "00346B72",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -21598.009765,
+      "y": 165836.40625
+    },
+    {
+      "id": "00346BA8",
+      "type": "AmmoAny_SameMarker",
+      "x": -21474.945313,
+      "y": 165934
+    },
+    {
+      "id": "00527404",
+      "type": "Ammo45CaliberMarker",
+      "x": -27388.789063,
+      "y": 172291.75
+    },
+    {
+      "id": "0052740F",
+      "type": "Ammo45CaliberMarker",
+      "x": -27079.884766,
+      "y": 171925.640625
+    },
+    {
+      "id": "00527412",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -27135.013671,
+      "y": 172002.28125
+    },
+    {
+      "id": "00346BA2",
+      "type": "AmmoAny_SameMarker",
+      "x": -25708.595703,
+      "y": 168027.6875
+    },
+    {
+      "id": "00346BA1",
+      "type": "AmmoAny_SameMarker",
+      "x": -26095.646484,
+      "y": 169937.046875
+    },
+    {
+      "id": "00378F17",
+      "type": "AmmoAny_SameMarker",
+      "x": -25970.318359,
+      "y": 167273.625
+    },
+    {
+      "id": "003BF54E",
+      "type": "Ammo10mmMarker",
+      "x": -25956.425781,
+      "y": 167581.359375
+    },
+    {
+      "id": "003BCBE8",
+      "type": "Ammo10mmMarker",
+      "x": -24630.800781,
+      "y": 167775.015625
+    },
+    {
+      "id": "00346B73",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -24698.865235,
+      "y": 167763.734375
+    },
+    {
+      "id": "003BF54F",
+      "type": "Ammo10mmMarker",
+      "x": -28794.34375,
+      "y": 170701.96875
+    },
+    {
+      "id": "00346BA3",
+      "type": "AmmoAny_SameMarker",
+      "x": -28926.181641,
+      "y": 170494.359375
+    },
+    {
+      "id": "00346BA5",
+      "type": "AmmoAny_SameMarker",
+      "x": -28749.75,
+      "y": 171765.515625
+    },
+    {
+      "id": "004E35A8",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -109545.140625,
+      "y": -167191.875
+    },
+    {
+      "id": "002B90B2",
+      "type": "AmmoFusionCoreMarker",
+      "x": -112809.96875,
+      "y": -168235.09375
+    },
+    {
+      "id": "004E3595",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -112613.8125,
+      "y": -168066.21875
+    },
+    {
+      "id": "004E3596",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -112619.085938,
+      "y": -168089.78125
+    },
+    {
+      "id": "004E357C",
+      "type": "AmmoAny_SameMarker",
+      "x": -116521.234375,
+      "y": -168363.921875
+    },
+    {
+      "id": "004E3587",
+      "type": "AmmoAny_SameMarker",
+      "x": -116651.320312,
+      "y": -169465.921875
+    },
+    {
+      "id": "003CB076",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": -102100,
+      "y": -150875.375
+    },
+    {
+      "id": "005910E8",
+      "type": "AmmoAny_SameMarker",
+      "x": -104958.664062,
+      "y": -138991.140625
+    },
+    {
+      "id": "005910E9",
+      "type": "AmmoAny_SameMarker",
+      "x": -106007.992187,
+      "y": -139086.109375
+    },
+    {
+      "id": "005910AB",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": -105745.4375,
+      "y": -140916.625
+    },
+    {
+      "id": "005910AC",
+      "type": "AmmoFusionCoreMarker",
+      "x": -105278.078125,
+      "y": -140794.640625
+    },
+    {
+      "id": "005910AD",
+      "type": "AmmoFusionCoreMarker",
+      "x": -105265.679687,
+      "y": -140802.5625
+    },
+    {
+      "id": "005910B6",
+      "type": "AmmoAny_SameMarker",
+      "x": -105174.40625,
+      "y": -140805.53125
+    },
+    {
+      "id": "005910B7",
+      "type": "AmmoAny_SameMarker",
+      "x": -105595.84375,
+      "y": -140086.21875
+    },
+    {
+      "id": "005910D1",
+      "type": "AmmoFatmanMiniNukeMarker",
+      "x": -105899.8125,
+      "y": -142108.734375
+    },
+    {
+      "id": "005910EC",
+      "type": "AmmoAny_SameMarker",
+      "x": -105928.210938,
+      "y": -141036.46875
+    },
+    {
+      "id": "005910ED",
+      "type": "AmmoAny_SameMarker",
+      "x": -105117.421875,
+      "y": -140980.8125
+    },
+    {
+      "id": "005910EA",
+      "type": "AmmoAny_SameMarker",
+      "x": -107032.820313,
+      "y": -140440.5625
+    },
+    {
+      "id": "005910EB",
+      "type": "AmmoAny_SameMarker",
+      "x": -106541.609375,
+      "y": -141212.5
+    },
+    {
+      "id": "0042F9DA",
+      "type": "Ammo44Marker",
+      "x": -121799.03125,
+      "y": -132634.546875
+    },
+    {
+      "id": "000008D8",
+      "type": "AmmoAny_SameMarker",
+      "x": -123275.960938,
+      "y": -146544.09375
+    },
+    {
+      "id": "001CA9C2",
+      "type": "Ammo10mmMarker",
+      "x": -71561.828125,
+      "y": -151334.953125
+    },
+    {
+      "id": "003DE3B7",
+      "type": "AmmoAny_SameMarker",
+      "x": -73455.414063,
+      "y": -151906.953125
+    },
+    {
+      "id": "003DE3B9",
+      "type": "AmmoAny_SameMarker",
+      "x": -73462.414063,
+      "y": -152021.578125
+    },
+    {
+      "id": "0032D331",
+      "type": "Ammo10mmMarker",
+      "x": -72958.898438,
+      "y": -151849.34375
+    },
+    {
+      "id": "0032D330",
+      "type": "Ammo44Marker",
+      "x": -72951.171875,
+      "y": -151858.734375
+    },
+    {
+      "id": "0032D32D",
+      "type": "AmmoMinigunMarker",
+      "x": -72958.78125,
+      "y": -151852.1875
+    },
+    {
+      "id": "0032D329",
+      "type": "AmmoMinigunMarker",
+      "x": -73006.773438,
+      "y": -151858.375
+    },
+    {
+      "id": "003CA613",
+      "type": "Ammo10mmMarker",
+      "x": -73098.53125,
+      "y": -161893.90625
+    },
+    {
+      "id": "001CB418",
+      "type": "Ammo44Marker",
+      "x": -75061.046875,
+      "y": -151353.421875
+    },
+    {
+      "id": "001CACE4",
+      "type": "Ammo50CalBallMarker",
+      "x": -74375.414062,
+      "y": -151629.28125
+    },
+    {
+      "id": "001CAC75",
+      "type": "Ammo50CalBallMarker",
+      "x": -74372.109375,
+      "y": -151614.296875
+    },
+    {
+      "id": "001CAC61",
+      "type": "Ammo50CalBallMarker",
+      "x": -74366.40625,
+      "y": -151627.390625
+    },
+    {
+      "id": "003CB05E",
+      "type": "AmmoFusionCoreMarker",
+      "x": -97320.648437,
+      "y": -138285.140625
+    },
+    {
+      "id": "003E7F76",
+      "type": "AmmoCombatRifleMarker",
+      "x": -96932.5,
+      "y": -137486.03125
+    },
+    {
+      "id": "003E7F8C",
+      "type": "AmmoAny_SameMarker",
+      "x": -96507.375,
+      "y": -137258.8125
+    },
+    {
+      "id": "003E7F9C",
+      "type": "AmmoAny_SameMarker",
+      "x": -98011.90625,
+      "y": -137805.0625
+    },
+    {
+      "id": "003E7FA4",
+      "type": "AmmoAny_SameMarker",
+      "x": -97833.8125,
+      "y": -137907.375
+    },
+    {
+      "id": "00438089",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -57204.65625,
+      "y": -148525.734375
+    },
+    {
+      "id": "003AB09E",
+      "type": "AmmoAny_SameMarker",
+      "x": -13307.858398,
+      "y": -166712.421875
+    },
+    {
+      "id": "003AB09F",
+      "type": "AmmoAny_SameMarker",
+      "x": -13249.985352,
+      "y": -166595.375
+    },
+    {
+      "id": "003A733D",
+      "type": "Ammo44Marker",
+      "x": -94.240883,
+      "y": -153169
+    },
+    {
+      "id": "003A733E",
+      "type": "AmmoAny_SameMarker",
+      "x": -285.586731,
+      "y": -152535.921875
+    },
+    {
+      "id": "0033BBBD",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -111090.8125,
+      "y": -130480.390625
+    },
+    {
+      "id": "0038AD51",
+      "type": "AmmoAny_SameMarker",
+      "x": -125703.375,
+      "y": -122844.8125
+    },
+    {
+      "id": "0038AD52",
+      "type": "AmmoAny_SameMarker",
+      "x": -125701.023438,
+      "y": -122853.679688
+    },
+    {
+      "id": "0052B255",
+      "type": "Ammo44Marker",
+      "x": -122891.132813,
+      "y": -122960.5625
+    },
+    {
+      "id": "0039F193",
+      "type": "Ammo38CaliberMarker",
+      "x": -104918.414062,
+      "y": -69615.601562
+    },
+    {
+      "id": "0039F1AC",
+      "type": "Ammo10mmMarker",
+      "x": -105356.546875,
+      "y": -67274.40625
+    },
+    {
+      "id": "0039F1AD",
+      "type": "Ammo10mmMarker",
+      "x": -105308.710937,
+      "y": -67342.132813
+    },
+    {
+      "id": "00343315",
+      "type": "Ammo38CaliberMarker",
+      "x": -103853.015625,
+      "y": -69735.773438
+    },
+    {
+      "id": "003ABE82",
+      "type": "Ammo10mmMarker",
+      "x": -105324.976562,
+      "y": -79088.640625
+    },
+    {
+      "id": "003ABE83",
+      "type": "Ammo50CalMarker",
+      "x": -105391.71875,
+      "y": -79043.773437
+    },
+    {
+      "id": "0042F7C0",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -107925.9375,
+      "y": -79317.101563
+    },
+    {
+      "id": "0042F7C1",
+      "type": "Ammo45CaliberMarker",
+      "x": -107644.296875,
+      "y": -79333.078125
+    },
+    {
+      "id": "0042F85F",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -107776.90625,
+      "y": -79640.53125
+    },
+    {
+      "id": "00320B6E",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -115261.148438,
+      "y": -72412.828125
+    },
+    {
+      "id": "002B793B",
+      "type": "AmmoFusionCoreMarker",
+      "x": -126161.90625,
+      "y": -89216.6875
+    },
+    {
+      "id": "0021E523",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -125930.726562,
+      "y": -89064.929687
+    },
+    {
+      "id": "0021E524",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -125984.460938,
+      "y": -89074.726562
+    },
+    {
+      "id": "00357A40",
+      "type": "Ammo38CaliberMarker",
+      "x": -130727.890625,
+      "y": -93026.242187
+    },
+    {
+      "id": "00357A41",
+      "type": "Ammo38CaliberMarker",
+      "x": -130703.023437,
+      "y": -93032.8125
+    },
+    {
+      "id": "0052A749",
+      "type": "AmmoAny_SameMarker",
+      "x": -99587.4375,
+      "y": -52550.164062
+    },
+    {
+      "id": "0052A74A",
+      "type": "AmmoAny_SameMarker",
+      "x": -99593.257813,
+      "y": -52531.773437
+    },
+    {
+      "id": "00340015",
+      "type": "Ammo44Marker",
+      "x": -105204.28125,
+      "y": -46357.167969
+    },
+    {
+      "id": "00451D84",
+      "type": "AmmoAny_SameMarker",
+      "x": -103295.710937,
+      "y": -63379.078125
+    },
+    {
+      "id": "003E142B",
+      "type": "AmmoSubmachineGunMarker",
+      "x": -112661.210938,
+      "y": -37298.945313
+    },
+    {
+      "id": "003DF87E",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -115709.601563,
+      "y": -46168.171875
+    },
+    {
+      "id": "003DF87F",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -115818.914063,
+      "y": -46144.917968
+    },
+    {
+      "id": "00344041",
+      "type": "Ammo38CaliberMarker",
+      "x": -117710.164063,
+      "y": -48787.453125
+    },
+    {
+      "id": "003DF0F2",
+      "type": "Ammo38CaliberMarker",
+      "x": -126931.203125,
+      "y": -61598.195312
+    },
+    {
+      "id": "0036FFA8",
+      "type": "AmmoAny_SameMarker",
+      "x": -130149.804687,
+      "y": -39626.585938
+    },
+    {
+      "id": "002C5EA7",
+      "type": "AmmoFusionCoreMarker",
+      "x": -127671.578125,
+      "y": -41894.027344
+    },
+    {
+      "id": "0036FF96",
+      "type": "AmmoAny_SameMarker",
+      "x": -127637.75,
+      "y": -43541.148437
+    },
+    {
+      "id": "0036FF97",
+      "type": "AmmoAny_SameMarker",
+      "x": -127571.828125,
+      "y": -43498.359375
+    },
+    {
+      "id": "003BE1F1",
+      "type": "AmmoAny_SameMarker",
+      "x": -130206.84375,
+      "y": -45476.535156
+    },
+    {
+      "id": "0036FF78",
+      "type": "AmmoAny_SameMarker",
+      "x": -129458.125,
+      "y": -48920.101562
+    },
+    {
+      "id": "0036FF79",
+      "type": "AmmoAny_SameMarker",
+      "x": -129442.40625,
+      "y": -48931.414062
+    },
+    {
+      "id": "003DF0E5",
+      "type": "Ammo38CaliberMarker",
+      "x": -129001.960937,
+      "y": -62419.621093
+    },
+    {
+      "id": "003DF0E7",
+      "type": "Ammo38CaliberMarker",
+      "x": -128985.195312,
+      "y": -61767.292969
+    },
+    {
+      "id": "003DF0F0",
+      "type": "AmmoFlareMarker",
+      "x": -127155.835938,
+      "y": -61554.945313
+    },
+    {
+      "id": "003DF0F3",
+      "type": "Ammo38CaliberMarker",
+      "x": -127139.789062,
+      "y": -61851.910156
+    },
+    {
+      "id": "003DF0F5",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -129138.039063,
+      "y": -62154.902344
+    },
+    {
+      "id": "003CB31D",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -108722.273438,
+      "y": -31236.111328
+    },
+    {
+      "id": "003CB31E",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -108742.265625,
+      "y": -31191.501953
+    },
+    {
+      "id": "003CB31F",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -108736.6875,
+      "y": -31208.808594
+    },
+    {
+      "id": "003CB320",
+      "type": "AmmoHarpoonGunMarker",
+      "x": -108832.578125,
+      "y": -30994.740235
+    },
+    {
+      "id": "003CB377",
+      "type": "Ammo44Marker",
+      "x": -113820.484375,
+      "y": -24479.978515
+    },
+    {
+      "id": "003CB378",
+      "type": "Ammo44Marker",
+      "x": -113815.6875,
+      "y": -24464.753906
+    },
+    {
+      "id": "003D7BF0",
+      "type": "Ammo10mmMarker",
+      "x": -114853.398437,
+      "y": -3591.852783
+    },
+    {
+      "id": "003D7BF6",
+      "type": "AmmoAny_SameMarker",
+      "x": -114849.21875,
+      "y": -3619.76709
+    },
+    {
+      "id": "003D7BF3",
+      "type": "AmmoShotgunMarker",
+      "x": -114744.34375,
+      "y": -3636.344971
+    },
+    {
+      "id": "00452FD0",
+      "type": "AmmoAny_SameMarker",
+      "x": -121370.023438,
+      "y": -8210.536133
+    },
+    {
+      "id": "004DEAE1",
+      "type": "AmmoFusionCoreMarker",
+      "x": -123500.0625,
+      "y": -9923.615234
+    },
+    {
+      "id": "0052D273",
+      "type": "Ammo50CalMarker",
+      "x": -124296.25,
+      "y": -14862.791992
+    },
+    {
+      "id": "0052D274",
+      "type": "AmmoAny_SameMarker",
+      "x": -124297.3125,
+      "y": -14897.073242
+    },
+    {
+      "id": "0052D275",
+      "type": "AmmoAny_SameMarker",
+      "x": -124267.351562,
+      "y": -14897.041015
+    },
+    {
+      "id": "0042F8D8",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -67050.632813,
+      "y": -100165.414062
+    },
+    {
+      "id": "0042F946",
+      "type": "AmmoAny_SameMarker",
+      "x": -67116.335938,
+      "y": -101826.34375
+    },
+    {
+      "id": "0042FB03",
+      "type": "AmmoShotgunMarker",
+      "x": -66795.421875,
+      "y": -100087.507812
+    },
+    {
+      "id": "003C5DA8",
+      "type": "Ammo38CaliberMarker",
+      "x": -67954.617187,
+      "y": -120938.75
+    },
+    {
+      "id": "003E8003",
+      "type": "AmmoCombatRifleMarker",
+      "x": -73849.296875,
+      "y": -125933.070312
+    },
+    {
+      "id": "003E807C",
+      "type": "AmmoCombatRifleMarker",
+      "x": -74244.273438,
+      "y": -125264.203125
+    },
+    {
+      "id": "001DFB92",
+      "type": "AmmoFusionCoreMarker",
+      "x": -88438.3125,
+      "y": -120036.679688
+    },
+    {
+      "id": "0027452D",
+      "type": "AmmoMissileMarker",
+      "x": -88358.5,
+      "y": -120239.84375
+    },
+    {
+      "id": "00274535",
+      "type": "AmmoMissileMarker",
+      "x": -88343.046875,
+      "y": -120231.148437
+    },
+    {
+      "id": "0058B450",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -97806.992187,
+      "y": -115899.671875
+    },
+    {
+      "id": "0034022C",
+      "type": "AmmoMissileMarker",
+      "x": -96192.078125,
+      "y": -115805.40625
+    },
+    {
+      "id": "0034022E",
+      "type": "AmmoMissileMarker",
+      "x": -96168.5625,
+      "y": -115790.59375
+    },
+    {
+      "id": "0036FFB0",
+      "type": "AmmoAny_SameMarker",
+      "x": -67417.851563,
+      "y": -69750.257813
+    },
+    {
+      "id": "0036FFB1",
+      "type": "AmmoAny_SameMarker",
+      "x": -67429.648438,
+      "y": -69757.640625
+    },
+    {
+      "id": "0036FFB6",
+      "type": "AmmoAny_SameMarker",
+      "x": -71259.570312,
+      "y": -70033.132812
+    },
+    {
+      "id": "003AC82C",
+      "type": "AmmoFusionCoreMarker",
+      "x": -80234.796875,
+      "y": -84664.773437
+    },
+    {
+      "id": "0036F375",
+      "type": "AmmoAny_SameMarker",
+      "x": -78896.984375,
+      "y": -83290.304688
+    },
+    {
+      "id": "003496A8",
+      "type": "AmmoAny_SameMarker",
+      "x": -80011.1875,
+      "y": -84755.226562
+    },
+    {
+      "id": "0034388F",
+      "type": "AmmoAny_SameMarker",
+      "x": -69139.664062,
+      "y": -41740.878907
+    },
+    {
+      "id": "00343899",
+      "type": "AmmoAny_SameMarker",
+      "x": -69450.8125,
+      "y": -45502.886719
+    },
+    {
+      "id": "00343898",
+      "type": "AmmoAny_SameMarker",
+      "x": -69638.03125,
+      "y": -43688.585938
+    },
+    {
+      "id": "003438BF",
+      "type": "AmmoAny_SameMarker",
+      "x": -70430.65625,
+      "y": -41304.871094
+    },
+    {
+      "id": "0034387E",
+      "type": "AmmoAny_SameMarker",
+      "x": -72266.375,
+      "y": -47199.289063
+    },
+    {
+      "id": "00343884",
+      "type": "AmmoAny_SameMarker",
+      "x": -72604.148438,
+      "y": -45197.960938
+    },
+    {
+      "id": "00343885",
+      "type": "AmmoAny_SameMarker",
+      "x": -72624.851563,
+      "y": -45192.738281
+    },
+    {
+      "id": "003438A5",
+      "type": "AmmoAny_SameMarker",
+      "x": -70080.890625,
+      "y": -45275.320313
+    },
+    {
+      "id": "003B0712",
+      "type": "AmmoAny_SameMarker",
+      "x": -70786.21875,
+      "y": -55641.285157
+    },
+    {
+      "id": "003AF13E",
+      "type": "Ammo45CaliberMarker",
+      "x": -79426.101562,
+      "y": -59591.097657
+    },
+    {
+      "id": "003AF149",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -78483.765625,
+      "y": -60916.050781
+    },
+    {
+      "id": "003AF14A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -78482.398438,
+      "y": -60912.855469
+    },
+    {
+      "id": "003AF14D",
+      "type": "AmmoCombatRifleMarker",
+      "x": -78485.554688,
+      "y": -61213.457031
+    },
+    {
+      "id": "003AF14E",
+      "type": "AmmoCombatRifleMarker",
+      "x": -78487.898438,
+      "y": -61215.191406
+    },
+    {
+      "id": "003AF13C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -80496.835938,
+      "y": -63676.714844
+    },
+    {
+      "id": "003AF13D",
+      "type": "Ammo44Marker",
+      "x": -80468.632813,
+      "y": -63634.617187
+    },
+    {
+      "id": "003AF14B",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -78512.695313,
+      "y": -63059.125
+    },
+    {
+      "id": "003AF14C",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -78474.914063,
+      "y": -63053.902344
+    },
+    {
+      "id": "0050D671",
+      "type": "AmmoAny_SameMarker",
+      "x": -92090.960937,
+      "y": -41506.929687
+    },
+    {
+      "id": "0052C814",
+      "type": "AmmoAny_SameMarker",
+      "x": -96025.609375,
+      "y": -49795.796875
+    },
+    {
+      "id": "0050C65E",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -69387.1875,
+      "y": -9138.007813
+    },
+    {
+      "id": "0050C65F",
+      "type": "Ammo10mmMarker",
+      "x": -67115.851563,
+      "y": -10526.737304
+    },
+    {
+      "id": "0050C641",
+      "type": "Ammo10mmMarker",
+      "x": -67740.71875,
+      "y": -9958.133789
+    },
+    {
+      "id": "003429CF",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -69445.226563,
+      "y": -9004.347656
+    },
+    {
+      "id": "003429D1",
+      "type": "AmmoAny_SameMarker",
+      "x": -67661.914062,
+      "y": -10047.605469
+    },
+    {
+      "id": "003429EA",
+      "type": "AmmoAny_SameMarker",
+      "x": -68628.148438,
+      "y": -11552.81836
+    },
+    {
+      "id": "003429EC",
+      "type": "AmmoAny_SameMarker",
+      "x": -68902.179687,
+      "y": -11957.143555
+    },
+    {
+      "id": "0050C63B",
+      "type": "Ammo10mmMarker",
+      "x": -68611.09375,
+      "y": -12510.65039
+    },
+    {
+      "id": "003429DA",
+      "type": "AmmoAny_SameMarker",
+      "x": -69323.03125,
+      "y": -12630.214844
+    },
+    {
+      "id": "003429DF",
+      "type": "AmmoAny_SameMarker",
+      "x": -67115.539063,
+      "y": -13281.568359
+    },
+    {
+      "id": "003429E0",
+      "type": "AmmoAny_SameMarker",
+      "x": -67177.320312,
+      "y": -13732.811523
+    },
+    {
+      "id": "003429E1",
+      "type": "AmmoAny_SameMarker",
+      "x": -68652.117188,
+      "y": -16236.626953
+    },
+    {
+      "id": "003429F2",
+      "type": "AmmoAny_SameMarker",
+      "x": -68881.898437,
+      "y": -12358.196289
+    },
+    {
+      "id": "003429E5",
+      "type": "AmmoAny_SameMarker",
+      "x": -68616.351563,
+      "y": -16683.632813
+    },
+    {
+      "id": "003429CC",
+      "type": "Ammo10mmMarker",
+      "x": -71550,
+      "y": -10612.426758
+    },
+    {
+      "id": "00342A0B",
+      "type": "AmmoAny_SameMarker",
+      "x": -70047.5625,
+      "y": -15698.959961
+    },
+    {
+      "id": "0050C645",
+      "type": "Ammo10mmMarker",
+      "x": -69659.109375,
+      "y": -17093.921875
+    },
+    {
+      "id": "0050C64E",
+      "type": "Ammo10mmMarker",
+      "x": -75885.71875,
+      "y": -18459.042968
+    },
+    {
+      "id": "00342A02",
+      "type": "AmmoAny_SameMarker",
+      "x": -77296.398438,
+      "y": -21272.169922
+    },
+    {
+      "id": "00342A03",
+      "type": "AmmoAny_SameMarker",
+      "x": -77459.78125,
+      "y": -22149.615234
+    },
+    {
+      "id": "00342A05",
+      "type": "AmmoAny_SameMarker",
+      "x": -76097.992188,
+      "y": -22793.21875
+    },
+    {
+      "id": "00342A06",
+      "type": "AmmoAny_SameMarker",
+      "x": -76836.265625,
+      "y": -23594.939453
+    },
+    {
+      "id": "00342A07",
+      "type": "AmmoAny_SameMarker",
+      "x": -77006.367188,
+      "y": -22450.914062
+    },
+    {
+      "id": "00342A0A",
+      "type": "AmmoAny_SameMarker",
+      "x": -76612.773438,
+      "y": -22698.888672
+    },
+    {
+      "id": "0043A057",
+      "type": "AmmoAny_SameMarker",
+      "x": -88256.539062,
+      "y": -30975.716797
+    },
+    {
+      "id": "0043A058",
+      "type": "AmmoAny_SameMarker",
+      "x": -87963.921875,
+      "y": -31345.580078
+    },
+    {
+      "id": "003086D6",
+      "type": "AmmoFusionCoreMarker",
+      "x": -88108.09375,
+      "y": -31330.103516
+    },
+    {
+      "id": "004FBCF3",
+      "type": "AmmoAny_SameMarker",
+      "x": -46709.34375,
+      "y": -114086.078125
+    },
+    {
+      "id": "004FBCF4",
+      "type": "AmmoAny_SameMarker",
+      "x": -46733.949219,
+      "y": -114079.875
+    },
+    {
+      "id": "005745F2",
+      "type": "AmmoLasergunMarker",
+      "x": -46917.507813,
+      "y": -119994.890625
+    },
+    {
+      "id": "005745F3",
+      "type": "AmmoLasergunMarker",
+      "x": -46916.839844,
+      "y": -119986.757812
+    },
+    {
+      "id": "003432E1",
+      "type": "Ammo38CaliberMarker",
+      "x": -46048.09375,
+      "y": -119789.921875
+    },
+    {
+      "id": "004EB08D",
+      "type": "AmmoCombatRifleMarker",
+      "x": -58769.628907,
+      "y": -110496.84375
+    },
+    {
+      "id": "003E22E0",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -57737.976562,
+      "y": -110565.726563
+    },
+    {
+      "id": "003E22E1",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -57710.976562,
+      "y": -110554.1875
+    },
+    {
+      "id": "003E22E2",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -57706.007812,
+      "y": -110568.992188
+    },
+    {
+      "id": "00344024",
+      "type": "AmmoCombatRifleMarker",
+      "x": -58784.882813,
+      "y": -110436.109375
+    },
+    {
+      "id": "003E22DE",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -57728.050781,
+      "y": -110622.398438
+    },
+    {
+      "id": "003E22DF",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -57750.574219,
+      "y": -110603.140625
+    },
+    {
+      "id": "003DFF7A",
+      "type": "AmmoAny_SameMarker",
+      "x": -61211.0625,
+      "y": -118030.09375
+    },
+    {
+      "id": "003C5D73",
+      "type": "AmmoFusionCore_Dmg50Marker",
+      "x": -62270.59375,
+      "y": -121837.890625
+    },
+    {
+      "id": "00336BE7",
+      "type": "AmmoAny_SameMarker",
+      "x": -40854.179688,
+      "y": -88332.25
+    },
+    {
+      "id": "00336BDA",
+      "type": "AmmoAny_SameMarker",
+      "x": -41594.082031,
+      "y": -90059.015625
+    },
+    {
+      "id": "00336BDB",
+      "type": "AmmoAny_SameMarker",
+      "x": -41580.6875,
+      "y": -90074.890625
+    },
+    {
+      "id": "00336BE1",
+      "type": "AmmoAny_SameMarker",
+      "x": -41767.621094,
+      "y": -88969.242187
+    },
+    {
+      "id": "00336BD0",
+      "type": "AmmoAny_SameMarker",
+      "x": -42569.46875,
+      "y": -90916.695312
+    },
+    {
+      "id": "003D3E98",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -61594.945312,
+      "y": -73362.007813
+    },
+    {
+      "id": "0055459B",
+      "type": "AmmoCombatRifleMarker",
+      "x": -37658.21875,
+      "y": -40833.703125
+    },
+    {
+      "id": "0055459D",
+      "type": "AmmoCombatRifleMarker",
+      "x": -37647.191406,
+      "y": -40847.023438
+    },
+    {
+      "id": "003B5302",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -57193.628907,
+      "y": -37450.015625
+    },
+    {
+      "id": "00355A5E",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -54573.726562,
+      "y": -39435.191406
+    },
+    {
+      "id": "00355A5F",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -54601.84375,
+      "y": -39444.738281
+    },
+    {
+      "id": "00355A7A",
+      "type": "Ammo38CaliberMarker",
+      "x": -55816.09375,
+      "y": -40154.164063
+    },
+    {
+      "id": "00355A7B",
+      "type": "Ammo44Marker",
+      "x": -55875.164063,
+      "y": -40192.953125
+    },
+    {
+      "id": "00355A7C",
+      "type": "AmmoCombatRifleMarker",
+      "x": -55663.0625,
+      "y": -40254.988281
+    },
+    {
+      "id": "003459AC",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -57131.074219,
+      "y": -37424.386719
+    },
+    {
+      "id": "003559DA",
+      "type": "AmmoCombatRifleMarker",
+      "x": -58791.703125,
+      "y": -37657.523438
+    },
+    {
+      "id": "003559DB",
+      "type": "AmmoCombatRifleMarker",
+      "x": -58793.875,
+      "y": -37678.90625
+    },
+    {
+      "id": "003559FF",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -60791.78125,
+      "y": -40624.964843
+    },
+    {
+      "id": "00355A00",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -60808.703125,
+      "y": -40592.132813
+    },
+    {
+      "id": "00355A86",
+      "type": "Ammo44Marker",
+      "x": -57845.464844,
+      "y": -37933.402344
+    },
+    {
+      "id": "00355A89",
+      "type": "Ammo10mmMarker",
+      "x": -59401.28125,
+      "y": -38733.804687
+    },
+    {
+      "id": "003531DF",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -59532.902344,
+      "y": -40199.597657
+    },
+    {
+      "id": "0055AC09",
+      "type": "AmmoMissileMarker",
+      "x": -60487.800781,
+      "y": -55306.625
+    },
+    {
+      "id": "0055A03D",
+      "type": "AmmoAny_SameMarker",
+      "x": -60778.53125,
+      "y": -56125.417968
+    },
+    {
+      "id": "0055A03E",
+      "type": "AmmoAny_SameMarker",
+      "x": -60773.699219,
+      "y": -56139.480468
+    },
+    {
+      "id": "0055A03F",
+      "type": "AmmoAny_SameMarker",
+      "x": -60855.433593,
+      "y": -55959.085938
+    },
+    {
+      "id": "0055A040",
+      "type": "AmmoAny_SameMarker",
+      "x": -60723.234375,
+      "y": -55889.417969
+    },
+    {
+      "id": "003459B6",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -61691.042969,
+      "y": -38499.816406
+    },
+    {
+      "id": "00311A1E",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -37375.601563,
+      "y": -12011.28711
+    },
+    {
+      "id": "003AB107",
+      "type": "AmmoAny_SameMarker",
+      "x": -42297.210937,
+      "y": -15405.026367
+    },
+    {
+      "id": "003AB111",
+      "type": "AmmoCombatRifleMarker",
+      "x": -42654.914062,
+      "y": -18523.03125
+    },
+    {
+      "id": "00311A1A",
+      "type": "AmmoAssaultrifleMarker",
+      "x": -42964.640625,
+      "y": -19937.09375
+    },
+    {
+      "id": "003AB115",
+      "type": "Ammo38CaliberMarker",
+      "x": -44312.1875,
+      "y": -21602.482421
+    },
+    {
+      "id": "00311A03",
+      "type": "Ammo10mmMarker",
+      "x": -43695.675782,
+      "y": -21896.060547
+    },
+    {
+      "id": "00311A04",
+      "type": "AmmoCombatShotgunMarker",
+      "x": -43706.417969,
+      "y": -21918.578125
+    },
+    {
+      "id": "00311A08",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -44228.410156,
+      "y": -21764.892578
+    },
+    {
+      "id": "00311A09",
+      "type": "Ammo44Marker",
+      "x": -44235.058593,
+      "y": -21744.65625
+    },
+    {
+      "id": "00311A16",
+      "type": "Ammo10mmMarker",
+      "x": -46468.636719,
+      "y": -17608.105469
+    },
+    {
+      "id": "00311A17",
+      "type": "Ammo10mmMarker",
+      "x": -46445.855469,
+      "y": -17628.828125
+    },
+    {
+      "id": "00311A0A",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -46142.121094,
+      "y": -21317.746094
+    },
+    {
+      "id": "003A90AF",
+      "type": "Ammo10mmMarker",
+      "x": -52575.757812,
+      "y": -14287.476563
+    },
+    {
+      "id": "003A90B3",
+      "type": "AmmoLasergunMarker",
+      "x": -52713.527344,
+      "y": -14758.401367
+    },
+    {
+      "id": "003A90B7",
+      "type": "Ammo44Marker",
+      "x": -52632.632812,
+      "y": -15233.388672
+    },
+    {
+      "id": "003A90BA",
+      "type": "Ammo44Marker",
+      "x": -52612.28125,
+      "y": -15224.50293
+    },
+    {
+      "id": "003D3824",
+      "type": "AmmoFusionCoreMarker",
+      "x": -21805.695313,
+      "y": -109070.117188
+    },
+    {
+      "id": "003D1911",
+      "type": "AmmoAny_SameMarker",
+      "x": -1205.708984,
+      "y": -67432.960938
+    },
+    {
+      "id": "003D1913",
+      "type": "AmmoAny_SameMarker",
+      "x": -1199.362915,
+      "y": -67443.65625
+    },
+    {
+      "id": "00387623",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -481.781433,
+      "y": -95194.117188
+    },
+    {
+      "id": "00387628",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -494.827576,
+      "y": -95203.242188
+    },
+    {
+      "id": "0050BC07",
+      "type": "AmmoAny_SameMarker",
+      "x": -199.688125,
+      "y": -51926.648438
+    },
+    {
+      "id": "0050BC09",
+      "type": "AmmoAny_SameMarker",
+      "x": -155.938477,
+      "y": -51907.441406
+    },
+    {
+      "id": "0036FFB7",
+      "type": "AmmoAny_SameMarker",
+      "x": -1133.82312,
+      "y": -53392.984375
+    },
+    {
+      "id": "0036FFB8",
+      "type": "AmmoAny_SameMarker",
+      "x": -1128.21936,
+      "y": -53421.507812
+    },
+    {
+      "id": "0050BD56",
+      "type": "AmmoFusionCoreMarker",
+      "x": -4138.435547,
+      "y": -51532.347656
+    },
+    {
+      "id": "0027D1ED",
+      "type": "AmmoAny_SameMarker",
+      "x": -12700.974609,
+      "y": -52477.875
+    },
+    {
+      "id": "0027D0DF",
+      "type": "AmmoAny_SameMarker",
+      "x": -12620.811523,
+      "y": -52487.199218
+    },
+    {
+      "id": "0027D0E0",
+      "type": "AmmoAny_SameMarker",
+      "x": -12695.40625,
+      "y": -52487.285156
+    },
+    {
+      "id": "00279FFF",
+      "type": "AmmoAny_SameMarker",
+      "x": -12570.40625,
+      "y": -50418.660157
+    },
+    {
+      "id": "0027A000",
+      "type": "AmmoAny_SameMarker",
+      "x": -12779.649414,
+      "y": -51465.878906
+    },
+    {
+      "id": "0052FD3C",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -27622.935547,
+      "y": -8910.22461
+    },
+    {
+      "id": "0052FD3D",
+      "type": "AmmoHuntingRifleMarker",
+      "x": -27597.964843,
+      "y": -8870.907227
+    }
+  ]
+}

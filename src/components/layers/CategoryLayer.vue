@@ -38,38 +38,39 @@ import { MapDefinition } from '@/interfaces/MapDefinition';
 import { MarkerProperties } from '@/interfaces/MarkerProperties';
 import MapConfig from '@/helpers/MapConfig';
 import { getMarkerStyle } from '@/helpers/MarkerStyle';
+
+@Component
 /**
  * Category Marker
  * (Tile based marker and coordinate based marker.)
  */
-@Component
 export default class CategoryLayer extends Vue {
   /** Map definition */
-  private mapConfig: MapDefinition = MapConfig;
+  mapConfig: MapDefinition = MapConfig;
 
   /** Markers */
-  private features = [];
+  features = [];
 
   /** current category */
-  private get category(): string | undefined {
+  get category(): string | undefined {
     return this.$route.params.category;
   }
   /** Marker Types */
-  private get types() {
+  get types() {
     return this.$store.getters['CategoryMarkerModule/types'](this.category);
   }
   /** Marker Colorset */
-  private get colorset() {
+  get colorset() {
     return this.$store.getters['CategoryMarkerModule/colorset'](this.category);
   }
   /** Tile Image */
-  private get tileImageUrl() {
+  get tileImageUrl() {
     return `${process.env.IMG_URI || '/img/'}markerTile/${this.$store.getters[
       'CategoryMarkerModule/tileImage'
     ](this.category)}`;
   }
   /** Marker Visibility */
-  private get checked() {
+  get checked() {
     return this.$store.getters['CheckModule/checked'];
   }
 
@@ -77,7 +78,7 @@ export default class CategoryLayer extends Vue {
    * When Page transition
    */
   @Watch('category')
-  private async onCategoryChanged() {
+  async onCategoryChanged() {
     await this.$store.dispatch('setLoading', true);
     await this.$store.dispatch('setProgress', null);
     await this.$forceNextTick();
@@ -177,7 +178,7 @@ export default class CategoryLayer extends Vue {
   }
 
   @Watch('checked')
-  private onCheckChanged() {
+  onCheckChanged() {
     this.redraw();
   }
 
@@ -185,10 +186,10 @@ export default class CategoryLayer extends Vue {
    * Redraw markers
    */
   @Watch('features')
-  private async redraw() {
+  async redraw() {
     await this.$nextTick();
-    const markerLayer: VectorLayer = this.$refs
-      .markerLayer as unknown as VectorLayer;
+    const markerLayer: VectorLayer<VectorSource> = this.$refs
+      .markerLayer as unknown as VectorLayer<VectorSource>;
 
     const source: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;

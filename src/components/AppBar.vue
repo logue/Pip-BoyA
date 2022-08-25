@@ -63,10 +63,12 @@
             v-on="on"
             @click="$store.dispatch('ConfigModule/toggleMap')"
           >
-            <v-icon v-if="$store.getters['ConfigModule/mapType'] === 2">
+            <v-icon v-if="$store.getters['ConfigModule/mapType'] === 'base'">
               mdi-map
             </v-icon>
-            <v-icon v-else-if="$store.getters['ConfigModule/mapType'] === 1">
+            <v-icon
+              v-else-if="$store.getters['ConfigModule/mapType'] === 'military'"
+            >
               mdi-map-legend
             </v-icon>
             <v-icon v-else>mdi-map-outline</v-icon>
@@ -141,10 +143,14 @@
           <!-- Toggle Map -->
           <v-list-item @click="$store.dispatch('ConfigModule/toggleMap')">
             <v-list-item-icon>
-              <v-icon v-if="$store.getters['ConfigModule/mapType'] === 2">
+              <v-icon v-if="$store.getters['ConfigModule/mapType'] === 'base'">
                 mdi-map
               </v-icon>
-              <v-icon v-else-if="$store.getters['ConfigModule/mapType'] === 1">
+              <v-icon
+                v-else-if="
+                  $store.getters['ConfigModule/mapType'] === 'realstic'
+                "
+              >
                 mdi-map-legend
               </v-icon>
               <v-icon v-else>mdi-map-outline</v-icon>
@@ -174,9 +180,7 @@ import { Component, Vue } from 'vue-property-decorator';
 import About from '@/components/About.vue';
 import GetLink from '@/components/GetLink.vue';
 import LocaleChanger from '@/components/LocaleChanger.vue';
-/**
- * Application Bar.
- */
+
 @Component({
   components: {
     about: About,
@@ -184,5 +188,8 @@ import LocaleChanger from '@/components/LocaleChanger.vue';
     'locale-changer': LocaleChanger,
   },
 })
+/**
+ * Application Bar.
+ */
 export default class AppBar extends Vue {}
 </script>

@@ -19,7 +19,7 @@ export const languages: { [key: string]: string } = {
  * Convert hex color code to rgb array.
  *
  * @param hex HEX Color code (#FFFFFF)
- * @return rgb array [255, 255, 255]
+ * @returns rgb array [255, 255, 255]
  */
 export function hexToRgb(hex: string): number[] {
   if (hex) {
@@ -41,7 +41,7 @@ export function hexToRgb(hex: string): number[] {
  * kebab-case to camelCase
  *
  * @param s kebab-case string
- * @return camelCase String
+ * @returns camelCase String
  */
 export function toCamelCase(s: string): string {
   if (!s) return '';
@@ -50,8 +50,9 @@ export function toCamelCase(s: string): string {
 
 /**
  * values of
- * @param {Object} obj Hashed Array
- * @return {mixed}
+ *
+ * @param {object} obj Hashed Array
+ * @returns {mixed}
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function valuesOf(obj: any): { [key: string]: any } {
@@ -60,6 +61,7 @@ export function valuesOf(obj: any): { [key: string]: any } {
 
 /**
  * Open External Window.
+ *
  * @param href link href
  */
 export function openWindow(href: string): void {
@@ -74,6 +76,7 @@ export function openWindow(href: string): void {
 
 /**
  * Copy to Clipboard
+ *
  * @param text copy to text
  */
 export function copy(text: string): void {
@@ -87,6 +90,7 @@ export function copy(text: string): void {
 
 /**
  * Set execution frequency
+ *
  * @param throttle Execution frequency (ms)
  */
 export function throttledYield(throttle = 24) {
@@ -102,6 +106,7 @@ export function throttledYield(throttle = 24) {
 
 /**
  * 待機処理.
+ *
  * @returns ?
  */
 export function sleep(): Promise<unknown> {

@@ -1,34 +1,33 @@
 /**
  * Map location store
  */
-import {
+import type {
   ActionTree,
   ActionContext,
   GetterTree,
   Module,
   MutationTree,
 } from 'vuex';
-import VueRouter from 'vue-router';
-import { RootState } from '.';
-import { Coordinate } from 'ol/coordinate';
+import type VueRouter from 'vue-router';
+import type { RootState } from '.';
+import type { Coordinate } from 'ol/coordinate';
 import { getCenter } from 'ol/extent';
-import { MapTypes } from '@/interfaces/MapTypesEnum';
+import type { MapType } from '@/interfaces/MapType';
 import MapConfig from '@/helpers/MapConfig';
+import MapTypes from '@/interfaces/MapType';
 
 // Map Location State
 export interface MapLocationState {
   coordinate: Coordinate;
   zoom: number;
-  type: MapTypes;
+  type: MapType;
 }
 
 // Default value
 const state: MapLocationState = {
   coordinate: getCenter(MapConfig.extent),
   zoom: process.env.DEFAULT_ZOOM ? parseInt(process.env.DEFAULT_ZOOM) : 1,
-  type: process.env.DEFAULT_MAPTYPE
-    ? parseInt(process.env.DEFAULT_MAPTYPE)
-    : MapTypes.base,
+  type: MapTypes.BASE,
 };
 
 // Getters
@@ -70,7 +69,7 @@ const mutations: MutationTree<MapLocationState> = {
   setZoom(s, zoom: number) {
     s.zoom = zoom;
   },
-  setMapType(s, type: MapTypes) {
+  setMapType(s, type: MapType) {
     s.type = type;
   },
 };
@@ -79,8 +78,9 @@ const mutations: MutationTree<MapLocationState> = {
 const actions: ActionTree<MapLocationState, RootState> = {
   /**
    * Store current Location
-   * @param context Vuex Context
-   * @param coordinate current coordinate
+   *
+   * @param context - Vuex Context
+   * @param coordinate - current coordinate
    */
   setCoordinate(
     context: ActionContext<MapLocationState, RootState>,
@@ -90,20 +90,22 @@ const actions: ActionTree<MapLocationState, RootState> = {
   },
   /**
    * Store map zoom
-   * @param context Vuex Context
-   * @param zoom
+   *
+   * @param context - Vuex Context
+   * @param zoom -
    */
   setZoom(context: ActionContext<MapLocationState, RootState>, zoom: number) {
     context.commit('setZoom', zoom);
   },
   /**
    * Store map type
-   * @param context Vuex Context
-   * @param type Map type
+   *
+   * @param context - Vuex Context
+   * @param type - Map type
    */
   setMapType(
     context: ActionContext<MapLocationState, RootState>,
-    type: MapTypes
+    type: MapType
   ) {
     context.commit('setMapType', type);
   },

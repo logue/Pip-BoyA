@@ -1,9 +1,9 @@
 import config from './MapConfig';
-import { Feature, Point } from 'geojson';
+import type { Feature, Point } from 'geojson';
 import { getCenter } from 'ol/extent';
-import { Coordinate } from 'ol/coordinate';
-import { MarkerProperties } from '@/interfaces/MarkerProperties';
-import { Marker } from '@/interfaces/Marker';
+import type { Coordinate } from 'ol/coordinate';
+import type { MarkerProperties } from '@/interfaces/MarkerProperties';
+import type { Marker } from '@/interfaces/Marker';
 
 // Fallout76 coordinates to pixel coordinates pixel rate.
 const COORDINATES_REDUCTION_RATE = 142; // WTF?
@@ -11,8 +11,9 @@ const COORDINATES_OFFSET: Coordinate = [0, -0];
 
 /**
  * Marker data to GeoJson
- * @param markers marker location Data
- * @return GeoJson Array
+ *
+ * @param markers - marker location Data
+ * @returns GeoJson Array
  */
 export default (markers: Marker[]): Feature<Point, MarkerProperties>[] => {
   const center: Coordinate = getCenter(config.extent);
