@@ -14,9 +14,9 @@ import Units from 'ol/proj/Units';
 const mapExtent: Extent = [0.0, -4096.0, 4096.0, 0.0];
 const mapMinZoom = 0;
 const mapMaxZoom = 4;
-const mapMaxResolution = 64;
+const mapMaxResolution = 16;
 const tileExtent: Extent = [0.0, -4096.0, 4096.0, 0.0];
-const mapResolutions = [16, 8, 4, 2, 1];
+const mapResolutions = [32, 16, 8, 4, 2, 1];
 
 const mapTileGrid: TileGrid = new TileGrid({
   extent: tileExtent,

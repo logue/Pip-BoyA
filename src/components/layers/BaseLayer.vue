@@ -1,7 +1,7 @@
 <template>
   <!-- Base map layers -->
   <vl-layer-tile ref="baseLayer" :opacity="opacity" :z-index="-1">
-    <vl-source-vector-tile
+    <vl-source-xyz
       :url="url"
       :projection="config.projection"
       :min-zoom="config.minZoom"
@@ -14,11 +14,11 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
-import { MapDefinition } from '@/interfaces/MapDefinition';
-import { MapType } from '@/interfaces/MapType';
+import type { MapDefinition } from '@/interfaces/MapDefinition';
+import type { MapType } from '@/interfaces/MapType';
 import config from '@/helpers/MapConfig';
-import TileLayer from 'ol/layer/Tile';
-import TileSource from 'ol/source/Tile';
+import type TileLayer from 'ol/layer/Tile';
+import type { XYZ } from 'ol/source';
 
 @Component
 /**
@@ -33,18 +33,19 @@ export default class BaseLayer extends Vue {
   /** Tile image url pattern */
   get url() {
     const type: MapType = this.$store.getters['ConfigModule/mapType'];
-    console.log(type);
     return `${process.env.IMAGE_URI || '/img/'}tiles/${type}/{z}/{x}/{y}.webp`;
   }
 
   /** When map type changed */
   @Watch('url')
   onMapChanged() {
-    console.log(this.url);
-    const baseLayer: TileLayer<TileSource> = this.$refs
-      .baseLayer as unknown as TileLayer<TileSource>;
+    const baseLayer: TileLayer<XYZ> = this.$refs
+      .baseLayer as unknown as TileLayer<XYZ>;
     const source = baseLayer.getSource();
-    source?.set('url', this.url);
+    if (source) {
+      source.set('url', this.url);
+      source.refresh();
+    }
   }
 }
 </script>

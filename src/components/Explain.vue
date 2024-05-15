@@ -77,7 +77,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { ActionPayload } from 'vuex';
+import  type {ActionPayload } from 'vuex';
 
 @Component
 /**

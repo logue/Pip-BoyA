@@ -79,7 +79,6 @@ const getters: GetterTree<CategoryMarkerState, RootState> = {
 const mutations: MutationTree<CategoryMarkerState> = {
   /**
    * save features.
-   *
    * @param s Store
    * @param payload Marker GeoJson Data
    */
@@ -150,7 +149,6 @@ const mutations: MutationTree<CategoryMarkerState> = {
 const actions: ActionTree<CategoryMarkerState, RootState> = {
   /**
    * Set category location data.
-   *
    * @param context Context
    * @param category Category
    */

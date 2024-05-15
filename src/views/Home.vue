@@ -84,24 +84,25 @@
 import { Component, Vue } from 'vue-property-decorator';
 import colors from 'vuetify/lib/util/colors';
 // openlayers
+import { createStringXY } from 'ol/coordinate';
 import { FullScreen, MousePosition, OverviewMap, ZoomSlider } from 'ol/control';
-import { Coordinate, createStringXY } from 'ol/coordinate';
-import { Extent, getCenter } from 'ol/extent';
-import { FeatureLike } from 'ol/Feature';
+import { getCenter } from 'ol/extent';
 import { Interaction, PinchRotate } from 'ol/interaction';
-import Map from 'ol/Map';
-import MapBrowserEvent from 'ol/MapBrowserEvent';
-import { Pixel } from 'ol/pixel';
-import { ProjectionLike } from 'ol/proj';
-import Point from 'ol/geom/Point';
-
+import type { Coordinate } from 'ol/coordinate';
+import type { Extent } from 'ol/extent';
+import type { FeatureLike } from 'ol/Feature';
+import type { Pixel } from 'ol/pixel';
+import type { ProjectionLike } from 'ol/proj';
+import type Map from 'ol/Map';
+import type MapBrowserEvent from 'ol/MapBrowserEvent';
+import type Point from 'ol/geom/Point';
 // component
 import BaseLayer from '@/components/layers/BaseLayer.vue';
 import CategoryLayer from '@/components/layers/CategoryLayer.vue';
 import Explain from '@/components/Explain.vue';
 import LocationLayer from '@/components/layers/LocationLayer.vue';
 import MarkerInfo from '@/components/MarkerInfo.vue';
-import { MarkerProperties } from '@/interfaces/MarkerProperties';
+import type { MarkerProperties } from '@/interfaces/MarkerProperties';
 
 // Helpers
 import MapConfig from '@/helpers/MapConfig';
@@ -153,7 +154,7 @@ export default class Home extends Vue {
   set currentPosition(coordinate: Coordinate) {
     this.$store.dispatch('MapLocationModule/setCoordinate', coordinate);
   }
-  /* current category */
+  /** current category */
   get category(): string | undefined {
     return this.$route.params.category;
   }
@@ -162,7 +163,9 @@ export default class Home extends Vue {
     return (
       'map-viewer_map' +
       (this.isMoving ? ' is_move' : '') +
-      (this.currentPosition !== [0, 0] ? ' is_hover' : '')
+      (this.currentPosition[0] !== 0 && this.currentPosition[1] !== 0
+        ? ' is_hover'
+        : '')
     );
   }
   /** Map Rendering mode */
@@ -284,10 +287,11 @@ export default class Home extends Vue {
   /**
    * When Interact marker
    */
-  onSelect(e: FeatureLike): void {
+  onSelect(e): void {
+    console.log(e);
     // Get MarkerProperties from selected feature
     const markerInfo: MarkerInfo = this.$refs.markerInfo as MarkerInfo;
-    markerInfo.open(e.getProperties() as MarkerProperties);
+    markerInfo.open(e.feature.values_ as MarkerProperties);
     // TODO: マーカーの選択を解除
   }
 }

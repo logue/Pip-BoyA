@@ -12,12 +12,13 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
-import Map from 'ol/Map';
-import VectorLayer from 'ol/layer/Vector';
-import Style from 'ol/style/Style';
-import Feature, { FeatureLike } from 'ol/Feature';
+import type Map from 'ol/Map';
+import type VectorLayer from 'ol/layer/Vector';
+import type Style from 'ol/style/Style';
+import type Feature from 'ol/Feature';
+import type { FeatureLike } from 'ol/Feature';
 import { getMarkerIconStyle } from '@/helpers/MarkerStyle';
-import VectorSource from 'ol/source/Vector';
+import type VectorSource from 'ol/source/Vector';
 
 @Component
 /**

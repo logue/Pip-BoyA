@@ -31,6 +31,8 @@ parserOptions:
   createDefaultProgram: true
   project:
     - ./tsconfig.json
+  extraFileExtensions:
+    - .vue
 rules:
   new-cap: off
   no-invalid-this: off

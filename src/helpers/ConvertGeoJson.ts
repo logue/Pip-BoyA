@@ -11,7 +11,6 @@ const COORDINATES_OFFSET: Coordinate = [0, -0];
 
 /**
  * Marker data to GeoJson
- *
  * @param markers - marker location Data
  * @returns GeoJson Array
  */

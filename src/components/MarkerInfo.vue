@@ -112,7 +112,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { copy, openWindow } from '@/helpers/Utility';
-import { MarkerProperties } from '@/interfaces/MarkerProperties';
+import type { MarkerProperties } from '@/interfaces/MarkerProperties';
 
 @Component
 /**
@@ -148,7 +148,6 @@ export default class MarkerInfo extends Vue {
 
   /**
    * マーカーアイコンを取得
-   *
    * @param type マーカーの種類
    */
   getMarkerIcon(type: string): string {

@@ -37,7 +37,6 @@ const mutations: MutationTree<CheckState> = {
 const actions: ActionTree<CheckState, RootState> = {
   /**
    * set checked items.
-   *
    * @param context Vuex Context
    * @param checked checked
    */

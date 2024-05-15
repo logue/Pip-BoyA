@@ -5,7 +5,8 @@
     "newLine": "lf",
     "noImplicitAny": false,
     "paths": { "@/*": ["./src/*"] },
-    "types": ["node", "webpack-env", "vue"]
+    "types": ["node", "webpack-env", "vue"],
+    "experimentalDecorators": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["node_modules", "dist"],

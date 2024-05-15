@@ -78,7 +78,6 @@ const mutations: MutationTree<MapLocationState> = {
 const actions: ActionTree<MapLocationState, RootState> = {
   /**
    * Store current Location
-   *
    * @param context - Vuex Context
    * @param coordinate - current coordinate
    */
@@ -90,7 +89,6 @@ const actions: ActionTree<MapLocationState, RootState> = {
   },
   /**
    * Store map zoom
-   *
    * @param context - Vuex Context
    * @param zoom -
    */
@@ -99,7 +97,6 @@ const actions: ActionTree<MapLocationState, RootState> = {
   },
   /**
    * Store map type
-   *
    * @param context - Vuex Context
    * @param type - Map type
    */

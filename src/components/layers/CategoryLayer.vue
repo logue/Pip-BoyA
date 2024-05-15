@@ -26,16 +26,16 @@
 <script lang="ts">
 import { Component, Vue, Watch } from 'vue-property-decorator';
 
-import { FeatureLike } from 'ol/Feature';
+import type { FeatureLike } from 'ol/Feature';
 
-import Map from 'ol/Map';
-import { Style } from 'ol/style';
-import VectorLayer from 'ol/layer/Vector';
-import VectorSource from 'ol/source/Vector';
-import { XYZ } from 'ol/source';
+import type Map from 'ol/Map';
+import type { Style } from 'ol/style';
+import type VectorLayer from 'ol/layer/Vector';
+import type VectorSource from 'ol/source/Vector';
+import type { XYZ } from 'ol/source';
 
-import { MapDefinition } from '@/interfaces/MapDefinition';
-import { MarkerProperties } from '@/interfaces/MarkerProperties';
+import type { MapDefinition } from '@/interfaces/MapDefinition';
+import type { MarkerProperties } from '@/interfaces/MarkerProperties';
 import MapConfig from '@/helpers/MapConfig';
 import { getMarkerStyle } from '@/helpers/MarkerStyle';
 
@@ -46,31 +46,31 @@ import { getMarkerStyle } from '@/helpers/MarkerStyle';
  */
 export default class CategoryLayer extends Vue {
   /** Map definition */
-  mapConfig: MapDefinition = MapConfig;
+  private mapConfig: MapDefinition = MapConfig;
 
   /** Markers */
-  features = [];
+  private features = [];
 
   /** current category */
-  get category(): string | undefined {
+  private get category(): string | undefined {
     return this.$route.params.category;
   }
   /** Marker Types */
-  get types() {
+  private get types() {
     return this.$store.getters['CategoryMarkerModule/types'](this.category);
   }
   /** Marker Colorset */
-  get colorset() {
+  private get colorset() {
     return this.$store.getters['CategoryMarkerModule/colorset'](this.category);
   }
   /** Tile Image */
-  get tileImageUrl() {
+  private get tileImageUrl() {
     return `${process.env.IMG_URI || '/img/'}markerTile/${this.$store.getters[
       'CategoryMarkerModule/tileImage'
     ](this.category)}`;
   }
   /** Marker Visibility */
-  get checked() {
+  private get checked() {
     return this.$store.getters['CheckModule/checked'];
   }
 
@@ -78,7 +78,7 @@ export default class CategoryLayer extends Vue {
    * When Page transition
    */
   @Watch('category')
-  async onCategoryChanged() {
+  private async onCategoryChanged() {
     await this.$store.dispatch('setLoading', true);
     await this.$store.dispatch('setProgress', null);
     await this.$forceNextTick();
@@ -88,19 +88,19 @@ export default class CategoryLayer extends Vue {
       ? this.$t('title').replace(/Web/g, 'Electron')
       : this.$t('title');
 
-    // this.$refsがundefinedになるのでVue.nextTick();で確実に読み込まれる状態にする。
-    await this.$nextTick();
-    const source: VectorSource = this.$refs
-      .vectorSource as unknown as VectorSource;
-    // 既存のマーカーを削除
-    source.clear();
-
     if (!this.category) {
       // カテゴリレイヤーを使わないとき
       document.title = title;
       await this.$store.dispatch('setLoading', false);
       return;
     }
+
+    // this.$refsがundefinedになるのでVue.nextTick();で確実に読み込まれる状態にする。
+    await this.$nextTick();
+    const source: VectorSource = this.$refs
+      .vectorSource as unknown as VectorSource;
+    // 既存のマーカーを削除
+    source.clear();
 
     console.debug('CategoryLayer: ', this.category);
 
@@ -109,9 +109,7 @@ export default class CategoryLayer extends Vue {
       .dispatch('CategoryMarkerModule/setCategory', this.category)
       .then(args => {
         console.log(
-          `CategoryLayer: load ${this.category}, require reload: ${
-            args ? 'Yes' : 'No'
-          }`
+          `CategoryLayer: load ${this.category}, require reload: ${args}`
         );
         if (args) {
           return this.onCategoryChanged();
@@ -178,7 +176,7 @@ export default class CategoryLayer extends Vue {
   }
 
   @Watch('checked')
-  onCheckChanged() {
+  private onCheckChanged() {
     this.redraw();
   }
 
@@ -186,10 +184,10 @@ export default class CategoryLayer extends Vue {
    * Redraw markers
    */
   @Watch('features')
-  async redraw() {
+  private async redraw() {
     await this.$nextTick();
-    const markerLayer: VectorLayer<VectorSource> = this.$refs
-      .markerLayer as unknown as VectorLayer<VectorSource>;
+    const markerLayer: VectorLayer<any> = this.$refs
+      .markerLayer as unknown as VectorLayer<any>;
 
     const source: VectorSource = this.$refs
       .vectorSource as unknown as VectorSource;
@@ -234,7 +232,7 @@ export default class CategoryLayer extends Vue {
       return style;
     });
 
-    source.refresh();
+    // source.refresh();
   }
 }
 </script>

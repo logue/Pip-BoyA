@@ -1,4 +1,4 @@
 {
   "upgrade": true,
-  "reject": ["vue", "vue-router", "vuex", "vue-i18n", "sass"]
+  "reject": ["vue", "vue-router", "vuex", "vue-i18n", "sass", "vuetify", "@vue/tsconfig"]
 }

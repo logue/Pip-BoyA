@@ -62,7 +62,6 @@ export function getMarkerStyles(): { [key: string]: Style } {
 const colorStyleCache: { [key: string]: Style } = {};
 /**
  * Get Marker Style by color
- *
  * @param colorName - Material Color
  */
 export function getMarkerStyle(colorName: string): Style {
@@ -116,7 +115,6 @@ export function getMarkerStyle(colorName: string): Style {
 const iconStyleCache: { [key: string]: Style } = {};
 /**
  * Get Icon Marker Style by Marker Type.
- *
  * @param type Marker Type
  */
 export function getMarkerIconStyle(type: string): Style {

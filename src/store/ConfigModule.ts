@@ -90,7 +90,6 @@ const mutations: MutationTree<ConfigState> = {
 const actions: ActionTree<ConfigState, RootState> = {
   /**
    * Map changer
-   *
    * @param type - MapType
    * @param context - Vuex Context
    */
@@ -99,7 +98,6 @@ const actions: ActionTree<ConfigState, RootState> = {
   },
   /**
    * Toggle Map type
-   *
    * @param context - Vuex Context
    */
   toggleMap(context: ActionContext<ConfigState, RootState>) {
@@ -107,7 +105,6 @@ const actions: ActionTree<ConfigState, RootState> = {
   },
   /**
    * Show/Hide Location Marker.
-   *
    * @param context - Vuex Context
    */
   toggleLocationMarker(context: ActionContext<ConfigState, RootState>) {
@@ -115,7 +112,6 @@ const actions: ActionTree<ConfigState, RootState> = {
   },
   /**
    * Switch Dark/Light mode.
-   *
    * @param context - Vuex Context
    */
   toggleTheme(context: ActionContext<ConfigState, RootState>) {
@@ -123,7 +119,6 @@ const actions: ActionTree<ConfigState, RootState> = {
   },
   /**
    * Toggle WebGL/Canvas mode
-   *
    * @param context - Vuex Context
    */
   toggleWebGl(context: ActionContext<ConfigState, RootState>) {
@@ -131,7 +126,6 @@ const actions: ActionTree<ConfigState, RootState> = {
   },
   /**
    * Shrink/Expand Explain window.
-   *
    * @param context - Vuex Context
    */
   toggleExplain(context: ActionContext<ConfigState, RootState>) {
@@ -139,7 +133,6 @@ const actions: ActionTree<ConfigState, RootState> = {
   },
   /**
    * Change locale.
-   *
    * @param context - Vuex Context
    * @param locale - locale code
    */

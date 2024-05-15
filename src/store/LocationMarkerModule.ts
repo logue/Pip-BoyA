@@ -36,7 +36,6 @@ const getters: GetterTree<LocationMarkerState, RootState> = {
 const mutations: MutationTree<LocationMarkerState> = {
   /**
    * save location data to state.
-   *
    * @param s Vuex State
    * @param markers data
    */
@@ -49,7 +48,6 @@ const mutations: MutationTree<LocationMarkerState> = {
 const actions: ActionTree<LocationMarkerState, RootState> = {
   /**
    * Set location data.
-   *
    * @param context Context
    */
   async init(context: ActionContext<LocationMarkerState, RootState>) {
